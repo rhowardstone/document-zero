@@ -10,108 +10,23 @@
    "oversight",
    "case"
   ],
-  "status": "moved",
-  "opened": "2026-08-14",
-  "lastChange": "2026-08-14",
-  "events": 3,
-  "summary": "3 claim(s) on record.",
-  "state": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: Epstein investigation into Michigan arts school un",
-    "since": "14 Aug",
-    "flag": null
-   },
-   {
-    "k": "Claims on record",
-    "v": "3",
-    "since": "14 Aug",
-    "flag": null
-   }
-  ],
-  "history": [
-   {
-    "d": "2026-08-14",
-    "c": "Most recent claim recorded as Reported: Epstein investigation into Michigan arts school un. Claims on record recorded as 3.",
-    "s": "3 claim(s) from 32 source(s)"
-   }
-  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
   "changes": [],
-  "added": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: Epstein investigation into Michigan arts school un"
-   },
-   {
-    "k": "Claims on record",
-    "v": "3"
-   }
-  ],
+  "added": [],
   "removed": [],
   "unchanged": 0,
-  "unknown": [],
-  "items": [
-   "epstein-institutions-2026-08-14-265216d89a58",
-   "epstein-institutions-2026-08-14-6f005a59ca27",
-   "epstein-institutions-2026-08-14-96d0adb60a18"
+  "unknown": [
+   "No claim has survived verification on this beat."
   ],
+  "items": [],
   "questions": [],
   "triggers": []
  },
- "records": [
-  {
-   "id": "epstein-institutions-2026-08-14-265216d89a58",
-   "kind": "wire",
-   "beats": [
-    "epstein-institutions"
-   ],
-   "stamp": "open",
-   "title": "Reported: Epstein investigation into Michigan arts school uncovers decades of abuse allegations",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Epstein investigation into Michigan arts school uncovers&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMjc3QjdKSFB6SHBuU3R1bnVXRXBkRVViRDRvNkZTQUJQQ3V4bFZjNVRHUUxGR3ZuRjNRcHpONlhWXy1RZ29JWjJ2S3NmV3YxYkFIeWVNYUJqeUlTWVNwa0dsSFBabGliUFhPaWhWQ0hXTi1hSGhKYjN0OGdqaWYyQm94cmpHTENPZHFIck83bHVvak1wc01uRzZJUklwR1BfN0NvUHgtTmxjOFFtX2MzcGw5YmFSZlI1eGhBUWh4dGVBXzVWZTlLM2Zn0gHPAUFVX3lxTFBoc19jMExLNHNHYzdzUkJoNHozUlE3Tk1vRnUyQlYxMlZzeW1aaF92d1FyTllKWFFLMWpuSWpfSEVPTlNsNzVmZE9qWFljNC1tRWxxYWktcm40aDJNeXJLMXdWNVdjSndSQ2RnMV9xV2x1RkdLbmJUZGVqNkNWcTNjUDE5TDI0VUthUGFPOExma2dWWHNqS1FWSkE1MlRZbm9ZMnZ1aEZEQ0RUZzVUckdyODRoZ3VqblQ0ZGVMMzlmcF90Tjc4bTJadDFrLWdDdw?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-institutions-2026-08-14-6f005a59ca27",
-   "kind": "wire",
-   "beats": [
-    "epstein-institutions"
-   ],
-   "stamp": "open",
-   "title": "Reported: Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein",
-   "deck": "news source, ceiling 0.6; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.45, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "hyperallergic.com",
-     "u": "https://hyperallergic.com/michigan-arts-school-alumni-allege-abuse-by-jeffrey-epstein",
-     "t": "news",
-     "c": "0.45"
-    },
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUVtOWhtRXpVN1l1MnRBV2Q4WThZMUs4V1dVN2FrMk9FcHc4STBUa2tVWHdzNnpBMmx3bDlSdzB5VlhibWlCM25HczlWa1laY2ZuVU9fUVB1VF80Qm01cVY4Y1VlTTJkV2Z1eVdUU2ZobFVOQW1ENjJqQXE3cnpMT1JHUFhBSU9aUTJmZmVydw?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 2,
-   "questions": []
-  }
- ]
+ "records": []
 }

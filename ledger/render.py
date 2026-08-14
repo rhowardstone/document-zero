@@ -155,15 +155,20 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
             "id": b.id, "name": b.name,
             "dossiers": list(b.dossiers), "types": list(b.types),
             "status": status,
-            "opened": (history[-1]["d"] if history else "—"),
-            "lastChange": (history[0]["d"] if history else "—"),
+            # From the DATES, not from the file order. append_history writes in
+            # the order rows are produced, which is not the order the events
+            # happened: a backfilled beat rendered as "Opened 2026-08-05. Last
+            # change 2019-07-23" — opened seven years after it last changed.
+            "opened": (min(_days(history)) if history else "—"),
+            "lastChange": (max(_days(history)) if history else "—"),
             "events": len(claims),
             "summary": f"{len(claims)} claim(s) on record.",
             "state": [{"k": esc(f.get("k")), "v": esc(f.get("v")),
                        "since": esc(f.get("since")), "flag": f.get("flag")}
                       for f in (state or {}).get("fields", [])],
             "history": [{"d": esc(h.get("d")), "c": esc(h.get("c")), "s": esc(h.get("s"))}
-                        for h in reversed(history)],
+                        for h in sorted(history, key=lambda h: str(h.get("d") or ""),
+                                        reverse=True)],
             # What actually changed today, in before -> after form. This is the
             # thing the whole system exists to produce; the page leads with it.
             "changes": [{"k": esc(c.get("k")), "from": esc(c.get("from")),
@@ -213,6 +218,11 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                      "note": "Published" if edition.get("publish") else
                              f"Not published ({edition.get('publish_blocked_by')})"}],
     }
+
+
+def _days(history) -> list:
+    """Every dated row, ISO so lexicographic order is chronological order."""
+    return [str(h.get("d") or "") for h in history if h.get("d")] or ["—"]
 
 
 def _collection(root: Path, name: str) -> list:

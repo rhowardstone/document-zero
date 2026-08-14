@@ -1,0 +1,212 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e3]: AI-GENERATED · NOT REVIEWED BY A HUMAN
+    - generic [ref=f4e4]: Every claim below was extracted and verified by language models. No editor read this page before you did.
+    - link "How it works & how it fails →" [ref=f4e5] [cursor=pointer]:
+      - /url: "#/method"
+  - banner [ref=f4e6]:
+    - generic [ref=f4e7]:
+      - link [ref=f4e8] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f4e15]:
+          - heading [level=1] [ref=f4e16]:
+            - text: Document
+            - emphasis [ref=f4e17]: Zero
+          - paragraph [ref=f4e18]: 1 change to the record
+      - generic [ref=f4e19]:
+        - generic [ref=f4e20]:
+          - text: Edition
+          - generic [ref=f4e21]: 2026-08-14
+        - generic [ref=f4e22]:
+          - text: Beats moved
+          - generic [ref=f4e23]: 1 / 22
+        - generic [ref=f4e24]:
+          - text: Status
+          - generic "The editor blocked publication" [ref=f4e25]: Not published
+    - navigation [ref=f4e26]:
+      - link "The Ledger1" [ref=f4e27] [cursor=pointer]:
+        - /url: "#/"
+      - link "Records13" [ref=f4e28] [cursor=pointer]:
+        - /url: "#/records"
+      - link "Standing record7" [ref=f4e29] [cursor=pointer]:
+        - /url: "#/standing"
+      - link "Withheld" [ref=f4e30] [cursor=pointer]:
+        - /url: "#/held"
+      - link "Method" [ref=f4e31] [cursor=pointer]:
+        - /url: "#/method"
+      - link "Agent API" [ref=f4e32] [cursor=pointer]:
+        - /url: "#/api"
+  - main [ref=f4e33]:
+    - complementary [ref=f4e34]:
+      - generic [ref=f4e35]:
+        - heading "Moved today · 1" [level=3] [ref=f4e36]
+        - link [ref=f4e37] [cursor=pointer]:
+          - /url: "#/beat/nm-records"
+          - text: New Mexico v. the Justice Department
+          - emphasis [ref=f4e38]: "8"
+      - generic [ref=f4e39]:
+        - group [ref=f4e40]:
+          - generic "▸ Quiet · 21" [ref=f4e41] [cursor=pointer]
+        - paragraph [ref=f4e42]: A quiet beat is open and monitored. Nothing on it changed today.
+    - generic [ref=f4e43]:
+      - article [ref=f4e44]:
+        - generic [ref=f4e45]: Not published
+        - heading "This edition was assembled but not released" [level=3] [ref=f4e46]
+        - paragraph [ref=f4e47]: "The editor blocked publication: dry_run. You are looking at the assembled edition exactly as the pipeline produced it. Nothing below was suppressed to make it look better."
+      - generic [ref=f4e48]:
+        - heading "What changed today 1 beat moved" [level=2] [ref=f4e49]:
+          - generic [ref=f4e50]: What changed today
+          - generic [ref=f4e51]: 1 beat moved
+        - article [ref=f4e52]:
+          - generic [ref=f4e53]:
+            - link "New Mexico v. the Justice Department" [ref=f4e54] [cursor=pointer]:
+              - /url: "#/beat/nm-records"
+            - generic [ref=f4e55]: Entered
+            - generic [ref=f4e56]: 8 fields
+          - generic [ref=f4e57]:
+            - generic [ref=f4e58]: Federal suit
+            - generic [ref=f4e59]: Filed 5 Aug 2026, D.D.C.
+          - generic [ref=f4e61]:
+            - generic [ref=f4e62]: State criminal probe
+            - generic [ref=f4e63]: Reopened 19 Feb 2026
+          - generic [ref=f4e65]:
+            - generic [ref=f4e66]: Records sought
+            - generic [ref=f4e67]: Unredacted Epstein investigative files
+          - generic [ref=f4e69]:
+            - generic [ref=f4e70]: 2019 stand-down rationale
+            - generic [ref=f4e71]: Expired 10 Aug 2019 with the defendant
+          - generic [ref=f4e73]:
+            - generic [ref=f4e74]: Site ownership
+            - generic [ref=f4e75]: San Rafael Ranch LLC (Huffines family), since 2023
+          - generic [ref=f4e77]:
+            - generic [ref=f4e78]: Site status
+            - generic [ref=f4e79]: Construction paused for want of permits
+          - generic [ref=f4e81]:
+            - generic [ref=f4e82]: Physical evidence
+            - generic [ref=f4e83]: Excavation and altered substrate reported
+          - generic [ref=f4e85]:
+            - generic [ref=f4e86]: Truth commission
+            - generic [ref=f4e87]: Subpoenas issuing since 1 Jun 2026
+          - generic [ref=f4e89]:
+            - link "Full beat state →" [ref=f4e90] [cursor=pointer]:
+              - /url: "#/beat/nm-records"
+            - generic [ref=f4e91]: ·
+            - generic [ref=f4e92]: 13 records behind this change
+      - generic [ref=f4e93]:
+        - heading "The evidence behind it all 13 →" [level=2] [ref=f4e94]:
+          - generic [ref=f4e95]: The evidence behind it
+          - link "all 13 →" [ref=f4e97] [cursor=pointer]:
+            - /url: "#/records"
+        - link "Documented fact The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records. New Mexico v. the Justice Department · nbcnews.com" [ref=f4e98] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-000"
+          - generic [ref=f4e99]: Documented fact
+          - heading "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records." [level=3] [ref=f4e100]
+          - generic [ref=f4e101]:
+            - generic [ref=f4e102]: New Mexico v. the Justice Department
+            - generic [ref=f4e103]: ·
+            - generic [ref=f4e104]: nbcnews.com
+        - link "Open / alleged New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded. New Mexico v. the Justice Department · abqjournal.com" [ref=f4e105] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-001"
+          - generic [ref=f4e106]: Open / alleged
+          - heading "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded." [level=3] [ref=f4e107]
+          - generic [ref=f4e108]:
+            - generic [ref=f4e109]: New Mexico v. the Justice Department
+            - generic [ref=f4e110]: ·
+            - generic [ref=f4e111]: abqjournal.com
+        - link "Open / alleged New Mexico alleges the promised federal evidence was never provided. New Mexico v. the Justice Department · courthousenews.com" [ref=f4e112] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-002"
+          - generic [ref=f4e113]: Open / alleged
+          - heading "New Mexico alleges the promised federal evidence was never provided." [level=3] [ref=f4e114]
+          - generic [ref=f4e115]:
+            - generic [ref=f4e116]: New Mexico v. the Justice Department
+            - generic [ref=f4e117]: ·
+            - generic [ref=f4e118]: courthousenews.com
+        - link "Documented fact The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel. New Mexico v. the Justice Department · abqjournal.com" [ref=f4e119] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-003"
+          - generic [ref=f4e120]: Documented fact
+          - heading "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel." [level=3] [ref=f4e121]
+          - generic [ref=f4e122]:
+            - generic [ref=f4e123]: New Mexico v. the Justice Department
+            - generic [ref=f4e124]: ·
+            - generic [ref=f4e125]: abqjournal.com
+        - link "Documented fact Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution. New Mexico v. the Justice Department · abqjournal.com" [ref=f4e126] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-004"
+          - generic [ref=f4e127]: Documented fact
+          - heading "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution." [level=3] [ref=f4e128]
+          - generic [ref=f4e129]:
+            - generic [ref=f4e130]: New Mexico v. the Justice Department
+            - generic [ref=f4e131]: ·
+            - generic [ref=f4e132]: abqjournal.com
+        - link "Documented fact Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase. New Mexico v. the Justice Department · santafenewmexican.com" [ref=f4e133] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-005"
+          - generic [ref=f4e134]: Documented fact
+          - heading "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase." [level=3] [ref=f4e135]
+          - generic [ref=f4e136]:
+            - generic [ref=f4e137]: New Mexico v. the Justice Department
+            - generic [ref=f4e138]: ·
+            - generic [ref=f4e139]: santafenewmexican.com
+    - complementary [ref=f4e140]:
+      - generic [ref=f4e141]:
+        - heading "What happens next" [level=3] [ref=f4e142]
+        - generic [ref=f4e143]:
+          - generic [ref=f4e144]:
+            - text: SEP
+            - generic [ref=f4e145]: "05"
+          - paragraph [ref=f4e146]:
+            - text: Government response due, New Mexico v. DOJ
+            - emphasis [ref=f4e147]: The answer is where the 2019 stand-down rationale must be defended. Non-response is itself recordable.
+        - generic [ref=f4e148]:
+          - generic [ref=f4e149]:
+            - text: SEP
+            - generic [ref=f4e150]: "15"
+          - paragraph [ref=f4e151]:
+            - text: New Mexico truth commission subpoena returns
+            - emphasis [ref=f4e152]: Began 1 June 2026 with subpoena power over the Zorro Ranch period.
+        - generic [ref=f4e153]:
+          - generic [ref=f4e154]:
+            - text: 3 NOV
+            - generic [ref=f4e155]: "03"
+          - paragraph [ref=f4e156]:
+            - text: Texas Comptroller election
+            - emphasis [ref=f4e157]: The property's owner is a candidate; the office oversees state financial matters.
+        - paragraph [ref=f4e158]: Dated obligations. When one passes without the expected filing, the non-event is recorded.
+      - generic [ref=f4e159]:
+        - heading "Unreconciled" [level=3] [ref=f4e160]
+        - generic [ref=f4e161]:
+          - generic [ref=f4e162]:
+            - text: A
+            - generic [ref=f4e163]:
+              - text: Parallel investigations risk inconsistent statements
+              - generic [ref=f4e164]: Federal rationale for the stand-down request, July 2019
+          - generic [ref=f4e165]:
+            - text: B
+            - generic [ref=f4e166]:
+              - text: The federal prosecution ended on 10 August 2019, and the material was still withheld in 2026
+              - generic [ref=f4e167]: New Mexico's complaint, filed 5 August 2026
+      - generic [ref=f4e168]:
+        - heading "Open questions" [level=3] [ref=f4e169]
+        - link [ref=f4e170] [cursor=pointer]:
+          - /url: "#/q/q-auction-structure"
+          - text: Was concealing the buyer behind a one-month-old LLC ordinary for this auction, and who else bid?
+          - emphasis [ref=f4e171]: Open · not being pursued by anyone visible
+        - link [ref=f4e172] [cursor=pointer]:
+          - /url: "#/q/q-evidentiary-loss"
+          - text: What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?
+          - emphasis [ref=f4e173]: Open
+        - link [ref=f4e174] [cursor=pointer]:
+          - /url: "#/q/q-standdown-expiry"
+          - text: Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?
+          - emphasis [ref=f4e175]: Open · never publicly asked
+  - contentinfo [ref=f4e176]:
+    - generic [ref=f4e177]:
+      - paragraph [ref=f4e178]: Document Zero is an automated ledger. Claims are extracted from public sources by one model family and independently checked by two others; a claim that does not survive is not published. Nothing here has been read by a human editor before publication. Treat every line as machine output and follow the primary-source link.
+      - paragraph [ref=f4e179]:
+        - text: "Corrections and the full method:"
+        - link "Method" [ref=f4e180] [cursor=pointer]:
+          - /url: "#/method"
+        - text: ·
+        - link "Agent API" [ref=f4e181] [cursor=pointer]:
+          - /url: "#/api"
+        - text: ·
+        - link "llms.txt" [ref=f4e182] [cursor=pointer]:
+          - /url: llms.txt

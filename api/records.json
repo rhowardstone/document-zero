@@ -1,379 +1,313 @@
 {
- "count": 15,
+ "count": 13,
  "records": [
   {
-   "id": "prices-2026-08-14-0dfdb632746f",
-   "kind": "wire",
-   "beats": [
-    "prices"
-   ],
-   "stamp": "open",
-   "title": "Reported: What else can Trump do to distract Americans from the Epstein Files?",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;What else can Trump do to distract Americans from the&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1vicwl5/what_else_can_trump_do_to_distract_americans_from",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "flock-2026-08-14-079b0a59833b",
-   "kind": "wire",
-   "beats": [
-    "flock"
-   ],
-   "stamp": "open",
-   "title": "Reported: this guy on tiktok and instagram been impersonating Flock Safety manager, Randy Gluck,",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;this guy on tiktok and instagram been impersonating Flock&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1viofao/this_guy_on_tiktok_and_instagram_been",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "detention-2026-08-14-f3a63958050d",
-   "kind": "wire",
-   "beats": [
-    "detention"
-   ],
-   "stamp": "open",
-   "title": "Reported: &quot;Brexit is just the beginning...&quot; While the UK was distracted by sovereignty and borders,",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;&quot;Brexit is just the beginning...&quot; While the UK was&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1vjokzv/the_digital_coup_uk",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-9e72bf4c9101",
+   "id": "nm-records-2026-08-14-000",
    "kind": "wire",
    "beats": [
     "nm-records"
    ],
-   "stamp": "open",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "stamp": "documented",
+   "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
+   "deck": "Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.",
    "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein&rdquo;"
+    "Quoted from the source: &ldquo;New Mexico&#39;s Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
     {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a6e88cb0a9d46c9b962b477f985d6cd&amp;url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&amp;c=3939647737186790260&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    },
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a6edd17e56740e98bb31f71fc7a1d66&amp;url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&amp;c=3939647737186790260&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-f4c80b25f1eb",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "open",
-   "title": "Reported: Epstein &#39;truth commission&#39; report due Friday to be released next week",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Epstein &#39;truth commission&#39; report due Friday to be released&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb1JxT0t4RXdWZ0xHUzlDUld0dlFNQnRkeDloaGVaRFM2M2c5NC1DNDZKa0g1N3pDelBqRjRMMU1DV3JvWTdjUzl5ZU1zeC01YS0zWE5STWlPZVpYem52ekYzSkR5Wng2d204ZmVJRkZPODFEVjM3aTIzNW1Ja0V3b053YWxFLVE4cTA4LWRnRklQYnlhOGFyUDNBZXM2Q2Q1eDFVbGVMOGN3SnpWeldmVTZWQVhQOG01TDh2YXFyd0xEWG16VUZ6aFFZZ0dyNVZQbElZQUJBS092QVFGT1RRYmUtS3lZTHFzbEVuQjBLY1NuY2V3aFY2b21OVQ?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-banks-2026-08-14-3736e0e19c7f",
-   "kind": "wire",
-   "beats": [
-    "epstein-banks"
-   ],
-   "stamp": "open",
-   "title": "Reported: I was just wondering why if you type &quot;follow the money&quot; on the database search bar the",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;I was just wondering why if you type &quot;follow the money&quot; on&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1veeinj/follow_the_money_turns_the_text_green",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-banks-2026-08-14-91bcec4b1309",
-   "kind": "wire",
-   "beats": [
-    "epstein-banks"
-   ],
-   "stamp": "open",
-   "title": "Reported: Jeffrey Epstein’s European fixer raped us. Police turned a blind eye",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Jeffrey Epstein’s European fixer raped us. Police turned a&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZEE4a0pwTHk1MnFRRHl0ai1xYzNKMEdSeTFDYnhZXzBFYkJ5QUFRdWhUbTV4d2xBNTRfYzVsMkxHLXg4SzkyWVVMdXNmUWZPNF9pcWlobFpndEU0ckVqdy1mMlBaTndjQ3pJRmRjaWFUZm5FR0xCYjN0WXloR2R5dTJGWkpWMUtFWmtTQXNRd2RQZ0E?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-banks-2026-08-14-b75d3155ba34",
-   "kind": "wire",
-   "beats": [
-    "epstein-banks"
-   ],
-   "stamp": "open",
-   "title": "Reported: 60 Minutes Epstein-Banks story vanished amid CBS upheaval under Bari Weiss: report",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;60 Minutes Epstein-Banks story vanished amid CBS upheaval&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a71d486b1d74579bff8a483edf9686d&amp;url=https%3A%2F%2Fwww.msn.com%2Fen-ca%2Fnews%2Fpolitics%2F60-minutes-epstein-banks-story-vanished-amid-cbs-upheaval-under-bari-weiss-report%2Far-AA29mGss&amp;c=12187327408477006809&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "uk-inquiry-2026-08-14-0492adac5b45",
-   "kind": "wire",
-   "beats": [
-    "uk-inquiry"
-   ],
-   "stamp": "open",
-   "title": "Reported: Former Prince Andrew’s Ex-Wife Reportedly Planning a ‘Solid’ Comeback After Epstein",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Former Prince Andrew’s Ex-Wife Reportedly Planning a&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a712bc9a64545b5bda286cfbd4851a8&amp;url=https%3A%2F%2Fwww.aol.com%2Farticles%2Fformer-prince-andrew-ex-wife-155900000.html&amp;c=10314548609131698538&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "uk-inquiry-2026-08-14-52d82c2e057b",
-   "kind": "wire",
-   "beats": [
-    "uk-inquiry"
-   ],
-   "stamp": "open",
-   "title": "Reported: British government rules out immediate public enquiry into Jeffrey Epstein",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;British government rules out immediate public enquiry into&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a73cece76cb449b883117cd2e823fe7&amp;url=https%3A%2F%2Fwww.telegraphindia.com%2Fworld%2Fbritish-government-rules-out-immediate-public-enquiry-into-jeffrey-epstein%2Fcid%2F2173533&amp;c=8566723494740877610&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "uk-inquiry-2026-08-14-9f6e0690062b",
-   "kind": "wire",
-   "beats": [
-    "uk-inquiry"
-   ],
-   "stamp": "open",
-   "title": "Reported: Hi Redditors the UK force, Thames Valley Police has called for more witnesses and",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Hi Redditors the UK force, Thames Valley Police has called&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1vcqxq0/andrew_uk_call_for_evidence",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-institutions-2026-08-14-265216d89a58",
-   "kind": "wire",
-   "beats": [
-    "epstein-institutions"
-   ],
-   "stamp": "open",
-   "title": "Reported: Epstein investigation into Michigan arts school uncovers decades of abuse allegations",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Epstein investigation into Michigan arts school uncovers&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMjc3QjdKSFB6SHBuU3R1bnVXRXBkRVViRDRvNkZTQUJQQ3V4bFZjNVRHUUxGR3ZuRjNRcHpONlhWXy1RZ29JWjJ2S3NmV3YxYkFIeWVNYUJqeUlTWVNwa0dsSFBabGliUFhPaWhWQ0hXTi1hSGhKYjN0OGdqaWYyQm94cmpHTENPZHFIck83bHVvak1wc01uRzZJUklwR1BfN0NvUHgtTmxjOFFtX2MzcGw5YmFSZlI1eGhBUWh4dGVBXzVWZTlLM2Zn0gHPAUFVX3lxTFBoc19jMExLNHNHYzdzUkJoNHozUlE3Tk1vRnUyQlYxMlZzeW1aaF92d1FyTllKWFFLMWpuSWpfSEVPTlNsNzVmZE9qWFljNC1tRWxxYWktcm40aDJNeXJLMXdWNVdjSndSQ2RnMV9xV2x1RkdLbmJUZGVqNkNWcTNjUDE5TDI0VUthUGFPOExma2dWWHNqS1FWSkE1MlRZbm9ZMnZ1aEZEQ0RUZzVUckdyODRoZ3VqblQ0ZGVMMzlmcF90Tjc4bTJadDFrLWdDdw?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-institutions-2026-08-14-6f005a59ca27",
-   "kind": "wire",
-   "beats": [
-    "epstein-institutions"
-   ],
-   "stamp": "open",
-   "title": "Reported: Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein",
-   "deck": "news source, ceiling 0.6; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.45, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "hyperallergic.com",
-     "u": "https://hyperallergic.com/michigan-arts-school-alumni-allege-abuse-by-jeffrey-epstein",
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
      "t": "news",
-     "c": "0.45"
-    },
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUVtOWhtRXpVN1l1MnRBV2Q4WThZMUs4V1dVN2FrMk9FcHc4STBUa2tVWHdzNnpBMmx3bDlSdzB5VlhibWlCM25HczlWa1laY2ZuVU9fUVB1VF80Qm01cVY4Y1VlTTJkV2Z1eVdUU2ZobFVOQW1ENjJqQXE3cnpMT1JHUFhBSU9aUTJmZmVydw?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 2,
-   "questions": []
-  },
-  {
-   "id": "epstein-death-2026-08-14-170c991d725f",
-   "kind": "wire",
-   "beats": [
-    "epstein-death"
-   ],
-   "stamp": "open",
-   "title": "Reported: Trump&#39;s Role In Epstein Death Out? Sen. Kennedy EXPOSES Death Of Jeffrey Epstein Before",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Trump&#39;s Role In Epstein Death Out? Sen. Kennedy EXPOSES&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a776ed4be7943f0b977e8759b3cff2c&amp;url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&amp;c=674661273872150764&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    },
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a771a772f854e029dbae28045d91f5b&amp;url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&amp;c=674661273872150764&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
+     "c": "0.6"
     }
    ],
    "corroboration": 1,
    "questions": []
   },
   {
-   "id": "epstein-death-2026-08-14-8336b42b14f3",
+   "id": "nm-records-2026-08-14-001",
    "kind": "wire",
    "beats": [
-    "epstein-death"
+    "nm-records"
    ],
    "stamp": "open",
-   "title": "Reported: Number 10 Denies Burnham is Looking into Epstein Enquiry as Cover-Up Looks Set to",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
+   "deck": "This is the state&#39;s characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
    "body": [
-    "Quoted from the source: &ldquo;Number 10 Denies Burnham is Looking into Epstein Enquiry as&rdquo;"
+    "Quoted from the source: &ldquo;to stand down&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
    "sources": [
     {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95bXl5WTN4N2lVQmlVT3pNazdlSmJKbHVraUk0dTlwY2VJcUxiVTF1b2ktTFEteGtjM3Q2S0syWVB0VmRqUzhfOWlkTEJXTm91MlZlbHI4TEdvSmg0T1pCeHVqQzJNajhGc1ZRcTVhNjlfUENmMVl1N3JxVQ?oc=5",
-     "t": "misc",
-     "c": "0.38"
+     "n": "abqjournal.com",
+     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-002",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "open",
+   "title": "New Mexico alleges the promised federal evidence was never provided.",
+   "deck": "The central allegation of the complaint, asserted by one party. Uncorroborated by DOJ.",
+   "body": [
+    "Quoted from the source: &ldquo;the promised evidence never came&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "courthousenews.com",
+     "u": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-003",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
+   "deck": "A quoted rationale attributed to records. News ceiling 0.6.",
+   "body": [
+    "Quoted from the source: &ldquo;risks of parallel investigations creating inconsistent statements&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "abqjournal.com",
+     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-004",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
+   "deck": "Long-established and uncontested. Capped at the news ceiling because it is cited here through a news source rather than a primary record.",
+   "body": [
+    "Quoted from the source: &ldquo;Epstein died in his jail cell on August 10&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "abqjournal.com",
+     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-005",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
+   "deck": "Corporate registration and deed dates are matters of public record; reported by the Santa Fe New Mexican and The Real Deal.",
+   "body": [
+    "Quoted from the source: &ldquo;a limited liability company created just a month before the purchase&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "santafenewmexican.com",
+     "u": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-006",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
+   "deck": "The mechanism by which the concealment broke is itself reported and checkable.",
+   "body": [
+    "Quoted from the source: &ldquo;It wasn&#39;t until a street name change and property taxes were contested that public records requests revealed the owner&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "therealdeal.com",
+     "u": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-007",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
+   "deck": "Named public figure and declared candidate; ownership established through public records.",
+   "body": [
+    "Quoted from the source: &ldquo;His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "therealdeal.com",
+     "u": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-008",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department&#39;s January 2026 release of the Epstein files.",
+   "deck": "Announced by the state and reported contemporaneously.",
+   "body": [
+    "Quoted from the source: &ldquo;reopened&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "aljazeera.com",
+     "u": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-009",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "open",
+   "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
+   "deck": "A forensic characterisation carried by a single outlet and attributed to investigators. Uncorroborated; the strongest claim here and the least settled.",
+   "body": [
+    "Quoted from the source: &ldquo;proof of prior excavation and altered substrate inconsistent with the original construction timeline&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.5, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "newsweek.com",
+     "u": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-010",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
+   "deck": "A stop-work order is an official act with a paper trail.",
+   "body": [
+    "Quoted from the source: &ldquo;ordered to stop construction due to lack of permits&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "santafenewmexican.com",
+     "u": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-011",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "documented",
+   "title": "The owners intend to convert the property into a Christian retreat.",
+   "deck": "Stated by the owner&#39;s campaign and reported directly.",
+   "body": [
+    "Quoted from the source: &ldquo;plans to turn it into a Christian retreat&rdquo;"
+   ],
+   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-012",
+   "kind": "wire",
+   "beats": [
+    "nm-records"
+   ],
+   "stamp": "open",
+   "title": "New Mexico&#39;s filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state&#39;s characterisation, not as a verified figure.",
+   "body": [
+    "Quoted from the source: &ldquo;over 13,000 references to Zorro Ranch and 5,000 references to New Mexico&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
+   "sources": [
+    {
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+     "t": "news",
+     "c": "0.55"
     }
    ],
    "corroboration": 1,

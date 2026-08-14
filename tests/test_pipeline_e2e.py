@@ -30,12 +30,20 @@ def stub_extractor(prompt):
 def agree(n, f): return Pass(n, f, lambda c, s: Verdict(False, "holds"))
 
 def proposer(beat):
+    """Fields that describe the WORLD.
+
+    This double used to emit "Latest claim" and "Claims on record" — the exact
+    shape the schema now rejects, because a field whose value is the newest
+    claim changes every day by construction and makes every beat always move.
+    A test double that models the bad shape teaches the bad shape.
+    """
     def p(old, claims):
+        n = len(claims)
         return {"beat": beat, "as_of": "2026-08-14", "fields": [
-            {"k": "Latest claim", "v": claims[0]["claim_text"][:48], "since": "14 Aug",
+            {"k": "Condition", "v": "degraded" if n > 1 else "steady", "since": "14 Aug",
              "claims": [claims[0]["id"]]},
-            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug",
-             "claims": [c["id"] for c in claims]}]}
+            {"k": "Corroborating sources", "v": "multiple" if n > 1 else "single",
+             "since": "14 Aug", "claims": [c["id"] for c in claims]}]}
     return p
 
 @pytest.fixture

@@ -1,0 +1,153 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e3]: AI-GENERATED · NOT REVIEWED BY A HUMAN
+    - generic [ref=f2e4]: Every claim below was extracted and verified by language models. No editor read this page before you did.
+    - link "How it works & how it fails →" [ref=f2e5] [cursor=pointer]:
+      - /url: "#/method"
+  - banner [ref=f2e6]:
+    - generic [ref=f2e7]:
+      - link [ref=f2e8] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f2e15]:
+          - heading [level=1] [ref=f2e16]:
+            - text: Document
+            - emphasis [ref=f2e17]: Zero
+          - paragraph [ref=f2e18]: 1 change to the record
+      - generic [ref=f2e19]:
+        - generic [ref=f2e20]:
+          - text: Edition
+          - generic [ref=f2e21]: 2026-08-14
+        - generic [ref=f2e22]:
+          - text: Beats moved
+          - generic [ref=f2e23]: 1 / 22
+        - generic [ref=f2e24]:
+          - text: Status
+          - generic "The editor blocked publication" [ref=f2e25]: Not published
+    - navigation [ref=f2e26]:
+      - link "The Ledger1" [ref=f2e243] [cursor=pointer]:
+        - /url: "#/"
+      - link "Records13" [ref=f2e244] [cursor=pointer]:
+        - /url: "#/records"
+      - link "Standing record7" [ref=f2e245] [cursor=pointer]:
+        - /url: "#/standing"
+      - link "Withheld" [ref=f2e246] [cursor=pointer]:
+        - /url: "#/held"
+      - link "Method" [ref=f2e247] [cursor=pointer]:
+        - /url: "#/method"
+      - link "Agent API" [ref=f2e248] [cursor=pointer]:
+        - /url: "#/api"
+  - main [ref=f2e33]:
+    - complementary [ref=f2e34]:
+      - generic [ref=f2e249]:
+        - heading "Moved today · 1" [level=3] [ref=f2e250]
+        - link [ref=f2e251] [cursor=pointer]:
+          - /url: "#/beat/nm-records"
+          - text: New Mexico v. the Justice Department
+          - emphasis [ref=f2e252]: "8"
+      - generic [ref=f2e253]:
+        - group [ref=f2e254]:
+          - generic "▸ Quiet · 21" [ref=f2e255] [cursor=pointer]
+        - paragraph [ref=f2e256]: A quiet beat is open and monitored. Nothing on it changed today.
+    - generic [ref=f2e43]:
+      - link "← All records" [ref=f2e257] [cursor=pointer]:
+        - /url: "#/records"
+      - generic [ref=f2e258]: Documented fact
+      - heading "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records." [level=1] [ref=f2e259]
+      - paragraph [ref=f2e260]: Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.
+      - link "New Mexico v. the Justice Department" [ref=f2e262] [cursor=pointer]:
+        - /url: "#/beat/nm-records"
+      - blockquote [ref=f2e263]: "Quoted from the source: “New Mexico's Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials”"
+      - generic [ref=f2e264]:
+        - heading "Provenance" [level=2] [ref=f2e265]
+        - table [ref=f2e268]:
+          - rowgroup [ref=f2e269]:
+            - row [ref=f2e270]:
+              - cell "Sources" [ref=f2e271]
+              - cell [ref=f2e272]:
+                - link "nbcnews.com" [ref=f2e273] [cursor=pointer]:
+                  - /url: https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015
+                - text: · news · confidence 0.6
+              - cell [ref=f2e274]
+            - row [ref=f2e275]:
+              - cell "Corroboration" [ref=f2e276]
+              - cell "1 distinct publisher" [ref=f2e277]
+              - cell [ref=f2e278]
+            - row [ref=f2e279]:
+              - cell "Verification" [ref=f2e280]
+              - cell "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research" [ref=f2e281]
+              - cell [ref=f2e282]
+            - row [ref=f2e283]:
+              - cell "Record ID" [ref=f2e284]
+              - cell "nm-records-2026-08-14-000" [ref=f2e285]
+              - cell [ref=f2e286]
+      - article [ref=f2e287]:
+        - generic [ref=f2e288]: Standing disclosure
+        - paragraph [ref=f2e289]:
+          - text: No human editor reviewed this record. It was written by a language model, checked by two others, and published automatically. The confidence figure is capped by source type and is not a probability of truth — it is a ceiling on what a source of that kind is allowed to establish.
+          - link "How this can fail →" [ref=f2e290] [cursor=pointer]:
+            - /url: "#/method"
+    - complementary [ref=f2e147]:
+      - generic [ref=f2e291]:
+        - heading "What happens next" [level=3] [ref=f2e292]
+        - generic [ref=f2e293]:
+          - generic [ref=f2e294]:
+            - text: SEP
+            - generic [ref=f2e295]: "05"
+          - paragraph [ref=f2e296]:
+            - text: Government response due, New Mexico v. DOJ
+            - emphasis [ref=f2e297]: The answer is where the 2019 stand-down rationale must be defended. Non-response is itself recordable.
+        - generic [ref=f2e298]:
+          - generic [ref=f2e299]:
+            - text: SEP
+            - generic [ref=f2e300]: "15"
+          - paragraph [ref=f2e301]:
+            - text: New Mexico truth commission subpoena returns
+            - emphasis [ref=f2e302]: Began 1 June 2026 with subpoena power over the Zorro Ranch period.
+        - generic [ref=f2e303]:
+          - generic [ref=f2e304]:
+            - text: 3 NOV
+            - generic [ref=f2e305]: "03"
+          - paragraph [ref=f2e306]:
+            - text: Texas Comptroller election
+            - emphasis [ref=f2e307]: The property's owner is a candidate; the office oversees state financial matters.
+        - paragraph [ref=f2e308]: Dated obligations. When one passes without the expected filing, the non-event is recorded.
+      - generic [ref=f2e309]:
+        - heading "Unreconciled" [level=3] [ref=f2e310]
+        - generic [ref=f2e311]:
+          - generic [ref=f2e312]:
+            - text: A
+            - generic [ref=f2e313]:
+              - text: Parallel investigations risk inconsistent statements
+              - generic [ref=f2e314]: Federal rationale for the stand-down request, July 2019
+          - generic [ref=f2e315]:
+            - text: B
+            - generic [ref=f2e316]:
+              - text: The federal prosecution ended on 10 August 2019, and the material was still withheld in 2026
+              - generic [ref=f2e317]: New Mexico's complaint, filed 5 August 2026
+      - generic [ref=f2e318]:
+        - heading "Open questions" [level=3] [ref=f2e319]
+        - link [ref=f2e320] [cursor=pointer]:
+          - /url: "#/q/q-auction-structure"
+          - text: Was concealing the buyer behind a one-month-old LLC ordinary for this auction, and who else bid?
+          - emphasis [ref=f2e321]: Open · not being pursued by anyone visible
+        - link [ref=f2e322] [cursor=pointer]:
+          - /url: "#/q/q-evidentiary-loss"
+          - text: What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?
+          - emphasis [ref=f2e323]: Open
+        - link [ref=f2e324] [cursor=pointer]:
+          - /url: "#/q/q-standdown-expiry"
+          - text: Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?
+          - emphasis [ref=f2e325]: Open · never publicly asked
+  - contentinfo [ref=f2e183]:
+    - generic [ref=f2e184]:
+      - paragraph [ref=f2e185]: Document Zero is an automated ledger. Claims are extracted from public sources by one model family and independently checked by two others; a claim that does not survive is not published. Nothing here has been read by a human editor before publication. Treat every line as machine output and follow the primary-source link.
+      - paragraph [ref=f2e186]:
+        - text: "Corrections and the full method:"
+        - link "Method" [ref=f2e187] [cursor=pointer]:
+          - /url: "#/method"
+        - text: ·
+        - link "Agent API" [ref=f2e188] [cursor=pointer]:
+          - /url: "#/api"
+        - text: ·
+        - link "llms.txt" [ref=f2e189] [cursor=pointer]:
+          - /url: llms.txt

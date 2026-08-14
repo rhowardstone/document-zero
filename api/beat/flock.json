@@ -8,76 +8,23 @@
   "types": [
    "tech"
   ],
-  "status": "moved",
-  "opened": "2026-08-14",
-  "lastChange": "2026-08-14",
-  "events": 1,
-  "summary": "1 claim(s) on record.",
-  "state": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: this guy on tiktok and instagram been impersonatin",
-    "since": "14 Aug",
-    "flag": null
-   },
-   {
-    "k": "Claims on record",
-    "v": "1",
-    "since": "14 Aug",
-    "flag": null
-   }
-  ],
-  "history": [
-   {
-    "d": "2026-08-14",
-    "c": "Most recent claim recorded as Reported: this guy on tiktok and instagram been impersonatin. Claims on record recorded as 1.",
-    "s": "1 claim(s) from 1 source(s)"
-   }
-  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
   "changes": [],
-  "added": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: this guy on tiktok and instagram been impersonatin"
-   },
-   {
-    "k": "Claims on record",
-    "v": "1"
-   }
-  ],
+  "added": [],
   "removed": [],
   "unchanged": 0,
-  "unknown": [],
-  "items": [
-   "flock-2026-08-14-079b0a59833b"
+  "unknown": [
+   "No claim has survived verification on this beat."
   ],
+  "items": [],
   "questions": [],
   "triggers": []
  },
- "records": [
-  {
-   "id": "flock-2026-08-14-079b0a59833b",
-   "kind": "wire",
-   "beats": [
-    "flock"
-   ],
-   "stamp": "open",
-   "title": "Reported: this guy on tiktok and instagram been impersonating Flock Safety manager, Randy Gluck,",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;this guy on tiktok and instagram been impersonating Flock&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1viofao/this_guy_on_tiktok_and_instagram_been",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  }
- ]
+ "records": []
 }

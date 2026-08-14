@@ -8,10 +8,10 @@
   "publish": false,
   "blocked_by": "dry_run",
   "counts": {
-   "wire": 8,
+   "wire": 1,
    "capped_out": 0,
    "omissions": 0,
-   "holds": 2,
+   "holds": 0,
    "refused": 0,
    "dropped": 0
   }
@@ -26,7 +26,7 @@
  },
  "counts": {
   "beats": 22,
-  "records": 15,
-  "sources": 18
+  "records": 13,
+  "sources": 9
  }
 }

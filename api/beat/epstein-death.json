@@ -9,108 +9,23 @@
    "death",
    "oversight"
   ],
-  "status": "moved",
-  "opened": "2026-08-14",
-  "lastChange": "2026-08-14",
-  "events": 3,
-  "summary": "3 claim(s) on record.",
-  "state": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: Number 10 Denies Burnham is Looking into Epstein E",
-    "since": "14 Aug",
-    "flag": null
-   },
-   {
-    "k": "Claims on record",
-    "v": "3",
-    "since": "14 Aug",
-    "flag": null
-   }
-  ],
-  "history": [
-   {
-    "d": "2026-08-14",
-    "c": "Most recent claim recorded as Reported: Number 10 Denies Burnham is Looking into Epstein E. Claims on record recorded as 3.",
-    "s": "3 claim(s) from 26 source(s)"
-   }
-  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
   "changes": [],
-  "added": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: Number 10 Denies Burnham is Looking into Epstein E"
-   },
-   {
-    "k": "Claims on record",
-    "v": "3"
-   }
-  ],
+  "added": [],
   "removed": [],
   "unchanged": 0,
-  "unknown": [],
-  "items": [
-   "epstein-death-2026-08-14-170c991d725f",
-   "epstein-death-2026-08-14-1c6caa956177",
-   "epstein-death-2026-08-14-8336b42b14f3"
+  "unknown": [
+   "No claim has survived verification on this beat."
   ],
+  "items": [],
   "questions": [],
   "triggers": []
  },
- "records": [
-  {
-   "id": "epstein-death-2026-08-14-170c991d725f",
-   "kind": "wire",
-   "beats": [
-    "epstein-death"
-   ],
-   "stamp": "open",
-   "title": "Reported: Trump&#39;s Role In Epstein Death Out? Sen. Kennedy EXPOSES Death Of Jeffrey Epstein Before",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Trump&#39;s Role In Epstein Death Out? Sen. Kennedy EXPOSES&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a776ed4be7943f0b977e8759b3cff2c&amp;url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&amp;c=674661273872150764&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    },
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a771a772f854e029dbae28045d91f5b&amp;url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&amp;c=674661273872150764&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-death-2026-08-14-8336b42b14f3",
-   "kind": "wire",
-   "beats": [
-    "epstein-death"
-   ],
-   "stamp": "open",
-   "title": "Reported: Number 10 Denies Burnham is Looking into Epstein Enquiry as Cover-Up Looks Set to",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Number 10 Denies Burnham is Looking into Epstein Enquiry as&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95bXl5WTN4N2lVQmlVT3pNazdlSmJKbHVraUk0dTlwY2VJcUxiVTF1b2ktTFEteGtjM3Q2S0syWVB0VmRqUzhfOWlkTEJXTm91MlZlbHI4TEdvSmg0T1pCeHVqQzJNajhGc1ZRcTVhNjlfUENmMVl1N3JxVQ?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  }
- ]
+ "records": []
 }

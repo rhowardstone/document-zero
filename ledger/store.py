@@ -77,8 +77,11 @@ class Ledger:
         return [json.loads(f.read_text(encoding="utf-8")) for f in sorted(d.glob("*.json"))]
 
     # ---- beat state and history ------------------------------------
-    def put_state(self, beat_id: str, state: dict) -> str:
-        validate_beat_state(state)
+    def put_state(self, beat_id: str, state: dict, claim_texts=None) -> str:
+        # claim_texts lets the validator check that a field describes the world
+        # rather than restating the claim it cites. Omitting them only skips that
+        # one check; the caller that has the claims should pass them.
+        validate_beat_state(state, claim_texts)
         return self._write_json(P.beat_state_path(beat_id), state)
 
     def get_state(self, beat_id: str):

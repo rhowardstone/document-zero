@@ -77,3 +77,37 @@ def test_an_empty_citation_list_is_not_a_citation():
         validate_beat_state({"beat": "b", "as_of": "2026-08-14", "fields": [
             {"k": "A", "v": "1", "claims": []},
             {"k": "B", "v": "2", "claims": ["x"]}]})
+
+
+# ── State must describe the world, not the ledger ───────────────────────────
+
+def _st(k, v, claims=("c1",)):
+    return {"beat": "b", "as_of": "2026-08-14", "fields": [
+        {"k": k, "v": v, "claims": list(claims)},
+        {"k": "Docket status", "v": "Response due", "claims": ["c2"]}]}
+
+
+@pytest.mark.parametrize("key", [
+    "Most recent claim", "Latest development", "Claims on record",
+    "Number of claims", "Claim count", "Current headline", "Articles seen",
+])
+def test_a_field_about_the_ledger_itself_is_rejected(key):
+    """These change every day by construction, so the beat always 'moves'."""
+    with pytest.raises(SchemaError, match="describes the ledger"):
+        validate_beat_state(_st(key, "anything at all"))
+
+
+def test_a_field_that_restates_its_own_claim_is_rejected():
+    claim = "The Justice Department missed the 5 August deadline for the ranch files."
+    with pytest.raises(SchemaError, match="restates the claim"):
+        validate_beat_state(_st("Status", claim[:52]), claim_texts=[claim])
+
+
+def test_a_genuine_state_field_supported_by_a_claim_is_fine():
+    claim = "The Justice Department missed the 5 August deadline for the ranch files."
+    validate_beat_state(_st("Federal suit", "Filed 5 Aug 2026, D.D.C."), claim_texts=[claim])
+
+
+def test_a_short_value_is_not_treated_as_a_restatement():
+    """Real state values are short. The prefix test only fires on long ones."""
+    validate_beat_state(_st("Venue", "D.D.C."), claim_texts=["D.D.C. is where it was filed"])

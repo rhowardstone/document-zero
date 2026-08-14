@@ -394,3 +394,17 @@ def test_questions_and_triggers_are_escaped_like_everything_else(tmp_path):
     d = build(l.root, CFG, "2026-08-14")
     blob = json.dumps(d["questions"])
     assert "<img" not in blob and "<script" not in blob and "&lt;img" in blob
+
+
+def test_opened_and_last_change_come_from_the_dates_not_the_file_order(tmp_path):
+    """append_history writes in production order, not event order. A backfilled
+    beat rendered as opened seven years after its last change."""
+    l = Ledger(tmp_path / "data")
+    w = Ledger(l.root, writer="beat:compliance")
+    for d, c in [("2026-08-05", "newest"), ("2019-07-23", "oldest"),
+                 ("2023-01-09", "middle")]:
+        w.append_history("compliance", {"d": d, "c": c, "s": ""})
+    b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
+    assert b["opened"] == "2019-07-23"
+    assert b["lastChange"] == "2026-08-05"
+    assert [h["d"] for h in b["history"]] == ["2026-08-05", "2023-01-09", "2019-07-23"]

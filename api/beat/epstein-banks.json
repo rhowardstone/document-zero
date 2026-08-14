@@ -10,126 +10,23 @@
    "oversight",
    "market"
   ],
-  "status": "moved",
-  "opened": "2026-08-14",
-  "lastChange": "2026-08-14",
-  "events": 3,
-  "summary": "3 claim(s) on record.",
-  "state": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: Jeffrey Epstein’s European fixer raped us. Police ",
-    "since": "14 Aug",
-    "flag": null
-   },
-   {
-    "k": "Claims on record",
-    "v": "3",
-    "since": "14 Aug",
-    "flag": null
-   }
-  ],
-  "history": [
-   {
-    "d": "2026-08-14",
-    "c": "Most recent claim recorded as Reported: Jeffrey Epstein’s European fixer raped us. Police . Claims on record recorded as 3.",
-    "s": "3 claim(s) from 60 source(s)"
-   }
-  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
   "changes": [],
-  "added": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: Jeffrey Epstein’s European fixer raped us. Police "
-   },
-   {
-    "k": "Claims on record",
-    "v": "3"
-   }
-  ],
+  "added": [],
   "removed": [],
   "unchanged": 0,
-  "unknown": [],
-  "items": [
-   "epstein-banks-2026-08-14-3736e0e19c7f",
-   "epstein-banks-2026-08-14-91bcec4b1309",
-   "epstein-banks-2026-08-14-b75d3155ba34"
+  "unknown": [
+   "No claim has survived verification on this beat."
   ],
+  "items": [],
   "questions": [],
   "triggers": []
  },
- "records": [
-  {
-   "id": "epstein-banks-2026-08-14-3736e0e19c7f",
-   "kind": "wire",
-   "beats": [
-    "epstein-banks"
-   ],
-   "stamp": "open",
-   "title": "Reported: I was just wondering why if you type &quot;follow the money&quot; on the database search bar the",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;I was just wondering why if you type &quot;follow the money&quot; on&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1veeinj/follow_the_money_turns_the_text_green",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-banks-2026-08-14-91bcec4b1309",
-   "kind": "wire",
-   "beats": [
-    "epstein-banks"
-   ],
-   "stamp": "open",
-   "title": "Reported: Jeffrey Epstein’s European fixer raped us. Police turned a blind eye",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;Jeffrey Epstein’s European fixer raped us. Police turned a&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "news.google.com",
-     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZEE4a0pwTHk1MnFRRHl0ai1xYzNKMEdSeTFDYnhZXzBFYkJ5QUFRdWhUbTV4d2xBNTRfYzVsMkxHLXg4SzkyWVVMdXNmUWZPNF9pcWlobFpndEU0ckVqdy1mMlBaTndjQ3pJRmRjaWFUZm5FR0xCYjN0WXloR2R5dTJGWkpWMUtFWmtTQXNRd2RQZ0E?oc=5",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "epstein-banks-2026-08-14-b75d3155ba34",
-   "kind": "wire",
-   "beats": [
-    "epstein-banks"
-   ],
-   "stamp": "open",
-   "title": "Reported: 60 Minutes Epstein-Banks story vanished amid CBS upheaval under Bari Weiss: report",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;60 Minutes Epstein-Banks story vanished amid CBS upheaval&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "bing.com",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a71d486b1d74579bff8a483edf9686d&amp;url=https%3A%2F%2Fwww.msn.com%2Fen-ca%2Fnews%2Fpolitics%2F60-minutes-epstein-banks-story-vanished-amid-cbs-upheaval-under-bari-weiss-report%2Far-AA29mGss&amp;c=12187327408477006809&amp;mkt=en-us",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  }
- ]
+ "records": []
 }

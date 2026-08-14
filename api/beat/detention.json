@@ -10,76 +10,23 @@
    "oversight",
    "death"
   ],
-  "status": "moved",
-  "opened": "2026-08-14",
-  "lastChange": "2026-08-14",
-  "events": 1,
-  "summary": "1 claim(s) on record.",
-  "state": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: &quot;Brexit is just the beginning...&quot; While the UK was",
-    "since": "14 Aug",
-    "flag": null
-   },
-   {
-    "k": "Claims on record",
-    "v": "1",
-    "since": "14 Aug",
-    "flag": null
-   }
-  ],
-  "history": [
-   {
-    "d": "2026-08-14",
-    "c": "Most recent claim recorded as Reported: &quot;Brexit is just the beginning...&quot; While the UK was. Claims on record recorded as 1.",
-    "s": "1 claim(s) from 1 source(s)"
-   }
-  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
   "changes": [],
-  "added": [
-   {
-    "k": "Most recent claim",
-    "v": "Reported: &quot;Brexit is just the beginning...&quot; While the UK was"
-   },
-   {
-    "k": "Claims on record",
-    "v": "1"
-   }
-  ],
+  "added": [],
   "removed": [],
   "unchanged": 0,
-  "unknown": [],
-  "items": [
-   "detention-2026-08-14-f3a63958050d"
+  "unknown": [
+   "No claim has survived verification on this beat."
   ],
+  "items": [],
   "questions": [],
   "triggers": []
  },
- "records": [
-  {
-   "id": "detention-2026-08-14-f3a63958050d",
-   "kind": "wire",
-   "beats": [
-    "detention"
-   ],
-   "stamp": "open",
-   "title": "Reported: &quot;Brexit is just the beginning...&quot; While the UK was distracted by sovereignty and borders,",
-   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
-   "body": [
-    "Quoted from the source: &ldquo;&quot;Brexit is just the beginning...&quot; While the UK was&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "reddit.com",
-     "u": "https://www.reddit.com/r/Epstein/comments/1vjokzv/the_digital_coup_uk",
-     "t": "misc",
-     "c": "0.38"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  }
- ]
+ "records": []
 }

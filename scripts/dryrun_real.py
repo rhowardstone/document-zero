@@ -76,12 +76,42 @@ def stub_extractor(prompt):
 
 def agree(n, f): return Pass(n, f, lambda c, s: Verdict(False, "supported by the cited quote"))
 def proposer(beat):
+    """A deterministic stand-in for the model that proposes beat state.
+
+    Its earlier version emitted "Most recent claim" and "Claims on record",
+    which the schema now rejects: both change every day by construction, so
+    every beat always moved and the site rendered eight beats of confident,
+    meaningless change. This version derives fields ABOUT THE WORLD from the
+    claims — the named parties, the dated events — which is at least the right
+    SHAPE even though only a model can do the job properly.
+    """
+    import re as _re
+    from ledger.subjects import candidate_names
+
     def p(old, claims):
-        return {"beat": beat, "as_of": "2026-08-14", "fields": [
-            {"k": "Most recent claim", "v": claims[0]["claim_text"][:60], "since": "14 Aug",
-             "claims": [claims[0]["id"]]},
-            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug",
-             "claims": [c["id"] for c in claims]}]}
+        fields, seen = [], set()
+        people, dates = [], []
+        for c in claims:
+            txt = c.get("claim_text", "")
+            for n in candidate_names(txt):
+                if n.lower() not in seen:
+                    seen.add(n.lower()); people.append((n, c["id"]))
+            for m in _re.finditer(r"\b(\d{1,2} \w+ \d{4}|\w+ \d{1,2}, \d{4})\b", txt):
+                dates.append((m.group(0), c["id"]))
+        if people:
+            fields.append({"k": "Named in the record", "since": "14 Aug",
+                           "v": ", ".join(n for n, _ in people[:4]),
+                           "claims": [i for _, i in people[:4]]})
+        if dates:
+            fields.append({"k": "Dated events", "since": "14 Aug",
+                           "v": "; ".join(d for d, _ in dates[:3]),
+                           "claims": [i for _, i in dates[:3]]})
+        # A beat needs two changeable fields to exist at all. When the stub can
+        # derive fewer than two, it proposes none: an unproposed beat is honest,
+        # an invented field is not.
+        return ({"beat": beat, "as_of": "2026-08-14", "fields": fields}
+                if len(fields) >= 2 else (old or {"beat": beat, "as_of": "2026-08-14",
+                                                  "fields": []}))
     return p
 
 def factory(beat):

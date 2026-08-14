@@ -121,7 +121,8 @@ class BeatAgent:
         r.delta = diff_state(old_state, new_state)
 
         if not r.delta.is_empty:
-            self.led.put_state(self.beat, new_state)
+            self.led.put_state(self.beat, new_state,
+                               [c.get('claim_text') for c in survivors])
             self.led.append_history(self.beat, {
                 "d": (new_state.get("as_of") or self.now)[:10],
                 "c": self._describe(r.delta),
