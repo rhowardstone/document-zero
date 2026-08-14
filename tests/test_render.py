@@ -62,7 +62,7 @@ def test_claims_become_records_carrying_their_tier_and_confidence(led):
     it = next(i for i in d["items"] if i["id"] == "compliance-1")
     assert it["stamp"] == "open", "a credible_allegation must not render as documented"
     assert "0.55" in it["derived"] and "claude-sonnet-5" in it["derived"]
-    assert "threatens DOJ sanctions" in it["body"][0]
+    assert "threatens DOJ sanctions" in it["quote"]
 
 def test_a_documented_fact_renders_with_the_documented_stamp(led):
     led.put_claim({"id": "compliance-2", "beat": "compliance", "claim_text": "X",
@@ -227,7 +227,8 @@ def test_a_beat_in_the_omissions_lane_gets_a_record_on_the_page(tmp_path):
     d = build(l.root, CFG, "2026-08-14")
     om = [i for i in d["items"] if i["kind"] == "omission"]
     assert len(om) == 1
-    assert om[0]["beats"] == ["flock"] and "recirculation" in om[0]["short"]
+    assert om[0]["beats"] == ["flock"] and om[0]["reason"] == "recirculation"
+    assert om[0]["beat_name"] and "claims_standing" in om[0]
 
 def test_a_wire_beat_produces_no_omission_record(tmp_path):
     l = Ledger(tmp_path / "data")
@@ -279,9 +280,12 @@ def test_empty_rails_stay_empty_rather_than_erroring(tmp_path):
 # defect in shipped code, not a hypothetical.
 # ===========================================================================
 
-def test_hostile_source_text_cannot_reach_the_dom(tmp_path):
-    """Stored DOM XSS: scraped text was interpolated raw into fields the site
-    renders with innerHTML."""
+def test_hostile_source_text_survives_as_data_not_markup(tmp_path):
+    """The projection emits DATA. It used to escape here, and the page trusted
+    that it had; that contract failed twice and each failure was stored XSS.
+    Escaping now happens at DOM insertion (see test_page_escaping.py), so what
+    this layer must guarantee is the opposite: the text is not mangled, so the
+    JSON API and the database carry what the source actually said."""
     l = Ledger(tmp_path / "data")
     l.put_claim({"id": "c1", "beat": "compliance",
                  "claim_text": '<img src=x onerror="alert(1)">',
@@ -294,10 +298,9 @@ def test_hostile_source_text_cannot_reach_the_dom(tmp_path):
         "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
         "wire": [{"id": "compliance", "beat": "compliance"}]})
     it = build(l.root, CFG, "2026-08-14")["items"][0]
-    blob = json.dumps(it)
-    assert "<img" not in blob and "<script" not in blob and "<svg" not in blob
-    assert "onerror" not in blob or "&" in it["title"]
-    assert "&lt;img" in it["title"]
+    assert it["title"] == '<img src=x onerror="alert(1)">'
+    assert it["quote"] == "</script><script>alert(2)</script>"
+    assert "&amp;" not in json.dumps(it), "no double-encoding on the way to JSON"
 
 def test_a_javascript_url_is_neutralised(tmp_path):
     l = Ledger(tmp_path / "data")
@@ -310,7 +313,7 @@ def test_a_javascript_url_is_neutralised(tmp_path):
         "wire": [{"id": "compliance", "beat": "compliance"}]})
     assert build(l.root, CFG, "2026-08-14")["items"][0]["sources"][0]["u"] == "#"
 
-def test_hostile_state_and_history_are_escaped_too(tmp_path):
+def test_hostile_state_and_history_survive_verbatim(tmp_path):
     l = Ledger(tmp_path / "data")
     l.put_state("compliance", {"beat": "compliance", "as_of": "2026-08-14", "fields": [
         {"k": "<b>k</b>", "v": "<script>x</script>", "since": "now", "claims": ["c1"]},
@@ -320,7 +323,9 @@ def test_hostile_state_and_history_are_escaped_too(tmp_path):
         "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
         "counts": {}, "publish": False})
     b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
-    assert "<script" not in json.dumps(b) and "<img" not in json.dumps(b)
+    assert b["state"][0] == {"k": "<b>k</b>", "v": "<script>x</script>",
+                             "since": "now", "flag": None}
+    assert b["history"][0]["c"] == "<img src=x>"
 
 def test_a_held_beats_claims_never_reach_the_wire(tmp_path):
     """The renderer was bypassing the editor entirely: every stored claim was
@@ -374,26 +379,26 @@ def test_the_publish_state_travels_with_the_data(tmp_path):
     ed = build(l.root, CFG, "2026-08-14")["edition"]
     assert ed["publish"] is False and ed["blocked_by"] == "dry_run"
 
-def test_a_hostile_change_value_is_escaped(tmp_path):
+def test_a_hostile_change_value_survives_verbatim(tmp_path):
     l = Ledger(tmp_path / "data")
     Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
         "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
         "wire": [{"id": "compliance", "beat": "compliance",
                   "changes": [{"k": "<img src=x>", "from": "a", "to": "<script>y</script>"}]}]})
     b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
-    assert "<script" not in json.dumps(b["changes"]) and "&lt;img" in b["changes"][0]["k"]
+    assert b["changes"][0] == {"k": "<img src=x>", "from": "a", "to": "<script>y</script>"}
 
 
-def test_questions_and_triggers_are_escaped_like_everything_else(tmp_path):
-    """These are ledger objects a model can write; 'ours' is not a safety property."""
+def test_questions_and_triggers_pass_through_unmangled(tmp_path):
+    """These are ledger objects a model can write. They reach the DOM through
+    the page's escaper like everything else."""
     l = Ledger(tmp_path / "data")
     (l.root / "questions").mkdir(parents=True, exist_ok=True)
     (l.root / "questions" / "q1.json").write_text(json.dumps({
         "id": "q1", "beat": "compliance", "q": "<img src=x onerror=alert(1)>",
         "who": ["<script>a</script>"]}))
-    d = build(l.root, CFG, "2026-08-14")
-    blob = json.dumps(d["questions"])
-    assert "<img" not in blob and "<script" not in blob and "&lt;img" in blob
+    q = build(l.root, CFG, "2026-08-14")["questions"][0]
+    assert q["q"] == "<img src=x onerror=alert(1)>"
 
 
 def test_opened_and_last_change_come_from_the_dates_not_the_file_order(tmp_path):
@@ -432,3 +437,20 @@ def test_genuinely_different_obligations_are_both_kept(tmp_path):
         (l.root / "triggers" / f"{tid}.json").write_text(json.dumps({
             "id": tid, "beat": "compliance", "sort": sort, "d": "SEP", "t": text, "s": ""}))
     assert len(build(l.root, CFG, "2026-08-14")["triggers"]) == 3
+
+
+def test_the_hold_reason_reaches_the_page_as_data(tmp_path):
+    """The hold reason was the last field the old design forgot to escape. Under
+    the new design there is nothing to forget: it travels as text."""
+    l = Ledger(tmp_path / "data")
+    payload = '<img src=x onerror=alert(1)>'
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [], "omissions": [], "publish": False,
+        "counts": {"holds": 1},
+        "holds": [{"id": "compliance", "beat": "compliance", "reason": payload,
+                   "changes": [], "added": [{"k": payload, "v": payload}]}]})
+    (l.root / "questions").mkdir(parents=True, exist_ok=True)
+    (l.root / "questions" / "q.json").write_text(json.dumps(
+        {"id": "q", "beat": "compliance", "q": payload, "known": payload}))
+    b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
+    assert b["unknown"][0] == f"Held: {payload}"

@@ -1,5 +1,4 @@
+.fixture/
+.playwright-mcp/
+*.png
 __pycache__/
-*.pyc
-.pytest_cache/
-*.db
-data/

@@ -640,7 +640,7 @@ window.DZ = {
     },
     {
      "k": "Records sought",
-     "v": "Unredacted &#39;Epstein Library&#39; records, EFTA §2(a)(1)-(9)",
+     "v": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)",
      "since": "3 May",
      "flag": null
     },
@@ -664,7 +664,7 @@ window.DZ = {
     },
     {
      "k": "Protective-order modification",
-     "v": "Sought by the state; federal cooperation called &#39;unlikely&#39;",
+     "v": "Sought by the state; federal cooperation called 'unlikely'",
      "since": "14 Jul",
      "flag": null
     },
@@ -757,12 +757,12 @@ window.DZ = {
     },
     {
      "d": "2019-08-23",
-     "c": "Federal search of the property → declined for want of probable cause, 13 days after the defendant&#39;s death. Never conducted.",
+     "c": "Federal search of the property → declined for want of probable cause, 13 days after the defendant's death. Never conducted.",
      "s": "Complaint ¶30 n.6, citing EFTA00165502"
     },
     {
      "d": "2019-08-10",
-     "c": "Federal prosecution ended with the defendant&#39;s death. Stated rationale for the stand-down ceased to apply.",
+     "c": "Federal prosecution ended with the defendant's death. Stated rationale for the stand-down ceased to apply.",
      "s": "Contemporaneous reporting"
     },
     {
@@ -780,7 +780,7 @@ window.DZ = {
     {
      "k": "Records sought",
      "from": "Unredacted Epstein investigative files",
-     "to": "Unredacted &#39;Epstein Library&#39; records, EFTA §2(a)(1)-(9)"
+     "to": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)"
     }
    ],
    "added": [
@@ -794,7 +794,7 @@ window.DZ = {
     },
     {
      "k": "Protective-order modification",
-     "v": "Sought by the state; federal cooperation called &#39;unlikely&#39;"
+     "v": "Sought by the state; federal cooperation called 'unlikely'"
     },
     {
      "k": "Federal search of the property",
@@ -972,9 +972,13 @@ window.DZ = {
    ],
    "stamp": "documented",
    "title": "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation.",
-   "deck": "The position taken is documented with a date and an attached exhibit. A transparency statute being invoked as a reason to withhold is a fact about the Act&#39;s operation, whatever one concludes about it.",
-   "body": [
-    "Quoted from the source: &ldquo;reiterated his view that EFTA and the existing protective orders precluded production of materials in response to NMDOJ&#39;s request&rdquo;"
+   "deck": "The position taken is documented with a date and an attached exhibit. A transparency statute being invoked as a reason to withhold is a fact about the Act's operation, whatever one concludes about it.",
+   "quote": "reiterated his view that EFTA and the existing protective orders precluded production of materials in response to NMDOJ's request",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -995,10 +999,14 @@ window.DZ = {
     "compliance"
    ],
    "stamp": "open",
-   "title": "New Mexico&#39;s complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors.",
+   "title": "New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors.",
    "deck": "An allegation in a pleading by an adverse party, quoted exactly. The filing cites an attached letter from the Attorney General and Acting Attorney General to Congress dated 30 January 2026. No court has found this.",
-   "body": [
-    "Quoted from the source: &ldquo;But USDOJ instead publicly posted detailed, unredacted personal information about survivors, ranging from their contact information to nude images.&rdquo;"
+   "quote": "But USDOJ instead publicly posted detailed, unredacted personal information about survivors, ranging from their contact information to nude images.",
+   "tier": "credible_allegation",
+   "confidence": 0.8,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier credible_allegation, confidence 0.8, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1021,8 +1029,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
    "deck": "Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.",
-   "body": [
-    "Quoted from the source: &ldquo;New Mexico&#39;s Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials&rdquo;"
+   "quote": "New Mexico's Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1044,9 +1056,13 @@ window.DZ = {
    ],
    "stamp": "open",
    "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
-   "deck": "This is the state&#39;s characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
-   "body": [
-    "Quoted from the source: &ldquo;to stand down&rdquo;"
+   "deck": "This is the state's characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
+   "quote": "to stand down",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1069,8 +1085,12 @@ window.DZ = {
    "stamp": "open",
    "title": "New Mexico alleges the promised federal evidence was never provided.",
    "deck": "The central allegation of the complaint, asserted by one party. Uncorroborated by DOJ.",
-   "body": [
-    "Quoted from the source: &ldquo;the promised evidence never came&rdquo;"
+   "quote": "the promised evidence never came",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1093,8 +1113,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
    "deck": "A quoted rationale attributed to records. News ceiling 0.6.",
-   "body": [
-    "Quoted from the source: &ldquo;risks of parallel investigations creating inconsistent statements&rdquo;"
+   "quote": "risks of parallel investigations creating inconsistent statements",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1117,8 +1141,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
    "deck": "Long-established and uncontested. Capped at the news ceiling because it is cited here through a news source rather than a primary record.",
-   "body": [
-    "Quoted from the source: &ldquo;Epstein died in his jail cell on August 10&rdquo;"
+   "quote": "Epstein died in his jail cell on August 10",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1141,8 +1169,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
    "deck": "Corporate registration and deed dates are matters of public record; reported by the Santa Fe New Mexican and The Real Deal.",
-   "body": [
-    "Quoted from the source: &ldquo;a limited liability company created just a month before the purchase&rdquo;"
+   "quote": "a limited liability company created just a month before the purchase",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1165,8 +1197,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
    "deck": "The mechanism by which the concealment broke is itself reported and checkable.",
-   "body": [
-    "Quoted from the source: &ldquo;It wasn&#39;t until a street name change and property taxes were contested that public records requests revealed the owner&rdquo;"
+   "quote": "It wasn't until a street name change and property taxes were contested that public records requests revealed the owner",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1189,8 +1225,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
    "deck": "Named public figure and declared candidate; ownership established through public records.",
-   "body": [
-    "Quoted from the source: &ldquo;His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager&rdquo;"
+   "quote": "His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1211,10 +1251,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department&#39;s January 2026 release of the Epstein files.",
+   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files.",
    "deck": "Announced by the state and reported contemporaneously.",
-   "body": [
-    "Quoted from the source: &ldquo;reopened&rdquo;"
+   "quote": "reopened",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1237,8 +1281,12 @@ window.DZ = {
    "stamp": "open",
    "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
    "deck": "A forensic characterisation carried by a single outlet and attributed to investigators. Uncorroborated; the strongest claim here and the least settled.",
-   "body": [
-    "Quoted from the source: &ldquo;proof of prior excavation and altered substrate inconsistent with the original construction timeline&rdquo;"
+   "quote": "proof of prior excavation and altered substrate inconsistent with the original construction timeline",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier credible_allegation, confidence 0.5, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1261,8 +1309,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
    "deck": "A stop-work order is an official act with a paper trail.",
-   "body": [
-    "Quoted from the source: &ldquo;ordered to stop construction due to lack of permits&rdquo;"
+   "quote": "ordered to stop construction due to lack of permits",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1284,9 +1336,13 @@ window.DZ = {
    ],
    "stamp": "documented",
    "title": "The owners intend to convert the property into a Christian retreat.",
-   "deck": "Stated by the owner&#39;s campaign and reported directly.",
-   "body": [
-    "Quoted from the source: &ldquo;plans to turn it into a Christian retreat&rdquo;"
+   "deck": "Stated by the owner's campaign and reported directly.",
+   "quote": "plans to turn it into a Christian retreat",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1307,10 +1363,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "open",
-   "title": "New Mexico&#39;s filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
-   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state&#39;s characterisation, not as a verified figure.",
-   "body": [
-    "Quoted from the source: &ldquo;over 13,000 references to Zorro Ranch and 5,000 references to New Mexico&rdquo;"
+   "title": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state's characterisation, not as a verified figure.",
+   "quote": "over 13,000 references to Zorro Ranch and 5,000 references to New Mexico",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": 1,
+   "families": [
+    "human-directed research"
    ],
    "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1331,10 +1391,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "New Mexico&#39;s Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed.",
+   "title": "New Mexico's Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed.",
    "deck": "The deadline is quoted from the letter and the filing date is on the docket. The interval is arithmetic, not inference.",
-   "body": [
-    "Quoted from the source: &ldquo;We respectfully request that your office respond by May 11, 2026, so that logistical arrangements can be timely finalized.&rdquo;"
+   "quote": "We respectfully request that your office respond by May 11, 2026, so that logistical arrangements can be timely finalized.",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1356,9 +1420,13 @@ window.DZ = {
    ],
    "stamp": "documented",
    "title": "The suit is docketed as No. 1:26-cv-02762-AHA in the U.S. District Court for the District of Columbia, assigned to Judge Amir H. Ali, and is pleaded as review of agency action under the Administrative Procedure Act rather than as a FOIA case.",
-   "deck": "The docket&#39;s own nature-of-suit code and assignment. A docket establishes the posture of a case in a way no characterisation of it can; the distinction from FOIA matters because it determines the remedy available.",
-   "body": [
-    "Quoted from the source: &ldquo;899 Administrative Procedure Act/Review or Appeal of Agency Decision&rdquo;"
+   "deck": "The docket's own nature-of-suit code and assignment. A docket establishes the posture of a case in a way no characterisation of it can; the distinction from FOIA matters because it determines the remedy available.",
+   "quote": "899 Administrative Procedure Act/Review or Appeal of Agency Decision",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1379,10 +1447,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "The records New Mexico seeks are the redacted materials in the federal &#39;Epstein Library&#39;, compiled under Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (19 November 2025).",
+   "title": "The records New Mexico seeks are the redacted materials in the federal 'Epstein Library', compiled under Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (19 November 2025).",
    "deck": "The request names the statute and section it runs against. This is what ties the New Mexico case to the separate question of federal compliance with that Act.",
-   "body": [
-    "Quoted from the source: &ldquo;we seek the redacted materials contained in the USDOJ&#39;s &#39;Epstein Library,&#39; compiled pursuant to Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (Nov. 19, 2025)&rdquo;"
+   "quote": "we seek the redacted materials contained in the USDOJ's 'Epstein Library,' compiled pursuant to Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (Nov. 19, 2025)",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1403,10 +1475,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "New Mexico gave the federal government its entire investigative file — police reports, recorded witness interviews and materials on Epstein&#39;s use of state public lands — on 17 September 2019, after agreeing to stand down.",
+   "title": "New Mexico gave the federal government its entire investigative file — police reports, recorded witness interviews and materials on Epstein's use of state public lands — on 17 September 2019, after agreeing to stand down.",
    "deck": "A dated act of transfer recited in a filing and supported by an attached exhibit. It establishes the direction of the exchange: the state produced, and is now suing to receive.",
-   "body": [
-    "Quoted from the source: &ldquo;On September 17, 2019, NMDOJ provided USDOJ with its entire investigative file, including police reports, recorded witness interviews, and materials related to Epstein&#39;s use of New Mexico public lands.&rdquo;"
+   "quote": "On September 17, 2019, NMDOJ provided USDOJ with its entire investigative file, including police reports, recorded witness interviews, and materials related to Epstein's use of New Mexico public lands.",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1427,10 +1503,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "New Mexico&#39;s filing notes that the Justice Department has argued in other 2026 litigation that courts may take judicial notice of an Acting Attorney General&#39;s recorded public statements as binding party admissions.",
-   "deck": "Quoted from the government&#39;s own brief in Floyd v. Dep&#39;t of Justice, No. 26-cv-01399 (E.D. Va.), ECF No. 78, cited in the filing&#39;s footnote 16. The position is the government&#39;s, taken in a different case.",
-   "body": [
-    "Quoted from the source: &ldquo;Because the Acting Attorney General&#39;s statements were recorded, this Court can take judicial notice of them.&rdquo;"
+   "title": "New Mexico's filing notes that the Justice Department has argued in other 2026 litigation that courts may take judicial notice of an Acting Attorney General's recorded public statements as binding party admissions.",
+   "deck": "Quoted from the government's own brief in Floyd v. Dep't of Justice, No. 26-cv-01399 (E.D. Va.), ECF No. 78, cited in the filing's footnote 16. The position is the government's, taken in a different case.",
+   "quote": "Because the Acting Attorney General's statements were recorded, this Court can take judicial notice of them.",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1451,10 +1531,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "The complaint states that federal law enforcement never searched Zorro Ranch, and cites a federal email of 23 August 2019 — thirteen days after Epstein&#39;s death — that acknowledged a victim who may have been raped at the New Mexico residence while asserting there was no probable cause to search it.",
+   "title": "The complaint states that federal law enforcement never searched Zorro Ranch, and cites a federal email of 23 August 2019 — thirteen days after Epstein's death — that acknowledged a victim who may have been raped at the New Mexico residence while asserting there was no probable cause to search it.",
    "deck": "The filing quotes and Bates-cites the email (EFTA00165502) to a public justice.gov URL. The existence and content of that email are documented; whether the probable-cause assessment was correct is not a question this record settles.",
-   "body": [
-    "Quoted from the source: &ldquo;But federal law enforcement failed to ever search Zorro Ranch.&rdquo;"
+   "quote": "But federal law enforcement failed to ever search Zorro Ranch.",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1475,10 +1559,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "The federal district office&#39;s response, dated 30 June 2026 and delivered 14 July, stated it had neither collected nor retained investigative materials; the thirty-one accompanying pages consisted largely of a public news article, a public press release by a former governor, correspondence New Mexico had itself sent, and a list of follow-up questions.",
+   "title": "The federal district office's response, dated 30 June 2026 and delivered 14 July, stated it had neither collected nor retained investigative materials; the thirty-one accompanying pages consisted largely of a public news article, a public press release by a former governor, correspondence New Mexico had itself sent, and a list of follow-up questions.",
    "deck": "The filing enumerates the thirty-one pages item by item. The content of a production is a documentable fact; whether it satisfies the request is contested.",
-   "body": [
-    "Quoted from the source: &ldquo;neither collected nor retained any investigative materials&rdquo;"
+   "quote": "neither collected nor retained any investigative materials",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1500,9 +1588,13 @@ window.DZ = {
    ],
    "stamp": "documented",
    "title": "New Mexico states it is investigating potential felony offences including homicide, kidnapping, criminal sexual penetration, criminal sexual contact and human trafficking, under named provisions of the New Mexico criminal code.",
-   "deck": "The scope of the state&#39;s investigation is stated in its own formal request, with statutory citations. That an offence is under investigation is not an allegation that any identified person committed it, and none is recorded here.",
-   "body": [
-    "Quoted from the source: &ldquo;the state of New Mexico is investigating potential felony offenses, including but not limited to homicide, kidnapping, criminal sexual penetration, criminal sexual contact, and human trafficking&rdquo;"
+   "deck": "The scope of the state's investigation is stated in its own formal request, with statutory citations. That an offence is under investigation is not an allegation that any identified person committed it, and none is recorded here.",
+   "quote": "the state of New Mexico is investigating potential felony offenses, including but not limited to homicide, kidnapping, criminal sexual penetration, criminal sexual contact, and human trafficking",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1523,10 +1615,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "Asked whether the federal government would join New Mexico in seeking a modification of the protective orders it cited as the obstacle, so that the orders would expressly permit disclosure for law-enforcement purposes, a Deputy United States Attorney responded that such cooperation was &#39;unlikely&#39; and identified no path through which the two offices could work together.",
+   "title": "Asked whether the federal government would join New Mexico in seeking a modification of the protective orders it cited as the obstacle, so that the orders would expressly permit disclosure for law-enforcement purposes, a Deputy United States Attorney responded that such cooperation was 'unlikely' and identified no path through which the two offices could work together.",
    "deck": "The exchange is recited with dates and an attached exhibit. It is the difference between an obstacle and a choice: the stated impediment is one the objecting party declined to help remove.",
-   "body": [
-    "Quoted from the source: &ldquo;unlikely&rdquo;"
+   "quote": "unlikely",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1547,10 +1643,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "open",
-   "title": "Federal officials made public assurances of cooperation during the same period the requests went unanswered: a First Assistant United States Attorney said on 12 June 2026 &#39;I anticipate full cooperation&#39;, and a department spokesperson said on 7 July 2026 that it &#39;stands ready to provide necessary assistance&#39;.",
-   "deck": "The statements themselves are documented and dated. That they conflict with the conduct is New Mexico&#39;s characterisation, made in a pleading by an adverse party, and is not a finding of any court.",
-   "body": [
-    "Quoted from the source: &ldquo;[Attorney General Torrez] wants cooperation, we want to cooperate,&rdquo;"
+   "title": "Federal officials made public assurances of cooperation during the same period the requests went unanswered: a First Assistant United States Attorney said on 12 June 2026 'I anticipate full cooperation', and a department spokesperson said on 7 July 2026 that it 'stands ready to provide necessary assistance'.",
+   "deck": "The statements themselves are documented and dated. That they conflict with the conduct is New Mexico's characterisation, made in a pleading by an adverse party, and is not a finding of any court.",
+   "quote": "[Attorney General Torrez] wants cooperation, we want to cooperate,",
+   "tier": "credible_allegation",
+   "confidence": 0.8,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier credible_allegation, confidence 0.8, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1573,8 +1673,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "The federal filing states the released Epstein Files contain more than 13,000 references to Zorro Ranch and more than 5,000 references to New Mexico as locations where victims were trafficked, groomed and assaulted.",
    "deck": "Day one carried this figure from a news report at the 0.6 news ceiling. It is now sourced to the filing that asserts it, which is what a news report was reporting.",
-   "body": [
-    "Quoted from the source: &ldquo;The Epstein Files include over 13,000 references to Zorro Ranch and 5,000 references to New Mexico as locations where victims were trafficked, groomed, and assaulted.&rdquo;"
+   "quote": "The Epstein Files include over 13,000 references to Zorro Ranch and 5,000 references to New Mexico as locations where victims were trafficked, groomed, and assaulted.",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1595,10 +1699,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "The state&#39;s own formal request dates its search of the property to 9 March 2026.",
+   "title": "The state's own formal request dates its search of the property to 9 March 2026.",
    "deck": "A date the state gives in a signed request to federal officials. It contradicts the 1 March date this beat carried from news reporting; the primary document governs and the contradiction is recorded rather than silently overwritten.",
-   "body": [
-    "Quoted from the source: &ldquo;On March 9, 2026, the NMDOJ executed a search of the property and has since begun contacting potential victims and witnesses to develop a firsthand account of events.&rdquo;"
+   "quote": "On March 9, 2026, the NMDOJ executed a search of the property and has since begun contacting potential victims and witnesses to develop a firsthand account of events.",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1619,10 +1727,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "Then-Attorney General Hector Balderas asked the federal government on 15 October 2019 to begin seizing Epstein&#39;s New Mexico land holdings for the benefit of survivors.",
+   "title": "Then-Attorney General Hector Balderas asked the federal government on 15 October 2019 to begin seizing Epstein's New Mexico land holdings for the benefit of survivors.",
    "deck": "Quoted from an attached exhibit (Ex. 3 at 16). Establishes that the request was made and when; the property was instead sold at auction in 2023.",
-   "body": [
-    "Quoted from the source: &ldquo;explore initiating the process to seize Epstein&#39;s New Mexico land holdings for the eventual benefit of survivors of these acts and the people of the State of New Mexico&rdquo;"
+   "quote": "explore initiating the process to seize Epstein's New Mexico land holdings for the eventual benefit of survivors of these acts and the people of the State of New Mexico",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1645,8 +1757,12 @@ window.DZ = {
    "stamp": "documented",
    "title": "The complaint dates the federal stand-down request to a telephone call on 23 July 2019 and cites a federal record of that call in the publicly released Epstein Files.",
    "deck": "The date and the existence of a contemporaneous federal record of the call are established by the filing, which cites the underlying document by Bates number (EFTA00019183) at a public justice.gov URL. Day one carried this date from news reporting alone.",
-   "body": [
-    "Quoted from the source: &ldquo;During a subsequent telephone call on July 23, 2019, USDOJ told NMDOJ to stand down from its investigation into Epstein&#39;s potential criminal activity in New Mexico.&rdquo;"
+   "quote": "During a subsequent telephone call on July 23, 2019, USDOJ told NMDOJ to stand down from its investigation into Epstein's potential criminal activity in New Mexico.",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1667,10 +1783,14 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "The federal government asked New Mexico to file the formal Touhy request it later declined: on 1 April 2026 an Associate Deputy Attorney General affirmed the Department&#39;s commitment to assisting and requested that New Mexico submit a Touhy letter through standard channels.",
-   "deck": "New Mexico&#39;s own contemporaneous account, written to the federal officials who would have corrected it. The sequence — the request was invited, then refused — is what the document establishes.",
-   "body": [
-    "Quoted from the source: &ldquo;who affirmed the Department&#39;s commitment to assisting with the NMDOJ&#39;s ongoing investigation and requested that the NMDOJ submit a Touhy letter through standard channels&rdquo;"
+   "title": "The federal government asked New Mexico to file the formal Touhy request it later declined: on 1 April 2026 an Associate Deputy Attorney General affirmed the Department's commitment to assisting and requested that New Mexico submit a Touhy letter through standard channels.",
+   "deck": "New Mexico's own contemporaneous account, written to the federal officials who would have corrected it. The sequence — the request was invited, then refused — is what the document establishes.",
+   "quote": "who affirmed the Department's commitment to assisting with the NMDOJ's ongoing investigation and requested that the NMDOJ submit a Touhy letter through standard channels",
+   "tier": "documented_fact",
+   "confidence": 0.85,
+   "rounds": 1,
+   "families": [
+    "quote-checked against the filed PDF"
    ],
    "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
    "sources": [
@@ -1690,9 +1810,9 @@ window.DZ = {
    "id": "q-auction-structure",
    "beat": "nm-records",
    "q": "Was concealing the buyer behind a one-month-old LLC ordinary for this auction, and who else bid?",
-   "known": "San Rafael Ranch LLC was registered roughly a month before the purchase and the owners&#39; names were withheld. The concealment broke only via a street-name change and a tax contest, i.e. by accident rather than disclosure.",
-   "who": "The auction house · the Epstein estate&#39;s compensation administrators · NM Secretary of State",
-   "doc": "Auction records; the LLC&#39;s formation filing; the recorded warranty deed",
+   "known": "San Rafael Ranch LLC was registered roughly a month before the purchase and the owners' names were withheld. The concealment broke only via a street-name change and a tax contest, i.e. by accident rather than disclosure.",
+   "who": "The auction house · the Epstein estate's compensation administrators · NM Secretary of State",
+   "doc": "Auction records; the LLC's formation filing; the recorded warranty deed",
    "next": "Not scheduled — requires a records request",
    "opened": "14 Aug 2026",
    "status": "Open · not being pursued by anyone visible"
@@ -1701,8 +1821,8 @@ window.DZ = {
    "id": "q-evidence-loss",
    "beat": "nm-records",
    "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
-   "known": "The record now establishes that federal law enforcement never searched the property, and that on 23 August 2019 — thirteen days after the defendant&#39;s death ended the federal case — a federal email acknowledged a victim who may have been raped at the residence while asserting there was no probable cause for a search. The first search was conducted by the state on 9 March 2026, roughly six and a half years later, and reported excavation and altered substrate.",
-   "who": "FBI Albuquerque · the U.S. Attorney&#39;s Office for the District of New Mexico · whoever authored the 23 August 2019 assessment",
+   "known": "The record now establishes that federal law enforcement never searched the property, and that on 23 August 2019 — thirteen days after the defendant's death ended the federal case — a federal email acknowledged a victim who may have been raped at the residence while asserting there was no probable cause for a search. The first search was conducted by the state on 9 March 2026, roughly six and a half years later, and reported excavation and altered substrate.",
+   "who": "FBI Albuquerque · the U.S. Attorney's Office for the District of New Mexico · whoever authored the 23 August 2019 assessment",
    "doc": "The unredacted 23 August 2019 email (EFTA00165502) and any probable-cause analysis behind it",
    "next": "Not scheduled. It is not among the records the Touhy request enumerates.",
    "opened": "14 Aug 2026",
@@ -1714,8 +1834,8 @@ window.DZ = {
    "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
    "known": "The property changed hands at auction in 2023, was renamed, and unpermitted construction began. Investigators reported excavation and altered substrate inconsistent with the original construction timeline. The state did not have investigative access during that period.",
    "who": "NMDOJ investigators · Santa Fe County permitting · the current owners",
-   "doc": "The stop-work order and permit file; the state&#39;s search inventory from March 2026",
-   "next": "The New Mexico truth commission&#39;s subpoena returns",
+   "doc": "The stop-work order and permit file; the state's search inventory from March 2026",
+   "next": "The New Mexico truth commission's subpoena returns",
    "opened": "14 Aug 2026",
    "status": "Open"
   },
@@ -1725,8 +1845,8 @@ window.DZ = {
    "q": "Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?",
    "known": "The stated reason for asking New Mexico to stand down in July 2019 was the risk that parallel investigations would generate inconsistent statements. The federal defendant died on 10 August 2019, roughly two and a half weeks later, ending that prosecution. New Mexico alleges the promised information was never provided and is litigating for it in 2026 — six and a half years later.",
    "who": "The Justice Department · the SDNY prosecutors of record in 2019 · Todd Blanche",
-   "doc": "Any internal DOJ review of the 2019 referral commitment; the government&#39;s answer to the New Mexico complaint",
-   "next": "The government&#39;s response on the D.D.C. docket",
+   "doc": "Any internal DOJ review of the 2019 referral commitment; the government's answer to the New Mexico complaint",
+   "next": "The government's response on the D.D.C. docket",
    "opened": "14 Aug 2026",
    "status": "Open · never publicly asked"
   },
@@ -1734,10 +1854,10 @@ window.DZ = {
    "id": "q-touhy-gap",
    "beat": "nm-records",
    "q": "What happened inside the department between 11 May and 31 July 2026, while it publicly promised cooperation and produced nothing?",
-   "known": "A response was requested by 11 May. On 11 June a district office said &#39;Main Justice&#39; was preparing files; on 12 June a First Assistant United States Attorney said publicly &#39;I anticipate full cooperation&#39;; on 7 July a spokesperson said the department &#39;stands ready to provide necessary assistance&#39;. The production that arrived on 14 July contained a news article, a press release, and the state&#39;s own correspondence.",
+   "known": "A response was requested by 11 May. On 11 June a district office said 'Main Justice' was preparing files; on 12 June a First Assistant United States Attorney said publicly 'I anticipate full cooperation'; on 7 July a spokesperson said the department 'stands ready to provide necessary assistance'. The production that arrived on 14 July contained a news article, a press release, and the state's own correspondence.",
    "who": "The Office of the Deputy Attorney General · the Executive Office for United States Attorneys · SDNY",
    "doc": "Internal correspondence on the handling of the Touhy request between 3 May and 31 July 2026",
-   "next": "The government&#39;s response to the complaint is due 5 September 2026.",
+   "next": "The government's response to the complaint is due 5 September 2026.",
    "opened": "14 Aug 2026",
    "status": "Open · the gap is documented, its contents are not"
   }
@@ -1765,7 +1885,7 @@ window.DZ = {
    "d": "3 NOV",
    "beat": "nm-records",
    "t": "Texas Comptroller election",
-   "s": "The property&#39;s owner is a candidate; the office oversees state financial matters."
+   "s": "The property's owner is a candidate; the office oversees state financial matters."
   }
  ],
  "contradictions": [
@@ -1782,10 +1902,10 @@ window.DZ = {
    "id": "c-search-date",
    "beat": "nm-records",
    "opened": "14 Aug 2026",
-   "a": "The state&#39;s search of the property occurred on 1 March 2026.",
+   "a": "The state's search of the property occurred on 1 March 2026.",
    "asrc": "News reporting, carried by this beat on 13 August 2026",
-   "b": "The state&#39;s search of the property occurred on 9 March 2026.",
-   "bsrc": "The state&#39;s own Touhy letter of 3 May 2026, Exhibit 14 at 2"
+   "b": "The state's search of the property occurred on 9 March 2026.",
+   "bsrc": "The state's own Touhy letter of 3 May 2026, Exhibit 14 at 2"
   },
   {
    "id": "c-standdown",
@@ -1794,7 +1914,7 @@ window.DZ = {
    "a": "Parallel investigations risk inconsistent statements",
    "asrc": "Federal rationale for the stand-down request, July 2019",
    "b": "The federal prosecution ended on 10 August 2019, and the material was still withheld in 2026",
-   "bsrc": "New Mexico&#39;s complaint, filed 5 August 2026",
+   "bsrc": "New Mexico's complaint, filed 5 August 2026",
    "tier": "Documented fact against documented fact",
    "st": "Unreconciled. The stated reason expired roughly 18 days after it was given; the withholding outlasted it by more than six years.",
    "c": "0.6",

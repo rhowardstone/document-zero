@@ -21,17 +21,12 @@ API = "api"
 
 
 def _clean(obj):
-    """Undo the DOM escaping on the way into JSON.
+    """Kept as a no-op guard for legacy input.
 
-    render.py escapes source text at the boundary where ledger data becomes page
-    data, so index.html can use innerHTML without carrying stored XSS. The JSON
-    API is a DIFFERENT boundary with different rules: JSON has its own escaping,
-    and an agent reading api/query/timeline.json was being handed
-    "defendant&#39;s death" — markup for a consumer that renders no markup.
-
-    html.unescape is the exact inverse of that escaping, so text that genuinely
-    contained an ampersand round-trips correctly: "AT&T" escapes to "AT&amp;T"
-    and comes back as "AT&T".
+    The projection no longer escapes, so JSON gets the text as it is and this
+    has nothing to undo. It stays because an older ledger, or a hand-written
+    fixture, may still carry entities, and serving "defendant&#39;s death" to a
+    consumer that renders no markup is a bug either way.
     """
     if isinstance(obj, str):
         return html.unescape(obj)

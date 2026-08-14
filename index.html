@@ -330,11 +330,16 @@ footer.foot{border-top:1px solid var(--rule);background:var(--card);
 "use strict";
 const D = window.DZ || {beats:[],items:[],questions:[],triggers:[],contradictions:[],
                         edition:{},archive:[]};
-/* Everything in D was escaped in ledger/render.py at the boundary where ledger
-   data became page data, so entity text is what we want the parser to see.
-   Anything this file composes itself goes through `t()`. */
-const H  = (s) => s == null ? "" : String(s);
-const t  = (s) => H(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+/* EVERY string from the ledger goes through H() before it reaches innerHTML,
+   and H() escapes. This used to be an identity function on the contract that
+   ledger/render.py had already escaped at the other end. That contract failed
+   twice, and each failure was stored DOM XSS from a scraped headline.
+   Escaping at the point of insertion cannot be forgotten field by field: the
+   template literal cannot interpolate a ledger value without calling it. */
+const H = (s) => s == null ? "" : String(s)
+  .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+const t = H;   /* one escaper, not two */
 const el = (id) => document.getElementById(id);
 const by = (a, k) => a.find(x => x.id === k);
 const dot = ' <span class="dot">·</span> ';
@@ -344,6 +349,18 @@ const dot = ' <span class="dot">·</span> ';
    editor refused to publish still inflated the number next to "Records". The
    only defensible count is what this edition actually placed on the wire. */
 const RECORDS   = D.items.filter(i => i.kind === "wire");
+const LANES     = (D.edition && D.edition.counts) || {};
+/* Refusals have no record on the page BY DESIGN — showing the content would
+   defeat the refusal — so the only trace of them is the lane count. Every
+   visibility decision used to be `HELD.length || OMISSIONS.length`, which meant
+   an edition that refused three items rendered as one that refused nothing,
+   while the table two screens down said otherwise. */
+const REFUSED_N = (LANES.refused || 0) + (LANES.capped_out || 0) + (LANES.dropped || 0);
+/* Whether the edition was released at all. The page said "Every claim this
+   edition published" over a banner saying it was never published. */
+const LIVE      = !!(D.edition && D.edition.publish);
+const PUB       = LIVE ? "published" : "assembled";
+const PUBED     = LIVE ? "published" : "assembled but not released";
 const OMISSIONS = D.items.filter(i => i.kind === "omission");
 const MOVED     = D.beats.filter(b => b.status === "moved");
 const HELD      = D.beats.filter(b => b.status === "unresolved");
@@ -361,7 +378,8 @@ const ROUTES = [
   {id:"record", path:"/records",  label:"Records",    n:() => RECORDS.length},
   {id:"stand",  path:"/standing", label:"Standing record",
    n:() => D.questions.length + D.triggers.length + D.contradictions.length},
-  {id:"held",   path:"/held",     label:"Withheld",   n:() => HELD.length + OMISSIONS.length},
+  {id:"held",   path:"/held",     label:"Withheld",
+   n:() => HELD.length + OMISSIONS.length + REFUSED_N},
   {id:"method", path:"/method",   label:"Method"},
   {id:"api",    path:"/api",      label:"Agent API"},
 ];
@@ -396,11 +414,11 @@ function go() {
 
 /* ── Chrome ────────────────────────────────────────────────────────────── */
 function drawTabs(key) {
-  el("tabs").innerHTML = ROUTES.map(r => {
-    const n = r.n ? r.n() : null;
-    const cur = r.path === key || (key === "/beat" && r.path === "/")
-             || (key === "/q" && r.path === "/standing") ? ' aria-current="page"' : "";
-    return `<a href="#${r.path}"${cur}>${t(r.label)}${
+  el("tabs").innerHTML = ROUTES.map(rt => {
+    const n = rt.n ? rt.n() : null;
+    const cur = rt.path === key || (key === "/beat" && rt.path === "/")
+             || (key === "/q" && rt.path === "/standing") ? ' aria-current="page"' : "";
+    return `<a href="#${rt.path}"${cur}>${t(rt.label)}${
       n ? `<i>${n}</i>` : ""}</a>`;
   }).join("");
 }
@@ -487,10 +505,11 @@ function diffCard(b) {
     ${opened ? `<p style="font:400 13px/1.55 PublicSans;color:var(--ink2);margin:-4px 0 12px;
        max-width:var(--measure)">First appearance of this beat. Every field below entered
        the record today, so there is no earlier value to compare against.</p>` : ""}
-    ${rows.map(r => `<div class="row ${r.cls}">
-        <div class="k">${H(r.k)}</div>
-        <div class="v">${r.html}${uniform ? "" :
-          `<div style="margin-top:6px"><span class="tag ${r.tag}">${r.tl}</span></div>`}</div>
+    ${rows.map(row => `<div class="row ${row.cls}">
+        <div class="k">${H(row.k)}</div>
+        <div class="v">${row.html}${uniform ? "" :
+          `<div style="margin-top:6px"><span class="tag ${row.tag}">${row.tl}</span></div>`}
+        </div>
       </div>`).join("")}
     ${b.unchanged ? `<div class="unch">${b.unchanged} other field${
         b.unchanged === 1 ? "" : "s"} on this beat did not move.</div>` : ""}
@@ -527,9 +546,10 @@ function viewLedger() {
   ${recs ? `<section class="block">
     <h2 class="sec"><b>The evidence behind it</b>
       <span><a href="#/records">all ${RECORDS.length} →</a></span></h2>${recs}</section>` : ""}
-  ${(HELD.length || OMISSIONS.length) ? `<section class="block">
+  ${(HELD.length || OMISSIONS.length || REFUSED_N) ? `<section class="block">
     <h2 class="sec"><b>What did not publish</b><span><a href="#/held">detail →</a></span></h2>
-    ${HELD.map(heldCard).join("")}${OMISSIONS.map(omitCard).join("")}</section>` : ""}`;
+    ${HELD.map(heldCard).join("")}${OMISSIONS.map(omitCard).join("")}
+    ${refusedCard()}</section>` : ""}`;
 }
 
 /* ── Records ───────────────────────────────────────────────────────────── */
@@ -539,7 +559,6 @@ function recCard(i) {
     <span class="stamp ${t(i.stamp)}">${t(i.stamp === "documented" ? "Documented fact"
                                                                     : "Open / alleged")}</span>
     <h3>${H(i.title)}</h3>
-    ${i.why ? "" : ""}
     <div class="meta">
       ${i.beats.map(b => `<span>${H((by(D.beats, b) || {}).name || b)}</span>`).join(dot)}
       ${s.n ? dot + `<span class="src">${H(s.n)}</span>` : ""}
@@ -551,9 +570,10 @@ function viewRecords() {
   if (!RECORDS.length) return `<div class="card empty">This edition placed no record
     on the wire.</div>`;
   return `<h1 class="page">Records</h1>
-    <p class="sub">Every claim this edition published, each one addressable. A record
+    <p class="sub">Every claim this edition ${t(PUB)}, each one addressable. A record
       exists here only if it survived extraction by one model family and independent
-      checks by two others.</p>
+      checks by two others.${LIVE ? "" :
+      ` This edition was <b>${t(PUBED)}</b>; nothing below went out.`}</p>
     ${RECORDS.map(recCard).join("")}`;
 }
 
@@ -568,7 +588,10 @@ function viewRecord(id) {
   <div class="chips">${i.beats.map(b =>
     `<a class="chip" href="#/beat/${t(b)}">${H((by(D.beats, b) || {}).name || b)}</a>`).join("")}
   </div>
-  ${(i.body || []).map(p => `<blockquote>${H(p)}</blockquote>`).join("")}
+  ${i.quote ? `<blockquote>&ldquo;${H(i.quote)}&rdquo;
+     <cite>Quoted from the cited source. The ledger stores this text verbatim;
+       if it does not appear in the source, the claim should not be here.</cite>
+     </blockquote>` : ""}
 
   <section class="block" style="margin-top:26px">
     <h2 class="sec"><b>Provenance</b></h2>
@@ -715,20 +738,41 @@ function heldCard(b) {
 function omitCard(i) {
   return `<article class="card wh" style="border-left-color:var(--chg)">
     <div class="lab" style="color:var(--chg)">Covered, unchanged</div>
-    <h3>${H(i.who || i.title)}</h3><p>${H(i.short)}</p></article>`;
+    <h3>${H(i.who || i.title)}</h3>
+    <p>Reported heavily today, but the underlying state of <b>${H(i.beat_name)}</b>
+       did not change. Reason recorded: <b>${H(i.reason)}</b>.
+       ${i.claims_standing} claim(s) stand on this beat; none of them is new.</p></article>`;
 }
+function refusedCard() {
+  /* Deliberately contentless. A refused item's text is the thing the refusal
+     exists to keep off the page, so the reader gets the count and the gate,
+     never the claim. */
+  if (!REFUSED_N) return "";
+  const rows = [["refused", "refused outright by a safety gate"],
+                ["capped_out", "above the daily cap for its beat"],
+                ["dropped", "below the threshold for materiality"]]
+    .filter(([k]) => LANES[k]).map(([k, m]) => `${LANES[k]} ${t(m)}`);
+  return `<article class="card wh"><div class="lab">Refused</div>
+    <h3>${REFUSED_N} item${REFUSED_N === 1 ? "" : "s"} did not reach the page</h3>
+    <p>${rows.join("; ")}. The content of a refused item is not shown here: it is
+       the thing the refusal exists to withhold. The gates that can fire are
+       wrongdoing attributed to a private individual, identification of a private
+       individual, and criminal conduct alleged without corroboration.
+       <a href="#/method">What is refused and why →</a></p></article>`;
+}
+
 function viewHeld() {
   return `<h1 class="page">What did not publish</h1>
   <p class="sub">A ledger that only shows what it published is not auditable. These are
      the beats this edition refused, held, or judged to be recirculation — and the reason
      in each case. The refusal is part of the record.</p>
-  ${(HELD.length || OMISSIONS.length)
-    ? HELD.map(heldCard).join("") + OMISSIONS.map(omitCard).join("")
+  ${(HELD.length || OMISSIONS.length || REFUSED_N)
+    ? HELD.map(heldCard).join("") + OMISSIONS.map(omitCard).join("") + refusedCard()
     : `<div class="card empty">Nothing was held or refused in this edition.</div>`}
   <section class="block" style="margin-top:34px"><h2 class="sec"><b>Placement counts</b></h2>
     <div class="card" style="padding:15px 18px"><div class="tscroll"><table class="state">
     <tr><th>Lane</th><th>Meaning</th><th>Count</th></tr>
-    ${[["wire","Published to the record",""],
+    ${[["wire", LIVE ? "Published to the record" : "Cleared for the record; edition not released", ""],
        ["omissions","Heavily covered, nothing new on the record",""],
        ["holds","Withheld pending resolution",""],
        ["refused","Refused outright by a safety gate",""],

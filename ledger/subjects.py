@@ -80,6 +80,13 @@ ORG_CUES = (
     "gazette", "herald", "tribune", "chronicle", "observer", "standard", "mail",
     "guardian", "telegraph", "wire", "radio", "channel", "digest", "bulletin",
     "daily", "weekly", "today", "insider", "watch", "monitor", "record",
+    # Agency and organisation acronyms, admitted as org cues now that ALL-CAPS
+    # tokens can form a name candidate.
+    "doj", "fbi", "cia", "nsa", "dhs", "ice", "irs", "sec", "epa", "fda", "cdc",
+    "atf", "dea", "usdoj", "nmdoj", "sdny", "dnm", "ddc", "usao", "efta", "foia",
+    "gao", "omb", "hhs", "dod", "gsa", "nih", "nsf", "faa", "fcc", "ftc", "fema",
+    "nato", "un", "eu", "uk", "usa", "ap", "bbc", "cnn", "npr", "pbs", "nbc",
+    "abc", "cbs", "msnbc", "wsj", "nyt", "llp", "plc", "gmbh", "spa", "sa",
 )
 # Common non-name capitalised tokens: calendar words, jurisdictions, connectives.
 STOP_TOKENS = frozenset("""
@@ -174,9 +181,20 @@ def _has_common_token(name: str) -> bool:
 # Alternatives are ordered longest-first. The apostrophe branch has to allow an
 # EMPTY lowercase run, because "O’Brien" is a capital, no lowercase, then the
 # apostrophe — requiring a lowercase letter first dropped the name entirely.
-_TOK = (r"(?:[A-Z][a-zÀ-ɏ]*(?:['’-][A-Za-zÀ-ɏ]+)+"
-        r"|[A-Z][a-zÀ-ɏ]+"
-        r"|[A-Z]\.)")
+# The uppercase class is À-Þ as well as A-Z, and an ALL-CAPS run of 2+ letters
+# counts as a name token. Both were missing, and both erased a person from the
+# subject list entirely rather than misclassifying them: "DEBORAH VANCE lied
+# about the funds" and "Élodie Martin lied about the funds" each resolved to no
+# subject at all, so the private-person gate could not fire.
+#
+# Admitting ALL-CAPS tokens also admits acronyms, which is why the agency
+# acronyms below are org cues. That direction of error only adds refusals.
+_U = r"A-ZÀ-ÖØ-Þ"
+_L = r"a-zà-öø-ÿ"
+_TOK = (rf"(?:[{_U}][{_L}]*(?:['’-][{_U}{_L}][{_L}]*)+"
+        rf"|[{_U}][{_L}]+"
+        rf"|[{_U}]{{2,}}"
+        rf"|[{_U}]\.)")
 # A name: 2-4 capitalised tokens, allowing lowercase particles between them.
 _NAME_RE = re.compile(
     rf"\b{_TOK}(?:\s+(?:van|von|de|del|della|di|da|du|le|la|bin|al)\s+)?"
@@ -247,21 +265,62 @@ def _titled(text: str, name: str, pattern: re.Pattern) -> bool:
     if m0 and m0.end() < len(name):
         return True
     for m in re.finditer(re.escape(name), text or ""):
-        before = (text[max(0, m.start() - 60):m.start()])
-        if pattern.search(before) and pattern.search(before).end() >= len(before) - 2:
-            return True
-        # Also accept a title anywhere in the 60 chars before, since apposition
-        # ("Bill Richardson, then governor of New Mexico") is as establishing as
-        # a prefix. Deliberately generous: this only ever grants public status
-        # to someone the text itself identifies by office.
+        # Only the CURRENT sentence counts. Scanning a flat 60-character window
+        # let a title leak across a full stop: in "CEO Robert Jones spoke today.
+        # Alice Smith lied about the charity", the CEO title fell inside Alice
+        # Smith's window and made a private individual a public figure, which
+        # published an accusation about her.
+        before = _sentence_before(text, m.start())
         if pattern.search(before):
             return True
-    # "Richardson, the governor, said" — title after the name.
-    for m in re.finditer(re.escape(name), text or ""):
-        after = text[m.end():m.end() + 60]
-        if pattern.search(after):
+        after = _sentence_after(text, m.end())
+        # A title AFTER the name must be an apposition attached to it —
+        # "Richardson, the governor, said" — not merely the next clause about
+        # somebody else.
+        if re.match(r"\s*,\s*(?:the\s+|then[- ])?" + pattern.pattern, after, re.I):
             return True
     return False
+
+
+_SENT_END = re.compile(r"[.!?][\s\"\u2019\u201d)]|[;\u2014]")
+
+# A period after one of these is an abbreviation, not a sentence end. Without
+# this, "Rep. Robert Garcia" splits after "Rep." and the title that establishes
+# public status is cut off from the name it belongs to — turning a sitting
+# congressman back into a private individual.
+_ABBREV = frozenset("""
+rep sen gov mr mrs ms dr st jr sr lt gen col adm hon prof atty dept no vs v
+u.s us dist ct fed supp cir inc llc ltd co corp
+""".split())
+
+
+def _is_real_boundary(seg: str, m) -> bool:
+    if m.group(0)[0] not in ".!?":
+        return True                        # ';' and em-dash always split
+    before = seg[:m.start()]
+    word = re.search(r"([A-Za-z.]+)$", before)
+    if not word:
+        return True
+    w = word.group(1).lower().rstrip(".")
+    # A lone capital is an initial: "J. Edgar Hoover".
+    return not (w in _ABBREV or len(w) == 1)
+
+
+def _boundaries(seg: str):
+    return [m for m in _SENT_END.finditer(seg) if _is_real_boundary(seg, m)]
+
+
+def _sentence_before(text: str, idx: int, window: int = 70) -> str:
+    """The text just before `idx`, cut at the nearest sentence boundary."""
+    seg = text[max(0, idx - window):idx]
+    bs = _boundaries(seg)
+    return seg[bs[-1].end():] if bs else seg
+
+
+def _sentence_after(text: str, idx: int, window: int = 70) -> str:
+    seg = text[idx:idx + window]
+    bs = _boundaries(seg)
+    return seg[:bs[0].start()] if bs else seg
 
 
 _WORD_RE = re.compile(r"[A-Za-zÀ-ɏ]{3,}")
@@ -298,6 +357,21 @@ def _depossess(name: str) -> str:
     return re.sub(r"['’]s\b", "", name).strip()
 
 
+def _strip_title(name: str) -> str:
+    """"Judge Emmet Sullivan" -> "Emmet Sullivan"; "CEO Robert Jones" -> "Robert Jones".
+
+    The title is evidence about the person, not part of their name. Recording it
+    inside the name also breaks roster lookup, which matches on the name.
+    """
+    for pat in (_TITLE_RE, _FIGURE_RE):
+        m = pat.match(name)
+        if m and m.end() < len(name):
+            rest = name[m.end():].strip(" ,")
+            if len(rest.split()) >= 2:
+                return rest
+    return name
+
+
 def resolve(claim: dict, roster: dict | None = None) -> list[Subject]:
     """Every person the claim appears to be about, with a status.
 
@@ -318,25 +392,36 @@ def resolve(claim: dict, roster: dict | None = None) -> list[Subject]:
     for text in fields:
         titled_text = is_title_case(text)
         for raw in candidate_names(text):
-            name = _depossess(raw)
+            name = _strip_title(_depossess(raw))
             low = name.lower()
             if low in seen or len(name.split()) < 2:
                 continue
             if low in roster:
                 status = roster[low]
-            elif low in parties or any(low in p or p in low for p in parties):
+            elif low in parties:
+                # EXACT match only. Substring matching made "Alice Smith" a named
+                # party because a caption elsewhere in the text said "Smith v.
+                # Jones" — and a bare surname in a caption does not tell you
+                # WHICH Smith, so it cannot establish that this person is a party.
                 status = "named_party"
             elif _titled(text, raw, _TITLE_RE):
                 status = "public_official"
             elif _titled(text, raw, _FIGURE_RE):
                 status = "public_figure"
-            elif titled_text:
-                # No evidence of public status AND no evidence this is a person:
-                # in Title Case the capitals that produced this candidate are
-                # just how headlines are written. Inventing a private individual
-                # here does not protect anyone — it only suppresses the claim.
-                continue
             else:
+                # Unknown means private, and private means the gate fires. This
+                # branch previously DROPPED the subject when the surrounding text
+                # was Title Case, on the theory that headline capitals are not
+                # evidence of a proper noun. That was backwards: it meant
+                # "Alice Smith: Allegedly Lied About Charity Funds" resolved to
+                # no subject at all, so the private-person gate could not fire
+                # and the accusation published.
+                #
+                # Casing is a reason to be UNSURE, and this system resolves
+                # uncertainty by refusing. The cost is that a headline fragment
+                # can still be mistaken for a person and suppress an
+                # institutional story; that error is recoverable and the other
+                # one is not.
                 status = "unknown"
             seen.add(low)
             subjects.append(Subject(name, status))

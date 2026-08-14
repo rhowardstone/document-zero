@@ -220,3 +220,85 @@ def test_scraper_furniture_is_not_a_person():
 def test_headline_evaluative_language_is_not_a_person():
     for junk in ("Absolutely Reprehensible", "Nasty As", "Shocking Circumstances"):
         assert candidate_names(f"{junk} conduct was alleged.") == [], junk
+
+
+# ── The harmful direction: a private individual escaping the gate ────────────
+# Every case below published an accusation about a private person before it was
+# fixed. Over-refusal is the intended failure; this is the other one.
+
+def test_a_headline_cased_accusation_still_protects_the_person():
+    """Casing is a reason to be unsure, and unsure means refuse. Dropping the
+    subject because the text was Title Case disabled the gate entirely."""
+    claim = c("Alice Smith: Allegedly Lied About Charity Funds In Community Work")
+    d = refusal_check(claim, resolve(claim))
+    assert d.allowed is False, [(s.name, s.status) for s in resolve(claim)]
+    assert d.gate == "wrongdoing_by_private_individual"
+
+
+def test_a_title_does_not_leak_across_a_sentence_boundary():
+    """"CEO Robert Jones spoke today. Alice Smith lied about the charity." made
+    Alice Smith a public figure because CEO fell inside a flat 60-char window."""
+    claim = c("CEO Robert Jones spoke today. Alice Smith lied about the charity.")
+    got = {s.name: s.status for s in resolve(claim)}
+    assert got["Robert Jones"] == "public_figure"
+    assert got["Alice Smith"] == "unknown", got
+    assert refusal_check(claim, resolve(claim)).allowed is False
+
+
+def test_a_bare_surname_in_a_caption_does_not_make_someone_a_party():
+    """"Smith v. Jones" does not tell you WHICH Smith."""
+    claim = c("Smith v. Jones was cited. Alice Smith lied about the charity.")
+    got = {s.name: s.status for s in resolve(claim)}
+    assert got.get("Alice Smith") == "unknown", got
+    assert refusal_check(claim, resolve(claim)).allowed is False
+
+
+def test_a_doctorate_is_not_an_office():
+    s_ = resolve(c("Dr. Robert Garcia concealed the memo."))
+    assert all(not x.is_public for x in s_), s_
+
+
+def test_an_abbreviated_title_survives_sentence_splitting():
+    """A period after "Rep." is an abbreviation, not a sentence end."""
+    # "Dr." is deliberately absent: a physician is not a public official, and a
+    # doctorate is not an office. Someone titled only "Dr." stays protected.
+    for pre in ("Rep.", "Sen.", "Gov."):
+        s_ = resolve(c(f"{pre} Robert Garcia concealed the memo."))
+        assert any(x.is_public for x in s_), (pre, s_)
+
+
+def test_apposition_after_the_name_still_grants_status():
+    s_ = resolve(c("Bill Richardson, then governor of New Mexico, was briefed."))
+    assert next(x for x in s_ if x.name == "Bill Richardson").is_public
+
+
+def test_a_following_clause_about_someone_else_does_not_grant_status():
+    claim = c("Alice Smith lied about the charity. The governor responded.")
+    assert {s.name: s.status for s in resolve(claim)}.get("Alice Smith") == "unknown"
+
+
+def test_an_all_caps_name_is_not_erased():
+    """Erasure is as harmful as misclassification: no subject, no gate."""
+    claim = c("DEBORAH VANCE lied about the missing funds.")
+    assert refusal_check(claim, resolve(claim)).allowed is False
+
+
+def test_a_non_ascii_capital_is_not_erased():
+    for n in ("Élodie Martin", "Ángela Rojas", "Øystein Dahl"):
+        claim = c(f"{n} lied about the missing funds.")
+        assert refusal_check(claim, resolve(claim)).allowed is False, n
+
+
+def test_agency_acronyms_are_still_organisations_not_people():
+    for junk in ("DOJ Accused", "FBI Albuquerque", "SDNY Prosecutors", "NMDOJ Investigators"):
+        assert candidate_names(f"{junk} withheld the file.") == [], junk
+
+
+def test_institutional_accountability_survives_all_the_person_fixes():
+    """The whole point of the tuning: scrutiny pointed up must still publish."""
+    for headline in ("Trump DOJ Accused of Noncompliance After Hearing",
+                     "FBI Withheld Records From State Investigators",
+                     "Senate Report Details Bank Concerns Over Suspicious Transfers"):
+        claim = c(headline, source_type="documentation")
+        assert refusal_check(claim, resolve(claim)).allowed is True, \
+            (headline, [(s.name, s.status) for s in resolve(claim)])

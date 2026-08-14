@@ -21,23 +21,37 @@ STATUS_QUIET = "quiet"
 
 
 def esc(text) -> str:
-    """Escape anything that came from a source before it can reach the DOM.
+    """Escape text for HTML. Retained for callers that build markup themselves.
 
-    Source text is hostile by assumption at ingest, and that assumption has to
-    survive all the way to the page: quotes, justifications and URLs were being
-    interpolated raw into fields the site renders with innerHTML, so a scraped
-    headline could carry stored DOM XSS. Escaping happens here, at the boundary
-    where ledger data becomes page data.
+    NOTE: the projection below no longer escapes. Escaping used to happen here,
+    at the boundary where ledger data became page data, and the page trusted
+    that it had. That contract failed twice — once for record fields and once
+    for the hold reason — and each failure was stored DOM XSS. It is the wrong
+    place for the guarantee: the generator has to remember, on every field,
+    forever, and the consumer cannot tell whether it did.
+
+    So the projection now emits DATA, index.html escapes at the point of DOM
+    insertion, and the JSON API serves the text as it actually is. Forgetting is
+    no longer possible, because there is nothing to remember.
     """
     return (str(text if text is not None else "")
             .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             .replace('"', "&quot;").replace("'", "&#39;"))
 
 
+def clean(text) -> str:
+    """Normalise to a string without escaping. Data, not markup."""
+    return str(text if text is not None else "")
+
+
 def safe_url(url) -> str:
-    """Only http(s) links survive. javascript: and data: are neutralised."""
+    """Only http(s) links survive. javascript: and data: are neutralised.
+
+    This is VALIDATION, not escaping, so it stays here: whether a scheme is
+    allowed is a property of the link, and the page cannot re-derive it.
+    """
     u = str(url or "").strip()
-    return esc(u) if u.lower().startswith(("http://", "https://")) else "#"
+    return u if u.lower().startswith(("http://", "https://")) else "#"
 
 
 def _read(p: Path):
@@ -119,10 +133,16 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                 "stamp": {"documented_fact": "documented",
                           "credible_allegation": "open",
                           "question": "open"}.get(c.get("tier"), "open"),
-                "title": esc(c.get("claim_text", "")),
-                "deck": esc(c.get("confidence_justification", "")),
-                "body": [f'Quoted from the source: &ldquo;{esc(c.get("quote",""))}&rdquo;'],
-                "derived": esc(
+                "title": clean(c.get("claim_text", "")),
+                "deck": clean(c.get("confidence_justification", "")),
+                # The quote alone. Presentation — quotation marks, attribution
+                # line — belongs to whatever renders it, not to the projection.
+                "quote": clean(c.get("quote", "")),
+                "tier": clean(c.get("tier")),
+                "confidence": c.get("confidence"),
+                "rounds": c.get("verification_rounds"),
+                "families": list(c.get("verifier_families") or []),
+                "derived": (
                     f"tier {c.get('tier')}, confidence {c.get('confidence')}, "
                     f"survived {c.get('verification_rounds', '?')} verification "
                     f"round(s) on {', '.join(c.get('verifier_families') or []) or 'n/a'}"),
@@ -141,12 +161,11 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                 "id": f"{b.id}:omission", "kind": "omission", "beats": [b.id],
                 "who": b.name, "stamp": None,
                 "title": f"{b.name}: covered again, nothing new on the record",
-                "short": (f"Reported heavily today, but the underlying state of "
-                          f"<b>{b.name}</b> did not change. Reason recorded: "
-                          f"<b>{placement.get('reason', 'recirculation')}</b>."),
-                "body": [f"The editor placed this beat in the omissions lane because "
-                         f"the day's coverage restated what was already on the record. "
-                         f"{len(claims)} claim(s) stand on this beat; none of them is new."],
+                # Fields, not a pre-built sentence with <b> tags in it. The page
+                # composes the sentence; the projection states the facts.
+                "beat_name": b.name,
+                "reason": clean(placement.get("reason", "recirculation")),
+                "claims_standing": len(claims),
                 "derived": f"placed by the editor as {placement.get('reason','recirculation')}",
                 "sources": [], "corroboration": 0, "questions": [],
             })
@@ -163,19 +182,19 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
             "lastChange": (max(_days(history)) if history else "—"),
             "events": len(claims),
             "summary": f"{len(claims)} claim(s) on record.",
-            "state": [{"k": esc(f.get("k")), "v": esc(f.get("v")),
-                       "since": esc(f.get("since")), "flag": f.get("flag")}
+            "state": [{"k": clean(f.get("k")), "v": clean(f.get("v")),
+                       "since": clean(f.get("since")), "flag": f.get("flag")}
                       for f in (state or {}).get("fields", [])],
-            "history": [{"d": esc(h.get("d")), "c": esc(h.get("c")), "s": esc(h.get("s"))}
+            "history": [{"d": clean(h.get("d")), "c": clean(h.get("c")), "s": clean(h.get("s"))}
                         for h in sorted(history, key=lambda h: str(h.get("d") or ""),
                                         reverse=True)],
             # What actually changed today, in before -> after form. This is the
             # thing the whole system exists to produce; the page leads with it.
-            "changes": [{"k": esc(c.get("k")), "from": esc(c.get("from")),
-                         "to": esc(c.get("to"))} for c in placement.get("changes", [])],
-            "added": [{"k": esc(a.get("k")), "v": esc(a.get("v"))}
+            "changes": [{"k": clean(c.get("k")), "from": clean(c.get("from")),
+                         "to": clean(c.get("to"))} for c in placement.get("changes", [])],
+            "added": [{"k": clean(a.get("k")), "v": clean(a.get("v"))}
                       for a in placement.get("added", [])],
-            "removed": [{"k": esc(x.get("k")), "v": esc(x.get("v"))}
+            "removed": [{"k": clean(x.get("k")), "v": clean(x.get("v"))}
                         for x in placement.get("removed", [])],
             "unchanged": placement.get("unchanged", 0),
             "unknown": _unknowns(placement, claims),
@@ -252,22 +271,7 @@ def _collection(root: Path, name: str) -> list:
     d = root / name
     if not d.exists():
         return []
-    # Escaped like every other path out of the ledger. Questions, triggers and
-    # contradictions are ledger objects a model can write, so "these are ours"
-    # is not a safety property — it is an assumption that holds only until an
-    # agent writes the first one.
-    return [esc_deep(o) for o in (_read(f) for f in sorted(d.glob("*.json"))) if o]
-
-
-def esc_deep(obj):
-    """Escape every string in a nested structure, leaving shape intact."""
-    if isinstance(obj, str):
-        return esc(obj)
-    if isinstance(obj, dict):
-        return {k: esc_deep(v) for k, v in obj.items()}
-    if isinstance(obj, list):
-        return [esc_deep(v) for v in obj]
-    return obj
+    return [o for o in (_read(f) for f in sorted(d.glob("*.json"))) if o]
 
 
 def _distinct_publishers(sources) -> int:
@@ -288,9 +292,9 @@ def _identity(claim: dict) -> str:
 
 def _source_of(claim: dict) -> dict:
     url = claim.get("source_url") or "#"
-    return {"n": esc(_host(url)), "u": safe_url(url),
-            "t": esc(claim.get("source_type", "misc")),
-            "c": esc(str(claim.get("confidence", "")))}
+    return {"n": _host(url), "u": safe_url(url),
+            "t": clean(claim.get("source_type", "misc")),
+            "c": clean(claim.get("confidence", ""))}
 
 
 def _host(url: str) -> str:
@@ -302,7 +306,7 @@ def _unknowns(rec, claims) -> list:
     """What the page must admit it does not know. Never omitted."""
     out = []
     if rec.get("reason"):
-        out.append(f"Held: {rec['reason']}")
+        out.append(f"Held: {clean(rec['reason'])}")
     n = rec.get("rejected_claims") or 0
     if n:
         out.append(f"{n} extracted claim(s) failed validation and were discarded.")
