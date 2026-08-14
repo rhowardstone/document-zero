@@ -51,3 +51,16 @@ def test_an_explicit_source_type_still_wins():
     r = {"url": "https://www.reuters.com/x", "title": "T", "snippet": "b",
          "source_name": "Reuters", "published_at": "2026-08-14T03:00:00Z"}
     assert normalise(r, BEATS, now="n", source_type="techreport")["source_type"] == "techreport"
+
+
+def test_the_hash_covers_the_body_not_just_the_metadata():
+    """Regression: hashing url+title+snippet is link provenance. Two different
+    bodies with identical metadata collided, and an edited page was undetectable."""
+    a = dict(RAW, full_text="the original body")
+    b = dict(RAW, full_text="a materially different body")
+    assert content_sha(a) != content_sha(b)
+
+def test_the_body_is_retained_so_a_quote_stays_checkable():
+    s = normalise(dict(RAW, full_text="the full article body"), BEATS, now="n")
+    assert s["full_text"] == "the full article body"
+    assert s["retrieved_at"] == "n"

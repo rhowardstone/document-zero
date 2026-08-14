@@ -3,8 +3,8 @@ from ledger.placement import classify, Placement, PlacementInput
 from ledger.recirculation import Verdict
 from ledger.diff import diff_state
 
-S1 = {"beat":"b","as_of":"1","fields":[{"k":"x","v":"1"},{"k":"y","v":"2"}]}
-S2 = {"beat":"b","as_of":"2","fields":[{"k":"x","v":"CHANGED"},{"k":"y","v":"2"}]}
+S1 = {"beat":"b","as_of":"1","fields":[{"k":"x","v":"1","claims":["a"]},{"k":"y","v":"2","claims":["b"]}]}
+S2 = {"beat":"b","as_of":"2","fields":[{"k":"x","v":"CHANGED","claims":["a"]},{"k":"y","v":"2","claims":["b"]}]}
 MOVED = diff_state(S1, S2)
 STILL = diff_state(S1, S1)
 
@@ -33,8 +33,8 @@ def test_a_failed_cascade_is_held():
     r = classify(inp(cascade_survived=False))
     assert r.placement is Placement.HOLD and r.reason == "consensus_failure"
 
-def test_recirculation_moves_an_item_to_the_omissions_lane():
-    r = classify(inp(recirculation=Verdict.RECIRCULATION))
+def test_recirculation_moves_an_unchanged_item_to_the_omissions_lane():
+    r = classify(inp(delta=STILL, recirculation=Verdict.RECIRCULATION))
     assert r.placement is Placement.OMISSION and r.reason == "recirculation"
 
 def test_no_state_change_drops_the_item_entirely():
@@ -46,5 +46,16 @@ def test_recirculation_with_no_state_change_is_still_an_omission():
     assert r.placement is Placement.OMISSION
 
 def test_hold_outranks_omission():
-    r = classify(inp(recirculation=Verdict.RECIRCULATION, single_root=True))
+    r = classify(inp(delta=STILL, recirculation=Verdict.RECIRCULATION, single_root=True))
     assert r.placement is Placement.HOLD
+
+
+def test_a_material_change_outranks_recirculation():
+    """Regression: a beat whose state actually moved was labelled 'covered again,
+    nothing new' — publishing a false statement about the record."""
+    r = classify(inp(delta=MOVED, recirculation=Verdict.RECIRCULATION))
+    assert r.placement is Placement.WIRE
+
+def test_recirculation_still_applies_when_nothing_changed():
+    r = classify(inp(delta=STILL, recirculation=Verdict.RECIRCULATION))
+    assert r.placement is Placement.OMISSION

@@ -8,8 +8,9 @@ CFG = "config/beats.yaml"
 def led(tmp_path):
     l = Ledger(tmp_path / "data")
     l.put_state("compliance", {"beat": "compliance", "as_of": "2026-08-14", "fields": [
-        {"k": "Contempt", "v": "Noticed", "since": "13 Aug", "flag": "hot"},
-        {"k": "Notes", "v": "Withheld", "since": "13 Aug"}]})
+        {"k": "Contempt", "v": "Noticed", "since": "13 Aug", "flag": "hot",
+         "claims": ["compliance-1"]},
+        {"k": "Notes", "v": "Withheld", "since": "13 Aug", "claims": ["compliance-1"]}]})
     l.append_history("compliance", {"d": "2026-08-14", "c": "Contempt → Noticed", "s": "1 claim"})
     l.put_claim({"id": "compliance-1", "beat": "compliance",
                  "claim_text": "A judge threatened sanctions.", "quote": "threatens DOJ sanctions",
@@ -112,8 +113,8 @@ def test_one_claim_on_several_beats_renders_once(tmp_path):
     for beat in ("compliance", "nm-records", "epstein-network"):
         l.put_claim(dict(shared, id=f"{beat}-1", beat=beat))
     Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
-        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
-        "counts": {}, "publish": False})
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": b, "beat": b} for b in ("compliance", "nm-records", "epstein-network")]})
     d = build(l.root, CFG, "2026-08-14")
     same = [i for i in d["items"] if i["title"] == "The same finding."]
     assert len(same) == 1, "one finding is one record"
@@ -128,8 +129,8 @@ def test_distinct_claims_from_the_same_source_stay_separate(tmp_path):
     l.put_claim(dict(base, id="c1", claim_text="First", quote="first quote"))
     l.put_claim(dict(base, id="c2", claim_text="Second", quote="second quote"))
     Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
-        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
-        "counts": {}, "publish": False})
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance"}]})
     assert len(build(l.root, CFG, "2026-08-14")["items"]) == 2
 
 
@@ -163,8 +164,8 @@ def test_the_same_finding_from_several_outlets_is_one_record_with_several_source
         l.put_claim(dict(base, id=f"c{i}", quote=f"quote {i}",
                          source_sha=f"{i}"*64, source_url=f"https://{host}/x"))
     Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
-        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
-        "counts": {}, "publish": False})
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance"}]})
     items = build(l.root, CFG, "2026-08-14")["items"]
     assert len(items) == 1, "one finding is one record"
     assert items[0]["corroboration"] == 3
@@ -179,8 +180,8 @@ def test_the_same_outlet_twice_does_not_inflate_corroboration(tmp_path):
     l.put_claim(dict(base, id="c1", quote="q1", source_sha="a"*64))
     l.put_claim(dict(base, id="c2", quote="q2", source_sha="b"*64))
     Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
-        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
-        "counts": {}, "publish": False})
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance"}]})
     items = build(l.root, CFG, "2026-08-14")["items"]
     assert len(items) == 1 and items[0]["corroboration"] == 1
 
@@ -191,8 +192,8 @@ def test_sources_show_the_publisher_not_the_raw_url(tmp_path):
                  "confidence": 0.6, "confidence_justification": "j",
                  "tier": "credible_allegation", "extracted_by": "t", "extracted_at": "n"})
     Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
-        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
-        "counts": {}, "publish": False})
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance"}]})
     assert build(l.root, CFG, "2026-08-14")["items"][0]["sources"][0]["n"] == "reuters.com"
 
 
@@ -208,8 +209,8 @@ def test_corroboration_counts_publishers_not_urls(tmp_path):
     l.put_claim(dict(base, id="c9", quote="q9", source_sha="9"*64,
                      source_url="https://apnews.com/real"))
     Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
-        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
-        "counts": {}, "publish": False})
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance"}]})
     it = build(l.root, CFG, "2026-08-14")["items"][0]
     assert len(it["sources"]) == 4
     assert it["corroboration"] == 2, "bing.com x3 + apnews.com = two publishers"
@@ -271,3 +272,80 @@ def test_empty_rails_stay_empty_rather_than_erroring(tmp_path):
     l = Ledger(tmp_path / "data"); _editor(l)
     d = build(l.root, CFG, "2026-08-14")
     assert d["questions"] == [] and d["triggers"] == [] and d["contradictions"] == []
+
+
+# ===========================================================================
+# Regressions from an adversarial external review. Each of these was a real
+# defect in shipped code, not a hypothetical.
+# ===========================================================================
+
+def test_hostile_source_text_cannot_reach_the_dom(tmp_path):
+    """Stored DOM XSS: scraped text was interpolated raw into fields the site
+    renders with innerHTML."""
+    l = Ledger(tmp_path / "data")
+    l.put_claim({"id": "c1", "beat": "compliance",
+                 "claim_text": '<img src=x onerror="alert(1)">',
+                 "quote": "</script><script>alert(2)</script>",
+                 "source_type": "news", "source_url": "https://apnews.com/x",
+                 "confidence": 0.6,
+                 "confidence_justification": '"><svg onload=alert(3)>',
+                 "tier": "credible_allegation", "extracted_by": "t", "extracted_at": "n"})
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance"}]})
+    it = build(l.root, CFG, "2026-08-14")["items"][0]
+    blob = json.dumps(it)
+    assert "<img" not in blob and "<script" not in blob and "<svg" not in blob
+    assert "onerror" not in blob or "&" in it["title"]
+    assert "&lt;img" in it["title"]
+
+def test_a_javascript_url_is_neutralised(tmp_path):
+    l = Ledger(tmp_path / "data")
+    l.put_claim({"id": "c1", "beat": "compliance", "claim_text": "X", "quote": "q",
+                 "source_type": "misc", "source_url": "javascript:alert(1)",
+                 "confidence": 0.5, "confidence_justification": "j",
+                 "tier": "credible_allegation", "extracted_by": "t", "extracted_at": "n"})
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance"}]})
+    assert build(l.root, CFG, "2026-08-14")["items"][0]["sources"][0]["u"] == "#"
+
+def test_hostile_state_and_history_are_escaped_too(tmp_path):
+    l = Ledger(tmp_path / "data")
+    l.put_state("compliance", {"beat": "compliance", "as_of": "2026-08-14", "fields": [
+        {"k": "<b>k</b>", "v": "<script>x</script>", "since": "now", "claims": ["c1"]},
+        {"k": "ok", "v": "fine", "since": "now", "claims": ["c1"]}]})
+    l.append_history("compliance", {"d": "2026-08-14", "c": "<img src=x>", "s": "s"})
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
+        "counts": {}, "publish": False})
+    b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
+    assert "<script" not in json.dumps(b) and "<img" not in json.dumps(b)
+
+def test_a_held_beats_claims_never_reach_the_wire(tmp_path):
+    """The renderer was bypassing the editor entirely: every stored claim was
+    emitted as wire regardless of lane, which falsified the system's core claim."""
+    l = Ledger(tmp_path / "data")
+    l.put_claim({"id": "c1", "beat": "compliance", "claim_text": "Held finding.",
+                 "quote": "q", "source_type": "news", "source_url": "https://apnews.com/x",
+                 "confidence": 0.6, "confidence_justification": "j",
+                 "tier": "credible_allegation", "extracted_by": "t", "extracted_at": "n"})
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [], "omissions": [],
+        "holds": [{"id": "compliance", "beat": "compliance", "reason": "single_root_multi_source"}],
+        "counts": {}, "publish": False})
+    d = build(l.root, CFG, "2026-08-14")
+    assert not [i for i in d["items"] if i["kind"] == "wire"]
+
+def test_a_recirculating_beats_claims_never_reach_the_wire(tmp_path):
+    l = Ledger(tmp_path / "data")
+    l.put_claim({"id": "c1", "beat": "flock", "claim_text": "Old news.", "quote": "q",
+                 "source_type": "news", "source_url": "https://apnews.com/x",
+                 "confidence": 0.6, "confidence_justification": "j",
+                 "tier": "credible_allegation", "extracted_by": "t", "extracted_at": "n"})
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [], "holds": [],
+        "omissions": [{"id": "flock", "beat": "flock", "reason": "recirculation"}],
+        "counts": {}, "publish": False})
+    kinds = {i["kind"] for i in build(l.root, CFG, "2026-08-14")["items"]}
+    assert kinds == {"omission"}, "a beat cannot both say 'nothing new' and publish claims"

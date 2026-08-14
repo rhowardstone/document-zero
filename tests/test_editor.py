@@ -5,8 +5,8 @@ from ledger.diff import diff_state
 from ledger.recirculation import Verdict
 from ledger.store import Ledger
 
-S1 = {"beat":"hormuz","as_of":"1","fields":[{"k":"x","v":"1"},{"k":"y","v":"2"}]}
-S2 = {"beat":"hormuz","as_of":"2","fields":[{"k":"x","v":"CHANGED"},{"k":"y","v":"2"}]}
+S1 = {"beat":"hormuz","as_of":"1","fields":[{"k":"x","v":"1","claims":["a"]},{"k":"y","v":"2","claims":["b"]}]}
+S2 = {"beat":"hormuz","as_of":"2","fields":[{"k":"x","v":"CHANGED","claims":["a"]},{"k":"y","v":"2","claims":["b"]}]}
 
 def res(beat="hormuz", moved=True, **kw):
     d = diff_state(S1, S2 if moved else S1)
@@ -26,10 +26,15 @@ def test_each_refusal_becomes_its_own_counted_record():
     assert {r["reason"] for r in ref} == {"wrongdoing_by_private_individual",
                                           "uncorroborated_criminal_conduct"}
 
-def test_recirculation_on_a_beat_routes_it_to_the_omissions_lane():
-    recs = build_records([res()], clusters={"hormuz": Verdict.RECIRCULATION},
+def test_recirculation_on_an_unchanged_beat_routes_it_to_the_omissions_lane():
+    recs = build_records([res(moved=False)], clusters={"hormuz": Verdict.RECIRCULATION},
                          policy={}, beat_meta={})
     assert [r["placement"].value for r in recs] == ["omission"]
+
+def test_recirculation_does_not_suppress_a_beat_that_actually_moved():
+    recs = build_records([res(moved=True)], clusters={"hormuz": Verdict.RECIRCULATION},
+                         policy={}, beat_meta={})
+    assert [r["placement"].value for r in recs] == ["wire"]
 
 def test_a_beat_whose_agent_errored_is_held_not_silently_dropped():
     recs = build_records([AgentResult(beat="fed", error="boom", delta=diff_state(S1, S1))],

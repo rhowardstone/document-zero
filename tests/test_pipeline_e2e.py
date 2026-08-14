@@ -32,8 +32,10 @@ def agree(n, f): return Pass(n, f, lambda c, s: Verdict(False, "holds"))
 def proposer(beat):
     def p(old, claims):
         return {"beat": beat, "as_of": "2026-08-14", "fields": [
-            {"k": "Latest claim", "v": claims[0]["claim_text"][:48], "since": "14 Aug"},
-            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug"}]}
+            {"k": "Latest claim", "v": claims[0]["claim_text"][:48], "since": "14 Aug",
+             "claims": [claims[0]["id"]]},
+            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug",
+             "claims": [c["id"] for c in claims]}]}
     return p
 
 @pytest.fixture
@@ -113,7 +115,11 @@ def test_recirculated_cluster_lands_in_omissions_not_the_wire(tmp_path):
         "snippet": "The license plate reader network cut its retention window to seven days.",
         "source_name": "AP", "published_at": "2026-08-13T14:00:00Z"},
         BEATS, now="2026-08-14T10:00:00Z")]
-    results = run_sweep(plan_sweep(srcs, BEAT_IDS, policy={}), _factory(root, {}), concurrency=1)
+    fac = _factory(root, {})
+    run_sweep(plan_sweep(srcs, BEAT_IDS, policy={}), fac, concurrency=1)
+    # Second pass: state is already written, so the delta is empty — which is the
+    # only situation in which "covered again, nothing new" is a true statement.
+    results = run_sweep(plan_sweep(srcs, BEAT_IDS, policy={}), fac, concurrency=1)
     cluster = [{"source_name": f"o{i}", "published_at": "2026-08-14T08:00:00Z"} for i in range(6)]
     cluster.append({"source_name": "AP", "published_at": "2026-08-13T14:00:00Z"})
     verdict = analyse_cluster(cluster, today="2026-08-14")

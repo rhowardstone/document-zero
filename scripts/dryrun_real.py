@@ -77,8 +77,10 @@ def agree(n, f): return Pass(n, f, lambda c, s: Verdict(False, "supported by the
 def proposer(beat):
     def p(old, claims):
         return {"beat": beat, "as_of": "2026-08-14", "fields": [
-            {"k": "Most recent claim", "v": claims[0]["claim_text"][:60], "since": "14 Aug"},
-            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug"}]}
+            {"k": "Most recent claim", "v": claims[0]["claim_text"][:60], "since": "14 Aug",
+             "claims": [claims[0]["id"]]},
+            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug",
+             "claims": [c["id"] for c in claims]}]}
     return p
 
 def factory(beat):

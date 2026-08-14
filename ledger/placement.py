@@ -50,9 +50,12 @@ def classify(i: PlacementInput) -> Result:
         return Result(Placement.HOLD, "single_root_multi_source")
     if not i.cascade_survived:
         return Result(Placement.HOLD, "consensus_failure")
-    if i.recirculation is Verdict.RECIRCULATION:
-        # Heavy coverage with no new claims is itself the finding.
-        return Result(Placement.OMISSION, "recirculation")
-    if getattr(i.delta, "is_empty", False):
+    # A MATERIAL CHANGE OUTRANKS RECIRCULATION. The omissions lane means "covered
+    # heavily, nothing changed" — so applying it to a beat whose state actually
+    # moved publishes a false statement about the record. Recirculation only
+    # describes the coverage; the delta describes the world.
+    if getattr(i.delta, "is_empty", True):
+        if i.recirculation is Verdict.RECIRCULATION:
+            return Result(Placement.OMISSION, "recirculation")
         return Result(Placement.DROP, "no_state_change")
     return Result(Placement.WIRE, None)

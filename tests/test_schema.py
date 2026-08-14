@@ -53,7 +53,27 @@ def test_beat_state_requires_two_changeable_fields():
         validate_beat_state({"beat":"hormuz","as_of":"2026-08-14",
             "fields":[{"k":"Blockade","v":"In force","since":"Aug"}]})
 
-def test_beat_state_with_two_fields_passes():
+def test_beat_state_with_two_grounded_fields_passes():
     validate_beat_state({"beat":"hormuz","as_of":"2026-08-14","fields":[
-        {"k":"Blockade","v":"In force","since":"Aug"},
-        {"k":"Transit","v":"Near standstill","since":"14 Aug"}]})
+        {"k":"Blockade","v":"In force","since":"Aug","claims":["h-1"]},
+        {"k":"Transit","v":"Near standstill","since":"14 Aug","claims":["h-2"]}]})
+
+
+def test_a_state_field_must_cite_the_claims_that_support_it():
+    """Regression: the diff was deterministic but ran over ungrounded model
+    output, so an invented field reported faithfully as a real change."""
+    with pytest.raises(SchemaError, match="cites no claims"):
+        validate_beat_state({"beat": "b", "as_of": "2026-08-14", "fields": [
+            {"k": "Blockade", "v": "In force"},
+            {"k": "Transit", "v": "Slowed"}]})
+
+def test_a_grounded_state_passes():
+    validate_beat_state({"beat": "b", "as_of": "2026-08-14", "fields": [
+        {"k": "Blockade", "v": "In force", "claims": ["b-1"]},
+        {"k": "Transit", "v": "Slowed", "claims": ["b-2", "b-3"]}]})
+
+def test_an_empty_citation_list_is_not_a_citation():
+    with pytest.raises(SchemaError, match="cites no claims"):
+        validate_beat_state({"beat": "b", "as_of": "2026-08-14", "fields": [
+            {"k": "A", "v": "1", "claims": []},
+            {"k": "B", "v": "2", "claims": ["x"]}]})

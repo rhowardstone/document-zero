@@ -21,9 +21,18 @@ def canonical_url(url: str) -> str:
 
 
 def content_sha(raw: dict) -> str:
+    """Hash the EVIDENCE, not the link to it.
+
+    Hashing url+title+snippet is link provenance: two different bodies with the
+    same metadata collide, and a page that is later edited or deleted cannot be
+    shown to have changed. The body is therefore part of the identity, and the
+    body is retained (below) so a claim's quote can be re-checked against the
+    exact bytes it was drawn from after the page is gone.
+    """
     basis = "\n".join([canonical_url(raw.get("url", "")),
                        (raw.get("title") or "").strip(),
-                       (raw.get("snippet") or "").strip()])
+                       (raw.get("snippet") or "").strip(),
+                       (raw.get("full_text") or "").strip()])
     return hashlib.sha256(basis.encode("utf-8")).hexdigest()
 
 
@@ -38,6 +47,11 @@ def normalise(raw: dict, beats, now: str, source_type: str | None = None) -> dic
         "original_url": raw.get("url", ""),
         "title": raw.get("title") or "",
         "snippet": raw.get("snippet") or "",
+        # Retained deliberately: without the body, a quote can never be
+        # re-verified once the page changes, and "exact quote required" becomes
+        # unenforceable the moment the web moves on.
+        "full_text": raw.get("full_text") or "",
+        "retrieved_at": now,
         "source_name": raw.get("source_name") or "",
         "source_type": st,
         "published_at": raw.get("published_at") or now,

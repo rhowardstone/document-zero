@@ -49,9 +49,15 @@ class CascadeResult:
 
 
 def band_down(conf: float) -> float:
-    """Step one band down the ladder. Floors at the lowest band."""
+    """Step one band down the ladder, and NEVER upward.
+
+    The ladder starts at 0.5, so a confidence already below it (0.38, say) found
+    no lower band and fell through to BANDS[0] — degraded verification raised
+    confidence to 0.5. Penalising a claim must never reward it, so the result is
+    clamped to the input.
+    """
     lower = [b for b in BANDS if b < conf - 1e-9]
-    return lower[-1] if lower else BANDS[0]
+    return min(conf, lower[-1] if lower else BANDS[0])
 
 
 def _visible(claim: dict) -> dict:

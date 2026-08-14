@@ -194,19 +194,26 @@ def main():
             "extracted_by": "agent:eagle-eye", "extracted_at": NOW,
             "verification_rounds": 1, "verifier_families": ["human-directed research"],
         })
+    def C(*idx): return [f"{BEAT}-2026-08-14-{i:03d}" for i in idx]
+    # Every field names the claims that establish it. A field the ledger cannot
+    # trace to evidence is not allowed to exist.
     led.put_state(BEAT, {"beat": BEAT, "as_of": "2026-08-14", "fields": [
-        {"k": "Federal suit", "v": "Filed 5 Aug 2026, D.D.C.", "since": "5 Aug", "flag": "hot"},
-        {"k": "State criminal probe", "v": "Reopened 19 Feb 2026", "since": "19 Feb", "flag": "hot"},
-        {"k": "Records sought", "v": "Unredacted Epstein investigative files", "since": "5 Aug"},
+        {"k": "Federal suit", "v": "Filed 5 Aug 2026, D.D.C.", "since": "5 Aug",
+         "flag": "hot", "claims": C(0)},
+        {"k": "State criminal probe", "v": "Reopened 19 Feb 2026", "since": "19 Feb",
+         "flag": "hot", "claims": C(8)},
+        {"k": "Records sought", "v": "Unredacted Epstein investigative files",
+         "since": "5 Aug", "claims": C(0, 2)},
         {"k": "2019 stand-down rationale", "v": "Expired 10 Aug 2019 with the defendant",
-         "since": "10 Aug 2019", "flag": "hot"},
+         "since": "10 Aug 2019", "flag": "hot", "claims": C(1, 3, 4)},
         {"k": "Site ownership", "v": "San Rafael Ranch LLC (Huffines family), since 2023",
-         "since": "Aug 2023"},
+         "since": "Aug 2023", "claims": C(5, 6, 7)},
         {"k": "Site status", "v": "Construction paused for want of permits", "since": "2026",
-         "flag": "warn"},
+         "flag": "warn", "claims": C(10, 11)},
         {"k": "Physical evidence", "v": "Excavation and altered substrate reported",
-         "since": "Mar 2026", "flag": "warn"},
-        {"k": "Truth commission", "v": "Subpoenas issuing since 1 Jun 2026", "since": "1 Jun"},
+         "since": "Mar 2026", "flag": "warn", "claims": C(9)},
+        {"k": "Truth commission", "v": "Subpoenas issuing since 1 Jun 2026", "since": "1 Jun",
+         "claims": C(0)},
     ]})
     for d, c, s in [
         ("2019-07-23", "Stand-down requested → state investigation paused on a federal promise.",

@@ -591,7 +591,7 @@ window.DZ = {
     },
     {
      "d": "2019-08-10",
-     "c": "Federal prosecution ended with the defendant's death. Stated rationale for the stand-down ceased to apply.",
+     "c": "Federal prosecution ended with the defendant&#39;s death. Stated rationale for the stand-down ceased to apply.",
      "s": "Contemporaneous reporting"
     },
     {
@@ -738,7 +738,7 @@ window.DZ = {
    "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
    "deck": "Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.",
    "body": [
-    "Quoted from the source: &ldquo;New Mexico's Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials&rdquo;"
+    "Quoted from the source: &ldquo;New Mexico&#39;s Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials&rdquo;"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -760,7 +760,7 @@ window.DZ = {
    ],
    "stamp": "open",
    "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
-   "deck": "This is the state's characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
+   "deck": "This is the state&#39;s characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
    "body": [
     "Quoted from the source: &ldquo;to stand down&rdquo;"
    ],
@@ -882,7 +882,7 @@ window.DZ = {
    "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
    "deck": "The mechanism by which the concealment broke is itself reported and checkable.",
    "body": [
-    "Quoted from the source: &ldquo;It wasn't until a street name change and property taxes were contested that public records requests revealed the owner&rdquo;"
+    "Quoted from the source: &ldquo;It wasn&#39;t until a street name change and property taxes were contested that public records requests revealed the owner&rdquo;"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -927,7 +927,7 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files.",
+   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department&#39;s January 2026 release of the Epstein files.",
    "deck": "Announced by the state and reported contemporaneously.",
    "body": [
     "Quoted from the source: &ldquo;reopened&rdquo;"
@@ -1000,7 +1000,7 @@ window.DZ = {
    ],
    "stamp": "documented",
    "title": "The owners intend to convert the property into a Christian retreat.",
-   "deck": "Stated by the owner's campaign and reported directly.",
+   "deck": "Stated by the owner&#39;s campaign and reported directly.",
    "body": [
     "Quoted from the source: &ldquo;plans to turn it into a Christian retreat&rdquo;"
    ],
@@ -1023,8 +1023,8 @@ window.DZ = {
     "nm-records"
    ],
    "stamp": "open",
-   "title": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
-   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state's characterisation, not as a verified figure.",
+   "title": "New Mexico&#39;s filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state&#39;s characterisation, not as a verified figure.",
    "body": [
     "Quoted from the source: &ldquo;over 13,000 references to Zorro Ranch and 5,000 references to New Mexico&rdquo;"
    ],

@@ -63,8 +63,10 @@ extractor = AnthropicExtractor(cost)
 def proposer(beat):
     def p(old, claims):
         return {"beat": beat, "as_of": "2026-08-14", "fields": [
-            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug"},
-            {"k": "Latest finding", "v": claims[0]["claim_text"][:70], "since": "14 Aug"}]}
+            {"k": "Claims on record", "v": str(len(claims)), "since": "14 Aug",
+             "claims": [c["id"] for c in claims]},
+            {"k": "Latest finding", "v": claims[0]["claim_text"][:70], "since": "14 Aug",
+             "claims": [claims[0]["id"]]}]}
     return p
 
 def factory(beat):

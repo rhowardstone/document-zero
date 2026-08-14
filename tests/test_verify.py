@@ -89,3 +89,18 @@ def test_result_records_every_verdict_for_the_audit_trail():
     r = run_cascade(CLAIM, SOURCES, [agree("a", "B"), refute("b", "C")], consensus_required=1)
     assert len(r.verdicts) == 2
     assert {v.passname for v in r.verdicts} == {"a", "b"}
+
+
+def test_band_down_never_raises_confidence():
+    """Regression: the ladder starts at 0.5, so 0.38 found no lower band and fell
+    through to BANDS[0] — penalising a claim rewarded it."""
+    assert band_down(0.38) == 0.38
+    assert band_down(0.5) == 0.5
+    assert band_down(0.05) == 0.05
+    for c in (0.6, 0.7, 0.8, 0.85, 0.9, 0.95, 1.0):
+        assert band_down(c) < c
+
+def test_single_family_capping_cannot_increase_confidence():
+    low = dict(CLAIM, confidence=0.38)
+    r = run_cascade(low, SOURCES, [agree("a", "B"), agree("b", "B")], consensus_required=2)
+    assert r.single_family and r.claim["confidence"] <= 0.38

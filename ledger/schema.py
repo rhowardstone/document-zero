@@ -71,3 +71,13 @@ def validate_beat_state(st: dict) -> None:
     for f in fields:
         if "k" not in f or "v" not in f:
             raise SchemaError("each state field needs k and v")
+        # EVERY STATE FIELD MUST CITE THE CLAIMS THAT SUPPORT IT.
+        # The design says the delta is computed rather than written, but a diff
+        # over ungrounded model output is still ungrounded: without this, a state
+        # proposer can invent a field and its value, and the deterministic diff
+        # faithfully reports an invention as a change.
+        cites = f.get("claims")
+        if not isinstance(cites, list) or not cites:
+            raise SchemaError(
+                f"state field {f.get('k')!r} cites no claims; a field the ledger "
+                "cannot trace to evidence may not exist")

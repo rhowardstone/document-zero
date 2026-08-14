@@ -9,7 +9,8 @@ def populated(tmp_path):
         "source_type":"news","published_at":"2026-08-14T03:00:00Z","first_seen":"2026-08-14T04:00:00Z",
         "candidate_beats":[{"beat":"hormuz","score":0.5}]})
     led.put_state("hormuz",{"beat":"hormuz","as_of":"2026-08-14","fields":[
-        {"k":"Blockade","v":"In force","since":"Aug"},{"k":"Transit","v":"Near standstill","since":"14 Aug"}]})
+        {"k":"Blockade","v":"In force","since":"Aug","claims":["c1"]},
+        {"k":"Transit","v":"Near standstill","since":"14 Aug","claims":["c2"]}]})
     led.append_history("hormuz",{"d":"2026-08-14","c":"Transit changed","s":"wire"})
     led.put_claim({"id":"hormuz-1","beat":"hormuz","claim_text":"X","quote":"x",
         "source_type":"news","source_url":"https://x","confidence":0.6,

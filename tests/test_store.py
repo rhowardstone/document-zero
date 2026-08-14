@@ -7,7 +7,8 @@ def led(tmp_path): return Ledger(tmp_path)
 
 SRC = {"sha256":"a"*64,"url":"https://x","title":"T","source_name":"E","source_type":"news",
        "published_at":"2026-08-14T03:00:00Z","first_seen":"2026-08-14T04:00:00Z","candidate_beats":[]}
-ST = {"beat":"hormuz","as_of":"2026-08-14","fields":[{"k":"a","v":"1"},{"k":"b","v":"2"}]}
+ST = {"beat":"hormuz","as_of":"2026-08-14","fields":[{"k":"a","v":"1","claims":["x"]},
+                                                     {"k":"b","v":"2","claims":["y"]}]}
 
 def test_write_and_read_source(led):
     p = led.put_source("2026-08-14", SRC)
@@ -31,13 +32,13 @@ def test_state_is_overwritten_not_appended(led):
 
 def test_invalid_state_is_rejected_before_touching_disk(led):
     with pytest.raises(Exception):
-        led.put_state("hormuz", {"beat":"hormuz","as_of":"2026-08-14","fields":[{"k":"a","v":"1"}]})
+        led.put_state("hormuz", {"beat":"hormuz","as_of":"2026-08-14","fields":[{"k":"a","v":"1","claims":["x"]}]})
     assert led.get_state("hormuz") is None
 
 def test_writer_partition_is_enforced(led):
     led.writer = "beat:hormuz"
     with pytest.raises(PartitionError):
-        led.put_state("fed", {"beat":"fed","as_of":"2026-08-14","fields":[{"k":"a","v":"1"},{"k":"b","v":"2"}]})
+        led.put_state("fed", {"beat":"fed","as_of":"2026-08-14","fields":[{"k":"a","v":"1","claims":["x"]},{"k":"b","v":"2","claims":["y"]}]})
 
 def test_writer_partition_allows_own_beat(led):
     led.writer = "beat:hormuz"

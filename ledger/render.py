@@ -20,6 +20,26 @@ STATUS_MOVED = "moved"
 STATUS_QUIET = "quiet"
 
 
+def esc(text) -> str:
+    """Escape anything that came from a source before it can reach the DOM.
+
+    Source text is hostile by assumption at ingest, and that assumption has to
+    survive all the way to the page: quotes, justifications and URLs were being
+    interpolated raw into fields the site renders with innerHTML, so a scraped
+    headline could carry stored DOM XSS. Escaping happens here, at the boundary
+    where ledger data becomes page data.
+    """
+    return (str(text if text is not None else "")
+            .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            .replace('"', "&quot;").replace("'", "&#39;"))
+
+
+def safe_url(url) -> str:
+    """Only http(s) links survive. javascript: and data: are neutralised."""
+    u = str(url or "").strip()
+    return esc(u) if u.lower().startswith(("http://", "https://")) else "#"
+
+
 def _read(p: Path):
     try:
         return json.loads(p.read_text(encoding="utf-8"))
@@ -74,9 +94,12 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
         for t in b.types:
             types.setdefault(t, {"id": t, "name": t.replace("-", " ").title()})
 
-        # Claims become records on the page. A claim's tier and confidence ride
-        # with it — the page cannot present it more strongly than the ledger does.
-        for c in claims:
+        # THE EDITOR'S LANE DECISION IS BINDING. Previously every stored claim was
+        # emitted as `kind: "wire"` regardless of where the editor placed its beat,
+        # so held and recirculating beats published anyway — which by itself
+        # falsified the claim that nothing unsupported can reach the page. A beat
+        # the editor did not put on the wire contributes no wire records.
+        for c in (claims if lane == "wire" else []):
             # Identity is the CLAIM, not the source. The same finding reaching us
             # from three outlets is one record with three sources — corroboration,
             # which is worth showing — rather than three records, which reads as
@@ -96,12 +119,13 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                 "stamp": {"documented_fact": "documented",
                           "credible_allegation": "open",
                           "question": "open"}.get(c.get("tier"), "open"),
-                "title": c.get("claim_text", ""),
-                "deck": c.get("confidence_justification", ""),
-                "body": [f'Quoted from the source: &ldquo;{c.get("quote","")}&rdquo;'],
-                "derived": f"tier {c.get('tier')}, confidence {c.get('confidence')}, "
-                           f"survived {c.get('verification_rounds', '?')} verification "
-                           f"round(s) on {', '.join(c.get('verifier_families') or []) or 'n/a'}",
+                "title": esc(c.get("claim_text", "")),
+                "deck": esc(c.get("confidence_justification", "")),
+                "body": [f'Quoted from the source: &ldquo;{esc(c.get("quote",""))}&rdquo;'],
+                "derived": esc(
+                    f"tier {c.get('tier')}, confidence {c.get('confidence')}, "
+                    f"survived {c.get('verification_rounds', '?')} verification "
+                    f"round(s) on {', '.join(c.get('verifier_families') or []) or 'n/a'}"),
                 "sources": [_source_of(c)],
                 "corroboration": 1,
                 "questions": [],
@@ -135,9 +159,10 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
             "lastChange": (history[0]["d"] if history else "—"),
             "events": len(claims),
             "summary": f"{len(claims)} claim(s) on record.",
-            "state": [{"k": f.get("k"), "v": f.get("v"), "since": f.get("since"),
-                       "flag": f.get("flag")} for f in (state or {}).get("fields", [])],
-            "history": [{"d": h.get("d"), "c": h.get("c"), "s": h.get("s")}
+            "state": [{"k": esc(f.get("k")), "v": esc(f.get("v")),
+                       "since": esc(f.get("since")), "flag": f.get("flag")}
+                      for f in (state or {}).get("fields", [])],
+            "history": [{"d": esc(h.get("d")), "c": esc(h.get("c")), "s": esc(h.get("s"))}
                         for h in reversed(history)],
             "unknown": _unknowns(placement, claims),
             "items": [c["id"] for c in claims], "questions": [], "triggers": [],
@@ -201,9 +226,9 @@ def _identity(claim: dict) -> str:
 
 def _source_of(claim: dict) -> dict:
     url = claim.get("source_url") or "#"
-    return {"n": _host(url), "u": url,
-            "t": claim.get("source_type", "misc"),
-            "c": str(claim.get("confidence", ""))}
+    return {"n": esc(_host(url)), "u": safe_url(url),
+            "t": esc(claim.get("source_type", "misc")),
+            "c": esc(str(claim.get("confidence", "")))}
 
 
 def _host(url: str) -> str:
