@@ -7,6 +7,7 @@ from __future__ import annotations
 import hashlib
 from urllib.parse import urlsplit, parse_qsl, urlencode, urlunsplit
 from .beats import assign_beats
+from .sourcetype import classify
 
 TRACKING = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
             "fbclid", "gclid", "ref", "_hsenc"}
@@ -26,8 +27,11 @@ def content_sha(raw: dict) -> str:
     return hashlib.sha256(basis.encode("utf-8")).hexdigest()
 
 
-def normalise(raw: dict, beats, now: str, source_type: str = "news") -> dict:
+def normalise(raw: dict, beats, now: str, source_type: str | None = None) -> dict:
     text = " ".join(filter(None, [raw.get("title"), raw.get("snippet"), raw.get("full_text")]))
+    # Type by publisher unless the caller knows better. Getting this wrong
+    # mis-sets the confidence ceiling for every claim built on the source.
+    st = source_type or classify(raw.get("url", ""), raw.get("source_name", ""))
     return {
         "sha256": content_sha(raw),
         "url": canonical_url(raw.get("url", "")),
@@ -35,7 +39,7 @@ def normalise(raw: dict, beats, now: str, source_type: str = "news") -> dict:
         "title": raw.get("title") or "",
         "snippet": raw.get("snippet") or "",
         "source_name": raw.get("source_name") or "",
-        "source_type": source_type,
+        "source_type": st,
         "published_at": raw.get("published_at") or now,
         "first_seen": now,
         "candidate_beats": [{"beat": b, "score": float(s)} for b, s in assign_beats(text, beats)],

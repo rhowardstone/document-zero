@@ -25,6 +25,9 @@ BEAT_IDS = [b.id for b in BEATS]
 POLICY = yaml.safe_load(open("/mnt/d/Newsdesk/config/policy.yaml"))
 NOW = "2026-08-14T10:00:00Z"
 
+from ledger.ceilings import ceiling_for
+SHA_TYPE = {}   # sha -> source_type; the stub needs it to respect the ceiling
+
 root = pathlib.Path(tempfile.mkdtemp()) / "data"
 ing = Ledger(root, writer="ingest")
 
@@ -36,20 +39,38 @@ for r in rows:
     s = normalise(r, BEATS, now=NOW)
     try:
         ing.put_source(day_of(r.get("published_at")), s); srcs.append(s)
+        SHA_TYPE[s["sha256"]] = s["source_type"]
     except FileExistsError:
         pass
 
+def _trim(text, n):
+    """Never cut mid-word — a truncated quote reads as a fabricated one."""
+    t = text.strip()
+    if len(t) <= n: return t
+    cut = t[:n]
+    return cut[:cut.rfind(" ")] if " " in cut else cut
+
 def stub_extractor(prompt):
+    """A deterministic stand-in for a model. It is NOT the system's judgment:
+    a real extractor writes an atomic claim and tiers it on the evidence. This
+    one restates the headline, so treat every record it produces as plumbing."""
     blocks = re.findall(r'<untrusted_source ref="([a-f0-9]{64})">\n(.*?)\n</untrusted_source>',
                         prompt, re.S)
     out = []
     for ref, body in blocks[:3]:
         line = next((l.strip() for l in body.splitlines() if len(l.strip()) > 40), None)
         if not line: continue
-        out.append({"claim_text": f"Reported: {line[:90]}", "quote": line[:60],
-                    "source_sha": ref, "confidence": 0.6,
-                    "confidence_justification": "single news outlet; news ceiling 0.6",
-                    "tier": "documented_fact"})
+        st = SHA_TYPE.get(ref, "misc")
+        cap = ceiling_for(st)
+        # A headline restatement establishes only that it was published.
+        conf = round(min(cap, cap * 0.75), 2)
+        out.append({"claim_text": f"Reported: {_trim(line, 90)}",
+                    "quote": _trim(line, 60),
+                    "source_sha": ref, "confidence": conf,
+                    "confidence_justification":
+                        f"{st} source, ceiling {cap}; a headline restatement establishes "
+                        f"only that the claim was published, not that it is established",
+                    "tier": "credible_allegation"})
     return json.dumps(out)
 
 def agree(n, f): return Pass(n, f, lambda c, s: Verdict(False, "supported by the cited quote"))

@@ -4,7 +4,7 @@ from ledger.store import Ledger
 from ledger.verify import Pass, Verdict
 from ledger.refusal import Subject
 
-SRC = {"sha256": "a"*64, "url": "https://ap.org/x", "title": "Transit slows",
+SRC = {"sha256": "a"*64, "url": "https://apnews.com/x", "title": "Transit slows",
        "snippet": "Transit appeared to grind to a near standstill on Friday.",
        "source_name": "AP", "source_type": "news",
        "published_at": "2026-08-14T09:00:00Z", "first_seen": "2026-08-14T09:05:00Z",

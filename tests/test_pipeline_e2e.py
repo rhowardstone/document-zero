@@ -39,7 +39,7 @@ def proposer(beat):
 @pytest.fixture
 def sources():
     raw = [
-        {"url": "https://ap.org/hormuz", "title": "Hormuz transit slows",
+        {"url": "https://apnews.com/hormuz", "title": "Hormuz transit slows",
          "snippet": "Transit through the Strait appeared to grind to a near standstill as the blockade held.",
          "source_name": "AP", "published_at": "2026-08-14T09:00:00Z"},
         {"url": "https://cnbc.com/fed", "title": "Fed hike odds fall",
@@ -60,7 +60,7 @@ def _factory(root, sha_index):
 def test_full_pipeline_produces_a_valid_edition_and_a_queryable_db(tmp_path):
     root = tmp_path / "data"
     srcs = [normalise(r, BEATS, now="2026-08-14T10:00:00Z") for r in [
-        {"url": "https://ap.org/hormuz", "title": "Hormuz transit slows",
+        {"url": "https://apnews.com/hormuz", "title": "Hormuz transit slows",
          "snippet": "Transit through the Strait appeared to grind to a near standstill as the blockade held.",
          "source_name": "AP", "published_at": "2026-08-14T09:00:00Z"},
         {"url": "https://cnbc.com/fed", "title": "Fed hike odds fall",
@@ -94,7 +94,7 @@ def test_full_pipeline_produces_a_valid_edition_and_a_queryable_db(tmp_path):
 def test_a_second_run_over_the_same_sources_publishes_nothing(tmp_path):
     """The suppression property, end to end: no state change means no edition."""
     root = tmp_path / "data"
-    srcs = [normalise({"url": "https://ap.org/hormuz", "title": "Hormuz transit slows",
+    srcs = [normalise({"url": "https://apnews.com/hormuz", "title": "Hormuz transit slows",
         "snippet": "Transit through the Strait appeared to grind to a near standstill as the blockade held.",
         "source_name": "AP", "published_at": "2026-08-14T09:00:00Z"},
         BEATS, now="2026-08-14T10:00:00Z")]
@@ -109,7 +109,7 @@ def test_a_second_run_over_the_same_sources_publishes_nothing(tmp_path):
 
 def test_recirculated_cluster_lands_in_omissions_not_the_wire(tmp_path):
     root = tmp_path / "data"
-    srcs = [normalise({"url": "https://ap.org/flock", "title": "Flock announces changes",
+    srcs = [normalise({"url": "https://apnews.com/flock", "title": "Flock announces changes",
         "snippet": "The license plate reader network cut its retention window to seven days.",
         "source_name": "AP", "published_at": "2026-08-13T14:00:00Z"},
         BEATS, now="2026-08-14T10:00:00Z")]

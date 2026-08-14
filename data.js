@@ -836,90 +836,60 @@ window.DZ = {
    "beats": [
     "prices"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: What else can Trump do to distract Americans from the Epstein Files?",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;What else can Trump do to distract Americans from the Epstei&rdquo;"
+    "Quoted from the source: &ldquo;What else can Trump do to distract Americans from the&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://www.reddit.com/r/Epstein/comments/1vicwl5/what_else_can_trump_do_to_distract_americans_from",
+     "n": "reddit.com",
      "u": "https://www.reddit.com/r/Epstein/comments/1vicwl5/what_else_can_trump_do_to_distract_americans_from",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
    "id": "compliance-2026-08-14-000",
    "kind": "wire",
    "beats": [
-    "compliance"
+    "compliance",
+    "epstein-network",
+    "nm-records"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
+    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6edd17e56740e98bb31f71fc7a1d66&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6edd17e56740e98bb31f71fc7a1d66&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "questions": []
-  },
-  {
-   "id": "compliance-2026-08-14-001",
-   "kind": "wire",
-   "beats": [
-    "compliance"
-   ],
-   "stamp": "documented",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
+     "t": "misc",
+     "c": "0.38"
+    },
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e88cb0a9d46c9b962b477f985d6cd&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e88cb0a9d46c9b962b477f985d6cd&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "questions": []
-  },
-  {
-   "id": "compliance-2026-08-14-002",
-   "kind": "wire",
-   "beats": [
-    "compliance"
-   ],
-   "stamp": "documented",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
+     "t": "misc",
+     "c": "0.38"
+    },
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e3456bb53486d976f7e498fe51d6e&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e3456bb53486d976f7e498fe51d6e&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -928,21 +898,22 @@ window.DZ = {
    "beats": [
     "flock"
    ],
-   "stamp": "documented",
-   "title": "Reported: this guy on tiktok and instagram been impersonating Flock Safety manager, Randy Gluck, and",
-   "deck": "single news outlet; news ceiling 0.6",
+   "stamp": "open",
+   "title": "Reported: this guy on tiktok and instagram been impersonating Flock Safety manager, Randy Gluck,",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;this guy on tiktok and instagram been impersonating Flock Sa&rdquo;"
+    "Quoted from the source: &ldquo;this guy on tiktok and instagram been impersonating Flock&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://www.reddit.com/r/Epstein/comments/1viofao/this_guy_on_tiktok_and_instagram_been",
+     "n": "reddit.com",
      "u": "https://www.reddit.com/r/Epstein/comments/1viofao/this_guy_on_tiktok_and_instagram_been",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -951,90 +922,22 @@ window.DZ = {
    "beats": [
     "detention"
    ],
-   "stamp": "documented",
-   "title": "Reported: \"Brexit is just the beginning...\" While the UK was distracted by sovereignty and borders, ",
-   "deck": "single news outlet; news ceiling 0.6",
+   "stamp": "open",
+   "title": "Reported: \"Brexit is just the beginning...\" While the UK was distracted by sovereignty and borders,",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;\"Brexit is just the beginning...\" While the UK was distracte&rdquo;"
+    "Quoted from the source: &ldquo;\"Brexit is just the beginning...\" While the UK was&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://www.reddit.com/r/Epstein/comments/1vjokzv/the_digital_coup_uk",
+     "n": "reddit.com",
      "u": "https://www.reddit.com/r/Epstein/comments/1vjokzv/the_digital_coup_uk",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
-   "questions": []
-  },
-  {
-   "id": "epstein-network-2026-08-14-000",
-   "kind": "wire",
-   "beats": [
-    "epstein-network"
-   ],
-   "stamp": "documented",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6edd17e56740e98bb31f71fc7a1d66&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6edd17e56740e98bb31f71fc7a1d66&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "questions": []
-  },
-  {
-   "id": "epstein-network-2026-08-14-001",
-   "kind": "wire",
-   "beats": [
-    "epstein-network"
-   ],
-   "stamp": "documented",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e88cb0a9d46c9b962b477f985d6cd&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e88cb0a9d46c9b962b477f985d6cd&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "questions": []
-  },
-  {
-   "id": "epstein-network-2026-08-14-002",
-   "kind": "wire",
-   "beats": [
-    "epstein-network"
-   ],
-   "stamp": "documented",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e3456bb53486d976f7e498fe51d6e&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e3456bb53486d976f7e498fe51d6e&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1043,67 +946,40 @@ window.DZ = {
    "beats": [
     "nm-records"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: Epstein 'truth commission' report due Friday to be released next week",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
     "Quoted from the source: &ldquo;Epstein 'truth commission' report due Friday to be released&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb1JxT0t4RXdWZ0xHUzlDUld0dlFNQnRkeDloaGVaRFM2M2c5NC1DNDZKa0g1N3pDelBqRjRMMU1DV3JvWTdjUzl5ZU1zeC01YS0zWE5STWlPZVpYem52ekYzSkR5Wng2d204ZmVJRkZPODFEVjM3aTIzNW1Ja0V3b053YWxFLVE4cTA4LWRnRklQYnlhOGFyUDNBZXM2Q2Q1eDFVbGVMOGN3SnpWeldmVTZWQVhQOG01TDh2YXFyd0xEWG16VUZ6aFFZZ0dyNVZQbElZQUJBS092QVFGT1RRYmUtS3lZTHFzbEVuQjBLY1NuY2V3aFY2b21OVQ?oc=5",
+     "n": "news.google.com",
      "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb1JxT0t4RXdWZ0xHUzlDUld0dlFNQnRkeDloaGVaRFM2M2c5NC1DNDZKa0g1N3pDelBqRjRMMU1DV3JvWTdjUzl5ZU1zeC01YS0zWE5STWlPZVpYem52ekYzSkR5Wng2d204ZmVJRkZPODFEVjM3aTIzNW1Ja0V3b053YWxFLVE4cTA4LWRnRklQYnlhOGFyUDNBZXM2Q2Q1eDFVbGVMOGN3SnpWeldmVTZWQVhQOG01TDh2YXFyd0xEWG16VUZ6aFFZZ0dyNVZQbElZQUJBS092QVFGT1RRYmUtS3lZTHFzbEVuQjBLY1NuY2V3aFY2b21OVQ?oc=5",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
-   "id": "nm-records-2026-08-14-001",
-   "kind": "wire",
+   "id": "nm-records:omission",
+   "kind": "omission",
    "beats": [
     "nm-records"
    ],
-   "stamp": "documented",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
+   "who": "New Mexico v. the Justice Department",
+   "stamp": null,
+   "title": "New Mexico v. the Justice Department: covered again, nothing new on the record",
+   "short": "Reported heavily today, but the underlying state of <b>New Mexico v. the Justice Department</b> did not change. Reason recorded: <b>recirculation</b>.",
    "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
+    "The editor placed this beat in the omissions lane because the day's coverage restated what was already on the record. 3 claim(s) stand on this beat; none of them is new."
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6edd17e56740e98bb31f71fc7a1d66&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6edd17e56740e98bb31f71fc7a1d66&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-002",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein ra&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
-    {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e88cb0a9d46c9b962b477f985d6cd&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a6e88cb0a9d46c9b962b477f985d6cd&url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&c=3939647737186790260&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
+   "derived": "placed by the editor as recirculation",
+   "sources": [],
+   "corroboration": 0,
    "questions": []
   },
   {
@@ -1112,21 +988,22 @@ window.DZ = {
    "beats": [
     "epstein-banks"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: Jeffrey Epstein’s European fixer raped us. Police turned a blind eye",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;Jeffrey Epstein’s European fixer raped us. Police turned a b&rdquo;"
+    "Quoted from the source: &ldquo;Jeffrey Epstein’s European fixer raped us. Police turned a&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZEE4a0pwTHk1MnFRRHl0ai1xYzNKMEdSeTFDYnhZXzBFYkJ5QUFRdWhUbTV4d2xBNTRfYzVsMkxHLXg4SzkyWVVMdXNmUWZPNF9pcWlobFpndEU0ckVqdy1mMlBaTndjQ3pJRmRjaWFUZm5FR0xCYjN0WXloR2R5dTJGWkpWMUtFWmtTQXNRd2RQZ0E?oc=5",
+     "n": "news.google.com",
      "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZEE4a0pwTHk1MnFRRHl0ai1xYzNKMEdSeTFDYnhZXzBFYkJ5QUFRdWhUbTV4d2xBNTRfYzVsMkxHLXg4SzkyWVVMdXNmUWZPNF9pcWlobFpndEU0ckVqdy1mMlBaTndjQ3pJRmRjaWFUZm5FR0xCYjN0WXloR2R5dTJGWkpWMUtFWmtTQXNRd2RQZ0E?oc=5",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1135,21 +1012,22 @@ window.DZ = {
    "beats": [
     "epstein-banks"
    ],
-   "stamp": "documented",
-   "title": "Reported: I was just wondering why if you type \"follow the money\" on the database search bar the tex",
-   "deck": "single news outlet; news ceiling 0.6",
+   "stamp": "open",
+   "title": "Reported: I was just wondering why if you type \"follow the money\" on the database search bar the",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;I was just wondering why if you type \"follow the money\" on t&rdquo;"
+    "Quoted from the source: &ldquo;I was just wondering why if you type \"follow the money\" on&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://www.reddit.com/r/Epstein/comments/1veeinj/follow_the_money_turns_the_text_green",
+     "n": "reddit.com",
      "u": "https://www.reddit.com/r/Epstein/comments/1veeinj/follow_the_money_turns_the_text_green",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1158,21 +1036,40 @@ window.DZ = {
    "beats": [
     "epstein-banks"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: 60 Minutes Epstein-Banks story vanished amid CBS upheaval under Bari Weiss: report",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;60 Minutes Epstein-Banks story vanished amid CBS upheaval un&rdquo;"
+    "Quoted from the source: &ldquo;60 Minutes Epstein-Banks story vanished amid CBS upheaval&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a71d486b1d74579bff8a483edf9686d&url=https%3A%2F%2Fwww.msn.com%2Fen-ca%2Fnews%2Fpolitics%2F60-minutes-epstein-banks-story-vanished-amid-cbs-upheaval-under-bari-weiss-report%2Far-AA29mGss&c=12187327408477006809&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a71d486b1d74579bff8a483edf9686d&url=https%3A%2F%2Fwww.msn.com%2Fen-ca%2Fnews%2Fpolitics%2F60-minutes-epstein-banks-story-vanished-amid-cbs-upheaval-under-bari-weiss-report%2Far-AA29mGss&c=12187327408477006809&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "epstein-banks:omission",
+   "kind": "omission",
+   "beats": [
+    "epstein-banks"
+   ],
+   "who": "Banks, the Senate report, and Epstein's money",
+   "stamp": null,
+   "title": "Banks, the Senate report, and Epstein's money: covered again, nothing new on the record",
+   "short": "Reported heavily today, but the underlying state of <b>Banks, the Senate report, and Epstein's money</b> did not change. Reason recorded: <b>recirculation</b>.",
+   "body": [
+    "The editor placed this beat in the omissions lane because the day's coverage restated what was already on the record. 3 claim(s) stand on this beat; none of them is new."
+   ],
+   "derived": "placed by the editor as recirculation",
+   "sources": [],
+   "corroboration": 0,
    "questions": []
   },
   {
@@ -1181,21 +1078,22 @@ window.DZ = {
    "beats": [
     "uk-inquiry"
    ],
-   "stamp": "documented",
-   "title": "Reported: Hi Redditors the UK force, Thames Valley Police has called for more witnesses and evidence",
-   "deck": "single news outlet; news ceiling 0.6",
+   "stamp": "open",
+   "title": "Reported: Hi Redditors the UK force, Thames Valley Police has called for more witnesses and",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;Hi Redditors the UK force, Thames Valley Police has called f&rdquo;"
+    "Quoted from the source: &ldquo;Hi Redditors the UK force, Thames Valley Police has called&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://www.reddit.com/r/Epstein/comments/1vcqxq0/andrew_uk_call_for_evidence",
+     "n": "reddit.com",
      "u": "https://www.reddit.com/r/Epstein/comments/1vcqxq0/andrew_uk_call_for_evidence",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1204,21 +1102,22 @@ window.DZ = {
    "beats": [
     "uk-inquiry"
    ],
-   "stamp": "documented",
-   "title": "Reported: Former Prince Andrew’s Ex-Wife Reportedly Planning a ‘Solid’ Comeback After Epstein Scanda",
-   "deck": "single news outlet; news ceiling 0.6",
+   "stamp": "open",
+   "title": "Reported: Former Prince Andrew’s Ex-Wife Reportedly Planning a ‘Solid’ Comeback After Epstein",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;Former Prince Andrew’s Ex-Wife Reportedly Planning a ‘Solid’&rdquo;"
+    "Quoted from the source: &ldquo;Former Prince Andrew’s Ex-Wife Reportedly Planning a&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a712bc9a64545b5bda286cfbd4851a8&url=https%3A%2F%2Fwww.aol.com%2Farticles%2Fformer-prince-andrew-ex-wife-155900000.html&c=10314548609131698538&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a712bc9a64545b5bda286cfbd4851a8&url=https%3A%2F%2Fwww.aol.com%2Farticles%2Fformer-prince-andrew-ex-wife-155900000.html&c=10314548609131698538&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1227,21 +1126,22 @@ window.DZ = {
    "beats": [
     "uk-inquiry"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: British government rules out immediate public enquiry into Jeffrey Epstein",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;British government rules out immediate public enquiry into J&rdquo;"
+    "Quoted from the source: &ldquo;British government rules out immediate public enquiry into&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a73cece76cb449b883117cd2e823fe7&url=https%3A%2F%2Fwww.telegraphindia.com%2Fworld%2Fbritish-government-rules-out-immediate-public-enquiry-into-jeffrey-epstein%2Fcid%2F2173533&c=8566723494740877610&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a73cece76cb449b883117cd2e823fe7&url=https%3A%2F%2Fwww.telegraphindia.com%2Fworld%2Fbritish-government-rules-out-immediate-public-enquiry-into-jeffrey-epstein%2Fcid%2F2173533&c=8566723494740877610&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1250,21 +1150,22 @@ window.DZ = {
    "beats": [
     "epstein-institutions"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: Epstein investigation into Michigan arts school uncovers decades of abuse allegations",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;Epstein investigation into Michigan arts school uncovers dec&rdquo;"
+    "Quoted from the source: &ldquo;Epstein investigation into Michigan arts school uncovers&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMjc3QjdKSFB6SHBuU3R1bnVXRXBkRVViRDRvNkZTQUJQQ3V4bFZjNVRHUUxGR3ZuRjNRcHpONlhWXy1RZ29JWjJ2S3NmV3YxYkFIeWVNYUJqeUlTWVNwa0dsSFBabGliUFhPaWhWQ0hXTi1hSGhKYjN0OGdqaWYyQm94cmpHTENPZHFIck83bHVvak1wc01uRzZJUklwR1BfN0NvUHgtTmxjOFFtX2MzcGw5YmFSZlI1eGhBUWh4dGVBXzVWZTlLM2Zn0gHPAUFVX3lxTFBoc19jMExLNHNHYzdzUkJoNHozUlE3Tk1vRnUyQlYxMlZzeW1aaF92d1FyTllKWFFLMWpuSWpfSEVPTlNsNzVmZE9qWFljNC1tRWxxYWktcm40aDJNeXJLMXdWNVdjSndSQ2RnMV9xV2x1RkdLbmJUZGVqNkNWcTNjUDE5TDI0VUthUGFPOExma2dWWHNqS1FWSkE1MlRZbm9ZMnZ1aEZEQ0RUZzVUckdyODRoZ3VqblQ0ZGVMMzlmcF90Tjc4bTJadDFrLWdDdw?oc=5",
+     "n": "news.google.com",
      "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMjc3QjdKSFB6SHBuU3R1bnVXRXBkRVViRDRvNkZTQUJQQ3V4bFZjNVRHUUxGR3ZuRjNRcHpONlhWXy1RZ29JWjJ2S3NmV3YxYkFIeWVNYUJqeUlTWVNwa0dsSFBabGliUFhPaWhWQ0hXTi1hSGhKYjN0OGdqaWYyQm94cmpHTENPZHFIck83bHVvak1wc01uRzZJUklwR1BfN0NvUHgtTmxjOFFtX2MzcGw5YmFSZlI1eGhBUWh4dGVBXzVWZTlLM2Zn0gHPAUFVX3lxTFBoc19jMExLNHNHYzdzUkJoNHozUlE3Tk1vRnUyQlYxMlZzeW1aaF92d1FyTllKWFFLMWpuSWpfSEVPTlNsNzVmZE9qWFljNC1tRWxxYWktcm40aDJNeXJLMXdWNVdjSndSQ2RnMV9xV2x1RkdLbmJUZGVqNkNWcTNjUDE5TDI0VUthUGFPOExma2dWWHNqS1FWSkE1MlRZbm9ZMnZ1aEZEQ0RUZzVUckdyODRoZ3VqblQ0ZGVMMzlmcF90Tjc4bTJadDFrLWdDdw?oc=5",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1273,44 +1174,28 @@ window.DZ = {
    "beats": [
     "epstein-institutions"
    ],
-   "stamp": "documented",
+   "stamp": "open",
    "title": "Reported: Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein",
-   "deck": "single news outlet; news ceiling 0.6",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
     "Quoted from the source: &ldquo;Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUVtOWhtRXpVN1l1MnRBV2Q4WThZMUs4V1dVN2FrMk9FcHc4STBUa2tVWHdzNnpBMmx3bDlSdzB5VlhibWlCM25HczlWa1laY2ZuVU9fUVB1VF80Qm01cVY4Y1VlTTJkV2Z1eVdUU2ZobFVOQW1ENjJqQXE3cnpMT1JHUFhBSU9aUTJmZmVydw?oc=5",
+     "n": "news.google.com",
      "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUVtOWhtRXpVN1l1MnRBV2Q4WThZMUs4V1dVN2FrMk9FcHc4STBUa2tVWHdzNnpBMmx3bDlSdzB5VlhibWlCM25HczlWa1laY2ZuVU9fUVB1VF80Qm01cVY4Y1VlTTJkV2Z1eVdUU2ZobFVOQW1ENjJqQXE3cnpMT1JHUFhBSU9aUTJmZmVydw?oc=5",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "questions": []
-  },
-  {
-   "id": "epstein-institutions-2026-08-14-002",
-   "kind": "wire",
-   "beats": [
-    "epstein-institutions"
-   ],
-   "stamp": "documented",
-   "title": "Reported: Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
+     "t": "misc",
+     "c": "0.38"
+    },
     {
-     "n": "https://hyperallergic.com/michigan-arts-school-alumni-allege-abuse-by-jeffrey-epstein",
+     "n": "hyperallergic.com",
      "u": "https://hyperallergic.com/michigan-arts-school-alumni-allege-abuse-by-jeffrey-epstein",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 2,
    "questions": []
   },
   {
@@ -1319,21 +1204,22 @@ window.DZ = {
    "beats": [
     "epstein-death"
    ],
-   "stamp": "documented",
-   "title": "Reported: Number 10 Denies Burnham is Looking into Epstein Enquiry as Cover-Up Looks Set to Continue",
-   "deck": "single news outlet; news ceiling 0.6",
+   "stamp": "open",
+   "title": "Reported: Number 10 Denies Burnham is Looking into Epstein Enquiry as Cover-Up Looks Set to",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
     "Quoted from the source: &ldquo;Number 10 Denies Burnham is Looking into Epstein Enquiry as&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95bXl5WTN4N2lVQmlVT3pNazdlSmJKbHVraUk0dTlwY2VJcUxiVTF1b2ktTFEteGtjM3Q2S0syWVB0VmRqUzhfOWlkTEJXTm91MlZlbHI4TEdvSmg0T1pCeHVqQzJNajhGc1ZRcTVhNjlfUENmMVl1N3JxVQ?oc=5",
+     "n": "news.google.com",
      "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95bXl5WTN4N2lVQmlVT3pNazdlSmJKbHVraUk0dTlwY2VJcUxiVTF1b2ktTFEteGtjM3Q2S0syWVB0VmRqUzhfOWlkTEJXTm91MlZlbHI4TEdvSmg0T1pCeHVqQzJNajhGc1ZRcTVhNjlfUENmMVl1N3JxVQ?oc=5",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   },
   {
@@ -1342,44 +1228,28 @@ window.DZ = {
    "beats": [
     "epstein-death"
    ],
-   "stamp": "documented",
-   "title": "Reported: Trump's Role In Epstein Death Out? Sen. Kennedy EXPOSES Death Of Jeffrey Epstein Before Mi",
-   "deck": "single news outlet; news ceiling 0.6",
+   "stamp": "open",
+   "title": "Reported: Trump's Role In Epstein Death Out? Sen. Kennedy EXPOSES Death Of Jeffrey Epstein Before",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;Trump's Role In Epstein Death Out? Sen. Kennedy EXPOSES Deat&rdquo;"
+    "Quoted from the source: &ldquo;Trump's Role In Epstein Death Out? Sen. Kennedy EXPOSES&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a776ed4be7943f0b977e8759b3cff2c&url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&c=674661273872150764&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a776ed4be7943f0b977e8759b3cff2c&url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&c=674661273872150764&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "questions": []
-  },
-  {
-   "id": "epstein-death-2026-08-14-002",
-   "kind": "wire",
-   "beats": [
-    "epstein-death"
-   ],
-   "stamp": "documented",
-   "title": "Reported: Trump's Role In Epstein Death Out? Sen. Kennedy EXPOSES Death Of Jeffrey Epstein Before Mi",
-   "deck": "single news outlet; news ceiling 0.6",
-   "body": [
-    "Quoted from the source: &ldquo;Trump's Role In Epstein Death Out? Sen. Kennedy EXPOSES Deat&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on B, C",
-   "sources": [
+     "t": "misc",
+     "c": "0.38"
+    },
     {
-     "n": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a771a772f854e029dbae28045d91f5b&url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&c=674661273872150764&mkt=en-us",
+     "n": "bing.com",
      "u": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6a771a772f854e029dbae28045d91f5b&url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&c=674661273872150764&mkt=en-us",
-     "t": "news",
-     "c": "0.6"
+     "t": "misc",
+     "c": "0.38"
     }
    ],
+   "corroboration": 1,
    "questions": []
   }
  ],
