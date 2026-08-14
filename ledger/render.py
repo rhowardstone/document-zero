@@ -143,6 +143,22 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
             "items": [c["id"] for c in claims], "questions": [], "triggers": [],
         })
 
+    # Questions, triggers and contradictions are first-class ledger objects, and
+    # the rails that carry them are the visible proof that the record accumulates.
+    # A page that renders only today's items shows a feed; these show a ledger.
+    questions = _collection(root, "questions")
+    triggers = sorted(_collection(root, "triggers"), key=lambda t: t.get("sort") or "")
+    contradictions = _collection(root, "contradictions")
+
+    q_by_beat, t_by_beat = {}, {}
+    for q in questions:
+        q_by_beat.setdefault(q.get("beat"), []).append(q["id"])
+    for t in triggers:
+        t_by_beat.setdefault(t.get("beat"), []).append(t["id"])
+    for b in out_beats:
+        b["questions"] = q_by_beat.get(b["id"], [])
+        b["triggers"] = t_by_beat.get(b["id"], [])
+
     counts = edition.get("counts", {})
     return {
         "edition": {"n": "001", "date": day, "updated": "—", "next": "—"},
@@ -150,14 +166,21 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
         "types": list(types.values()),
         "beats": out_beats,
         "items": order,
-        "questions": [],
-        "triggers": [],
-        "contradictions": [],
+        "questions": questions,
+        "triggers": triggers,
+        "contradictions": contradictions,
         "archive": [{"d": day, "n": "001",
                      "items": counts.get("wire", 0),
                      "note": "Published" if edition.get("publish") else
                              f"Not published ({edition.get('publish_blocked_by')})"}],
     }
+
+
+def _collection(root: Path, name: str) -> list:
+    d = root / name
+    if not d.exists():
+        return []
+    return [o for o in (_read(f) for f in sorted(d.glob("*.json"))) if o]
 
 
 def _distinct_publishers(sources) -> int:

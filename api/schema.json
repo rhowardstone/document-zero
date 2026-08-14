@@ -1,0 +1,36 @@
+{
+ "record": {
+  "id": "stable identifier",
+  "title": "the claim, as an assertion",
+  "stamp": "documented | open | hold — the evidentiary tier, NOT an importance rating",
+  "beats": "every beat this claim informs; a claim can inform several",
+  "corroboration": "count of DISTINCT PUBLISHERS, not of links. Three links from one aggregator counts as one.",
+  "sources": [
+   {
+    "n": "publisher host",
+    "u": "url",
+    "t": "source type",
+    "c": "confidence, capped by source type"
+   }
+  ],
+  "derived": "how the claim reached the page, including verification rounds"
+ },
+ "beat": {
+  "status": "moved | recirculating | unresolved | quiet",
+  "state": "the beat's current condition as fields; this is what a diff runs over",
+  "history": "every revision, newest first",
+  "unknown": "what this beat does NOT establish. Never omitted."
+ },
+ "confidence_ceilings": {
+  "article": 1.0,
+  "inproceedings": 0.95,
+  "book": 0.9,
+  "preprint": 0.85,
+  "documentation": 0.85,
+  "techreport": 0.8,
+  "repo": 0.8,
+  "blog": 0.7,
+  "news": 0.6,
+  "misc": 0.5
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "beat": {
+  "id": "epstein-banks",
+  "name": "Banks, the Senate report, and Epstein's money",
+  "dossiers": [
+   "records",
+   "econ"
+  ],
+  "types": [
+   "oversight",
+   "market"
+  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
+  "unknown": [
+   "No claim has survived verification on this beat."
+  ],
+  "items": [],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

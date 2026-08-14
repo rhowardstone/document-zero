@@ -38,6 +38,23 @@ NEWS = (
     r"newsweek\.com$", r"courthousenews\.com$", r"forbes\.com$", r"time\.com$",
     r"latimes\.com$", r"independent\.co\.uk$", r"telegraph\.co\.uk$",
     r"aljazeera\.com$", r"cnbc\.com$", r"pbs\.org$", r"propublica\.org$",
+    # Regional dailies and trade press. Adding a publisher here RAISES the
+    # ceiling for every claim that will ever rest on it, so the bar is an
+    # identifiable masthead with a corrections policy — not reach, and not
+    # whether the outlet happens to agree with anyone.
+    r"abqjournal\.com$", r"santafenewmexican\.com$", r"krqe\.com$",
+    r"csmonitor\.com$", r"therealdeal\.com$", r"texastribune\.org$",
+    r"nmpoliticalreport\.com$", r"searchlightnm\.org$", r"sourcenm\.com$",
+    r"statesman\.com$", r"dallasnews\.com$", r"houstonchronicle\.com$",
+    r"miamiherald\.com$", r"tampabay\.com$", r"seattletimes\.com$",
+    r"startribune\.com$", r"denverpost\.com$", r"azcentral\.com$",
+    r"detroitnews\.com$", r"freep\.com$", r"cleveland\.com$",
+    r"post-gazette\.com$", r"inquirer\.com$", r"baltimoresun\.com$",
+    r"chicagotribune\.com$", r"sfchronicle\.com$", r"bostonglobe\.com$",
+    r"hyperallergic\.com$", r"lawfaremedia\.org$", r"justsecurity\.org$",
+    r"theatlantic\.com$", r"newyorker\.com$", r"vanityfair\.com$",
+    r"motherjones\.com$", r"thedailybeast\.com$", r"talkingpointsmemo\.com$",
+    r"rollcall\.com$", r"govexec\.com$", r"nationaljournal\.com$",
 )
 # Individually authored, no editorial layer. Ceiling 0.7.
 BLOG = (r"substack\.com$", r"medium\.com$", r"wordpress\.com$", r"blogspot\.com$",

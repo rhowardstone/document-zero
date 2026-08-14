@@ -235,3 +235,39 @@ def test_a_wire_beat_produces_no_omission_record(tmp_path):
         "wire": [{"id": "flock", "beat": "flock"}], "counts": {}, "publish": False})
     assert not [i for i in build(l.root, CFG, "2026-08-14")["items"]
                 if i["kind"] == "omission"]
+
+
+def _editor(l):
+    e = Ledger(l.root, writer="editor")
+    e._write_json("editions/2026-08-14.json", {"day": "2026-08-14", "wire": [],
+                  "omissions": [], "holds": [], "counts": {}, "publish": False})
+    return e
+
+def test_questions_are_rendered_and_attached_to_their_beat(tmp_path):
+    l = Ledger(tmp_path / "data"); e = _editor(l)
+    e._write_json("questions/q1.json", {"id": "q1", "beat": "compliance",
+                                        "q": "Why were notes withheld?", "status": "Open"})
+    d = build(l.root, CFG, "2026-08-14")
+    assert [q["id"] for q in d["questions"]] == ["q1"]
+    b = next(b for b in d["beats"] if b["id"] == "compliance")
+    assert b["questions"] == ["q1"]
+
+def test_triggers_render_in_date_order(tmp_path):
+    l = Ledger(tmp_path / "data"); e = _editor(l)
+    e._write_json("triggers/t2.json", {"id": "t2", "sort": "2026-09-01", "d": "1 SEP",
+                                       "t": "Later", "beat": "compliance"})
+    e._write_json("triggers/t1.json", {"id": "t1", "sort": "2026-08-20", "d": "20 AUG",
+                                       "t": "Sooner", "beat": "compliance"})
+    d = build(l.root, CFG, "2026-08-14")
+    assert [t["id"] for t in d["triggers"]] == ["t1", "t2"], "soonest first"
+
+def test_contradictions_render(tmp_path):
+    l = Ledger(tmp_path / "data"); e = _editor(l)
+    e._write_json("contradictions/c1.json", {"id": "c1", "a": "X", "b": "not X",
+                                             "beat": "compliance", "c": "0.7"})
+    assert build(l.root, CFG, "2026-08-14")["contradictions"][0]["id"] == "c1"
+
+def test_empty_rails_stay_empty_rather_than_erroring(tmp_path):
+    l = Ledger(tmp_path / "data"); _editor(l)
+    d = build(l.root, CFG, "2026-08-14")
+    assert d["questions"] == [] and d["triggers"] == [] and d["contradictions"] == []

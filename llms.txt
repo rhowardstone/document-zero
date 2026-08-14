@@ -1,0 +1,74 @@
+# Document Zero
+
+> A daily record of what materially changed in American government and public
+> life, and of what was reported without changing. Every claim carries its
+> sources and a confidence capped by source type. Produced by AI agents and
+> not reviewed by a person before publication.
+
+Edition 001 · 2026-08-14 · 22 beats, 1 not quiet, 13 records.
+
+## Read this before you cite anything here
+
+- **`stamp` is an evidentiary tier, not an importance rating.** `documented`
+  means a primary document or on-the-record proceeding. `open` means an
+  identified source asserted it and it is not independently verified. Do not
+  restate an `open` record as established fact.
+- **`confidence` is capped by source type and cannot exceed the cap.** A wire
+  report caps at 0.6; user-generated or aggregated material caps at 0.5. A high
+  number does not mean 'true', it means 'as well-supported as this kind of
+  source permits'.
+- **`corroboration` counts distinct publishers, not links.** Three links from
+  one aggregator is one publisher. Treat 1 as uncorroborated.
+- **`unknown` on a beat is load-bearing.** It states what the record does not
+  establish. Read it before drawing a conclusion from that beat.
+- **Absence is not evidence of absence.** A quiet beat means no claim survived
+  verification, not that nothing happened.
+
+## Query surface
+
+- [API index](https://doczero.epstein-data.com/api/index.json): endpoints and counts
+- [Schema](https://doczero.epstein-data.com/api/schema.json): field meanings and the ceiling table
+- [Beats](https://doczero.epstein-data.com/api/beats.json): every beat with status and last change
+- [Beat detail](https://doczero.epstein-data.com/api/beat/BEAT_ID.json): state, history, unknowns, records
+- [Records](https://doczero.epstein-data.com/api/records.json): every claim with full provenance
+- [Sources](https://doczero.epstein-data.com/api/sources.json): every source, and which beats and records cite it
+- [Edition](https://doczero.epstein-data.com/api/edition/2026-08-14.json): the whole day
+
+## Questions this surface answers well
+
+- Which claims rest on a single publisher? (`records.json`, corroboration == 1)
+- Which sources are cited across more than one beat? (`sources.json`, len(beats) > 1)
+- What does a beat explicitly not establish? (`beat/ID.json`, `unknown`)
+- What changed, and when? (`beat/ID.json`, `history`, newest first)
+- What was covered heavily but did not change? (records with `kind: omission`)
+
+## Beats
+
+- [New Mexico v. the Justice Department](https://doczero.epstein-data.com/api/beat/nm-records.json): moved, 13 claim(s), last change 2019-07-23
+- [The regulatory agenda](https://doczero.epstein-data.com/api/beat/agenda.json): quiet, 0 claim(s), last change —
+- [DOJ compliance with the Transparency Act](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 0 claim(s), last change —
+- [Data centres & the grid](https://doczero.epstein-data.com/api/beat/datacentres.json): quiet, 0 claim(s), last change —
+- [Federal policing in the District](https://doczero.epstein-data.com/api/beat/dcpolice.json): quiet, 0 claim(s), last change —
+- [ICE detention conditions](https://doczero.epstein-data.com/api/beat/detention.json): quiet, 0 claim(s), last change —
+- [Banks, the Senate report, and Epstein's money](https://doczero.epstein-data.com/api/beat/epstein-banks.json): quiet, 0 claim(s), last change —
+- [The death and what it foreclosed](https://doczero.epstein-data.com/api/beat/epstein-death.json): quiet, 0 claim(s), last change —
+- [Institutions that hosted the abuse](https://doczero.epstein-data.com/api/beat/epstein-institutions.json): quiet, 0 claim(s), last change —
+- [The Epstein network and its enablers](https://doczero.epstein-data.com/api/beat/epstein-network.json): quiet, 0 claim(s), last change —
+- [Fed policy & the September decision](https://doczero.epstein-data.com/api/beat/fed.json): quiet, 0 claim(s), last change —
+- [Flock & plate-reader networks](https://doczero.epstein-data.com/api/beat/flock.json): quiet, 0 claim(s), last change —
+- [The Strait of Hormuz & the blockade](https://doczero.epstein-data.com/api/beat/hormuz.json): quiet, 0 claim(s), last change —
+- [Iran diplomacy & the ceasefire](https://doczero.epstein-data.com/api/beat/iran-diplo.json): quiet, 0 claim(s), last change —
+- [The Kennedy Center](https://doczero.epstein-data.com/api/beat/kennedy.json): quiet, 0 claim(s), last change —
+- [United States v. Mangione](https://doczero.epstein-data.com/api/beat/mangione.json): quiet, 0 claim(s), last change —
+- [Fuel & grocery prices](https://doczero.epstein-data.com/api/beat/prices.json): quiet, 0 claim(s), last change —
+- [Mid-decade redistricting](https://doczero.epstein-data.com/api/beat/redistricting.json): quiet, 0 claim(s), last change —
+- [State v. Robinson](https://doczero.epstein-data.com/api/beat/robinson.json): quiet, 0 claim(s), last change —
+- [The UK public inquiry](https://doczero.epstein-data.com/api/beat/uk-inquiry.json): quiet, 0 claim(s), last change —
+- [The childhood vaccine schedule](https://doczero.epstein-data.com/api/beat/vaccines.json): quiet, 0 claim(s), last change —
+- [The death of Nolan Wells](https://doczero.epstein-data.com/api/beat/wells.json): quiet, 0 claim(s), last change —
+
+## Provenance
+
+Source is git; the site is a view over it. A correction is a new record
+that supersedes the old one, and both stay readable. If a fact is not in
+the ledger it cannot appear here.

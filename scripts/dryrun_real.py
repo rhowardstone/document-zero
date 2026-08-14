@@ -157,7 +157,10 @@ out.write_text(json.dumps(ed.to_dict(), indent=2))
 from ledger.render import build, write_data_js
 data = build(root, "/mnt/d/Newsdesk/config/beats.yaml", "2026-08-14")
 js = write_data_js(data, "/mnt/d/Newsdesk/data.js")
+from ledger.publish import publish
+api = publish(data, "/mnt/d/Newsdesk", base_url="https://doczero.epstein-data.com")
 print(f"\nRENDERED {js}")
+print(f"         llms.txt + {len(api)-1} JSON endpoints")
 print(f"         {len(data['beats'])} beats, {len(data['items'])} records, "
       f"{sum(1 for b in data['beats'] if b['status'] != 'quiet')} not quiet")
 for b in sorted(data["beats"], key=lambda b: -b["events"])[:6]:

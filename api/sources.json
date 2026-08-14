@@ -1,0 +1,108 @@
+{
+ "count": 9,
+ "sources": [
+  {
+   "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+   "publisher": "abqjournal.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-001",
+    "nm-records-2026-08-14-003",
+    "nm-records-2026-08-14-004"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+   "publisher": "nbcnews.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-000",
+    "nm-records-2026-08-14-012"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+   "publisher": "therealdeal.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-006",
+    "nm-records-2026-08-14-007"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+   "publisher": "courthousenews.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-002"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
+   "publisher": "santafenewmexican.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-005"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
+   "publisher": "aljazeera.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-008"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+   "publisher": "newsweek.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-009"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
+   "publisher": "santafenewmexican.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-010"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
+   "publisher": "thehill.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-011"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  }
+ ]
+}

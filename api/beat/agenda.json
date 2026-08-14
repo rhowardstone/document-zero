@@ -1,0 +1,26 @@
+{
+ "beat": {
+  "id": "agenda",
+  "name": "The regulatory agenda",
+  "dossiers": [
+   "power"
+  ],
+  "types": [
+   "reg"
+  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
+  "unknown": [
+   "No claim has survived verification on this beat."
+  ],
+  "items": [],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

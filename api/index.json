@@ -1,0 +1,22 @@
+{
+ "generated_from": "the ledger",
+ "edition": {
+  "n": "001",
+  "date": "2026-08-14",
+  "updated": "—",
+  "next": "—"
+ },
+ "endpoints": {
+  "beats": "api/beats.json",
+  "beat": "api/beat/{beat_id}.json",
+  "records": "api/records.json",
+  "sources": "api/sources.json",
+  "edition": "api/edition/{YYYY-MM-DD}.json",
+  "schema": "api/schema.json"
+ },
+ "counts": {
+  "beats": 22,
+  "records": 13,
+  "sources": 9
+ }
+}

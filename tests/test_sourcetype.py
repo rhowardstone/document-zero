@@ -46,3 +46,18 @@ def test_unknown_defaults_conservative_not_generous():
 
 def test_a_malformed_url_does_not_raise():
     assert classify("http://[::1") == "misc"
+
+
+@pytest.mark.parametrize("host", [
+    "abqjournal.com", "santafenewmexican.com", "therealdeal.com",
+    "texastribune.org", "hyperallergic.com", "lawfaremedia.org",
+])
+def test_regional_and_trade_mastheads_are_recognised_newsrooms(host):
+    """Adding a publisher raises the ceiling for every claim that will ever rest
+    on it, so the bar is an identifiable masthead with a corrections policy."""
+    assert classify(f"https://www.{host}/story") == "news"
+
+def test_adding_publishers_did_not_promote_ugc():
+    for u in ("https://www.reddit.com/r/x/1", "https://x.com/a/1",
+              "https://www.bing.com/news/1", "https://news.google.com/x"):
+        assert classify(u) == "misc"

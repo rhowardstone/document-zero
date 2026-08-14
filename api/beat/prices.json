@@ -1,0 +1,27 @@
+{
+ "beat": {
+  "id": "prices",
+  "name": "Fuel & grocery prices",
+  "dossiers": [
+   "econ",
+   "iran"
+  ],
+  "types": [
+   "market"
+  ],
+  "status": "quiet",
+  "opened": "—",
+  "lastChange": "—",
+  "events": 0,
+  "summary": "0 claim(s) on record.",
+  "state": [],
+  "history": [],
+  "unknown": [
+   "No claim has survived verification on this beat."
+  ],
+  "items": [],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}
