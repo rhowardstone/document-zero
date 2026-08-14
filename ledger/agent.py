@@ -9,8 +9,10 @@ Every model touchpoint is injected: the extractor, the verifier passes, the stat
 proposer and the subject resolver are all callables. The orchestration — which is
 where the editorial rules live — is therefore fully testable with no API calls.
 
-Failure is atomic at the ledger level: a run that cannot parse its model output
-writes nothing at all, rather than leaving half a beat behind.
+The unit of atomicity is the CLAIM, not the run. A claim that fails validation
+is dropped with its reason recorded, so one fabricated quote costs one claim
+rather than the eight good ones beside it. Structurally unusable output — not
+JSON, not an array — still fails the whole run and writes nothing.
 """
 from __future__ import annotations
 from dataclasses import dataclass, field
@@ -27,6 +29,7 @@ class AgentResult:
     beat: str
     claims_written: int = 0
     refused: list = field(default_factory=list)
+    rejected: list = field(default_factory=list)   # failed validation at parse time
     cascade_failures: int = 0
     injection_attempts: int = 0
     single_root: bool = False
@@ -69,11 +72,15 @@ class BeatAgent:
 
         try:
             raw = self.extractor(prompt)
-            claims = parse_claims(raw, beat=self.beat, extracted_by=f"beat-agent-{self.beat}",
+            parsed = parse_claims(raw, beat=self.beat, extracted_by=f"beat-agent-{self.beat}",
                                   now=self.now, source_index=index)
         except ExtractionError as e:
             r.error = str(e)
-            return r                      # nothing written; the ledger is untouched
+            return r                      # structurally unusable; the ledger is untouched
+        except Exception as e:            # noqa: BLE001 - a model failure is not a crash
+            r.error = f"{type(e).__name__}: {e}"
+            return r
+        claims, r.rejected = parsed.claims, parsed.rejections
 
         # Refusal gates run before verification: a refusal is absolute and is not
         # curable by better sourcing, so there is no point verifying first.

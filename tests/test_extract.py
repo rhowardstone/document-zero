@@ -36,32 +36,55 @@ def test_parse_claims_accepts_well_formed_output():
                "confidence_justification":"single outlet","tier":"documented_fact"}]'''
     got = parse_claims(raw, beat="hormuz", extracted_by="agent",
                        now="2026-08-14T05:00:00Z",
-                       source_index={"aaa": {"url": "https://x", "source_type": "news"}})
+                       source_index={"aaa": {"url": "https://x", "source_type": "news"}}).claims
     assert len(got) == 1 and got[0]["beat"] == "hormuz"
     assert got[0]["id"].startswith("hormuz-")
     assert got[0]["source_url"] == "https://x"
 
-def test_parse_claims_rejects_a_claim_citing_an_unknown_source():
+def test_parse_claims_drops_a_claim_citing_an_unknown_source():
     raw = '[{"claim_text":"X","quote":"y","source_sha":"nope","confidence":0.5,' \
           '"confidence_justification":"j","tier":"documented_fact"}]'
-    with pytest.raises(ExtractionError, match="unknown source"):
-        parse_claims(raw, beat="b", extracted_by="a", now="n", source_index={})
+    res = parse_claims(raw, beat="b", extracted_by="a", now="n", source_index={})
+    assert res.claims == [] and "unknown source" in res.rejections[0]
 
-def test_parse_claims_rejects_a_quote_absent_from_the_cited_source():
+def test_parse_claims_drops_a_quote_absent_from_the_cited_source():
     raw = '[{"claim_text":"X","quote":"words that never appeared","source_sha":"aaa",' \
           '"confidence":0.5,"confidence_justification":"j","tier":"documented_fact"}]'
-    with pytest.raises(ExtractionError, match="quote"):
-        parse_claims(raw, beat="b", extracted_by="a", now="n",
-                     source_index={"aaa": {"url": "https://x", "source_type": "news",
-                                           "snippet": "entirely different text"}})
+    res = parse_claims(raw, beat="b", extracted_by="a", now="n",
+                       source_index={"aaa": {"url": "https://x", "source_type": "news",
+                                             "snippet": "entirely different text"}})
+    assert res.claims == [] and "quote" in res.rejections[0]
 
-def test_parse_claims_rejects_confidence_over_the_source_ceiling():
+def test_one_bad_claim_does_not_discard_the_good_ones():
+    """The unit of atomicity is the claim, not the batch."""
+    idx = {"aaa": {"url": "https://x", "source_type": "news", "snippet": "abc def"}}
+    raw = ('[{"claim_text":"good","quote":"abc","source_sha":"aaa","confidence":0.5,'
+           '"confidence_justification":"j","tier":"documented_fact"},'
+           '{"claim_text":"bad","quote":"never appeared","source_sha":"aaa","confidence":0.5,'
+           '"confidence_justification":"j","tier":"documented_fact"}]')
+    res = parse_claims(raw, beat="b", extracted_by="a", now="n", source_index=idx)
+    assert len(res.claims) == 1 and res.claims[0]["claim_text"] == "good"
+    assert len(res.rejections) == 1
+
+def test_quote_matching_tolerates_whitespace_but_not_different_words():
+    """A quote spanning a title/snippet boundary differs only in joining whitespace."""
+    idx = {"aaa": {"url": "https://x", "source_type": "news",
+                   "title": "Judge threatens DOJ", "snippet": "sanctions over files"}}
+    ok = ('[{"claim_text":"X","quote":"Judge threatens DOJ\\n sanctions over files",'
+          '"source_sha":"aaa","confidence":0.5,"confidence_justification":"j",'
+          '"tier":"documented_fact"}]')
+    assert len(parse_claims(ok, beat="b", extracted_by="a", now="n", source_index=idx).claims) == 1
+    bad = ('[{"claim_text":"X","quote":"Judge praises DOJ","source_sha":"aaa",'
+           '"confidence":0.5,"confidence_justification":"j","tier":"documented_fact"}]')
+    assert parse_claims(bad, beat="b", extracted_by="a", now="n", source_index=idx).claims == []
+
+def test_parse_claims_drops_confidence_over_the_source_ceiling():
     raw = '[{"claim_text":"X","quote":"abc","source_sha":"aaa","confidence":0.95,' \
           '"confidence_justification":"j","tier":"documented_fact"}]'
-    with pytest.raises(ExtractionError):
-        parse_claims(raw, beat="b", extracted_by="a", now="n",
-                     source_index={"aaa": {"url": "https://x", "source_type": "news",
-                                           "snippet": "abc"}})
+    res = parse_claims(raw, beat="b", extracted_by="a", now="n",
+                       source_index={"aaa": {"url": "https://x", "source_type": "news",
+                                             "snippet": "abc"}})
+    assert res.claims == [] and "ceiling" in res.rejections[0]
 
 def test_parse_claims_rejects_non_json():
     with pytest.raises(ExtractionError):
@@ -73,7 +96,7 @@ def test_parse_claims_tolerates_a_fenced_code_block():
           '"confidence_justification":"j","tier":"documented_fact"}]\n```'
     got = parse_claims(raw, beat="b", extracted_by="a", now="n",
                        source_index={"aaa": {"url": "https://x", "source_type": "news",
-                                             "snippet": "abc"}})
+                                             "snippet": "abc"}}).claims
     assert len(got) == 1
 
 
@@ -83,3 +106,19 @@ def test_prompt_ref_is_the_full_sha_so_claims_can_actually_cite_it():
     p = build_extraction_prompt("hormuz", {"fields": []},
                                 [{"sha256": sha, "title": "T", "snippet": "body text here"}])
     assert f'ref="{sha}"' in p
+
+
+def test_prompt_states_the_confidence_ceiling_for_each_source_type():
+    """A model that knows the cap stops producing claims the validator will reject."""
+    p = build_extraction_prompt("hormuz", {"fields": []}, [
+        {"sha256": "a"*64, "title": "T", "snippet": "body", "source_type": "news"},
+        {"sha256": "b"*64, "title": "U", "snippet": "body", "source_type": "documentation"},
+    ])
+    assert "news: 0.6" in p and "documentation: 0.85" in p
+
+def test_prompt_defines_the_evidence_tiers():
+    p = build_extraction_prompt("b", {"fields": []},
+                                [{"sha256": "a"*64, "title": "T", "snippet": "x",
+                                  "source_type": "news"}])
+    for tier in ("documented_fact", "credible_allegation", "question"):
+        assert tier in p

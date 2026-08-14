@@ -76,14 +76,34 @@ def test_malformed_model_output_fails_the_run_without_corrupting_the_ledger(tmp_
     assert r.error and "JSON" in r.error
     assert led.get_state("hormuz") is None, "a failed run must leave no state behind"
 
-def test_a_fabricated_quote_is_rejected_before_anything_is_written(tmp_path):
+def test_a_fabricated_quote_is_dropped_and_the_rejection_recorded(tmp_path):
     bad = json.dumps([{"claim_text": "X", "quote": "words that never appeared",
                        "source_sha": "a"*64, "confidence": 0.6,
                        "confidence_justification": "j", "tier": "documented_fact"}])
     led, agent = make(tmp_path, extractor=lambda p: bad)
     r = agent.run([SRC])
-    assert r.error and "quote" in r.error
-    assert led.list_claims("hormuz") == []
+    assert r.claims_written == 0 and led.list_claims("hormuz") == []
+    assert r.rejected and "quote" in r.rejected[0]
+    assert r.error is None, "a bad claim is a rejection, not a run failure"
+
+def test_a_good_claim_survives_alongside_a_rejected_one(tmp_path):
+    mixed = json.dumps([
+        {"claim_text": "Transit slowed.", "quote": "grind to a near standstill",
+         "source_sha": "a"*64, "confidence": 0.6, "confidence_justification": "j",
+         "tier": "documented_fact"},
+        {"claim_text": "Fabricated.", "quote": "words that never appeared",
+         "source_sha": "a"*64, "confidence": 0.6, "confidence_justification": "j",
+         "tier": "documented_fact"}])
+    led, agent = make(tmp_path, extractor=lambda p: mixed)
+    r = agent.run([SRC])
+    assert r.claims_written == 1 and len(r.rejected) == 1
+
+def test_a_model_exception_is_recorded_not_raised(tmp_path):
+    def boom(prompt): raise RuntimeError("connection reset")
+    led, agent = make(tmp_path, extractor=boom)
+    r = agent.run([SRC])
+    assert r.error and "connection reset" in r.error
+    assert led.get_state("hormuz") is None
 
 def test_injection_attempts_in_sources_are_recorded_not_obeyed(tmp_path):
     hostile = dict(SRC,

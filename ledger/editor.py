@@ -59,6 +59,7 @@ def build_records(results, clusters, policy, beat_meta) -> list:
             "material_changes": getattr(r.delta, "material_changes", 0),
             "claims": r.claims_written,
             "injection_attempts": r.injection_attempts,
+            "rejected_claims": len(getattr(r, "rejected", []) or []),
         })
     return records
 
