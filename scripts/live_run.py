@@ -1,5 +1,9 @@
 """One real cycle: real articles, real model calls, real verification cascade.
 
+COSTS MONEY. Refuses to run unless DZ_ALLOW_PAID_CALLS=1 is set deliberately.
+For a free equivalent that exercises the same pipeline with a deterministic
+stub extractor, use scripts/dryrun_real.py instead.
+
 Deliberately small — a handful of sources across two beats — because the point
 is to prove the contract holds against a live model, not to process a corpus.
 """

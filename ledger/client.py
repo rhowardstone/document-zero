@@ -115,8 +115,34 @@ class Cost:
         return f"{self.calls} calls | " + " | ".join(parts)
 
 
+class PaidCallsDisabled(RuntimeError):
+    """A paid API call was attempted without explicit opt-in."""
+
+
+# Every call in this file costs the operator money. Having credentials in the
+# environment is NOT consent to spend them — an API key is there for many
+# reasons, and a tool finding one is not the same as being told to use it.
+# Spending is therefore opt-in per process and off by default: nothing here can
+# bill anyone unless a human sets DZ_ALLOW_PAID_CALLS=1 for that run.
+PAID_CALLS_ENV = "DZ_ALLOW_PAID_CALLS"
+
+
+def paid_calls_allowed() -> bool:
+    return os.environ.get(PAID_CALLS_ENV, "").strip().lower() in {"1", "true", "yes"}
+
+
 def _client():
     import anthropic
+    if not paid_calls_allowed():
+        raise PaidCallsDisabled(
+            "Refusing to make a paid API call.\n"
+            f"Every request in ledger.client bills the operator. Set {PAID_CALLS_ENV}=1 "
+            "to authorise spending for this run — deliberately, and only when you mean "
+            "to. Credentials being present in the environment is not authorisation.\n"
+            "Everything except this module runs for free: the full pipeline is testable "
+            "with injected callables (see tests/) and runnable with a deterministic stub "
+            "extractor (see scripts/dryrun_real.py)."
+        )
     if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
         raise RuntimeError("no Anthropic credentials in the environment")
     # The SDK already retries 429/5xx with backoff; two is the default and enough

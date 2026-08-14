@@ -17,7 +17,8 @@
       "undercovered": true,
       "material_changes": 2,
       "claims": 1,
-      "injection_attempts": 0
+      "injection_attempts": 0,
+      "rejected_claims": 0
     },
     {
       "id": "compliance",
@@ -35,7 +36,8 @@
       "undercovered": true,
       "material_changes": 2,
       "claims": 3,
-      "injection_attempts": 0
+      "injection_attempts": 0,
+      "rejected_claims": 0
     },
     {
       "id": "detention",
@@ -53,7 +55,8 @@
       "undercovered": true,
       "material_changes": 2,
       "claims": 1,
-      "injection_attempts": 0
+      "injection_attempts": 0,
+      "rejected_claims": 0
     },
     {
       "id": "flock",
@@ -71,7 +74,8 @@
       "undercovered": true,
       "material_changes": 2,
       "claims": 1,
-      "injection_attempts": 0
+      "injection_attempts": 0,
+      "rejected_claims": 0
     }
   ],
   "omissions": [],

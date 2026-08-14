@@ -26,6 +26,7 @@ class FakeClient:
 def cost(): return C.Cost()
 
 def patch(monkeypatch, payload, **kw):
+    """Replace the real client entirely. No test in this file spends money."""
     fc = FakeClient(payload, **kw)
     monkeypatch.setattr(C, "_client", lambda: fc)
     return fc
@@ -89,8 +90,11 @@ def test_verifier_is_never_handed_the_extractors_reasoning(monkeypatch, cost):
     prompt = fc.messages.seen[0]["messages"][0]["content"]
     assert "claim_text" in prompt and "_reasoning" not in prompt
 
-def test_the_two_passes_use_distinct_models(cost):
-    assert C.refute_pass(cost).family != C.lens_pass(cost).family
+def test_the_two_passes_use_distinct_models():
+    """Independence is the point of the cascade. Checked on the constants so the
+    test needs no client — and therefore cannot spend money."""
+    assert C.REFUTE_MODEL != C.LENS_MODEL != C.EXTRACTOR_MODEL
+    assert len({C.EXTRACTOR_MODEL, C.REFUTE_MODEL, C.LENS_MODEL}) == 3
 
 def test_the_lens_pass_runs_at_lower_effort_than_extraction(monkeypatch, cost):
     fc = patch(monkeypatch, {"refuted": True, "reason": "r"})
@@ -154,3 +158,43 @@ def test_an_unrelated_400_still_raises(monkeypatch, cost):
     monkeypatch.setattr(C, "_client", lambda: fc)
     with pytest.raises(Exception, match="bad schema"):
         C.AnthropicExtractor(cost)("prompt")
+
+
+# ---------------------------------------------------------------------------
+# Spending is opt-in. These tests exist so nothing can quietly start billing.
+# ---------------------------------------------------------------------------
+
+def test_paid_calls_are_refused_by_default(monkeypatch, cost):
+    """Credentials in the environment are NOT authorisation to spend them."""
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-ant-whatever")
+    monkeypatch.delenv(C.PAID_CALLS_ENV, raising=False)
+    with pytest.raises(C.PaidCallsDisabled, match="Refusing to make a paid API call"):
+        C.AnthropicExtractor(cost)
+
+def test_verifier_construction_is_also_refused_by_default(cost, monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-ant-whatever")
+    monkeypatch.delenv(C.PAID_CALLS_ENV, raising=False)
+    with pytest.raises(C.PaidCallsDisabled):
+        C.refute_pass(cost)
+    with pytest.raises(C.PaidCallsDisabled):
+        C.lens_pass(cost)
+
+def test_the_error_names_the_opt_in_and_the_free_alternative(cost, monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-ant-whatever")
+    monkeypatch.delenv(C.PAID_CALLS_ENV, raising=False)
+    with pytest.raises(C.PaidCallsDisabled) as e:
+        C.AnthropicExtractor(cost)
+    msg = str(e.value)
+    assert C.PAID_CALLS_ENV in msg and "dryrun_real.py" in msg
+
+@pytest.mark.parametrize("val,allowed", [
+    ("1", True), ("true", True), ("YES", True),
+    ("0", False), ("", False), ("no", False), ("maybe", False),
+])
+def test_only_an_explicit_affirmative_authorises_spending(monkeypatch, val, allowed):
+    monkeypatch.setenv(C.PAID_CALLS_ENV, val)
+    assert C.paid_calls_allowed() is allowed
+
+def test_unset_means_not_allowed(monkeypatch):
+    monkeypatch.delenv(C.PAID_CALLS_ENV, raising=False)
+    assert C.paid_calls_allowed() is False
