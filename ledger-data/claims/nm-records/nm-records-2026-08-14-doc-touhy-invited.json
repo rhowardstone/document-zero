@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-touhy-invited",
+  "beat": "nm-records",
+  "claim_text": "The federal government asked New Mexico to file the formal Touhy request it later declined: on 1 April 2026 an Associate Deputy Attorney General affirmed the Department's commitment to assisting and requested that New Mexico submit a Touhy letter through standard channels.",
+  "quote": "who affirmed the Department's commitment to assisting with the NMDOJ's ongoing investigation and requested that the NMDOJ submit a Touhy letter through standard channels",
+  "source_sha": "e62c32dbc2c4b412c09f265d28763240e0a27308c8e4e356053297990d3dd57c",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "New Mexico's own contemporaneous account, written to the federal officials who would have corrected it. The sequence — the request was invited, then refused — is what the document establishes.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

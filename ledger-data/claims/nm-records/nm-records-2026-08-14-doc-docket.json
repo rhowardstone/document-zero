@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-docket",
+  "beat": "nm-records",
+  "claim_text": "The suit is docketed as No. 1:26-cv-02762-AHA in the U.S. District Court for the District of Columbia, assigned to Judge Amir H. Ali, and is pleaded as review of agency action under the Administrative Procedure Act rather than as a FOIA case.",
+  "quote": "899 Administrative Procedure Act/Review or Appeal of Agency Decision",
+  "source_sha": "62605831a8aa04f28e3c4d688059a5269773582e2fe8fb0f1e337a2b942b95a6",
+  "source_type": "documentation",
+  "source_url": "https://www.courtlistener.com/docket/73721948/state-of-new-mexico-v-us-department-of-justice/",
+  "confidence": 0.85,
+  "confidence_justification": "The docket's own nature-of-suit code and assignment. A docket establishes the posture of a case in a way no characterisation of it can; the distinction from FOIA matters because it determines the remedy available.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

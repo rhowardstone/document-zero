@@ -2,7 +2,7 @@
  "query": "unknowns",
  "question": "What does the record explicitly NOT establish?",
  "method": "the `unknown` array of every beat, which the renderer never omits",
- "count": 21,
+ "count": 20,
  "results": [
   {
    "beat": "hormuz",
@@ -35,13 +35,6 @@
   {
    "beat": "agenda",
    "name": "The regulatory agenda",
-   "unknown": [
-    "No claim has survived verification on this beat."
-   ]
-  },
-  {
-   "beat": "compliance",
-   "name": "DOJ compliance with the Transparency Act",
    "unknown": [
     "No claim has survived verification on this beat."
    ]

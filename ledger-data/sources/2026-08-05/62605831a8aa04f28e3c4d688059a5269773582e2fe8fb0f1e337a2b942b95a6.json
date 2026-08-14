@@ -1,0 +1,19 @@
+{
+  "sha256": "62605831a8aa04f28e3c4d688059a5269773582e2fe8fb0f1e337a2b942b95a6",
+  "url": "https://www.courtlistener.com/docket/73721948/state-of-new-mexico-v-us-department-of-justice/",
+  "title": "Docket, State of New Mexico v. U.S. Dep't of Justice, No. 1:26-cv-02762-AHA (D.D.C.)",
+  "source_name": "courtlistener.com",
+  "source_type": "documentation",
+  "published_at": "2026-08-05T00:00:00Z",
+  "first_seen": "2026-08-14T11:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    },
+    {
+      "beat": "compliance",
+      "score": 0.6
+    }
+  ]
+}

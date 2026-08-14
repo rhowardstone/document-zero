@@ -1,0 +1,18 @@
+{
+  "id": "compliance-2026-08-14-doc-efta-as-shield",
+  "beat": "compliance",
+  "claim_text": "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation.",
+  "quote": "reiterated his view that EFTA and the existing protective orders precluded production of materials in response to NMDOJ's request",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "The position taken is documented with a date and an attached exhibit. A transparency statute being invoked as a reason to withhold is a fact about the Act's operation, whatever one concludes about it.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

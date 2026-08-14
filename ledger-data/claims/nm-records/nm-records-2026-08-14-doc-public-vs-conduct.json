@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-public-vs-conduct",
+  "beat": "nm-records",
+  "claim_text": "Federal officials made public assurances of cooperation during the same period the requests went unanswered: a First Assistant United States Attorney said on 12 June 2026 'I anticipate full cooperation', and a department spokesperson said on 7 July 2026 that it 'stands ready to provide necessary assistance'.",
+  "quote": "[Attorney General Torrez] wants cooperation, we want to cooperate,",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.8,
+  "confidence_justification": "The statements themselves are documented and dated. That they conflict with the conduct is New Mexico's characterisation, made in a pleading by an adverse party, and is not a finding of any court.",
+  "tier": "credible_allegation",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

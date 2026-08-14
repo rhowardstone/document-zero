@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-012",
+  "beat": "nm-records",
+  "claim_text": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+  "quote": "over 13,000 references to Zorro Ranch and 5,000 references to New Mexico",
+  "source_sha": "e61cf1bcc3d3995dc1b31040eba2ca855d3af68f0493393a279c639392865650",
+  "source_type": "news",
+  "source_url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+  "confidence": 0.55,
+  "confidence_justification": "A count asserted by one party about documents this system has not examined. Recorded as the state's characterisation, not as a verified figure.",
+  "tier": "credible_allegation",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

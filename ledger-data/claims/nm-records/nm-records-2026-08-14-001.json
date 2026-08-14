@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-001",
+  "beat": "nm-records",
+  "claim_text": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
+  "quote": "to stand down",
+  "source_sha": "678c229cb68cc52a3bf60af7a06b2597a9da60ccd83ad33b590a8df21c3671af",
+  "source_type": "news",
+  "source_url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+  "confidence": 0.55,
+  "confidence_justification": "This is the state's characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
+  "tier": "credible_allegation",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

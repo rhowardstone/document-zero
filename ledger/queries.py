@@ -46,11 +46,33 @@ def build_queries(data: dict) -> dict:
                      "count": len(results), "results": results, **extra}
 
     # ── Where the record is weakest ──────────────────────────────────────────
+    # Corroboration is a signal about REPORTING, not about documents. Two outlets
+    # independently reporting a thing is evidence; one court filing is not
+    # "uncorroborated" in the same sense, because the filing is not relaying
+    # someone else's claim — it IS the record. Counting them together made the
+    # view read as though 30 of 30 claims were weakly sourced when 17 of them
+    # were primary documents.
+    PRIMARY = {"documentation", "article", "inproceedings", "preprint",
+               "techreport", "book"}
+
+    def _kinds(i):
+        return {s.get("t") for s in i.get("sources", [])}
+
+    thin = [_rec(i) for i in wire
+            if i.get("corroboration", 0) <= 1 and not (_kinds(i) & PRIMARY)]
+    primary_single = [_rec(i) for i in wire
+                      if i.get("corroboration", 0) <= 1 and (_kinds(i) & PRIMARY)]
     view("uncorroborated",
-         "Which published claims rest on a single publisher?",
-         "records with kind=wire and corroboration == 1, where corroboration "
-         "counts distinct publisher hosts rather than distinct URLs",
-         [_rec(i) for i in wire if i.get("corroboration", 0) <= 1])
+         "Which published claims rest on a single REPORT that nothing else confirms?",
+         "records with kind=wire and corroboration == 1 whose sources are all "
+         "reporting types (news, blog, misc). Corroboration counts distinct "
+         "publisher hosts, not URLs. Claims resting on a single PRIMARY document "
+         "are listed separately below and are not counted here: a court filing is "
+         "not relaying someone else's claim, it is the record, so 'only one "
+         "source' means something different about it.",
+         thin,
+         single_primary_document=primary_single,
+         single_primary_document_count=len(primary_single))
 
     single = []
     for b in beats:

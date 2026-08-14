@@ -1,0 +1,15 @@
+{
+  "sha256": "caf5c65a7daa68349ad7fa7330baae3f47323fd15f75c4a2ba6d154644aac602",
+  "url": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
+  "title": "Source cited by nm-records (sfnm)",
+  "source_name": "www.santafenewmexican.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

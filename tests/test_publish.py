@@ -86,7 +86,10 @@ def test_llms_txt_puts_moved_beats_before_quiet_ones():
 
 def test_llms_txt_suggests_questions_the_page_cannot_answer():
     t = llms_txt(DATA)
-    assert "single publisher" in t and "more than one beat" in t
+    assert "single REPORT that nothing else confirms" in t
+    assert "more than one beat" in t
+    # and it still tells an agent which views expose weakness
+    assert "uncorroborated" in t and "single-publisher-beats" in t
 
 def test_publish_is_idempotent(tmp_path):
     a = publish(DATA, tmp_path); b = publish(DATA, tmp_path)

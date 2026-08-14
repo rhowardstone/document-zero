@@ -1,0 +1,105 @@
+{
+  "beat": "nm-records",
+  "as_of": "2026-08-14",
+  "fields": [
+    {
+      "k": "Federal suit",
+      "v": "No. 1:26-cv-02762-AHA, D.D.C. (Ali, J.), APA review",
+      "since": "5 Aug",
+      "claims": [
+        "nm-records-2026-08-14-doc-docket"
+      ]
+    },
+    {
+      "k": "State criminal probe",
+      "v": "Reopened 19 Feb 2026",
+      "since": "19 Feb",
+      "claims": [
+        "nm-records-2026-08-14-doc-offences"
+      ]
+    },
+    {
+      "k": "Records sought",
+      "v": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)",
+      "since": "3 May",
+      "claims": [
+        "nm-records-2026-08-14-doc-efta-hook"
+      ]
+    },
+    {
+      "k": "2019 stand-down rationale",
+      "v": "Expired 10 Aug 2019 with the defendant",
+      "since": "10 Aug 2019",
+      "claims": [
+        "nm-records-2026-08-14-doc-standdown-call",
+        "nm-records-2026-08-14-doc-no-pc"
+      ]
+    },
+    {
+      "k": "Administrative exhaustion",
+      "v": "Touhy request 3 May 2026; treated as denied 31 Jul 2026",
+      "since": "31 Jul",
+      "claims": [
+        "nm-records-2026-08-14-doc-deadline",
+        "nm-records-2026-08-14-doc-nonproduction"
+      ]
+    },
+    {
+      "k": "Stated grounds for refusal",
+      "v": "Overbreadth; Privacy Act; Epstein and Maxwell protective orders",
+      "since": "14 Jul",
+      "claims": [
+        "nm-records-2026-08-14-doc-protective-order",
+        "nm-records-2026-08-14-doc-nonproduction"
+      ]
+    },
+    {
+      "k": "Protective-order modification",
+      "v": "Sought by the state; federal cooperation called 'unlikely'",
+      "since": "14 Jul",
+      "claims": [
+        "nm-records-2026-08-14-doc-protective-order"
+      ]
+    },
+    {
+      "k": "Federal search of the property",
+      "v": "Never conducted",
+      "since": "23 Aug 2019",
+      "claims": [
+        "nm-records-2026-08-14-doc-no-pc"
+      ]
+    },
+    {
+      "k": "Site ownership",
+      "v": "San Rafael Ranch LLC (Huffines family), since 2023",
+      "since": "Aug 2023",
+      "claims": [
+        "nm-records-2026-08-14-doc-seizure-request"
+      ]
+    },
+    {
+      "k": "Physical evidence",
+      "v": "Excavation and altered substrate reported",
+      "since": "Mar 2026",
+      "claims": [
+        "nm-records-2026-08-14-doc-search-date"
+      ]
+    },
+    {
+      "k": "Site status",
+      "v": "Construction paused for want of permits",
+      "since": "2026",
+      "claims": [
+        "nm-records-2026-08-14-010"
+      ]
+    },
+    {
+      "k": "Truth commission",
+      "v": "Subpoenas issuing since 1 Jun 2026",
+      "since": "1 Jun",
+      "claims": [
+        "nm-records-2026-08-14-doc-offences"
+      ]
+    }
+  ]
+}

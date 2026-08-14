@@ -408,3 +408,27 @@ def test_opened_and_last_change_come_from_the_dates_not_the_file_order(tmp_path)
     assert b["opened"] == "2019-07-23"
     assert b["lastChange"] == "2026-08-05"
     assert [h["d"] for h in b["history"]] == ["2026-08-05", "2023-01-09", "2019-07-23"]
+
+
+def test_one_obligation_renders_as_one_row_whoever_recorded_it(tmp_path):
+    """Two agents noticing the same court date wrote two triggers for it."""
+    l = Ledger(tmp_path / "data")
+    (l.root / "triggers").mkdir(parents=True, exist_ok=True)
+    for i, (tid, note) in enumerate([("t-a", "short"), ("t-b", "a much longer note")]):
+        (l.root / "triggers" / f"{tid}.json").write_text(json.dumps({
+            "id": tid, "beat": "compliance", "sort": "2026-09-05", "d": "SEP",
+            "t": "Government response due, New Mexico v. DOJ", "s": note}))
+    trig = build(l.root, CFG, "2026-08-14")["triggers"]
+    assert len(trig) == 1, trig
+    assert trig[0]["s"] == "a much longer note", "the more specific note should win"
+
+
+def test_genuinely_different_obligations_are_both_kept(tmp_path):
+    l = Ledger(tmp_path / "data")
+    (l.root / "triggers").mkdir(parents=True, exist_ok=True)
+    for tid, sort, text in [("t-a", "2026-09-05", "Response due"),
+                            ("t-b", "2026-09-15", "Response due"),
+                            ("t-c", "2026-09-05", "Subpoena returns")]:
+        (l.root / "triggers" / f"{tid}.json").write_text(json.dumps({
+            "id": tid, "beat": "compliance", "sort": sort, "d": "SEP", "t": text, "s": ""}))
+    assert len(build(l.root, CFG, "2026-08-14")["triggers"]) == 3

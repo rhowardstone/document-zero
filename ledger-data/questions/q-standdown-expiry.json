@@ -1,0 +1,11 @@
+{
+  "id": "q-standdown-expiry",
+  "beat": "nm-records",
+  "q": "Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?",
+  "known": "The stated reason for asking New Mexico to stand down in July 2019 was the risk that parallel investigations would generate inconsistent statements. The federal defendant died on 10 August 2019, roughly two and a half weeks later, ending that prosecution. New Mexico alleges the promised information was never provided and is litigating for it in 2026 — six and a half years later.",
+  "who": "The Justice Department · the SDNY prosecutors of record in 2019 · Todd Blanche",
+  "doc": "Any internal DOJ review of the 2019 referral commitment; the government's answer to the New Mexico complaint",
+  "next": "The government's response on the D.D.C. docket",
+  "opened": "14 Aug 2026",
+  "status": "Open · never publicly asked"
+}

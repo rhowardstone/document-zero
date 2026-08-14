@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-006",
+  "beat": "nm-records",
+  "claim_text": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
+  "quote": "It wasn't until a street name change and property taxes were contested that public records requests revealed the owner",
+  "source_sha": "d6bd94f351fd1ae8bd5274f2cef70432b649abc42643df1a524a6c47faeec0fc",
+  "source_type": "news",
+  "source_url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+  "confidence": 0.6,
+  "confidence_justification": "The mechanism by which the concealment broke is itself reported and checkable.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

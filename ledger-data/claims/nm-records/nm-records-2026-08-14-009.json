@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-009",
+  "beat": "nm-records",
+  "claim_text": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
+  "quote": "proof of prior excavation and altered substrate inconsistent with the original construction timeline",
+  "source_sha": "a880572f2517b08b534ceb2c24c70520f540369634fcd96f5a97e9490a8fdf20",
+  "source_type": "news",
+  "source_url": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+  "confidence": 0.5,
+  "confidence_justification": "A forensic characterisation carried by a single outlet and attributed to investigators. Uncorroborated; the strongest claim here and the least settled.",
+  "tier": "credible_allegation",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

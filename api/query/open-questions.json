@@ -2,7 +2,7 @@
  "query": "open-questions",
  "question": "What is unresolved, and which document would resolve it?",
  "method": "every open question with the document that would answer it and whether anyone is scheduled to produce that document",
- "count": 3,
+ "count": 5,
  "results": [
   {
    "id": "q-auction-structure",
@@ -14,6 +14,17 @@
    "next": "Not scheduled — requires a records request",
    "opened": "14 Aug 2026",
    "status": "Open · not being pursued by anyone visible"
+  },
+  {
+   "id": "q-evidence-loss",
+   "beat": "nm-records",
+   "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
+   "known": "The record now establishes that federal law enforcement never searched the property, and that on 23 August 2019 — thirteen days after the defendant's death ended the federal case — a federal email acknowledged a victim who may have been raped at the residence while asserting there was no probable cause for a search. The first search was conducted by the state on 9 March 2026, roughly six and a half years later, and reported excavation and altered substrate.",
+   "who": "FBI Albuquerque · the U.S. Attorney's Office for the District of New Mexico · whoever authored the 23 August 2019 assessment",
+   "doc": "The unredacted 23 August 2019 email (EFTA00165502) and any probable-cause analysis behind it",
+   "next": "Not scheduled. It is not among the records the Touhy request enumerates.",
+   "opened": "14 Aug 2026",
+   "status": "Open · narrowed by the complaint, not answered"
   },
   {
    "id": "q-evidentiary-loss",
@@ -36,6 +47,17 @@
    "next": "The government's response on the D.D.C. docket",
    "opened": "14 Aug 2026",
    "status": "Open · never publicly asked"
+  },
+  {
+   "id": "q-touhy-gap",
+   "beat": "nm-records",
+   "q": "What happened inside the department between 11 May and 31 July 2026, while it publicly promised cooperation and produced nothing?",
+   "known": "A response was requested by 11 May. On 11 June a district office said 'Main Justice' was preparing files; on 12 June a First Assistant United States Attorney said publicly 'I anticipate full cooperation'; on 7 July a spokesperson said the department 'stands ready to provide necessary assistance'. The production that arrived on 14 July contained a news article, a press release, and the state's own correspondence.",
+   "who": "The Office of the Deputy Attorney General · the Executive Office for United States Attorneys · SDNY",
+   "doc": "Internal correspondence on the handling of the Touhy request between 3 May and 31 July 2026",
+   "next": "The government's response to the complaint is due 5 September 2026.",
+   "opened": "14 Aug 2026",
+   "status": "Open · the gap is documented, its contents are not"
   }
  ]
 }

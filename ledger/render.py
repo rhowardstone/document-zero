@@ -186,7 +186,7 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
     # the rails that carry them are the visible proof that the record accumulates.
     # A page that renders only today's items shows a feed; these show a ledger.
     questions = _collection(root, "questions")
-    triggers = sorted(_collection(root, "triggers"), key=lambda t: t.get("sort") or "")
+    triggers = _dedupe_triggers(_collection(root, "triggers"))
     contradictions = _collection(root, "contradictions")
 
     q_by_beat, t_by_beat = {}, {}
@@ -218,6 +218,29 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                      "note": "Published" if edition.get("publish") else
                              f"Not published ({edition.get('publish_blocked_by')})"}],
     }
+
+
+def _dedupe_triggers(triggers) -> list:
+    """One obligation, one row.
+
+    Triggers are written by whichever agent notices the deadline, and two agents
+    noticing the same one produced two rows for a single court date. A trigger is
+    an obligation in the world, not a note about it, so identity is the beat, the
+    date and the text — not the id of whoever recorded it.
+    """
+    seen, out = {}, []
+    for t in sorted(triggers, key=lambda t: str(t.get("sort") or "")):
+        key = (t.get("beat"), str(t.get("sort") or ""),
+               re.sub(r"[^a-z0-9]+", " ", str(t.get("t") or "").lower()).strip()[:60])
+        if key in seen:
+            # Keep the more specific text: a later agent usually knows more.
+            if len(str(t.get("s") or "")) > len(str(seen[key].get("s") or "")):
+                out[out.index(seen[key])] = t
+                seen[key] = t
+            continue
+        seen[key] = t
+        out.append(t)
+    return out
 
 
 def _days(history) -> list:

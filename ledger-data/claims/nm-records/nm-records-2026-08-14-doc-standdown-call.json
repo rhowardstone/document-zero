@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-standdown-call",
+  "beat": "nm-records",
+  "claim_text": "The complaint dates the federal stand-down request to a telephone call on 23 July 2019 and cites a federal record of that call in the publicly released Epstein Files.",
+  "quote": "During a subsequent telephone call on July 23, 2019, USDOJ told NMDOJ to stand down from its investigation into Epstein's potential criminal activity in New Mexico.",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "The date and the existence of a contemporaneous federal record of the call are established by the filing, which cites the underlying document by Bates number (EFTA00019183) at a public justice.gov URL. Day one carried this date from news reporting alone.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

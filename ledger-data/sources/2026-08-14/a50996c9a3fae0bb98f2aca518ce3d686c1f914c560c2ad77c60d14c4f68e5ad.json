@@ -1,0 +1,15 @@
+{
+  "sha256": "a50996c9a3fae0bb98f2aca518ce3d686c1f914c560c2ad77c60d14c4f68e5ad",
+  "url": "https://www.pbs.org/newshour/politics/state-of-new-mexico-sues-justice-department-and-todd-blanche-saying-they-blocked-its-epstein-probe",
+  "title": "Source cited by nm-records (pbs)",
+  "source_name": "www.pbs.org",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sha256": "a880572f2517b08b534ceb2c24c70520f540369634fcd96f5a97e9490a8fdf20",
+  "url": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+  "title": "Source cited by nm-records (nw)",
+  "source_name": "www.newsweek.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-004",
+  "beat": "nm-records",
+  "claim_text": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
+  "quote": "Epstein died in his jail cell on August 10",
+  "source_sha": "678c229cb68cc52a3bf60af7a06b2597a9da60ccd83ad33b590a8df21c3671af",
+  "source_type": "news",
+  "source_url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+  "confidence": 0.6,
+  "confidence_justification": "Long-established and uncontested. Capped at the news ceiling because it is cited here through a news source rather than a primary record.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

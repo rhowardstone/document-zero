@@ -1,0 +1,15 @@
+{
+  "sha256": "e61cf1bcc3d3995dc1b31040eba2ca855d3af68f0493393a279c639392865650",
+  "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+  "title": "Source cited by nm-records (nbc)",
+  "source_name": "www.nbcnews.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

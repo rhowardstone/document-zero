@@ -1,0 +1,15 @@
+{
+  "sha256": "46176d2ddc799650203910791e0837b9ccded198276d2dd555354757fb95a54d",
+  "url": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+  "title": "Source cited by nm-records (cns)",
+  "source_name": "www.courthousenews.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

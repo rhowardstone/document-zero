@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-000",
+  "beat": "nm-records",
+  "claim_text": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
+  "quote": "New Mexico's Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials",
+  "source_sha": "e61cf1bcc3d3995dc1b31040eba2ca855d3af68f0493393a279c639392865650",
+  "source_type": "news",
+  "source_url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+  "confidence": 0.6,
+  "confidence_justification": "Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

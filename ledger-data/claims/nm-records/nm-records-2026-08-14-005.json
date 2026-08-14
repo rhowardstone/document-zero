@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-005",
+  "beat": "nm-records",
+  "claim_text": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
+  "quote": "a limited liability company created just a month before the purchase",
+  "source_sha": "caf5c65a7daa68349ad7fa7330baae3f47323fd15f75c4a2ba6d154644aac602",
+  "source_type": "news",
+  "source_url": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
+  "confidence": 0.6,
+  "confidence_justification": "Corporate registration and deed dates are matters of public record; reported by the Santa Fe New Mexican and The Real Deal.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

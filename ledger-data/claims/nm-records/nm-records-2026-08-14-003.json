@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-003",
+  "beat": "nm-records",
+  "claim_text": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
+  "quote": "risks of parallel investigations creating inconsistent statements",
+  "source_sha": "678c229cb68cc52a3bf60af7a06b2597a9da60ccd83ad33b590a8df21c3671af",
+  "source_type": "news",
+  "source_url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+  "confidence": 0.6,
+  "confidence_justification": "A quoted rationale attributed to records. News ceiling 0.6.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

@@ -2,8 +2,26 @@
  "query": "contradictions",
  "question": "Which statements on the record cannot both be true?",
  "method": "recorded contradiction pairs with the source of each side. These are not resolved by the system; they are carried until a document resolves them.",
- "count": 1,
+ "count": 3,
  "results": [
+  {
+   "id": "c-cooperation",
+   "beat": "nm-records",
+   "opened": "14 Aug 2026",
+   "a": "Federal officials stated publicly in June and July 2026 that they anticipated full cooperation and stood ready to assist.",
+   "asrc": "Statements of 12 June and 7 July 2026, quoted in the complaint",
+   "b": "The production delivered on 14 July 2026 contained no investigative material, and both the district office and SDNY refused the request.",
+   "bsrc": "Complaint ¶¶72-77 and its Exhibits 3 and 23"
+  },
+  {
+   "id": "c-search-date",
+   "beat": "nm-records",
+   "opened": "14 Aug 2026",
+   "a": "The state's search of the property occurred on 1 March 2026.",
+   "asrc": "News reporting, carried by this beat on 13 August 2026",
+   "b": "The state's search of the property occurred on 9 March 2026.",
+   "bsrc": "The state's own Touhy letter of 3 May 2026, Exhibit 14 at 2"
+  },
   {
    "id": "c-standdown",
    "beat": "nm-records",

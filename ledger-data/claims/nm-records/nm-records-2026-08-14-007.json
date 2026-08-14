@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-007",
+  "beat": "nm-records",
+  "claim_text": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
+  "quote": "His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager",
+  "source_sha": "d6bd94f351fd1ae8bd5274f2cef70432b649abc42643df1a524a6c47faeec0fc",
+  "source_type": "news",
+  "source_url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+  "confidence": 0.6,
+  "confidence_justification": "Named public figure and declared candidate; ownership established through public records.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-002",
+  "beat": "nm-records",
+  "claim_text": "New Mexico alleges the promised federal evidence was never provided.",
+  "quote": "the promised evidence never came",
+  "source_sha": "46176d2ddc799650203910791e0837b9ccded198276d2dd555354757fb95a54d",
+  "source_type": "news",
+  "source_url": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+  "confidence": 0.55,
+  "confidence_justification": "The central allegation of the complaint, asserted by one party. Uncorroborated by DOJ.",
+  "tier": "credible_allegation",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

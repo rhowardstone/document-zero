@@ -1,0 +1,19 @@
+{
+  "sha256": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "title": "Complaint, State of New Mexico v. U.S. Dep't of Justice, No. 1:26-cv-02762-AHA (D.D.C. filed Aug. 5, 2026), ECF No. 1",
+  "source_name": "courtlistener.com",
+  "source_type": "documentation",
+  "published_at": "2026-08-05T00:00:00Z",
+  "first_seen": "2026-08-14T11:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    },
+    {
+      "beat": "compliance",
+      "score": 0.6
+    }
+  ]
+}

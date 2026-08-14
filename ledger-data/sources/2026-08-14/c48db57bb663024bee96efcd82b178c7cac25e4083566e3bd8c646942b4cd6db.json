@@ -1,0 +1,15 @@
+{
+  "sha256": "c48db57bb663024bee96efcd82b178c7cac25e4083566e3bd8c646942b4cd6db",
+  "url": "https://www.axios.com/2026/08/05/new-mexico-sues-doj-epstein-files",
+  "title": "Source cited by nm-records (axios)",
+  "source_name": "www.axios.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

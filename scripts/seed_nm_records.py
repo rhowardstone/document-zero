@@ -181,8 +181,15 @@ CONTRADICTIONS = [
 ]
 
 
-def main():
-    root = pathlib.Path(tempfile.mkdtemp()) / "data"
+def main(root=None, as_of="2026-08-13", render=True):
+    """Day one: the beat as the news wire established it.
+
+    Split out with an explicit `as_of` so a later day can run against the same
+    persistent ledger and produce a genuine before -> after delta. A ledger that
+    lives in a temp directory can only ever show a first appearance, which is
+    the one shape that cannot demonstrate the format.
+    """
+    root = pathlib.Path(root) if root else pathlib.Path(tempfile.mkdtemp()) / "data"
     led = Ledger(root, writer=W)
 
     # Register every cited source, so the claim -> source join in the compiled
@@ -212,9 +219,10 @@ def main():
             "verification_rounds": 1, "verifier_families": ["human-directed research"],
         })
     def C(*idx): return [f"{BEAT}-2026-08-14-{i:03d}" for i in idx]
+
     # Every field names the claims that establish it. A field the ledger cannot
     # trace to evidence is not allowed to exist.
-    led.put_state(BEAT, {"beat": BEAT, "as_of": "2026-08-14", "fields": [
+    led.put_state(BEAT, {"beat": BEAT, "as_of": as_of, "fields": [
         {"k": "Federal suit", "v": "Filed 5 Aug 2026, D.D.C.", "since": "5 Aug",
          "flag": "hot", "claims": C(0)},
         {"k": "State criminal probe", "v": "Reopened 19 Feb 2026", "since": "19 Feb",
@@ -273,6 +281,9 @@ def main():
         "counts": {"wire": 1, "capped_out": 0, "omissions": 0, "holds": 0,
                    "refused": 0, "dropped": 0},
         "refusal_summary": {}, "publish": False, "publish_blocked_by": "dry_run"})
+
+    if not render:
+        return root
 
     from ledger.render import build, write_data_js
     from ledger.publish import publish

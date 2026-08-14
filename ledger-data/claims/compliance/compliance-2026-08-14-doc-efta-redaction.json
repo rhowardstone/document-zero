@@ -1,0 +1,18 @@
+{
+  "id": "compliance-2026-08-14-doc-efta-redaction",
+  "beat": "compliance",
+  "claim_text": "New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors.",
+  "quote": "But USDOJ instead publicly posted detailed, unredacted personal information about survivors, ranging from their contact information to nude images.",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.8,
+  "confidence_justification": "An allegation in a pleading by an adverse party, quoted exactly. The filing cites an attached letter from the Attorney General and Acting Attorney General to Congress dated 30 January 2026. No court has found this.",
+  "tier": "credible_allegation",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

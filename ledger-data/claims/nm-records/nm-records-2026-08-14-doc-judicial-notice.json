@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-judicial-notice",
+  "beat": "nm-records",
+  "claim_text": "New Mexico's filing notes that the Justice Department has argued in other 2026 litigation that courts may take judicial notice of an Acting Attorney General's recorded public statements as binding party admissions.",
+  "quote": "Because the Acting Attorney General's statements were recorded, this Court can take judicial notice of them.",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "Quoted from the government's own brief in Floyd v. Dep't of Justice, No. 26-cv-01399 (E.D. Va.), ECF No. 78, cited in the filing's footnote 16. The position is the government's, taken in a different case.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-protective-order",
+  "beat": "nm-records",
+  "claim_text": "Asked whether the federal government would join New Mexico in seeking a modification of the protective orders it cited as the obstacle, so that the orders would expressly permit disclosure for law-enforcement purposes, a Deputy United States Attorney responded that such cooperation was 'unlikely' and identified no path through which the two offices could work together.",
+  "quote": "unlikely",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "The exchange is recited with dates and an attached exhibit. It is the difference between an obstacle and a choice: the stated impediment is one the objecting party declined to help remove.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

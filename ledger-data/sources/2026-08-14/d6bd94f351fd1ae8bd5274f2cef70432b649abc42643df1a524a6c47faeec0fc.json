@@ -1,0 +1,15 @@
+{
+  "sha256": "d6bd94f351fd1ae8bd5274f2cef70432b649abc42643df1a524a6c47faeec0fc",
+  "url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+  "title": "Source cited by nm-records (trd)",
+  "source_name": "therealdeal.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

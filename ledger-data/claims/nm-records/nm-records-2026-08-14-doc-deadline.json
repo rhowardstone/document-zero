@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-deadline",
+  "beat": "nm-records",
+  "claim_text": "New Mexico's Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed.",
+  "quote": "We respectfully request that your office respond by May 11, 2026, so that logistical arrangements can be timely finalized.",
+  "source_sha": "e62c32dbc2c4b412c09f265d28763240e0a27308c8e4e356053297990d3dd57c",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "The deadline is quoted from the letter and the filing date is on the docket. The interval is arithmetic, not inference.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

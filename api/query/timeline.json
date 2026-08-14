@@ -2,7 +2,7 @@
  "query": "timeline",
  "question": "Every dated event on the record, chronologically.",
  "method": "every history row of every beat, sorted by date ascending. Sequence is the thing individual facts cannot show: a gap here, where other evidence says events occurred, is a finding rather than an absence.",
- "count": 8,
+ "count": 15,
  "results": [
   {
    "date": "2019-07-23",
@@ -17,6 +17,13 @@
    "beat_name": "New Mexico v. the Justice Department",
    "event": "Federal prosecution ended with the defendant's death. Stated rationale for the stand-down ceased to apply.",
    "support": "Contemporaneous reporting"
+  },
+  {
+   "date": "2019-08-23",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Federal search of the property → declined for want of probable cause, 13 days after the defendant's death. Never conducted.",
+   "support": "Complaint ¶30 n.6, citing EFTA00165502"
   },
   {
    "date": "2023-08-16",
@@ -47,6 +54,13 @@
    "support": "Newsweek; NMDOJ"
   },
   {
+   "date": "2026-05-03",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Administrative exhaustion → formal Touhy request served, response sought by 11 May.",
+   "support": "Exhibit 14"
+  },
+  {
    "date": "2026-06-01",
    "beat": "nm-records",
    "beat_name": "New Mexico v. the Justice Department",
@@ -54,11 +68,46 @@
    "support": "CNN"
   },
   {
+   "date": "2026-07-14",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Stated grounds for refusal → overbreadth, Privacy Act, and the Epstein and Maxwell protective orders.",
+   "support": "Complaint ¶¶74-76"
+  },
+  {
+   "date": "2026-07-31",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Administrative exhaustion → Touhy request treated as denied.",
+   "support": "Complaint ¶¶71-77"
+  },
+  {
    "date": "2026-08-05",
    "beat": "nm-records",
    "beat_name": "New Mexico v. the Justice Department",
    "event": "Federal suit → filed against DOJ and Blanche in D.D.C.",
    "support": "NBC News; PBS; Courthouse News"
+  },
+  {
+   "date": "2026-08-05",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Federal suit → docketed 1:26-cv-02762-AHA before Judge Ali as APA review, not FOIA.",
+   "support": "Docket, D.D.C."
+  },
+  {
+   "date": "2026-08-14",
+   "beat": "compliance",
+   "beat_name": "DOJ compliance with the Transparency Act",
+   "event": "Beat opened. A transparency statute is being cited as a reason to withhold.",
+   "support": "2 claims from the New Mexico complaint"
+  },
+  {
+   "date": "2026-08-14",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Beat re-established from the filed complaint and its exhibits, replacing news reporting as the source of record.",
+   "support": "15 claims from 3 court documents"
   }
  ]
 }

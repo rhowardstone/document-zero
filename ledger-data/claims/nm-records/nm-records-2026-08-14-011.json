@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-011",
+  "beat": "nm-records",
+  "claim_text": "The owners intend to convert the property into a Christian retreat.",
+  "quote": "plans to turn it into a Christian retreat",
+  "source_sha": "50984369612d339679e94c01d26316a267cd6495ad35a1331a0c0b979dddb751",
+  "source_type": "news",
+  "source_url": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
+  "confidence": 0.6,
+  "confidence_justification": "Stated by the owner's campaign and reported directly.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

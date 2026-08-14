@@ -1,0 +1,15 @@
+{
+  "sha256": "b682e7c577007379c550dc3caaf739417b2d8837fa1e64a75765ddee168bccce",
+  "url": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
+  "title": "Source cited by nm-records (ajz)",
+  "source_name": "www.aljazeera.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

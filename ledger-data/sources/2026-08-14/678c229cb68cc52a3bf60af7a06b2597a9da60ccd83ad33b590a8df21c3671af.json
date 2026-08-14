@@ -1,0 +1,15 @@
+{
+  "sha256": "678c229cb68cc52a3bf60af7a06b2597a9da60ccd83ad33b590a8df21c3671af",
+  "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+  "title": "Source cited by nm-records (abq)",
+  "source_name": "www.abqjournal.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

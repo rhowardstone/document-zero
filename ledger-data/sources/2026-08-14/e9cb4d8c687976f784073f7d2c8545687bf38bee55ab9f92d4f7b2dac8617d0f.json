@@ -1,0 +1,15 @@
+{
+  "sha256": "e9cb4d8c687976f784073f7d2c8545687bf38bee55ab9f92d4f7b2dac8617d0f",
+  "url": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
+  "title": "Source cited by nm-records (sfnm2)",
+  "source_name": "www.santafenewmexican.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

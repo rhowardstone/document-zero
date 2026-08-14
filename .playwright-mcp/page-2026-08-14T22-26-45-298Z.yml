@@ -1,0 +1,285 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - generic [ref=f6e3]: AI-GENERATED · NOT REVIEWED BY A HUMAN
+    - generic [ref=f6e4]: Every claim below was extracted and verified by language models. No editor read this page before you did.
+    - link "How it works & how it fails →" [ref=f6e5] [cursor=pointer]:
+      - /url: "#/method"
+  - banner [ref=f6e6]:
+    - generic [ref=f6e7]:
+      - link [ref=f6e8] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f6e15]:
+          - heading [level=1] [ref=f6e16]:
+            - text: Document
+            - emphasis [ref=f6e17]: Zero
+          - paragraph [ref=f6e18]: 2 changes to the record
+      - generic [ref=f6e19]:
+        - generic [ref=f6e20]:
+          - text: Edition
+          - generic [ref=f6e21]: 2026-08-14
+        - generic [ref=f6e22]:
+          - text: Beats moved
+          - generic [ref=f6e23]: 2 / 22
+        - generic [ref=f6e24]:
+          - text: Status
+          - generic "The editor blocked publication" [ref=f6e25]: Not published
+    - navigation [ref=f6e26]:
+      - link "The Ledger2" [ref=f6e27] [cursor=pointer]:
+        - /url: "#/"
+      - link "Records30" [ref=f6e28] [cursor=pointer]:
+        - /url: "#/records"
+      - link "Standing record12" [ref=f6e29] [cursor=pointer]:
+        - /url: "#/standing"
+      - link "Withheld" [ref=f6e30] [cursor=pointer]:
+        - /url: "#/held"
+      - link "Method" [ref=f6e31] [cursor=pointer]:
+        - /url: "#/method"
+      - link "Agent API" [ref=f6e32] [cursor=pointer]:
+        - /url: "#/api"
+  - main [ref=f6e33]:
+    - complementary [ref=f6e34]:
+      - generic [ref=f6e35]:
+        - heading "Moved today · 2" [level=3] [ref=f6e36]
+        - link [ref=f6e37] [cursor=pointer]:
+          - /url: "#/beat/compliance"
+          - text: DOJ compliance with the Transparency Act
+          - emphasis [ref=f6e38]: "3"
+        - link [ref=f6e39] [cursor=pointer]:
+          - /url: "#/beat/nm-records"
+          - text: New Mexico v. the Justice Department
+          - emphasis [ref=f6e40]: "6"
+      - generic [ref=f6e41]:
+        - group [ref=f6e42]:
+          - generic "▸ Quiet · 20" [ref=f6e43] [cursor=pointer]
+        - paragraph [ref=f6e44]: A quiet beat is open and monitored. Nothing on it changed today.
+    - generic [ref=f6e45]:
+      - article [ref=f6e46]:
+        - generic [ref=f6e47]: Not published
+        - heading "This edition was assembled but not released" [level=3] [ref=f6e48]
+        - paragraph [ref=f6e49]: "The editor blocked publication: dry_run. You are looking at the assembled edition exactly as the pipeline produced it. Nothing below was suppressed to make it look better."
+      - generic [ref=f6e50]:
+        - heading "What changed today 2 beats moved" [level=2] [ref=f6e51]:
+          - generic [ref=f6e52]: What changed today
+          - generic [ref=f6e53]: 2 beats moved
+        - article [ref=f6e54]:
+          - generic [ref=f6e55]:
+            - link "DOJ compliance with the Transparency Act" [ref=f6e56] [cursor=pointer]:
+              - /url: "#/beat/compliance"
+            - generic [ref=f6e57]: Entered
+            - generic [ref=f6e58]: 3 fields
+          - generic [ref=f6e59]:
+            - generic [ref=f6e60]: Statute
+            - generic [ref=f6e61]: Epstein Files Transparency Act, Pub. L. 119-38 (2025)
+          - generic [ref=f6e63]:
+            - generic [ref=f6e64]: Invoked as grounds to withhold
+            - generic [ref=f6e65]: Yes — against a state criminal investigation, 31 Jul 2026
+          - generic [ref=f6e67]:
+            - generic [ref=f6e68]: Redaction compliance
+            - generic [ref=f6e69]: Contested in litigation
+          - generic [ref=f6e71]:
+            - link "Full beat state →" [ref=f6e72] [cursor=pointer]:
+              - /url: "#/beat/compliance"
+            - generic [ref=f6e73]: ·
+            - generic [ref=f6e74]: 2 records behind this change
+        - article [ref=f6e75]:
+          - generic [ref=f6e76]:
+            - link "New Mexico v. the Justice Department" [ref=f6e77] [cursor=pointer]:
+              - /url: "#/beat/nm-records"
+            - generic [ref=f6e78]: 6 fields
+          - generic [ref=f6e79]:
+            - generic [ref=f6e80]: Federal suit
+            - generic [ref=f6e81]:
+              - generic [ref=f6e82]:
+                - generic [ref=f6e83]: was
+                - generic [ref=f6e84]: Filed 5 Aug 2026, D.D.C.
+              - generic [ref=f6e85]:
+                - generic [ref=f6e86]: now
+                - generic [ref=f6e87]: No. 1:26-cv-02762-AHA, D.D.C. (Ali, J.), APA review
+              - generic [ref=f6e88]: Changed
+          - generic [ref=f6e89]:
+            - generic [ref=f6e90]: Records sought
+            - generic [ref=f6e91]:
+              - generic [ref=f6e92]:
+                - generic [ref=f6e93]: was
+                - generic [ref=f6e94]: Unredacted Epstein investigative files
+              - generic [ref=f6e95]:
+                - generic [ref=f6e96]: now
+                - generic [ref=f6e97]: Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)
+              - generic [ref=f6e98]: Changed
+          - generic [ref=f6e99]:
+            - generic [ref=f6e100]: Administrative exhaustion
+            - generic [ref=f6e101]:
+              - generic [ref=f6e102]: Touhy request 3 May 2026; treated as denied 31 Jul 2026
+              - generic [ref=f6e103]: Entered
+          - generic [ref=f6e104]:
+            - generic [ref=f6e105]: Stated grounds for refusal
+            - generic [ref=f6e106]:
+              - generic [ref=f6e107]: Overbreadth; Privacy Act; Epstein and Maxwell protective orders
+              - generic [ref=f6e108]: Entered
+          - generic [ref=f6e109]:
+            - generic [ref=f6e110]: Protective-order modification
+            - generic [ref=f6e111]:
+              - generic [ref=f6e112]: Sought by the state; federal cooperation called 'unlikely'
+              - generic [ref=f6e113]: Entered
+          - generic [ref=f6e114]:
+            - generic [ref=f6e115]: Federal search of the property
+            - generic [ref=f6e116]:
+              - generic [ref=f6e117]: Never conducted
+              - generic [ref=f6e118]: Entered
+          - generic [ref=f6e119]: 6 other fields on this beat did not move.
+          - generic [ref=f6e120]:
+            - link "Full beat state →" [ref=f6e121] [cursor=pointer]:
+              - /url: "#/beat/nm-records"
+            - generic [ref=f6e122]: ·
+            - generic [ref=f6e123]: 28 records behind this change
+      - generic [ref=f6e124]:
+        - heading "The evidence behind it all 30 →" [level=2] [ref=f6e125]:
+          - generic [ref=f6e126]: The evidence behind it
+          - link "all 30 →" [ref=f6e128] [cursor=pointer]:
+            - /url: "#/records"
+        - link "Documented fact The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation. DOJ compliance with the Transparency Act · storage.courtlistener.com" [ref=f6e129] [cursor=pointer]:
+          - /url: "#/records/compliance-2026-08-14-doc-efta-as-shield"
+          - generic [ref=f6e130]: Documented fact
+          - heading "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation." [level=3] [ref=f6e131]
+          - generic [ref=f6e132]:
+            - generic [ref=f6e133]: DOJ compliance with the Transparency Act
+            - generic [ref=f6e134]: ·
+            - generic [ref=f6e135]: storage.courtlistener.com
+        - link "Open / alleged New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors. DOJ compliance with the Transparency Act · storage.courtlistener.com" [ref=f6e136] [cursor=pointer]:
+          - /url: "#/records/compliance-2026-08-14-doc-efta-redaction"
+          - generic [ref=f6e137]: Open / alleged
+          - heading "New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors." [level=3] [ref=f6e138]
+          - generic [ref=f6e139]:
+            - generic [ref=f6e140]: DOJ compliance with the Transparency Act
+            - generic [ref=f6e141]: ·
+            - generic [ref=f6e142]: storage.courtlistener.com
+        - link "Documented fact The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records. New Mexico v. the Justice Department · nbcnews.com" [ref=f6e143] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-000"
+          - generic [ref=f6e144]: Documented fact
+          - heading "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records." [level=3] [ref=f6e145]
+          - generic [ref=f6e146]:
+            - generic [ref=f6e147]: New Mexico v. the Justice Department
+            - generic [ref=f6e148]: ·
+            - generic [ref=f6e149]: nbcnews.com
+        - link "Open / alleged New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded. New Mexico v. the Justice Department · abqjournal.com" [ref=f6e150] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-001"
+          - generic [ref=f6e151]: Open / alleged
+          - heading "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded." [level=3] [ref=f6e152]
+          - generic [ref=f6e153]:
+            - generic [ref=f6e154]: New Mexico v. the Justice Department
+            - generic [ref=f6e155]: ·
+            - generic [ref=f6e156]: abqjournal.com
+        - link "Open / alleged New Mexico alleges the promised federal evidence was never provided. New Mexico v. the Justice Department · courthousenews.com" [ref=f6e157] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-002"
+          - generic [ref=f6e158]: Open / alleged
+          - heading "New Mexico alleges the promised federal evidence was never provided." [level=3] [ref=f6e159]
+          - generic [ref=f6e160]:
+            - generic [ref=f6e161]: New Mexico v. the Justice Department
+            - generic [ref=f6e162]: ·
+            - generic [ref=f6e163]: courthousenews.com
+        - link "Documented fact The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel. New Mexico v. the Justice Department · abqjournal.com" [ref=f6e164] [cursor=pointer]:
+          - /url: "#/records/nm-records-2026-08-14-003"
+          - generic [ref=f6e165]: Documented fact
+          - heading "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel." [level=3] [ref=f6e166]
+          - generic [ref=f6e167]:
+            - generic [ref=f6e168]: New Mexico v. the Justice Department
+            - generic [ref=f6e169]: ·
+            - generic [ref=f6e170]: abqjournal.com
+    - complementary [ref=f6e171]:
+      - generic [ref=f6e172]:
+        - heading "What happens next" [level=3] [ref=f6e173]
+        - generic [ref=f6e174]:
+          - generic [ref=f6e175]:
+            - text: SEP
+            - generic [ref=f6e176]: "05"
+          - paragraph [ref=f6e177]:
+            - text: Government response due, New Mexico v. DOJ
+            - emphasis [ref=f6e178]: The answer is where the 2019 stand-down rationale must be defended. Non-response is itself recordable.
+        - generic [ref=f6e179]:
+          - generic [ref=f6e180]:
+            - text: SEP
+            - generic [ref=f6e181]: "05"
+          - paragraph [ref=f6e182]:
+            - text: Government response due, New Mexico v. DOJ (1:26-cv-02762-AHA)
+            - emphasis [ref=f6e183]: The answer is where the protective-order and Privacy Act grounds must be defended on the record. Non-response is itself recordable.
+        - generic [ref=f6e184]:
+          - generic [ref=f6e185]:
+            - text: SEP
+            - generic [ref=f6e186]: "15"
+          - paragraph [ref=f6e187]:
+            - text: New Mexico truth commission subpoena returns
+            - emphasis [ref=f6e188]: Began 1 June 2026 with subpoena power over the Zorro Ranch period.
+        - generic [ref=f6e189]:
+          - generic [ref=f6e190]:
+            - text: 3 NOV
+            - generic [ref=f6e191]: "03"
+          - paragraph [ref=f6e192]:
+            - text: Texas Comptroller election
+            - emphasis [ref=f6e193]: The property's owner is a candidate; the office oversees state financial matters.
+        - paragraph [ref=f6e194]: Dated obligations. When one passes without the expected filing, the non-event is recorded.
+      - generic [ref=f6e195]:
+        - heading "Unreconciled" [level=3] [ref=f6e196]
+        - generic [ref=f6e197]:
+          - generic [ref=f6e198]:
+            - text: A
+            - generic [ref=f6e199]:
+              - text: Federal officials stated publicly in June and July 2026 that they anticipated full cooperation and stood ready to assist.
+              - generic [ref=f6e200]: Statements of 12 June and 7 July 2026, quoted in the complaint
+          - generic [ref=f6e201]:
+            - text: B
+            - generic [ref=f6e202]:
+              - text: The production delivered on 14 July 2026 contained no investigative material, and both the district office and SDNY refused the request.
+              - generic [ref=f6e203]: Complaint ¶¶72-77 and its Exhibits 3 and 23
+        - generic [ref=f6e204]:
+          - generic [ref=f6e205]:
+            - text: A
+            - generic [ref=f6e206]:
+              - text: The state's search of the property occurred on 1 March 2026.
+              - generic [ref=f6e207]: News reporting, carried by this beat on 13 August 2026
+          - generic [ref=f6e208]:
+            - text: B
+            - generic [ref=f6e209]:
+              - text: The state's search of the property occurred on 9 March 2026.
+              - generic [ref=f6e210]: The state's own Touhy letter of 3 May 2026, Exhibit 14 at 2
+        - generic [ref=f6e211]:
+          - generic [ref=f6e212]:
+            - text: A
+            - generic [ref=f6e213]:
+              - text: Parallel investigations risk inconsistent statements
+              - generic [ref=f6e214]: Federal rationale for the stand-down request, July 2019
+          - generic [ref=f6e215]:
+            - text: B
+            - generic [ref=f6e216]:
+              - text: The federal prosecution ended on 10 August 2019, and the material was still withheld in 2026
+              - generic [ref=f6e217]: New Mexico's complaint, filed 5 August 2026
+      - generic [ref=f6e218]:
+        - heading "Open questions" [level=3] [ref=f6e219]
+        - link [ref=f6e220] [cursor=pointer]:
+          - /url: "#/q/q-auction-structure"
+          - text: Was concealing the buyer behind a one-month-old LLC ordinary for this auction, and who else bid?
+          - emphasis [ref=f6e221]: Open · not being pursued by anyone visible
+        - link [ref=f6e222] [cursor=pointer]:
+          - /url: "#/q/q-evidence-loss"
+          - text: What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?
+          - emphasis [ref=f6e223]: Open · narrowed by the complaint, not answered
+        - link [ref=f6e224] [cursor=pointer]:
+          - /url: "#/q/q-evidentiary-loss"
+          - text: What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?
+          - emphasis [ref=f6e225]: Open
+        - link [ref=f6e226] [cursor=pointer]:
+          - /url: "#/q/q-standdown-expiry"
+          - text: Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?
+          - emphasis [ref=f6e227]: Open · never publicly asked
+  - contentinfo [ref=f6e228]:
+    - generic [ref=f6e229]:
+      - paragraph [ref=f6e230]: Document Zero is an automated ledger. Claims are extracted from public sources by one model family and independently checked by two others; a claim that does not survive is not published. Nothing here has been read by a human editor before publication. Treat every line as machine output and follow the primary-source link.
+      - paragraph [ref=f6e231]:
+        - text: "Corrections and the full method:"
+        - link "Method" [ref=f6e232] [cursor=pointer]:
+          - /url: "#/method"
+        - text: ·
+        - link "Agent API" [ref=f6e233] [cursor=pointer]:
+          - /url: "#/api"
+        - text: ·
+        - link "llms.txt" [ref=f6e234] [cursor=pointer]:
+          - /url: llms.txt

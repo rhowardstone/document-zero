@@ -1,0 +1,15 @@
+{
+  "sha256": "50984369612d339679e94c01d26316a267cd6495ad35a1331a0c0b979dddb751",
+  "url": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
+  "title": "Source cited by nm-records (hill)",
+  "source_name": "thehill.com",
+  "source_type": "news",
+  "published_at": "2026-08-14T10:00:00Z",
+  "first_seen": "2026-08-14T10:00:00Z",
+  "candidate_beats": [
+    {
+      "beat": "nm-records",
+      "score": 1.0
+    }
+  ]
+}

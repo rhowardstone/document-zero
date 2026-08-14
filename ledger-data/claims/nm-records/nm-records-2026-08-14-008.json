@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-008",
+  "beat": "nm-records",
+  "claim_text": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files.",
+  "quote": "reopened",
+  "source_sha": "b682e7c577007379c550dc3caaf739417b2d8837fa1e64a75765ddee168bccce",
+  "source_type": "news",
+  "source_url": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
+  "confidence": 0.6,
+  "confidence_justification": "Announced by the state and reported contemporaneously.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

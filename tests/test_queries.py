@@ -46,7 +46,7 @@ def data():
 def test_uncorroborated_finds_single_publisher_claims(data):
     q = build_queries(data)["uncorroborated"]
     assert {r["id"] for r in q["results"]} == {"r1", "r3"}
-    assert "distinct publisher hosts rather than distinct URLs" in q["method"]
+    assert "publisher hosts, not URLs" in q["method"]
 
 
 def test_omissions_are_not_counted_as_published_claims(data):
@@ -116,3 +116,16 @@ def test_the_catalogue_points_at_every_view(data):
 def test_the_catalogue_says_which_views_expose_weakness(data):
     idx = query_index(build_queries(data))
     assert "weakness" in idx["caution"].lower()
+
+
+def test_a_single_primary_document_is_not_counted_as_thin_sourcing():
+    """A court filing is not "uncorroborated" the way a single-sourced news
+    story is: it is not relaying a claim, it IS the record."""
+    d = {"edition": {}, "beats": [], "items": [
+        rec("news1", ["b"], [src("outlet.com", t="news")]),
+        rec("doc1", ["b"], [src("courtlistener.com", t="documentation")]),
+        rec("both", ["b"], [src("a.com", t="news"), src("b.com", t="news")], corr=2)]}
+    q = build_queries(d)["uncorroborated"]
+    assert [r["id"] for r in q["results"]] == ["news1"]
+    assert [r["id"] for r in q["single_primary_document"]] == ["doc1"]
+    assert q["count"] == 1 and q["single_primary_document_count"] == 1

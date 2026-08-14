@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-nonproduction",
+  "beat": "nm-records",
+  "claim_text": "The federal district office's response, dated 30 June 2026 and delivered 14 July, stated it had neither collected nor retained investigative materials; the thirty-one accompanying pages consisted largely of a public news article, a public press release by a former governor, correspondence New Mexico had itself sent, and a list of follow-up questions.",
+  "quote": "neither collected nor retained any investigative materials",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "The filing enumerates the thirty-one pages item by item. The content of a production is a documentable fact; whether it satisfies the request is contested.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

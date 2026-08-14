@@ -2,6 +2,28 @@
  "query": "cross-beat-sources",
  "question": "Which single sources inform more than one beat?",
  "method": "sources grouped by URL across published records; those whose beat set has more than one member. A source spanning beats is either a genuine connection or a routing error, and both are worth seeing.",
- "count": 0,
- "results": []
+ "count": 1,
+ "results": [
+  {
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+   "publisher": "storage.courtlistener.com",
+   "beats": [
+    "compliance",
+    "nm-records"
+   ],
+   "records": [
+    "compliance-2026-08-14-doc-efta-as-shield",
+    "compliance-2026-08-14-doc-efta-redaction",
+    "nm-records-2026-08-14-doc-file-handover",
+    "nm-records-2026-08-14-doc-judicial-notice",
+    "nm-records-2026-08-14-doc-no-pc",
+    "nm-records-2026-08-14-doc-nonproduction",
+    "nm-records-2026-08-14-doc-protective-order",
+    "nm-records-2026-08-14-doc-public-vs-conduct",
+    "nm-records-2026-08-14-doc-scale",
+    "nm-records-2026-08-14-doc-seizure-request",
+    "nm-records-2026-08-14-doc-standdown-call"
+   ]
+  }
+ ]
 }

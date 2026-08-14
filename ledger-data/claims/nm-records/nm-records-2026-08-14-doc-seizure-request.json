@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-seizure-request",
+  "beat": "nm-records",
+  "claim_text": "Then-Attorney General Hector Balderas asked the federal government on 15 October 2019 to begin seizing Epstein's New Mexico land holdings for the benefit of survivors.",
+  "quote": "explore initiating the process to seize Epstein's New Mexico land holdings for the eventual benefit of survivors of these acts and the people of the State of New Mexico",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "Quoted from an attached exhibit (Ex. 3 at 16). Establishes that the request was made and when; the property was instead sold at auction in 2023.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

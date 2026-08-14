@@ -2,8 +2,25 @@
  "query": "tier-documented",
  "question": "Which published claims are stamped `documented`?",
  "method": "records with kind=wire and stamp=documented. `documented` maps to the prose tier `documented_fact`; the stamp governs how the claim may be restated, not how important it is.",
- "count": 9,
+ "count": 24,
  "results": [
+  {
+   "id": "compliance-2026-08-14-doc-efta-as-shield",
+   "title": "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation.",
+   "stamp": "documented",
+   "beats": [
+    "compliance"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
   {
    "id": "nm-records-2026-08-14-000",
    "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
@@ -154,6 +171,244 @@
      "url": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
      "source_type": "news",
      "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-deadline",
+   "title": "New Mexico's Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-docket",
+   "title": "The suit is docketed as No. 1:26-cv-02762-AHA in the U.S. District Court for the District of Columbia, assigned to Judge Amir H. Ali, and is pleaded as review of agency action under the Administrative Procedure Act rather than as a FOIA case.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courtlistener.com",
+     "url": "https://www.courtlistener.com/docket/73721948/state-of-new-mexico-v-us-department-of-justice/",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-efta-hook",
+   "title": "The records New Mexico seeks are the redacted materials in the federal 'Epstein Library', compiled under Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (19 November 2025).",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-file-handover",
+   "title": "New Mexico gave the federal government its entire investigative file — police reports, recorded witness interviews and materials on Epstein's use of state public lands — on 17 September 2019, after agreeing to stand down.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-judicial-notice",
+   "title": "New Mexico's filing notes that the Justice Department has argued in other 2026 litigation that courts may take judicial notice of an Acting Attorney General's recorded public statements as binding party admissions.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-no-pc",
+   "title": "The complaint states that federal law enforcement never searched Zorro Ranch, and cites a federal email of 23 August 2019 — thirteen days after Epstein's death — that acknowledged a victim who may have been raped at the New Mexico residence while asserting there was no probable cause to search it.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-nonproduction",
+   "title": "The federal district office's response, dated 30 June 2026 and delivered 14 July, stated it had neither collected nor retained investigative materials; the thirty-one accompanying pages consisted largely of a public news article, a public press release by a former governor, correspondence New Mexico had itself sent, and a list of follow-up questions.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-offences",
+   "title": "New Mexico states it is investigating potential felony offences including homicide, kidnapping, criminal sexual penetration, criminal sexual contact and human trafficking, under named provisions of the New Mexico criminal code.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-protective-order",
+   "title": "Asked whether the federal government would join New Mexico in seeking a modification of the protective orders it cited as the obstacle, so that the orders would expressly permit disclosure for law-enforcement purposes, a Deputy United States Attorney responded that such cooperation was 'unlikely' and identified no path through which the two offices could work together.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-scale",
+   "title": "The federal filing states the released Epstein Files contain more than 13,000 references to Zorro Ranch and more than 5,000 references to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-search-date",
+   "title": "The state's own formal request dates its search of the property to 9 March 2026.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-seizure-request",
+   "title": "Then-Attorney General Hector Balderas asked the federal government on 15 October 2019 to begin seizing Epstein's New Mexico land holdings for the benefit of survivors.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-standdown-call",
+   "title": "The complaint dates the federal stand-down request to a telephone call on 23 July 2019 and cites a federal record of that call in the publicly released Epstein Files.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-touhy-invited",
+   "title": "The federal government asked New Mexico to file the formal Touhy request it later declined: on 1 April 2026 an Associate Deputy Attorney General affirmed the Department's commitment to assisting and requested that New Mexico submit a Touhy letter through standard channels.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
     }
    ]
   }

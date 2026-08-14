@@ -72,7 +72,7 @@
   {
    "id": "compliance",
    "name": "DOJ compliance with the Transparency Act",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "records",
     "power"
@@ -81,8 +81,8 @@
     "oversight",
     "case"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 2,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "kennedy",
@@ -248,8 +248,8 @@
     "case",
     "oversight"
    ],
-   "events": 13,
-   "lastChange": "2026-08-05"
+   "events": 28,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "epstein-banks",

@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-010",
+  "beat": "nm-records",
+  "claim_text": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
+  "quote": "ordered to stop construction due to lack of permits",
+  "source_sha": "e9cb4d8c687976f784073f7d2c8545687bf38bee55ab9f92d4f7b2dac8617d0f",
+  "source_type": "news",
+  "source_url": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
+  "confidence": 0.6,
+  "confidence_justification": "A stop-work order is an official act with a paper trail.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye",
+  "extracted_at": "2026-08-14T10:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "human-directed research"
+  ]
+}

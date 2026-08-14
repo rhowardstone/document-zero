@@ -1,0 +1,85 @@
+{
+  "day": "2026-08-14",
+  "wire": [
+    {
+      "id": "nm-records",
+      "beat": "nm-records",
+      "score": 24.6,
+      "reason": null,
+      "material_changes": 6,
+      "claims": 28,
+      "rejected_claims": 0,
+      "changes": [
+        {
+          "k": "Federal suit",
+          "from": "Filed 5 Aug 2026, D.D.C.",
+          "to": "No. 1:26-cv-02762-AHA, D.D.C. (Ali, J.), APA review"
+        },
+        {
+          "k": "Records sought",
+          "from": "Unredacted Epstein investigative files",
+          "to": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)"
+        }
+      ],
+      "added": [
+        {
+          "k": "Administrative exhaustion",
+          "v": "Touhy request 3 May 2026; treated as denied 31 Jul 2026"
+        },
+        {
+          "k": "Stated grounds for refusal",
+          "v": "Overbreadth; Privacy Act; Epstein and Maxwell protective orders"
+        },
+        {
+          "k": "Protective-order modification",
+          "v": "Sought by the state; federal cooperation called 'unlikely'"
+        },
+        {
+          "k": "Federal search of the property",
+          "v": "Never conducted"
+        }
+      ],
+      "removed": [],
+      "unchanged": 6
+    },
+    {
+      "id": "compliance",
+      "beat": "compliance",
+      "score": 11.2,
+      "reason": null,
+      "material_changes": 3,
+      "claims": 2,
+      "rejected_claims": 0,
+      "changes": [],
+      "removed": [],
+      "unchanged": 0,
+      "added": [
+        {
+          "k": "Statute",
+          "v": "Epstein Files Transparency Act, Pub. L. 119-38 (2025)"
+        },
+        {
+          "k": "Invoked as grounds to withhold",
+          "v": "Yes — against a state criminal investigation, 31 Jul 2026"
+        },
+        {
+          "k": "Redaction compliance",
+          "v": "Contested in litigation"
+        }
+      ]
+    }
+  ],
+  "omissions": [],
+  "holds": [],
+  "counts": {
+    "wire": 2,
+    "capped_out": 0,
+    "omissions": 0,
+    "holds": 0,
+    "refused": 0,
+    "dropped": 0
+  },
+  "refusal_summary": {},
+  "publish": false,
+  "publish_blocked_by": "dry_run"
+}

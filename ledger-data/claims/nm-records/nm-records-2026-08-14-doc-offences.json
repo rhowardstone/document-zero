@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-offences",
+  "beat": "nm-records",
+  "claim_text": "New Mexico states it is investigating potential felony offences including homicide, kidnapping, criminal sexual penetration, criminal sexual contact and human trafficking, under named provisions of the New Mexico criminal code.",
+  "quote": "the state of New Mexico is investigating potential felony offenses, including but not limited to homicide, kidnapping, criminal sexual penetration, criminal sexual contact, and human trafficking",
+  "source_sha": "e62c32dbc2c4b412c09f265d28763240e0a27308c8e4e356053297990d3dd57c",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "The scope of the state's investigation is stated in its own formal request, with statutory citations. That an offence is under investigation is not an allegation that any identified person committed it, and none is recorded here.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

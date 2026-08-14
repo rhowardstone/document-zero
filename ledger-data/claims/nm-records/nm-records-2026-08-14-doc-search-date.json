@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-search-date",
+  "beat": "nm-records",
+  "claim_text": "The state's own formal request dates its search of the property to 9 March 2026.",
+  "quote": "On March 9, 2026, the NMDOJ executed a search of the property and has since begun contacting potential victims and witnesses to develop a firsthand account of events.",
+  "source_sha": "e62c32dbc2c4b412c09f265d28763240e0a27308c8e4e356053297990d3dd57c",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "A date the state gives in a signed request to federal officials. It contradicts the 1 March date this beat carried from news reporting; the primary document governs and the contradiction is recorded rather than silently overwritten.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

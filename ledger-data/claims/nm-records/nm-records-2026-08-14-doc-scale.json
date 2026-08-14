@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-scale",
+  "beat": "nm-records",
+  "claim_text": "The federal filing states the released Epstein Files contain more than 13,000 references to Zorro Ranch and more than 5,000 references to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+  "quote": "The Epstein Files include over 13,000 references to Zorro Ranch and 5,000 references to New Mexico as locations where victims were trafficked, groomed, and assaulted.",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "Day one carried this figure from a news report at the 0.6 news ceiling. It is now sourced to the filing that asserts it, which is what a news report was reporting.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

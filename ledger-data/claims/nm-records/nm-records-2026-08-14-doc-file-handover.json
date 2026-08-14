@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-file-handover",
+  "beat": "nm-records",
+  "claim_text": "New Mexico gave the federal government its entire investigative file — police reports, recorded witness interviews and materials on Epstein's use of state public lands — on 17 September 2019, after agreeing to stand down.",
+  "quote": "On September 17, 2019, NMDOJ provided USDOJ with its entire investigative file, including police reports, recorded witness interviews, and materials related to Epstein's use of New Mexico public lands.",
+  "source_sha": "ec6525c4f899928a694c6a5c6259e69d769a91853614e3d59fcfec299ef42055",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "A dated act of transfer recited in a filing and supported by an attached exhibit. It establishes the direction of the exchange: the state produced, and is now suing to receive.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

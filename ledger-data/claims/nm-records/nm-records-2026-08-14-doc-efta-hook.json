@@ -1,0 +1,18 @@
+{
+  "id": "nm-records-2026-08-14-doc-efta-hook",
+  "beat": "nm-records",
+  "claim_text": "The records New Mexico seeks are the redacted materials in the federal 'Epstein Library', compiled under Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (19 November 2025).",
+  "quote": "we seek the redacted materials contained in the USDOJ's 'Epstein Library,' compiled pursuant to Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (Nov. 19, 2025)",
+  "source_sha": "e62c32dbc2c4b412c09f265d28763240e0a27308c8e4e356053297990d3dd57c",
+  "source_type": "documentation",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+  "confidence": 0.85,
+  "confidence_justification": "The request names the statute and section it runs against. This is what ties the New Mexico case to the separate question of federal compliance with that Act.",
+  "tier": "documented_fact",
+  "extracted_by": "agent:eagle-eye/primary-documents",
+  "extracted_at": "2026-08-14T11:00:00Z",
+  "verification_rounds": 1,
+  "verifier_families": [
+    "quote-checked against the filed PDF"
+  ]
+}

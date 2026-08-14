@@ -1,0 +1,30 @@
+{
+  "beat": "compliance",
+  "as_of": "2026-08-14",
+  "fields": [
+    {
+      "k": "Statute",
+      "v": "Epstein Files Transparency Act, Pub. L. 119-38 (2025)",
+      "since": "19 Nov 2025",
+      "claims": [
+        "compliance-2026-08-14-doc-efta-as-shield"
+      ]
+    },
+    {
+      "k": "Invoked as grounds to withhold",
+      "v": "Yes — against a state criminal investigation, 31 Jul 2026",
+      "since": "31 Jul",
+      "claims": [
+        "compliance-2026-08-14-doc-efta-as-shield"
+      ]
+    },
+    {
+      "k": "Redaction compliance",
+      "v": "Contested in litigation",
+      "since": "5 Aug",
+      "claims": [
+        "compliance-2026-08-14-doc-efta-redaction"
+      ]
+    }
+  ]
+}
