@@ -130,4 +130,15 @@ for t in ("sources","source_beats","claims","beat_state","beat_history"):
     print(f"           {t:14s} {con.execute(f'select count(*) from {t}').fetchone()[0]:6d} rows")
 out = pathlib.Path("/mnt/d/Newsdesk/edition-dryrun.json")
 out.write_text(json.dumps(ed.to_dict(), indent=2))
-print(f"\nwrote {out}")
+
+# Render the ledger into the site. The page is a view over the ledger, never a
+# separate artifact: nothing can appear here that is not in the record.
+from ledger.render import build, write_data_js
+data = build(root, "/mnt/d/Newsdesk/config/beats.yaml", "2026-08-14")
+js = write_data_js(data, "/mnt/d/Newsdesk/data.js")
+print(f"\nRENDERED {js}")
+print(f"         {len(data['beats'])} beats, {len(data['items'])} records, "
+      f"{sum(1 for b in data['beats'] if b['status'] != 'quiet')} not quiet")
+for b in sorted(data["beats"], key=lambda b: -b["events"])[:6]:
+    if b["events"] or b["status"] != "quiet":
+        print(f"           {b['status']:14s} {b['events']:3d} claim(s)  {b['name'][:52]}")

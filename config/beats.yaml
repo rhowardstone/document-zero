@@ -36,7 +36,9 @@
   name: DOJ compliance with the Transparency Act
   dossiers: [records, power]
   types: [oversight, case]
-  keywords: [epstein files, transparency act, sullivan, blanche, redaction, fd-302, handwritten notes]
+  keywords: [epstein files, transparency act, sullivan, blanche, redaction, redactions,
+             fd-302, handwritten notes, doj, justice department, contempt, sanctions,
+             withheld records, epstein judge, court filing]
 - id: kennedy
   consequence: 3      # one institution; symbolic scope; court-contested
   name: The Kennedy Center
@@ -97,3 +99,55 @@
   dossiers: [energy]
   types: [tech]
   keywords: [data center, data centre, ratepayer, electricity demand, grid capacity, ai buildout]
+- id: epstein-network
+  name: The Epstein network and its enablers
+  consequence: 7      # the substance beneath the docket; victims, estate, associates
+  dossiers: [records, account]
+  types: [oversight, case]
+  # Bare 'epstein' is deliberately absent: the routing diagnostic measured it at
+  # 96.1% of the corpus, which is a description of the archive rather than a
+  # router within it. The network beat matches on the network, not the subject.
+  keywords: [ghislaine maxwell, maxwell, zorro ranch, little saint james,
+             epstein estate, epstein victims, epstein survivors, epstein accuser,
+             epstein associate, epstein island, epstein network, epstein flight,
+             flight logs, black book, epstein client, prince andrew, epstein building,
+             epstein used, epstein pitched, met jeffrey epstein]
+- id: nm-records
+  name: New Mexico v. the Justice Department
+  consequence: 6      # state-vs-federal records suit; distinct case from the DC docket
+  dossiers: [records, power]
+  types: [case, oversight]
+  keywords: [new mexico, new mexico ag, zorro ranch, stonewalling, unredacted records,
+             state of new mexico, santa fe]
+- id: epstein-banks
+  name: Banks, the Senate report, and Epstein's money
+  consequence: 7      # named institutions, regulator exposure, SAR obligations
+  dossiers: [records, econ]
+  types: [oversight, market]
+  keywords: [wall street banks, jp morgan, jpmorgan, deutsche bank, goldman sachs,
+             senate report, senate democrats, wyden, suspicious activity report,
+             follow the money, banks knew, covering for epstein, protected epstein,
+             blind eye, turned a blind, suspicious moves, money moves, cut ties,
+             banks, financial institutions, epstein money, transactions]
+- id: uk-inquiry
+  name: The UK public inquiry
+  consequence: 5      # foreign-government inquiry into the same network
+  dossiers: [records, elect]
+  types: [oversight, inst]
+  keywords: [public inquiry, uk inquiry, burnham, downing street, no 10, number 10,
+             british pm, prince andrew, andrew mountbatten]
+- id: epstein-institutions
+  name: Institutions that hosted the abuse
+  consequence: 6      # schools, foundations and employers that gave access
+  dossiers: [records, account]
+  types: [oversight, case]
+  keywords: [arts school, boarding school, preyed on students, decades of abuse,
+             allegedly preyed, private school, faculty, headmaster, alumni,
+             institutional abuse, grooming]
+- id: epstein-death
+  name: The death and what it foreclosed
+  consequence: 4      # persistent public question; low new-evidence rate
+  dossiers: [records]
+  types: [death, oversight]
+  keywords: [epstein death, epstein died, jail cell, metropolitan correctional,
+             autopsy, medical examiner, suicide, bury the truth, cover-up, coverup]

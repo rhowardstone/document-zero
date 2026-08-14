@@ -15,6 +15,11 @@ The output distinguishes two different repairs, because they are not the same:
   MISSING BEAT    — a coherent cluster of co-occurring terms with its own state.
                     No existing beat could absorb it without losing coherence.
 
+Recall is only half the problem. A keyword that matches almost every document in
+the corpus carries no information — 'epstein' in an Epstein archive is a stopword,
+not a router — and a beat built on one swallows everything. So the report also
+names OVER-MATCHING keywords, which is the precision half.
+
 The module surfaces the evidence for both; deciding which is which is an
 editorial call, and it stays with a person.
 """
@@ -34,6 +39,10 @@ but if have has had do does did just also only very such own same so
 MIN_WORD = 3
 DEFAULT_MIN_COUNT = 8
 
+# A keyword matching more than this share of the corpus is not discriminating —
+# it is describing the archive, not routing within it.
+OVER_MATCH_SHARE = 0.5
+
 
 @dataclass
 class RoutingReport:
@@ -44,6 +53,8 @@ class RoutingReport:
     missing_phrases: list = field(default_factory=list)   # [(phrase, count)]
     unrouted_by_source: list = field(default_factory=list)  # [(source, unrouted, total)]
     clusters: list = field(default_factory=list)          # [[phrase, ...]] co-occurring
+    beat_coverage: list = field(default_factory=list)     # [(beat, matched, share)]
+    over_matching: list = field(default_factory=list)     # [(beat, keyword, share)]
 
     @property
     def unassigned_rate(self) -> float:
@@ -79,14 +90,17 @@ def analyse_routing(sources, beats, min_count: int = DEFAULT_MIN_COUNT) -> Routi
             unassigned.append(s)
 
     uni, bi = collections.Counter(), collections.Counter()
-    for s in unassigned:
+    docsets = collections.defaultdict(set)   # phrase -> the headlines containing it
+    for i, s in enumerate(unassigned):
         ws = _words(s.get("title"))
         for w in ws:
             if w not in known_words:
                 uni[w] += 1
         for a, b in zip(ws, ws[1:]):
-            if f"{a} {b}" not in known_phrases:
-                bi[f"{a} {b}"] += 1
+            ph = f"{a} {b}"
+            if ph not in known_phrases:
+                bi[ph] += 1
+                docsets[ph].add(i)
 
     r.missing_terms = [(w, n) for w, n in uni.most_common() if n >= min_count]
     r.missing_phrases = [(p, n) for p, n in bi.most_common() if n >= min_count]
@@ -97,31 +111,84 @@ def analyse_routing(sources, beats, min_count: int = DEFAULT_MIN_COUNT) -> Routi
         ((name, n, totals[name]) for name, n in by_src.items()),
         key=lambda t: -t[1])
 
-    r.clusters = _cluster(r.missing_phrases)
+    r.clusters = _cluster(r.missing_phrases, docsets)
+    r.beat_coverage, r.over_matching = _precision(sources, beats)
     return r
 
 
-def _cluster(phrases) -> list:
-    """Chain phrases that overlap on a word — 'banks turned' + 'turned blind'.
+def _precision(sources, beats, share_limit: float = OVER_MATCH_SHARE):
+    """Which beats swallow the corpus, and which keyword is responsible.
 
-    A chain that holds together is the shape of a beat; an isolated phrase is
-    the shape of a keyword. The distinction is the whole point of the report.
+    Attribution matters: 'this beat is too broad' is not actionable, but
+    'this one keyword in it matches 96% of everything' is a one-line fix.
     """
-    remaining = {p for p, _ in phrases}
-    out = []
-    while remaining:
-        seed = max(remaining, key=lambda p: dict(phrases)[p])
-        chain, changed = {seed}, True
-        remaining.discard(seed)
-        while changed:
-            changed = False
-            words = {w for p in chain for w in p.split()}
-            for p in sorted(remaining):
-                if words & set(p.split()):
-                    chain.add(p); remaining.discard(p); changed = True
-        if len(chain) > 1:
-            out.append(sorted(chain, key=lambda p: -dict(phrases)[p]))
-    return out
+    total = len(sources) or 1
+    texts = [" ".join(filter(None, [s.get("title"), s.get("snippet")])).lower()
+             for s in sources]
+
+    coverage, over = [], []
+    for b in beats:
+        hits = sum(1 for s in sources
+                   if any(cb.get("beat") == b.id for cb in s.get("candidate_beats", [])))
+        coverage.append((b.id, hits, hits / total))
+        for kw in b.keywords:
+            k = kw.lower()
+            n = sum(1 for t in texts if re.search(r"\b" + re.escape(k), t))
+            if n / total >= share_limit:
+                over.append((b.id, kw, n / total))
+
+    coverage.sort(key=lambda t: -t[1])
+    over.sort(key=lambda t: -t[2])
+    return coverage, over
+
+
+CO_OCCUR_MIN = 0.5
+
+
+def _cluster(phrases, docsets, threshold: float = CO_OCCUR_MIN) -> list:
+    """Group phrases that appear in the SAME headlines.
+
+    Word overlap is the wrong signal: chaining transitively on a shared word
+    merges unrelated stories that happen to share a common noun, so 'banks
+    turned' and 'mexico sues' collapse into one cluster because both eventually
+    touch 'epstein'. Document co-occurrence does not have that failure — two
+    phrases belong together when the same headlines contain both.
+
+    A group that holds together is the shape of a beat; a lone phrase is the
+    shape of a keyword. Keeping those apart is the whole point of the report.
+    """
+    counts = dict(phrases)
+    names = [p for p, _ in phrases]
+    parent = {p: p for p in names}
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+
+    for i, a in enumerate(names):
+        da = docsets.get(a) or set()
+        if not da:
+            continue
+        for b in names[i + 1:]:
+            db = docsets.get(b) or set()
+            if not db:
+                continue
+            inter = len(da & db)
+            if inter and inter / len(da | db) >= threshold:
+                union(a, b)
+
+    groups = collections.defaultdict(list)
+    for p in names:
+        groups[find(p)].append(p)
+    out = [sorted(g, key=lambda p: -counts[p]) for g in groups.values() if len(g) > 1]
+    return sorted(out, key=lambda g: -counts[g[0]])
 
 
 def format_report(r: RoutingReport, top: int = 12) -> str:
@@ -136,6 +203,16 @@ def format_report(r: RoutingReport, top: int = 12) -> str:
         L.append("\nUNCOVERED TERMS — candidates for a NEW KEYWORD")
         for w, n in r.missing_terms[:top]:
             L.append(f"    {n:6d}  {w}")
+    if r.over_matching:
+        L.append("\nOVER-MATCHING KEYWORDS — these route nothing, they describe the archive")
+        for beat, kw, share in r.over_matching[:8]:
+            L.append(f"    {share*100:5.1f}%  {beat:18s} '{kw}'")
+    if r.beat_coverage:
+        top = [t for t in r.beat_coverage if t[1]][:6]
+        L.append("\nBEAT COVERAGE")
+        for beat, n, share in top:
+            flag = "  <-- swallows the corpus" if share >= OVER_MATCH_SHARE else ""
+            L.append(f"    {n:6d}  {share*100:5.1f}%  {beat}{flag}")
     if r.unrouted_by_source:
         L.append("\nOUTLETS DROPPED WHOLESALE — a routing gap often has a source shape")
         for name, n, tot in r.unrouted_by_source[:6]:

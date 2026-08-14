@@ -21,25 +21,6 @@
       "rejected_claims": 0
     },
     {
-      "id": "compliance",
-      "beat": "compliance",
-      "placement": "wire",
-      "reason": null,
-      "score": 14.4,
-      "components": {
-        "novelty": 2.0,
-        "consequence": 11.200000000000001,
-        "evidence": 1.2,
-        "derivation": 0.0
-      },
-      "distortion": 1.3999999997199999,
-      "undercovered": true,
-      "material_changes": 2,
-      "claims": 3,
-      "injection_attempts": 0,
-      "rejected_claims": 0
-    },
-    {
       "id": "detention",
       "beat": "detention",
       "placement": "wire",
@@ -76,15 +57,150 @@
       "claims": 1,
       "injection_attempts": 0,
       "rejected_claims": 0
+    },
+    {
+      "id": "epstein-institutions",
+      "beat": "epstein-institutions",
+      "placement": "wire",
+      "reason": null,
+      "score": 12.8,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 9.600000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.19999999976,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    },
+    {
+      "id": "uk-inquiry",
+      "beat": "uk-inquiry",
+      "placement": "wire",
+      "reason": null,
+      "score": 11.2,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 8.0,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 0.9999999998,
+      "undercovered": false,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    },
+    {
+      "id": "epstein-death",
+      "beat": "epstein-death",
+      "placement": "wire",
+      "reason": null,
+      "score": 9.6,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 6.4,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 0.79999999984,
+      "undercovered": false,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
     }
   ],
-  "omissions": [],
-  "holds": [],
+  "omissions": [
+    {
+      "id": "epstein-banks",
+      "beat": "epstein-banks",
+      "placement": "omission",
+      "reason": "recirculation",
+      "score": 14.4,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 11.200000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.3999999997199999,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    },
+    {
+      "id": "nm-records",
+      "beat": "nm-records",
+      "placement": "omission",
+      "reason": "recirculation",
+      "score": 12.8,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 9.600000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.19999999976,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    }
+  ],
+  "holds": [
+    {
+      "id": "compliance",
+      "beat": "compliance",
+      "placement": "hold",
+      "reason": "single_root_multi_source",
+      "score": 14.4,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 11.200000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.3999999997199999,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    },
+    {
+      "id": "epstein-network",
+      "beat": "epstein-network",
+      "placement": "hold",
+      "reason": "single_root_multi_source",
+      "score": 14.4,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 11.200000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.3999999997199999,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    }
+  ],
   "counts": {
-    "wire": 4,
+    "wire": 6,
     "capped_out": 0,
-    "omissions": 0,
-    "holds": 0,
+    "omissions": 2,
+    "holds": 2,
     "refused": 0,
     "dropped": 0
   },

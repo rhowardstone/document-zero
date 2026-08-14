@@ -36,7 +36,7 @@ def test_assign_beats_returns_empty_when_nothing_matches():
 def test_load_beats_from_config_gives_sixteen_beats():
     from ledger.beats import load_beats
     beats = load_beats("config/beats.yaml")
-    assert len(beats) == 16
+    assert len(beats) == 22
     assert all(b.keywords for b in beats), "every beat needs keywords for tier-1 assignment"
     assert all(b.dossiers for b in beats), "every beat belongs to at least one dossier"
     ids = [b.id for b in beats]
@@ -46,7 +46,7 @@ def test_load_beats_from_config_gives_sixteen_beats():
 def test_every_beat_carries_an_explicit_consequence_weight():
     from ledger.beats import load_beat_meta
     meta = load_beat_meta("config/beats.yaml")
-    assert len(meta) == 16
+    assert len(meta) == 22
     assert all(1 <= m["consequence"] <= 10 for m in meta.values())
     # The weights must actually discriminate, or ranking is theatre.
     assert len({m["consequence"] for m in meta.values()}) >= 5
