@@ -20,6 +20,16 @@ recirculation:
   min_gap_days: 1
   date_conflict_gap_days: 60
 
+# Beats are independent by construction (see the write-partition rule), so the
+# sweep produces byte-identical output at any concurrency. Width is a wall-clock
+# choice, never a correctness one. Set to 1 if agent concurrency is constrained;
+# the sweep runs at 04:30 and nobody is waiting.
+sweep:
+  concurrency: 4           # beats processed at once; 1 = fully sequential
+  only_beats_with_new_sources: true
+  max_sources_per_beat_per_run: 60   # oldest-first; overflow carries to next run
+  budget_tokens_per_run: null        # null = unmetered; set once measured
+
 verification:
   rounds_max: 3
   passes: [refute, lens]

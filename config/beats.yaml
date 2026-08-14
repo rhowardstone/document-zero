@@ -2,81 +2,97 @@
 # `keywords` drive tier-1 assignment: model-free, scored, and logged so that
 # misassignment can be measured before a classifier is considered.
 - id: hormuz
+  consequence: 9      # global oil transit; direct CPI channel; escalation risk
   name: The Strait of Hormuz & the blockade
   dossiers: [iran, energy]
   types: [conflict, market]
   keywords: [hormuz, blockade, strait of hormuz, tanker, naval blockade, pezeshkian, hegseth]
 - id: iran-diplo
+  consequence: 8      # war termination; treaty status
   name: Iran diplomacy & the ceasefire
   dossiers: [iran]
   types: [conflict]
   keywords: [iran ceasefire, iran talks, iran negotiations, memorandum of understanding, tehran]
 - id: fed
+  consequence: 8      # rate path; mortgage and credit costs; every household
   name: Fed policy & the September decision
   dossiers: [econ]
   types: [market]
   keywords: [federal reserve, fomc, rate hike, rate cut, interest rate, warsh, basis points]
 - id: prices
+  consequence: 8      # prices households actually encounter
   name: Fuel & grocery prices
   dossiers: [econ, iran]
   types: [market]
   keywords: [gas prices, gasoline, brent, crude, grocery prices, cpi, inflation, aaa average]
 - id: agenda
+  consequence: 9      # term-length regulatory scope; trillions in claimed effect
   name: The regulatory agenda
   dossiers: [power]
   types: [reg]
   keywords: [unified agenda, federal register, rulemaking, deregulatory, regulatory plan, oira]
 - id: compliance
+  consequence: 7      # statutory compliance; contempt exposure; institutional precedent
   name: DOJ compliance with the Transparency Act
   dossiers: [records, power]
   types: [oversight, case]
   keywords: [epstein files, transparency act, sullivan, blanche, redaction, fd-302, handwritten notes]
 - id: kennedy
+  consequence: 3      # one institution; symbolic scope; court-contested
   name: The Kennedy Center
   dossiers: [power]
   types: [inst, case]
   keywords: [kennedy center, performing arts, board vote, renaming]
 - id: mangione
+  consequence: 4      # one defendant; no policy change; high public salience
   name: United States v. Mangione
   dossiers: [violence, econ]
   types: [case]
   keywords: [mangione, unitedhealthcare, brian thompson, stalking resulting in death]
 - id: robinson
+  consequence: 4      # one defendant; capital exposure; political salience
   name: State v. Robinson
   dossiers: [violence]
   types: [case]
   keywords: [tyler robinson, charlie kirk, aggravating factor, utah valley]
 - id: wells
+  consequence: 5      # one death; federal jurisdiction question; civil-rights precedent
   name: The death of Nolan Wells
   dossiers: [account]
   types: [death, oversight]
   keywords: [nolan wells, horn island, congressional black caucus, jackson county]
 - id: flock
+  consequence: 7      # 120k cameras, 49 states; fourth-amendment scope
   name: Flock & plate-reader networks
   dossiers: [surv]
   types: [tech]
   keywords: [flock safety, license plate reader, licence plate reader, plate reader, deflock, alpr]
 - id: dcpolice
+  consequence: 6      # federal control of a city police force; precedent for others
   name: Federal policing in the District
   dossiers: [account, immig]
   types: [oversight]
   keywords: [national guard, metropolitan police, home rule, district of columbia, federal takeover]
 - id: detention
+  consequence: 7      # custody conditions; deaths; procurement at scale
   name: ICE detention conditions
   dossiers: [immig, account]
   types: [oversight, death]
   keywords: [ice detention, detention center, delaney hall, immigration custody, deportation, detainee]
 - id: vaccines
+  consequence: 8      # national immunisation schedule; measles exposure
   name: The childhood vaccine schedule
   dossiers: [health, power]
   types: [reg]
   keywords: [vaccine schedule, mmr, measles, acip, childhood vaccine, immunization]
 - id: redistricting
+  consequence: 7      # House control; durable through the decade
   name: Mid-decade redistricting
   dossiers: [elect]
   types: [case]
   keywords: [redistricting, congressional map, gerrymander, voting rights act]
 - id: datacentres
+  consequence: 6      # ratepayer costs; grid capacity; land use
   name: Data centres & the grid
   dossiers: [energy]
   types: [tech]

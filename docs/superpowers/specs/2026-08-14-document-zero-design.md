@@ -385,6 +385,28 @@ recorded as a finding — an absence on a known date is not a gap.
 
 ## 10. Operational constraints
 
+### 10.0 The host is live and must never be disrupted
+
+`epstein-data.com` serves roughly **15,000 daily active users**. Document Zero is being built
+alongside it on the same box. Downtime is not a cost to be weighed against speed — it is
+disqualifying. These are rules, not guidance:
+
+| Rule | Why |
+|---|---|
+| Read-only by default on the server | Anything that only reads cannot break anything |
+| **Never** `systemctl restart`. `nginx -t` then `reload` only | Reload is zero-downtime; restart is not |
+| **Never** edit `/etc/nginx/sites-enabled/datasette` | The subdomain gets its own new file; the live config stays byte-identical |
+| **Never** write inside existing `/opt/datasette-data/` paths | New work goes in a new directory |
+| **Never** open `news.db`, `justice.db` or the corpus for writing | Ingest reads; `newsdesk.db` is a separate new file |
+| **Never** run a memory-hungry process on the box | ~95% of memory is already committed; an OOM kills datasette or FAISS |
+| Deploy via the existing Actions rsync path, not by hand | The path is already proven by the sleuths repo |
+| Back up before any change that must happen on the server | Recovery beats confidence |
+
+The build order follows from this: everything is developed and tested off-box, and the server
+sees nothing until a change is proven locally and deployable through a path that cannot touch
+the running site.
+
+
 **Memory is the binding constraint on the server, not disk.** Measured 14 Aug 2026:
 
 - 7.6 GB RAM, 4 GB swap, **3.8 GB of swap already in use**

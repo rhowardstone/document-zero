@@ -71,3 +71,13 @@ def load_beats(path) -> list[Beat]:
     return [Beat(id=r["id"], name=r["name"], keywords=list(r.get("keywords", [])),
                  dossiers=tuple(r.get("dossiers", ())), types=tuple(r.get("types", ())))
             for r in rows]
+
+
+def load_beat_meta(path) -> dict:
+    """Per-beat editorial inputs for ranking. Consequence is a judgement; it is
+    published as config rather than hidden inside a model, so it can be argued with."""
+    import yaml
+    rows = yaml.safe_load(open(path, encoding="utf-8"))
+    return {r["id"]: {"consequence": r.get("consequence", 5),
+                      "coverage": r.get("coverage", 5),
+                      "name": r["name"]} for r in rows}

@@ -1,0 +1,91 @@
+{
+  "day": "2026-08-14",
+  "wire": [
+    {
+      "id": "prices",
+      "beat": "prices",
+      "placement": "wire",
+      "reason": null,
+      "score": 16.0,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 12.8,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.59999999968,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 1,
+      "injection_attempts": 0
+    },
+    {
+      "id": "compliance",
+      "beat": "compliance",
+      "placement": "wire",
+      "reason": null,
+      "score": 14.4,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 11.200000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.3999999997199999,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0
+    },
+    {
+      "id": "detention",
+      "beat": "detention",
+      "placement": "wire",
+      "reason": null,
+      "score": 14.4,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 11.200000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.3999999997199999,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 1,
+      "injection_attempts": 0
+    },
+    {
+      "id": "flock",
+      "beat": "flock",
+      "placement": "wire",
+      "reason": null,
+      "score": 14.4,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 11.200000000000001,
+        "evidence": 1.2,
+        "derivation": 0.0
+      },
+      "distortion": 1.3999999997199999,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 1,
+      "injection_attempts": 0
+    }
+  ],
+  "omissions": [],
+  "holds": [],
+  "counts": {
+    "wire": 4,
+    "capped_out": 0,
+    "omissions": 0,
+    "holds": 0,
+    "refused": 0,
+    "dropped": 0
+  },
+  "refusal_summary": {},
+  "publish": false,
+  "publish_blocked_by": "dry_run",
+  "policy_revision": null
+}
