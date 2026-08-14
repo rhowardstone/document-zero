@@ -1,7 +1,8 @@
-"""Entry points.
+"""Entry points. None of these cost money.
 
   python3 -m ledger.cli compile <ledger-root> <db-path>
   python3 -m ledger.cli beats
+  python3 -m ledger.cli routing <ledger-root>   # what tier-1 routing is missing
 """
 from __future__ import annotations
 import sys
@@ -22,6 +23,15 @@ def main(argv=None) -> int:
             return 2
         out = compile_db(argv[1], argv[2])
         print(f"compiled {Path(argv[1])} -> {out}")
+        return 0
+    if cmd == "routing":
+        import json
+        from .tuning import analyse_routing, format_report
+        root = Path(argv[1] if len(argv) > 1 else "data")
+        srcs = [json.loads(f.read_text(encoding="utf-8"))
+                for d in sorted((root / "sources").glob("*")) if d.is_dir()
+                for f in sorted(d.glob("*.json"))]
+        print(format_report(analyse_routing(srcs, load_beats("config/beats.yaml"))))
         return 0
     if cmd == "beats":
         for b in load_beats(argv[1] if len(argv) > 1 else "config/beats.yaml"):
