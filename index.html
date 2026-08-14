@@ -260,7 +260,8 @@ tr.moved-now td{background:color-mix(in srgb,var(--chg) 6%,transparent)}
 .prose strong{color:var(--ink);font-weight:600}
 
 .empty{padding:30px 18px;text-align:center;color:var(--ink3);font-size:13.5px}
-.back{display:inline-block;font:500 12px/1 PlexMono;color:var(--ink3);margin-bottom:16px}
+.back{display:block;width:fit-content;font:500 12px/1 PlexMono;
+  color:var(--ink3);margin-bottom:16px}
 .back:hover{color:var(--ink);text-decoration:none}
 h1.page{font:400 30px/1.22 Newsreader,Georgia,serif;letter-spacing:-.014em;
   margin-bottom:8px;max-width:var(--measure)}
@@ -609,7 +610,8 @@ function viewRecord(id) {
   <article class="card wh" style="border-left-color:var(--ink3)">
     <div class="lab" style="color:var(--ink3)">Standing disclosure</div>
     <p>No human editor reviewed this record. It was written by a language model,
-       checked by two others, and published automatically. The confidence figure is
+       checked by two others, and ${LIVE ? "published" : "assembled"} automatically.
+       ${LIVE ? "" : "<b>This edition was not released.</b>"} The confidence figure is
        capped by source type and is not a probability of truth — it is a ceiling on
        what a source of that kind is allowed to establish.
        <a href="#/method">How this can fail →</a></p>
