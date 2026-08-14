@@ -164,6 +164,15 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                       for f in (state or {}).get("fields", [])],
             "history": [{"d": esc(h.get("d")), "c": esc(h.get("c")), "s": esc(h.get("s"))}
                         for h in reversed(history)],
+            # What actually changed today, in before -> after form. This is the
+            # thing the whole system exists to produce; the page leads with it.
+            "changes": [{"k": esc(c.get("k")), "from": esc(c.get("from")),
+                         "to": esc(c.get("to"))} for c in placement.get("changes", [])],
+            "added": [{"k": esc(a.get("k")), "v": esc(a.get("v"))}
+                      for a in placement.get("added", [])],
+            "removed": [{"k": esc(x.get("k")), "v": esc(x.get("v"))}
+                        for x in placement.get("removed", [])],
+            "unchanged": placement.get("unchanged", 0),
             "unknown": _unknowns(placement, claims),
             "items": [c["id"] for c in claims], "questions": [], "triggers": [],
         })
@@ -186,7 +195,12 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
 
     counts = edition.get("counts", {})
     return {
-        "edition": {"n": "001", "date": day, "updated": "—", "next": "—"},
+        # The publish state travels with the data so the page cannot imply it is
+        # published when the editor blocked it.
+        "edition": {"n": "001", "date": day, "updated": "—", "next": "—",
+                    "publish": bool(edition.get("publish")),
+                    "blocked_by": edition.get("publish_blocked_by"),
+                    "counts": counts},
         "dossiers": list(dossiers.values()),
         "types": list(types.values()),
         "beats": out_beats,

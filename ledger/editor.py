@@ -51,7 +51,15 @@ def build_records(results, clusters, policy, beat_meta) -> list:
             "evidence": getattr(r, "mean_confidence", None) or meta.get("evidence", 0.6),
             "coverage": meta.get("coverage", DEFAULT_CONSEQUENCE),
         })
+        # THE DELTA IS THE PRODUCT. It was computed, used for ranking, then
+        # dropped — so the page could only show claims, never the change itself.
+        d = r.delta
         records.append({
+            "changes": [{"k": c.k, "from": c.old, "to": c.new}
+                        for c in getattr(d, "changed", ())],
+            "added": [{"k": a.k, "v": a.v} for a in getattr(d, "added", ())],
+            "removed": [{"k": x.k, "v": x.v} for x in getattr(d, "removed", ())],
+            "unchanged": getattr(d, "unchanged", 0),
             "id": r.beat, "beat": r.beat, "placement": placed.placement,
             "reason": placed.reason, "score": s.total, "components": s.components,
             "distortion": None if s.distortion == float("inf") else s.distortion,

@@ -71,3 +71,10 @@ def test_dry_run_still_writes_the_edition_but_marks_it_unpublished(tmp_path):
                    policy={"publication": {"dry_run": True}}, clusters={}, beat_meta={})
     assert e.publish is False and e.publish_blocked_by == "dry_run"
     assert led._read_json("editions/2026-08-14.json") is not None
+
+
+def test_the_record_carries_the_structured_delta_not_just_a_score():
+    """The delta is the product; it was computed for ranking and then dropped."""
+    rec = build_records([res()], clusters={}, policy={}, beat_meta={})[0]
+    assert rec["changes"] == [{"k": "x", "from": "1", "to": "CHANGED"}]
+    assert rec["unchanged"] == 1

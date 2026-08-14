@@ -4,7 +4,17 @@ window.DZ = {
   "n": "001",
   "date": "2026-08-14",
   "updated": "—",
-  "next": "—"
+  "next": "—",
+  "publish": false,
+  "blocked_by": "dry_run",
+  "counts": {
+   "wire": 1,
+   "capped_out": 0,
+   "omissions": 0,
+   "holds": 0,
+   "refused": 0,
+   "dropped": 0
+  }
  },
  "dossiers": [
   {
@@ -105,6 +115,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -128,6 +142,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -151,6 +169,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -175,6 +197,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -198,6 +224,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -223,6 +253,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -247,6 +281,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -271,6 +309,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -294,6 +336,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -318,6 +364,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -341,6 +391,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -365,6 +419,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -390,6 +448,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -414,6 +476,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -437,6 +503,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -460,6 +530,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -485,6 +559,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -600,6 +678,43 @@ window.DZ = {
      "s": "Reported from records, Albuquerque Journal"
     }
    ],
+   "changes": [],
+   "added": [
+    {
+     "k": "Federal suit",
+     "v": "Filed 5 Aug 2026, D.D.C."
+    },
+    {
+     "k": "State criminal probe",
+     "v": "Reopened 19 Feb 2026"
+    },
+    {
+     "k": "Records sought",
+     "v": "Unredacted Epstein investigative files"
+    },
+    {
+     "k": "2019 stand-down rationale",
+     "v": "Expired 10 Aug 2019 with the defendant"
+    },
+    {
+     "k": "Site ownership",
+     "v": "San Rafael Ranch LLC (Huffines family), since 2023"
+    },
+    {
+     "k": "Site status",
+     "v": "Construction paused for want of permits"
+    },
+    {
+     "k": "Physical evidence",
+     "v": "Excavation and altered substrate reported"
+    },
+    {
+     "k": "Truth commission",
+     "v": "Subpoenas issuing since 1 Jun 2026"
+    }
+   ],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [],
    "items": [
     "nm-records-2026-08-14-000",
@@ -645,6 +760,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -670,6 +789,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -695,6 +818,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],
@@ -719,6 +846,10 @@ window.DZ = {
    "summary": "0 claim(s) on record.",
    "state": [],
    "history": [],
+   "changes": [],
+   "added": [],
+   "removed": [],
+   "unchanged": 0,
    "unknown": [
     "No claim has survived verification on this beat."
    ],

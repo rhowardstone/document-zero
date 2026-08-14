@@ -12,6 +12,7 @@ type's ceiling. A claim failing any of these is rejected, not repaired.
 """
 from __future__ import annotations
 from dataclasses import dataclass, field
+import hashlib
 import json
 import re
 from .ceilings import check_confidence, ceiling_for, CeilingError
@@ -151,8 +152,13 @@ def parse_claims(raw: str, beat: str, extracted_by: str, now: str,
             res.rejections.append(f"claim {i}: {e}")
             continue
 
+        # Identity is content-derived, not positional. `beat-date-index` meant a
+        # rerun with a different claim order silently overwrote a stored claim —
+        # in a ledger whose whole premise is that claims are immutable.
+        fingerprint = hashlib.sha256(
+            f"{sha}\n{quote}\n{r.get('claim_text','')}".encode("utf-8")).hexdigest()[:12]
         res.claims.append({
-            "id": f"{beat}-{now[:10]}-{i:03d}",
+            "id": f"{beat}-{now[:10]}-{fingerprint}",
             "beat": beat,
             "claim_text": r.get("claim_text", ""),
             "quote": quote,

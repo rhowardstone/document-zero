@@ -122,3 +122,23 @@ def test_prompt_defines_the_evidence_tiers():
                                   "source_type": "news"}])
     for tier in ("documented_fact", "credible_allegation", "question"):
         assert tier in p
+
+
+def test_claim_ids_are_content_derived_not_positional():
+    """Regression: beat-date-index meant a rerun in a different order silently
+    overwrote a stored claim, in a ledger premised on claims being immutable."""
+    idx = {"aaa": {"url": "https://apnews.com/x", "source_type": "news", "snippet": "abc def"}}
+    mk = lambda text, q: ('[{"claim_text":"%s","quote":"%s","source_sha":"aaa",'
+                          '"confidence":0.5,"confidence_justification":"j",'
+                          '"tier":"documented_fact"}]' % (text, q))
+    a = parse_claims(mk("First", "abc"), beat="b", extracted_by="x", now="2026-08-14", source_index=idx)
+    bb = parse_claims(mk("Second", "def"), beat="b", extracted_by="x", now="2026-08-14", source_index=idx)
+    assert a.claims[0]["id"] != bb.claims[0]["id"]
+
+def test_the_same_claim_gets_the_same_id_whatever_its_position():
+    idx = {"aaa": {"url": "https://apnews.com/x", "source_type": "news", "snippet": "abc def"}}
+    one = '{"claim_text":"X","quote":"abc","source_sha":"aaa","confidence":0.5,"confidence_justification":"j","tier":"documented_fact"}'
+    two = '{"claim_text":"Y","quote":"def","source_sha":"aaa","confidence":0.5,"confidence_justification":"j","tier":"documented_fact"}'
+    fwd = parse_claims(f"[{one},{two}]", beat="b", extracted_by="x", now="2026-08-14", source_index=idx)
+    rev = parse_claims(f"[{two},{one}]", beat="b", extracted_by="x", now="2026-08-14", source_index=idx)
+    assert {c["id"] for c in fwd.claims} == {c["id"] for c in rev.claims}

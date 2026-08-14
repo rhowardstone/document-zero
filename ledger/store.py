@@ -56,8 +56,19 @@ class Ledger:
 
     # ---- claims ----------------------------------------------------
     def put_claim(self, claim: dict) -> str:
+        """Claims are immutable. Re-writing an identical claim is a no-op; writing
+        DIFFERENT content to an existing claim id is an error, because a ledger
+        that lets a stored claim change is not a ledger."""
         validate_claim(claim)
-        return self._write_json(P.claim_path(claim["beat"], claim["id"]), claim)
+        rel = P.claim_path(claim["beat"], claim["id"])
+        existing = self._read_json(rel)
+        if existing is not None:
+            if existing == claim:
+                return rel
+            raise FileExistsError(
+                f"{rel} exists with different content; claims are immutable. "
+                "Supersede it with a new claim instead of rewriting it.")
+        return self._write_json(rel, claim)
 
     def list_claims(self, beat_id: str) -> list[dict]:
         d = self._abs(f"{P.CLAIMS}/{beat_id}")

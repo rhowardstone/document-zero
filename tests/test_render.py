@@ -349,3 +349,36 @@ def test_a_recirculating_beats_claims_never_reach_the_wire(tmp_path):
         "counts": {}, "publish": False})
     kinds = {i["kind"] for i in build(l.root, CFG, "2026-08-14")["items"]}
     assert kinds == {"omission"}, "a beat cannot both say 'nothing new' and publish claims"
+
+
+def test_the_page_receives_the_before_and_after_of_every_change(tmp_path):
+    l = Ledger(tmp_path / "data")
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {"wire": 1},
+        "publish": False, "publish_blocked_by": "dry_run",
+        "wire": [{"id": "compliance", "beat": "compliance",
+                  "changes": [{"k": "Contempt", "from": "Available", "to": "Noticed"}],
+                  "added": [{"k": "Notes", "v": "Withheld"}], "removed": [],
+                  "unchanged": 3}]})
+    d = build(l.root, CFG, "2026-08-14")
+    b = next(b for b in d["beats"] if b["id"] == "compliance")
+    assert b["changes"] == [{"k": "Contempt", "from": "Available", "to": "Noticed"}]
+    assert b["added"] == [{"k": "Notes", "v": "Withheld"}] and b["unchanged"] == 3
+
+def test_the_publish_state_travels_with_the_data(tmp_path):
+    """The page must not be able to imply it is published when it is not."""
+    l = Ledger(tmp_path / "data")
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
+        "counts": {"wire": 0}, "publish": False, "publish_blocked_by": "dry_run"})
+    ed = build(l.root, CFG, "2026-08-14")["edition"]
+    assert ed["publish"] is False and ed["blocked_by"] == "dry_run"
+
+def test_a_hostile_change_value_is_escaped(tmp_path):
+    l = Ledger(tmp_path / "data")
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "omissions": [], "holds": [], "counts": {}, "publish": False,
+        "wire": [{"id": "compliance", "beat": "compliance",
+                  "changes": [{"k": "<img src=x>", "from": "a", "to": "<script>y</script>"}]}]})
+    b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
+    assert "<script" not in json.dumps(b["changes"]) and "&lt;img" in b["changes"][0]["k"]

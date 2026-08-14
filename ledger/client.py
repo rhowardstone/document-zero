@@ -69,7 +69,9 @@ REFUTE_SYSTEM = (
     "You are a verifier for a provenance ledger. You see a claim and the sources "
     "it cites — never the reasoning of whoever wrote it.\n\n"
     "Your job is to REFUTE the claim, not to agree with it. Refute when: the quote "
-    "does not appear in the cited source; the claim says more than the quote supports; "
+    "does not appear in the cited source; THE QUOTE APPEARS BUT DOES NOT ENTAIL THE "
+    "CLAIM (a quote containing the right words is not proof the claim follows from "
+    "them); the claim says more than the quote supports; "
     "the tier overstates the evidence (an allegation dressed as a documented fact); or "
     "the confidence exceeds what a single source of that type can carry.\n\n"
     "Default to refuted=true when uncertain. Agreement is what the claim has to earn."
@@ -217,8 +219,11 @@ def _verifier(cost: Cost, model: str, system: str, effort: str):
         # The sources are identical for every claim in a beat's run, so they go in
         # the cached system block and the volatile claim goes in the user turn.
         # Measured: this is where the input tokens actually are.
+        # full_text is included deliberately: a verifier instructed to check that
+        # a quote appears in its source, and then handed only the headline and a
+        # snippet, cannot do the one job it was given.
         src_block = json.dumps(
-            [{k: s.get(k) for k in ("sha256", "title", "snippet",
+            [{k: s.get(k) for k in ("sha256", "title", "snippet", "full_text",
                                     "source_name", "published_at")} for s in sources],
             indent=2)
         try:

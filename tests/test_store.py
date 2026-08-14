@@ -48,3 +48,19 @@ def test_writer_partition_allows_own_beat(led):
 def test_list_beats_and_sources(led):
     led.put_state("hormuz", ST)
     assert led.list_beats() == ["hormuz"]
+
+
+CLAIM = {"id": "c1", "beat": "hormuz", "claim_text": "X", "quote": "q",
+         "source_type": "news", "source_url": "https://apnews.com/x", "confidence": 0.6,
+         "confidence_justification": "j", "tier": "documented_fact",
+         "extracted_by": "t", "extracted_at": "n"}
+
+def test_rewriting_a_stored_claim_with_different_content_is_refused(led):
+    led.put_claim(CLAIM)
+    with pytest.raises(FileExistsError, match="immutable"):
+        led.put_claim(dict(CLAIM, claim_text="something else"))
+
+def test_rewriting_an_identical_claim_is_a_no_op(led):
+    led.put_claim(CLAIM)
+    led.put_claim(dict(CLAIM))
+    assert len(led.list_claims("hormuz")) == 1

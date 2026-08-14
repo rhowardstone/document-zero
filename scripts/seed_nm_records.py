@@ -234,6 +234,12 @@ def main():
     ]:
         led.append_history(BEAT, {"d": d, "c": c, "s": s})
 
+    # Compute the real delta rather than asserting one. This beat has no prior
+    # state, so every field is an addition — which is the truthful shape of a
+    # beat's first day, and the page should say so rather than imply a change.
+    from ledger.diff import diff_state
+    delta = diff_state(None, led.get_state(BEAT))
+
     ed = Ledger(root, writer="editor")
     for q in QUESTIONS:   ed._write_json(f"questions/{q['id']}.json", q)
     for t in TRIGGERS:    ed._write_json(f"triggers/{t['id']}.json", t)
@@ -241,7 +247,11 @@ def main():
     ed._write_json("editions/2026-08-14.json", {
         "day": "2026-08-14",
         "wire": [{"id": BEAT, "beat": BEAT, "score": 18.4, "reason": None,
-                  "material_changes": 8, "claims": len(CLAIMS), "rejected_claims": 0}],
+                  "material_changes": delta.material_changes, "claims": len(CLAIMS),
+                  "rejected_claims": 0,
+                  "changes": [{"k": c.k, "from": c.old, "to": c.new} for c in delta.changed],
+                  "added": [{"k": a.k, "v": a.v} for a in delta.added],
+                  "removed": [], "unchanged": delta.unchanged}],
         "omissions": [], "holds": [],
         "counts": {"wire": 1, "capped_out": 0, "omissions": 0, "holds": 0,
                    "refused": 0, "dropped": 0},
