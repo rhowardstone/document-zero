@@ -1,0 +1,83 @@
+# The sixteen beats. A beat is a unit of persistent state (see docs spec §2.1).
+# `keywords` drive tier-1 assignment: model-free, scored, and logged so that
+# misassignment can be measured before a classifier is considered.
+- id: hormuz
+  name: The Strait of Hormuz & the blockade
+  dossiers: [iran, energy]
+  types: [conflict, market]
+  keywords: [hormuz, blockade, strait of hormuz, tanker, naval blockade, pezeshkian, hegseth]
+- id: iran-diplo
+  name: Iran diplomacy & the ceasefire
+  dossiers: [iran]
+  types: [conflict]
+  keywords: [iran ceasefire, iran talks, iran negotiations, memorandum of understanding, tehran]
+- id: fed
+  name: Fed policy & the September decision
+  dossiers: [econ]
+  types: [market]
+  keywords: [federal reserve, fomc, rate hike, rate cut, interest rate, warsh, basis points]
+- id: prices
+  name: Fuel & grocery prices
+  dossiers: [econ, iran]
+  types: [market]
+  keywords: [gas prices, gasoline, brent, crude, grocery prices, cpi, inflation, aaa average]
+- id: agenda
+  name: The regulatory agenda
+  dossiers: [power]
+  types: [reg]
+  keywords: [unified agenda, federal register, rulemaking, deregulatory, regulatory plan, oira]
+- id: compliance
+  name: DOJ compliance with the Transparency Act
+  dossiers: [records, power]
+  types: [oversight, case]
+  keywords: [epstein files, transparency act, sullivan, blanche, redaction, fd-302, handwritten notes]
+- id: kennedy
+  name: The Kennedy Center
+  dossiers: [power]
+  types: [inst, case]
+  keywords: [kennedy center, performing arts, board vote, renaming]
+- id: mangione
+  name: United States v. Mangione
+  dossiers: [violence, econ]
+  types: [case]
+  keywords: [mangione, unitedhealthcare, brian thompson, stalking resulting in death]
+- id: robinson
+  name: State v. Robinson
+  dossiers: [violence]
+  types: [case]
+  keywords: [tyler robinson, charlie kirk, aggravating factor, utah valley]
+- id: wells
+  name: The death of Nolan Wells
+  dossiers: [account]
+  types: [death, oversight]
+  keywords: [nolan wells, horn island, congressional black caucus, jackson county]
+- id: flock
+  name: Flock & plate-reader networks
+  dossiers: [surv]
+  types: [tech]
+  keywords: [flock safety, license plate reader, licence plate reader, plate reader, deflock, alpr]
+- id: dcpolice
+  name: Federal policing in the District
+  dossiers: [account, immig]
+  types: [oversight]
+  keywords: [national guard, metropolitan police, home rule, district of columbia, federal takeover]
+- id: detention
+  name: ICE detention conditions
+  dossiers: [immig, account]
+  types: [oversight, death]
+  keywords: [ice detention, detention center, delaney hall, immigration custody, deportation, detainee]
+- id: vaccines
+  name: The childhood vaccine schedule
+  dossiers: [health, power]
+  types: [reg]
+  keywords: [vaccine schedule, mmr, measles, acip, childhood vaccine, immunization]
+- id: redistricting
+  name: Mid-decade redistricting
+  dossiers: [elect]
+  types: [case]
+  keywords: [redistricting, congressional map, gerrymander, voting rights act]
+- id: datacentres
+  name: Data centres & the grid
+  dossiers: [energy]
+  types: [tech]
+  keywords: [data center, data centre, ratepayer, electricity demand, grid capacity, ai buildout]

@@ -1,0 +1,729 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Document Zero</title>
+<style>
+@font-face{font-family:Newsreader;src:url('fonts/newsreader-normal-300_700.woff2') format('woff2-variations');font-weight:300 700;font-style:normal;font-display:swap}
+@font-face{font-family:Newsreader;src:url('fonts/newsreader-italic-300_600.woff2') format('woff2-variations');font-weight:300 600;font-style:italic;font-display:swap}
+@font-face{font-family:PublicSans;src:url('fonts/publicsans-normal-300_700.woff2') format('woff2-variations');font-weight:300 700;font-style:normal;font-display:swap}
+@font-face{font-family:PublicSans;src:url('fonts/publicsans-italic-400_600.woff2') format('woff2-variations');font-weight:400 600;font-style:italic;font-display:swap}
+@font-face{font-family:PlexMono;src:url('fonts/plexmono-normal-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:PlexMono;src:url('fonts/plexmono-normal-500.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:PlexMono;src:url('fonts/plexmono-normal-600.woff2') format('woff2');font-weight:600;font-display:swap}
+
+:root{
+  --bg:#FBFBFC; --surface:#FFFFFF; --surface-2:#F5F6F9; --surface-3:#ECEEF2;
+  --line:rgba(18,22,30,.085); --line-2:rgba(18,22,30,.15);
+  --text:#14171C; --text-2:#565E69; --text-3:#8A919B;
+  --accent:#1F58A6; --accent-soft:rgba(31,88,166,.09); --accent-line:rgba(31,88,166,.28);
+  --derived:#8F5300; --derived-soft:rgba(143,83,0,.10);
+  --doc:#0F6B48; --doc-soft:rgba(15,107,72,.10);
+  --open:#1F58A6; --open-soft:rgba(31,88,166,.09);
+  --hold:#A32C22; --hold-soft:rgba(163,44,34,.09);
+  --shadow:0 1px 2px rgba(18,22,30,.05), 0 8px 24px -12px rgba(18,22,30,.14);
+  --shadow-lift:0 2px 4px rgba(18,22,30,.06), 0 18px 40px -16px rgba(18,22,30,.22);
+  --serif:Newsreader,Georgia,serif; --sans:PublicSans,system-ui,-apple-system,sans-serif; --mono:PlexMono,ui-monospace,Menlo,monospace;
+  --r:10px; --nav:252px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D0F13; --surface:#14171D; --surface-2:#191D24; --surface-3:#20252D;
+  --line:rgba(255,255,255,.075); --line-2:rgba(255,255,255,.15);
+  --text:#E9EBEF; --text-2:#A2AAB5; --text-3:#767E89;
+  --accent:#74A8EC; --accent-soft:rgba(116,168,236,.13); --accent-line:rgba(116,168,236,.34);
+  --derived:#D9A253; --derived-soft:rgba(217,162,83,.13);
+  --doc:#5FBE93; --doc-soft:rgba(95,190,147,.13);
+  --open:#74A8EC; --open-soft:rgba(116,168,236,.13);
+  --hold:#E4837A; --hold-soft:rgba(228,131,122,.13);
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  --shadow-lift:0 2px 4px rgba(0,0,0,.45), 0 18px 40px -16px rgba(0,0,0,.7);
+}}
+:root[data-theme="dark"]{
+  --bg:#0D0F13; --surface:#14171D; --surface-2:#191D24; --surface-3:#20252D;
+  --line:rgba(255,255,255,.075); --line-2:rgba(255,255,255,.15);
+  --text:#E9EBEF; --text-2:#A2AAB5; --text-3:#767E89;
+  --accent:#74A8EC; --accent-soft:rgba(116,168,236,.13); --accent-line:rgba(116,168,236,.34);
+  --derived:#D9A253; --derived-soft:rgba(217,162,83,.13);
+  --doc:#5FBE93; --doc-soft:rgba(95,190,147,.13);
+  --open:#74A8EC; --open-soft:rgba(116,168,236,.13);
+  --hold:#E4837A; --hold-soft:rgba(228,131,122,.13);
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  --shadow-lift:0 2px 4px rgba(0,0,0,.45), 0 18px 40px -16px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;font-synthesis:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;text-align:left}
+a{color:var(--accent);text-decoration:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.grow{flex:1}
+
+/* ================= nav ================= */
+.nav{position:fixed;inset:0 auto 0 0;width:var(--nav);background:var(--surface);border-right:1px solid var(--line);
+  display:flex;flex-direction:column;z-index:50;transition:transform .28s cubic-bezier(.32,.72,0,1)}
+.nav-top{padding:18px 20px 14px;border-bottom:1px solid var(--line)}
+.wm{font-family:var(--serif);font-weight:600;font-size:23px;letter-spacing:-.022em;font-variation-settings:'opsz' 24;display:block;line-height:1.1;color:var(--text)}
+.wm .z{color:var(--accent)}
+.wm-sub{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--text-3);margin-top:6px;display:block}
+.nav-scroll{overflow-y:auto;flex:1;padding:14px 12px 30px;scrollbar-width:thin}
+.ngrp{margin-bottom:20px}
+.ngrp > h4{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--text-3);margin:0 0 6px;padding:0 8px}
+.nlink{display:flex;align-items:center;gap:9px;width:100%;padding:6px 8px;border-radius:7px;font-size:13.5px;color:var(--text-2);transition:background .13s,color .13s;line-height:1.3}
+.nlink:hover{background:var(--surface-2);color:var(--text)}
+.nlink.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.nlink .n{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--text-3)}
+.nlink.on .n{color:var(--accent)}
+.nlink .lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--text-3);flex:none}
+.dot.moved{background:var(--accent)}.dot.recirculating{background:var(--derived)}
+.dot.unresolved{background:var(--hold)}.dot.receding{background:var(--doc)}.dot.quiet{background:var(--text-3);opacity:.4}
+.dgrp{margin:0 0 3px}
+.dgrp > button{display:flex;align-items:center;gap:7px;width:100%;padding:5px 8px;border-radius:6px;
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--text-3);transition:color .13s}
+.dgrp > button:hover{color:var(--text-2)}
+.dgrp .car{transition:transform .18s;width:9px;height:9px;stroke:currentColor;fill:none;stroke-width:2.4}
+.dgrp.open .car{transform:rotate(90deg)}
+.dgrp .kids{display:none;padding-left:6px}
+.dgrp.open .kids{display:block}
+.nav-foot{padding:12px 16px;border-top:1px solid var(--line);display:flex;align-items:center;gap:8px}
+
+/* ================= topbar ================= */
+.top{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(14px) saturate(1.5);border-bottom:1px solid var(--line)}
+.top-in{padding:11px 32px;display:flex;align-items:center;gap:16px}
+.crumb{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--text-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.crumb b{color:var(--text-2);font-weight:500}
+.search{position:relative;display:flex;align-items:center}
+.search input{font-family:var(--sans);font-size:13.5px;width:200px;padding:7px 11px 7px 32px;border-radius:8px;
+  border:1px solid var(--line-2);background:var(--surface);color:var(--text);transition:width .2s,border-color .15s,box-shadow .15s}
+.search input::placeholder{color:var(--text-3)}
+.search input:focus{outline:none;width:250px;border-color:var(--accent-line);box-shadow:0 0 0 3px var(--accent-soft)}
+.search svg{position:absolute;left:10px;width:14px;height:14px;stroke:var(--text-3);fill:none;stroke-width:2;pointer-events:none}
+.search kbd{position:absolute;right:9px;font-family:var(--mono);font-size:9.5px;color:var(--text-3);border:1px solid var(--line-2);border-radius:4px;padding:1px 4px;pointer-events:none}
+.iconbtn{width:32px;height:32px;border-radius:8px;display:grid;place-items:center;color:var(--text-2);transition:background .15s,color .15s;flex:none}
+.iconbtn:hover{background:var(--surface-2);color:var(--text)}
+.iconbtn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round}
+#burger{display:none}
+
+/* ================= shell ================= */
+.shell{margin-left:var(--nav);min-height:100vh;display:flex;flex-direction:column}
+.view{padding:34px 32px 90px;max-width:1180px;width:100%}
+.view.two{display:grid;grid-template-columns:minmax(0,1fr) 292px;gap:0 40px;align-items:start;max-width:1240px}
+
+/* ================= page heads ================= */
+.phead{margin-bottom:26px}
+.phead .kick{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--text-3);display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:10px}
+.phead h1{font-family:var(--serif);font-weight:600;font-size:clamp(27px,3.3vw,38px);line-height:1.08;letter-spacing:-.022em;
+  font-variation-settings:'opsz' 40;margin:0 0 10px;text-wrap:balance;max-width:24ch}
+.phead .sub{font-size:16.5px;line-height:1.55;color:var(--text-2);max-width:64ch;margin:0}
+.pill{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;padding:3px 8px;border-radius:20px;white-space:nowrap}
+.pill.moved{background:var(--accent-soft);color:var(--accent)}
+.pill.recirculating{background:var(--derived-soft);color:var(--derived)}
+.pill.unresolved{background:var(--hold-soft);color:var(--hold)}
+.pill.quiet{background:var(--surface-3);color:var(--text-3)}
+.pill.receding{background:var(--doc-soft);color:var(--doc)}
+
+/* ================= lead / cards ================= */
+.lead{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:30px 32px 26px;
+  box-shadow:var(--shadow);margin-bottom:34px;cursor:pointer;transition:box-shadow .22s,transform .22s,border-color .22s;display:block;width:100%}
+.lead:hover{box-shadow:var(--shadow-lift);transform:translateY(-2px);border-color:var(--line-2)}
+.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--text-3);display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:14px}
+.lead h2{font-family:var(--serif);font-weight:600;font-size:clamp(28px,3.6vw,42px);line-height:1.06;letter-spacing:-.022em;
+  font-variation-settings:'opsz' 48;margin:0 0 14px;text-wrap:balance;max-width:20ch}
+.lead .deck{font-family:var(--serif);font-size:20px;line-height:1.44;color:var(--text-2);max-width:54ch;margin:0 0 18px;font-weight:300;font-variation-settings:'opsz' 20}
+.lead p.b{font-size:16.5px;line-height:1.62;color:var(--text-2);max-width:62ch;margin:0 0 12px}
+.lead p.b strong{color:var(--text);font-weight:600}
+.more{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--accent);margin-top:6px}
+.more svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2.2;transition:transform .18s}
+.lead:hover .more svg,.card:hover .more svg{transform:translateX(3px)}
+.sh{display:flex;align-items:baseline;gap:12px;margin:0 0 16px;flex-wrap:wrap}
+.sh h3{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin:0;color:var(--text)}
+.sh p{font-size:12.5px;color:var(--text-3);margin:0}
+.sh .rule{flex:1;height:1px;background:var(--line);min-width:20px}
+.cards{display:flex;flex-direction:column;gap:12px;margin-bottom:38px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;width:100%;display:block;
+  transition:box-shadow .2s,transform .2s,border-color .2s}
+.card:hover{box-shadow:var(--shadow-lift);transform:translateY(-2px);border-color:var(--line-2)}
+.card h4{font-family:var(--serif);font-weight:600;font-size:21px;line-height:1.2;letter-spacing:-.015em;
+  font-variation-settings:'opsz' 24;margin:0 0 8px;max-width:36ch;text-wrap:balance}
+.card p{font-size:15px;line-height:1.55;color:var(--text-2);margin:0;max-width:60ch}
+.card .foot{display:flex;align-items:center;gap:14px;margin-top:13px;flex-wrap:wrap}
+.stamp{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;padding:3px 7px;border-radius:5px;white-space:nowrap}
+.stamp.derived{color:var(--derived);background:var(--derived-soft)}
+.stamp.documented{color:var(--doc);background:var(--doc-soft)}
+.stamp.open{color:var(--open);background:var(--open-soft)}
+.stamp.hold{color:var(--hold);background:var(--hold-soft)}
+.src{font-family:var(--mono);font-size:10.5px;color:var(--text-3)}
+.om{display:grid;grid-template-columns:132px minmax(0,1fr);gap:0 20px;padding:15px 14px;border-radius:8px;width:100%;transition:background .15s}
+.om:hover{background:var(--surface-2)}
+.om + .om{border-top:1px solid var(--line)}
+.om .who{font-family:var(--mono);font-size:11px;color:var(--text-3);padding-top:2px}
+.om .txt{font-size:15px;line-height:1.55;color:var(--text-2);max-width:58ch}
+.om .txt b{color:var(--text);font-weight:600}
+.omwrap{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:4px 8px;margin-bottom:38px}
+
+/* ================= rail ================= */
+.rail{position:sticky;top:88px;display:flex;flex-direction:column;gap:22px}
+.rblk{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.rblk > h3{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2);
+  margin:0;padding:13px 16px 11px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.rblk > h3 .n{font-family:var(--mono);font-size:10.5px;color:var(--text-3);letter-spacing:0}
+.ritem{display:block;width:100%;padding:12px 16px;transition:background .14s}
+.ritem + .ritem{border-top:1px solid var(--line)}
+.ritem:hover{background:var(--surface-2)}
+.ritem .d{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.05em;color:var(--accent);display:block;margin-bottom:3px}
+.ritem .t{font-size:13.5px;line-height:1.4;color:var(--text);font-weight:500;display:block}
+.ritem .s{font-size:12.5px;line-height:1.42;color:var(--text-3);margin-top:3px;display:block}
+.ritem.q .t{font-weight:400;color:var(--text-2)}
+.ritem .vs{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;color:var(--hold);text-transform:uppercase;display:block;margin:4px 0 3px}
+
+/* ================= state table ================= */
+.state{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-bottom:30px}
+.state .sthd{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;border-bottom:1px solid var(--line);
+  font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2)}
+.state .sthd .as{font-family:var(--mono);font-size:10px;font-weight:400;letter-spacing:0;color:var(--text-3);text-transform:none}
+.srow{display:grid;grid-template-columns:230px minmax(0,1fr) 92px;gap:16px;align-items:baseline;padding:12px 18px}
+.srow + .srow{border-top:1px solid var(--line)}
+.srow .k{font-size:13.5px;color:var(--text-3)}
+.srow .v{font-size:15.5px;color:var(--text);font-weight:500;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.srow .v .bar{width:3px;align-self:stretch;border-radius:2px;background:transparent;min-height:16px}
+.srow.hot .v{color:var(--hold)} .srow.warn .v{color:var(--derived)} .srow.ok .v{color:var(--doc)}
+.srow .since{font-family:var(--mono);font-size:10.5px;color:var(--text-3);text-align:right}
+
+/* history */
+.hist{position:relative;padding-left:22px;margin-bottom:30px}
+.hist:before{content:'';position:absolute;left:5px;top:6px;bottom:6px;width:1px;background:var(--line-2)}
+.hrow{position:relative;padding:0 0 20px 0}
+.hrow:before{content:'';position:absolute;left:-21px;top:6px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:2px solid var(--line-2)}
+.hrow:first-child:before{border-color:var(--accent);background:var(--accent)}
+.hrow .d{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.06em;color:var(--text-3);display:block;margin-bottom:4px}
+.hrow .c{font-size:15px;line-height:1.5;color:var(--text-2);max-width:62ch}
+.hrow:first-child .c{color:var(--text)}
+.hrow .s{font-family:var(--mono);font-size:10.5px;color:var(--text-3);margin-top:5px;display:block}
+
+/* unknown list */
+.unk{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--derived);border-radius:var(--r);padding:18px 22px;margin-bottom:30px}
+.unk h4{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--derived);margin:0 0 12px}
+.unk ul{margin:0;padding-left:18px}
+.unk li{font-size:15px;line-height:1.5;color:var(--text-2);margin-bottom:7px}
+.unk li:last-child{margin-bottom:0}
+
+/* index grids */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.bcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:17px 19px;width:100%;display:block;
+  transition:box-shadow .2s,transform .2s,border-color .2s}
+.bcard:hover{box-shadow:var(--shadow-lift);transform:translateY(-2px);border-color:var(--line-2)}
+.bcard .h{display:flex;align-items:center;gap:9px;margin-bottom:7px}
+.bcard h4{font-family:var(--serif);font-size:18px;font-weight:600;line-height:1.2;margin:0;font-variation-settings:'opsz' 20;flex:1}
+.bcard p{font-size:13.5px;line-height:1.45;color:var(--text-3);margin:0 0 11px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.bcard .m{display:flex;gap:14px;font-family:var(--mono);font-size:10px;color:var(--text-3);flex-wrap:wrap}
+.dsec-title{font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--text-3);
+  margin:32px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+.dsec-title:first-child{margin-top:0}
+
+/* tables */
+.tbl{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.trow{display:grid;gap:16px;align-items:baseline;padding:14px 18px;width:100%;transition:background .14s}
+.trow + .trow{border-top:1px solid var(--line)}
+button.trow:hover{background:var(--surface-2)}
+.trow.hd{background:var(--surface-2);font-family:var(--mono);font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--text-3)}
+
+/* ================= drawer ================= */
+.scrim{position:fixed;inset:0;background:rgba(10,13,18,.42);backdrop-filter:blur(2px);z-index:60;opacity:0;pointer-events:none;transition:opacity .26s}
+.scrim.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(640px,100vw);background:var(--bg);z-index:61;
+  border-left:1px solid var(--line-2);box-shadow:-24px 0 60px -30px rgba(0,0,0,.5);
+  transform:translateX(100%);transition:transform .3s cubic-bezier(.32,.72,0,1);display:flex;flex-direction:column;overflow:hidden}
+.drawer.on{transform:translateX(0)}
+.dhdr{display:flex;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--line);flex:none}
+.dhdr .kind{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3)}
+.dbody{overflow-y:auto;padding:26px 28px 60px}
+.dbody h2{font-family:var(--serif);font-weight:600;font-size:28px;line-height:1.14;letter-spacing:-.02em;font-variation-settings:'opsz' 32;margin:0 0 14px;text-wrap:balance}
+.dbody p{font-size:16px;line-height:1.62;color:var(--text-2);margin:0 0 13px}
+.dbody p strong{color:var(--text);font-weight:600}
+.dsec{margin-top:30px;padding-top:20px;border-top:1px solid var(--line)}
+.dsec h4{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);margin:0 0 14px}
+.tl{display:flex;flex-wrap:wrap;gap:6px}
+.tlx{display:flex;align-items:center;gap:8px;padding:7px 11px;border-radius:7px;background:var(--surface-2);border:1px solid var(--line);font-size:12.5px;color:var(--text-3)}
+.tlx .dt{font-family:var(--mono);font-size:10px;color:var(--text-3)}
+.tlx.done{color:var(--text-2);background:var(--surface-3)}
+.tlx.now{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.tlx.now .dt{color:rgba(255,255,255,.75)}
+.tlx.contested{background:var(--hold);border-color:var(--hold);color:#fff;font-weight:600}
+.tlx.contested .dt{color:rgba(255,255,255,.75)}
+.tlx.pending{border-style:dashed}
+.prov{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.prow{display:grid;grid-template-columns:minmax(0,1fr) 92px 54px;gap:12px;align-items:center;padding:11px 14px;background:var(--surface);font-size:13.5px}
+.prow .nm{color:var(--text);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prow .ty{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-3)}
+.prow .cf{font-family:var(--mono);font-size:12px;text-align:right;color:var(--text-2);font-variant-numeric:tabular-nums}
+.prow.hdr-row{background:var(--surface-2)}
+.prow.hdr-row span{font-family:var(--mono);font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--text-3);font-weight:400}
+.note{font-size:13.5px;line-height:1.55;color:var(--text-3);margin-top:12px;padding:12px 14px;background:var(--surface-2);border-radius:8px;border-left:2px solid var(--derived)}
+.kv{display:grid;grid-template-columns:126px minmax(0,1fr);gap:10px 16px;font-size:14px}
+.kv dt{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-3);padding-top:3px}
+.kv dd{margin:0;color:var(--text-2)}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.tag{font-size:11.5px;padding:3px 9px;border-radius:20px;background:var(--surface-2);border:1px solid var(--line);color:var(--text-2);transition:border-color .15s,color .15s}
+button.tag:hover{border-color:var(--accent-line);color:var(--accent)}
+.empty{padding:44px 0;text-align:center;color:var(--text-3);font-size:14.5px}
+.scrimnav{display:none}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (max-width:1180px){ .view.two{grid-template-columns:minmax(0,1fr)} .rail{position:static;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:26px} }
+@media (max-width:880px){
+  .nav{transform:translateX(-100%);box-shadow:var(--shadow-lift)}
+  .nav.on{transform:translateX(0)}
+  .shell{margin-left:0}
+  #burger{display:grid}
+  .scrimnav{display:block;position:fixed;inset:0;background:rgba(10,13,18,.4);z-index:45;opacity:0;pointer-events:none;transition:opacity .25s}
+  .scrimnav.on{opacity:1;pointer-events:auto}
+  .view{padding:24px 18px 70px}
+  .top-in{padding:10px 18px;gap:10px}
+  .srow{grid-template-columns:1fr;gap:3px}
+  .srow .since{text-align:left}
+  .om{grid-template-columns:1fr;gap:4px}
+}
+</style>
+
+<nav class="nav" id="nav">
+  <div class="nav-top">
+    <a class="wm" href="#/">Document <span class="z">Zero</span></a>
+    <span class="wm-sub" id="ednum"></span>
+  </div>
+  <div class="nav-scroll" id="navscroll"></div>
+  <div class="nav-foot">
+    <button class="iconbtn" id="theme" title="Toggle theme" aria-label="Toggle theme">
+      <svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+    </button>
+    <span class="mono" style="font-size:10px;color:var(--text-3)">doczero.epstein-data.com</span>
+  </div>
+</nav>
+<div class="scrimnav" id="scrimnav"></div>
+
+<div class="shell">
+  <header class="top"><div class="top-in">
+    <button class="iconbtn" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <span class="crumb" id="crumb"></span>
+    <span class="grow"></span>
+    <div class="search">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search the record" aria-label="Search"><kbd>/</kbd>
+    </div>
+  </div></header>
+  <div id="view" class="view"></div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true">
+  <div class="dhdr">
+    <button class="iconbtn" id="close" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <span class="kind" id="dkind"></span>
+  </div>
+  <div class="dbody" id="dbody"></div>
+</aside>
+
+<script src="data.js"></script>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const D=window.DZ;
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ARROW='<svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></svg>';
+const beatById=Object.fromEntries(D.beats.map(b=>[b.id,b]));
+const dossById=Object.fromEntries(D.dossiers.map(d=>[d.id,d]));
+const itemById=Object.fromEntries(D.items.map(i=>[i.id,i]));
+const qById=Object.fromEntries(D.questions.map(q=>[q.id,q]));
+const trigById=Object.fromEntries(D.triggers.map(t=>[t.id,t]));
+let query='';
+const ORDER={moved:0,recirculating:1,unresolved:2,receding:3,quiet:4};
+
+$('#ednum').textContent=`Edition ${D.edition.n} · ${D.edition.date}`;
+
+/* ---------------- nav ---------------- */
+function renderNav(){
+  const open=JSON.parse(localStorage.getItem('dz-open')||'[]');
+  let h=`<div class="ngrp">
+    <button class="nlink" data-go="#/">Today’s edition <span class="n">${D.items.length}</span></button>
+    <button class="nlink" data-go="#/beats">All beats <span class="n">${D.beats.length}</span></button>
+    <button class="nlink" data-go="#/calendar">Calendar <span class="n">${D.triggers.length}</span></button>
+    <button class="nlink" data-go="#/questions">Open questions <span class="n">${D.questions.length}</span></button>
+    <button class="nlink" data-go="#/contradictions">Contradictions <span class="n">${D.contradictions.length}</span></button>
+    <button class="nlink" data-go="#/archive">Archive <span class="n">${D.archive.length}</span></button>
+  </div><div class="ngrp"><h4>Dossiers</h4>`;
+  D.dossiers.forEach(d=>{
+    const kids=D.beats.filter(b=>b.dossiers.includes(d.id)).sort((a,b)=>ORDER[a.status]-ORDER[b.status]);
+    if(!kids.length) return;
+    const isOpen=open.includes(d.id);
+    h+=`<div class="dgrp ${isOpen?'open':''}" data-doss="${d.id}">
+      <button data-toggle="${d.id}"><svg class="car" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>${esc(d.name)}<span class="n" style="margin-left:auto;font-family:var(--mono)">${kids.length}</span></button>
+      <div class="kids">${kids.map(b=>`<button class="nlink" data-go="#/beat/${b.id}">
+        <span class="dot ${b.status}"></span><span class="lbl">${esc(b.name)}</span></button>`).join('')}</div></div>`;
+  });
+  h+=`</div><div class="ngrp"><h4>About</h4>
+    <button class="nlink" data-go="#/about">How this works</button>
+    <button class="nlink" data-go="#/method">Beats & definitions</button></div>`;
+  $('#navscroll').innerHTML=h;
+  $$('[data-toggle]').forEach(b=>b.onclick=()=>{
+    const g=b.closest('.dgrp'); g.classList.toggle('open');
+    const cur=new Set(JSON.parse(localStorage.getItem('dz-open')||'[]'));
+    g.classList.contains('open')?cur.add(b.dataset.toggle):cur.delete(b.dataset.toggle);
+    localStorage.setItem('dz-open',JSON.stringify([...cur]));
+  });
+  $$('[data-go]').forEach(b=>b.onclick=()=>{location.hash=b.dataset.go;closeNav();});
+  markNav();
+}
+function markNav(){
+  $$('#navscroll .nlink').forEach(a=>a.classList.toggle('on',a.dataset.go===(location.hash||'#/')));
+  const m=(location.hash||'').match(/^#\/beat\/(.+)$/);
+  if(m&&beatById[m[1]]){
+    beatById[m[1]].dossiers.forEach(d=>{
+      const g=$(`.dgrp[data-doss="${d}"]`); if(g) g.classList.add('open');
+    });
+  }
+}
+
+/* ---------------- shared bits ---------------- */
+const stampFor=it=>it.stamp?`<span class="stamp ${it.stamp}">${it.stamp}</span>`:'';
+function matches(it){
+  if(!query) return true;
+  const hay=[it.title,it.deck,it.short,it.who,...(it.body||[])].join(' ').toLowerCase();
+  return hay.includes(query);
+}
+function railHTML(){
+  return `<aside class="rail">
+  <div class="rblk"><h3>Calendar <span class="n">${D.triggers.length}</span></h3>
+    ${D.triggers.slice(0,5).map(t=>`<button class="ritem" data-trig="${t.id}"><span class="d">${t.d}</span>
+      <span class="t">${esc(t.t)}</span><span class="s">${esc(t.s)}</span></button>`).join('')}
+    <button class="ritem" data-go="#/calendar"><span class="t" style="color:var(--accent)">All ${D.triggers.length} dated triggers →</span></button></div>
+  <div class="rblk"><h3>Open questions <span class="n">${D.questions.length}</span></h3>
+    ${D.questions.map(q=>`<button class="ritem q" data-q="${q.id}"><span class="t">${esc(q.q)}</span>
+      <span class="s">${esc(q.status)}</span></button>`).join('')}</div>
+  <div class="rblk"><h3>Standing contradictions <span class="n">${D.contradictions.length}</span></h3>
+    ${D.contradictions.map(c=>`<button class="ritem" data-cx="${c.id}"><span class="t">${esc(c.a)}</span>
+      <span class="vs">against</span><span class="t">${esc(c.b)}</span><span class="s">${esc(c.st)}</span></button>`).join('')}</div>
+  </aside>`;
+}
+
+/* ---------------- views ---------------- */
+function viewToday(){
+  const lead=D.items.find(i=>i.kind==='lead'&&matches(i));
+  const wires=D.items.filter(i=>i.kind==='wire'&&matches(i));
+  const oms=D.items.filter(i=>i.kind==='omission'&&matches(i));
+  const moved=D.beats.filter(b=>b.status==='moved').length;
+  let h=`<div>`;
+  h+=`<div class="phead"><div class="kick"><span>Edition ${D.edition.n}</span><span>·</span><span>${esc(D.edition.date)}</span>
+    <span>·</span><span>updated ${esc(D.edition.updated)}</span></div>
+    <h1>What changed</h1>
+    <p class="sub">${moved} of ${D.beats.length} beats moved. ${wires.length+ (lead?1:0)} records published, ${oms.length} items where the coverage was heavy and the state was not.</p></div>`;
+  if(lead) h+=`<button class="lead" data-id="${lead.id}">
+      <div class="eyebrow">${stampFor(lead)}${lead.eyebrow.map(e=>`<span>${esc(e)}</span>`).join('<span>·</span>')}</div>
+      <h2>${esc(lead.title)}</h2><p class="deck">${lead.deck}</p>
+      ${lead.body.slice(0,2).map(p=>`<p class="b">${p}</p>`).join('')}
+      <span class="more">Full record and provenance ${ARROW}</span></button>`;
+  if(wires.length) h+=`<div class="sh"><h3>The wire</h3><p>items not otherwise in circulation</p><span class="rule"></span></div>
+    <div class="cards">${wires.map(it=>`<button class="card" data-id="${it.id}">
+      <h4>${esc(it.title)}</h4><p>${it.deck}</p>
+      <span class="foot">${stampFor(it)}<span class="src">${it.sources.length} source${it.sources.length===1?'':'s'}</span>
+      <span class="more">Open ${ARROW}</span></span></button>`).join('')}</div>`;
+  if(oms.length) h+=`<div class="sh"><h3>What the coverage left out</h3><p>heavily reported · the load-bearing detail missing</p><span class="rule"></span></div>
+    <div class="omwrap">${oms.map(it=>`<button class="om" data-id="${it.id}">
+      <span class="who">${esc(it.who)}</span><span class="txt">${it.short}</span></button>`).join('')}</div>`;
+  if(!lead&&!wires.length&&!oms.length) h+=`<p class="empty">Nothing in this edition matches that.</p>`;
+  h+=`</div>`+railHTML();
+  return {html:h, two:true, crumb:`<b>Today’s edition</b>`};
+}
+
+function viewBeats(){
+  let h=`<div class="phead"><div class="kick"><span>${D.beats.length} open</span></div><h1>Beats</h1>
+    <p class="sub">A beat is a unit of persistent state — something whose current condition can be written down in fields, so that each new event either changes a field or does not. Beats open when a subject acquires trackable state and close when it stops changing. <button class="tag" data-go="#/method" style="margin-left:4px">How a beat is defined →</button></p></div>`;
+  D.dossiers.forEach(d=>{
+    const kids=D.beats.filter(b=>b.dossiers.includes(d.id)).sort((a,b)=>ORDER[a.status]-ORDER[b.status]);
+    if(!kids.length) return;
+    h+=`<h3 class="dsec-title">${esc(d.name)} · ${kids.length}</h3><div class="grid">${kids.map(bcard).join('')}</div>`;
+  });
+  return {html:h, crumb:`<b>Beats</b>`};
+}
+const bcard=b=>`<button class="bcard" data-go="#/beat/${b.id}">
+  <span class="h"><h4>${esc(b.name)}</h4><span class="pill ${b.status}">${b.status}</span></span>
+  <p>${esc(b.summary)}</p>
+  <span class="m"><span>${b.state.length} state fields</span><span>${b.events} events</span><span>last change ${esc(b.lastChange)}</span></span></button>`;
+
+function viewBeat(id){
+  const b=beatById[id]; if(!b) return {html:`<p class="empty">No such beat.</p>`,crumb:'Not found'};
+  const items=D.items.filter(i=>(i.beats||[]).includes(id));
+  const qs=D.questions.filter(q=>q.beat===id);
+  const trs=D.triggers.filter(t=>t.beat===id);
+  const cxs=D.contradictions.filter(c=>c.beat===id);
+  let h=`<div class="phead">
+    <div class="kick"><span class="pill ${b.status}">${b.status}</span>
+      <span>opened ${esc(b.opened)}</span><span>·</span><span>${b.events} events ingested</span>
+      ${b.closesAfter?`<span>·</span><span>closes after ${esc(b.closesAfter)}</span>`:''}</div>
+    <h1>${esc(b.name)}</h1><p class="sub">${esc(b.summary)}</p>
+    <div class="tags" style="margin-top:14px">
+      ${b.dossiers.map(d=>`<button class="tag" data-go="#/dossier/${d}">${esc(dossById[d].name)}</button>`).join('')}
+      ${b.types.map(t=>`<span class="tag">${esc((D.types.find(x=>x.id===t)||{}).name||t)}</span>`).join('')}</div></div>`;
+
+  h+=`<div class="state"><div class="sthd"><span>Current state</span><span class="as">as of ${esc(b.lastChange)}</span></div>
+    ${b.state.map(s=>`<div class="srow ${s.flag||''}"><span class="k">${esc(s.k)}</span>
+      <span class="v">${esc(s.v)}</span><span class="since">${esc(s.since||'')}</span></div>`).join('')}</div>`;
+
+  h+=`<div class="sh"><h3>State history</h3><p>every revision, newest first</p><span class="rule"></span></div>
+    <div class="hist">${b.history.map(r=>`<div class="hrow"><span class="d">${esc(r.d)}</span>
+      <div class="c">${esc(r.c)}</div><span class="s">${esc(r.s)}</span></div>`).join('')}</div>`;
+
+  if(items.length){h+=`<div class="sh"><h3>Records</h3><p>${items.length} published on this beat</p><span class="rule"></span></div>
+    <div class="cards">${items.map(it=>`<button class="card" data-id="${it.id}">
+      <h4>${esc(it.title)}</h4><p>${it.deck||it.short.replace(/<[^>]+>/g,'')}</p>
+      <span class="foot">${stampFor(it)}<span class="src">${it.sources.length} source${it.sources.length===1?'':'s'}</span>
+      <span class="more">Open ${ARROW}</span></span></button>`).join('')}</div>`;}
+
+  h+=`<div class="unk"><h4>What we don’t know</h4><ul>${b.unknown.map(u=>`<li>${esc(u)}</li>`).join('')}</ul></div>`;
+
+  if(qs.length||trs.length||cxs.length){
+    h+=`<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">`;
+    if(qs.length) h+=`<div class="rblk"><h3>Open questions <span class="n">${qs.length}</span></h3>
+      ${qs.map(q=>`<button class="ritem q" data-q="${q.id}"><span class="t">${esc(q.q)}</span><span class="s">${esc(q.status)}</span></button>`).join('')}</div>`;
+    if(trs.length) h+=`<div class="rblk"><h3>Triggers ahead <span class="n">${trs.length}</span></h3>
+      ${trs.map(t=>`<button class="ritem" data-trig="${t.id}"><span class="d">${t.d}</span><span class="t">${esc(t.t)}</span><span class="s">${esc(t.s)}</span></button>`).join('')}</div>`;
+    if(cxs.length) h+=`<div class="rblk"><h3>Contradictions <span class="n">${cxs.length}</span></h3>
+      ${cxs.map(c=>`<button class="ritem" data-cx="${c.id}"><span class="t">${esc(c.a)}</span><span class="vs">against</span><span class="t">${esc(c.b)}</span></button>`).join('')}</div>`;
+    h+=`</div>`;
+  }
+  return {html:h, crumb:`<button data-go="#/beats" style="color:var(--text-3)">Beats</button> / <b>${esc(b.name)}</b>`};
+}
+
+function viewDossier(id){
+  const d=dossById[id]; if(!d) return {html:`<p class="empty">No such dossier.</p>`,crumb:'Not found'};
+  const kids=D.beats.filter(b=>b.dossiers.includes(id)).sort((a,b)=>ORDER[a.status]-ORDER[b.status]);
+  return {html:`<div class="phead"><div class="kick"><span>Dossier</span><span>·</span><span>${kids.length} beats</span></div>
+    <h1>${esc(d.name)}</h1><p class="sub">A dossier is a permanent umbrella. It never closes. The beats underneath it open and close as their subjects acquire and lose trackable state.</p></div>
+    <div class="grid">${kids.map(bcard).join('')}</div>`,
+    crumb:`<button data-go="#/beats" style="color:var(--text-3)">Beats</button> / <b>${esc(d.name)}</b>`};
+}
+
+function viewCalendar(){
+  return {html:`<div class="phead"><div class="kick"><span>${D.triggers.length} dated</span></div><h1>Calendar</h1>
+    <p class="sub">Dated events that will produce a state change. Each is checked automatically on the day. If the expected event does not occur, the non-occurrence publishes as a record — an absence on a known date is a finding, not a gap.</p></div>
+    <div class="tbl">
+      <div class="trow hd" style="grid-template-columns:96px minmax(0,1fr) 200px"><span>Date</span><span>Trigger</span><span>Beat</span></div>
+      ${D.triggers.map(t=>`<button class="trow" data-trig="${t.id}" style="grid-template-columns:96px minmax(0,1fr) 200px">
+        <span class="mono" style="font-size:11.5px;font-weight:600;color:var(--accent)">${t.d}</span>
+        <span><span style="display:block;font-weight:500">${esc(t.t)}</span><span style="font-size:13.5px;color:var(--text-3)">${esc(t.s)}</span></span>
+        <span style="font-size:13px;color:var(--text-3)">${esc(beatById[t.beat]?beatById[t.beat].name:'—')}</span></button>`).join('')}
+    </div>`, crumb:`<b>Calendar</b>`};
+}
+
+function viewQuestions(){
+  return {html:`<div class="phead"><div class="kick"><span>${D.questions.length} open</span></div><h1>Open questions</h1>
+    <p class="sub">Questions are objects, not prose. They persist across editions, accrue evidence, and are checked against every new record. A question that stays open long enough becomes a story about the silence.</p></div>
+    <div class="tbl">${D.questions.map(q=>`<button class="trow" data-q="${q.id}" style="grid-template-columns:minmax(0,1fr) 170px 130px">
+      <span style="font-weight:500;line-height:1.4">${esc(q.q)}</span>
+      <span style="font-size:13px;color:var(--text-3)">${esc(beatById[q.beat]?beatById[q.beat].name:'—')}</span>
+      <span class="mono" style="font-size:11px;color:var(--text-3)">${esc(q.status)}</span></button>`).join('')}</div>`,
+    crumb:`<b>Open questions</b>`};
+}
+
+function viewContradictions(){
+  return {html:`<div class="phead"><div class="kick"><span>${D.contradictions.length} standing</span></div><h1>Contradictions</h1>
+    <p class="sub">Two positions that cannot both hold. They carry forward between editions and are never silently dropped — they close only when one side is withdrawn, superseded, or resolved on the record.</p></div>
+    <div class="tbl">${D.contradictions.map(c=>`<button class="trow" data-cx="${c.id}" style="grid-template-columns:minmax(0,1fr) 150px 60px">
+      <span><span style="display:block;font-weight:500">${esc(c.a)}</span>
+        <span class="mono" style="font-size:9.5px;letter-spacing:.08em;color:var(--hold);text-transform:uppercase;display:block;margin:4px 0">against</span>
+        <span style="display:block;font-weight:500">${esc(c.b)}</span>
+        <span style="font-size:13px;color:var(--text-3);display:block;margin-top:6px">${esc(c.st)}</span></span>
+      <span style="font-size:12.5px;color:var(--text-3)">${esc(c.tier)}</span>
+      <span class="mono" style="font-size:12px;color:var(--text-2);text-align:right">${esc(c.c)}</span></button>`).join('')}</div>`,
+    crumb:`<b>Contradictions</b>`};
+}
+
+function viewArchive(){
+  return {html:`<div class="phead"><h1>Archive</h1>
+    <p class="sub">Editions are dated, permanent and never edited. A correction publishes as a new record that supersedes the old one, and both stay readable.</p></div>
+    <div class="tbl">${D.archive.map(a=>`<button class="trow" data-go="#/" style="grid-template-columns:110px minmax(0,1fr) 100px">
+      <span class="mono" style="font-size:11.5px;color:var(--accent);font-weight:600">No. ${a.n}</span>
+      <span style="font-weight:500">${esc(a.d)}<span style="display:block;font-size:13px;color:var(--text-3)">${esc(a.note)}</span></span>
+      <span class="mono" style="font-size:11px;color:var(--text-3);text-align:right">${a.items} records</span></button>`).join('')}</div>`,
+    crumb:`<b>Archive</b>`};
+}
+
+function viewMethod(){
+  const rows=[
+   ['Dossier','Permanent umbrella. Never closes.',`${D.dossiers.length}, fixed`],
+   ['Beat','A unit of persistent state. Opens and closes.',`${D.beats.length} open`],
+   ['Type','Cross-cutting filter. Not a grouping.',`${D.types.length}, fixed`],
+   ['Record','A published item, permanently addressed.','per edition'],
+   ['Question','An unanswered thing, tracked until answered.',`${D.questions.length} open`],
+   ['Trigger','A dated future event that will change state.',`${D.triggers.length} pending`],
+   ['Contradiction','Two positions that cannot both hold.',`${D.contradictions.length} standing`]];
+  return {html:`<div class="phead"><div class="kick"><span>Method</span></div><h1>Beats and definitions</h1>
+    <p class="sub">The taxonomy exists to answer one question mechanically: when does something become a thing we track, and when does it stop?</p></div>
+
+    <div class="unk" style="border-left-color:var(--accent)"><h4 style="color:var(--accent)">The test</h4>
+      <p style="font-size:16px;line-height:1.6;color:var(--text-2);margin:0 0 12px">A beat is not a topic. A beat is a unit of persistent state. The test is mechanical: <strong style="color:var(--text)">can you write down what its current state is, in fields, such that tomorrow’s events either change a field or don’t?</strong></p>
+      <p style="font-size:15px;line-height:1.6;color:var(--text-2);margin:0">“The Strait of Hormuz” passes — blockade posture, transit volume, governing agreement, attacks in the last day. “Legal cases” fails, because there is no single state a legal case beat could hold. That is why <em>United States v. Mangione</em> and <em>The death of Nolan Wells</em> are separate beats rather than one “court cases” pile: merging them would produce an object with no coherent state. “Legal case” survives as a type — a filter that cuts across dossiers — not as a place things live.</p></div>
+
+    <div class="state"><div class="sthd"><span>Objects</span><span class="as">seven, and no others</span></div>
+      ${rows.map(r=>`<div class="srow"><span class="k">${esc(r[0])}</span><span class="v" style="font-size:14.5px;font-weight:400;color:var(--text-2)">${esc(r[1])}</span>
+        <span class="since">${esc(r[2])}</span></div>`).join('')}</div>
+
+    <div class="sh"><h3>Lifecycle</h3><p>why the list of beats does not grow forever</p><span class="rule"></span></div>
+    <div class="state"><div class="sthd"><span>Rules</span><span class="as">applied nightly</span></div>
+      <div class="srow"><span class="k">A beat opens when</span><span class="v" style="font-size:14.5px;font-weight:400;color:var(--text-2)">≥3 events over ≥5 days, <em>or</em> a single event carrying a dated future trigger — and a state record of ≥2 changeable fields can be written.</span><span class="since"></span></div>
+      <div class="srow"><span class="k">A beat closes when</span><span class="v" style="font-size:14.5px;font-weight:400;color:var(--text-2)">No state change for 30 days <em>and</em> no pending triggers. It is archived, its address stays permanent, and it reopens automatically on the next qualifying event.</span><span class="since"></span></div>
+      <div class="srow"><span class="k">A record publishes when</span><span class="v" style="font-size:14.5px;font-weight:400;color:var(--text-2)">It is not already in general circulation. Restatement of what a reader of the day’s news already has is suppressed.</span><span class="since"></span></div>
+      <div class="srow hot"><span class="k">A record is held when</span><span class="v" style="font-size:14.5px;font-weight:400">Dates conflict, a single upstream source is dressed as several, or an assertion of wrongdoing against a private individual is involved. Held items publish as holds, with the reason.</span><span class="since"></span></div></div>
+
+    <div class="sh"><h3>Worked example</h3><p>the same day, three ways</p><span class="rule"></span></div>
+    <div class="tbl">
+      <div class="trow hd" style="grid-template-columns:150px minmax(0,1fr)"><span>Subject</span><span>Where it lands</span></div>
+      <div class="trow" style="grid-template-columns:150px minmax(0,1fr)"><span style="font-weight:500">Mangione plea</span>
+        <span style="color:var(--text-2);font-size:14.5px">Beat <em>United States v. Mangione</em> · dossiers <em>Political Violence</em> and <em>Household Costs</em> · type <em>Legal case</em>. Closes after 18 December.</span></div>
+      <div class="trow" style="grid-template-columns:150px minmax(0,1fr)"><span style="font-weight:500">Nolan Wells</span>
+        <span style="color:var(--text-2);font-size:14.5px">Beat <em>The death of Nolan Wells</em> · dossier <em>Race, Policing & Accountability</em> · types <em>Death investigation</em>, <em>Oversight</em>. Different beat, different dossier, different reader — same type filter as Mangione.</span></div>
+      <div class="trow" style="grid-template-columns:150px minmax(0,1fr)"><span style="font-weight:500">The derecho</span>
+        <span style="color:var(--text-2);font-size:14.5px">Beat <em>The August Midwest derecho</em> · dossier <em>Weather & Disaster Response</em> · type <em>Disaster</em>. Opened 11 August, closes when restoration completes — roughly a week of life.</span></div>
+    </div>`, crumb:`<b>Beats & definitions</b>`};
+}
+
+function viewAbout(){
+  return {html:`<div class="phead"><h1>How this works</h1>
+    <p class="sub">A daily record of what materially changed in American government and public life — and of what was reported without changing.</p></div>
+    <div class="state"><div class="sthd"><span>The day</span><span class="as">nightly, automated</span></div>
+      ${[['04:00','Ingest sweep across every source assigned to an open beat.'],
+         ['04:30','Claim extraction on new items only. The corpus is never re-read.'],
+         ['05:00','Beat state recomputed. Diffed against yesterday. The diff is the edition.'],
+         ['05:15','Triggers dated today are checked. Open questions are tested against new records.'],
+         ['05:30','Suppression: anything already in general circulation is dropped.'],
+         ['06:00','Render. Edition, beat pages, calendar, questions, contradictions.'],
+         ['06:15','Hold queue. Anything asserting wrongdoing by a private individual waits for a person.']]
+        .map(r=>`<div class="srow"><span class="k mono">${r[0]}</span><span class="v" style="font-size:14.5px;font-weight:400;color:var(--text-2)">${esc(r[1])}</span><span class="since"></span></div>`).join('')}</div>
+    <div class="unk"><h4>What this is not</h4><ul>
+      <li>Not a feed. Restatement is suppressed, so some days are very short.</li>
+      <li>Not a summariser. The delta is computed from stored state; a model renders it into prose but does not decide what changed.</li>
+      <li>Not anonymous. Every record carries its sources, their type, and a confidence capped by that type.</li></ul></div>
+    <div class="state"><div class="sthd"><span>Masthead</span></div>
+      <div class="srow"><span class="k">Editor</span><span class="v">[name]</span><span class="since"></span></div>
+      <div class="srow"><span class="k">Corrections</span><span class="v" style="font-size:14.5px;font-weight:400;color:var(--text-2)">Editions are never edited. A correction is a new record that supersedes the old; both stay readable.</span><span class="since"></span></div>
+      <div class="srow"><span class="k">Published</span><span class="v" style="font-size:14.5px;font-weight:400;color:var(--text-2)">Daily, 06:00 ET</span><span class="since"></span></div></div>`,
+    crumb:`<b>How this works</b>`};
+}
+
+/* ---------------- router ---------------- */
+function route(){
+  const h=location.hash||'#/';
+  let v;
+  if(h==='#/') v=viewToday();
+  else if(h==='#/beats') v=viewBeats();
+  else if(h==='#/calendar') v=viewCalendar();
+  else if(h==='#/questions') v=viewQuestions();
+  else if(h==='#/contradictions') v=viewContradictions();
+  else if(h==='#/archive') v=viewArchive();
+  else if(h==='#/method') v=viewMethod();
+  else if(h==='#/about') v=viewAbout();
+  else if(h.startsWith('#/beat/')) v=viewBeat(h.slice(7));
+  else if(h.startsWith('#/dossier/')) v=viewDossier(h.slice(10));
+  else v={html:`<p class="empty">Nothing here.</p>`,crumb:'Not found'};
+  const el=$('#view');
+  el.className='view'+(v.two?' two':'');
+  el.innerHTML=v.html;
+  $('#crumb').innerHTML=v.crumb||'';
+  window.scrollTo(0,0);
+  wire(el); wire($('#crumb'));
+  markNav();
+}
+function wire(root){
+  root.querySelectorAll('[data-go]').forEach(b=>b.onclick=e=>{e.preventDefault();location.hash=b.dataset.go;});
+  root.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>openItem(b.dataset.id));
+  root.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>openQuestion(b.dataset.q));
+  root.querySelectorAll('[data-trig]').forEach(b=>b.onclick=()=>openTrigger(b.dataset.trig));
+  root.querySelectorAll('[data-cx]').forEach(b=>b.onclick=()=>openCx(b.dataset.cx));
+}
+
+/* ---------------- drawer ---------------- */
+let lastFocus=null;
+function show(kind,html){
+  $('#dkind').textContent=kind; $('#dbody').innerHTML=html; $('#dbody').scrollTop=0;
+  lastFocus=document.activeElement;
+  $('#scrim').classList.add('on'); $('#drawer').classList.add('on');
+  document.body.style.overflow='hidden'; $('#close').focus();
+  wire($('#dbody'));
+  $('#dbody').querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',hide));
+}
+function hide(){$('#scrim').classList.remove('on');$('#drawer').classList.remove('on');document.body.style.overflow='';lastFocus&&lastFocus.focus();}
+const tlHTML=tl=>!tl?'':`<div class="dsec"><h4>State</h4><div class="tl">${tl.map(s=>
+  `<span class="tlx ${s.s}">${esc(s.l)}${s.d?`<span class="dt">${esc(s.d)}</span>`:''}</span>`).join('')}</div></div>`;
+const provHTML=ss=>!ss||!ss.length
+  ?`<div class="dsec"><h4>Provenance</h4><p style="font-size:14px">No source is published for a held item.</p></div>`
+  :`<div class="dsec"><h4>Provenance</h4><div class="prov">
+     <div class="prow hdr-row"><span>Source</span><span class="ty">Type</span><span class="cf" style="text-align:right">Conf.</span></div>
+     ${ss.map(s=>`<div class="prow"><span class="nm"><a href="${s.u}" target="_blank" rel="noopener">${esc(s.n)}</a></span>
+       <span class="ty">${esc(s.t)}</span><span class="cf">${esc(s.c)}</span></div>`).join('')}</div></div>`;
+function openItem(id){
+  const it=itemById[id]; if(!it) return;
+  const kind=it.kind==='omission'?'What the coverage left out':it.kind==='lead'?'Lead record':'Record';
+  const qs=(it.questions||[]).map(q=>qById[q]).filter(Boolean);
+  show(kind,`${it.stamp?`<div style="margin-bottom:14px">${stampFor(it)}</div>`:''}
+    <h2>${esc(it.title)}</h2>
+    <div class="tags">${(it.beats||[]).map(b=>`<button class="tag" data-go="#/beat/${b}">${esc(beatById[b]?beatById[b].name:b)}</button>`).join('')}</div>
+    ${it.deck?`<p style="font-family:var(--serif);font-size:18px;color:var(--text-2);font-weight:300">${it.deck}</p>`:''}
+    ${(it.body||[]).map(p=>`<p>${p}</p>`).join('')}
+    ${it.note?`<div class="note">${esc(it.note)}</div>`:''}
+    ${tlHTML(it.timeline)}
+    ${it.derived?`<div class="dsec"><h4>How this surfaced</h4><p style="font-size:14.5px">${esc(it.derived)}</p></div>`:''}
+    ${provHTML(it.sources)}
+    ${qs.length?`<div class="dsec"><h4>Open questions on this</h4>${qs.map(q=>
+      `<button class="ritem q" data-q="${q.id}" style="padding-left:0"><span class="t">${esc(q.q)}</span><span class="s">${esc(q.status)}</span></button>`).join('')}</div>`:''}`);
+}
+function openQuestion(id){
+  const q=qById[id]; if(!q) return;
+  show('Open question',`<h2 style="font-size:24px">${esc(q.q)}</h2>
+    <div class="tags">${q.beat?`<button class="tag" data-go="#/beat/${q.beat}">${esc(beatById[q.beat].name)}</button>`:''}</div>
+    <dl class="kv" style="margin-top:20px">
+      <dt>Known</dt><dd>${esc(q.known)}</dd><dt>Who could answer</dt><dd>${esc(q.who)}</dd>
+      <dt>Likely document</dt><dd>${esc(q.doc)}</dd><dt>Next check</dt><dd>${esc(q.next)}</dd>
+      <dt>Opened</dt><dd>${esc(q.opened)}</dd><dt>Status</dt><dd>${esc(q.status)}</dd></dl>
+    <div class="note" style="border-left-color:var(--accent)">Questions persist across editions until answered, and are tested against every new record. A question that stays open long enough becomes a story about the silence.</div>`);
+}
+function openTrigger(id){
+  const t=trigById[id]; if(!t) return;
+  show('Scheduled trigger',`<div class="eyebrow" style="margin-bottom:10px"><span>${esc(t.d)}</span></div>
+    <h2 style="font-size:26px">${esc(t.t)}</h2><p>${esc(t.s)}</p>
+    <div class="tags">${t.beat?`<button class="tag" data-go="#/beat/${t.beat}">${esc(beatById[t.beat].name)}</button>`:''}</div>
+    <div class="note" style="border-left-color:var(--accent)">Checked automatically on the date. If the expected event does not occur, the non-occurrence is recorded as a finding rather than left as a gap.</div>
+    ${t.item?`<div class="dsec"><h4>Related record</h4><button class="ritem" data-id="${t.item}" style="padding-left:0">
+      <span class="t">${esc(itemById[t.item].title)}</span><span class="s">Open the full record</span></button></div>`:''}`);
+}
+function openCx(id){
+  const c=D.contradictions.find(x=>x.id===id); if(!c) return;
+  show('Standing contradiction',`<h2 style="font-size:23px">${esc(c.a)}</h2>
+    <p class="mono" style="color:var(--hold);font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin:14px 0">against</p>
+    <h2 style="font-size:23px">${esc(c.b)}</h2>
+    <div class="tags" style="margin-top:18px">${c.beat?`<button class="tag" data-go="#/beat/${c.beat}">${esc(beatById[c.beat].name)}</button>`:''}</div>
+    <dl class="kv" style="margin-top:20px">
+      <dt>First position</dt><dd>${esc(c.asrc)}</dd><dt>Second position</dt><dd>${esc(c.bsrc)}</dd>
+      <dt>Tier</dt><dd>${esc(c.tier)}</dd><dt>Status</dt><dd>${esc(c.st)}</dd>
+      <dt>Opened</dt><dd>${esc(c.opened)}</dd><dt>Confidence</dt><dd class="mono">${esc(c.c)}</dd></dl>
+    <div class="note">Contradictions carry forward between editions and are never silently dropped. They close only when one side is withdrawn, superseded or resolved on the record.</div>
+    ${c.item?`<div class="dsec"><h4>Related record</h4><button class="ritem" data-id="${c.item}" style="padding-left:0">
+      <span class="t">${esc(itemById[c.item].title)}</span><span class="s">Open the full record</span></button></div>`:''}`);
+}
+
+/* ---------------- wiring ---------------- */
+function closeNav(){$('#nav').classList.remove('on');$('#scrimnav').classList.remove('on');}
+$('#burger').onclick=()=>{$('#nav').classList.toggle('on');$('#scrimnav').classList.toggle('on');};
+$('#scrimnav').onclick=closeNav;
+$('#scrim').onclick=hide; $('#close').onclick=hide;
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){ if($('#drawer').classList.contains('on')) hide(); else closeNav(); }
+  if(e.key==='/'&&document.activeElement!==$('#q')){e.preventDefault();$('#q').focus();}
+});
+let t;$('#q').oninput=e=>{clearTimeout(t);t=setTimeout(()=>{query=e.target.value.trim().toLowerCase();if((location.hash||'#/')!=='#/')location.hash='#/';else route();},120);};
+$('#theme').onclick=()=>{
+  const cur=document.documentElement.getAttribute('data-theme');
+  const dark=cur?cur==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+  document.documentElement.setAttribute('data-theme',dark?'light':'dark');
+  localStorage.setItem('dz-theme',dark?'light':'dark');
+};
+const savedTheme=localStorage.getItem('dz-theme'); if(savedTheme) document.documentElement.setAttribute('data-theme',savedTheme);
+window.addEventListener('hashchange',route);
+renderNav(); route();
+</script>

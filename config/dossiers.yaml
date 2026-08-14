@@ -1,0 +1,12 @@
+- {id: iran,     name: The Iran War}
+- {id: econ,     name: Household Costs & the Fed}
+- {id: power,    name: Executive Power & the Courts}
+- {id: records,  name: The Epstein Records}
+- {id: immig,    name: Immigration Enforcement}
+- {id: account,  name: "Race, Policing & Accountability"}
+- {id: surv,     name: Surveillance & Civil Liberties}
+- {id: violence, name: Political Violence}
+- {id: health,   name: Public Health}
+- {id: elect,    name: Elections & Representation}
+- {id: energy,   name: "Energy, Land & Infrastructure"}
+- {id: disaster, name: Weather & Disaster Response}

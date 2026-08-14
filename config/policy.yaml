@@ -1,0 +1,50 @@
+# Public editorial policy. This file is the editorial conscience: diffable,
+# and every edition records which revision of it produced the edition.
+
+publication:
+  dry_run: true            # week one: write editions, deploy nothing
+  kill_switch: false       # halts publication, never halts ingestion
+  max_records_per_edition: 8
+
+suppression:
+  drop_if_already_in_circulation: true
+
+lifecycle:
+  open_min_events: 3
+  open_min_span_days: 5
+  open_min_state_fields: 2
+  close_quiet_days: 30
+
+recirculation:
+  min_followers: 3
+  min_gap_days: 1
+  date_conflict_gap_days: 60
+
+verification:
+  rounds_max: 3
+  passes: [refute, lens]
+  consensus_required: 2      # of 3 independent passes must fail to refute
+  require_distinct_model_families: true
+  on_single_family: cap_one_band_lower
+
+# Categories that are REFUSED, never queued. There is no human reviewer, so the
+# protection is not generating the exposure. See spec §6.3.
+refuse:
+  - wrongdoing_by_private_individual
+  - identification_of_private_individual
+  - uncorroborated_criminal_conduct
+
+# Lower-risk uncertainty publishes AS A HOLD, with its reason. See spec §6.4.
+hold:
+  - date_conflict
+  - single_root_multi_source
+  - consensus_failure
+  - schema_failure
+
+disclosure:
+  human_reviewed: false
+  statement: >-
+    Every record on this site is produced by AI agents and is not reviewed by a
+    person before publication. Each record lists its sources, the confidence
+    ceiling of each source type, which model families ran extraction and
+    verification, and how many verification rounds it survived.

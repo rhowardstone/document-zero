@@ -1,0 +1,9 @@
+- {id: case,      name: Legal case}
+- {id: reg,       name: Regulation}
+- {id: oversight, name: Oversight & compliance}
+- {id: conflict,  name: Armed conflict}
+- {id: market,    name: Markets & prices}
+- {id: inst,      name: Institutions}
+- {id: death,     name: Death investigation}
+- {id: tech,      name: Technology & data}
+- {id: event,     name: Disaster & event}
