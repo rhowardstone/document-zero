@@ -44,6 +44,58 @@ refuse:
   - identification_of_private_individual
   - uncorroborated_criminal_conduct
 
+# The roster is the ONLY way a person gets public status without the text itself
+# identifying them by office or naming them as a party to a case. It is curated
+# on purpose: inferring "this name is famous enough to accuse" is exactly the
+# judgement an automated system should not be making.
+#
+# Everyone not listed here, and not identified by title or case caption in the
+# claim itself, is treated as a private individual — so a wrongdoing claim about
+# them is refused rather than published. Over-refusal is the intended failure.
+roster:
+  # Named parties in the litigation these beats track.
+  Jeffrey Epstein: named_party
+  Ghislaine Maxwell: named_party
+  Prince Andrew: public_figure
+  Alexander Acosta: public_official
+  Bill Richardson: public_official
+  Raul Torrez: public_official
+  Pam Bondi: public_official
+  Todd Blanche: public_official
+  Kash Patel: public_official
+  Luigi Mangione: named_party
+  Sean Combs: named_party
+  Donald Trump: public_official
+  Larry Nassar: named_party
+  Bill Gates: public_figure
+  Leon Black: public_figure
+  Jes Staley: public_figure
+  Glenn Dubin: public_figure
+  Les Wexner: public_figure
+  Alan Dershowitz: public_figure
+  Hugh Hefner: public_figure
+  Paolo Zampolli: public_figure
+  # Officials whose conduct in office is the subject of the tracked litigation.
+  Bill Clinton: public_official
+  Melania Trump: public_figure
+  Ken Paxton: public_official
+  Nancy Mace: public_official
+  James Comer: public_official
+  Robert Garcia: public_official
+  Thomas Massie: public_official
+  Ro Khanna: public_official
+  Marjorie Taylor Greene: public_official
+  Emmet Sullivan: public_official
+  Loretta Preska: public_official
+  Richard Berman: public_official
+  Michelle Lujan Grisham: public_official
+#
+# DELIBERATELY ABSENT: accusers, complainants and victims. Leaving a person off
+# this list makes the gates MORE protective of them, not less — any wrongdoing
+# claim naming them is refused. Several are named plaintiffs and would be
+# defensible as `named_party`; that is precisely the entry that would strip the
+# protection, so it is not made.
+
 # Lower-risk uncertainty publishes AS A HOLD, with its reason. See spec §6.4.
 hold:
   - date_conflict

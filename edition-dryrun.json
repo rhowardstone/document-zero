@@ -2,6 +2,19 @@
   "day": "2026-08-14",
   "wire": [
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: What else can Trump do to distract Americans from "
+        },
+        {
+          "k": "Claims on record",
+          "v": "1"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "prices",
       "beat": "prices",
       "placement": "wire",
@@ -21,6 +34,19 @@
       "rejected_claims": 0
     },
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: \"Brexit is just the beginning...\" While the UK was"
+        },
+        {
+          "k": "Claims on record",
+          "v": "1"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "detention",
       "beat": "detention",
       "placement": "wire",
@@ -40,6 +66,51 @@
       "rejected_claims": 0
     },
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: Jeffrey Epstein\u2019s European fixer raped us. Police "
+        },
+        {
+          "k": "Claims on record",
+          "v": "3"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
+      "id": "epstein-banks",
+      "beat": "epstein-banks",
+      "placement": "wire",
+      "reason": null,
+      "score": 13.96,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 11.200000000000001,
+        "evidence": 0.7600000000000001,
+        "derivation": 0.0
+      },
+      "distortion": 1.3999999997199999,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    },
+    {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: this guy on tiktok and instagram been impersonatin"
+        },
+        {
+          "k": "Claims on record",
+          "v": "1"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "flock",
       "beat": "flock",
       "placement": "wire",
@@ -59,8 +130,53 @@
       "rejected_claims": 0
     },
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: Epstein investigation into Michigan arts school un"
+        },
+        {
+          "k": "Claims on record",
+          "v": "3"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "epstein-institutions",
       "beat": "epstein-institutions",
+      "placement": "wire",
+      "reason": null,
+      "score": 12.406666666666668,
+      "components": {
+        "novelty": 2.0,
+        "consequence": 9.600000000000001,
+        "evidence": 0.8066666666666666,
+        "derivation": 0.0
+      },
+      "distortion": 1.19999999976,
+      "undercovered": true,
+      "material_changes": 2,
+      "claims": 3,
+      "injection_attempts": 0,
+      "rejected_claims": 0
+    },
+    {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: Epstein 'truth commission' report due Friday to be"
+        },
+        {
+          "k": "Claims on record",
+          "v": "3"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
+      "id": "nm-records",
+      "beat": "nm-records",
       "placement": "wire",
       "reason": null,
       "score": 12.360000000000001,
@@ -78,6 +194,19 @@
       "rejected_claims": 0
     },
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: Hi Redditors the UK force, Thames Valley Police ha"
+        },
+        {
+          "k": "Claims on record",
+          "v": "3"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "uk-inquiry",
       "beat": "uk-inquiry",
       "placement": "wire",
@@ -97,6 +226,19 @@
       "rejected_claims": 0
     },
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: Number 10 Denies Burnham is Looking into Epstein E"
+        },
+        {
+          "k": "Claims on record",
+          "v": "3"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "epstein-death",
       "beat": "epstein-death",
       "placement": "wire",
@@ -116,48 +258,22 @@
       "rejected_claims": 0
     }
   ],
-  "omissions": [
-    {
-      "id": "epstein-banks",
-      "beat": "epstein-banks",
-      "placement": "omission",
-      "reason": "recirculation",
-      "score": 13.96,
-      "components": {
-        "novelty": 2.0,
-        "consequence": 11.200000000000001,
-        "evidence": 0.7600000000000001,
-        "derivation": 0.0
-      },
-      "distortion": 1.3999999997199999,
-      "undercovered": true,
-      "material_changes": 2,
-      "claims": 3,
-      "injection_attempts": 0,
-      "rejected_claims": 0
-    },
-    {
-      "id": "nm-records",
-      "beat": "nm-records",
-      "placement": "omission",
-      "reason": "recirculation",
-      "score": 12.360000000000001,
-      "components": {
-        "novelty": 2.0,
-        "consequence": 9.600000000000001,
-        "evidence": 0.7600000000000001,
-        "derivation": 0.0
-      },
-      "distortion": 1.19999999976,
-      "undercovered": true,
-      "material_changes": 2,
-      "claims": 3,
-      "injection_attempts": 0,
-      "rejected_claims": 0
-    }
-  ],
+  "omissions": [],
   "holds": [
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: DoJ appears to ignore New Mexico deadline for key "
+        },
+        {
+          "k": "Claims on record",
+          "v": "3"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "compliance",
       "beat": "compliance",
       "placement": "hold",
@@ -177,6 +293,19 @@
       "rejected_claims": 0
     },
     {
+      "changes": [],
+      "added": [
+        {
+          "k": "Most recent claim",
+          "v": "Reported: DoJ appears to ignore New Mexico deadline for key "
+        },
+        {
+          "k": "Claims on record",
+          "v": "3"
+        }
+      ],
+      "removed": [],
+      "unchanged": 0,
       "id": "epstein-network",
       "beat": "epstein-network",
       "placement": "hold",
@@ -197,9 +326,9 @@
     }
   ],
   "counts": {
-    "wire": 6,
+    "wire": 8,
     "capped_out": 0,
-    "omissions": 2,
+    "omissions": 0,
     "holds": 2,
     "refused": 0,
     "dropped": 0

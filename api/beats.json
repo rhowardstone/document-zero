@@ -45,7 +45,7 @@
   {
    "id": "prices",
    "name": "Fuel & grocery prices",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "econ",
     "iran"
@@ -53,8 +53,8 @@
    "types": [
     "market"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 1,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "agenda",
@@ -72,7 +72,7 @@
   {
    "id": "compliance",
    "name": "DOJ compliance with the Transparency Act",
-   "status": "quiet",
+   "status": "unresolved",
    "dossiers": [
     "records",
     "power"
@@ -81,8 +81,8 @@
     "oversight",
     "case"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 3,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "kennedy",
@@ -142,15 +142,15 @@
   {
    "id": "flock",
    "name": "Flock & plate-reader networks",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "surv"
    ],
    "types": [
     "tech"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 1,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "dcpolice",
@@ -169,7 +169,7 @@
   {
    "id": "detention",
    "name": "ICE detention conditions",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "immig",
     "account"
@@ -178,8 +178,8 @@
     "oversight",
     "death"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 1,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "vaccines",
@@ -224,7 +224,7 @@
   {
    "id": "epstein-network",
    "name": "The Epstein network and its enablers",
-   "status": "quiet",
+   "status": "unresolved",
    "dossiers": [
     "records",
     "account"
@@ -233,8 +233,8 @@
     "oversight",
     "case"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 3,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "nm-records",
@@ -248,13 +248,13 @@
     "case",
     "oversight"
    ],
-   "events": 13,
-   "lastChange": "2019-07-23"
+   "events": 3,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "epstein-banks",
    "name": "Banks, the Senate report, and Epstein's money",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "records",
     "econ"
@@ -263,13 +263,13 @@
     "oversight",
     "market"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 3,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "uk-inquiry",
    "name": "The UK public inquiry",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "records",
     "elect"
@@ -278,13 +278,13 @@
     "oversight",
     "inst"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 3,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "epstein-institutions",
    "name": "Institutions that hosted the abuse",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "records",
     "account"
@@ -293,13 +293,13 @@
     "oversight",
     "case"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 3,
+   "lastChange": "2026-08-14"
   },
   {
    "id": "epstein-death",
    "name": "The death and what it foreclosed",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [
     "records"
    ],
@@ -307,8 +307,8 @@
     "death",
     "oversight"
    ],
-   "events": 0,
-   "lastChange": "—"
+   "events": 3,
+   "lastChange": "2026-08-14"
   }
  ]
 }

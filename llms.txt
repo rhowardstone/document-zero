@@ -5,7 +5,7 @@
 > sources and a confidence capped by source type. Produced by AI agents and
 > not reviewed by a person before publication.
 
-Edition 001 · 2026-08-14 · 22 beats, 1 not quiet, 13 records.
+Edition 001 · 2026-08-14 · 22 beats, 10 not quiet, 15 records.
 
 ## Read this before you cite anything here
 
@@ -44,26 +44,26 @@ Edition 001 · 2026-08-14 · 22 beats, 1 not quiet, 13 records.
 
 ## Beats
 
-- [New Mexico v. the Justice Department](https://doczero.epstein-data.com/api/beat/nm-records.json): moved, 13 claim(s), last change 2019-07-23
+- [DOJ compliance with the Transparency Act](https://doczero.epstein-data.com/api/beat/compliance.json): unresolved, 3 claim(s), last change 2026-08-14
+- [ICE detention conditions](https://doczero.epstein-data.com/api/beat/detention.json): moved, 1 claim(s), last change 2026-08-14
+- [Banks, the Senate report, and Epstein's money](https://doczero.epstein-data.com/api/beat/epstein-banks.json): moved, 3 claim(s), last change 2026-08-14
+- [The death and what it foreclosed](https://doczero.epstein-data.com/api/beat/epstein-death.json): moved, 3 claim(s), last change 2026-08-14
+- [Institutions that hosted the abuse](https://doczero.epstein-data.com/api/beat/epstein-institutions.json): moved, 3 claim(s), last change 2026-08-14
+- [The Epstein network and its enablers](https://doczero.epstein-data.com/api/beat/epstein-network.json): unresolved, 3 claim(s), last change 2026-08-14
+- [Flock & plate-reader networks](https://doczero.epstein-data.com/api/beat/flock.json): moved, 1 claim(s), last change 2026-08-14
+- [New Mexico v. the Justice Department](https://doczero.epstein-data.com/api/beat/nm-records.json): moved, 3 claim(s), last change 2026-08-14
+- [Fuel & grocery prices](https://doczero.epstein-data.com/api/beat/prices.json): moved, 1 claim(s), last change 2026-08-14
+- [The UK public inquiry](https://doczero.epstein-data.com/api/beat/uk-inquiry.json): moved, 3 claim(s), last change 2026-08-14
 - [The regulatory agenda](https://doczero.epstein-data.com/api/beat/agenda.json): quiet, 0 claim(s), last change —
-- [DOJ compliance with the Transparency Act](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 0 claim(s), last change —
 - [Data centres & the grid](https://doczero.epstein-data.com/api/beat/datacentres.json): quiet, 0 claim(s), last change —
 - [Federal policing in the District](https://doczero.epstein-data.com/api/beat/dcpolice.json): quiet, 0 claim(s), last change —
-- [ICE detention conditions](https://doczero.epstein-data.com/api/beat/detention.json): quiet, 0 claim(s), last change —
-- [Banks, the Senate report, and Epstein's money](https://doczero.epstein-data.com/api/beat/epstein-banks.json): quiet, 0 claim(s), last change —
-- [The death and what it foreclosed](https://doczero.epstein-data.com/api/beat/epstein-death.json): quiet, 0 claim(s), last change —
-- [Institutions that hosted the abuse](https://doczero.epstein-data.com/api/beat/epstein-institutions.json): quiet, 0 claim(s), last change —
-- [The Epstein network and its enablers](https://doczero.epstein-data.com/api/beat/epstein-network.json): quiet, 0 claim(s), last change —
 - [Fed policy & the September decision](https://doczero.epstein-data.com/api/beat/fed.json): quiet, 0 claim(s), last change —
-- [Flock & plate-reader networks](https://doczero.epstein-data.com/api/beat/flock.json): quiet, 0 claim(s), last change —
 - [The Strait of Hormuz & the blockade](https://doczero.epstein-data.com/api/beat/hormuz.json): quiet, 0 claim(s), last change —
 - [Iran diplomacy & the ceasefire](https://doczero.epstein-data.com/api/beat/iran-diplo.json): quiet, 0 claim(s), last change —
 - [The Kennedy Center](https://doczero.epstein-data.com/api/beat/kennedy.json): quiet, 0 claim(s), last change —
 - [United States v. Mangione](https://doczero.epstein-data.com/api/beat/mangione.json): quiet, 0 claim(s), last change —
-- [Fuel & grocery prices](https://doczero.epstein-data.com/api/beat/prices.json): quiet, 0 claim(s), last change —
 - [Mid-decade redistricting](https://doczero.epstein-data.com/api/beat/redistricting.json): quiet, 0 claim(s), last change —
 - [State v. Robinson](https://doczero.epstein-data.com/api/beat/robinson.json): quiet, 0 claim(s), last change —
-- [The UK public inquiry](https://doczero.epstein-data.com/api/beat/uk-inquiry.json): quiet, 0 claim(s), last change —
 - [The childhood vaccine schedule](https://doczero.epstein-data.com/api/beat/vaccines.json): quiet, 0 claim(s), last change —
 - [The death of Nolan Wells](https://doczero.epstein-data.com/api/beat/wells.json): quiet, 0 claim(s), last change —
 

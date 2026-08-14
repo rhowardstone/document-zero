@@ -9,23 +9,76 @@
   "types": [
    "market"
   ],
-  "status": "quiet",
-  "opened": "—",
-  "lastChange": "—",
-  "events": 0,
-  "summary": "0 claim(s) on record.",
-  "state": [],
-  "history": [],
+  "status": "moved",
+  "opened": "2026-08-14",
+  "lastChange": "2026-08-14",
+  "events": 1,
+  "summary": "1 claim(s) on record.",
+  "state": [
+   {
+    "k": "Most recent claim",
+    "v": "Reported: What else can Trump do to distract Americans from ",
+    "since": "14 Aug",
+    "flag": null
+   },
+   {
+    "k": "Claims on record",
+    "v": "1",
+    "since": "14 Aug",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-14",
+    "c": "Most recent claim recorded as Reported: What else can Trump do to distract Americans from . Claims on record recorded as 1.",
+    "s": "1 claim(s) from 1 source(s)"
+   }
+  ],
   "changes": [],
-  "added": [],
+  "added": [
+   {
+    "k": "Most recent claim",
+    "v": "Reported: What else can Trump do to distract Americans from "
+   },
+   {
+    "k": "Claims on record",
+    "v": "1"
+   }
+  ],
   "removed": [],
   "unchanged": 0,
-  "unknown": [
-   "No claim has survived verification on this beat."
+  "unknown": [],
+  "items": [
+   "prices-2026-08-14-0dfdb632746f"
   ],
-  "items": [],
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "prices-2026-08-14-0dfdb632746f",
+   "kind": "wire",
+   "beats": [
+    "prices"
+   ],
+   "stamp": "open",
+   "title": "Reported: What else can Trump do to distract Americans from the Epstein Files?",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;What else can Trump do to distract Americans from the&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "reddit.com",
+     "u": "https://www.reddit.com/r/Epstein/comments/1vicwl5/what_else_can_trump_do_to_distract_americans_from",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

@@ -10,23 +10,126 @@
    "oversight",
    "inst"
   ],
-  "status": "quiet",
-  "opened": "—",
-  "lastChange": "—",
-  "events": 0,
-  "summary": "0 claim(s) on record.",
-  "state": [],
-  "history": [],
+  "status": "moved",
+  "opened": "2026-08-14",
+  "lastChange": "2026-08-14",
+  "events": 3,
+  "summary": "3 claim(s) on record.",
+  "state": [
+   {
+    "k": "Most recent claim",
+    "v": "Reported: Hi Redditors the UK force, Thames Valley Police ha",
+    "since": "14 Aug",
+    "flag": null
+   },
+   {
+    "k": "Claims on record",
+    "v": "3",
+    "since": "14 Aug",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-14",
+    "c": "Most recent claim recorded as Reported: Hi Redditors the UK force, Thames Valley Police ha. Claims on record recorded as 3.",
+    "s": "3 claim(s) from 60 source(s)"
+   }
+  ],
   "changes": [],
-  "added": [],
+  "added": [
+   {
+    "k": "Most recent claim",
+    "v": "Reported: Hi Redditors the UK force, Thames Valley Police ha"
+   },
+   {
+    "k": "Claims on record",
+    "v": "3"
+   }
+  ],
   "removed": [],
   "unchanged": 0,
-  "unknown": [
-   "No claim has survived verification on this beat."
+  "unknown": [],
+  "items": [
+   "uk-inquiry-2026-08-14-0492adac5b45",
+   "uk-inquiry-2026-08-14-52d82c2e057b",
+   "uk-inquiry-2026-08-14-9f6e0690062b"
   ],
-  "items": [],
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "uk-inquiry-2026-08-14-0492adac5b45",
+   "kind": "wire",
+   "beats": [
+    "uk-inquiry"
+   ],
+   "stamp": "open",
+   "title": "Reported: Former Prince Andrew’s Ex-Wife Reportedly Planning a ‘Solid’ Comeback After Epstein",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Former Prince Andrew’s Ex-Wife Reportedly Planning a&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a712bc9a64545b5bda286cfbd4851a8&amp;url=https%3A%2F%2Fwww.aol.com%2Farticles%2Fformer-prince-andrew-ex-wife-155900000.html&amp;c=10314548609131698538&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uk-inquiry-2026-08-14-52d82c2e057b",
+   "kind": "wire",
+   "beats": [
+    "uk-inquiry"
+   ],
+   "stamp": "open",
+   "title": "Reported: British government rules out immediate public enquiry into Jeffrey Epstein",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;British government rules out immediate public enquiry into&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a73cece76cb449b883117cd2e823fe7&amp;url=https%3A%2F%2Fwww.telegraphindia.com%2Fworld%2Fbritish-government-rules-out-immediate-public-enquiry-into-jeffrey-epstein%2Fcid%2F2173533&amp;c=8566723494740877610&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uk-inquiry-2026-08-14-9f6e0690062b",
+   "kind": "wire",
+   "beats": [
+    "uk-inquiry"
+   ],
+   "stamp": "open",
+   "title": "Reported: Hi Redditors the UK force, Thames Valley Police has called for more witnesses and",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Hi Redditors the UK force, Thames Valley Police has called&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "reddit.com",
+     "u": "https://www.reddit.com/r/Epstein/comments/1vcqxq0/andrew_uk_call_for_evidence",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

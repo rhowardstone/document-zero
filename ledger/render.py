@@ -219,7 +219,22 @@ def _collection(root: Path, name: str) -> list:
     d = root / name
     if not d.exists():
         return []
-    return [o for o in (_read(f) for f in sorted(d.glob("*.json"))) if o]
+    # Escaped like every other path out of the ledger. Questions, triggers and
+    # contradictions are ledger objects a model can write, so "these are ours"
+    # is not a safety property — it is an assumption that holds only until an
+    # agent writes the first one.
+    return [esc_deep(o) for o in (_read(f) for f in sorted(d.glob("*.json"))) if o]
+
+
+def esc_deep(obj):
+    """Escape every string in a nested structure, leaving shape intact."""
+    if isinstance(obj, str):
+        return esc(obj)
+    if isinstance(obj, dict):
+        return {k: esc_deep(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [esc_deep(v) for v in obj]
+    return obj
 
 
 def _distinct_publishers(sources) -> int:

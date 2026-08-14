@@ -7,10 +7,10 @@
   "publish": false,
   "blocked_by": "dry_run",
   "counts": {
-   "wire": 1,
+   "wire": 8,
    "capped_out": 0,
    "omissions": 0,
-   "holds": 0,
+   "holds": 2,
    "refused": 0,
    "dropped": 0
   }
@@ -189,21 +189,49 @@
    "types": [
     "market"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "moved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 1,
+   "summary": "1 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: What else can Trump do to distract Americans from ",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "1",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: What else can Trump do to distract Americans from . Claims on record recorded as 1.",
+     "s": "1 claim(s) from 1 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: What else can Trump do to distract Americans from "
+    },
+    {
+     "k": "Claims on record",
+     "v": "1"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
-   "unknown": [
-    "No claim has survived verification on this beat."
+   "unknown": [],
+   "items": [
+    "prices-2026-08-14-0dfdb632746f"
    ],
-   "items": [],
    "questions": [],
    "triggers": []
   },
@@ -245,21 +273,53 @@
     "oversight",
     "case"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "unresolved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 3,
+   "summary": "3 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: DoJ appears to ignore New Mexico deadline for key ",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "3",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: DoJ appears to ignore New Mexico deadline for key . Claims on record recorded as 3.",
+     "s": "3 claim(s) from 60 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: DoJ appears to ignore New Mexico deadline for key "
+    },
+    {
+     "k": "Claims on record",
+     "v": "3"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
    "unknown": [
-    "No claim has survived verification on this beat."
+    "Held: single_root_multi_source"
    ],
-   "items": [],
+   "items": [
+    "compliance-2026-08-14-95002b7f33ac",
+    "compliance-2026-08-14-9e72bf4c9101",
+    "compliance-2026-08-14-f06c17b03e81"
+   ],
    "questions": [],
    "triggers": []
   },
@@ -383,21 +443,49 @@
    "types": [
     "tech"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "moved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 1,
+   "summary": "1 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: this guy on tiktok and instagram been impersonatin",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "1",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: this guy on tiktok and instagram been impersonatin. Claims on record recorded as 1.",
+     "s": "1 claim(s) from 1 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: this guy on tiktok and instagram been impersonatin"
+    },
+    {
+     "k": "Claims on record",
+     "v": "1"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
-   "unknown": [
-    "No claim has survived verification on this beat."
+   "unknown": [],
+   "items": [
+    "flock-2026-08-14-079b0a59833b"
    ],
-   "items": [],
    "questions": [],
    "triggers": []
   },
@@ -440,21 +528,49 @@
     "oversight",
     "death"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "moved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 1,
+   "summary": "1 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: &quot;Brexit is just the beginning...&quot; While the UK was",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "1",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: &quot;Brexit is just the beginning...&quot; While the UK was. Claims on record recorded as 1.",
+     "s": "1 claim(s) from 1 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: &quot;Brexit is just the beginning...&quot; While the UK was"
+    },
+    {
+     "k": "Claims on record",
+     "v": "1"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
-   "unknown": [
-    "No claim has survived verification on this beat."
+   "unknown": [],
+   "items": [
+    "detention-2026-08-14-f3a63958050d"
    ],
-   "items": [],
    "questions": [],
    "triggers": []
   },
@@ -551,21 +667,53 @@
     "oversight",
     "case"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "unresolved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 3,
+   "summary": "3 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: DoJ appears to ignore New Mexico deadline for key ",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "3",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: DoJ appears to ignore New Mexico deadline for key . Claims on record recorded as 3.",
+     "s": "3 claim(s) from 60 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: DoJ appears to ignore New Mexico deadline for key "
+    },
+    {
+     "k": "Claims on record",
+     "v": "3"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
    "unknown": [
-    "No claim has survived verification on this beat."
+    "Held: single_root_multi_source"
    ],
-   "items": [],
+   "items": [
+    "epstein-network-2026-08-14-95002b7f33ac",
+    "epstein-network-2026-08-14-9e72bf4c9101",
+    "epstein-network-2026-08-14-f06c17b03e81"
+   ],
    "questions": [],
    "triggers": []
   },
@@ -581,165 +729,52 @@
     "oversight"
    ],
    "status": "moved",
-   "opened": "2026-08-05",
-   "lastChange": "2019-07-23",
-   "events": 13,
-   "summary": "13 claim(s) on record.",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 3,
+   "summary": "3 claim(s) on record.",
    "state": [
     {
-     "k": "Federal suit",
-     "v": "Filed 5 Aug 2026, D.D.C.",
-     "since": "5 Aug",
-     "flag": "hot"
-    },
-    {
-     "k": "State criminal probe",
-     "v": "Reopened 19 Feb 2026",
-     "since": "19 Feb",
-     "flag": "hot"
-    },
-    {
-     "k": "Records sought",
-     "v": "Unredacted Epstein investigative files",
-     "since": "5 Aug",
+     "k": "Most recent claim",
+     "v": "Reported: Epstein &#39;truth commission&#39; report due Friday to be",
+     "since": "14 Aug",
      "flag": null
     },
     {
-     "k": "2019 stand-down rationale",
-     "v": "Expired 10 Aug 2019 with the defendant",
-     "since": "10 Aug 2019",
-     "flag": "hot"
-    },
-    {
-     "k": "Site ownership",
-     "v": "San Rafael Ranch LLC (Huffines family), since 2023",
-     "since": "Aug 2023",
-     "flag": null
-    },
-    {
-     "k": "Site status",
-     "v": "Construction paused for want of permits",
-     "since": "2026",
-     "flag": "warn"
-    },
-    {
-     "k": "Physical evidence",
-     "v": "Excavation and altered substrate reported",
-     "since": "Mar 2026",
-     "flag": "warn"
-    },
-    {
-     "k": "Truth commission",
-     "v": "Subpoenas issuing since 1 Jun 2026",
-     "since": "1 Jun",
+     "k": "Claims on record",
+     "v": "3",
+     "since": "14 Aug",
      "flag": null
     }
    ],
    "history": [
     {
-     "d": "2026-08-05",
-     "c": "Federal suit → filed against DOJ and Blanche in D.D.C.",
-     "s": "NBC News; PBS; Courthouse News"
-    },
-    {
-     "d": "2026-06-01",
-     "c": "Truth commission → began, with subpoena power.",
-     "s": "CNN"
-    },
-    {
-     "d": "2026-03-01",
-     "c": "Site searched by NMDOJ with State Police and K-9 units; excavation and altered substrate reported.",
-     "s": "Newsweek; NMDOJ"
-    },
-    {
-     "d": "2026-02-19",
-     "c": "State criminal probe → reopened following the January federal release.",
-     "s": "Al Jazeera"
-    },
-    {
-     "d": "2026-02-17",
-     "c": "Beneficial owner revealed as the Huffines family after a street-name change and a tax contest.",
-     "s": "The Real Deal"
-    },
-    {
-     "d": "2023-08-16",
-     "c": "Site ownership → San Rafael Ranch LLC at public auction; beneficial owner concealed.",
-     "s": "Santa Fe New Mexican; The Real Deal"
-    },
-    {
-     "d": "2019-08-10",
-     "c": "Federal prosecution ended with the defendant&#39;s death. Stated rationale for the stand-down ceased to apply.",
-     "s": "Contemporaneous reporting"
-    },
-    {
-     "d": "2019-07-23",
-     "c": "Stand-down requested → state investigation paused on a federal promise.",
-     "s": "Reported from records, Albuquerque Journal"
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: Epstein &#39;truth commission&#39; report due Friday to be. Claims on record recorded as 3.",
+     "s": "3 claim(s) from 60 source(s)"
     }
    ],
    "changes": [],
    "added": [
     {
-     "k": "Federal suit",
-     "v": "Filed 5 Aug 2026, D.D.C."
+     "k": "Most recent claim",
+     "v": "Reported: Epstein &#39;truth commission&#39; report due Friday to be"
     },
     {
-     "k": "State criminal probe",
-     "v": "Reopened 19 Feb 2026"
-    },
-    {
-     "k": "Records sought",
-     "v": "Unredacted Epstein investigative files"
-    },
-    {
-     "k": "2019 stand-down rationale",
-     "v": "Expired 10 Aug 2019 with the defendant"
-    },
-    {
-     "k": "Site ownership",
-     "v": "San Rafael Ranch LLC (Huffines family), since 2023"
-    },
-    {
-     "k": "Site status",
-     "v": "Construction paused for want of permits"
-    },
-    {
-     "k": "Physical evidence",
-     "v": "Excavation and altered substrate reported"
-    },
-    {
-     "k": "Truth commission",
-     "v": "Subpoenas issuing since 1 Jun 2026"
+     "k": "Claims on record",
+     "v": "3"
     }
    ],
    "removed": [],
    "unchanged": 0,
    "unknown": [],
    "items": [
-    "nm-records-2026-08-14-000",
-    "nm-records-2026-08-14-001",
-    "nm-records-2026-08-14-002",
-    "nm-records-2026-08-14-003",
-    "nm-records-2026-08-14-004",
-    "nm-records-2026-08-14-005",
-    "nm-records-2026-08-14-006",
-    "nm-records-2026-08-14-007",
-    "nm-records-2026-08-14-008",
-    "nm-records-2026-08-14-009",
-    "nm-records-2026-08-14-010",
-    "nm-records-2026-08-14-011",
-    "nm-records-2026-08-14-012"
+    "nm-records-2026-08-14-9e72bf4c9101",
+    "nm-records-2026-08-14-f06c17b03e81",
+    "nm-records-2026-08-14-f4c80b25f1eb"
    ],
-   "questions": [
-    "q-auction-structure",
-    "q-evidentiary-loss",
-    "q-standdown-expiry"
-   ],
-   "triggers": [
-    "t-nm-response",
-    "t-truth-commission",
-    "t-tx-comptroller"
-   ]
+   "questions": [],
+   "triggers": []
   },
   {
    "id": "epstein-banks",
@@ -752,21 +787,51 @@
     "oversight",
     "market"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "moved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 3,
+   "summary": "3 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Jeffrey Epstein’s European fixer raped us. Police ",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "3",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: Jeffrey Epstein’s European fixer raped us. Police . Claims on record recorded as 3.",
+     "s": "3 claim(s) from 60 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Jeffrey Epstein’s European fixer raped us. Police "
+    },
+    {
+     "k": "Claims on record",
+     "v": "3"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
-   "unknown": [
-    "No claim has survived verification on this beat."
+   "unknown": [],
+   "items": [
+    "epstein-banks-2026-08-14-3736e0e19c7f",
+    "epstein-banks-2026-08-14-91bcec4b1309",
+    "epstein-banks-2026-08-14-b75d3155ba34"
    ],
-   "items": [],
    "questions": [],
    "triggers": []
   },
@@ -781,21 +846,51 @@
     "oversight",
     "inst"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "moved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 3,
+   "summary": "3 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Hi Redditors the UK force, Thames Valley Police ha",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "3",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: Hi Redditors the UK force, Thames Valley Police ha. Claims on record recorded as 3.",
+     "s": "3 claim(s) from 60 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Hi Redditors the UK force, Thames Valley Police ha"
+    },
+    {
+     "k": "Claims on record",
+     "v": "3"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
-   "unknown": [
-    "No claim has survived verification on this beat."
+   "unknown": [],
+   "items": [
+    "uk-inquiry-2026-08-14-0492adac5b45",
+    "uk-inquiry-2026-08-14-52d82c2e057b",
+    "uk-inquiry-2026-08-14-9f6e0690062b"
    ],
-   "items": [],
    "questions": [],
    "triggers": []
   },
@@ -810,21 +905,51 @@
     "oversight",
     "case"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "moved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 3,
+   "summary": "3 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Epstein investigation into Michigan arts school un",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "3",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: Epstein investigation into Michigan arts school un. Claims on record recorded as 3.",
+     "s": "3 claim(s) from 32 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Epstein investigation into Michigan arts school un"
+    },
+    {
+     "k": "Claims on record",
+     "v": "3"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
-   "unknown": [
-    "No claim has survived verification on this beat."
+   "unknown": [],
+   "items": [
+    "epstein-institutions-2026-08-14-265216d89a58",
+    "epstein-institutions-2026-08-14-6f005a59ca27",
+    "epstein-institutions-2026-08-14-96d0adb60a18"
    ],
-   "items": [],
    "questions": [],
    "triggers": []
   },
@@ -838,420 +963,443 @@
     "death",
     "oversight"
    ],
-   "status": "quiet",
-   "opened": "—",
-   "lastChange": "—",
-   "events": 0,
-   "summary": "0 claim(s) on record.",
-   "state": [],
-   "history": [],
+   "status": "moved",
+   "opened": "2026-08-14",
+   "lastChange": "2026-08-14",
+   "events": 3,
+   "summary": "3 claim(s) on record.",
+   "state": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Number 10 Denies Burnham is Looking into Epstein E",
+     "since": "14 Aug",
+     "flag": null
+    },
+    {
+     "k": "Claims on record",
+     "v": "3",
+     "since": "14 Aug",
+     "flag": null
+    }
+   ],
+   "history": [
+    {
+     "d": "2026-08-14",
+     "c": "Most recent claim recorded as Reported: Number 10 Denies Burnham is Looking into Epstein E. Claims on record recorded as 3.",
+     "s": "3 claim(s) from 26 source(s)"
+    }
+   ],
    "changes": [],
-   "added": [],
+   "added": [
+    {
+     "k": "Most recent claim",
+     "v": "Reported: Number 10 Denies Burnham is Looking into Epstein E"
+    },
+    {
+     "k": "Claims on record",
+     "v": "3"
+    }
+   ],
    "removed": [],
    "unchanged": 0,
-   "unknown": [
-    "No claim has survived verification on this beat."
+   "unknown": [],
+   "items": [
+    "epstein-death-2026-08-14-170c991d725f",
+    "epstein-death-2026-08-14-1c6caa956177",
+    "epstein-death-2026-08-14-8336b42b14f3"
    ],
-   "items": [],
    "questions": [],
    "triggers": []
   }
  ],
  "items": [
   {
-   "id": "nm-records-2026-08-14-000",
+   "id": "prices-2026-08-14-0dfdb632746f",
    "kind": "wire",
    "beats": [
-    "nm-records"
+    "prices"
    ],
-   "stamp": "documented",
-   "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
-   "deck": "Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.",
+   "stamp": "open",
+   "title": "Reported: What else can Trump do to distract Americans from the Epstein Files?",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;New Mexico&#39;s Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials&rdquo;"
+    "Quoted from the source: &ldquo;What else can Trump do to distract Americans from the&rdquo;"
    ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "nbcnews.com",
-     "u": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
-     "t": "news",
-     "c": "0.6"
+     "n": "reddit.com",
+     "u": "https://www.reddit.com/r/Epstein/comments/1vicwl5/what_else_can_trump_do_to_distract_americans_from",
+     "t": "misc",
+     "c": "0.38"
     }
    ],
    "corroboration": 1,
    "questions": []
   },
   {
-   "id": "nm-records-2026-08-14-001",
+   "id": "flock-2026-08-14-079b0a59833b",
+   "kind": "wire",
+   "beats": [
+    "flock"
+   ],
+   "stamp": "open",
+   "title": "Reported: this guy on tiktok and instagram been impersonating Flock Safety manager, Randy Gluck,",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;this guy on tiktok and instagram been impersonating Flock&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "reddit.com",
+     "u": "https://www.reddit.com/r/Epstein/comments/1viofao/this_guy_on_tiktok_and_instagram_been",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "detention-2026-08-14-f3a63958050d",
+   "kind": "wire",
+   "beats": [
+    "detention"
+   ],
+   "stamp": "open",
+   "title": "Reported: &quot;Brexit is just the beginning...&quot; While the UK was distracted by sovereignty and borders,",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;&quot;Brexit is just the beginning...&quot; While the UK was&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "reddit.com",
+     "u": "https://www.reddit.com/r/Epstein/comments/1vjokzv/the_digital_coup_uk",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "nm-records-2026-08-14-9e72bf4c9101",
    "kind": "wire",
    "beats": [
     "nm-records"
    ],
    "stamp": "open",
-   "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
-   "deck": "This is the state&#39;s characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
+   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;to stand down&rdquo;"
+    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "abqjournal.com",
-     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
-     "t": "news",
-     "c": "0.55"
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a6e88cb0a9d46c9b962b477f985d6cd&amp;url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&amp;c=3939647737186790260&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    },
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a6edd17e56740e98bb31f71fc7a1d66&amp;url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&amp;c=3939647737186790260&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
     }
    ],
    "corroboration": 1,
    "questions": []
   },
   {
-   "id": "nm-records-2026-08-14-002",
+   "id": "nm-records-2026-08-14-f4c80b25f1eb",
    "kind": "wire",
    "beats": [
     "nm-records"
    ],
    "stamp": "open",
-   "title": "New Mexico alleges the promised federal evidence was never provided.",
-   "deck": "The central allegation of the complaint, asserted by one party. Uncorroborated by DOJ.",
+   "title": "Reported: Epstein &#39;truth commission&#39; report due Friday to be released next week",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;the promised evidence never came&rdquo;"
+    "Quoted from the source: &ldquo;Epstein &#39;truth commission&#39; report due Friday to be released&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "courthousenews.com",
-     "u": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
-     "t": "news",
-     "c": "0.55"
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb1JxT0t4RXdWZ0xHUzlDUld0dlFNQnRkeDloaGVaRFM2M2c5NC1DNDZKa0g1N3pDelBqRjRMMU1DV3JvWTdjUzl5ZU1zeC01YS0zWE5STWlPZVpYem52ekYzSkR5Wng2d204ZmVJRkZPODFEVjM3aTIzNW1Ja0V3b053YWxFLVE4cTA4LWRnRklQYnlhOGFyUDNBZXM2Q2Q1eDFVbGVMOGN3SnpWeldmVTZWQVhQOG01TDh2YXFyd0xEWG16VUZ6aFFZZ0dyNVZQbElZQUJBS092QVFGT1RRYmUtS3lZTHFzbEVuQjBLY1NuY2V3aFY2b21OVQ?oc=5",
+     "t": "misc",
+     "c": "0.38"
     }
    ],
    "corroboration": 1,
    "questions": []
   },
   {
-   "id": "nm-records-2026-08-14-003",
+   "id": "epstein-banks-2026-08-14-3736e0e19c7f",
    "kind": "wire",
    "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
-   "deck": "A quoted rationale attributed to records. News ceiling 0.6.",
-   "body": [
-    "Quoted from the source: &ldquo;risks of parallel investigations creating inconsistent statements&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "abqjournal.com",
-     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-004",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
-   "deck": "Long-established and uncontested. Capped at the news ceiling because it is cited here through a news source rather than a primary record.",
-   "body": [
-    "Quoted from the source: &ldquo;Epstein died in his jail cell on August 10&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "abqjournal.com",
-     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-005",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
-   "deck": "Corporate registration and deed dates are matters of public record; reported by the Santa Fe New Mexican and The Real Deal.",
-   "body": [
-    "Quoted from the source: &ldquo;a limited liability company created just a month before the purchase&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "santafenewmexican.com",
-     "u": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-006",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
-   "deck": "The mechanism by which the concealment broke is itself reported and checkable.",
-   "body": [
-    "Quoted from the source: &ldquo;It wasn&#39;t until a street name change and property taxes were contested that public records requests revealed the owner&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "therealdeal.com",
-     "u": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-007",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
-   "deck": "Named public figure and declared candidate; ownership established through public records.",
-   "body": [
-    "Quoted from the source: &ldquo;His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "therealdeal.com",
-     "u": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-008",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department&#39;s January 2026 release of the Epstein files.",
-   "deck": "Announced by the state and reported contemporaneously.",
-   "body": [
-    "Quoted from the source: &ldquo;reopened&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "aljazeera.com",
-     "u": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-009",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
+    "epstein-banks"
    ],
    "stamp": "open",
-   "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
-   "deck": "A forensic characterisation carried by a single outlet and attributed to investigators. Uncorroborated; the strongest claim here and the least settled.",
+   "title": "Reported: I was just wondering why if you type &quot;follow the money&quot; on the database search bar the",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;proof of prior excavation and altered substrate inconsistent with the original construction timeline&rdquo;"
+    "Quoted from the source: &ldquo;I was just wondering why if you type &quot;follow the money&quot; on&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.5, survived 1 verification round(s) on human-directed research",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "newsweek.com",
-     "u": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
-     "t": "news",
-     "c": "0.5"
+     "n": "reddit.com",
+     "u": "https://www.reddit.com/r/Epstein/comments/1veeinj/follow_the_money_turns_the_text_green",
+     "t": "misc",
+     "c": "0.38"
     }
    ],
    "corroboration": 1,
    "questions": []
   },
   {
-   "id": "nm-records-2026-08-14-010",
+   "id": "epstein-banks-2026-08-14-91bcec4b1309",
    "kind": "wire",
    "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
-   "deck": "A stop-work order is an official act with a paper trail.",
-   "body": [
-    "Quoted from the source: &ldquo;ordered to stop construction due to lack of permits&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "santafenewmexican.com",
-     "u": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-011",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The owners intend to convert the property into a Christian retreat.",
-   "deck": "Stated by the owner&#39;s campaign and reported directly.",
-   "body": [
-    "Quoted from the source: &ldquo;plans to turn it into a Christian retreat&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "thehill.com",
-     "u": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-012",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
+    "epstein-banks"
    ],
    "stamp": "open",
-   "title": "New Mexico&#39;s filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
-   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state&#39;s characterisation, not as a verified figure.",
+   "title": "Reported: Jeffrey Epstein’s European fixer raped us. Police turned a blind eye",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;over 13,000 references to Zorro Ranch and 5,000 references to New Mexico&rdquo;"
+    "Quoted from the source: &ldquo;Jeffrey Epstein’s European fixer raped us. Police turned a&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "nbcnews.com",
-     "u": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZEE4a0pwTHk1MnFRRHl0ai1xYzNKMEdSeTFDYnhZXzBFYkJ5QUFRdWhUbTV4d2xBNTRfYzVsMkxHLXg4SzkyWVVMdXNmUWZPNF9pcWlobFpndEU0ckVqdy1mMlBaTndjQ3pJRmRjaWFUZm5FR0xCYjN0WXloR2R5dTJGWkpWMUtFWmtTQXNRd2RQZ0E?oc=5",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "epstein-banks-2026-08-14-b75d3155ba34",
+   "kind": "wire",
+   "beats": [
+    "epstein-banks"
+   ],
+   "stamp": "open",
+   "title": "Reported: 60 Minutes Epstein-Banks story vanished amid CBS upheaval under Bari Weiss: report",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;60 Minutes Epstein-Banks story vanished amid CBS upheaval&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a71d486b1d74579bff8a483edf9686d&amp;url=https%3A%2F%2Fwww.msn.com%2Fen-ca%2Fnews%2Fpolitics%2F60-minutes-epstein-banks-story-vanished-amid-cbs-upheaval-under-bari-weiss-report%2Far-AA29mGss&amp;c=12187327408477006809&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uk-inquiry-2026-08-14-0492adac5b45",
+   "kind": "wire",
+   "beats": [
+    "uk-inquiry"
+   ],
+   "stamp": "open",
+   "title": "Reported: Former Prince Andrew’s Ex-Wife Reportedly Planning a ‘Solid’ Comeback After Epstein",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Former Prince Andrew’s Ex-Wife Reportedly Planning a&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a712bc9a64545b5bda286cfbd4851a8&amp;url=https%3A%2F%2Fwww.aol.com%2Farticles%2Fformer-prince-andrew-ex-wife-155900000.html&amp;c=10314548609131698538&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uk-inquiry-2026-08-14-52d82c2e057b",
+   "kind": "wire",
+   "beats": [
+    "uk-inquiry"
+   ],
+   "stamp": "open",
+   "title": "Reported: British government rules out immediate public enquiry into Jeffrey Epstein",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;British government rules out immediate public enquiry into&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a73cece76cb449b883117cd2e823fe7&amp;url=https%3A%2F%2Fwww.telegraphindia.com%2Fworld%2Fbritish-government-rules-out-immediate-public-enquiry-into-jeffrey-epstein%2Fcid%2F2173533&amp;c=8566723494740877610&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uk-inquiry-2026-08-14-9f6e0690062b",
+   "kind": "wire",
+   "beats": [
+    "uk-inquiry"
+   ],
+   "stamp": "open",
+   "title": "Reported: Hi Redditors the UK force, Thames Valley Police has called for more witnesses and",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Hi Redditors the UK force, Thames Valley Police has called&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "reddit.com",
+     "u": "https://www.reddit.com/r/Epstein/comments/1vcqxq0/andrew_uk_call_for_evidence",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "epstein-institutions-2026-08-14-265216d89a58",
+   "kind": "wire",
+   "beats": [
+    "epstein-institutions"
+   ],
+   "stamp": "open",
+   "title": "Reported: Epstein investigation into Michigan arts school uncovers decades of abuse allegations",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Epstein investigation into Michigan arts school uncovers&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMjc3QjdKSFB6SHBuU3R1bnVXRXBkRVViRDRvNkZTQUJQQ3V4bFZjNVRHUUxGR3ZuRjNRcHpONlhWXy1RZ29JWjJ2S3NmV3YxYkFIeWVNYUJqeUlTWVNwa0dsSFBabGliUFhPaWhWQ0hXTi1hSGhKYjN0OGdqaWYyQm94cmpHTENPZHFIck83bHVvak1wc01uRzZJUklwR1BfN0NvUHgtTmxjOFFtX2MzcGw5YmFSZlI1eGhBUWh4dGVBXzVWZTlLM2Zn0gHPAUFVX3lxTFBoc19jMExLNHNHYzdzUkJoNHozUlE3Tk1vRnUyQlYxMlZzeW1aaF92d1FyTllKWFFLMWpuSWpfSEVPTlNsNzVmZE9qWFljNC1tRWxxYWktcm40aDJNeXJLMXdWNVdjSndSQ2RnMV9xV2x1RkdLbmJUZGVqNkNWcTNjUDE5TDI0VUthUGFPOExma2dWWHNqS1FWSkE1MlRZbm9ZMnZ1aEZEQ0RUZzVUckdyODRoZ3VqblQ0ZGVMMzlmcF90Tjc4bTJadDFrLWdDdw?oc=5",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "epstein-institutions-2026-08-14-6f005a59ca27",
+   "kind": "wire",
+   "beats": [
+    "epstein-institutions"
+   ],
+   "stamp": "open",
+   "title": "Reported: Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein",
+   "deck": "news source, ceiling 0.6; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Michigan Arts School Alumni Allege Abuse by Jeffrey Epstein&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.45, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "hyperallergic.com",
+     "u": "https://hyperallergic.com/michigan-arts-school-alumni-allege-abuse-by-jeffrey-epstein",
      "t": "news",
-     "c": "0.55"
+     "c": "0.45"
+    },
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUVtOWhtRXpVN1l1MnRBV2Q4WThZMUs4V1dVN2FrMk9FcHc4STBUa2tVWHdzNnpBMmx3bDlSdzB5VlhibWlCM25HczlWa1laY2ZuVU9fUVB1VF80Qm01cVY4Y1VlTTJkV2Z1eVdUU2ZobFVOQW1ENjJqQXE3cnpMT1JHUFhBSU9aUTJmZmVydw?oc=5",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 2,
+   "questions": []
+  },
+  {
+   "id": "epstein-death-2026-08-14-170c991d725f",
+   "kind": "wire",
+   "beats": [
+    "epstein-death"
+   ],
+   "stamp": "open",
+   "title": "Reported: Trump&#39;s Role In Epstein Death Out? Sen. Kennedy EXPOSES Death Of Jeffrey Epstein Before",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Trump&#39;s Role In Epstein Death Out? Sen. Kennedy EXPOSES&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a776ed4be7943f0b977e8759b3cff2c&amp;url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&amp;c=674661273872150764&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    },
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a771a772f854e029dbae28045d91f5b&amp;url=https%3A%2F%2Fwww.oneindia.com%2Fvideos%2Ftrumps-role-in-epstein-death-out-sen-kennedy-exposes-death-of-jeffrey-epstein-before-midterms-4319842.html&amp;c=674661273872150764&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "epstein-death-2026-08-14-8336b42b14f3",
+   "kind": "wire",
+   "beats": [
+    "epstein-death"
+   ],
+   "stamp": "open",
+   "title": "Reported: Number 10 Denies Burnham is Looking into Epstein Enquiry as Cover-Up Looks Set to",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
+   "body": [
+    "Quoted from the source: &ldquo;Number 10 Denies Burnham is Looking into Epstein Enquiry as&rdquo;"
+   ],
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95bXl5WTN4N2lVQmlVT3pNazdlSmJKbHVraUk0dTlwY2VJcUxiVTF1b2ktTFEteGtjM3Q2S0syWVB0VmRqUzhfOWlkTEJXTm91MlZlbHI4TEdvSmg0T1pCeHVqQzJNajhGc1ZRcTVhNjlfUENmMVl1N3JxVQ?oc=5",
+     "t": "misc",
+     "c": "0.38"
     }
    ],
    "corroboration": 1,
    "questions": []
   }
  ],
- "questions": [
-  {
-   "id": "q-auction-structure",
-   "beat": "nm-records",
-   "q": "Was concealing the buyer behind a one-month-old LLC ordinary for this auction, and who else bid?",
-   "known": "San Rafael Ranch LLC was registered roughly a month before the purchase and the owners' names were withheld. The concealment broke only via a street-name change and a tax contest, i.e. by accident rather than disclosure.",
-   "who": "The auction house · the Epstein estate's compensation administrators · NM Secretary of State",
-   "doc": "Auction records; the LLC's formation filing; the recorded warranty deed",
-   "next": "Not scheduled — requires a records request",
-   "opened": "14 Aug 2026",
-   "status": "Open · not being pursued by anyone visible"
-  },
-  {
-   "id": "q-evidentiary-loss",
-   "beat": "nm-records",
-   "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
-   "known": "The property changed hands at auction in 2023, was renamed, and unpermitted construction began. Investigators reported excavation and altered substrate inconsistent with the original construction timeline. The state did not have investigative access during that period.",
-   "who": "NMDOJ investigators · Santa Fe County permitting · the current owners",
-   "doc": "The stop-work order and permit file; the state's search inventory from March 2026",
-   "next": "The New Mexico truth commission's subpoena returns",
-   "opened": "14 Aug 2026",
-   "status": "Open"
-  },
-  {
-   "id": "q-standdown-expiry",
-   "beat": "nm-records",
-   "q": "Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?",
-   "known": "The stated reason for asking New Mexico to stand down in July 2019 was the risk that parallel investigations would generate inconsistent statements. The federal defendant died on 10 August 2019, roughly two and a half weeks later, ending that prosecution. New Mexico alleges the promised information was never provided and is litigating for it in 2026 — six and a half years later.",
-   "who": "The Justice Department · the SDNY prosecutors of record in 2019 · Todd Blanche",
-   "doc": "Any internal DOJ review of the 2019 referral commitment; the government's answer to the New Mexico complaint",
-   "next": "The government's response on the D.D.C. docket",
-   "opened": "14 Aug 2026",
-   "status": "Open · never publicly asked"
-  }
- ],
- "triggers": [
-  {
-   "id": "t-nm-response",
-   "sort": "2026-09-05",
-   "d": "SEP",
-   "beat": "nm-records",
-   "t": "Government response due, New Mexico v. DOJ",
-   "s": "The answer is where the 2019 stand-down rationale must be defended. Non-response is itself recordable."
-  },
-  {
-   "id": "t-truth-commission",
-   "sort": "2026-09-15",
-   "d": "SEP",
-   "beat": "nm-records",
-   "t": "New Mexico truth commission subpoena returns",
-   "s": "Began 1 June 2026 with subpoena power over the Zorro Ranch period."
-  },
-  {
-   "id": "t-tx-comptroller",
-   "sort": "2026-11-03",
-   "d": "3 NOV",
-   "beat": "nm-records",
-   "t": "Texas Comptroller election",
-   "s": "The property's owner is a candidate; the office oversees state financial matters."
-  }
- ],
- "contradictions": [
-  {
-   "id": "c-standdown",
-   "beat": "nm-records",
-   "opened": "14 Aug 2026",
-   "a": "Parallel investigations risk inconsistent statements",
-   "asrc": "Federal rationale for the stand-down request, July 2019",
-   "b": "The federal prosecution ended on 10 August 2019, and the material was still withheld in 2026",
-   "bsrc": "New Mexico's complaint, filed 5 August 2026",
-   "tier": "Documented fact against documented fact",
-   "st": "Unreconciled. The stated reason expired roughly 18 days after it was given; the withholding outlasted it by more than six years.",
-   "c": "0.6",
-   "item": null
-  }
- ],
+ "questions": [],
+ "triggers": [],
+ "contradictions": [],
  "archive": [
   {
    "d": "2026-08-14",
    "n": "001",
-   "items": 1,
+   "items": 8,
    "note": "Not published (dry_run)"
   }
  ]

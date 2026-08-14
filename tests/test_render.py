@@ -382,3 +382,15 @@ def test_a_hostile_change_value_is_escaped(tmp_path):
                   "changes": [{"k": "<img src=x>", "from": "a", "to": "<script>y</script>"}]}]})
     b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
     assert "<script" not in json.dumps(b["changes"]) and "&lt;img" in b["changes"][0]["k"]
+
+
+def test_questions_and_triggers_are_escaped_like_everything_else(tmp_path):
+    """These are ledger objects a model can write; 'ours' is not a safety property."""
+    l = Ledger(tmp_path / "data")
+    (l.root / "questions").mkdir(parents=True, exist_ok=True)
+    (l.root / "questions" / "q1.json").write_text(json.dumps({
+        "id": "q1", "beat": "compliance", "q": "<img src=x onerror=alert(1)>",
+        "who": ["<script>a</script>"]}))
+    d = build(l.root, CFG, "2026-08-14")
+    blob = json.dumps(d["questions"])
+    assert "<img" not in blob and "<script" not in blob and "&lt;img" in blob

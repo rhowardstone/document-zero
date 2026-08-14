@@ -13,6 +13,7 @@ from ledger.store import Ledger
 from ledger.ingest import normalise
 from ledger.beats import load_beats, load_beat_meta
 from ledger.sweep import plan_sweep, run_sweep
+from ledger import subjects
 from ledger.agent import BeatAgent
 from ledger.editor import run_editor
 from ledger.client import Cost, AnthropicExtractor, refute_pass, lens_pass
@@ -73,7 +74,7 @@ def factory(beat):
     return BeatAgent(ledger=Ledger(root, writer=f"beat:{beat}"), beat=beat, policy=POLICY,
                      extractor=extractor, extractor_family=extractor.family,
                      passes=[refute_pass(cost), lens_pass(cost)],
-                     state_proposer=proposer(beat), subject_resolver=lambda c: [],
+                     state_proposer=proposer(beat), subject_resolver=subjects.resolver(POLICY.get('roster')),
                      now=NOW, consensus_required=2)
 
 t0 = time.time()

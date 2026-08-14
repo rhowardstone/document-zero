@@ -10,21 +10,53 @@
    "oversight",
    "case"
   ],
-  "status": "quiet",
-  "opened": "—",
-  "lastChange": "—",
-  "events": 0,
-  "summary": "0 claim(s) on record.",
-  "state": [],
-  "history": [],
+  "status": "unresolved",
+  "opened": "2026-08-14",
+  "lastChange": "2026-08-14",
+  "events": 3,
+  "summary": "3 claim(s) on record.",
+  "state": [
+   {
+    "k": "Most recent claim",
+    "v": "Reported: DoJ appears to ignore New Mexico deadline for key ",
+    "since": "14 Aug",
+    "flag": null
+   },
+   {
+    "k": "Claims on record",
+    "v": "3",
+    "since": "14 Aug",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-14",
+    "c": "Most recent claim recorded as Reported: DoJ appears to ignore New Mexico deadline for key . Claims on record recorded as 3.",
+    "s": "3 claim(s) from 60 source(s)"
+   }
+  ],
   "changes": [],
-  "added": [],
+  "added": [
+   {
+    "k": "Most recent claim",
+    "v": "Reported: DoJ appears to ignore New Mexico deadline for key "
+   },
+   {
+    "k": "Claims on record",
+    "v": "3"
+   }
+  ],
   "removed": [],
   "unchanged": 0,
   "unknown": [
-   "No claim has survived verification on this beat."
+   "Held: single_root_multi_source"
   ],
-  "items": [],
+  "items": [
+   "compliance-2026-08-14-95002b7f33ac",
+   "compliance-2026-08-14-9e72bf4c9101",
+   "compliance-2026-08-14-f06c17b03e81"
+  ],
   "questions": [],
   "triggers": []
  },

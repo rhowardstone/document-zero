@@ -11,474 +11,103 @@
    "oversight"
   ],
   "status": "moved",
-  "opened": "2026-08-05",
-  "lastChange": "2019-07-23",
-  "events": 13,
-  "summary": "13 claim(s) on record.",
+  "opened": "2026-08-14",
+  "lastChange": "2026-08-14",
+  "events": 3,
+  "summary": "3 claim(s) on record.",
   "state": [
    {
-    "k": "Federal suit",
-    "v": "Filed 5 Aug 2026, D.D.C.",
-    "since": "5 Aug",
-    "flag": "hot"
-   },
-   {
-    "k": "State criminal probe",
-    "v": "Reopened 19 Feb 2026",
-    "since": "19 Feb",
-    "flag": "hot"
-   },
-   {
-    "k": "Records sought",
-    "v": "Unredacted Epstein investigative files",
-    "since": "5 Aug",
+    "k": "Most recent claim",
+    "v": "Reported: Epstein &#39;truth commission&#39; report due Friday to be",
+    "since": "14 Aug",
     "flag": null
    },
    {
-    "k": "2019 stand-down rationale",
-    "v": "Expired 10 Aug 2019 with the defendant",
-    "since": "10 Aug 2019",
-    "flag": "hot"
-   },
-   {
-    "k": "Site ownership",
-    "v": "San Rafael Ranch LLC (Huffines family), since 2023",
-    "since": "Aug 2023",
-    "flag": null
-   },
-   {
-    "k": "Site status",
-    "v": "Construction paused for want of permits",
-    "since": "2026",
-    "flag": "warn"
-   },
-   {
-    "k": "Physical evidence",
-    "v": "Excavation and altered substrate reported",
-    "since": "Mar 2026",
-    "flag": "warn"
-   },
-   {
-    "k": "Truth commission",
-    "v": "Subpoenas issuing since 1 Jun 2026",
-    "since": "1 Jun",
+    "k": "Claims on record",
+    "v": "3",
+    "since": "14 Aug",
     "flag": null
    }
   ],
   "history": [
    {
-    "d": "2026-08-05",
-    "c": "Federal suit → filed against DOJ and Blanche in D.D.C.",
-    "s": "NBC News; PBS; Courthouse News"
-   },
-   {
-    "d": "2026-06-01",
-    "c": "Truth commission → began, with subpoena power.",
-    "s": "CNN"
-   },
-   {
-    "d": "2026-03-01",
-    "c": "Site searched by NMDOJ with State Police and K-9 units; excavation and altered substrate reported.",
-    "s": "Newsweek; NMDOJ"
-   },
-   {
-    "d": "2026-02-19",
-    "c": "State criminal probe → reopened following the January federal release.",
-    "s": "Al Jazeera"
-   },
-   {
-    "d": "2026-02-17",
-    "c": "Beneficial owner revealed as the Huffines family after a street-name change and a tax contest.",
-    "s": "The Real Deal"
-   },
-   {
-    "d": "2023-08-16",
-    "c": "Site ownership → San Rafael Ranch LLC at public auction; beneficial owner concealed.",
-    "s": "Santa Fe New Mexican; The Real Deal"
-   },
-   {
-    "d": "2019-08-10",
-    "c": "Federal prosecution ended with the defendant&#39;s death. Stated rationale for the stand-down ceased to apply.",
-    "s": "Contemporaneous reporting"
-   },
-   {
-    "d": "2019-07-23",
-    "c": "Stand-down requested → state investigation paused on a federal promise.",
-    "s": "Reported from records, Albuquerque Journal"
+    "d": "2026-08-14",
+    "c": "Most recent claim recorded as Reported: Epstein &#39;truth commission&#39; report due Friday to be. Claims on record recorded as 3.",
+    "s": "3 claim(s) from 60 source(s)"
    }
   ],
   "changes": [],
   "added": [
    {
-    "k": "Federal suit",
-    "v": "Filed 5 Aug 2026, D.D.C."
+    "k": "Most recent claim",
+    "v": "Reported: Epstein &#39;truth commission&#39; report due Friday to be"
    },
    {
-    "k": "State criminal probe",
-    "v": "Reopened 19 Feb 2026"
-   },
-   {
-    "k": "Records sought",
-    "v": "Unredacted Epstein investigative files"
-   },
-   {
-    "k": "2019 stand-down rationale",
-    "v": "Expired 10 Aug 2019 with the defendant"
-   },
-   {
-    "k": "Site ownership",
-    "v": "San Rafael Ranch LLC (Huffines family), since 2023"
-   },
-   {
-    "k": "Site status",
-    "v": "Construction paused for want of permits"
-   },
-   {
-    "k": "Physical evidence",
-    "v": "Excavation and altered substrate reported"
-   },
-   {
-    "k": "Truth commission",
-    "v": "Subpoenas issuing since 1 Jun 2026"
+    "k": "Claims on record",
+    "v": "3"
    }
   ],
   "removed": [],
   "unchanged": 0,
   "unknown": [],
   "items": [
-   "nm-records-2026-08-14-000",
-   "nm-records-2026-08-14-001",
-   "nm-records-2026-08-14-002",
-   "nm-records-2026-08-14-003",
-   "nm-records-2026-08-14-004",
-   "nm-records-2026-08-14-005",
-   "nm-records-2026-08-14-006",
-   "nm-records-2026-08-14-007",
-   "nm-records-2026-08-14-008",
-   "nm-records-2026-08-14-009",
-   "nm-records-2026-08-14-010",
-   "nm-records-2026-08-14-011",
-   "nm-records-2026-08-14-012"
+   "nm-records-2026-08-14-9e72bf4c9101",
+   "nm-records-2026-08-14-f06c17b03e81",
+   "nm-records-2026-08-14-f4c80b25f1eb"
   ],
-  "questions": [
-   "q-auction-structure",
-   "q-evidentiary-loss",
-   "q-standdown-expiry"
-  ],
-  "triggers": [
-   "t-nm-response",
-   "t-truth-commission",
-   "t-tx-comptroller"
-  ]
+  "questions": [],
+  "triggers": []
  },
  "records": [
   {
-   "id": "nm-records-2026-08-14-000",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
-   "deck": "Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.",
-   "body": [
-    "Quoted from the source: &ldquo;New Mexico&#39;s Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "nbcnews.com",
-     "u": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-001",
+   "id": "nm-records-2026-08-14-9e72bf4c9101",
    "kind": "wire",
    "beats": [
     "nm-records"
    ],
    "stamp": "open",
-   "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
-   "deck": "This is the state&#39;s characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
+   "title": "Reported: DoJ appears to ignore New Mexico deadline for key Epstein ranch files",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;to stand down&rdquo;"
+    "Quoted from the source: &ldquo;DoJ appears to ignore New Mexico deadline for key Epstein&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "abqjournal.com",
-     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
-     "t": "news",
-     "c": "0.55"
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a6e88cb0a9d46c9b962b477f985d6cd&amp;url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&amp;c=3939647737186790260&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
+    },
+    {
+     "n": "bing.com",
+     "u": "http://www.bing.com/news/apiclick.aspx?aid=&amp;tid=6a6edd17e56740e98bb31f71fc7a1d66&amp;url=https%3A%2F%2Fwww.theguardian.com%2Fus-news%2F2026%2Faug%2F01%2Fdoj-new-mexico-epstein-documents&amp;c=3939647737186790260&amp;mkt=en-us",
+     "t": "misc",
+     "c": "0.38"
     }
    ],
    "corroboration": 1,
    "questions": []
   },
   {
-   "id": "nm-records-2026-08-14-002",
+   "id": "nm-records-2026-08-14-f4c80b25f1eb",
    "kind": "wire",
    "beats": [
     "nm-records"
    ],
    "stamp": "open",
-   "title": "New Mexico alleges the promised federal evidence was never provided.",
-   "deck": "The central allegation of the complaint, asserted by one party. Uncorroborated by DOJ.",
+   "title": "Reported: Epstein &#39;truth commission&#39; report due Friday to be released next week",
+   "deck": "misc source, ceiling 0.5; a headline restatement establishes only that the claim was published, not that it is established",
    "body": [
-    "Quoted from the source: &ldquo;the promised evidence never came&rdquo;"
+    "Quoted from the source: &ldquo;Epstein &#39;truth commission&#39; report due Friday to be released&rdquo;"
    ],
-   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
+   "derived": "tier credible_allegation, confidence 0.38, survived 1 verification round(s) on B, C",
    "sources": [
     {
-     "n": "courthousenews.com",
-     "u": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
-     "t": "news",
-     "c": "0.55"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-003",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
-   "deck": "A quoted rationale attributed to records. News ceiling 0.6.",
-   "body": [
-    "Quoted from the source: &ldquo;risks of parallel investigations creating inconsistent statements&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "abqjournal.com",
-     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-004",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
-   "deck": "Long-established and uncontested. Capped at the news ceiling because it is cited here through a news source rather than a primary record.",
-   "body": [
-    "Quoted from the source: &ldquo;Epstein died in his jail cell on August 10&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "abqjournal.com",
-     "u": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-005",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
-   "deck": "Corporate registration and deed dates are matters of public record; reported by the Santa Fe New Mexican and The Real Deal.",
-   "body": [
-    "Quoted from the source: &ldquo;a limited liability company created just a month before the purchase&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "santafenewmexican.com",
-     "u": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-006",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
-   "deck": "The mechanism by which the concealment broke is itself reported and checkable.",
-   "body": [
-    "Quoted from the source: &ldquo;It wasn&#39;t until a street name change and property taxes were contested that public records requests revealed the owner&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "therealdeal.com",
-     "u": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-007",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
-   "deck": "Named public figure and declared candidate; ownership established through public records.",
-   "body": [
-    "Quoted from the source: &ldquo;His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "therealdeal.com",
-     "u": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-008",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department&#39;s January 2026 release of the Epstein files.",
-   "deck": "Announced by the state and reported contemporaneously.",
-   "body": [
-    "Quoted from the source: &ldquo;reopened&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "aljazeera.com",
-     "u": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-009",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "open",
-   "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
-   "deck": "A forensic characterisation carried by a single outlet and attributed to investigators. Uncorroborated; the strongest claim here and the least settled.",
-   "body": [
-    "Quoted from the source: &ldquo;proof of prior excavation and altered substrate inconsistent with the original construction timeline&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.5, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "newsweek.com",
-     "u": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
-     "t": "news",
-     "c": "0.5"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-010",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
-   "deck": "A stop-work order is an official act with a paper trail.",
-   "body": [
-    "Quoted from the source: &ldquo;ordered to stop construction due to lack of permits&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "santafenewmexican.com",
-     "u": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-011",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "documented",
-   "title": "The owners intend to convert the property into a Christian retreat.",
-   "deck": "Stated by the owner&#39;s campaign and reported directly.",
-   "body": [
-    "Quoted from the source: &ldquo;plans to turn it into a Christian retreat&rdquo;"
-   ],
-   "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "thehill.com",
-     "u": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
-     "t": "news",
-     "c": "0.6"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "nm-records-2026-08-14-012",
-   "kind": "wire",
-   "beats": [
-    "nm-records"
-   ],
-   "stamp": "open",
-   "title": "New Mexico&#39;s filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
-   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state&#39;s characterisation, not as a verified figure.",
-   "body": [
-    "Quoted from the source: &ldquo;over 13,000 references to Zorro Ranch and 5,000 references to New Mexico&rdquo;"
-   ],
-   "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
-   "sources": [
-    {
-     "n": "nbcnews.com",
-     "u": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
-     "t": "news",
-     "c": "0.55"
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb1JxT0t4RXdWZ0xHUzlDUld0dlFNQnRkeDloaGVaRFM2M2c5NC1DNDZKa0g1N3pDelBqRjRMMU1DV3JvWTdjUzl5ZU1zeC01YS0zWE5STWlPZVpYem52ekYzSkR5Wng2d204ZmVJRkZPODFEVjM3aTIzNW1Ja0V3b053YWxFLVE4cTA4LWRnRklQYnlhOGFyUDNBZXM2Q2Q1eDFVbGVMOGN3SnpWeldmVTZWQVhQOG01TDh2YXFyd0xEWG16VUZ6aFFZZ0dyNVZQbElZQUJBS092QVFGT1RRYmUtS3lZTHFzbEVuQjBLY1NuY2V3aFY2b21OVQ?oc=5",
+     "t": "misc",
+     "c": "0.38"
     }
    ],
    "corroboration": 1,
