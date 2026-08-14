@@ -1,0 +1,155 @@
+{
+ "query": "unknowns",
+ "question": "What does the record explicitly NOT establish?",
+ "method": "the `unknown` array of every beat, which the renderer never omits",
+ "count": 21,
+ "results": [
+  {
+   "beat": "hormuz",
+   "name": "The Strait of Hormuz & the blockade",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "iran-diplo",
+   "name": "Iran diplomacy & the ceasefire",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "fed",
+   "name": "Fed policy & the September decision",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "prices",
+   "name": "Fuel & grocery prices",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "agenda",
+   "name": "The regulatory agenda",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "compliance",
+   "name": "DOJ compliance with the Transparency Act",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "kennedy",
+   "name": "The Kennedy Center",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "mangione",
+   "name": "United States v. Mangione",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "robinson",
+   "name": "State v. Robinson",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "wells",
+   "name": "The death of Nolan Wells",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "flock",
+   "name": "Flock & plate-reader networks",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "dcpolice",
+   "name": "Federal policing in the District",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "detention",
+   "name": "ICE detention conditions",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "vaccines",
+   "name": "The childhood vaccine schedule",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "redistricting",
+   "name": "Mid-decade redistricting",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "datacentres",
+   "name": "Data centres & the grid",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "epstein-network",
+   "name": "The Epstein network and its enablers",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "epstein-banks",
+   "name": "Banks, the Senate report, and Epstein's money",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "uk-inquiry",
+   "name": "The UK public inquiry",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "epstein-institutions",
+   "name": "Institutions that hosted the abuse",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  },
+  {
+   "beat": "epstein-death",
+   "name": "The death and what it foreclosed",
+   "unknown": [
+    "No claim has survived verification on this beat."
+   ]
+  }
+ ]
+}

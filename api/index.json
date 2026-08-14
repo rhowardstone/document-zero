@@ -22,11 +22,14 @@
   "records": "api/records.json",
   "sources": "api/sources.json",
   "edition": "api/edition/{YYYY-MM-DD}.json",
-  "schema": "api/schema.json"
+  "schema": "api/schema.json",
+  "queries": "api/query/index.json",
+  "query": "api/query/{name}.json"
  },
  "counts": {
   "beats": 22,
   "records": 13,
-  "sources": 9
+  "sources": 9,
+  "queries": 12
  }
 }

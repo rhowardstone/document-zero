@@ -1,0 +1,7 @@
+{
+ "query": "single-publisher-beats",
+ "question": "Which beats rest entirely on one publisher?",
+ "method": "for each beat, the set of distinct publisher hosts across its published records; beats where that set has exactly one member",
+ "count": 0,
+ "results": []
+}

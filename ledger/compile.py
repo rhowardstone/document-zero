@@ -18,11 +18,13 @@ create table sources(sha256 text primary key, url text, title text, source_name 
   source_type text, published_at text, first_seen text, day text);
 create table source_beats(sha256 text, beat text, score real);
 create table claims(id text primary key, beat text, claim_text text, quote text,
-  source_type text, source_url text, source_doi text, confidence real,
-  confidence_justification text, tier text, extracted_by text, extracted_at text);
+  source_sha text, source_type text, source_url text, source_doi text, confidence real,
+  confidence_justification text, tier text, extracted_by text, extracted_at text,
+  verification_rounds integer, verifier_families text);
 create table beat_state(beat text, as_of text, k text, v text, since text, flag text);
 create table beat_history(beat text, d text, c text, s text, ord integer);
 create index ix_claims_beat on claims(beat);
+create index ix_claims_sha on claims(source_sha);
 create index ix_state_beat on beat_state(beat);
 create index ix_srcbeats on source_beats(beat);
 """
@@ -63,11 +65,15 @@ def compile_db(root, db_path) -> Path:
                 c = _load(f)
                 if not c:
                     continue
-                con.execute("insert or replace into claims values(?,?,?,?,?,?,?,?,?,?,?,?)",
-                            (c["id"], c.get("beat"), c.get("claim_text"), c.get("quote"),
-                             c.get("source_type"), c.get("source_url"), c.get("source_doi"),
-                             c.get("confidence"), c.get("confidence_justification"),
-                             c.get("tier"), c.get("extracted_by"), c.get("extracted_at")))
+                con.execute(
+                    "insert or replace into claims values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                    (c["id"], c.get("beat"), c.get("claim_text"), c.get("quote"),
+                     c.get("source_sha"), c.get("source_type"), c.get("source_url"),
+                     c.get("source_doi"), c.get("confidence"),
+                     c.get("confidence_justification"), c.get("tier"),
+                     c.get("extracted_by"), c.get("extracted_at"),
+                     c.get("verification_rounds"),
+                     ",".join(c.get("verifier_families") or []) or None))
 
     bdir = root / P.BEATS
     if bdir.exists():

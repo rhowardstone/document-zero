@@ -13,7 +13,7 @@ actually establish:
 Confidence is capped by source type regardless of how clearly a thing is written.
 Costs nothing to run.
 """
-import sys, pathlib, tempfile, json
+import sys, pathlib, tempfile, json, hashlib
 sys.path.insert(0, "/mnt/d/Newsdesk")
 from ledger.store import Ledger
 from ledger.sourcetype import classify
@@ -184,11 +184,28 @@ CONTRADICTIONS = [
 def main():
     root = pathlib.Path(tempfile.mkdtemp()) / "data"
     led = Ledger(root, writer=W)
+
+    # Register every cited source, so the claim -> source join in the compiled
+    # database resolves. Without this the claims carry a URL but no source_sha,
+    # and the join llms.txt advertises returns nothing: the site would ship a
+    # provenance database in which provenance could not be traced.
+    ing = Ledger(root, writer="ingest")
+    SHA = {}
+    for key, url in S.items():
+        sha = hashlib.sha256(url.encode("utf-8")).hexdigest()
+        SHA[key] = sha
+        ing.put_source("2026-08-14", {
+            "sha256": sha, "url": url, "title": f"Source cited by {BEAT} ({key})",
+            "source_name": url.split("/")[2], "source_type": classify(url),
+            "published_at": NOW, "first_seen": NOW,
+            "candidate_beats": [{"beat": BEAT, "score": 1.0}]})
+
     for i, (text, quote, key, tier, conf, why) in enumerate(CLAIMS):
         url = S[key]
         led.put_claim({
             "id": f"{BEAT}-2026-08-14-{i:03d}", "beat": BEAT,
             "claim_text": text, "quote": quote,
+            "source_sha": SHA[key],
             "source_type": classify(url), "source_url": url,
             "confidence": conf, "confidence_justification": why, "tier": tier,
             "extracted_by": "agent:eagle-eye", "extracted_at": NOW,
@@ -262,6 +279,11 @@ def main():
     data = build(root, "/mnt/d/Newsdesk/config/beats.yaml", "2026-08-14")
     write_data_js(data, "/mnt/d/Newsdesk/data.js")
     publish(data, "/mnt/d/Newsdesk", base_url="https://doczero.epstein-data.com")
+    # The compiled ledger ships with the site. llms.txt points agents at it for
+    # any question the precomputed views do not anticipate, and a query surface
+    # that names a file it does not publish is worse than one that names none.
+    from ledger.compile import compile_db
+    compile_db(root, "/mnt/d/Newsdesk/newsdesk.db")
     print(f"seeded {len(CLAIMS)} claims, {len(QUESTIONS)} questions, "
           f"{len(TRIGGERS)} triggers, {len(CONTRADICTIONS)} contradiction(s)")
     tiers = {}

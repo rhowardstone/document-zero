@@ -1,0 +1,76 @@
+{
+ "query": "tier-open",
+ "question": "Which published claims are stamped `open`?",
+ "method": "records with kind=wire and stamp=open. `open` maps to the prose tier `credible_allegation`; the stamp governs how the claim may be restated, not how important it is.",
+ "count": 4,
+ "results": [
+  {
+   "id": "nm-records-2026-08-14-001",
+   "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "abqjournal.com",
+     "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-002",
+   "title": "New Mexico alleges the promised federal evidence was never provided.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-009",
+   "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "newsweek.com",
+     "url": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-012",
+   "title": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  }
+ ]
+}

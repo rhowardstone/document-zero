@@ -1,0 +1,7 @@
+{
+ "query": "cross-beat-sources",
+ "question": "Which single sources inform more than one beat?",
+ "method": "sources grouped by URL across published records; those whose beat set has more than one member. A source spanning beats is either a genuine connection or a routing error, and both are worth seeing.",
+ "count": 0,
+ "results": []
+}

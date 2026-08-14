@@ -1,0 +1,229 @@
+{
+ "query": "uncorroborated",
+ "question": "Which published claims rest on a single publisher?",
+ "method": "records with kind=wire and corroboration == 1, where corroboration counts distinct publisher hosts rather than distinct URLs",
+ "count": 13,
+ "results": [
+  {
+   "id": "nm-records-2026-08-14-000",
+   "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-001",
+   "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "abqjournal.com",
+     "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-002",
+   "title": "New Mexico alleges the promised federal evidence was never provided.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-003",
+   "title": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "abqjournal.com",
+     "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-004",
+   "title": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "abqjournal.com",
+     "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-005",
+   "title": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "santafenewmexican.com",
+     "url": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-006",
+   "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "therealdeal.com",
+     "url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-007",
+   "title": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "therealdeal.com",
+     "url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-008",
+   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-009",
+   "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "newsweek.com",
+     "url": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-010",
+   "title": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "santafenewmexican.com",
+     "url": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-011",
+   "title": "The owners intend to convert the property into a Christian retreat.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-012",
+   "title": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  }
+ ]
+}

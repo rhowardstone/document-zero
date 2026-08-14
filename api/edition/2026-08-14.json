@@ -668,7 +668,7 @@
     },
     {
      "d": "2019-08-10",
-     "c": "Federal prosecution ended with the defendant&#39;s death. Stated rationale for the stand-down ceased to apply.",
+     "c": "Federal prosecution ended with the defendant's death. Stated rationale for the stand-down ceased to apply.",
      "s": "Contemporaneous reporting"
     },
     {
@@ -868,7 +868,7 @@
    "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
    "deck": "Filing reported independently by NBC, PBS and Courthouse News; the existence and venue of a federal complaint is the kind of fact a filing settles. News ceiling 0.6.",
    "body": [
-    "Quoted from the source: &ldquo;New Mexico&#39;s Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials&rdquo;"
+    "Quoted from the source: “New Mexico's Attorney General Raul Torrez accused the Department of Justice of unlawfully withholding unredacted materials”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -890,9 +890,9 @@
    ],
    "stamp": "open",
    "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
-   "deck": "This is the state&#39;s characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
+   "deck": "This is the state's characterisation of a 2019 exchange, reported from records but not independently confirmed here. An allegation by a party to the dispute, not a settled fact.",
    "body": [
-    "Quoted from the source: &ldquo;to stand down&rdquo;"
+    "Quoted from the source: “to stand down”"
    ],
    "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -916,7 +916,7 @@
    "title": "New Mexico alleges the promised federal evidence was never provided.",
    "deck": "The central allegation of the complaint, asserted by one party. Uncorroborated by DOJ.",
    "body": [
-    "Quoted from the source: &ldquo;the promised evidence never came&rdquo;"
+    "Quoted from the source: “the promised evidence never came”"
    ],
    "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -940,7 +940,7 @@
    "title": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
    "deck": "A quoted rationale attributed to records. News ceiling 0.6.",
    "body": [
-    "Quoted from the source: &ldquo;risks of parallel investigations creating inconsistent statements&rdquo;"
+    "Quoted from the source: “risks of parallel investigations creating inconsistent statements”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -964,7 +964,7 @@
    "title": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
    "deck": "Long-established and uncontested. Capped at the news ceiling because it is cited here through a news source rather than a primary record.",
    "body": [
-    "Quoted from the source: &ldquo;Epstein died in his jail cell on August 10&rdquo;"
+    "Quoted from the source: “Epstein died in his jail cell on August 10”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -988,7 +988,7 @@
    "title": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
    "deck": "Corporate registration and deed dates are matters of public record; reported by the Santa Fe New Mexican and The Real Deal.",
    "body": [
-    "Quoted from the source: &ldquo;a limited liability company created just a month before the purchase&rdquo;"
+    "Quoted from the source: “a limited liability company created just a month before the purchase”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1012,7 +1012,7 @@
    "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
    "deck": "The mechanism by which the concealment broke is itself reported and checkable.",
    "body": [
-    "Quoted from the source: &ldquo;It wasn&#39;t until a street name change and property taxes were contested that public records requests revealed the owner&rdquo;"
+    "Quoted from the source: “It wasn't until a street name change and property taxes were contested that public records requests revealed the owner”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1036,7 +1036,7 @@
    "title": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
    "deck": "Named public figure and declared candidate; ownership established through public records.",
    "body": [
-    "Quoted from the source: &ldquo;His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager&rdquo;"
+    "Quoted from the source: “His wife, Mary Catherine, is listed as a trustee. His son, Colin Huffines, is listed as an LLC manager”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1057,10 +1057,10 @@
     "nm-records"
    ],
    "stamp": "documented",
-   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department&#39;s January 2026 release of the Epstein files.",
+   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files.",
    "deck": "Announced by the state and reported contemporaneously.",
    "body": [
-    "Quoted from the source: &ldquo;reopened&rdquo;"
+    "Quoted from the source: “reopened”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1084,7 +1084,7 @@
    "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
    "deck": "A forensic characterisation carried by a single outlet and attributed to investigators. Uncorroborated; the strongest claim here and the least settled.",
    "body": [
-    "Quoted from the source: &ldquo;proof of prior excavation and altered substrate inconsistent with the original construction timeline&rdquo;"
+    "Quoted from the source: “proof of prior excavation and altered substrate inconsistent with the original construction timeline”"
    ],
    "derived": "tier credible_allegation, confidence 0.5, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1108,7 +1108,7 @@
    "title": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
    "deck": "A stop-work order is an official act with a paper trail.",
    "body": [
-    "Quoted from the source: &ldquo;ordered to stop construction due to lack of permits&rdquo;"
+    "Quoted from the source: “ordered to stop construction due to lack of permits”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1130,9 +1130,9 @@
    ],
    "stamp": "documented",
    "title": "The owners intend to convert the property into a Christian retreat.",
-   "deck": "Stated by the owner&#39;s campaign and reported directly.",
+   "deck": "Stated by the owner's campaign and reported directly.",
    "body": [
-    "Quoted from the source: &ldquo;plans to turn it into a Christian retreat&rdquo;"
+    "Quoted from the source: “plans to turn it into a Christian retreat”"
    ],
    "derived": "tier documented_fact, confidence 0.6, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1153,10 +1153,10 @@
     "nm-records"
    ],
    "stamp": "open",
-   "title": "New Mexico&#39;s filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
-   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state&#39;s characterisation, not as a verified figure.",
+   "title": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "deck": "A count asserted by one party about documents this system has not examined. Recorded as the state's characterisation, not as a verified figure.",
    "body": [
-    "Quoted from the source: &ldquo;over 13,000 references to Zorro Ranch and 5,000 references to New Mexico&rdquo;"
+    "Quoted from the source: “over 13,000 references to Zorro Ranch and 5,000 references to New Mexico”"
    ],
    "derived": "tier credible_allegation, confidence 0.55, survived 1 verification round(s) on human-directed research",
    "sources": [
@@ -1176,9 +1176,9 @@
    "id": "q-auction-structure",
    "beat": "nm-records",
    "q": "Was concealing the buyer behind a one-month-old LLC ordinary for this auction, and who else bid?",
-   "known": "San Rafael Ranch LLC was registered roughly a month before the purchase and the owners&#39; names were withheld. The concealment broke only via a street-name change and a tax contest, i.e. by accident rather than disclosure.",
-   "who": "The auction house · the Epstein estate&#39;s compensation administrators · NM Secretary of State",
-   "doc": "Auction records; the LLC&#39;s formation filing; the recorded warranty deed",
+   "known": "San Rafael Ranch LLC was registered roughly a month before the purchase and the owners' names were withheld. The concealment broke only via a street-name change and a tax contest, i.e. by accident rather than disclosure.",
+   "who": "The auction house · the Epstein estate's compensation administrators · NM Secretary of State",
+   "doc": "Auction records; the LLC's formation filing; the recorded warranty deed",
    "next": "Not scheduled — requires a records request",
    "opened": "14 Aug 2026",
    "status": "Open · not being pursued by anyone visible"
@@ -1189,8 +1189,8 @@
    "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
    "known": "The property changed hands at auction in 2023, was renamed, and unpermitted construction began. Investigators reported excavation and altered substrate inconsistent with the original construction timeline. The state did not have investigative access during that period.",
    "who": "NMDOJ investigators · Santa Fe County permitting · the current owners",
-   "doc": "The stop-work order and permit file; the state&#39;s search inventory from March 2026",
-   "next": "The New Mexico truth commission&#39;s subpoena returns",
+   "doc": "The stop-work order and permit file; the state's search inventory from March 2026",
+   "next": "The New Mexico truth commission's subpoena returns",
    "opened": "14 Aug 2026",
    "status": "Open"
   },
@@ -1200,8 +1200,8 @@
    "q": "Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?",
    "known": "The stated reason for asking New Mexico to stand down in July 2019 was the risk that parallel investigations would generate inconsistent statements. The federal defendant died on 10 August 2019, roughly two and a half weeks later, ending that prosecution. New Mexico alleges the promised information was never provided and is litigating for it in 2026 — six and a half years later.",
    "who": "The Justice Department · the SDNY prosecutors of record in 2019 · Todd Blanche",
-   "doc": "Any internal DOJ review of the 2019 referral commitment; the government&#39;s answer to the New Mexico complaint",
-   "next": "The government&#39;s response on the D.D.C. docket",
+   "doc": "Any internal DOJ review of the 2019 referral commitment; the government's answer to the New Mexico complaint",
+   "next": "The government's response on the D.D.C. docket",
    "opened": "14 Aug 2026",
    "status": "Open · never publicly asked"
   }
@@ -1229,7 +1229,7 @@
    "d": "3 NOV",
    "beat": "nm-records",
    "t": "Texas Comptroller election",
-   "s": "The property&#39;s owner is a candidate; the office oversees state financial matters."
+   "s": "The property's owner is a candidate; the office oversees state financial matters."
   }
  ],
  "contradictions": [
@@ -1240,7 +1240,7 @@
    "a": "Parallel investigations risk inconsistent statements",
    "asrc": "Federal rationale for the stand-down request, July 2019",
    "b": "The federal prosecution ended on 10 August 2019, and the material was still withheld in 2026",
-   "bsrc": "New Mexico&#39;s complaint, filed 5 August 2026",
+   "bsrc": "New Mexico's complaint, filed 5 August 2026",
    "tier": "Documented fact against documented fact",
    "st": "Unreconciled. The stated reason expired roughly 18 days after it was given; the withholding outlasted it by more than six years.",
    "c": "0.6",

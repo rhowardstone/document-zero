@@ -11,16 +11,41 @@ Static JSON on purpose: no query endpoint to rate-limit, no database to expose,
 cacheable, and it survives the origin going down.
 """
 from __future__ import annotations
+import html
 import json
 from pathlib import Path
 
+from .queries import build_queries, query_index
+
 API = "api"
+
+
+def _clean(obj):
+    """Undo the DOM escaping on the way into JSON.
+
+    render.py escapes source text at the boundary where ledger data becomes page
+    data, so index.html can use innerHTML without carrying stored XSS. The JSON
+    API is a DIFFERENT boundary with different rules: JSON has its own escaping,
+    and an agent reading api/query/timeline.json was being handed
+    "defendant&#39;s death" — markup for a consumer that renders no markup.
+
+    html.unescape is the exact inverse of that escaping, so text that genuinely
+    contained an ampersand round-trips correctly: "AT&T" escapes to "AT&amp;T"
+    and comes back as "AT&T".
+    """
+    if isinstance(obj, str):
+        return html.unescape(obj)
+    if isinstance(obj, dict):
+        return {k: _clean(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_clean(v) for v in obj]
+    return obj
 
 
 def _w(root: Path, rel: str, obj) -> str:
     p = root / rel
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps(obj, indent=1, ensure_ascii=False), encoding="utf-8")
+    p.write_text(json.dumps(_clean(obj), indent=1, ensure_ascii=False), encoding="utf-8")
     return rel
 
 
@@ -70,6 +95,14 @@ def publish(data: dict, out_root, base_url: str = "") -> list:
         "sources": sorted(sources.values(), key=lambda e: -len(e["records"])),
     }))
 
+    # Precomputed query views. See ledger/queries.py for why an index is not a
+    # query surface.
+    queries = build_queries(data)
+    for name, view in queries.items():
+        written.append(_w(root, f"{API}/query/{name}.json", view))
+    written.append(_w(root, f"{API}/query/index.json",
+                      query_index(queries, base_url.rstrip("/") + "/" if base_url else "")))
+
     written.append(_w(root, f"{API}/edition/{data['edition']['date']}.json", data))
     written.append(_w(root, f"{API}/index.json", {
         "generated_from": "the ledger",
@@ -81,11 +114,14 @@ def publish(data: dict, out_root, base_url: str = "") -> list:
             "sources": f"{API}/sources.json",
             "edition": f"{API}/edition/{{YYYY-MM-DD}}.json",
             "schema": f"{API}/schema.json",
+            "queries": f"{API}/query/index.json",
+            "query": f"{API}/query/{{name}}.json",
         },
-        "counts": {"beats": len(beats), "records": len(items), "sources": len(sources)},
+        "counts": {"beats": len(beats), "records": len(items), "sources": len(sources),
+                   "queries": len(queries)},
     }))
     written.append(_w(root, f"{API}/schema.json", SCHEMA))
-    (root / "llms.txt").write_text(llms_txt(data, base_url), encoding="utf-8")
+    (root / "llms.txt").write_text(_clean(llms_txt(data, base_url)), encoding="utf-8")
     written.append("llms.txt")
     return written
 
@@ -161,13 +197,43 @@ def llms_txt(data: dict, base_url: str = "") -> str:
         f"- [Sources]({b}api/sources.json): every source, and which beats and records cite it",
         f"- [Edition]({b}api/edition/{ed.get('date','YYYY-MM-DD')}.json): the whole day",
         "",
-        "## Questions this surface answers well",
+        "## Ask a question",
         "",
-        "- Which claims rest on a single publisher? (`records.json`, corroboration == 1)",
-        "- Which sources are cited across more than one beat? (`sources.json`, len(beats) > 1)",
-        "- What does a beat explicitly not establish? (`beat/ID.json`, `unknown`)",
-        "- What changed, and when? (`beat/ID.json`, `history`, newest first)",
-        "- What was covered heavily but did not change? (records with `kind: omission`)",
+        "These are answered, not indexed. Each view states the method it was derived",
+        "by; check the method before citing the number.",
+        "",
+    ]
+    for name, v in sorted(build_queries(data).items()):
+        lines.append(f"- [{v['question']}]({b}api/query/{name}.json) — {v['count']} result(s)")
+    lines += [
+        "",
+        f"Catalogue: [{b}api/query/index.json]({b}api/query/index.json)",
+        "",
+        "**Read these first.** They exist to expose where the record is weakest:",
+        f"`uncorroborated`, `single-publisher-beats`, `unknowns`, `source-types`.",
+        "A ledger that only publishes its strengths is not a ledger.",
+        "",
+        "## Anything else: SQL",
+        "",
+        f"The compiled ledger ships as [{b}newsdesk.db]({b}newsdesk.db) — one SQLite",
+        "file, the same data these views run over. For questions this surface does not",
+        "anticipate, query it directly:",
+        "",
+        "```sql",
+        "-- claims whose only support is an aggregator",
+        "SELECT c.id, c.claim_text, s.source_name",
+        "  FROM claims c JOIN sources s ON s.sha256 = c.source_sha",
+        " WHERE s.source_type = \'misc\';",
+        "",
+        "-- beats that have not changed in 30 days but are still open",
+        "SELECT beat, MAX(d) AS last_change FROM beat_history",
+        " GROUP BY beat HAVING last_change < date(\'now\', \'-30 days\');",
+        "",
+        "-- every claim with the source it was extracted from, and its ceiling",
+        "SELECT c.tier, c.confidence, s.source_type, s.source_name, c.claim_text",
+        "  FROM claims c LEFT JOIN sources s ON s.sha256 = c.source_sha",
+        " ORDER BY c.confidence DESC;",
+        "```",
         "",
         "## Beats",
         "",

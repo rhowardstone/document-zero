@@ -34,13 +34,51 @@ Edition 001 · 2026-08-14 · 22 beats, 1 not quiet, 13 records.
 - [Sources](https://doczero.epstein-data.com/api/sources.json): every source, and which beats and records cite it
 - [Edition](https://doczero.epstein-data.com/api/edition/2026-08-14.json): the whole day
 
-## Questions this surface answers well
+## Ask a question
 
-- Which claims rest on a single publisher? (`records.json`, corroboration == 1)
-- Which sources are cited across more than one beat? (`sources.json`, len(beats) > 1)
-- What does a beat explicitly not establish? (`beat/ID.json`, `unknown`)
-- What changed, and when? (`beat/ID.json`, `history`, newest first)
-- What was covered heavily but did not change? (records with `kind: omission`)
+These are answered, not indexed. Each view states the method it was derived
+by; check the method before citing the number.
+
+- [Which statements on the record cannot both be true?](https://doczero.epstein-data.com/api/query/contradictions.json) — 1 result(s)
+- [Which single sources inform more than one beat?](https://doczero.epstein-data.com/api/query/cross-beat-sources.json) — 0 result(s)
+- [What is unresolved, and which document would resolve it?](https://doczero.epstein-data.com/api/query/open-questions.json) — 3 result(s)
+- [Which beats rest entirely on one publisher?](https://doczero.epstein-data.com/api/query/single-publisher-beats.json) — 0 result(s)
+- [What kinds of source is the record actually built on?](https://doczero.epstein-data.com/api/query/source-types.json) — 1 result(s)
+- [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 9 result(s)
+- [Which published claims are stamped `open`?](https://doczero.epstein-data.com/api/query/tier-open.json) — 4 result(s)
+- [Every dated event on the record, chronologically.](https://doczero.epstein-data.com/api/query/timeline.json) — 8 result(s)
+- [Which published claims rest on a single publisher?](https://doczero.epstein-data.com/api/query/uncorroborated.json) — 13 result(s)
+- [What does the record explicitly NOT establish?](https://doczero.epstein-data.com/api/query/unknowns.json) — 21 result(s)
+- [What is due next, and what does non-response mean?](https://doczero.epstein-data.com/api/query/upcoming.json) — 3 result(s)
+- [What did not publish, and why?](https://doczero.epstein-data.com/api/query/withheld.json) — 0 result(s)
+
+Catalogue: [https://doczero.epstein-data.com/api/query/index.json](https://doczero.epstein-data.com/api/query/index.json)
+
+**Read these first.** They exist to expose where the record is weakest:
+`uncorroborated`, `single-publisher-beats`, `unknowns`, `source-types`.
+A ledger that only publishes its strengths is not a ledger.
+
+## Anything else: SQL
+
+The compiled ledger ships as [https://doczero.epstein-data.com/newsdesk.db](https://doczero.epstein-data.com/newsdesk.db) — one SQLite
+file, the same data these views run over. For questions this surface does not
+anticipate, query it directly:
+
+```sql
+-- claims whose only support is an aggregator
+SELECT c.id, c.claim_text, s.source_name
+  FROM claims c JOIN sources s ON s.sha256 = c.source_sha
+ WHERE s.source_type = 'misc';
+
+-- beats that have not changed in 30 days but are still open
+SELECT beat, MAX(d) AS last_change FROM beat_history
+ GROUP BY beat HAVING last_change < date('now', '-30 days');
+
+-- every claim with the source it was extracted from, and its ceiling
+SELECT c.tier, c.confidence, s.source_type, s.source_name, c.claim_text
+  FROM claims c LEFT JOIN sources s ON s.sha256 = c.source_sha
+ ORDER BY c.confidence DESC;
+```
 
 ## Beats
 

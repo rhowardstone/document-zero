@@ -39,3 +39,24 @@ def test_compile_is_idempotent(populated):
 def test_compile_on_empty_tree_succeeds(tmp_path):
     compile_db(tmp_path/"empty", tmp_path/"e.db")
     assert sqlite3.connect(tmp_path/"e.db").execute("select count(*) from sources").fetchone()[0]==0
+
+
+def test_the_compiled_db_keeps_the_claim_to_source_join_key(populated):
+    """source_sha is the join between a claim and the source it came from — the
+    single most important join in a provenance system. It was being dropped, so
+    llms.txt advertised a SQL example that could not run."""
+    led, db = populated
+    led.put_claim({"id": "hormuz-2", "beat": "hormuz", "claim_text": "Y", "quote": "y",
+                   "source_sha": "a" * 64, "source_type": "news",
+                   "source_url": "https://x", "confidence": 0.6,
+                   "confidence_justification": "news ceiling", "tier": "documented_fact",
+                   "extracted_by": "t", "extracted_at": "2026-08-14T05:00:00Z",
+                   "verification_rounds": 2, "verifier_families": ["sonnet", "haiku"]})
+    compile_db(led.root, db)
+    con = sqlite3.connect(db)
+    assert con.execute("select source_sha, verification_rounds, verifier_families "
+                       "from claims where id='hormuz-2'").fetchone() \
+        == ("a" * 64, 2, "sonnet,haiku")
+    # the join llms.txt advertises must actually run
+    assert con.execute("select s.source_name from claims c join sources s "
+                       "on s.sha256 = c.source_sha where c.id='hormuz-2'").fetchone() == ("E",)

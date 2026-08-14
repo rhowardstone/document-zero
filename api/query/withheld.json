@@ -1,0 +1,15 @@
+{
+ "query": "withheld",
+ "question": "What did not publish, and why?",
+ "method": "beats the editor placed outside the wire lane, with the recorded reason. Refused items are counted but their content is not shown, because showing it would defeat the refusal.",
+ "count": 0,
+ "results": [],
+ "lane_counts": {
+  "wire": 1,
+  "capped_out": 0,
+  "omissions": 0,
+  "holds": 0,
+  "refused": 0,
+  "dropped": 0
+ }
+}

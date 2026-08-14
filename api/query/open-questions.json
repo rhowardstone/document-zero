@@ -1,0 +1,41 @@
+{
+ "query": "open-questions",
+ "question": "What is unresolved, and which document would resolve it?",
+ "method": "every open question with the document that would answer it and whether anyone is scheduled to produce that document",
+ "count": 3,
+ "results": [
+  {
+   "id": "q-auction-structure",
+   "beat": "nm-records",
+   "q": "Was concealing the buyer behind a one-month-old LLC ordinary for this auction, and who else bid?",
+   "known": "San Rafael Ranch LLC was registered roughly a month before the purchase and the owners' names were withheld. The concealment broke only via a street-name change and a tax contest, i.e. by accident rather than disclosure.",
+   "who": "The auction house · the Epstein estate's compensation administrators · NM Secretary of State",
+   "doc": "Auction records; the LLC's formation filing; the recorded warranty deed",
+   "next": "Not scheduled — requires a records request",
+   "opened": "14 Aug 2026",
+   "status": "Open · not being pursued by anyone visible"
+  },
+  {
+   "id": "q-evidentiary-loss",
+   "beat": "nm-records",
+   "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
+   "known": "The property changed hands at auction in 2023, was renamed, and unpermitted construction began. Investigators reported excavation and altered substrate inconsistent with the original construction timeline. The state did not have investigative access during that period.",
+   "who": "NMDOJ investigators · Santa Fe County permitting · the current owners",
+   "doc": "The stop-work order and permit file; the state's search inventory from March 2026",
+   "next": "The New Mexico truth commission's subpoena returns",
+   "opened": "14 Aug 2026",
+   "status": "Open"
+  },
+  {
+   "id": "q-standdown-expiry",
+   "beat": "nm-records",
+   "q": "Did the Justice Department revisit its stand-down request after 10 August 2019, when the stated rationale for it — the risk of parallel prosecutions — ceased to exist?",
+   "known": "The stated reason for asking New Mexico to stand down in July 2019 was the risk that parallel investigations would generate inconsistent statements. The federal defendant died on 10 August 2019, roughly two and a half weeks later, ending that prosecution. New Mexico alleges the promised information was never provided and is litigating for it in 2026 — six and a half years later.",
+   "who": "The Justice Department · the SDNY prosecutors of record in 2019 · Todd Blanche",
+   "doc": "Any internal DOJ review of the 2019 referral commitment; the government's answer to the New Mexico complaint",
+   "next": "The government's response on the D.D.C. docket",
+   "opened": "14 Aug 2026",
+   "status": "Open · never publicly asked"
+  }
+ ]
+}

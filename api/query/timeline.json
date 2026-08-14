@@ -1,0 +1,64 @@
+{
+ "query": "timeline",
+ "question": "Every dated event on the record, chronologically.",
+ "method": "every history row of every beat, sorted by date ascending. Sequence is the thing individual facts cannot show: a gap here, where other evidence says events occurred, is a finding rather than an absence.",
+ "count": 8,
+ "results": [
+  {
+   "date": "2019-07-23",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Stand-down requested → state investigation paused on a federal promise.",
+   "support": "Reported from records, Albuquerque Journal"
+  },
+  {
+   "date": "2019-08-10",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Federal prosecution ended with the defendant's death. Stated rationale for the stand-down ceased to apply.",
+   "support": "Contemporaneous reporting"
+  },
+  {
+   "date": "2023-08-16",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Site ownership → San Rafael Ranch LLC at public auction; beneficial owner concealed.",
+   "support": "Santa Fe New Mexican; The Real Deal"
+  },
+  {
+   "date": "2026-02-17",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Beneficial owner revealed as the Huffines family after a street-name change and a tax contest.",
+   "support": "The Real Deal"
+  },
+  {
+   "date": "2026-02-19",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "State criminal probe → reopened following the January federal release.",
+   "support": "Al Jazeera"
+  },
+  {
+   "date": "2026-03-01",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Site searched by NMDOJ with State Police and K-9 units; excavation and altered substrate reported.",
+   "support": "Newsweek; NMDOJ"
+  },
+  {
+   "date": "2026-06-01",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Truth commission → began, with subpoena power.",
+   "support": "CNN"
+  },
+  {
+   "date": "2026-08-05",
+   "beat": "nm-records",
+   "beat_name": "New Mexico v. the Justice Department",
+   "event": "Federal suit → filed against DOJ and Blanche in D.D.C.",
+   "support": "NBC News; PBS; Courthouse News"
+  }
+ ]
+}
