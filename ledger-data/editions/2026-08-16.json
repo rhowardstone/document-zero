@@ -1,0 +1,37 @@
+{
+  "day": "2026-08-16",
+  "wire": [
+    {
+      "id": "nm-records",
+      "beat": "nm-records",
+      "material_changes": 3,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    }
+  ],
+  "omissions": [],
+  "holds": [],
+  "counts": {
+    "wire": 1,
+    "refused": 0,
+    "holds": 0,
+    "unpublishable": 1,
+    "omissions": 0,
+    "capped_out": 0,
+    "dropped": 0
+  },
+  "unpublishable": [
+    {
+      "beat": "compliance",
+      "name": "compliance",
+      "changed": "Statute",
+      "reason": "schema: 57 words: below 400 there was no story, and the beat should degrade to a one-line entry"
+    }
+  ],
+  "publish": false,
+  "publish_blocked_by": "dry_run"
+}

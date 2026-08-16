@@ -20,6 +20,7 @@ Usage:
 from __future__ import annotations
 import argparse
 import json
+import re
 import pathlib
 import sys
 
@@ -34,6 +35,22 @@ DAY = "2026-08-16"
 
 
 # ── The stubs ────────────────────────────────────────────────────────────────
+
+def _headline(text: str) -> str:
+    """The first clause, capped. A stub cannot write a headline; it can at least
+    stop at a natural break instead of mid-thought."""
+    first = re.split(r"\s+(?:and|but|which|after|while|because)\s+|[,;:]", text, 1)[0]
+    return _trim(first if len(first.split()) >= 5 else text, 78)
+
+
+def _trim(text: str, n: int) -> str:
+    """Never cut mid-word: a truncated headline reads as a broken system."""
+    t = text.strip()
+    if len(t) <= n:
+        return t
+    cut = t[:n]
+    return (cut[:cut.rfind(" ")] if " " in cut else cut).rstrip(",;:")
+
 
 def stub_reporter(beat: str, claims: list, changed: list) -> dict:
     """Stand-in for a Claude Code reporter.
@@ -53,24 +70,50 @@ def stub_reporter(beat: str, claims: list, changed: list) -> dict:
     # nothing supported them. That is worth keeping in mind: the word floor and
     # the gate together mean a beat cannot pad its way to an article. Thin
     # evidence produces a one-line entry, which is the right outcome.
-    body, used, i = [], [], 0
-    while sum(len(t.split()) for t in body) < 430 and i < 400:
-        c = claims[i % len(claims)]
-        body.append(f"{c['claim_text'].rstrip('.')}.")
+    # Each claim ONCE. The first version cycled them to reach the word floor,
+    # which produced a lead story that said the same two sentences three times.
+    # Cycling is padding wearing a citation: every sentence is entailed, so the
+    # gate passes it, and the result is unreadable. A reporter with two claims
+    # should write short and be REJECTED, so the beat degrades to a line — and
+    # that is what happens now.
+    # Each claim once, and only as many as fit the window. Choosing what to
+    # include is the one editorial act the stub performs, and it is the same one
+    # a real reporter performs — it just does it by counting instead of judging.
+    # A beat with too little to say still falls short of the floor and degrades
+    # to a line, which is the behaviour worth demonstrating.
+    body, used, total = [], [], 0
+    for c in claims:
+        sentence = f"{c['claim_text'].rstrip('.')}."
+        n = len(sentence.split())
+        if total + n > 760:
+            break
+        body.append(sentence)
         used.append(c["id"])
-        i += 1
+        total += n
+
+    # Break into paragraphs. One wall of text is not an article, and the
+    # renderer needs somewhere to breathe.
+    paras, chunk, chunk_ids = [], [], []
+    for sentence, cid in zip(body, used):
+        chunk.append(sentence)
+        chunk_ids.append(cid)
+        if len(chunk) >= 4:
+            paras.append({"text": " ".join(chunk), "claims": sorted(set(chunk_ids))})
+            chunk, chunk_ids = [], []
+    if chunk:
+        paras.append({"text": " ".join(chunk), "claims": sorted(set(chunk_ids))})
 
     return {
         "beat": beat, "day": DAY,
-        "headline": f"{lead[:70]}",
+        # Cut at the first clause boundary, not mid-sentence: a headline that
+        # trails off reads as a broken system rather than a terse one.
+        "headline": _headline(lead),
         "standfirst": (changed[0]["k"] + " changed" if changed
                        else "No field changed"),
         "dateline": "STUB DESK",
         "published_at": f"{DAY}T12:00:00Z",
         "written_by": "stub-reporter (NOT a model)",
-        "paragraphs": [
-            {"text": " ".join(body), "claims": sorted(set(used))},
-        ],
+        "paragraphs": paras,
         "changed": changed,
     }
 
@@ -138,12 +181,33 @@ def main() -> int:
 
         print(f"  {beat:14s} PASSED  {article.word_count} words, "
               f"{result.checked} sentence(s) checked")
+        # Store it under the beat that wrote it, so the renderer can find it and
+        # the write-partition rule covers it with no extra machinery.
+        Ledger(args.ledger, writer=f"beat:{beat}").put_article(article)
         scored.append((article, float(len(claims))))
 
     page = play(scored=scored, day=DAY, refused=refused,
-                counts={"refused": len(refused), "holds": 0})
+                counts={"unpublishable": len(refused), "holds": 0})
 
     (out / "edition.json").write_text(json.dumps(page, indent=1), encoding="utf-8")
+
+    # The editor's edition: which beats reached the wire. The renderer reads
+    # this to decide what publishes, so an article from a held beat cannot leak.
+    Ledger(args.ledger, writer="editor")._write_json(f"editions/{DAY}.json", {
+        "day": DAY,
+        "wire": [{"id": a.beat, "beat": a.beat, "material_changes": len(a.changed),
+                  "claims": 0, "rejected_claims": 0, "changes": [], "added": [],
+                  "removed": [], "unchanged": 0} for a, _ in scored],
+        "omissions": [], "holds": [],
+        # `refused` means a SAFETY gate fired. An article that failed the
+        # schema or the entailment gate is `unpublishable` — a different thing,
+        # and labelling it as a refusal tells the reader someone was protected
+        # when in fact the writing simply could not be supported.
+        "counts": {"wire": len(scored), "refused": 0, "holds": 0,
+                   "unpublishable": len(refused),
+                   "omissions": 0, "capped_out": 0, "dropped": 0},
+        "unpublishable": refused,
+        "publish": False, "publish_blocked_by": "dry_run"})
 
     print()
     print(f"FRONT PAGE  {page['date']}")

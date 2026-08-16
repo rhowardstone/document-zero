@@ -32,6 +32,12 @@ def beat_state_path(beat_id: str) -> str:
     return f"{BEATS}/{beat_id}/state.json"
 
 
+def article_path(beat_id: str, day: str) -> str:
+    """Under the beat that wrote it, so the write-partition rule covers articles
+    with no extra machinery: only beat:<id> can publish <id>'s article."""
+    return f"{BEATS}/{beat_id}/articles/{day}.json"
+
+
 def beat_history_path(beat_id: str) -> str:
     return f"{BEATS}/{beat_id}/history.jsonl"
 

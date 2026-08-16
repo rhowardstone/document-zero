@@ -84,6 +84,38 @@ class Ledger:
         validate_beat_state(state, claim_texts)
         return self._write_json(P.beat_state_path(beat_id), state)
 
+    # ---- articles ---------------------------------------------------
+    def put_article(self, article) -> str:
+        """Store a published article. Immutable, like a claim.
+
+        Accepts either an Article or a dict; a dict is validated first, so the
+        store cannot be used as a way around the schema.
+        """
+        from .article import Article, validate
+        art = article if isinstance(article, Article) else validate(article)
+        obj = art.as_dict()
+        rel = P.article_path(art.beat, art.day)
+        existing = self._read_json(rel)
+        if existing is not None and existing != obj:
+            raise FileExistsError(
+                f"{rel} already exists with different content. Articles are "
+                "immutable: a correction is a new day's article that supersedes "
+                "this one, never an edit to it.")
+        if existing == obj:
+            return rel
+        return self._write_json(rel, obj)
+
+    def get_article(self, beat_id: str, day: str):
+        return self._read_json(P.article_path(beat_id, day))
+
+    def list_articles(self, beat_id: str) -> list[dict]:
+        d = self._abs(f"{P.BEATS}/{beat_id}/articles")
+        if not d.exists():
+            return []
+        out = [json.loads(f.read_text(encoding="utf-8"))
+               for f in sorted(d.glob("*.json"), reverse=True)]
+        return out
+
     def get_state(self, beat_id: str):
         return self._read_json(P.beat_state_path(beat_id))
 

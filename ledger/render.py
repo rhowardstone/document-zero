@@ -75,6 +75,7 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
 
     dossiers, types = {}, {}
     out_beats = []
+    articles = []
     # A source routed to several beats yields the same claim once per beat. On
     # the page that is one record about several beats, not several records —
     # rendering it N times was the single most disfiguring bug on the site.
@@ -95,6 +96,14 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
             claims = [c for c in (_read(f) for f in sorted(cdir.glob("*.json"))) if c]
 
         lane, placement = placed.get(b.id, (None, {}))
+        # The editor's lane decision binds ARTICLES exactly as it binds claims.
+        # A beat the editor held may have written one; it does not publish.
+        if lane == "wire":
+            art = _read(root / P.article_path(b.id, day))
+            if art:
+                art = dict(art)
+                art["beat_name"] = b.name
+                articles.append(art)
         # Lane placement wins over emptiness. A beat whose agent failed has no
         # state, but it is NOT quiet — rendering it as quiet would make an
         # unexplained absence indistinguishable from a genuinely still day,
@@ -225,6 +234,16 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                     "publish": bool(edition.get("publish")),
                     "blocked_by": edition.get("publish_blocked_by"),
                     "counts": counts},
+        # Articles are what the page leads with. v1 led with a diff of state
+        # fields, which is a database row rather than a story.
+        "articles": articles,
+        # Beats that moved but whose article could not be published. They are
+        # NOT refusals: the fact stands, only the prose failed. They render as
+        # one-line entries, because a bare fact needs no prose to support it.
+        "unpublishable": [
+            {"beat": u.get("beat"), "name": u.get("name") or u.get("beat"),
+             "changed": u.get("changed", ""), "reason": u.get("reason", "")}
+            for u in (edition.get("unpublishable") or [])],
         "dossiers": list(dossiers.values()),
         "types": list(types.values()),
         "beats": out_beats,

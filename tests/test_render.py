@@ -479,3 +479,78 @@ def test_the_month_label_comes_from_the_date_not_from_the_stored_string(tmp_path
         "d": "3 NOV", "t": "Texas Comptroller election", "s": ""}))
     t = build(l.root, CFG, "2026-08-14")["triggers"][0]
     assert t["d"] == "NOV" and t["day"] == "03"
+
+
+# ── Articles are what the page leads with now ───────────────────────────────
+
+def test_articles_are_projected_for_the_page(tmp_path):
+    """v1 projected a diff of state fields. The article is the artifact now."""
+    from ledger.article import validate as _v
+    l = Ledger(tmp_path / "data")
+    Ledger(l.root, writer="beat:compliance").put_article(_v({
+        "beat": "compliance", "day": "2026-08-14",
+        "headline": "Department cites the statute as grounds to withhold",
+        "standfirst": "A transparency act invoked against a state inquiry",
+        "dateline": "WASHINGTON", "published_at": "2026-08-14T12:00:00Z",
+        "written_by": "t",
+        "paragraphs": [{"text": "word " * 450, "claims": ["c1"]}],
+        "changed": [{"k": "Statute", "from": "", "to": "EFTA", "since": "Nov"}]}))
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [{"id": "compliance", "beat": "compliance"}],
+        "omissions": [], "holds": [], "counts": {"wire": 1}, "publish": False})
+    d = build(l.root, CFG, "2026-08-14")
+    arts = d["articles"]
+    assert len(arts) == 1
+    a = arts[0]
+    assert a["beat"] == "compliance"
+    assert a["headline"].startswith("Department cites")
+    assert a["dateline"] == "WASHINGTON" and a["published_at"]
+    assert a["word_count"] == 450
+
+
+def test_an_article_from_a_beat_the_editor_did_not_wire_does_not_publish(tmp_path):
+    """The editor's lane decision binds articles exactly as it binds claims."""
+    from ledger.article import validate as _v
+    l = Ledger(tmp_path / "data")
+    Ledger(l.root, writer="beat:compliance").put_article(_v({
+        "beat": "compliance", "day": "2026-08-14",
+        "headline": "Held beat writes an article anyway today",
+        "standfirst": "s", "dateline": "X", "published_at": "2026-08-14T00:00:00Z",
+        "written_by": "t", "paragraphs": [{"text": "word " * 450, "claims": ["c1"]}]}))
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [], "omissions": [],
+        "holds": [{"id": "compliance", "beat": "compliance", "reason": "x"}],
+        "counts": {}, "publish": False})
+    assert build(l.root, CFG, "2026-08-14")["articles"] == []
+
+
+def test_article_text_reaches_the_page_unmangled(tmp_path):
+    """The projection emits data; the page escapes at DOM insertion."""
+    from ledger.article import validate as _v
+    l = Ledger(tmp_path / "data")
+    Ledger(l.root, writer="beat:compliance").put_article(_v({
+        "beat": "compliance", "day": "2026-08-14",
+        "headline": "<img src=x> in a headline should survive as text",
+        "standfirst": "s", "dateline": "X", "published_at": "2026-08-14T00:00:00Z",
+        "written_by": "t", "paragraphs": [{"text": "word " * 450, "claims": ["c1"]}]}))
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [{"id": "compliance", "beat": "compliance"}],
+        "omissions": [], "holds": [], "counts": {}, "publish": False})
+    a = build(l.root, CFG, "2026-08-14")["articles"][0]
+    assert a["headline"].startswith("<img src=x>"), "no escaping in the projection"
+
+
+def test_an_unpublishable_article_is_not_reported_as_a_refusal(tmp_path):
+    """A refusal protects someone. An article that failed the schema or the
+    entailment gate protects nobody — the fact stands, only the prose failed.
+    Conflating them tells a reader a person was shielded when none was."""
+    l = Ledger(tmp_path / "data")
+    Ledger(l.root, writer="editor")._write_json("editions/2026-08-14.json", {
+        "day": "2026-08-14", "wire": [], "omissions": [], "holds": [],
+        "counts": {"refused": 0, "unpublishable": 1}, "publish": False,
+        "unpublishable": [{"beat": "compliance", "name": "Compliance",
+                           "changed": "Statute", "reason": "57 words: below 400"}]})
+    d = build(l.root, CFG, "2026-08-14")
+    assert d["unpublishable"][0]["beat"] == "compliance"
+    assert d["unpublishable"][0]["reason"].startswith("57 words")
+    assert d["edition"]["counts"].get("refused") == 0

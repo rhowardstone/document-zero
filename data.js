@@ -2,20 +2,119 @@
 window.DZ = {
  "edition": {
   "n": "001",
-  "date": "2026-08-14",
+  "date": "2026-08-16",
   "updated": "—",
   "next": "—",
   "publish": false,
   "blocked_by": "dry_run",
   "counts": {
-   "wire": 2,
-   "capped_out": 0,
-   "omissions": 0,
-   "holds": 0,
+   "wire": 1,
    "refused": 0,
+   "holds": 0,
+   "unpublishable": 1,
+   "omissions": 0,
+   "capped_out": 0,
    "dropped": 0
   }
  },
+ "articles": [
+  {
+   "beat": "nm-records",
+   "day": "2026-08-16",
+   "headline": "The State of New Mexico sued the Justice Department",
+   "standfirst": "Federal suit changed",
+   "dateline": "STUB DESK",
+   "published_at": "2026-08-16T12:00:00Z",
+   "paragraphs": [
+    {
+     "text": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records. New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded. New Mexico alleges the promised federal evidence was never provided. The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
+     "claims": [
+      "nm-records-2026-08-14-000",
+      "nm-records-2026-08-14-001",
+      "nm-records-2026-08-14-002",
+      "nm-records-2026-08-14-003"
+     ]
+    },
+    {
+     "text": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution. Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase. The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests. The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
+     "claims": [
+      "nm-records-2026-08-14-004",
+      "nm-records-2026-08-14-005",
+      "nm-records-2026-08-14-006",
+      "nm-records-2026-08-14-007"
+     ]
+    },
+    {
+     "text": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files. Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline. State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits. The owners intend to convert the property into a Christian retreat.",
+     "claims": [
+      "nm-records-2026-08-14-008",
+      "nm-records-2026-08-14-009",
+      "nm-records-2026-08-14-010",
+      "nm-records-2026-08-14-011"
+     ]
+    },
+    {
+     "text": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted. New Mexico's Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed. The suit is docketed as No. 1:26-cv-02762-AHA in the U.S. District Court for the District of Columbia, assigned to Judge Amir H. Ali, and is pleaded as review of agency action under the Administrative Procedure Act rather than as a FOIA case. The records New Mexico seeks are the redacted materials in the federal 'Epstein Library', compiled under Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (19 November 2025).",
+     "claims": [
+      "nm-records-2026-08-14-012",
+      "nm-records-2026-08-14-doc-deadline",
+      "nm-records-2026-08-14-doc-docket",
+      "nm-records-2026-08-14-doc-efta-hook"
+     ]
+    },
+    {
+     "text": "New Mexico gave the federal government its entire investigative file — police reports, recorded witness interviews and materials on Epstein's use of state public lands — on 17 September 2019, after agreeing to stand down. New Mexico's filing notes that the Justice Department has argued in other 2026 litigation that courts may take judicial notice of an Acting Attorney General's recorded public statements as binding party admissions. The complaint states that federal law enforcement never searched Zorro Ranch, and cites a federal email of 23 August 2019 — thirteen days after Epstein's death — that acknowledged a victim who may have been raped at the New Mexico residence while asserting there was no probable cause to search it. The federal district office's response, dated 30 June 2026 and delivered 14 July, stated it had neither collected nor retained investigative materials; the thirty-one accompanying pages consisted largely of a public news article, a public press release by a former governor, correspondence New Mexico had itself sent, and a list of follow-up questions.",
+     "claims": [
+      "nm-records-2026-08-14-doc-file-handover",
+      "nm-records-2026-08-14-doc-judicial-notice",
+      "nm-records-2026-08-14-doc-no-pc",
+      "nm-records-2026-08-14-doc-nonproduction"
+     ]
+    },
+    {
+     "text": "New Mexico states it is investigating potential felony offences including homicide, kidnapping, criminal sexual penetration, criminal sexual contact and human trafficking, under named provisions of the New Mexico criminal code. Asked whether the federal government would join New Mexico in seeking a modification of the protective orders it cited as the obstacle, so that the orders would expressly permit disclosure for law-enforcement purposes, a Deputy United States Attorney responded that such cooperation was 'unlikely' and identified no path through which the two offices could work together. Federal officials made public assurances of cooperation during the same period the requests went unanswered: a First Assistant United States Attorney said on 12 June 2026 'I anticipate full cooperation', and a department spokesperson said on 7 July 2026 that it 'stands ready to provide necessary assistance'. The federal filing states the released Epstein Files contain more than 13,000 references to Zorro Ranch and more than 5,000 references to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+     "claims": [
+      "nm-records-2026-08-14-doc-offences",
+      "nm-records-2026-08-14-doc-protective-order",
+      "nm-records-2026-08-14-doc-public-vs-conduct",
+      "nm-records-2026-08-14-doc-scale"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Federal suit",
+     "from": "",
+     "to": "No. 1:26-cv-02762-AHA, D.D.C. (Ali, J.), APA review",
+     "since": "5 Aug"
+    },
+    {
+     "k": "State criminal probe",
+     "from": "",
+     "to": "Reopened 19 Feb 2026",
+     "since": "19 Feb"
+    },
+    {
+     "k": "Records sought",
+     "from": "",
+     "to": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)",
+     "since": "3 May"
+    }
+   ],
+   "written_by": "stub-reporter (NOT a model)",
+   "verified_by": [],
+   "word_count": 747,
+   "beat_name": "New Mexico v. the Justice Department"
+  }
+ ],
+ "unpublishable": [
+  {
+   "beat": "compliance",
+   "name": "compliance",
+   "changed": "Statute",
+   "reason": "schema: 57 words: below 400 there was no story, and the beat should degrade to a one-line entry"
+  }
+ ],
  "dossiers": [
   {
    "id": "iran",
@@ -246,7 +345,7 @@ window.DZ = {
     "oversight",
     "case"
    ],
-   "status": "moved",
+   "status": "quiet",
    "opened": "2026-08-14",
    "lastChange": "2026-08-14",
    "events": 2,
@@ -279,20 +378,7 @@ window.DZ = {
     }
    ],
    "changes": [],
-   "added": [
-    {
-     "k": "Statute",
-     "v": "Epstein Files Transparency Act, Pub. L. 119-38 (2025)"
-    },
-    {
-     "k": "Invoked as grounds to withhold",
-     "v": "Yes — against a state criminal investigation, 31 Jul 2026"
-    },
-    {
-     "k": "Redaction compliance",
-     "v": "Contested in litigation"
-    }
-   ],
+   "added": [],
    "removed": [],
    "unchanged": 0,
    "unknown": [],
@@ -771,38 +857,10 @@ window.DZ = {
      "s": "Reported from records, Albuquerque Journal"
     }
    ],
-   "changes": [
-    {
-     "k": "Federal suit",
-     "from": "Filed 5 Aug 2026, D.D.C.",
-     "to": "No. 1:26-cv-02762-AHA, D.D.C. (Ali, J.), APA review"
-    },
-    {
-     "k": "Records sought",
-     "from": "Unredacted Epstein investigative files",
-     "to": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)"
-    }
-   ],
-   "added": [
-    {
-     "k": "Administrative exhaustion",
-     "v": "Touhy request 3 May 2026; treated as denied 31 Jul 2026"
-    },
-    {
-     "k": "Stated grounds for refusal",
-     "v": "Overbreadth; Privacy Act; Epstein and Maxwell protective orders"
-    },
-    {
-     "k": "Protective-order modification",
-     "v": "Sought by the state; federal cooperation called 'unlikely'"
-    },
-    {
-     "k": "Federal search of the property",
-     "v": "Never conducted"
-    }
-   ],
+   "changes": [],
+   "added": [],
    "removed": [],
-   "unchanged": 6,
+   "unchanged": 0,
    "unknown": [],
    "items": [
     "nm-records-2026-08-14-000",
@@ -963,62 +1021,6 @@ window.DZ = {
   }
  ],
  "items": [
-  {
-   "id": "compliance-2026-08-14-doc-efta-as-shield",
-   "kind": "wire",
-   "beats": [
-    "compliance"
-   ],
-   "stamp": "documented",
-   "title": "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation.",
-   "deck": "The position taken is documented with a date and an attached exhibit. A transparency statute being invoked as a reason to withhold is a fact about the Act's operation, whatever one concludes about it.",
-   "quote": "reiterated his view that EFTA and the existing protective orders precluded production of materials in response to NMDOJ's request",
-   "tier": "documented_fact",
-   "confidence": 0.85,
-   "rounds": 1,
-   "families": [
-    "quote-checked against the filed PDF"
-   ],
-   "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
-   "sources": [
-    {
-     "n": "storage.courtlistener.com",
-     "u": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "t": "documentation",
-     "c": "0.85"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "compliance-2026-08-14-doc-efta-redaction",
-   "kind": "wire",
-   "beats": [
-    "compliance"
-   ],
-   "stamp": "open",
-   "title": "New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors.",
-   "deck": "An allegation in a pleading by an adverse party, quoted exactly. The filing cites an attached letter from the Attorney General and Acting Attorney General to Congress dated 30 January 2026. No court has found this.",
-   "quote": "But USDOJ instead publicly posted detailed, unredacted personal information about survivors, ranging from their contact information to nude images.",
-   "tier": "credible_allegation",
-   "confidence": 0.8,
-   "rounds": 1,
-   "families": [
-    "quote-checked against the filed PDF"
-   ],
-   "derived": "tier credible_allegation, confidence 0.8, survived 1 verification round(s) on quote-checked against the filed PDF",
-   "sources": [
-    {
-     "n": "storage.courtlistener.com",
-     "u": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "t": "documentation",
-     "c": "0.8"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
   {
    "id": "nm-records-2026-08-14-000",
    "kind": "wire",
@@ -1914,9 +1916,9 @@ window.DZ = {
  ],
  "archive": [
   {
-   "d": "2026-08-14",
+   "d": "2026-08-16",
    "n": "001",
-   "items": 2,
+   "items": 1,
    "note": "Not published (dry_run)"
   }
  ]
