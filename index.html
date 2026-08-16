@@ -405,7 +405,7 @@ function go() {
   }[key] || viewLedger;
 
   el("main").innerHTML = V();
-  drawTabs(key); drawRailL(seg); drawRailR(key);
+  drawTabs(key); drawRailL(seg); drawRailR(key, seg);
   window.scrollTo(0, 0);
   // Take the heading's own text, not the count that sits beside it: the title
   // read "What changed today 1 beat moved · Document Zero".
@@ -455,20 +455,33 @@ function drawRailL(seg) {
        A quiet beat is open and monitored. Nothing on it changed today.</p></section>` : "");
 }
 
-function drawRailR(key) {
+function drawRailR(key, seg) {
   if (key === "/method" || key === "/api") { el("railR").innerHTML = ""; return; }
-  const trig = D.triggers.slice(0, 5).map(x => {
-    const d = H(x.sort).slice(8) || "—";
+  /* On a BEAT page the rail must be that beat's obligations and questions.
+     It was global, so a page about the childhood vaccine schedule carried New
+     Mexico's court dates and a Texas election — which reads as though the
+     ledger believes they are connected. */
+  const beatId = key === "/beat" ? seg[1] : null;
+  const mine = (x) => !beatId || x.beat === beatId;
+  const T = D.triggers.filter(mine), Q = D.questions.filter(mine),
+        C = D.contradictions.filter(mine);
+  const scoped = !!beatId;
+  const trig = T.slice(0, 5).map(x => {
+    const d = H(x.day) || H(x.sort).slice(8) || "—";
     return `<div class="trig"><b>${t(x.d || "")}<span>${t(d)}</span></b>
       <p>${H(x.t)}<em>${H(x.s)}</em></p></div>`;
   }).join("");
-  const q = D.questions.slice(0, 4).map(x =>
+  const q = Q.slice(0, 4).map(x =>
     `<a class="qlink" href="#/q/${t(x.id)}">${H(x.q)}<em>${H(x.status) || "Open"}</em></a>`).join("");
-  const c = D.contradictions.map(x =>
+  const c = C.map(x =>
     `<div class="contra"><div class="a"><div>${H(x.a)}<cite>${H(x.asrc)}</cite></div></div>
      <div class="b"><div>${H(x.b)}<cite>${H(x.bsrc)}</cite></div></div></div>`).join("");
 
   el("railR").innerHTML =
+    (scoped && !trig && !q && !c
+      ? `<section><h3>This beat</h3><p style="font-size:12px;color:var(--ink3);
+         line-height:1.5">No dated obligations, open questions or unreconciled
+         statements are recorded on this beat.</p></section>` : "") +
     (trig ? `<section><h3>What happens next</h3>${trig}
       <p style="font-size:11.5px;color:var(--ink3);margin-top:9px;line-height:1.5">
       Dated obligations. When one passes without the expected filing, the
@@ -631,7 +644,10 @@ function viewBeat(id) {
   <p class="sub">${t({moved:"Moved today.", unresolved:"Unresolved — this beat is held.",
      recirculating:"Covered again today with no change to the record.",
      quiet:"Open and monitored. Nothing changed today."}[b.status] || "")}
-     Opened ${H(b.opened)}. Last change ${H(b.lastChange)}.</p>
+     ${b.history.length
+       ? `Opened ${H(b.opened)}. Last change ${H(b.lastChange)}.`
+       : "Nothing has been recorded on this beat yet, so it has no opening date "
+         + "and no history. It is being watched, not reported."}</p>
   <div class="chips">${b.dossiers.concat(b.types).map(x =>
      `<span class="chip">${t(String(x).replace(/-/g," "))}</span>`).join("")}</div>
 

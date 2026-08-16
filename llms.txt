@@ -41,7 +41,7 @@ by; check the method before citing the number.
 
 - [Which statements on the record cannot both be true?](https://doczero.epstein-data.com/api/query/contradictions.json) — 3 result(s)
 - [Which single sources inform more than one beat?](https://doczero.epstein-data.com/api/query/cross-beat-sources.json) — 1 result(s)
-- [What is unresolved, and which document would resolve it?](https://doczero.epstein-data.com/api/query/open-questions.json) — 5 result(s)
+- [What is unresolved, and which document would resolve it?](https://doczero.epstein-data.com/api/query/open-questions.json) — 4 result(s)
 - [Which beats rest entirely on one publisher?](https://doczero.epstein-data.com/api/query/single-publisher-beats.json) — 1 result(s)
 - [What kinds of source is the record actually built on?](https://doczero.epstein-data.com/api/query/source-types.json) — 2 result(s)
 - [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 24 result(s)

@@ -362,8 +362,11 @@ def main(root="/mnt/d/Newsdesk/ledger-data"):
 
     # ── What the documents changed about the questions ───────────────────────
     q = Ledger(root, writer="editor")
-    q._write_json("questions/q-evidence-loss.json", {
-        "id": "q-evidence-loss", "beat": BEAT,
+    # Reuses day one's id so the narrowed question SUPERSEDES it rather than
+    # appearing beside it. A question the record has narrowed is the same
+    # question, not a new one.
+    q._write_json("questions/q-evidentiary-loss.json", {
+        "id": "q-evidentiary-loss", "beat": BEAT,
         "q": "What evidentiary value was lost at the site between 2019 and the state "
              "regaining access in 2026?",
         "known": "The record now establishes that federal law enforcement never searched "

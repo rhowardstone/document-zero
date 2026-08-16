@@ -18,7 +18,7 @@
   {
    "query": "open-questions",
    "question": "What is unresolved, and which document would resolve it?",
-   "count": 5,
+   "count": 4,
    "url": "https://doczero.epstein-data.com/api/query/open-questions.json"
   },
   {

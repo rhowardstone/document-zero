@@ -454,3 +454,28 @@ def test_the_hold_reason_reaches_the_page_as_data(tmp_path):
         {"id": "q", "beat": "compliance", "q": payload, "known": payload}))
     b = next(b for b in build(l.root, CFG, "2026-08-14")["beats"] if b["id"] == "compliance")
     assert b["unknown"][0] == f"Held: {payload}"
+
+
+def test_one_open_question_renders_once_however_many_agents_recorded_it(tmp_path):
+    """A later agent narrowed a question and wrote it under a new id, so the
+    page showed it twice — once narrowed, once not."""
+    l = Ledger(tmp_path / "data")
+    (l.root / "questions").mkdir(parents=True, exist_ok=True)
+    for qid, known in [("q-a", "short"), ("q-b", "a much longer, narrowed answer")]:
+        (l.root / "questions" / f"{qid}.json").write_text(json.dumps({
+            "id": qid, "beat": "compliance",
+            "q": "What evidentiary value was lost at the site?", "known": known}))
+    qs = build(l.root, CFG, "2026-08-14")["questions"]
+    assert len(qs) == 1, qs
+    assert qs[0]["known"] == "a much longer, narrowed answer"
+
+
+def test_the_month_label_comes_from_the_date_not_from_the_stored_string(tmp_path):
+    """Seeds wrote "SEP" and "3 NOV", and the page rendered "3 NOV / 03"."""
+    l = Ledger(tmp_path / "data")
+    (l.root / "triggers").mkdir(parents=True, exist_ok=True)
+    (l.root / "triggers" / "t.json").write_text(json.dumps({
+        "id": "t", "beat": "compliance", "sort": "2026-11-03",
+        "d": "3 NOV", "t": "Texas Comptroller election", "s": ""}))
+    t = build(l.root, CFG, "2026-08-14")["triggers"][0]
+    assert t["d"] == "NOV" and t["day"] == "03"

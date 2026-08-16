@@ -204,8 +204,8 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
     # Questions, triggers and contradictions are first-class ledger objects, and
     # the rails that carry them are the visible proof that the record accumulates.
     # A page that renders only today's items shows a feed; these show a ledger.
-    questions = _collection(root, "questions")
-    triggers = _dedupe_triggers(_collection(root, "triggers"))
+    questions = _dedupe_questions(_collection(root, "questions"))
+    triggers = _month_labels(_dedupe_triggers(_collection(root, "triggers")))
     contradictions = _collection(root, "contradictions")
 
     q_by_beat, t_by_beat = {}, {}
@@ -237,6 +237,53 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
                      "note": "Published" if edition.get("publish") else
                              f"Not published ({edition.get('publish_blocked_by')})"}],
     }
+
+
+_MONTHS = ("JAN", "FEB", "MAR", "APR", "MAY", "JUN",
+           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC")
+
+
+def _month_labels(triggers) -> list:
+    """Derive the month tag from the date rather than trusting the stored label.
+
+    Seeds wrote "SEP" for two triggers and "3 NOV" for a third, and the page
+    renders the label above the day-of-month — so one row read "3 NOV / 03".
+    A display string supplied by whoever wrote the record is not a fact about
+    the date; the date is.
+    """
+    out = []
+    for t in triggers:
+        t = dict(t)
+        m = re.match(r"(\d{4})-(\d{2})-(\d{2})", str(t.get("sort") or ""))
+        if m:
+            t["d"] = _MONTHS[int(m.group(2)) - 1]
+            t["day"] = m.group(3)
+        out.append(t)
+    return out
+
+
+def _dedupe_questions(questions) -> list:
+    """One open question, one row.
+
+    Triggers were deduped when two agents recorded the same court date. The same
+    thing happens to questions and was missed: a later agent narrowed an open
+    question and wrote it under a NEW id, so the page showed the question twice,
+    once answered-in-part and once not. Identity is the beat and the question
+    text, not whoever recorded it.
+    """
+    seen, out = {}, []
+    for q in questions:
+        key = (q.get("beat"),
+               re.sub(r"[^a-z0-9]+", " ", str(q.get("q") or "").lower()).strip())
+        if key in seen:
+            # Keep the more developed one: a later agent usually knows more.
+            if len(str(q.get("known") or "")) > len(str(seen[key].get("known") or "")):
+                out[out.index(seen[key])] = q
+                seen[key] = q
+            continue
+        seen[key] = q
+        out.append(q)
+    return out
 
 
 def _dedupe_triggers(triggers) -> list:

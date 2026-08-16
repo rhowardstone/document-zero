@@ -226,7 +226,6 @@
   ],
   "questions": [
    "q-auction-structure",
-   "q-evidence-loss",
    "q-evidentiary-loss",
    "q-standdown-expiry",
    "q-touhy-gap"

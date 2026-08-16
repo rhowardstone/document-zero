@@ -835,7 +835,6 @@
    ],
    "questions": [
     "q-auction-structure",
-    "q-evidence-loss",
     "q-evidentiary-loss",
     "q-standdown-expiry",
     "q-touhy-gap"
@@ -1817,7 +1816,7 @@
    "status": "Open · not being pursued by anyone visible"
   },
   {
-   "id": "q-evidence-loss",
+   "id": "q-evidentiary-loss",
    "beat": "nm-records",
    "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
    "known": "The record now establishes that federal law enforcement never searched the property, and that on 23 August 2019 — thirteen days after the defendant's death ended the federal case — a federal email acknowledged a victim who may have been raped at the residence while asserting there was no probable cause for a search. The first search was conducted by the state on 9 March 2026, roughly six and a half years later, and reported excavation and altered substrate.",
@@ -1826,17 +1825,6 @@
    "next": "Not scheduled. It is not among the records the Touhy request enumerates.",
    "opened": "14 Aug 2026",
    "status": "Open · narrowed by the complaint, not answered"
-  },
-  {
-   "id": "q-evidentiary-loss",
-   "beat": "nm-records",
-   "q": "What evidentiary value was lost at the site between 2019 and the state regaining access in 2026?",
-   "known": "The property changed hands at auction in 2023, was renamed, and unpermitted construction began. Investigators reported excavation and altered substrate inconsistent with the original construction timeline. The state did not have investigative access during that period.",
-   "who": "NMDOJ investigators · Santa Fe County permitting · the current owners",
-   "doc": "The stop-work order and permit file; the state's search inventory from March 2026",
-   "next": "The New Mexico truth commission's subpoena returns",
-   "opened": "14 Aug 2026",
-   "status": "Open"
   },
   {
    "id": "q-standdown-expiry",
@@ -1868,7 +1856,8 @@
    "d": "SEP",
    "beat": "nm-records",
    "t": "Government response due, New Mexico v. DOJ (1:26-cv-02762-AHA)",
-   "s": "The answer is where the protective-order and Privacy Act grounds must be defended on the record. Non-response is itself recordable."
+   "s": "The answer is where the protective-order and Privacy Act grounds must be defended on the record. Non-response is itself recordable.",
+   "day": "05"
   },
   {
    "id": "t-truth-commission",
@@ -1876,15 +1865,17 @@
    "d": "SEP",
    "beat": "nm-records",
    "t": "New Mexico truth commission subpoena returns",
-   "s": "Began 1 June 2026 with subpoena power over the Zorro Ranch period."
+   "s": "Began 1 June 2026 with subpoena power over the Zorro Ranch period.",
+   "day": "15"
   },
   {
    "id": "t-tx-comptroller",
    "sort": "2026-11-03",
-   "d": "3 NOV",
+   "d": "NOV",
    "beat": "nm-records",
    "t": "Texas Comptroller election",
-   "s": "The property's owner is a candidate; the office oversees state financial matters."
+   "s": "The property's owner is a candidate; the office oversees state financial matters.",
+   "day": "03"
   }
  ],
  "contradictions": [
