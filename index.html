@@ -429,6 +429,14 @@ const ROUTES = [
   {id:"api",    path:"/api",      label:"Agent API"},
 ];
 
+// Cut a heading at a word boundary. A hard slice put "...crests at In" in the
+// browser tab, in every bookmark, and in every link preview.
+function clipWords(text, max){
+  const t = String(text || "").trim().replace(/\s+/g, " ");
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max), sp = cut.lastIndexOf(" ");
+  return (sp > max * 0.5 ? cut.slice(0, sp) : cut).replace(/[,;:.\u2013\u2014-]+$/, "") + "\u2026";
+}
 function route() {
   const h = (location.hash || "#/").slice(1);
   const p = h.split("/").filter(Boolean);
@@ -456,7 +464,9 @@ function go() {
   // Take the heading's own text, not the count that sits beside it: the title
   // read "What changed today 1 beat moved · Document Zero".
   const h = el("main").querySelector("h1.page, .lead h1, h2.sec b");
-  document.title = (h ? h.textContent.trim().slice(0, 60) + " · " : "") + "Document Zero";
+  // Cut at a word boundary. A hard slice produced "...White River crests at
+  // In · Document Zero" in the tab and in every link preview and bookmark.
+  document.title = (h ? clipWords(h.textContent, 60) + " · " : "") + "Document Zero";
 }
 
 /* ── Chrome ────────────────────────────────────────────────────────────── */

@@ -6,3 +6,6 @@ __pycache__/
 # Derived, not evidence: GDELT span lookups with a 12h TTL. Committing a
 # cache makes a stale answer look like a recorded fact.
 ledger-data/.history-cache/
+
+# Browser automation artefacts from local verification runs.
+.playwright-mcp/
