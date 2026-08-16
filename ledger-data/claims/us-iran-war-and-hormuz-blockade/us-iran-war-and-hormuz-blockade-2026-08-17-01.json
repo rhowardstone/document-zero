@@ -1,0 +1,14 @@
+{
+  "claim_text": "Iran has said there has been no progress on reviving the interim peace deal with the United States, according to a Reuters report carried in the 16 August 2026 cluster on the expiring US-Iran memorandum of understanding.",
+  "quote": "Iran says no progress on reviving interim peace deal with US",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Attributed characterisation by one party to the talks, reported at second hand in a headline summary rather than from a transcript.",
+  "source_sha": "0936611fedef1912d9df9d09259570ad3e3fff8e74d63fb5415dc2c366d94956",
+  "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-01",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Gov. Mike Braun said he spoke with President Trump, who on Saturday 15 August 2026 approved the governor's request for a presidential emergency declaration freeing up to $5 million in federal resources for response and recovery after days of record rainfall in Indiana.",
+  "quote": "Gov. Braun said he has spoken to President Trump, who on Saturday approved the governor's request for a presidential emergency declaration to free up to $5 million in federal resources to help with the response and recovery following days of record rainfall.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "News report at ceiling; a presidential declaration is a formal federal action and the approval is corroborated by two other articles in the cluster.",
+  "source_sha": "9ef74991ac0783fce58fdde16b17c6cb6a18e1b6c0028d7161fa890246767e5f",
+  "source_url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-01",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

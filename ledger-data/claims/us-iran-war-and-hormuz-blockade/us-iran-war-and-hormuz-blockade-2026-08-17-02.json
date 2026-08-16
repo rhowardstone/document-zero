@@ -1,0 +1,14 @@
+{
+  "claim_text": "The US military is moving its last aircraft carrier out of the Pacific to prioritise operations against Iran, relieving the USS Abraham Lincoln and leaving the Pacific without a carrier, according to reports published on 16 August 2026.",
+  "quote": "US to relieve USS Abraham Lincoln, leaving Pacific without carrier",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Ship movement reported concurrently by New York Post, Los Angeles Times, AP and Semafor; news ceiling is 0.6.",
+  "source_sha": "258d786acde31296e99d79ea74d9e246d90e9e637fe43fc10e2fc11e5ea863c0",
+  "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-02",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

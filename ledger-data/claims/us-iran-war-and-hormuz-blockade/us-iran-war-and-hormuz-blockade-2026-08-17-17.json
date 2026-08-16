@@ -1,0 +1,14 @@
+{
+  "claim_text": "State Department spokesperson Tommy Pigott discussed the war with Iran and the hundreds of thousands of foreign nationals who have had their US visas revoked in an interview with NPR's Rob Schmitz broadcast on 15 August 2026.",
+  "quote": "NPR's Rob Schmitz speaks with State Department spokesperson Tommy Pigott about the with Iran and the hundreds of thousands of foreign nationals who have had their U.S. visa revoked.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "On-record broadcast interview with a named official; the visa-revocation figure is NPR's characterisation rather than a cited State Department release.",
+  "source_sha": "5c8405a5416a21b29c4ab51f1ed36fb580ab75b3963b84ebf102e8356287cf72",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-17",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Iran's oil exports are trapped by US pressure at a moment when rival producers' exports are about to surge, though Tehran could still find a way to break the American chokehold, according to a Fortune analysis published on 16 August 2026.",
+  "quote": "Iran’s oil is trapped while rival exports are about to surge but Tehran could break the US chokehold",
+  "tier": "question",
+  "confidence": 0.45,
+  "confidence_justification": "The escape scenario is framed as a possibility by the publication itself, not an established or attributed fact.",
+  "source_sha": "3b1770bf930587172ffb1333298708bb604dc1f7ba37c21e7b1e4331a822bd16",
+  "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-11",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

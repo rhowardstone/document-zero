@@ -1,0 +1,14 @@
+{
+  "claim_text": "Navy Times and Stars and Stripes, two publications specialising in the U.S. military, have reported multiple attempts by sailors aboard the Lincoln to jump overboard during the carrier's ninth month at sea.",
+  "quote": "have reported multiple attempts by sailors to jump overboard as poor conditions and mental stresses aboard the Lincoln reach a breaking point",
+  "tier": "credible_allegation",
+  "confidence": 0.45,
+  "confidence_justification": "Second-hand attribution to other outlets' reporting; no primary documentation or Navy confirmation in this source.",
+  "source_sha": "8f6e32fae53aa050c2327288b14c0fd3743766ffaf224566411bfbefd051b919",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-12",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Former House Speaker Newt Gingrich said Iran is betting it can outlast President Trump if Democrats take Congress, part of wider analysis published on 16 August 2026 arguing that Tehran's strategy is to outlast Trump's presidency.",
+  "quote": "Iran betting it can outlast Trump if Dems take Congress, Gingrich says",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Attributed commentary by a named political figure about another government's intentions; no Iranian source confirms it.",
+  "source_sha": "979b056578a2cfa5697ab19008cd14a3bbf2bd80527c74ee708534dbcc011f10",
+  "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-16",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

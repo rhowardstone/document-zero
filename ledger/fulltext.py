@@ -24,6 +24,17 @@ from dataclasses import dataclass
 
 UA = ("Mozilla/5.0 (compatible; DocumentZero/1.0; "
       "+https://doczero.epstein-data.com/) public-interest news ledger")
+
+# A bare User-Agent gets 403 from a lot of publishers. Sending the headers a
+# real browser sends is not a disguise — the UA above still says exactly who we
+# are and how to reach us — it just stops a request being rejected for looking
+# malformed. Seven of forty fetches were refused this way.
+HEADERS = {
+    "User-Agent": UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+}
 TIMEOUT = 20
 MIN_PARA_WORDS = 12
 MIN_BODY_WORDS = 120
@@ -40,6 +51,7 @@ _STRIP_BLOCKS = re.compile(
     r"(?is)<(script|style|nav|header|footer|aside|form|figure|figcaption|"
     r"noscript|iframe|svg)[^>]*>.*?</\1>")
 _PARA = re.compile(r"(?is)<p[^>]*>(.*?)</p>")
+_DIV = re.compile(r"(?is)<div[^>]*>([^<]{80,})</div>")
 _TAGS = re.compile(r"(?s)<[^>]+>")
 
 
@@ -63,21 +75,31 @@ def extract(html: str) -> str:
     in a claim that no journalist wrote.
     """
     html = _STRIP_BLOCKS.sub(" ", html or "")
+    kept = _paragraphs(_PARA.findall(html))
+    if len(" ".join(kept).split()) < MIN_BODY_WORDS:
+        # Some sites lay articles out in divs. Five of forty pages yielded no
+        # <p> body at all and were discarded despite having a whole article on
+        # them.
+        kept = _paragraphs(_DIV.findall(html)) or kept
+
+    # Drop leading furniture: real articles open with a substantial paragraph,
+    # while promo blocks that survived the filters tend to be shorter.
+    while kept and len(kept[0].split()) < 20:
+        kept.pop(0)
+    return " ".join(kept)
+
+
+def _paragraphs(raws) -> list:
     kept = []
-    for raw in _PARA.findall(html):
+    for raw in raws:
         t = re.sub(r"\s+", " ", _TAGS.sub(" ", raw)).strip()
         if len(t.split()) < MIN_PARA_WORDS:
             continue
         if BOILERPLATE.search(t):
             continue
-        kept.append(t)
-
-    # Drop leading furniture: real articles open with a substantial paragraph,
-    # while promo blocks that survived the filters tend to be shorter. Trim from
-    # the front until a paragraph looks like a lede.
-    while kept and len(kept[0].split()) < 20:
-        kept.pop(0)
-    return " ".join(kept)
+        if t not in kept:
+            kept.append(t)
+    return kept
 
 
 def fetch(url: str, _opener=None) -> Body:
@@ -86,7 +108,7 @@ def fetch(url: str, _opener=None) -> Body:
         if _opener is not None:
             html, final = _opener(url)
         else:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 html = r.read(3_000_000).decode("utf-8", "replace")
                 final = r.geturl()

@@ -1,0 +1,14 @@
+{
+  "claim_text": "The USS George Washington aircraft carrier is headed to the Middle East to relieve the USS Abraham Lincoln, CBS News reported on 16 August 2026.",
+  "quote": "The USS George Washington aircraft carrier is headed to the Middle East to relieve the Lincoln.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Reported movement order attributed to a U.S. official elsewhere in the cluster; no public document cited.",
+  "source_sha": "841881a60b36e1d621d2fb7dbf0df99169fe434f2c31cbc66c388800c0e650fa",
+  "source_url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-04",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

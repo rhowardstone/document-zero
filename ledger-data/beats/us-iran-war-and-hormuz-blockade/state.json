@@ -1,77 +1,69 @@
 {
   "beat": "us-iran-war-and-hormuz-blockade",
-  "as_of": "2026-08-16",
+  "as_of": "2026-08-17",
   "fields": [
     {
-      "k": "US-Iran MoU/ceasefire",
-      "v": "Expiring",
-      "since": "2026-08-16",
+      "k": "US–Iran MoU / ceasefire",
+      "v": "Approaching expiry",
+      "since": "2026-08-17",
       "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
       ]
     },
     {
-      "k": "Negotiations",
-      "v": "Stalled",
-      "since": "2026-08-16",
+      "k": "Talks",
+      "v": "Stalled, no progress",
+      "since": "2026-08-17",
       "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
       ]
     },
     {
-      "k": "Strait of Hormuz",
-      "v": "Closed",
-      "since": "2026-08-16",
+      "k": "Strait of Hormuz shipping",
+      "v": "Disrupted, under attack",
+      "since": "2026-08-17",
       "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
       ]
     },
     {
-      "k": "UAE tankers attacked",
-      "v": "Three in a week",
-      "since": "2026-08-16",
+      "k": "UAE tankers struck in past week",
+      "v": "Three",
+      "since": "2026-08-17",
       "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
-      ]
-    },
-    {
-      "k": "US carrier in Pacific",
-      "v": "None",
-      "since": "2026-08-16",
-      "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
-      ]
-    },
-    {
-      "k": "Carrier in Middle East",
-      "v": "Lincoln, awaiting relief by George Washington",
-      "since": "2026-08-16",
-      "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
-      ]
-    },
-    {
-      "k": "US economic measures",
-      "v": "Blockade threatened, 'indefinite'",
-      "since": "2026-08-16",
-      "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
       ]
     },
     {
       "k": "Oil price",
-      "v": "Rising",
-      "since": "2026-08-16",
+      "v": "Rising toward $100",
+      "since": "2026-08-17",
       "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
       ]
     },
     {
-      "k": "US visas revoked",
-      "v": "Hundreds of thousands",
-      "since": "2026-08-16",
+      "k": "US carrier presence in western Pacific",
+      "v": "None",
+      "since": "2026-08-17",
       "claims": [
-        "us-iran-war-and-hormuz-blockade-2026-08-16-00"
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
+      ]
+    },
+    {
+      "k": "USS Abraham Lincoln deployment",
+      "v": "240+ days, awaiting relief",
+      "since": "2026-08-17",
+      "claims": [
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
+      ]
+    },
+    {
+      "k": "US economic measures",
+      "v": "Indefinite blockade threatened",
+      "since": "2026-08-17",
+      "claims": [
+        "us-iran-war-and-hormuz-blockade-2026-08-17-00"
       ]
     }
   ]

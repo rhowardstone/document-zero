@@ -1,0 +1,85 @@
+{
+  "name": "US–Iran war and Hormuz blockade",
+  "slug": "us-iran-war-and-hormuz-blockade",
+  "opened": true,
+  "reason": "10 events over 20 days (GDELT: 21 days of coverage over 20d)",
+  "events": 10,
+  "span_days": 20,
+  "state_fields": [
+    "US–Iran MoU / ceasefire",
+    "Talks",
+    "Strait of Hormuz shipping",
+    "UAE tankers struck in past week",
+    "Oil price",
+    "US carrier presence in western Pacific",
+    "USS Abraham Lincoln deployment",
+    "US economic measures"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "aljazeera.com",
+    "courthousenews.com",
+    "fortune.com",
+    "npr.org",
+    "nypost.com",
+    "pbs.org",
+    "reuters.com",
+    "salon.com",
+    "thehill.com"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+      "title": "US-Iran MoU is set to expire: What to know",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+      "title": "US military moving last aircraft carrier out of the Pacific to prioritize operations in Iran",
+      "publisher": "nypost.com"
+    },
+    {
+      "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+      "title": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+      "publisher": "courthousenews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+      "title": "Iran’s oil is trapped while rival exports are about to surge but Tehran could break the US chokehold",
+      "publisher": "fortune.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
+      "title": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption",
+      "publisher": "reuters.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+      "title": "Trump wants more economic pressure on Iran. What are his options?",
+      "publisher": "reuters.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
+      "title": "Iran’s strategy to simply outlast Trump’s presidency",
+      "publisher": "salon.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+      "title": "State Department spokesperson on Iran war and U.S. visa revocations",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+      "title": "Iran attacks third UAE tanker within a week",
+      "publisher": "thehill.com"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+      "title": "U.S. pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+      "publisher": "pbs.org"
+    }
+  ],
+  "claims_found": 20,
+  "dropped": [],
+  "no_state_reason": ""
+}

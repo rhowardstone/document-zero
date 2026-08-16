@@ -1,0 +1,14 @@
+{
+  "claim_text": "A 31-year-old cyclist was found dead early Sunday 16 August 2026 in a hole that opened up on a washed-out road in Henry County, east of Indianapolis, and the county coroner said the man appears to have gone around a barricade and fallen into the collapsed road.",
+  "quote": "Among the latest confirmed victims was a 31-year-old cyclist found dead early Sunday in a hole that opened up on a washed-out road in Henry County, east of Indianapolis.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Death confirmed and attributed to a named county coroner, but the coroner's account of how it happened is stated as an appearance, not a finished determination.",
+  "source_sha": "78e05d4048a7f160a81e54477015ff27efedb6b540f1ad294d3b9ebe45d966fe",
+  "source_url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-10",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,53 +1,45 @@
 {
   "beat": "uss-abraham-lincoln-deployment-conditions",
-  "as_of": "2026-08-16",
+  "as_of": "2026-08-17",
   "fields": [
     {
-      "k": "Deployment length",
-      "v": "265 days",
-      "since": "2026-08-16",
+      "k": "Days at sea",
+      "v": "240–260+, no port call in 200+",
+      "since": "2026-08-17",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
       ]
     },
     {
-      "k": "Carrier status",
-      "v": "Returning home, being replaced",
-      "since": "2026-08-16",
+      "k": "Lincoln status",
+      "v": "Returning home",
+      "since": "2026-08-17",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
+      ]
+    },
+    {
+      "k": "Relief carrier",
+      "v": "USS George Washington, en route",
+      "since": "2026-08-17",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
       ]
     },
     {
       "k": "Congressional oversight",
-      "v": "Urged, none opened",
-      "since": "2026-08-16",
+      "v": "Requested, no hearing scheduled",
+      "since": "2026-08-17",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
       ]
     },
     {
-      "k": "White House position",
-      "v": "Deployment defended as too short",
-      "since": "2026-08-16",
+      "k": "Pentagon position",
+      "v": "Reports 'completely misrepresented'",
+      "since": "2026-08-17",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
-      ]
-    },
-    {
-      "k": "CENTCOM response",
-      "v": "Commander visited ship Aug 15",
-      "since": "2026-08-16",
-      "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
-      ]
-    },
-    {
-      "k": "US carrier presence in Asia",
-      "v": "Last carrier pulled",
-      "since": "2026-08-16",
-      "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
       ]
     }
   ]

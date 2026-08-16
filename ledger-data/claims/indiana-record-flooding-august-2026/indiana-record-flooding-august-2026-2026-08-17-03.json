@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Indiana Department of Homeland Security listed storm-related deaths including a 4-year-old boy in Jennings County, a 58-year-old woman in Lake County, an 86-year-old woman in Porter County, a 32-year-old man in LaPorte County and a 31-year-old man in Henry County.",
+  "quote": "According to the Indiana Department of Homeland Security, the other storm-related deaths included a 4-year-old boy in Jennings County, a 58-year-old woman in Lake County, an 86-year-old woman in Porter County, a 32-year-old man in LaPorte County and a 31-year-old man in Henry County.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Attributed to the state agency that compiles the official count; at the news ceiling.",
+  "source_sha": "9ef74991ac0783fce58fdde16b17c6cb6a18e1b6c0028d7161fa890246767e5f",
+  "source_url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-03",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

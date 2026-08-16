@@ -1,0 +1,14 @@
+{
+  "claim_text": "Cooper acknowledged the crew's mental health concerns but said the Lincoln has among the lowest numbers of mental-health-related cases of all 11 of the U.S. Navy's active aircraft carriers, adding \"This doesn't mean that all is perfect.\"",
+  "quote": "Cooper acknowledged the concerns in his statement, but said the Lincoln has among the lowest numbers of cases related to mental health of all the U.S. Navy's 11 active aircraft carriers.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "A comparative assertion by a commanding officer, reported but not independently verified against Navy medical data.",
+  "source_sha": "841881a60b36e1d621d2fb7dbf0df99169fe434f2c31cbc66c388800c0e650fa",
+  "source_url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-03",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

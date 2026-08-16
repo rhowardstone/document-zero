@@ -1,0 +1,14 @@
+{
+  "claim_text": "The United States has pulled its last aircraft carrier out of Asia as President Trump focuses on Iran and the Western Hemisphere, according to an Associated Press report carried in a 16 August 2026 news roundup.",
+  "quote": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+  "tier": "credible_allegation",
+  "confidence": 0.4,
+  "confidence_justification": "Headline only in an aggregator listing; no body text or sourcing available in this cluster.",
+  "source_sha": "3bf840eb7f7ca47a4c448b8fb2c1f83baf7f82f724fa7201249743d1f9516f00",
+  "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-08",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

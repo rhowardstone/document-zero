@@ -1,53 +1,69 @@
 {
   "beat": "indiana-record-flooding-august-2026",
-  "as_of": "2026-08-16",
+  "as_of": "2026-08-17",
   "fields": [
     {
       "k": "Death toll",
-      "v": "6-7, varies by outlet",
-      "since": "2026-08-16",
+      "v": "at least 7",
+      "since": "2026-08-17",
       "claims": [
-        "indiana-record-flooding-august-2026-2026-08-16-00"
+        "indiana-record-flooding-august-2026-2026-08-17-00"
+      ]
+    },
+    {
+      "k": "White River at Indianapolis",
+      "v": "Crested early Sun, receding",
+      "since": "2026-08-17",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-17-00"
       ]
     },
     {
       "k": "Customers without power",
-      "v": "nearly 130,000",
-      "since": "2026-08-16",
+      "v": "~130,000, down from ~300,000 peak",
+      "since": "2026-08-17",
       "claims": [
-        "indiana-record-flooding-august-2026-2026-08-16-00"
+        "indiana-record-flooding-august-2026-2026-08-17-00"
       ]
     },
     {
-      "k": "Rainfall total",
-      "v": "more than 11 inches over three days",
-      "since": "2026-08-16",
+      "k": "Federal aid",
+      "v": "Emergency declaration approved, up to $5m",
+      "since": "2026-08-17",
       "claims": [
-        "indiana-record-flooding-august-2026-2026-08-16-00"
+        "indiana-record-flooding-august-2026-2026-08-17-00"
       ]
     },
     {
-      "k": "Search and rescue",
-      "v": "ongoing; rescues and evacuations",
-      "since": "2026-08-16",
+      "k": "Emergency shelters",
+      "v": "Open",
+      "since": "2026-08-17",
       "claims": [
-        "indiana-record-flooding-august-2026-2026-08-16-00"
+        "indiana-record-flooding-august-2026-2026-08-17-00"
+      ]
+    },
+    {
+      "k": "Local disaster declarations",
+      "v": "More than a dozen counties",
+      "since": "2026-08-17",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-17-00"
       ]
     },
     {
       "k": "Forecast",
-      "v": "rains expected to ease Sunday",
-      "since": "2026-08-16",
+      "v": "More storms central/south Sunday",
+      "since": "2026-08-17",
       "claims": [
-        "indiana-record-flooding-august-2026-2026-08-16-00"
+        "indiana-record-flooding-august-2026-2026-08-17-00"
       ]
     },
     {
-      "k": "White River stage",
-      "v": "peaked at Indianapolis",
-      "since": "2026-08-16",
+      "k": "Private relief pledged",
+      "v": "$125,000 each from Colts and Pacers",
+      "since": "2026-08-17",
       "claims": [
-        "indiana-record-flooding-august-2026-2026-08-16-00"
+        "indiana-record-flooding-august-2026-2026-08-17-00"
       ]
     }
   ]

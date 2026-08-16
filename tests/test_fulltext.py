@@ -60,9 +60,26 @@ def test_an_empty_page_yields_nothing_rather_than_raising():
 
 # ── Fetching, and failing ───────────────────────────────────────────────────
 
+THIRD = ("Lawyers for the state said the department had produced thirty-one pages "
+         "in response, most of them public material the state had itself supplied, "
+         "and asked the judge to set a schedule before the end of the month.")
+FOURTH = ("A department spokesperson declined to comment on pending litigation but "
+          "pointed to earlier statements in which officials said they intended to "
+          "cooperate with state investigators wherever the law allowed it.")
+
+
 def test_a_good_page_produces_a_usable_body():
-    b = fetch("https://x/", _opener=lambda u: (page(LEDE, SECOND, ) * 3, u))
+    b = fetch("https://x/", _opener=lambda u: (page(LEDE, SECOND, THIRD, FOURTH), u))
     assert b.ok and b.words >= MIN_BODY_WORDS and not b.error
+
+
+def test_a_repeated_paragraph_is_counted_once():
+    """Sites echo a standfirst in the body. Counting it twice inflates the word
+    count and hands the same sentence to the reporter as two pieces of evidence."""
+    once = fetch("https://x/", _opener=lambda u: (page(LEDE, SECOND, THIRD, FOURTH), u))
+    twice = fetch("https://x/", _opener=lambda u: (
+        page(LEDE, SECOND, THIRD, FOURTH, LEDE, SECOND), u))
+    assert once.words == twice.words
 
 
 def test_a_blocked_page_returns_a_thin_body_and_never_raises():

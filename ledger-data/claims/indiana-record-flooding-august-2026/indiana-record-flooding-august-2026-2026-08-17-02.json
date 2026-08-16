@@ -1,0 +1,14 @@
+{
+  "claim_text": "The NFL's Indianapolis Colts and the NBA's Indiana Pacers each said on Sunday 16 August 2026 that they are donating $125,000 to statewide flood relief, with the WNBA's Indiana Fever and the G League's Noblesville Boom also contributing, the money going directly to the American Red Cross.",
+  "quote": "The NFL's Indianapolis Colts and the NBA's Indiana Pacers on Sunday said they are donating $125,000 each to flood relief efforts throughout the state.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "News report; pledges announced by the organisations themselves and reported directly, but the donations are announced rather than documented as transferred.",
+  "source_sha": "9ef74991ac0783fce58fdde16b17c6cb6a18e1b6c0028d7161fa890246767e5f",
+  "source_url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-02",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

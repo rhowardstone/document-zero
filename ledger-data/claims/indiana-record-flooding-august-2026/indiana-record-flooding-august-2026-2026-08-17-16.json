@@ -1,0 +1,14 @@
+{
+  "claim_text": "Some parts of Indiana received more than 11 inches of rainfall over three days beginning 11 August 2026, causing record floods that also left several suburbs of Indianapolis underwater, NPR reported on 16 August 2026.",
+  "quote": "Some parts of Indiana received more than 11 inches of rainfall over three days, beginning Aug. 11, causing record floods.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Rainfall total reported by a national outlet; other articles in the cluster attribute a similar 11-inch total to a two-day rather than three-day window.",
+  "source_sha": "419d419a5bd444b3d29817cee87614d85fe951eb19b3b3299eb672d157734c4e",
+  "source_url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-16",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

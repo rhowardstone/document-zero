@@ -1,0 +1,14 @@
+{
+  "claim_text": "A memorandum of understanding between the United States and Iran is approaching its expiration date, and the ceasefire it underpins is set to expire with negotiations between the two governments at a standstill, according to reports published on 16 August 2026.",
+  "quote": "US-Iran ceasefire set to expire with talks at a standstill",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Multiple wire outlets (Al Jazeera, AP, Politico, Reuters) carry the same expiry framing in the same cluster; news ceiling is 0.6.",
+  "source_sha": "0936611fedef1912d9df9d09259570ad3e3fff8e74d63fb5415dc2c366d94956",
+  "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-00",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Sen. Ruben Gallego, an Arizona Democrat and retired U.S. Marine, said on Sunday 16 August 2026 that he had spoken with the spouse of a Lincoln crew member three days earlier and blamed the prolonged deployment on the administration's failure to plan for the Iran war.",
+  "quote": "The deep, deep, deep problem here is that this administration did not plan for this war, did not plan how to get out of this war, [and] did not really understand how this war was going to escalate.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "On-record assertion by an identified senator characterising administration planning; a political judgement, not an established fact.",
+  "source_sha": "8f6e32fae53aa050c2327288b14c0fd3743766ffaf224566411bfbefd051b919",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-09",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

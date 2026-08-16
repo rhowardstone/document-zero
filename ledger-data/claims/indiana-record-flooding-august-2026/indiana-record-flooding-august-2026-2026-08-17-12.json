@@ -1,0 +1,14 @@
+{
+  "claim_text": "The National Weather Service warned that while northern parts of Indiana dried out, a cluster of storms was expected to pass through the central and southern regions later on Sunday 16 August 2026, bringing potential heavy rain, flash flooding and damaging winds.",
+  "quote": "While northern parts of Indiana dried out, a cluster of storms was expected to pass through the central and southern regions later Sunday, bringing the potential for heavy rain, flash flooding and damaging winds, the National Weather Service warned.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Attributed to an official NWS forecast, but a forecast is a prediction rather than a settled state of the world.",
+  "source_sha": "78e05d4048a7f160a81e54477015ff27efedb6b540f1ad294d3b9ebe45d966fe",
+  "source_url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-12",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

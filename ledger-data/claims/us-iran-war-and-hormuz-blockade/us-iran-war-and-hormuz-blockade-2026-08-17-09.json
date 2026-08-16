@@ -1,0 +1,14 @@
+{
+  "claim_text": "Oil prices rose and were set for weekly gains after the United States threatened an indefinite blockade against Iran, with coverage on 16 August 2026 questioning how long such a blockade could be sustained.",
+  "quote": "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Market movement is observable and independently reported by Reuters; the threat is carried by Al Jazeera in the same cluster.",
+  "source_sha": "3b1770bf930587172ffb1333298708bb604dc1f7ba37c21e7b1e4331a822bd16",
+  "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-09",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Aggregated coverage on 16 August 2026 reported that the body of a teenager missing in Delaware County floodwaters had been recovered, described in one outlet's headline as the fourth death attributed to the week's severe weather in Indiana.",
+  "quote": "Teen's body found in Delaware County is 4th death due to week's severe weather",
+  "tier": "documented_fact",
+  "confidence": 0.45,
+  "confidence_justification": "Headline-level only; the recovery is corroborated by the Delaware County Sheriff's Office statements in other cluster articles, but the ordinal 'fourth' conflicts with later state counts.",
+  "source_sha": "34227e1f7804fb88d6382e7f547b67770e33f6a7ca069aee6f428b1f681c3414",
+  "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+  "source_type": "misc",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-19",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

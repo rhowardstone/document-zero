@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Indianapolis Department of Public Works reopened the city's floodgates on Sunday 16 August 2026 after the White River peaked early that morning, urging residents to be cautious as they returned to flood-damaged neighbourhoods while emergency shelters remained open.",
+  "quote": "The agency reopened city floodgates Sunday, though they urged residents to be cautious as they returned to flood-damaged neighborhoods.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Operational action by a named city agency, reported as completed rather than planned; the CBS version of the same day reports it as still forthcoming.",
+  "source_sha": "78e05d4048a7f160a81e54477015ff27efedb6b540f1ad294d3b9ebe45d966fe",
+  "source_url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-11",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

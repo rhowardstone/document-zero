@@ -1,0 +1,14 @@
+{
+  "claim_text": "The White River crested at more than 24 feet (7.32 meters) in the Indiana communities of Anderson and Noblesville, surpassing records set in 1913, as heavy rains caused rivers statewide to reach record levels over the past week.",
+  "quote": "The White River crested at more than 24 feet (7.32 meters) in the communities of Anderson and Noblesville, surpassing records set in 1913.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Gauge crest against a documented historical record, reported in an AP-sourced wire story; note CBS states 'just shy of 25 feet' for the same crest.",
+  "source_sha": "7af7b67677e41fe48493edd2df75e29839bbde855944f7bb37f61bde106c18e4",
+  "source_url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-08",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

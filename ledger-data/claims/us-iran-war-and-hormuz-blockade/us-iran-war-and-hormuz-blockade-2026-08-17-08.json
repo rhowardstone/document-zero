@@ -1,0 +1,14 @@
+{
+  "claim_text": "Greg Poling, director of the Southeast Asia Program at the Center for Strategic and International Studies, said the United States is doing the exact opposite of its previously expressed goal of pulling out of the Middle East, and that Pacific allies are unsettled by the administration's unpredictability.",
+  "quote": "said Greg Poling, director of the Southeast Asia Program at the Center for Strategic and International Studies",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Named think-tank analyst's assessment of allied sentiment; interpretive rather than documentary, though the quotation itself is direct.",
+  "source_sha": "b2c0e1697ee2b9ee501b7c6fc8b3e9f6159429044cbabf77bb59f2d60a147ce2",
+  "source_url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-08",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

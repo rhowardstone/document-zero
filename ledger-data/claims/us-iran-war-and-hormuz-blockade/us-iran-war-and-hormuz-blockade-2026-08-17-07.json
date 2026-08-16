@@ -1,0 +1,14 @@
+{
+  "claim_text": "China carried out military drills this month near the Scarborough Shoal in the South China Sea, conducted naval exercises this week with Indonesia, and last month sent a guided-missile destroyer to hold a live-fire exercise off Japan's southernmost island of Okinotori.",
+  "quote": "China carried out military drills this month near the Scarborough Shoal in the South China Sea.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Discrete dated military activities reported as fact in an AP wire story; each element appears in the same article body.",
+  "source_sha": "b2c0e1697ee2b9ee501b7c6fc8b3e9f6159429044cbabf77bb59f2d60a147ce2",
+  "source_url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-07",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

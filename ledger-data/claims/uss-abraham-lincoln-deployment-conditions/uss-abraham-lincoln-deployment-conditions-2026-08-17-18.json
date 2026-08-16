@@ -1,0 +1,14 @@
+{
+  "claim_text": "Family members of USS Abraham Lincoln crew told NPR in a report published 15 August 2026 that President Trump should be \"ashamed\" of conditions aboard the ship and that his \"not nearly long enough\" comment was shameful.",
+  "quote": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
+  "tier": "credible_allegation",
+  "confidence": 0.45,
+  "confidence_justification": "Attributed to unnamed relatives in a headline and short summary; no full text available in this cluster.",
+  "source_sha": "0b840a84911a611657c69d3ade48a7fd8bb6833592c76a69ad52bb36174a27c8",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-18",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Defense Secretary Pete Hegseth has rejected reports of poor morale and conditions aboard the USS Abraham Lincoln as \"completely misrepresented,\" according to reporting published on 16 August 2026.",
+  "quote": "Hegseth has rejected those reports as “completely misrepresented”",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "The denial is quoted, but the underlying factual dispute over conditions is unresolved in the reporting.",
+  "source_sha": "8f6e32fae53aa050c2327288b14c0fd3743766ffaf224566411bfbefd051b919",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-11",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

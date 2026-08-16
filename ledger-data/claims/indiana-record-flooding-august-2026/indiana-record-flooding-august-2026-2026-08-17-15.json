@@ -1,0 +1,14 @@
+{
+  "claim_text": "Jacob Spence, director of Marion County Emergency Management, called the flooding a once-in-a-lifetime type flood, telling The Associated Press that it was an unprecedented event in which the state was setting new records.",
+  "quote": "\"This is an unprecedented event, and unfortunately we're setting some new records,\" he told The Associated Press.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Direct quote from a named emergency management official, but it is a characterisation of severity rather than a measured figure.",
+  "source_sha": "f2ef33a053f4dc5f02f4829a4a34763dc4469b6a750e17e617349badfce795f5",
+  "source_url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-15",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

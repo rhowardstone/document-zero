@@ -1,0 +1,14 @@
+{
+  "claim_text": "Indianapolis Mayor Joe Hogsett said the flooding was the worst the capital city has seen in more than 30 years, a characterisation he repeated as first responders used boats to reach residents stranded in neighbourhoods along the White River.",
+  "quote": "Indianapolis mayor Joe Hogsett said the flooding was the worst the capital city has seen in more than 30 years.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Assertion by an identified public official comparing the event to past floods; no gauge record cited in the article to settle the comparison.",
+  "source_sha": "4796c073fe578a9310eaf6e9ba253c4ff179de84c1d0b00bfbea4a057b7e8de8",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-05",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

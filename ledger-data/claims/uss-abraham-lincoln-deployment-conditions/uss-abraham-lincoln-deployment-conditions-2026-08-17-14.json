@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rep. Don Bacon, a Nebraska Republican and retired Air Force brigadier general, said on 16 August 2026 that Congress should conduct oversight of conditions aboard the USS Abraham Lincoln and that the secretary of the Navy or the service chief should testify before lawmakers.",
+  "quote": "\"We should have oversight,\" Bacon said on \"Face the Nation with Margaret Brennan.\"",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Direct quotation of a sitting member of Congress on an on-record broadcast.",
+  "source_sha": "07fe66ea17f5a3513b9321e4f5c81003a021eb3cf3cdf194d1a219271844aa94",
+  "source_url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-14",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "The UAE characterised the strikes on tankers in the Strait of Hormuz as 'unprovoked attacks' by Iran as the number of ship attacks in the waterway mounted and the United States vowed to cripple Iran's economy.",
+  "quote": "Hormuz Ship Attacks Mount as US Vows to Cripple Iran’s Economy",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "'Unprovoked' is the UAE's characterisation and the US economic vow is an unexecuted statement of intent; both are attributed, not documented.",
+  "source_sha": "6b41147646d534a7a7709fd0286b9348cc4aa9e2edb12d629d289921faf89c64",
+  "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-19",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

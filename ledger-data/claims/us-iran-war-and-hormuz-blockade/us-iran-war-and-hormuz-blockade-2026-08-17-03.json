@@ -1,0 +1,14 @@
+{
+  "claim_text": "The USS George Washington is departing the Pacific and is expected to replace the USS Abraham Lincoln in the Middle East amid growing concerns about mental health and supply issues aboard the long-deployed carrier, AP reported.",
+  "quote": "The USS George Washington is departing the Pacific and expected to replace the USS Abraham Lincoln in the Middle East amid growing concerns about mental health and supply issues aboard the long-deployed carrier.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Stated flatly in the body of a full AP wire report, not attributed to a single anonymous source.",
+  "source_sha": "0fe260794829eb2a1a800ab7da67950aeaf00ad5c60bfc09e7517bc9fe64b7af",
+  "source_url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-03",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

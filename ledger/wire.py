@@ -23,16 +23,20 @@ import time
 from dataclasses import dataclass, field
 from urllib.parse import urlparse, parse_qs, unquote
 
-# Broad national/desk feeds. The point is coverage of the day, not of a topic.
+# DIRECT publisher feeds first. Google News wraps every link in its own domain
+# behind a base64 blob that does not resolve to the article, so a third of all
+# fetched bodies came back empty and those stories could only ever produce
+# headline-thin claims. A feed that hands over the real URL is worth more than
+# one that hands over more headlines.
 GOOGLE = "https://news.google.com/rss{path}?hl=en-US&gl=US&ceid=US:en"
 FEEDS = [
-    ("top",        GOOGLE.format(path="")),
-    ("nation",     GOOGLE.format(path="/headlines/section/topic/NATION")),
-    ("world",      GOOGLE.format(path="/headlines/section/topic/WORLD")),
-    ("business",   GOOGLE.format(path="/headlines/section/topic/BUSINESS")),
-    ("technology", GOOGLE.format(path="/headlines/section/topic/TECHNOLOGY")),
-    ("science",    GOOGLE.format(path="/headlines/section/topic/SCIENCE")),
-    ("health",     GOOGLE.format(path="/headlines/section/topic/HEALTH")),
+    ("bbc-world",  "https://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("bbc-us",     "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"),
+    ("aljazeera",  "https://www.aljazeera.com/xml/rss/all.xml"),
+    ("independent","https://www.independent.co.uk/news/world/rss"),
+    ("latimes",    "https://www.latimes.com/rss2.0.xml"),
+    ("politico",   "https://rss.politico.com/congress.xml"),
+    ("politico-wh","https://rss.politico.com/politics-news.xml"),
     ("npr",        "https://feeds.npr.org/1001/rss.xml"),
     ("npr-pol",    "https://feeds.npr.org/1014/rss.xml"),
     ("npr-econ",   "https://feeds.npr.org/1017/rss.xml"),
@@ -44,6 +48,9 @@ FEEDS = [
     ("guardian-us","https://www.theguardian.com/us-news/rss"),
     ("propublica", "https://www.propublica.org/feeds/propublica/main"),
     ("courthouse", "https://www.courthousenews.com/feed/"),
+    # Kept last and deliberately few: these carry breadth but wrapped links.
+    ("g-nation",   GOOGLE.format(path="/headlines/section/topic/NATION")),
+    ("g-world",    GOOGLE.format(path="/headlines/section/topic/WORLD")),
 ]
 
 UA = ("Mozilla/5.0 (compatible; DocumentZero/1.0; +https://doczero.epstein-data.com/) "

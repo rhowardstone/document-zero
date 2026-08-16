@@ -1,0 +1,14 @@
+{
+  "claim_text": "Iranian attacks are pushing shipping in the Strait of Hormuz toward a route controlled by Tehran, and reporting on 16 August 2026 examined what actual ship traffic shows about who controls the waterway.",
+  "quote": "Iranian Attacks Push Hormuz Shipping Toward Tehran-Controlled Route",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Trade-press assessment of traffic patterns; the underlying AIS or traffic data is not shown in the cluster.",
+  "source_sha": "fe03631c93a54e87bb41080599bcb73668c8bac395865097c7740dcf24586299",
+  "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-13",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

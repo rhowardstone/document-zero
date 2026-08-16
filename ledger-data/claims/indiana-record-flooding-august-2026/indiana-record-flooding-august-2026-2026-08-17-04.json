@@ -1,0 +1,14 @@
+{
+  "claim_text": "Christine Altman, president of the Hamilton County board of commissioners, said at a Sunday briefing that the county just north of Indianapolis escaped without any loss of life, while officials assessed whether a significant bridge damaged in the flooding could be repaired or needed complete replacement.",
+  "quote": "She said the county, located just north of Indianapolis, escaped without any loss of life, though officials were assessing whether a significant bridge damaged in the flooding could be repaired or if it needed to be completely replaced.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Named public official speaking at an on-record briefing, but the bridge assessment is described as still under way rather than settled by a document.",
+  "source_sha": "4796c073fe578a9310eaf6e9ba253c4ff179de84c1d0b00bfbea4a057b7e8de8",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-04",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

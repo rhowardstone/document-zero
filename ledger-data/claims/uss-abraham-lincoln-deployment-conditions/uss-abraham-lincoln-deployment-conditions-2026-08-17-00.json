@@ -1,0 +1,14 @@
+{
+  "claim_text": "Adm. Brad Cooper, the head of U.S. Central Command, visited the USS Abraham Lincoln on Saturday 15 August 2026 and praised its crew, calling his time aboard \"awe-inspiring\" in a statement shared on social media.",
+  "quote": "Adm: Brad Cooper, the head of U.S. Central Command, praised the crew of the USS Abraham Lincoln after he visited the cruiser on Saturday.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "News report describing a written statement Cooper issued publicly; at the 0.6 news ceiling.",
+  "source_sha": "841881a60b36e1d621d2fb7dbf0df99169fe434f2c31cbc66c388800c0e650fa",
+  "source_url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-00",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

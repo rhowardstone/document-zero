@@ -1,0 +1,14 @@
+{
+  "claim_text": "Officials said days of storms and flooding across Indiana had left at least seven people dead as of Sunday 16 August 2026, with floodwaters peaking in Indianapolis' White River and rains expected to ease in the state capital region and other parts of the state.",
+  "quote": "Days of storms and flooding in Indiana left at least seven people dead, officials said, as floodwaters peaked in Indianapolis' White River and rains were expected to ease in the state capital region and other parts of the state Sunday.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "News report at the source ceiling; toll attributed to officials and consistent with the state homeland security count carried by other outlets in the cluster.",
+  "source_sha": "9ef74991ac0783fce58fdde16b17c6cb6a18e1b6c0028d7161fa890246767e5f",
+  "source_url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-00",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

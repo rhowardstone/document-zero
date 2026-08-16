@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Lincoln carries about 5,000 service members, deployed to the Pacific in November 2025, arrived in the Middle East in January 2026, and has been supporting the U.S. war against Iran.",
+  "quote": "The Lincoln, which has about 5,000 service members, arrived in the Middle East in January and has been supporting the U.S. war against Iran.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Straightforward reporting of deployment facts; the November 2025 Pacific departure is stated separately in the same article.",
+  "source_sha": "841881a60b36e1d621d2fb7dbf0df99169fe434f2c31cbc66c388800c0e650fa",
+  "source_url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-01",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Democratic Sen. Richard Blumenthal wrote to Defense Secretary Pete Hegseth on Thursday 13 August 2026 calling for the Navy to account for conditions aboard the carrier, which he said has been deployed more than 250 days and has not come ashore in over 200 days.",
+  "quote": "In a letter to Defense Secretary Pete Hegseth on Thursday, Democratic Sen. Richard Blumenthal called for the Navy to account for conditions aboard the carrier, which he said \"has been deployed more than 250 days\"",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "A dated letter from a named senator, quoted directly; the existence and content of the letter are documented.",
+  "source_sha": "07fe66ea17f5a3513b9321e4f5c81003a021eb3cf3cdf194d1a219271844aa94",
+  "source_url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-16",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

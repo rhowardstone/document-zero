@@ -1,0 +1,14 @@
+{
+  "claim_text": "The USS Abraham Lincoln has spent a record uninterrupted time at sea of more than 240 days after its original May return date was extended to support operations against Iran, and Democratic lawmakers have been calling for investigations into conditions aboard the ship.",
+  "quote": "Meanwhile, the Lincoln has spent a record uninterrupted time at sea of more than 240 days.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Specific quantitative figure stated in the body of a full AP report; the extension and lawmaker calls appear in the same article.",
+  "source_sha": "0fe260794829eb2a1a800ab7da67950aeaf00ad5c60bfc09e7517bc9fe64b7af",
+  "source_url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-04",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Bacon said that in 1996, when the United States was not at war, he served aboard an aircraft carrier enforcing the southern no-fly zone over Iraq and that a couple of crew members jumped overboard and died by suicide during that deployment.",
+  "quote": "\"We had a couple members jump overboard and commit suicide while I was on that deployment,\" Bacon said.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "A public official's recollection of a 30-year-old deployment; no records cited to corroborate it.",
+  "source_sha": "07fe66ea17f5a3513b9321e4f5c81003a021eb3cf3cdf194d1a219271844aa94",
+  "source_url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-17",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

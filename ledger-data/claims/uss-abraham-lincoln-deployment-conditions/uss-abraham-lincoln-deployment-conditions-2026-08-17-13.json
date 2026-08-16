@@ -1,0 +1,14 @@
+{
+  "claim_text": "Retired Adm. Mike Mullen, a former chair of the joint chiefs of staff, said on 16 August 2026 that he spoke with Cooper on Saturday evening and was told poor conditions aboard the Lincoln had been addressed and crew morale improved once sailors learned they were going home.",
+  "quote": "Mullen said he spoke with Cooper on Saturday evening and was told that poor conditions aboard the Lincoln had been addressed.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Second-hand account of a private conversation, relayed on air by an identified retired officer.",
+  "source_sha": "8f6e32fae53aa050c2327288b14c0fd3743766ffaf224566411bfbefd051b919",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-13",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

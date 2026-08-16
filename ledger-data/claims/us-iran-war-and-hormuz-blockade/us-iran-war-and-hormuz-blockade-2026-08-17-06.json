@@ -1,0 +1,14 @@
+{
+  "claim_text": "Admiral Frank Bradley, head of US Special Operations Command, was in Manila on Thursday telling his Filipino counterparts that US special operations forces are ready to step up joint exercises to strengthen the alliance, and he is also expected to travel to Japan.",
+  "quote": "He was in Manila on Thursday, telling his Filipino counterparts that U.S. special operations forces are ready to step up joint exercises",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "On-record travel and remarks by a named US commander, reported directly by the AP reporter who also interviewed him.",
+  "source_sha": "b2c0e1697ee2b9ee501b7c6fc8b3e9f6159429044cbabf77bb59f2d60a147ce2",
+  "source_url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-06",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

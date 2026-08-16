@@ -1,0 +1,14 @@
+{
+  "claim_text": "Centcom commander Adm. Brad Cooper addressed concerns about the mental health of service members aboard the USS Abraham Lincoln on Sunday 16 August 2026, as the carrier returns home after more than 260 days in the Middle East.",
+  "quote": "U.S. Central Command (Centcom) commander Adm. Brad Cooper on Sunday addressed concerns about the mental health of service members aboard the USS Abraham Lincoln as the aircraft carrier returns home after being docked in the Middle East for more than 260 days.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Wire summary; the 260-day figure differs from the 240- and 250-day counts elsewhere in the cluster.",
+  "source_sha": "a09a3f3a621b9afd5dea8772c8c5db090fbe6979fad435dca12556fb0e103c0f",
+  "source_url": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-06",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

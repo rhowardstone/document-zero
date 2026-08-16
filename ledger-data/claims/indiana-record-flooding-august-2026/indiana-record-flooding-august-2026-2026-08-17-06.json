@@ -1,0 +1,14 @@
+{
+  "claim_text": "Liz Woods, a spokesperson for the Indiana Department of Homeland Security, said a 4-year-old boy, two men and three women were among those who had died since the storms began on 11 August 2026, a total of six at that point in the reporting.",
+  "quote": "A 4-year-old boy, two men and three women were among those who had died since the storms began Aug. 11, said Liz Woods, a spokesperson for the state Department of Homeland Security.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Named spokesperson for the agency holding the official count, quoted directly in an AP-sourced wire report.",
+  "source_sha": "7af7b67677e41fe48493edd2df75e29839bbde855944f7bb37f61bde106c18e4",
+  "source_url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-17-06",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

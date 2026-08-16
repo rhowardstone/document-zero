@@ -1,0 +1,14 @@
+{
+  "claim_text": "US officials said Washington will use economic tactics on Iran 'that have never been seen', with reporting on what Bessent's economic isolation of Iran could look like published alongside news that the Navy is working to relieve the troubled carrier USS Abraham Lincoln.",
+  "quote": "U.S. to use economic tactics on Iran 'that have never been seen'",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Forward-looking assertion by unnamed US officials in a headline summary; no underlying document or transcript in the cluster.",
+  "source_sha": "3b1770bf930587172ffb1333298708bb604dc1f7ba37c21e7b1e4331a822bd16",
+  "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-17-10",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}

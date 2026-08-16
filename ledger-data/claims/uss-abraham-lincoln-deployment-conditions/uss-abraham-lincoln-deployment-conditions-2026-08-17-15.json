@@ -1,0 +1,14 @@
+{
+  "claim_text": "Acting Secretary of the Navy Hung Cao said in a post on X on Friday 14 August 2026 that the Lincoln \"will return home soon as part of a planned rotation\" and that a \"small number of mental health cases were treated with no loss of life.\"",
+  "quote": "Acting Secretary of the Navy Hung Cao said in a post on X on Friday that the Lincoln \"will return home soon as part of a planned rotation.\"",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "An official's public characterisation of case numbers, not corroborated by released medical records.",
+  "source_sha": "07fe66ea17f5a3513b9321e4f5c81003a021eb3cf3cdf194d1a219271844aa94",
+  "source_url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-15",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-17T00:00:00Z"
+}
