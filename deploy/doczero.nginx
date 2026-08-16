@@ -1,0 +1,103 @@
+# doczero.epstein-data.com — Document Zero
+#
+# Goes in /etc/nginx/sites-available/doczero, symlinked into sites-enabled.
+# It is a NEW file. Nothing in it edits, includes or overrides the existing
+# `datasette` or `contribute-epstein-data` configs, which serve a live site.
+#
+# Why this is close to zero-risk for the running box:
+#   - static files only: no proxy_pass, no upstream, no new process, no new
+#     port, no memory footprint beyond nginx's existing workers
+#   - an explicit server_name and NO default_server, so it cannot capture a
+#     request that would otherwise have gone to epstein-data.com
+#   - sites-enabled is globbed alphabetically: contribute-, datasette, doczero.
+#     `datasette` still loads first and remains the implicit default server for
+#     its listen ports, exactly as it does today
+#   - activation is `nginx -t` (read-only validation) then `systemctl reload`
+#     (SIGHUP: workers finish in-flight requests, no connection is dropped).
+#     Never `restart`.
+#
+# TLS is the existing Cloudflare Origin certificate, whose SANs are
+# *.epstein-data.com and epstein-data.com, valid to 2041. No new certificate
+# and no certbot are required.
+
+server {
+    listen 80;
+    server_name doczero.epstein-data.com;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    server_name doczero.epstein-data.com;
+
+    ssl_certificate     /etc/ssl/cloudflare-origin.pem;
+    ssl_certificate_key /etc/ssl/cloudflare-origin-key.pem;
+
+    # Authenticated origin pulls, matching the rest of this host: only
+    # Cloudflare may connect, so the origin is not reachable directly.
+    ssl_client_certificate /etc/ssl/cloudflare-authenticated-origin-pull.pem;
+    ssl_verify_client on;
+
+    root /opt/doczero/site;
+    index index.html;
+
+    # A deliberately tighter CSP than the main site's shared snippet. This page
+    # loads nothing from anywhere: fonts are self-hosted woff2, there is no
+    # analytics, no CDN, no external image. The only allowance is inline
+    # script/style, because the page is a single self-contained file.
+    add_header X-Frame-Options            "SAMEORIGIN"                       always;
+    add_header X-Content-Type-Options     "nosniff"                          always;
+    add_header Referrer-Policy            "strict-origin-when-cross-origin"  always;
+    add_header Strict-Transport-Security  "max-age=63072000; includeSubDomains" always;
+    add_header Content-Security-Policy    "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'" always;
+
+    # Agent discovery: point machine readers at llms.txt and the query catalogue
+    # rather than making them guess.
+    add_header Link "</llms.txt>; rel=\"service-doc\"; type=\"text/plain\", </api/index.json>; rel=\"service-desc\"; type=\"application/json\"" always;
+
+    charset utf-8;
+    charset_types text/plain text/css application/javascript application/json;
+
+    gzip on;
+    gzip_types text/plain text/css application/javascript application/json
+               image/svg+xml application/manifest+json;
+    gzip_min_length 512;
+
+    # The edition changes daily; never let an intermediary pin a stale one.
+    location = /index.html { expires -1; add_header Cache-Control "no-cache"; }
+    location = /data.js    { expires -1; add_header Cache-Control "no-cache"; }
+    location = /llms.txt   { expires 5m; default_type text/plain; }
+
+    # The JSON API is regenerated with the edition. Short cache, revalidated.
+    location /api/ {
+        default_type application/json;
+        expires 5m;
+        add_header Cache-Control "public, max-age=300, must-revalidate";
+        try_files $uri =404;
+    }
+
+    # The compiled ledger. One file, ~50KB today; served as a download.
+    location = /newsdesk.db {
+        default_type application/vnd.sqlite3;
+        add_header Content-Disposition "attachment; filename=newsdesk.db";
+        expires 5m;
+    }
+
+    # Content-hashed by name and never edited in place.
+    location /fonts/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        try_files $uri =404;
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    # No directory listings, and dotfiles are not content.
+    autoindex off;
+    location ~ /\. { deny all; }
+
+    access_log /var/log/nginx/doczero.access.log;
+    error_log  /var/log/nginx/doczero.error.log warn;
+}
