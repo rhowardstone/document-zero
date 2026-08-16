@@ -29,10 +29,13 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-# Split on sentence-ending punctuation followed by whitespace and a capital or
-# opening quote. Deliberately simple: over-splitting costs an extra check,
-# under-splitting lets two assertions ride on one verdict.
-_SENT = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"'“‘])")
+from .sentences import split as _split
+
+# Splitting is delegated to ledger/sentences.py, which is abbreviation-aware.
+# The naive version here cut "…in the U.S. District Court" and "Judge Amir H.
+# Ali" into fragments, and the verifiers refused the fragments — correctly,
+# since a fragment asserts something incomplete. A publishable article was
+# thrown away by the splitter rather than by any fault in the writing.
 
 
 class Refused(RuntimeError):
@@ -69,31 +72,54 @@ class Result:
 
 
 def sentences(text: str) -> list[str]:
-    return [s.strip() for s in _SENT.split((text or "").strip()) if s.strip()]
+    return _split(text)
 
 
-def check(article, claims, verifiers) -> Result:
+def check(article, claims, verifiers, workers: int = 8) -> Result:
     """Run every sentence past every verifier.
 
     `verifiers` are callables (sentence, cited_claims) -> Verdict.
-    """
-    by_id = {c["id"]: c for c in claims}
-    res = Result(passed=True)
 
+    Checks run CONCURRENTLY. Measured on the first live run: 34 sentences x 2
+    verifiers is 68 agent calls, and sequentially that took 964 seconds for a
+    single beat — unworkable for a newsroom of any size. The checks are
+    independent by construction (each sees one sentence and its own claims and
+    shares no state), so concurrency changes wall-clock and nothing else.
+
+    Order is preserved in `refusals` regardless of completion order, so the same
+    article always produces the same report.
+    """
+    from concurrent.futures import ThreadPoolExecutor
+
+    by_id = {c["id"]: c for c in claims}
+    jobs = []
     for para in article.paragraphs:
         # Only the claims this paragraph cites. A citation the ledger does not
         # hold is dropped rather than raising: the verifier then sees less
         # evidence, which can only make it more likely to refuse.
         cited = [by_id[cid] for cid in (para.get("claims") or []) if cid in by_id]
         for sentence in sentences(para.get("text", "")):
-            res.checked += 1
             for i, verifier in enumerate(verifiers):
-                try:
-                    verdict = verifier(sentence, cited)
-                except Exception as e:                      # noqa: BLE001
-                    verdict = Verdict(False,
-                                      f"verifier error: {type(e).__name__}: {e}")
-                if not verdict.entailed:
-                    res.passed = False
-                    res.refusals.append(Refusal(sentence, verdict.reason, i))
+                jobs.append((sentence, cited, i, verifier))
+
+    def one(job):
+        sentence, cited, i, verifier = job
+        try:
+            return sentence, i, verifier(sentence, cited)
+        except Exception as e:                              # noqa: BLE001
+            return sentence, i, Verdict(False,
+                                        f"verifier error: {type(e).__name__}: {e}")
+
+    if workers > 1 and len(jobs) > 1:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            outcomes = list(pool.map(one, jobs))
+    else:
+        outcomes = [one(j) for j in jobs]
+
+    res = Result(passed=True)
+    res.checked = len(jobs) // max(len(verifiers), 1)
+    for sentence, i, verdict in outcomes:
+        if not verdict.entailed:
+            res.passed = False
+            res.refusals.append(Refusal(sentence, verdict.reason, i))
     return res

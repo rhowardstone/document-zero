@@ -124,3 +124,53 @@ def test_a_claim_cited_but_absent_from_the_ledger_is_simply_not_passed_on():
 
     check(a, CLAIMS, verifiers=[spy])
     assert seen and all(ids == {"c1"} for ids in seen)
+
+
+# ── Concurrency ─────────────────────────────────────────────────────────────
+
+def test_checks_run_concurrently():
+    """34 sentences x 2 verifiers took 964s sequentially on the first live run."""
+    import threading, time
+    peak, live, lock = [0], [0], threading.Lock()
+
+    def slow(_s, _c):
+        with lock:
+            live[0] += 1
+            peak[0] = max(peak[0], live[0])
+        time.sleep(0.05)
+        with lock:
+            live[0] -= 1
+        return Verdict(True, "ok")
+
+    a = article("One thing. Two things. Three things. Four things. Five things.")
+    check(a, CLAIMS, verifiers=[slow, slow], workers=8)
+    assert peak[0] > 1, "verification must not be serialised"
+
+
+def test_results_are_deterministic_despite_concurrency():
+    """The same article must always produce the same report, whatever order the
+    checks happen to finish in."""
+    import random, time
+
+    def jittery(s, _c):
+        time.sleep(random.random() * 0.01)
+        return Verdict("Three" not in s, "no")
+
+    a = article("One thing. Two things. Three things. Four things.")
+    runs = [check(a, CLAIMS, verifiers=[jittery], workers=8) for _ in range(4)]
+    assert all(r.passed is False for r in runs)
+    assert len({tuple(x.sentence for x in r.refusals) for r in runs}) == 1
+
+
+def test_the_checked_count_is_sentences_not_calls():
+    seen = []
+    def spy(s, _c):
+        seen.append(s); return Verdict(True, "ok")
+    a = article("One thing. Two things. Three things.")
+    r = check(a, CLAIMS, verifiers=[spy, spy], workers=4)
+    assert r.checked * 2 == len(seen)
+
+
+def test_workers_of_one_still_works():
+    a = article("One thing happened.")
+    assert check(a, CLAIMS, verifiers=[yes], workers=1).passed is True
