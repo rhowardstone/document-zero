@@ -79,6 +79,58 @@ def subscription_env(base=None) -> dict:
     return env
 
 
+class WouldBill(RuntimeError):
+    """Refusing to run: this invocation would be billed rather than covered."""
+
+
+_verified = {"ok": False}
+
+
+def assert_subscription(force: bool = False) -> dict:
+    """Prove, before any model call, that agents run on the subscription.
+
+    `claude auth status` is free — it makes no model call — and reports exactly
+    what is needed:
+
+        with a key in the environment   apiKeySource: ANTHROPIC_API_KEY
+                                        subscriptionType: null
+        with the environment scrubbed   subscriptionType: max
+
+    Scrubbing the environment is the fix; this is the proof. The two are not the
+    same thing, and the difference is what cost the operator real money: the
+    project had already deleted its paid client and still spent, because nothing
+    ever checked what the spawned agent actually authenticated as.
+
+    Raises WouldBill unless the answer is a subscription.
+    """
+    if _verified["ok"] and not force:
+        return {"cached": True}
+
+    try:
+        p = subprocess.run([CLI, "auth", "status"], capture_output=True, text=True,
+                           timeout=60, env=subscription_env())
+        status = json.loads(p.stdout)
+    except Exception as e:                                  # noqa: BLE001
+        raise WouldBill(
+            f"could not verify how {CLI!r} authenticates ({type(e).__name__}: {e}). "
+            "Refusing to run: an unverified auth mode is one that might bill.") from None
+
+    if status.get("apiKeySource"):
+        raise WouldBill(
+            f"{CLI} is authenticating with {status['apiKeySource']}, which BILLS "
+            "PER TOKEN. Unset it before running anything here:\n"
+            "    unset ANTHROPIC_API_KEY\n"
+            "and remove it from ~/.bashrc so it does not come back.")
+
+    if not status.get("subscriptionType"):
+        raise WouldBill(
+            "no subscription found on this login, so every call would be billed. "
+            f"Run `{CLI} auth login` and sign in to the account with the plan.")
+
+    _verified["ok"] = True
+    return status
+
+
 def _subprocess_runner(cmd, **kw) -> Completed:
     kw.setdefault("env", subscription_env())
     p = subprocess.run(cmd, capture_output=True, text=True, **kw)
@@ -95,6 +147,11 @@ def run(prompt: str, *, cwd: str | None = None, allowed_tools=None,
     AgentFailed on any outcome that is not a usable result — including an empty
     one, because silence from an agent is a failure and not an answer.
     """
+    # Prove we are on the subscription BEFORE spending anything. Skipped only
+    # when a runner is injected, which is how tests avoid shelling out.
+    if _runner is None:
+        assert_subscription()
+
     runner = _runner or _subprocess_runner
     cmd = build_command(prompt, allowed_tools=allowed_tools, as_json=True,
                         system_append=system_append,

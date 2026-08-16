@@ -25,13 +25,32 @@ def test_the_adapter_cannot_call_a_paid_api():
         assert forbidden not in src, f"{forbidden!r} must never appear here"
 
 
-def test_billing_credentials_are_only_ever_removed_never_read():
-    """Every mention of a key must be in the service of deleting it."""
-    src = SRC.read_text()
-    for line in src.splitlines():
-        if "ANTHROPIC_API_KEY" in line or "AUTH_TOKEN" in line:
-            assert ("BILLING_VARS" in line or line.strip().startswith("#")
-                    or '"' in line), f"suspicious use: {line.strip()}"
+def test_the_module_never_reads_a_billing_credential():
+    """The property is about READS, not mentions.
+
+    The file must name ANTHROPIC_API_KEY — in the scrub list, and in the message
+    it prints when it refuses to run, because telling the operator what to unset
+    is the whole point. What it must never do is read one, which is what turns a
+    credential into a charge.
+    """
+    import ast
+
+    tree = ast.parse(SRC.read_text())
+    reads = []
+    for node in ast.walk(tree):
+        # os.environ.get("ANTHROPIC_API_KEY") / os.getenv(...)
+        if isinstance(node, ast.Call):
+            fn = ast.unparse(node.func)
+            if fn.endswith(("environ.get", "getenv")):
+                for a in node.args:
+                    if isinstance(a, ast.Constant) and "ANTHROPIC" in str(a.value):
+                        reads.append(ast.unparse(node))
+        # os.environ["ANTHROPIC_API_KEY"]
+        if isinstance(node, ast.Subscript):
+            src = ast.unparse(node)
+            if "environ" in src and "ANTHROPIC" in src:
+                reads.append(src)
+    assert not reads, f"reads a billing credential: {reads}"
 
 
 def test_the_command_invokes_the_claude_cli_in_print_mode():
@@ -158,3 +177,45 @@ def test_the_runner_scrubs_by_default():
         assert "ANTHROPIC_API_KEY" not in cc.subscription_env()
     finally:
         os.environ.pop("ANTHROPIC_API_KEY", None)
+
+
+# ── Proving, not promising ──────────────────────────────────────────────────
+
+def test_an_api_key_source_refuses_to_run(monkeypatch):
+    """Scrubbing the environment is the fix; this is the proof. The project had
+    already deleted its paid client and still spent money, because nothing ever
+    checked what the spawned agent actually authenticated as."""
+    monkeypatch.setattr(cc, "_verified", {"ok": False})
+    monkeypatch.setattr(cc.subprocess, "run", lambda *a, **k: type(
+        "P", (), {"stdout": json.dumps({"loggedIn": True,
+                                        "apiKeySource": "ANTHROPIC_API_KEY",
+                                        "subscriptionType": None})})())
+    with pytest.raises(cc.WouldBill, match="BILLS PER TOKEN"):
+        cc.assert_subscription(force=True)
+
+
+def test_no_subscription_refuses_to_run(monkeypatch):
+    monkeypatch.setattr(cc, "_verified", {"ok": False})
+    monkeypatch.setattr(cc.subprocess, "run", lambda *a, **k: type(
+        "P", (), {"stdout": json.dumps({"loggedIn": True,
+                                        "subscriptionType": None})})())
+    with pytest.raises(cc.WouldBill, match="would be billed"):
+        cc.assert_subscription(force=True)
+
+
+def test_a_subscription_login_is_accepted(monkeypatch):
+    monkeypatch.setattr(cc, "_verified", {"ok": False})
+    monkeypatch.setattr(cc.subprocess, "run", lambda *a, **k: type(
+        "P", (), {"stdout": json.dumps({"loggedIn": True,
+                                        "subscriptionType": "max"})})())
+    assert cc.assert_subscription(force=True)["subscriptionType"] == "max"
+
+
+def test_an_unverifiable_auth_mode_refuses_to_run(monkeypatch):
+    """An auth mode we cannot read is one that might bill."""
+    monkeypatch.setattr(cc, "_verified", {"ok": False})
+    def boom(*a, **k):
+        raise OSError("no claude on PATH")
+    monkeypatch.setattr(cc.subprocess, "run", boom)
+    with pytest.raises(cc.WouldBill, match="could not verify"):
+        cc.assert_subscription(force=True)
