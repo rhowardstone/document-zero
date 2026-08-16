@@ -1,0 +1,14 @@
+{
+  "claim_text": "Authorities launched a search-and-rescue mission after flash floods appeared to sweep several occupied homes off their foundations in coastal communities.",
+  "quote": "A search-and-rescue mission was launched after flash floods apparently swept several occupied homes off their foundations in coastal communities, authorities said.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Attributed to unnamed authorities and hedged with 'apparently' in the source itself; below the news ceiling because the report does not settle what happened to the homes.",
+  "source_sha": "4b530ccfbb54462cc4a3c5ece3a9923f09d46ffefc0e86416acb3b7a59fca00f",
+  "source_url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-01",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "CBS News conducted a poll examining whether Democrats are split over socialism.",
+  "quote": "CBS News poll looks at whether Democrats are split over socialism",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "The outlet reports on its own poll's existence and subject; at the news ceiling.",
+  "source_sha": "ad315108768ecafd5b102b52b4efe6b71dda6115466e36fb0955b64e1b810358",
+  "source_url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-04",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

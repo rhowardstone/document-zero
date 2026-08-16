@@ -1,0 +1,54 @@
+{
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "as_of": "2026-08-16",
+  "fields": [
+    {
+      "k": "Deployment length",
+      "v": "265 days / nearly nine months, carrier returning home",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Replacement status",
+      "v": "carrier \"is being replaced\"",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Congressional oversight",
+      "v": "not opened; GOP Rep. Don Bacon says Congress \"should have oversight\"",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Administration response",
+      "v": "Trump has called the deployment \"not nearly long enough\"",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Crew mental health/morale concerns",
+      "v": "raised by families and lawmakers; addressed publicly by CENTCOM commander Adm. Brad Cooper",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Status of the Iran War",
+      "v": "unresolved, per Sen. Gallego's account",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    }
+  ]
+}

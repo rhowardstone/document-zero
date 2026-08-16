@@ -1,0 +1,14 @@
+{
+  "claim_text": "A search and rescue operation is underway in the Ka‘ū District after several homes were swept off their foundations.",
+  "quote": "UPDATE: Search and rescue operation underway after several homes swept off foundations in Ka‘ū District",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Reaches this cluster as an aggregated local-outlet headline (Big Island Now) inside an NPR roundup, with no attribution shown; corroborated in substance by the PBS report but not independently documented here.",
+  "source_sha": "2a626bc0ab5b08a1f65ed210e47d889f305e777009357cd9fb2d9d6dd9d040b5",
+  "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+  "source_type": "misc",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-02",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

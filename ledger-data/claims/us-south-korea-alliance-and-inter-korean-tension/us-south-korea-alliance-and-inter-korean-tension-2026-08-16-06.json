@@ -1,0 +1,14 @@
+{
+  "claim_text": "South Korea's president proposed talks with Pyongyang to formally end the Korean War.",
+  "quote": "South Korea president proposes talks with Pyongyang to formally end Korean War",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Multiple outlets in the same cluster report the proposal; a publicly made proposal by a head of state. News ceiling.",
+  "source_sha": "b86db78baf0e4d67c7c9e70c4013842f36434574f0d881705062351df8fed11e",
+  "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
+  "source_type": "misc",
+  "id": "us-south-korea-alliance-and-inter-korean-tension-2026-08-16-06",
+  "beat": "us-south-korea-alliance-and-inter-korean-tension",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

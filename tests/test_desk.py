@@ -161,3 +161,12 @@ def test_empty_field_names_are_discarded():
 def test_a_reply_that_is_not_an_object_raises():
     with pytest.raises(ValueError, match="expected an object"):
         parse("[1,2,3]", ARTICLES)
+
+
+def test_the_brief_says_a_state_value_is_a_cell_not_a_sentence():
+    """A live run crashed when an agent wrote a state value that restated its
+    own claim: the schema refused it, correctly, and took the whole run with
+    it. The agent needs to know the shape before it writes one."""
+    b = brief("Indonesia", ARTICLES, "2026-08-16")
+    assert "as briefly as a cell in" in b
+    assert "restatement of one of your claims" in b

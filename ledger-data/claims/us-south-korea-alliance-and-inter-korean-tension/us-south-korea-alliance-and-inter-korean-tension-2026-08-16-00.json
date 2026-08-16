@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump ordered the Pentagon to scale back joint military exercises with South Korea.",
+  "quote": "Trump orders Pentagon to scale back joint exercises with South Korea",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Two wire outlets carry the same headline; still a news report, so at the 0.6 ceiling.",
+  "source_sha": "ea91819b6228f90b139706fcb9fe92b5f0305980589713edbe990820966458b0",
+  "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3RPcGlIdXQ3RU5USnlMN0tyQUxyT2c4NW1zekhhV0xubm9tTmhHLWE0c2RxTFdNWXJueVF4TXA5ODJDNFRhQTdCQllnaU51cTlCc0pqaHZNbmxIbnhxR01MNVZEOWdtaU90cWZjUU9RYlBITDBhMWdiNllIcGFoMHJXQWdlN0lQdWZ5dVVNT00wR0px?oc=5",
+  "source_type": "misc",
+  "id": "us-south-korea-alliance-and-inter-korean-tension-2026-08-16-00",
+  "beat": "us-south-korea-alliance-and-inter-korean-tension",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

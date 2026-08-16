@@ -1,0 +1,62 @@
+{
+  "name": "Democrats' 2028 primary calendar",
+  "slug": "democrats-2028-primary-calendar",
+  "opened": true,
+  "reason": "7 events over 20 days (GDELT: 20 days of coverage over 20d)",
+  "events": 7,
+  "span_days": 20,
+  "state_fields": [
+    "Leadoff state",
+    "Second state",
+    "Iowa's position",
+    "Party split over socialism",
+    "Congressional Democrats' response to Trump transparency push"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "cbsnews.com",
+    "courthousenews.com",
+    "npr.org",
+    "pbs.org"
+  ],
+  "articles": [
+    {
+      "url": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+      "title": "Democrats’ 2028 presidential calendar gives Black and Latino voters and union members an early say",
+      "publisher": "courthousenews.com"
+    },
+    {
+      "url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+      "title": "CBS News poll looks at whether Democrats are split over socialism",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+      "title": "CBS News poll on whether Democrats split over socialism",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
+      "title": "Politics chat: Democrats take lessons from the primaries, set 2028 calendar",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+      "title": "Democrats' 2028 presidential calendar gives Black and Latino voters and union members an early say",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+      "title": "Week in Politics: USS Lincoln; latest primaries and Democrats; White House ballroom",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+      "title": "Democrats grapple with Trump's push to limit transparency within the executive branch",
+      "publisher": "npr.org"
+    }
+  ],
+  "claims_found": 8,
+  "dropped": [],
+  "no_state_reason": ""
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "South Korea says it fired warning shots after North Korean soldiers crossed the military demarcation line.",
+  "quote": "South Korea says it fired warning shots after North Korean soldiers crossed demarcation line",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "The reporting attributes both the crossing and the warning shots to the South Korean government; no independent confirmation is in the record here.",
+  "source_sha": "71dcd7e9aa8923fce24bb3152d9e4c3a601a2d1b7344aa89616ed30079c16746",
+  "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
+  "source_type": "misc",
+  "id": "us-south-korea-alliance-and-inter-korean-tension-2026-08-16-05",
+  "beat": "us-south-korea-alliance-and-inter-korean-tension",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

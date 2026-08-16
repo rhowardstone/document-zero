@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump said on Sunday he told Defense Secretary Pete Hegseth to 'substantially reduce' joint military exercises with South Korea.",
+  "quote": "President Trump said Sunday he told Defense Secretary Pete Hegseth to “substantially reduce” the joint military exercises with South Korea.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Direct quotation of a named public official's own account of his order, attributed to a specific day. News ceiling.",
+  "source_sha": "25ae70e300e1111502e8f2f2a580a2429b5d4607915d4ac79488cc767e68784c",
+  "source_url": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
+  "source_type": "news",
+  "id": "us-south-korea-alliance-and-inter-korean-tension-2026-08-16-03",
+  "beat": "us-south-korea-alliance-and-inter-korean-tension",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

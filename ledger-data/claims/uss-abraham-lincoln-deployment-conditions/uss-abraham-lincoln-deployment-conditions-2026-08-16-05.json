@@ -1,0 +1,14 @@
+{
+  "claim_text": "President Trump said the USS Abraham Lincoln deployment is \"not nearly long enough.\"",
+  "quote": "President Trump said the USS Abraham Lincoln deployment is \"not nearly long enough.\"",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Direct quotation attributed to the president in a news report; ceiling 0.6.",
+  "source_sha": "0b840a84911a611657c69d3ade48a7fd8bb6833592c76a69ad52bb36174a27c8",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-05",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

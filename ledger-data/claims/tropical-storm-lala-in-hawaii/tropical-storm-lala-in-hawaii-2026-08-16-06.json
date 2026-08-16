@@ -1,0 +1,14 @@
+{
+  "claim_text": "While at hurricane strength, Lala passed near the Big Island and brought heavy rain, raising the prospect of life-threatening flooding and mudslides.",
+  "quote": "As a hurricane, Lala skirted past Hawaii's Big Island, where it brought heavy rain and the possibility of life-threatening flooding and mudslides.",
+  "tier": "question",
+  "confidence": 0.5,
+  "confidence_justification": "The rainfall is reported as observed, but the flooding and mudslide element is framed by the source as a 'possibility' rather than an established outcome.",
+  "source_sha": "17ee45299481f3ad5107103c003cbace066cd8d10a061a68db37ba820f114ace",
+  "source_url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-06",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

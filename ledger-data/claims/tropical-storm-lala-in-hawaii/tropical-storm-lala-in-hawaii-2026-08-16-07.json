@@ -1,0 +1,14 @@
+{
+  "claim_text": "On August 15, forecasters warned that Lala, then a tropical storm hitting the Big Island with heavy rain and strong winds, could strengthen into a hurricane.",
+  "quote": "Tropical Storm Lala brought heavy rain and strong winds to Hawaii’s Big Island as forecasters warned it could become a hurricane.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "A forecast attributed to identified forecasters and a prediction rather than a settled fact; the August 16 reports confirm the storm did reach hurricane strength, but this claim records the August 15 warning only.",
+  "source_sha": "de057f1d2c91c4faeeb5e2b801179b83131d0941add8c279d66a8c83b90fc898",
+  "source_url": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-07",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

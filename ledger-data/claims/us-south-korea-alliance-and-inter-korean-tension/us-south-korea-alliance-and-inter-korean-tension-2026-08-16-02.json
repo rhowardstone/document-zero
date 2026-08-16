@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump said North Korea 'has been unthreatening and respectful' during his time in the White House.",
+  "quote": "North Korea, which he said \"has been unthreatening and respectful\" while Trump has been in the White House",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "The report settles that Trump said it; the characterisation of North Korean conduct is his assertion, not an established fact.",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "us-south-korea-alliance-and-inter-korean-tension-2026-08-16-02",
+  "beat": "us-south-korea-alliance-and-inter-korean-tension",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

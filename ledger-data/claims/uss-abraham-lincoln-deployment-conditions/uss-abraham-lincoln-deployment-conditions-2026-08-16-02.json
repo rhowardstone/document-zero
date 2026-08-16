@@ -1,0 +1,14 @@
+{
+  "claim_text": "Maryland Gov. Wes Moore said President Trump's response to reported conditions aboard the USS Abraham Lincoln angers him.",
+  "quote": "“I mean, not only are these conditions and the reports of the conditions heartbreaking. The response of the president of the United States pisses me off. And it should piss all of us off,”",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Verbatim on-record remarks by a sitting governor; the utterance itself is settled, the underlying conditions are not. News ceiling 0.6.",
+  "source_sha": "74ee163227534bc7c2708e6ed386ae010b6543dceba41ff1de6062ab3a076b00",
+  "source_url": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-02",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

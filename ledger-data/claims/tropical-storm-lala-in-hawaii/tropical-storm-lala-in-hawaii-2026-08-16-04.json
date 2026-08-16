@@ -1,0 +1,14 @@
+{
+  "claim_text": "Two schools on Hawaii Island closed following storm damage from Lala.",
+  "quote": "School closures: 2 on Hawaii Island closed following Lala storm damage",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "A school closure is an administrative action a district records, and the count is specific; slightly below ceiling because the cluster carries only an aggregated headline (Hawaii News Now) rather than the district notice itself.",
+  "source_sha": "2a626bc0ab5b08a1f65ed210e47d889f305e777009357cd9fb2d9d6dd9d040b5",
+  "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+  "source_type": "misc",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-04",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

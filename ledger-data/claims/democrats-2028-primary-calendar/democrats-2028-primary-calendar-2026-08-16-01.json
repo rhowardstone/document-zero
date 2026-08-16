@@ -1,0 +1,14 @@
+{
+  "claim_text": "Nevada votes second on the Democrats' 2028 calendar, on Feb. 1.",
+  "quote": "makes South Carolina the leadoff state, voting on Jan. 22, 2028, followed by Nevada on Feb. 1",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "News report at the ceiling; a specific scheduled date attributed to an adopted calendar, corroborated across two publishers.",
+  "source_sha": "e0f3d191e5f140b46659444c76fe9503817c8330f7ada900d6d2a300691657c5",
+  "source_url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-01",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

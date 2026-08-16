@@ -1,0 +1,14 @@
+{
+  "claim_text": "The CENTCOM chief's visit to the USS Abraham Lincoln took place amid concerns about crew morale.",
+  "quote": "CENTCOM chief visits USS Abraham Lincoln amid morale concerns",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Headline-level assertion of an event plus its context; the visit is corroborated elsewhere but 'morale concerns' is the outlet's framing, so below ceiling.",
+  "source_sha": "841881a60b36e1d621d2fb7dbf0df99169fe434f2c31cbc66c388800c0e650fa",
+  "source_url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-07",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

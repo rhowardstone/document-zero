@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump said in a social media post that the exercises due to begin this week are costly and send an inappropriate and hostile signal to North Korea.",
+  "quote": "Trump said in a social media post that the exercises slated to begin this week are costly and \"send a signal that is totally inappropriate and hostile\" to North Korea",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Report quotes the public post directly; a public statement by a head of state is settled as to its having been made. News ceiling applies.",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "us-south-korea-alliance-and-inter-korean-tension-2026-08-16-01",
+  "beat": "us-south-korea-alliance-and-inter-korean-tension",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

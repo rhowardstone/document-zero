@@ -1,0 +1,14 @@
+{
+  "claim_text": "Democrats are debating the future of the party during primaries this summer.",
+  "quote": "As Democrats debate the future of the party amid primaries this summer",
+  "tier": "question",
+  "confidence": 0.4,
+  "confidence_justification": "Scene-setting framing in a segment description; characterizes a debate without citing a specific proceeding or document.",
+  "source_sha": "ad315108768ecafd5b102b52b4efe6b71dda6115466e36fb0955b64e1b810358",
+  "source_url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-06",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

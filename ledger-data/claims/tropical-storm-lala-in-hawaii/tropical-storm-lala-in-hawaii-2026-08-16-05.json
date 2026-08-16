@@ -1,0 +1,14 @@
+{
+  "claim_text": "Lala continued producing heavy rain and gusty winds over parts of Maui County and Oʻahu on Sunday.",
+  "quote": "Lala continues to bring heavy rain, gusty winds over parts of Maui County and Oʻahu",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Observed weather conditions reported by a local outlet (Maui Now) and consistent with the CBS, NPR and PBS reports; below ceiling because it arrives as an aggregated headline.",
+  "source_sha": "7d234a003f5afdebc142abacfc39ecefcc8e88826908b3ee412955e9357abc2c",
+  "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+  "source_type": "misc",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-05",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

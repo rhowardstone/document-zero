@@ -1,0 +1,14 @@
+{
+  "claim_text": "Cooper described his Saturday visit to the ship as \"awe-inspiring\" and said Americans would \"beam with pride.\"",
+  "quote": "Cooper called his visit to the ship on Saturday \"awe-inspiring\" in a statement, saying Americans would \"beam with pride\" over...",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Direct quotation from an official written statement, reported by a news outlet; ceiling 0.6.",
+  "source_sha": "a09a3f3a621b9afd5dea8772c8c5db090fbe6979fad435dca12556fb0e103c0f",
+  "source_url": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-01",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

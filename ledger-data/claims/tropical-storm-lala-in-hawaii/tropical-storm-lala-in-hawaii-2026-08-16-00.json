@@ -1,0 +1,14 @@
+{
+  "claim_text": "Lala weakened from a hurricane to a tropical storm on Sunday after passing Hawaii without making landfall, while still producing hurricane-force gusts on the Big Island.",
+  "quote": "Hurricane Lala weakened to a tropical storm Sunday after skirting Hawaii without making landfall, but it wasn't done punishing the Big Island with hurricane-force gusts.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Storm classification is an official designation reported consistently by four separate wire outlets in this cluster; at the news ceiling of 0.6.",
+  "source_sha": "85405f4656b0cbcaf84c17723a5cc6afc748f728fff0826b85edce1eb3ce2f18",
+  "source_url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-00",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

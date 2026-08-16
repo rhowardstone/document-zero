@@ -1,0 +1,14 @@
+{
+  "claim_text": "Thousands of customers are without power and at least 100 homes have been damaged in Hawaii after Lala.",
+  "quote": "Thousands without power and at least 100 homes damaged after Tropical Storm Lala lashes Hawaii",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Damage and outage counts appear only as an aggregated CNN headline within the AP roundup, with no underlying utility or county record cited; figures of this kind move during an active storm.",
+  "source_sha": "7d234a003f5afdebc142abacfc39ecefcc8e88826908b3ee412955e9357abc2c",
+  "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+  "source_type": "misc",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-03",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "The new calendar displaces Iowa from its traditional first position.",
+  "quote": "The primary lineup pushes Iowa from the traditional top spot",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "News report at the ceiling; a direct consequence of the published calendar rather than an interpretation.",
+  "source_sha": "e0f3d191e5f140b46659444c76fe9503817c8330f7ada900d6d2a300691657c5",
+  "source_url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-02",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

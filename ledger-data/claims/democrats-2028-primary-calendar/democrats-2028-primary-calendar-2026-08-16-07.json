@@ -1,0 +1,14 @@
+{
+  "claim_text": "Congressional Democrats are weighing how to respond to Trump's effort to limit transparency within the executive branch.",
+  "quote": "President Trump is pushing the boundaries of executive power to limit transparency within the executive branch. Congressional Democrats are grappling with how to respond.",
+  "tier": "question",
+  "confidence": 0.4,
+  "confidence_justification": "Summary characterizes an ongoing posture by public officials; the underlying actions are not documented in the supplied text.",
+  "source_sha": "ba567db290a99e51bb84d0bb8b0fe60b0aa7616a80b2e29d40ce2fbdd1e987bd",
+  "source_url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-07",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

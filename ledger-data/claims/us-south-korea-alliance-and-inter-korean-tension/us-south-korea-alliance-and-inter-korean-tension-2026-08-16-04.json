@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump wrote on Truth Social that he is not happy the United States long ago agreed to participate in the joint military exercises.",
+  "quote": "Trump wrote in a Truth Social post that he’s “not happy with the fact that the United States has, long ago, agreed to participate” in these joint military exercises.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Named platform, quoted text; the post's existence and content are what the report establishes. News ceiling.",
+  "source_sha": "25ae70e300e1111502e8f2f2a580a2429b5d4607915d4ac79488cc767e68784c",
+  "source_url": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
+  "source_type": "news",
+  "id": "us-south-korea-alliance-and-inter-korean-tension-2026-08-16-04",
+  "beat": "us-south-korea-alliance-and-inter-korean-tension",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

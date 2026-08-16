@@ -1,0 +1,60 @@
+{
+  "name": "Tropical Storm Lala in Hawaii",
+  "slug": "tropical-storm-lala-in-hawaii",
+  "opened": true,
+  "reason": "6 events over 5 days (GDELT: 6 days of coverage over 5d)",
+  "events": 6,
+  "span_days": 5,
+  "state_fields": [
+    "Storm classification",
+    "Search-and-rescue status",
+    "Homes damaged",
+    "Power outages",
+    "School closures",
+    "Areas under active impact",
+    "Casualties"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "apnews.com",
+    "cbsnews.com",
+    "courthousenews.com",
+    "npr.org",
+    "pbs.org"
+  ],
+  "articles": [
+    {
+      "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/",
+      "title": "Tropical Storm Lala brings drenching rain, wind across the Hawaiian Islands",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+      "title": "Lala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands",
+      "publisher": "apnews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+      "title": "Lala is again a tropical storm, sending drenching rain and winds across Hawaii",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+      "title": "Lala is again a tropical storm, sending drenching rain and winds across Hawaii",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+      "title": "Lala is again a tropical storm, sending drenching rain and winds across the Hawaiian islands",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+      "title": "Hawaii’s Big Island lashed by rain and wind as Tropical Storm Lala closes in",
+      "publisher": "courthousenews.com"
+    }
+  ],
+  "claims_found": 8,
+  "dropped": [],
+  "no_state_reason": ""
+}
