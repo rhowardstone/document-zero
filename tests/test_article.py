@@ -28,9 +28,9 @@ def test_a_well_formed_article_validates():
     assert isinstance(a, Article) and a.word_count == 450
 
 
-def test_an_article_under_four_hundred_words_is_refused():
-    """Below 400 words there was no story — the beat should degrade to a line."""
-    with pytest.raises(ArticleError, match="400"):
+def test_an_article_under_the_floor_is_refused():
+    """Below the floor there was no story — the beat degrades to a line."""
+    with pytest.raises(ArticleError, match="300"):
         validate(art(paragraphs=[{"text": "word " * 120, "claims": ["fed-1"]}]))
 
 

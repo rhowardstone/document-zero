@@ -1,0 +1,14 @@
+{
+  "claim_text": "Indiana has requested federal aid in response to the flooding.",
+  "quote": "The Midwest braces for more heavy flooding, as Indiana seeks federal aid",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Headline aggregation only; states the request but gives no detail on what was requested, by whom, or its status.",
+  "source_sha": "2393c59800811290076933a7f92fcb1be34795e33490afc2be942ebdfa965400",
+  "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96dUtRbGx2T29SYXpFakJ4SmtxMzMwd0VXSjRralBXV1RmdnQwT0NoZHhUTU5tUVJYNUVjcnZXSjNGek1EMmJ1ZlBTUDJqeHhWVmlwWkxEN0trRW93ZUtWVjFwM2dYY0FadGRDbHVaTXU5SEZWWTc2bUxFcWh5dlE?oc=5",
+  "source_type": "misc",
+  "id": "indiana-record-flooding-2026-08-16-05",
+  "beat": "indiana-record-flooding",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

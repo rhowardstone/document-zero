@@ -1,0 +1,14 @@
+{
+  "claim_text": "A spokesperson for the Indiana Department of Homeland Security described the composition of the dead.",
+  "quote": "A 4-year-old boy, two men and three women were among those who had died since the storms began Aug. 11, said Liz Woods, a spokesperson for the state Department of Homeland Security.",
+  "tier": "credible_allegation",
+  "confidence": 0.6,
+  "confidence_justification": "Named, on-record state agency spokesperson quoted directly in a news report; at the news ceiling because it is an official statement rather than a document.",
+  "source_sha": "78e05d4048a7f160a81e54477015ff27efedb6b540f1ad294d3b9ebe45d966fe",
+  "source_url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+  "source_type": "news",
+  "id": "indiana-record-flooding-2026-08-16-01",
+  "beat": "indiana-record-flooding",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

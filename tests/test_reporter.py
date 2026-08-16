@@ -41,7 +41,7 @@ def test_the_brief_withholds_the_raw_source_text():
 
 def test_the_brief_states_the_word_bounds_that_the_schema_will_enforce():
     b = brief("x", CLAIMS, CHANGED, "2026-08-16")
-    assert "400" in b and "800" in b
+    assert "300" in b and "800" in b
 
 
 def test_the_brief_frames_claim_text_as_untrusted_data():
@@ -99,7 +99,7 @@ def test_a_reply_that_is_a_list_is_refused():
 
 
 def test_schema_failures_propagate_from_parse():
-    with pytest.raises(ArticleError, match="400"):
+    with pytest.raises(ArticleError, match="300"):
         parse(json.dumps(reply(paragraphs=[{"text": "short", "claims": ["nm-1"]}])),
               beat="nm", day="2026-08-16", written_by="cc")
 

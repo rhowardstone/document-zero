@@ -1,0 +1,14 @@
+{
+  "claim_text": "Parts of Indiana recorded over 11 inches of rain across three days starting Aug. 11, producing record floods.",
+  "quote": "Some parts of Indiana received more than 11 inches of rainfall over three days, beginning Aug. 11, causing record floods.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Quantitative rainfall figure in a news report with no cited measurement authority; plausible but unverified against NWS data.",
+  "source_sha": "419d419a5bd444b3d29817cee87614d85fe951eb19b3b3299eb672d157734c4e",
+  "source_url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+  "source_type": "news",
+  "id": "indiana-record-flooding-2026-08-16-03",
+  "beat": "indiana-record-flooding",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

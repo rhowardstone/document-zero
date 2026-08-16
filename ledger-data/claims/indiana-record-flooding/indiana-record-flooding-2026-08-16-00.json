@@ -1,0 +1,14 @@
+{
+  "claim_text": "Indiana officials attribute at least seven deaths to the storms.",
+  "quote": "Indiana storms linked to 7 deaths as floods trigger rescues and evacuations",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "News report attributing a toll to unnamed officials; other reports in the same cluster give six, so the figure is contested across sources.",
+  "source_sha": "9ef74991ac0783fce58fdde16b17c6cb6a18e1b6c0028d7161fa890246767e5f",
+  "source_url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-2026-08-16-00",
+  "beat": "indiana-record-flooding",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

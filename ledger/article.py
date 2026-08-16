@@ -13,7 +13,7 @@ story as the reporting behind it — but the article is what publishes.
 The bounds below are editorial judgements encoded as validation rather than
 left to a prompt:
 
-  - Under 400 words there was no story, and the beat should degrade to a
+  - Under 300 words there was no story, and the beat should degrade to a
     one-line entry that needs no prose to support it.
   - Over 800 the reporter is padding, which in an automated newsroom means
     generating sentences that have to be checked and cannot be supported.
@@ -28,7 +28,11 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-MIN_WORDS, MAX_WORDS = 400, 800
+# 400 was a guess and it was wrong. Measured against the evidence a day's wire
+# actually yields, it excluded the news brief — a legitimate form, and the right
+# length for a story carried by nine reports rather than a court docket. 300 is
+# still enough to require that something happened.
+MIN_WORDS, MAX_WORDS = 300, 800
 MIN_HEADLINE_WORDS = 4
 # A headline is not the lede. Told only "a sentence, not a fragment", the
 # reporter wrote a 20-word restatement of its own first paragraph, which

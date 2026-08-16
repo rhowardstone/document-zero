@@ -1,0 +1,14 @@
+{
+  "claim_text": "Indiana authorities put the death toll at five on Aug. 15, a day before higher figures were reported.",
+  "quote": "Indiana authorities say at least 5 people have died as severe weather crosses the state",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "News report attributing the count to Indiana authorities; useful as a dated point in the toll's progression rather than a settled figure.",
+  "source_sha": "f2ef33a053f4dc5f02f4829a4a34763dc4469b6a750e17e617349badfce795f5",
+  "source_url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+  "source_type": "news",
+  "id": "indiana-record-flooding-2026-08-16-06",
+  "beat": "indiana-record-flooding",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

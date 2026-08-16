@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rivers in Indiana reached record levels over the past week, prompting residents to seek higher ground.",
+  "quote": "The state has been hammered over the past week by heavy rains, resulting in rivers reaching record levels and sending residents in search of higher ground.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Unattributed summary characterization in a news report; \"record levels\" is asserted without a gauge reading or agency citation.",
+  "source_sha": "f2ef33a053f4dc5f02f4829a4a34763dc4469b6a750e17e617349badfce795f5",
+  "source_url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+  "source_type": "news",
+  "id": "indiana-record-flooding-2026-08-16-07",
+  "beat": "indiana-record-flooding",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

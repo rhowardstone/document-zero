@@ -25,7 +25,7 @@ def test_the_stub_newsroom_produces_a_dated_front_page(tmp_path):
     page = json.loads((tmp_path / "edition.json").read_text())
     assert page["date"], "every edition is dated"
     assert page["lead"], "the seeded ledger should support a lead story"
-    assert page["lead"]["word_count"] >= 400
+    assert page["lead"]["word_count"] >= 300
     for a in [page["lead"], *page["secondary"]]:
         assert a["dateline"] and a["published_at"], "no article without a date"
 
