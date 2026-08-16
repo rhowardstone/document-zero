@@ -180,3 +180,40 @@ def test_the_brief_asks_for_informative_claims_not_fragments():
     b = brief("Indonesia", ARTICLES, "2026-08-16")
     assert "COMPLETE, INFORMATIVE SENTENCE" in b
     assert "gives them nothing to build with" in b
+
+
+# ── Full article text ───────────────────────────────────────────────────────
+
+BODY_ARTICLES = [{**ARTICLES[0],
+                  "full_text": ("RUTENG, Indonesia (AP) — Rescue teams recovered "
+                                "six more bodies on Sunday, raising the toll to 53, "
+                                "as heavy equipment finally reached the worst hit "
+                                "villages in East Nusa Tenggara province.")}]
+
+
+def test_the_brief_carries_the_article_body_when_it_was_fetched():
+    b = brief("Indonesia", BODY_ARTICLES, "2026-08-16")
+    assert "RUTENG, Indonesia (AP)" in b
+    assert '"article"' in b
+
+
+def test_the_brief_falls_back_to_the_summary_when_no_body_was_fetched():
+    """A page that blocks us must yield thinner claims, never wrong ones."""
+    b = brief("Indonesia", ARTICLES, "2026-08-16")
+    assert '"summary"' in b and "The death toll rose to 53 on Sunday" in b
+
+
+def test_a_quote_from_the_article_body_verifies():
+    """Without this the body is offered to the writer and then rejected by the
+    checker, which is worse than not offering it at all."""
+    out = parse(json.dumps(reply(claims=[claim(
+        claim_text="Heavy equipment reached the worst-hit villages.",
+        quote="heavy equipment finally reached the worst hit villages")])),
+        BODY_ARTICLES)
+    assert len(out["claims"]) == 1, out["dropped"]
+
+
+def test_a_quote_in_no_part_of_the_article_is_still_dropped():
+    out = parse(json.dumps(reply(claims=[claim(
+        quote="the president declared a national emergency")])), BODY_ARTICLES)
+    assert out["claims"] == [] and "does not appear" in out["dropped"][0][1]

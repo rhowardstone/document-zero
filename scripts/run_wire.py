@@ -22,7 +22,7 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
 from ledger import claudecode as cc          # noqa: E402
-from ledger import continuity, desk, emerge, history, scout, wire  # noqa: E402
+from ledger import continuity, desk, emerge, fulltext, history, scout, wire  # noqa: E402
 from ledger.schema import SchemaError        # noqa: E402
 from ledger.sourcetype import classify       # noqa: E402
 from ledger.store import Ledger              # noqa: E402
@@ -68,6 +68,22 @@ def main() -> int:
     led = Ledger(args.ledger)
     ing = Ledger(args.ledger, writer="ingest")
 
+    # Fetch the actual articles. The feed carries a headline and about one
+    # sentence — roughly forty words — and claims built on forty words are
+    # fragments that the entailment gate then refuses. Measured on real pages:
+    # 477 to 1,170 words of body text. Best effort: a page that blocks us falls
+    # back to its summary, which means thinner claims, not wrong ones.
+    to_fetch = [a for c in picked for a in c.articles]
+    print(f"FETCHING  {len(to_fetch)} article bodies, {args.workers * 2} at a time …")
+    t_fetch = time.time()
+    with ThreadPoolExecutor(max_workers=args.workers * 2) as pool:
+        bodies = dict(zip([a.sha256 for a in to_fetch],
+                          pool.map(lambda a: fulltext.fetch(a.url), to_fetch)))
+    got = [b for b in bodies.values() if b.ok]
+    print(f"          {len(got)}/{len(to_fetch)} usable, "
+          f"mean {sum(b.words for b in got) // max(len(got), 1)} words, "
+          f"{time.time() - t_fetch:.0f}s")
+
     # Ingest every article of every picked cluster as a source, so claims have a
     # source_sha and the provenance join resolves.
     packs = []
@@ -83,7 +99,11 @@ def main() -> int:
                 ing.put_source(args.day, src)
             except FileExistsError:
                 pass
-            rows.append({**src, "publisher": a.publisher, "summary": a.summary})
+            body = bodies.get(a.sha256)
+            if body is not None and body.ok:
+                src["full_text"] = body.text
+            rows.append({**src, "publisher": a.publisher, "summary": a.summary,
+                         "full_text": src.get("full_text", "")})
         packs.append((emerge.name(c), c, rows))
 
     def read_cluster(pack):
