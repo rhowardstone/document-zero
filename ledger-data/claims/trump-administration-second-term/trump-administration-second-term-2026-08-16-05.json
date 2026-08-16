@@ -1,0 +1,14 @@
+{
+  "claim_text": "NPR reports that the Trump administration has taken a Medicaid action affecting transgender youth.",
+  "quote": "The mom of a trans teen grapples with Trump's Medicaid move",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "The specific policy instrument is not named in the available text; only its existence and subject are established.",
+  "source_sha": "018a8d98cd2865f800aff9b39fc8981c1bf9fc31e3566b51b6e9a79a48344edb",
+  "source_url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-05",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

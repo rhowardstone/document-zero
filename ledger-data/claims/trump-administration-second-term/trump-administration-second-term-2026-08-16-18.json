@@ -1,0 +1,14 @@
+{
+  "claim_text": "BP plans to develop the second phase of Venezuela's Loran gasfield in partnership with two oil firms described as having close links to the Trump administration.",
+  "quote": "BP will partner with two oil firms with close links to the Trump administration to develop the second phase of the Loran gasfield",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Announced corporate plan; the partner firms are unnamed in the available text and the nature of the 'links' is the outlet's characterisation.",
+  "source_sha": "a6e786317f4d9a7d9a8cd505b05babb62db9052f219f6d7c6b3884da05577021",
+  "source_url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-18",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

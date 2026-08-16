@@ -75,6 +75,8 @@ def main() -> int:
     ap.add_argument("--stories", type=int, default=10)
     ap.add_argument("--no-deploy", action="store_true")
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--beat-workers", type=int, default=3,
+                    help="beats written at once; each fans its own checks out 8x")
     args = ap.parse_args()
 
     print(f"DOCUMENT ZERO · {args.day}")
@@ -100,16 +102,28 @@ def main() -> int:
     # ── articles ────────────────────────────────────────────────────────────
     beats = open_beats(args.day)
     print(f"\n── ARTICLES: {len(beats)} beat(s) with enough to write about " + "─" * 8)
-    wrote, failed = [], []
-    for beat in beats:
+
+    # Beats are independent — different prefixes, no shared state — so they are
+    # written concurrently. Sequentially this is three minutes per beat and a
+    # newsroom of any size never finishes. Kept deliberately low: each beat
+    # internally fans its own verification out eight ways, so `beat_workers`
+    # multiplies rather than adds.
+    def write_one(beat):
         rc, out = run(["scripts/run_beat.py", beat, "--day", args.day],
                       f"report: {beat[:40]}", timeout=1800)
-        if rc == 0 and "PASSED" in out:
-            wrote.append(beat)
-        else:
-            # NOT a quiet beat. Nothing published for it, and the reason stands.
-            failed.append((beat, "refused by the gate" if "REFUSED" in out
-                           else "reporter failed"))
+        return beat, rc, out
+
+    from concurrent.futures import ThreadPoolExecutor
+    wrote, failed = [], []
+    with ThreadPoolExecutor(max_workers=args.beat_workers) as pool:
+        for beat, rc, out in pool.map(write_one, beats):
+            if rc == 0 and "PASSED" in out:
+                wrote.append(beat)
+            else:
+                # NOT a quiet beat. Nothing published for it, reason stands.
+                failed.append((beat, "refused by the gate" if "REFUSED" in out
+                               else "reporter failed"))
+    wrote.sort()
 
     print(f"\n  {len(wrote)} article(s) survived, {len(failed)} did not")
     for beat, why in failed:

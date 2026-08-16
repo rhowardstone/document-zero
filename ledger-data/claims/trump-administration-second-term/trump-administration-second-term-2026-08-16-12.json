@@ -1,0 +1,14 @@
+{
+  "claim_text": "At least six people have died in days of storms and record-setting flooding in Indiana.",
+  "quote": "At least 6 people have died from days of storms and record-setting flooding in Indiana",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Lower of two figures reported in the same cluster on the same day; a floor rather than a settled toll.",
+  "source_sha": "f2e121945f966b985daeafc0a72577f302f33a9e9455fd1d3ad3ee3a482611e9",
+  "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVTJFOUlaUHNqdVNlWU5mZGZnNTBDVnN5NWg3MHRTTC1SS3JoOXNfWm9LOGpjNk5GcFZNaWQzR3pYSmxTcVFUWGJ5Yk12dHRnN2N1b3N4U3hlUTZPOUp6aFg3bkdGMDlIX2ZBTVVnWVMtVy05Y3ZCWFV5eTVmWG40dTdFd0xrWHllTGxKb1hGWVVnNlBfemhORUV6Ny1XZDhDbHY3djU5RFJxRzhZYk95dUM5RFpTUUVqWlZXWWtrbVdobXd3Z1Rjckt1eWp0TV9mVU93VldsbkR2RXlPOWc?oc=5",
+  "source_type": "misc",
+  "id": "trump-administration-second-term-2026-08-16-12",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

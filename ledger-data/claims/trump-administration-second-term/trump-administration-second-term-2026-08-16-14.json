@@ -1,0 +1,14 @@
+{
+  "claim_text": "The stated aim of the policy is to permit US companies to hack foreign cybercriminals.",
+  "quote": "Trump administration wants to allow companies to hack foreign cybercriminals",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Scope described in reporting rather than quoted from the memorandum; the limiting word 'foreign' is the outlet's.",
+  "source_sha": "94e34d533b9612c77b78405965496e195ac83c93cad370674b527d61f4152968",
+  "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+  "source_type": "misc",
+  "id": "trump-administration-second-term-2026-08-16-14",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

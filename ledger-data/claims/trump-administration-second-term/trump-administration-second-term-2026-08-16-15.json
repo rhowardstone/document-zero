@@ -1,0 +1,14 @@
+{
+  "claim_text": "The House passed its version of the One Big Beautiful Bill Act in 2025.",
+  "quote": "the House passed its version of Donald Trump ’s One Big Beautiful Bill Act (OBBBA) last year",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "A recorded legislative vote; ceiling applies as the source is a newspaper column, not the House record.",
+  "source_sha": "c621c0e5e88b4135d0ea66f85d719b59e35a9abb9fd001a5969377e424064737",
+  "source_url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-15",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

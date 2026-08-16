@@ -1,0 +1,14 @@
+{
+  "claim_text": "The US ousted Venezuelan leader Nicolás Maduro in January 2026.",
+  "quote": "since the US ousted its leader Nicolás Maduro in January",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Stated as settled background in the report; the mechanism of the ouster is not described in the available text.",
+  "source_sha": "a6e786317f4d9a7d9a8cd505b05babb62db9052f219f6d7c6b3884da05577021",
+  "source_url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-19",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

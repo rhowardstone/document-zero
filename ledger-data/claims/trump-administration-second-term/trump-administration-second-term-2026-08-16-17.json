@@ -1,0 +1,14 @@
+{
+  "claim_text": "House Speaker Mike Johnson said the OBBBA's beneficiaries were small business owners, not millionaires.",
+  "quote": "this is not giving tax cuts to the millionaires",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Direct quotation attributed to a named public official; the assertion itself is contested by the article.",
+  "source_sha": "c621c0e5e88b4135d0ea66f85d719b59e35a9abb9fd001a5969377e424064737",
+  "source_url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-17",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

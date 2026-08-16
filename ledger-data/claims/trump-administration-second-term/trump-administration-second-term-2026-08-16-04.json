@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Panorama lawsuit against the BBC is valued at $10bn.",
+  "quote": "BBC trying to subpoena Donald Trump's family members over $10bn Panorama lawsuit",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Damages figure appears in only one of the five headlines in the cluster; pleading not seen.",
+  "source_sha": "39f1b83c5f93a8b39a31088067a5ef98a62c832b360ae257401ec7355a571d48",
+  "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+  "source_type": "misc",
+  "id": "trump-administration-second-term-2026-08-16-04",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

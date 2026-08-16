@@ -1,0 +1,14 @@
+{
+  "claim_text": "NPR characterises the administration as engaged in continuing actions targeting transgender youth.",
+  "quote": "the Trump administration's continuing actions to target transgender youth",
+  "tier": "credible_allegation",
+  "confidence": 0.45,
+  "confidence_justification": "This is the outlet's own characterisation of a pattern, not a cited document or official statement.",
+  "source_sha": "018a8d98cd2865f800aff9b39fc8981c1bf9fc31e3566b51b6e9a79a48344edb",
+  "source_url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-06",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

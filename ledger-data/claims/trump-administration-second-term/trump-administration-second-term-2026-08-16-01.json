@@ -1,0 +1,14 @@
+{
+  "claim_text": "Colombia's president De la Espriella took office in August 2026, days before a 7.4 magnitude earthquake struck.",
+  "quote": "De la Espriella took office earlier this month just days before the 7.4 magnitude quake struck.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Date of assumption of office and quake magnitude are matters of public record; single wire summary only.",
+  "source_sha": "71e2975e8ea702fba807991d3be5598f4f88240c3de18cd2699cd6c9301f75f1",
+  "source_url": "https://www.pbs.org/newshour/world/colombian-president-asks-trump-to-suspend-tariffs-to-help-earthquake-recovery",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-01",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

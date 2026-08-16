@@ -1,0 +1,14 @@
+{
+  "claim_text": "The BBC is seeking to subpoena Trump family members in connection with the Panorama lawsuit.",
+  "quote": "BBC seeks to subpoena Trump family members in defamation suit",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Subpoena request is a filed court instrument; consistent across four outlets in the cluster.",
+  "source_sha": "39f1b83c5f93a8b39a31088067a5ef98a62c832b360ae257401ec7355a571d48",
+  "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+  "source_type": "misc",
+  "id": "trump-administration-second-term-2026-08-16-03",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "The House version of the OBBBA paired more than $5tn in tax cuts with more than $1tn in cuts to food stamps and Medicaid.",
+  "quote": "the one that paired a $5tn-plus tax cut with $1tn-plus of cuts from food stamps and Medicaid",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Figures come from an opinion column with no scoring body cited; the underlying CBO or JCT estimate is not identified.",
+  "source_sha": "c621c0e5e88b4135d0ea66f85d719b59e35a9abb9fd001a5969377e424064737",
+  "source_url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+  "source_type": "news",
+  "id": "trump-administration-second-term-2026-08-16-16",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

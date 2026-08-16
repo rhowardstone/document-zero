@@ -1,0 +1,70 @@
+{
+  "beat": "trump-administration-second-term",
+  "as_of": "2026-08-16",
+  "fields": [
+    {
+      "k": "Colombian tariff suspension request",
+      "v": "Requested, unanswered",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "BBC subpoena bid for Trump family testimony",
+      "v": "Before a US court",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Trump's legal team",
+      "v": "Shrinking",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Indiana flood death toll",
+      "v": "6-7, varies by outlet",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Indiana federal emergency declaration",
+      "v": "Approved",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Private-sector hackback authority",
+      "v": "Memo signed",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Loran gasfield phase two",
+      "v": "Announced, not started",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Voter economic sentiment",
+      "v": "Majority say worse off",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-administration-second-term-2026-08-16-00"
+      ]
+    }
+  ]
+}

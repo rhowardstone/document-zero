@@ -1,0 +1,14 @@
+{
+  "claim_text": "The BBC has asked a US court for assistance in obtaining testimony from members of the Trump family in a defamation suit.",
+  "quote": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "A court application is an on-record proceeding, reported concurrently by AP, Politico, Fortune and Sky. At news ceiling.",
+  "source_sha": "39f1b83c5f93a8b39a31088067a5ef98a62c832b360ae257401ec7355a571d48",
+  "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+  "source_type": "misc",
+  "id": "trump-administration-second-term-2026-08-16-02",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

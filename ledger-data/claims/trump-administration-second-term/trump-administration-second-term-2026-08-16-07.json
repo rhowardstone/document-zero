@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump's legal team has contracted in size.",
+  "quote": "Trump’s legal team shrinks",
+  "tier": "credible_allegation",
+  "confidence": 0.45,
+  "confidence_justification": "Headline-only item; no departures named, no numbers, no supporting detail in the available text.",
+  "source_sha": "51d1fa6cccfb50f6d3b8dd3979d83fffae63f2f483e2a12cc02cdf488243512e",
+  "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNck1xckt2RmxZLTMxZVJnRm5UQjcxSTVCWU0tT0JoeFp5emFZRjBTR0lUV2paT1BOdlhwWndjLUo1cFM1cUhQcEl6djZJTzE4SDB3SDlEY0czQzl4WUhZNXdXWkMtMUh1WkVncjIzTTFfcFRzcGd2SlZ0dWVHcWFBZ0lIb1o5Sk9RUk11R294MDREaDcxWXJF?oc=5",
+  "source_type": "misc",
+  "id": "trump-administration-second-term-2026-08-16-07",
+  "beat": "trump-administration-second-term",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

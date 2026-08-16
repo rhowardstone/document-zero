@@ -1,0 +1,77 @@
+{
+  "name": "Trump administration second term",
+  "slug": "trump-administration-second-term",
+  "opened": true,
+  "reason": "9 events over 20 days (GDELT: 21 days of coverage over 20d)",
+  "events": 9,
+  "span_days": 20,
+  "state_fields": [
+    "Colombian tariff suspension request",
+    "BBC subpoena bid for Trump family testimony",
+    "Trump's legal team",
+    "Indiana flood death toll",
+    "Indiana federal emergency declaration",
+    "Private-sector hackback authority",
+    "Loran gasfield phase two",
+    "Voter economic sentiment"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "apnews.com",
+    "indystar.com",
+    "npr.org",
+    "pbs.org",
+    "politico.com",
+    "theguardian.com"
+  ],
+  "articles": [
+    {
+      "url": "https://www.pbs.org/newshour/world/colombian-president-asks-trump-to-suspend-tariffs-to-help-earthquake-recovery",
+      "title": "Colombian president asks Trump to suspend tariffs to help earthquake recovery",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+      "title": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+      "publisher": "apnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+      "title": "'What are we going to do?' The mom of a trans teen grapples with Trump's Medicaid move",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNck1xckt2RmxZLTMxZVJnRm5UQjcxSTVCWU0tT0JoeFp5emFZRjBTR0lUV2paT1BOdlhwWndjLUo1cFM1cUhQcEl6djZJTzE4SDB3SDlEY0czQzl4WUhZNXdXWkMtMUh1WkVncjIzTTFfcFRzcGd2SlZ0dWVHcWFBZ0lIb1o5Sk9RUk11R294MDREaDcxWXJF?oc=5",
+      "title": "Trump’s legal team shrinks",
+      "publisher": "politico.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM2SElfb082WlA5dVhQNVRxQ1c2cWZVM2F6QXg0czdkMmNJYmFYMTRXSTY5RE5NaUdkM0tCT2FVcUpGZElnbHJCTDhMazRTOEUySWlqQU5pOVlvaW1YcUxQV3MzT1U0QkEwQTl5U2hDOFJXTTVMMmVDV0M1M0NwMUpwbkFRUUhyOWJqdXV1ZEJ6R3dQVU41NW1XUmlBaml6VGRNcGhnaWVhdUV0LVpSME1SNk56SFVTMVJpOTk1X0VNdnVHYVE0LVM0aVlucndhREhwYy1IMDQ3X00?oc=5",
+      "title": "Trump’s midterm malaise: endless war and high prices could spell doom for Republicans in November",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVTJFOUlaUHNqdVNlWU5mZGZnNTBDVnN5NWg3MHRTTC1SS3JoOXNfWm9LOGpjNk5GcFZNaWQzR3pYSmxTcVFUWGJ5Yk12dHRnN2N1b3N4U3hlUTZPOUp6aFg3bkdGMDlIX2ZBTVVnWVMtVy05Y3ZCWFV5eTVmWG40dTdFd0xrWHllTGxKb1hGWVVnNlBfemhORUV6Ny1XZDhDbHY3djU5RFJxRzhZYk95dUM5RFpTUUVqWlZXWWtrbVdobXd3Z1Rjckt1eWp0TV9mVU93VldsbkR2RXlPOWc?oc=5",
+      "title": "Live flood updates: President Trump approves emergency declaration",
+      "publisher": "indystar.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+      "title": "Trump administration wants to allow companies to hack foreign cybercriminals",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+      "title": "Donald Trump doesn’t just love billionaires, he loves multimillionaires too",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump",
+      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "publisher": "theguardian.com"
+    }
+  ],
+  "claims_found": 20,
+  "dropped": [],
+  "no_state_reason": ""
+}
