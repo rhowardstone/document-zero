@@ -18,6 +18,7 @@ cost and not a money cost.
 """
 from __future__ import annotations
 import json
+import pathlib
 import re
 import time
 import urllib.parse
@@ -68,7 +69,7 @@ def _fetch(query: str, timespan: str, maxrecords: int) -> dict:
 
 
 def span(query: str, timespan: str = "3w", maxrecords: int = 250,
-         _fetcher=None) -> Span:
+         _fetcher=None, use_cache: bool | None = None) -> Span:
     """Distinct days of coverage for `query`, over `timespan`.
 
     Returns an empty Span rather than raising when GDELT is unavailable or
@@ -82,8 +83,18 @@ def span(query: str, timespan: str = "3w", maxrecords: int = 250,
     # failed, the span came back empty, and the caller silently fell back to the
     # wire's own one-to-three-day window — so stories measured at twenty days by
     # hand were rejected for span in the pipeline, and nothing said why.
+    # A day's answer for a given story does not change between runs, and a
+    # cached hit costs neither a request nor the throttle wait. This is what
+    # makes a daily cron cheap: the same beats are looked up every day.
+    # Caching a test double is meaningless, so it follows the real-call path by
+    # default. Tests that exercise the cache itself opt in explicitly.
+    caching = (_fetcher is None) if use_cache is None else use_cache
+    cached = _cache_get(query, timespan) if caching else None
+    if cached is not None:
+        return cached
+
     data, err = None, None
-    for attempt in range(3):
+    for attempt in range(4):
         if _fetcher is None:
             _throttle()
         try:
@@ -93,7 +104,7 @@ def span(query: str, timespan: str = "3w", maxrecords: int = 250,
             err = e
             if _fetcher is not None:
                 break
-            time.sleep(MIN_INTERVAL * (attempt + 2))
+            time.sleep(MIN_INTERVAL * (attempt + 1) * 1.5)
     if data is None:
         return Span(0, "", "", 0, 0, error=f"{type(err).__name__}: {err}"[:120]
                     if err else "no response")
@@ -109,8 +120,40 @@ def span(query: str, timespan: str = "3w", maxrecords: int = 250,
     days = sorted(set(covered))
     d0 = datetime.strptime(days[0], "%Y%m%d").date()
     d1 = datetime.strptime(days[-1], "%Y%m%d").date()
-    return Span(days=(d1 - d0).days, first=days[0], last=days[-1],
-                articles=len(series), distinct_days=len(days))
+    out = Span(days=(d1 - d0).days, first=days[0], last=days[-1],
+               articles=len(series), distinct_days=len(days))
+    if caching:
+        _cache_put(query, timespan, out)
+    return out
+
+
+CACHE_DIR = pathlib.Path("/mnt/d/Newsdesk/ledger-data/.history-cache")
+CACHE_TTL = 12 * 3600
+
+
+def _cache_key(query: str, timespan: str) -> str:
+    import hashlib
+    return hashlib.sha256(f"{query}|{timespan}".encode()).hexdigest()[:20]
+
+
+def _cache_get(query: str, timespan: str):
+    f = CACHE_DIR / f"{_cache_key(query, timespan)}.json"
+    try:
+        if time.time() - f.stat().st_mtime > CACHE_TTL:
+            return None
+        d = json.loads(f.read_text())
+        return Span(**d)
+    except Exception:                                        # noqa: BLE001
+        return None
+
+
+def _cache_put(query: str, timespan: str, sp: Span) -> None:
+    try:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        (CACHE_DIR / f"{_cache_key(query, timespan)}.json").write_text(
+            json.dumps(sp.__dict__))
+    except Exception:                                        # noqa: BLE001
+        pass
 
 
 def query_for(name: str, entities=()) -> str:

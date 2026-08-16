@@ -1,0 +1,14 @@
+{
+  "claim_text": "Pyongyang rejected Seoul's peace proposal amid rising inter-Korean tensions ahead of the US-South Korea drills.",
+  "quote": "Pyongyang snubs Seouls peace proposal as inter-Korean tensions flare ahead of US-South Korea drills",
+  "tier": "credible_allegation",
+  "confidence": 0.4,
+  "confidence_justification": "Well below ceiling: the rejection appears only as a single aggregated headline characterization, with no quoted North Korean statement or named official in the material available.",
+  "source_sha": "b86db78baf0e4d67c7c9e70c4013842f36434574f0d881705062351df8fed11e",
+  "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
+  "source_type": "misc",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

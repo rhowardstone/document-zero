@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump characterized the joint exercises as sending an inappropriate and hostile signal to North Korea.",
+  "quote": "send a signal that is totally inappropriate and hostile",
+  "tier": "credible_allegation",
+  "confidence": 0.6,
+  "confidence_justification": "This is an identified public official's own characterization, quoted verbatim by the outlet; the assertion is his, not an established fact.",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-02",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

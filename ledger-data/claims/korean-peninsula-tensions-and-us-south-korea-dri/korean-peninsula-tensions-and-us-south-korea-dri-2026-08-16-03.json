@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump asserted that North Korea has behaved in an unthreatening and respectful manner during his time in the White House.",
+  "quote": "has been unthreatening and respectful",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Verbatim quote from an identified official, but the underlying characterization of North Korean conduct is contested by other reporting in this same cluster (the MDL crossing).",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-03",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

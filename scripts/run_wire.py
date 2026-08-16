@@ -136,7 +136,7 @@ def main() -> int:
         drop_note = f", {len(out['dropped'])} claim(s) dropped" if out["dropped"] else ""
         if not ok:
             rejected.append((name, why))
-            print(f"  {name[:34]:36s} REJECTED  {why[:44]}{drop_note}")
+            print(f"  {name[:32]:34s} REJECTED  {why[:78]}{drop_note}")
             continue
         if not out["claims"]:
             rejected.append((name, "no claim survived quote verification"))
@@ -167,7 +167,7 @@ def main() -> int:
                 "d": args.day, "c": f"Beat opened. {why}.",
                 "s": f"{written} claim(s) from {len(cluster.publishers)} newsroom(s)"})
             opened.append((prop.slug, name, written))
-            print(f"  {name[:34]:36s} OPENED    {prop.slug} · {written} claims{drop_note}")
+            print(f"  {name[:32]:34s} OPENED    {written} claims · {why[:44]}{drop_note}")
         else:
             rejected.append((name, "too little survived to establish state"))
             print(f"  {name[:34]:36s} REJECTED  too little survived{drop_note}")

@@ -101,3 +101,34 @@ def test_a_failed_lookup_says_why():
     def boom(q, t, m):
         raise OSError("network down")
     assert "network down" in span("q", _fetcher=boom).error
+
+
+def test_a_cached_span_costs_no_request(tmp_path, monkeypatch):
+    """A day's answer for a story does not change between runs, and a cached hit
+    costs neither a request nor the nine-second throttle. This is what makes a
+    daily cron cheap: the same beats are looked up every day."""
+    import ledger.history as H
+    monkeypatch.setattr(H, "CACHE_DIR", tmp_path / "c")
+    calls = []
+
+    def once(q, t, m):
+        calls.append(1)
+        return arts("20260801T000000Z", "20260816T000000Z")
+
+    a = H.span("cache-me", _fetcher=once, use_cache=True)
+    b = H.span("cache-me", _fetcher=once, use_cache=True)
+    assert a.days == b.days == 15
+    assert len(calls) == 1, "the second lookup should have been served from cache"
+
+
+def test_a_failed_lookup_is_not_cached(tmp_path, monkeypatch):
+    """Caching a 429 would turn a transient rate limit into a day-long outage."""
+    import ledger.history as H
+    monkeypatch.setattr(H, "CACHE_DIR", tmp_path / "c")
+
+    def boom(q, t, m):
+        raise OSError("429")
+    H.span("transient", _fetcher=boom, use_cache=True)
+    ok = H.span("transient", use_cache=True,
+                _fetcher=lambda *a: arts("20260801T000000Z", "20260816T000000Z"))
+    assert ok.found is True

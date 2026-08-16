@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump announced the decision in a social media post, saying the exercises slated to begin this week are costly.",
+  "quote": "Trump said in a social media post that the exercises slated to begin this week are costly",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "News report at ceiling; the underlying artifact is a public post by a sitting official, quoted and characterized directly by the outlet.",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-01",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}
