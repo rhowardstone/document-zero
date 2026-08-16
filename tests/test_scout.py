@@ -138,3 +138,24 @@ def test_a_proposal_carries_enough_to_record_a_rejection():
     rec = p.as_record(opened=ok, reason=why)
     assert rec["name"] == "One thing" and rec["opened"] is False
     assert rec["reason"] and rec["events"] == 1 and rec["publishers"] == ["x.com"]
+
+
+def test_an_unmeasured_span_is_deferred_not_rejected():
+    """"2 days, needs 5" is a false statement when the lookup failed. We do not
+    know the span; we failed to measure it. A ledger that reports a failed
+    measurement as a finding is worse than one that admits the gap."""
+    ok, why = beat_test(prop(span_days=2), span_known=False)
+    assert ok is False
+    assert "span unknown" in why and "Deferred" in why
+    assert "a single day's flurry" not in why
+
+
+def test_a_measured_short_span_is_still_a_rejection():
+    ok, why = beat_test(prop(span_days=2), span_known=True)
+    assert ok is False and "flurry" in why
+
+
+def test_an_unmeasured_span_does_not_excuse_a_beat_with_no_state():
+    """The state-field test is independent of history and still governs."""
+    ok, why = beat_test(prop(fields=(), span_days=2), span_known=False)
+    assert ok is False and "state field" in why

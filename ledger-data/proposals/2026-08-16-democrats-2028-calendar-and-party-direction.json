@@ -1,15 +1,15 @@
 {
   "name": "Democrats' 2028 calendar and party direction",
   "slug": "democrats-2028-calendar-and-party-direction",
-  "opened": true,
-  "reason": "7 events over 20 days (GDELT: 21 days of coverage over 20d)",
+  "opened": false,
+  "reason": "2 day(s); needs 5 — a single day's flurry is an event, not a beat [history lookup failed: HTTPError: HTTP Error 429: Too Many Requests]",
   "events": 7,
-  "span_days": 20,
+  "span_days": 2,
   "state_fields": [
-    "Leadoff primary state and date",
-    "Second state on the calendar",
-    "Iowa's position",
-    "Democratic split over socialism",
+    "Leadoff primary state",
+    "Second contest",
+    "Iowa's calendar slot",
+    "2026 primary season",
     "Congressional Democrats' response to executive-branch transparency limits"
   ],
   "dated_trigger": null,
@@ -56,7 +56,7 @@
       "publisher": "npr.org"
     }
   ],
-  "claims_found": 8,
+  "claims_found": 15,
   "dropped": [],
   "no_state_reason": ""
 }

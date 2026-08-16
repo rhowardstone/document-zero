@@ -61,7 +61,7 @@ class Proposal:
         }
 
 
-def beat_test(p: Proposal) -> tuple[bool, str]:
+def beat_test(p: Proposal, span_known: bool = True) -> tuple[bool, str]:
     """The v1 §2.1 test. Returns (opens, reason).
 
     The question is not "is this interesting" but "can I write this thing's
@@ -78,6 +78,15 @@ def beat_test(p: Proposal) -> tuple[bool, str]:
         return False, (f"{p.events} event(s); needs {MIN_EVENTS}, "
                        "or one dated trigger")
     if p.span_days < MIN_SPAN_DAYS:
+        if not span_known:
+            # We did not measure the span; we failed to. Recording that as
+            # "too short" states something the record does not know, and a
+            # ledger that reports a failed measurement as a finding is worse
+            # than one that admits the gap.
+            return False, (f"span unknown: the history lookup failed and the "
+                           f"wire alone sees {p.span_days} day(s). Deferred "
+                           "rather than rejected — this may open once the "
+                           "lookup succeeds.")
         return False, (f"{p.span_days} day(s); needs {MIN_SPAN_DAYS} — a single "
                        "day's flurry is an event, not a beat")
     return True, f"{p.events} events over {p.span_days} days"

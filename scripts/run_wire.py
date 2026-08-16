@@ -120,12 +120,11 @@ def main() -> int:
         h = history.span(q)
         if h.found and h.days > prop.span_days:
             prop.span_days = h.days
-        ok, why = scout.beat_test(prop)
+        ok, why = scout.beat_test(prop, span_known=h.found)
         if h.found:
             why += f" (GDELT: {h.distinct_days} days of coverage over {h.days}d)"
         elif h.error:
-            # Never let a failed lookup masquerade as a genuinely new story.
-            why += f" [history lookup failed: {h.error}]"
+            why += f" [{h.error}]"
 
         editor._write_json(f"proposals/{args.day}-{prop.slug}.json",
                            {**prop.as_record(ok, why),
@@ -135,8 +134,10 @@ def main() -> int:
 
         drop_note = f", {len(out['dropped'])} claim(s) dropped" if out["dropped"] else ""
         if not ok:
+            deferred = "span unknown" in why
             rejected.append((name, why))
-            print(f"  {name[:32]:34s} REJECTED  {why[:78]}{drop_note}")
+            label = "DEFERRED" if deferred else "REJECTED"
+            print(f"  {name[:32]:34s} {label}  {why[:70]}{drop_note}")
             continue
         if not out["claims"]:
             rejected.append((name, "no claim survived quote verification"))
