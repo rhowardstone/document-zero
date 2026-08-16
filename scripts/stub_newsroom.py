@@ -39,7 +39,8 @@ DAY = "2026-08-16"
 def _headline(text: str) -> str:
     """The first clause, capped. A stub cannot write a headline; it can at least
     stop at a natural break instead of mid-thought."""
-    first = re.split(r"\s+(?:and|but|which|after|while|because)\s+|[,;:]", text, 1)[0]
+    first = re.split(r"\s+(?:and|but|which|after|while|because)\s+|[,;:]", text,
+                     maxsplit=1)[0]
     return _trim(first if len(first.split()) >= 5 else text, 78)
 
 
@@ -137,6 +138,11 @@ def main() -> int:
     ap.add_argument("--out", required=True)
     ap.add_argument("--ledger", default="/mnt/d/Newsdesk/ledger-data")
     ap.add_argument("--offline", action="store_true")
+    # A stub must not write into the real ledger. Its articles are demonstration
+    # output, and storing them collides with genuine articles the immutability
+    # rule then refuses to overwrite — correctly.
+    ap.add_argument("--store", action="store_true",
+                    help="also write articles and an edition into the ledger")
     args = ap.parse_args()
 
     out = pathlib.Path(args.out)
@@ -181,9 +187,8 @@ def main() -> int:
 
         print(f"  {beat:14s} PASSED  {article.word_count} words, "
               f"{result.checked} sentence(s) checked")
-        # Store it under the beat that wrote it, so the renderer can find it and
-        # the write-partition rule covers it with no extra machinery.
-        Ledger(args.ledger, writer=f"beat:{beat}").put_article(article)
+        if args.store:
+            Ledger(args.ledger, writer=f"beat:{beat}").put_article(article)
         scored.append((article, float(len(claims))))
 
     page = play(scored=scored, day=DAY, refused=refused,
@@ -193,21 +198,23 @@ def main() -> int:
 
     # The editor's edition: which beats reached the wire. The renderer reads
     # this to decide what publishes, so an article from a held beat cannot leak.
-    Ledger(args.ledger, writer="editor")._write_json(f"editions/{DAY}.json", {
-        "day": DAY,
-        "wire": [{"id": a.beat, "beat": a.beat, "material_changes": len(a.changed),
-                  "claims": 0, "rejected_claims": 0, "changes": [], "added": [],
-                  "removed": [], "unchanged": 0} for a, _ in scored],
-        "omissions": [], "holds": [],
-        # `refused` means a SAFETY gate fired. An article that failed the
-        # schema or the entailment gate is `unpublishable` — a different thing,
-        # and labelling it as a refusal tells the reader someone was protected
-        # when in fact the writing simply could not be supported.
-        "counts": {"wire": len(scored), "refused": 0, "holds": 0,
-                   "unpublishable": len(refused),
-                   "omissions": 0, "capped_out": 0, "dropped": 0},
-        "unpublishable": refused,
-        "publish": False, "publish_blocked_by": "dry_run"})
+    if args.store:
+        Ledger(args.ledger, writer="editor")._write_json(f"editions/{DAY}.json", {
+            "day": DAY,
+            "wire": [{"id": a.beat, "beat": a.beat,
+                      "material_changes": len(a.changed), "claims": 0,
+                      "rejected_claims": 0, "changes": [], "added": [],
+                      "removed": [], "unchanged": 0} for a, _ in scored],
+            "omissions": [], "holds": [],
+            # `refused` means a SAFETY gate fired. An article that failed the
+            # schema or the entailment gate is `unpublishable` — a different
+            # thing, and calling it a refusal tells the reader someone was
+            # protected when the writing simply could not be supported.
+            "counts": {"wire": len(scored), "refused": 0, "holds": 0,
+                       "unpublishable": len(refused), "omissions": 0,
+                       "capped_out": 0, "dropped": 0},
+            "unpublishable": refused,
+            "publish": False, "publish_blocked_by": "dry_run"})
 
     print()
     print(f"FRONT PAGE  {page['date']}")

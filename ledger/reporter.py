@@ -26,7 +26,8 @@ belongs to ledger/claudecode.py.
 from __future__ import annotations
 import json
 
-from .article import MAX_WORDS, MIN_WORDS, ArticleError, validate
+from .article import (MAX_HEADLINE_WORDS, MAX_WORDS, MIN_HEADLINE_WORDS,
+                      MIN_WORDS, ArticleError, validate)
 
 SYSTEM = (
     "You are a reporter for an automated public ledger. No human editor will "
@@ -80,8 +81,19 @@ RULES
 4. A claim tiered `credible_allegation` must be attributed to whoever made it
    ("X alleges…") and never stated as fact. A claim tiered `question` may not be
    asserted at all — the record does not settle it.
-5. Give a real headline (a sentence, not a fragment) and a one-line standfirst.
-6. The dateline is the place the news happened, in capitals.
+5. Do not join two claims in one sentence with a connective that implies a
+   relationship the claims do not state. "X happened, and its request dates Y"
+   asserts that X's request is the source of Y. If the claims do not say the two
+   are connected, write two sentences. Each sentence is checked on its own, and
+   a link you supplied yourself is the commonest way an article is refused.
+6. The headline is {MIN_HEADLINE_WORDS}-{MAX_HEADLINE_WORDS} words. Active,
+   present tense, the single most consequential fact. It is NOT a summary of
+   your first paragraph and NOT a full sentence restating the lede.
+     good: "New Mexico sues Justice Department over withheld Epstein records"
+     bad:  "The State of New Mexico has sued the Justice Department in federal
+            court for unredacted Epstein records the department has withheld"
+   The standfirst is one line that adds what the headline left out.
+7. The dateline is the place the news happened, in capitals.
 
 REPLY WITH JSON ONLY, in exactly this shape:
 {{
@@ -111,6 +123,12 @@ def length_note(err: str) -> str | None:
                 "of the claims you were given. Do not invent material to reach "
                 f"the length: use claims you did not use. Target about "
                 f"{(MIN_WORDS + MAX_WORDS) // 2} words.")
+    if "it is a lede" in msg:
+        return (f"Your headline was too long. Rewrite it in "
+                f"{MIN_HEADLINE_WORDS}-{MAX_HEADLINE_WORDS} words, active and "
+                "present tense, stating the single most consequential fact. Do "
+                "not restate your first paragraph. Keep the article otherwise "
+                "unchanged.")
     if "the reporter is padding" in msg:
         return ("Your draft was too LONG and was rejected. Cut it. Remove whole "
                 "sentences rather than trimming words from every sentence, and "

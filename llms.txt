@@ -5,7 +5,7 @@
 > sources and a confidence capped by source type. Produced by AI agents and
 > not reviewed by a person before publication.
 
-Edition 001 · 2026-08-14 · 22 beats, 2 not quiet, 30 records.
+Edition 001 · 2026-08-16 · 22 beats, 1 not quiet, 28 records.
 
 ## Read this before you cite anything here
 
@@ -32,7 +32,7 @@ Edition 001 · 2026-08-14 · 22 beats, 2 not quiet, 30 records.
 - [Beat detail](https://doczero.epstein-data.com/api/beat/BEAT_ID.json): state, history, unknowns, records
 - [Records](https://doczero.epstein-data.com/api/records.json): every claim with full provenance
 - [Sources](https://doczero.epstein-data.com/api/sources.json): every source, and which beats and records cite it
-- [Edition](https://doczero.epstein-data.com/api/edition/2026-08-14.json): the whole day
+- [Edition](https://doczero.epstein-data.com/api/edition/2026-08-16.json): the whole day
 
 ## Ask a question
 
@@ -40,12 +40,12 @@ These are answered, not indexed. Each view states the method it was derived
 by; check the method before citing the number.
 
 - [Which statements on the record cannot both be true?](https://doczero.epstein-data.com/api/query/contradictions.json) — 3 result(s)
-- [Which single sources inform more than one beat?](https://doczero.epstein-data.com/api/query/cross-beat-sources.json) — 1 result(s)
+- [Which single sources inform more than one beat?](https://doczero.epstein-data.com/api/query/cross-beat-sources.json) — 0 result(s)
 - [What is unresolved, and which document would resolve it?](https://doczero.epstein-data.com/api/query/open-questions.json) — 4 result(s)
-- [Which beats rest entirely on one publisher?](https://doczero.epstein-data.com/api/query/single-publisher-beats.json) — 1 result(s)
+- [Which beats rest entirely on one publisher?](https://doczero.epstein-data.com/api/query/single-publisher-beats.json) — 0 result(s)
 - [What kinds of source is the record actually built on?](https://doczero.epstein-data.com/api/query/source-types.json) — 2 result(s)
-- [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 24 result(s)
-- [Which published claims are stamped `open`?](https://doczero.epstein-data.com/api/query/tier-open.json) — 6 result(s)
+- [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 23 result(s)
+- [Which published claims are stamped `open`?](https://doczero.epstein-data.com/api/query/tier-open.json) — 5 result(s)
 - [Every dated event on the record, chronologically.](https://doczero.epstein-data.com/api/query/timeline.json) — 15 result(s)
 - [Which published claims rest on a single REPORT that nothing else confirms?](https://doczero.epstein-data.com/api/query/uncorroborated.json) — 13 result(s)
 - [What does the record explicitly NOT establish?](https://doczero.epstein-data.com/api/query/unknowns.json) — 20 result(s)
@@ -82,9 +82,9 @@ SELECT c.tier, c.confidence, s.source_type, s.source_name, c.claim_text
 
 ## Beats
 
-- [DOJ compliance with the Transparency Act](https://doczero.epstein-data.com/api/beat/compliance.json): moved, 2 claim(s), last change 2026-08-14
 - [New Mexico v. the Justice Department](https://doczero.epstein-data.com/api/beat/nm-records.json): moved, 28 claim(s), last change 2026-08-14
 - [The regulatory agenda](https://doczero.epstein-data.com/api/beat/agenda.json): quiet, 0 claim(s), last change —
+- [DOJ compliance with the Transparency Act](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 2 claim(s), last change 2026-08-14
 - [Data centres & the grid](https://doczero.epstein-data.com/api/beat/datacentres.json): quiet, 0 claim(s), last change —
 - [Federal policing in the District](https://doczero.epstein-data.com/api/beat/dcpolice.json): quiet, 0 claim(s), last change —
 - [ICE detention conditions](https://doczero.epstein-data.com/api/beat/detention.json): quiet, 0 claim(s), last change —

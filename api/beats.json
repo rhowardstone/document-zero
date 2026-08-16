@@ -72,7 +72,7 @@
   {
    "id": "compliance",
    "name": "DOJ compliance with the Transparency Act",
-   "status": "moved",
+   "status": "quiet",
    "dossiers": [
     "records",
     "power"

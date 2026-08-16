@@ -6,8 +6,6 @@
    "publisher": "storage.courtlistener.com",
    "source_type": "documentation",
    "records": [
-    "compliance-2026-08-14-doc-efta-as-shield",
-    "compliance-2026-08-14-doc-efta-redaction",
     "nm-records-2026-08-14-doc-file-handover",
     "nm-records-2026-08-14-doc-judicial-notice",
     "nm-records-2026-08-14-doc-no-pc",
@@ -19,7 +17,6 @@
     "nm-records-2026-08-14-doc-standdown-call"
    ],
    "beats": [
-    "compliance",
     "nm-records"
    ]
   },

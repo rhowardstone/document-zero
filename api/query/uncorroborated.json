@@ -228,40 +228,6 @@
  ],
  "single_primary_document": [
   {
-   "id": "compliance-2026-08-14-doc-efta-as-shield",
-   "title": "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation.",
-   "stamp": "documented",
-   "beats": [
-    "compliance"
-   ],
-   "corroboration": 1,
-   "sources": [
-    {
-     "publisher": "storage.courtlistener.com",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "source_type": "documentation",
-     "confidence": "0.85"
-    }
-   ]
-  },
-  {
-   "id": "compliance-2026-08-14-doc-efta-redaction",
-   "title": "New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors.",
-   "stamp": "open",
-   "beats": [
-    "compliance"
-   ],
-   "corroboration": 1,
-   "sources": [
-    {
-     "publisher": "storage.courtlistener.com",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "source_type": "documentation",
-     "confidence": "0.8"
-    }
-   ]
-  },
-  {
    "id": "nm-records-2026-08-14-doc-deadline",
    "title": "New Mexico's Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed.",
    "stamp": "documented",
@@ -517,5 +483,5 @@
    ]
   }
  ],
- "single_primary_document_count": 17
+ "single_primary_document_count": 15
 }

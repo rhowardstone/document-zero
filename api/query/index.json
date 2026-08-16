@@ -12,7 +12,7 @@
   {
    "query": "cross-beat-sources",
    "question": "Which single sources inform more than one beat?",
-   "count": 1,
+   "count": 0,
    "url": "https://doczero.epstein-data.com/api/query/cross-beat-sources.json"
   },
   {
@@ -24,7 +24,7 @@
   {
    "query": "single-publisher-beats",
    "question": "Which beats rest entirely on one publisher?",
-   "count": 1,
+   "count": 0,
    "url": "https://doczero.epstein-data.com/api/query/single-publisher-beats.json"
   },
   {
@@ -36,13 +36,13 @@
   {
    "query": "tier-documented",
    "question": "Which published claims are stamped `documented`?",
-   "count": 24,
+   "count": 23,
    "url": "https://doczero.epstein-data.com/api/query/tier-documented.json"
   },
   {
    "query": "tier-open",
    "question": "Which published claims are stamped `open`?",
-   "count": 6,
+   "count": 5,
    "url": "https://doczero.epstein-data.com/api/query/tier-open.json"
   },
   {

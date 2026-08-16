@@ -1,62 +1,6 @@
 {
- "count": 30,
+ "count": 28,
  "records": [
-  {
-   "id": "compliance-2026-08-14-doc-efta-as-shield",
-   "kind": "wire",
-   "beats": [
-    "compliance"
-   ],
-   "stamp": "documented",
-   "title": "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation.",
-   "deck": "The position taken is documented with a date and an attached exhibit. A transparency statute being invoked as a reason to withhold is a fact about the Act's operation, whatever one concludes about it.",
-   "quote": "reiterated his view that EFTA and the existing protective orders precluded production of materials in response to NMDOJ's request",
-   "tier": "documented_fact",
-   "confidence": 0.85,
-   "rounds": 1,
-   "families": [
-    "quote-checked against the filed PDF"
-   ],
-   "derived": "tier documented_fact, confidence 0.85, survived 1 verification round(s) on quote-checked against the filed PDF",
-   "sources": [
-    {
-     "n": "storage.courtlistener.com",
-     "u": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "t": "documentation",
-     "c": "0.85"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
-  {
-   "id": "compliance-2026-08-14-doc-efta-redaction",
-   "kind": "wire",
-   "beats": [
-    "compliance"
-   ],
-   "stamp": "open",
-   "title": "New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors.",
-   "deck": "An allegation in a pleading by an adverse party, quoted exactly. The filing cites an attached letter from the Attorney General and Acting Attorney General to Congress dated 30 January 2026. No court has found this.",
-   "quote": "But USDOJ instead publicly posted detailed, unredacted personal information about survivors, ranging from their contact information to nude images.",
-   "tier": "credible_allegation",
-   "confidence": 0.8,
-   "rounds": 1,
-   "families": [
-    "quote-checked against the filed PDF"
-   ],
-   "derived": "tier credible_allegation, confidence 0.8, survived 1 verification round(s) on quote-checked against the filed PDF",
-   "sources": [
-    {
-     "n": "storage.courtlistener.com",
-     "u": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "t": "documentation",
-     "c": "0.8"
-    }
-   ],
-   "corroboration": 1,
-   "questions": []
-  },
   {
    "id": "nm-records-2026-08-14-000",
    "kind": "wire",

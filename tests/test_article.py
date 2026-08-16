@@ -77,3 +77,17 @@ def test_the_article_is_immutable_once_validated():
     a = validate(art())
     with pytest.raises(Exception):
         a.headline = "something else"
+
+
+def test_a_headline_that_is_really_a_lede_is_refused():
+    """Told only "a sentence, not a fragment", the reporter wrote a 20-word
+    restatement of its own first paragraph, which rendered as six lines of
+    display type on the live site."""
+    with pytest.raises(ArticleError, match="lede"):
+        validate(art(headline="The State of New Mexico has sued the Justice "
+                              "Department in federal court for unredacted "
+                              "Epstein records the department has withheld"))
+
+
+def test_a_headline_of_normal_length_passes():
+    validate(art(headline="New Mexico sues Justice Department over withheld records"))

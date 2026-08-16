@@ -2,25 +2,8 @@
  "query": "tier-documented",
  "question": "Which published claims are stamped `documented`?",
  "method": "records with kind=wire and stamp=documented. `documented` maps to the prose tier `documented_fact`; the stamp governs how the claim may be restated, not how important it is.",
- "count": 24,
+ "count": 23,
  "results": [
-  {
-   "id": "compliance-2026-08-14-doc-efta-as-shield",
-   "title": "The federal government has cited the Epstein Files Transparency Act itself, together with protective orders, as grounds for declining to produce unredacted records to a state criminal investigation.",
-   "stamp": "documented",
-   "beats": [
-    "compliance"
-   ],
-   "corroboration": 1,
-   "sources": [
-    {
-     "publisher": "storage.courtlistener.com",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "source_type": "documentation",
-     "confidence": "0.85"
-    }
-   ]
-  },
   {
    "id": "nm-records-2026-08-14-000",
    "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",

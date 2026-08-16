@@ -157,3 +157,25 @@ def test_a_non_length_failure_earns_no_retry():
     assert length_note("paragraph 0 cites no claims") is None
     assert length_note("missing required field: dateline") is None
     assert length_note("headline must be a sentence, not a fragment") is None
+
+
+def test_the_brief_warns_against_supplying_links_the_claims_do_not_make():
+    """Two verifiers independently refused a live article for joining two claims
+    with 'and its formal request', which asserted a connection the claims never
+    made. Supplying the link yourself is the commonest refusal."""
+    b = brief("x", CLAIMS, CHANGED, "2026-08-16")
+    assert "write two sentences" in b
+    assert "relationship the claims do not state" in b
+
+
+def test_an_overlong_headline_earns_a_rewrite_instruction():
+    from ledger.reporter import length_note
+    try:
+        parse(json.dumps(reply(headline="The State of New Mexico has sued the "
+                                        "Justice Department in federal court for "
+                                        "unredacted Epstein records it withheld")),
+              beat="nm", day="2026-08-16", written_by="cc")
+    except ArticleError as e:
+        note = length_note(e)
+    assert note and "headline was too long" in note
+    assert "Keep the article otherwise unchanged" in note

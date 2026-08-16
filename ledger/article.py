@@ -30,6 +30,10 @@ from dataclasses import dataclass, field
 
 MIN_WORDS, MAX_WORDS = 400, 800
 MIN_HEADLINE_WORDS = 4
+# A headline is not the lede. Told only "a sentence, not a fragment", the
+# reporter wrote a 20-word restatement of its own first paragraph, which
+# rendered as six lines of display type and made the page look broken.
+MAX_HEADLINE_WORDS = 14
 REQUIRED = ("beat", "day", "headline", "standfirst", "dateline",
             "published_at", "written_by")
 
@@ -76,9 +80,14 @@ def validate(obj: dict) -> Article:
         if not str(obj.get(f) or "").strip():
             raise ArticleError(f"missing required field: {f}")
 
-    if len(str(obj["headline"]).split()) < MIN_HEADLINE_WORDS:
+    hw = len(str(obj["headline"]).split())
+    if hw < MIN_HEADLINE_WORDS:
         raise ArticleError("headline must be a sentence, not a fragment: "
                            f"{obj['headline']!r}")
+    if hw > MAX_HEADLINE_WORDS:
+        raise ArticleError(
+            f"headline is {hw} words: over {MAX_HEADLINE_WORDS} it is a lede, "
+            "not a headline")
 
     paras = obj.get("paragraphs") or []
     if not paras:

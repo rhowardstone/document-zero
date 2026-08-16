@@ -2,25 +2,8 @@
  "query": "tier-open",
  "question": "Which published claims are stamped `open`?",
  "method": "records with kind=wire and stamp=open. `open` maps to the prose tier `credible_allegation`; the stamp governs how the claim may be restated, not how important it is.",
- "count": 6,
+ "count": 5,
  "results": [
-  {
-   "id": "compliance-2026-08-14-doc-efta-redaction",
-   "title": "New Mexico's complaint alleges that the Act required the files to be released redacted to protect survivors, and that the department instead publicly posted unredacted personal information about survivors.",
-   "stamp": "open",
-   "beats": [
-    "compliance"
-   ],
-   "corroboration": 1,
-   "sources": [
-    {
-     "publisher": "storage.courtlistener.com",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
-     "source_type": "documentation",
-     "confidence": "0.8"
-    }
-   ]
-  },
   {
    "id": "nm-records-2026-08-14-001",
    "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",

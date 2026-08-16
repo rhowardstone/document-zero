@@ -2,18 +2,19 @@
  "generated_from": "the ledger",
  "edition": {
   "n": "001",
-  "date": "2026-08-14",
+  "date": "2026-08-16",
   "updated": "—",
   "next": "—",
   "publish": false,
   "blocked_by": "dry_run",
   "counts": {
-   "wire": 2,
-   "capped_out": 0,
-   "omissions": 0,
-   "holds": 0,
+   "wire": 1,
    "refused": 0,
-   "dropped": 0
+   "holds": 0,
+   "omissions": 0,
+   "capped_out": 0,
+   "dropped": 0,
+   "unpublishable": 1
   }
  },
  "endpoints": {
@@ -28,7 +29,7 @@
  },
  "counts": {
   "beats": 22,
-  "records": 30,
+  "records": 28,
   "sources": 12,
   "queries": 12
  }
