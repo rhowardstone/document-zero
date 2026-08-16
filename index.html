@@ -634,7 +634,9 @@ function banner(e) {
   return e.publish ? "" : `<article class="card wh" style="margin-bottom:24px">
     <div class="lab">Not published</div>
     <h3>This edition was assembled but not released</h3>
-    <p>The editor blocked publication: <b class="mono">${t(e.blocked_by || "unknown")}</b>.
+    <p>${e.blocked_by
+         ? `The editor blocked publication: <b class="mono">${t(e.blocked_by)}</b>.`
+         : "The editor did not clear this edition for release, and did not record a reason."}
        You are looking at the assembled edition exactly as the pipeline produced
        it. Nothing below was suppressed to make it look better.</p></article>`;
 }
