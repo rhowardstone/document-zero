@@ -14,6 +14,9 @@
 #
 # Usage:
 #   scripts/deploy.sh check     read-only: what is there now, what would change
+#   scripts/deploy.sh rehearse  read-only: validate the vhost in an ISOLATED
+#                               nginx under /tmp, never reading the live config
+#   scripts/deploy.sh health    read-only: is epstein-data.com still answering
 #   scripts/deploy.sh files     rsync the static site only (no nginx changes)
 #   scripts/deploy.sh nginx     install the vhost, validate, and RELOAD nginx
 #   scripts/deploy.sh           check + files  (the safe default)
@@ -70,6 +73,62 @@ cmd_check() {
       "${PAYLOAD[@]}" "$HOST:$REMOTE_ROOT/" 2>&1 | sed 's/^/  /' | head -30 ) || true
 }
 
+cmd_rehearse() {
+  # Measure three times. This validates the vhost in an ISOLATED nginx config
+  # under /tmp — its own prefix, pid and logs — so the running server's config
+  # is never read, written or reloaded. `nginx -t` also opens the certificate
+  # and key referenced by the file, so a wrong path is caught here rather than
+  # at the moment of truth.
+  say "Rehearsing the vhost in an isolated nginx (live config untouched)"
+  scp -q "$VHOST_SRC" "$HOST:/tmp/dz-rehearsal.conf"
+  ssh_ '
+    set -e
+    D=/tmp/dz-rehearsal; rm -rf "$D"; mkdir -p "$D/logs"
+    cat > "$D/nginx.conf" <<EOF
+pid        $D/nginx.pid;
+error_log  $D/logs/error.log;
+events { worker_connections 64; }
+http {
+    access_log $D/logs/access.log;
+    client_body_temp_path $D/body;
+    proxy_temp_path       $D/proxy;
+    fastcgi_temp_path     $D/fastcgi;
+    uwsgi_temp_path       $D/uwsgi;
+    scgi_temp_path        $D/scgi;
+    include /tmp/dz-rehearsal.conf;
+}
+EOF
+    # -p sets the prefix so nothing resolves into /etc or /var.
+    nginx -t -p "$D" -c "$D/nginx.conf" 2>&1 | sed "s|^|  |"
+    rm -rf "$D" /tmp/dz-rehearsal.conf
+  '
+  say "Confirming the LIVE config is byte-identical to before"
+  ssh_ "md5sum /etc/nginx/sites-enabled/* /etc/nginx/nginx.conf | sed \"s|^|  |\""
+  ssh_ "ls /etc/nginx/sites-enabled/ | sed \"s|^|  enabled: |\""
+}
+
+cmd_health() {
+  # Through the Cloudflare edge, the way a reader reaches it. Hitting the origin
+  # directly returns 400 by design: ssl_verify_client rejects anything without
+  # Cloudflare's client certificate, so a direct probe measures the wrong thing.
+  say "Live site health, through the edge"
+  for path in / /EFTA00019183 /llms.txt; do
+    for i in 1 2 3; do
+      curl -sS -o /dev/null -m 20 \
+        -w "  epstein-data.com$path  HTTP %{http_code}  %{time_total}s  %{size_download}B\n" \
+        "https://epstein-data.com$path" || echo "  epstein-data.com$path  UNREACHABLE"
+    done
+  done
+  say "Origin process state"
+  ssh_ '
+    echo "  nginx:      $(systemctl is-active nginx)"
+    echo "  workers:    $(pgrep -c -f "nginx: worker")"
+    echo "  master pid: $(cat /run/nginx.pid 2>/dev/null || echo unknown)"
+    echo "  uptime:     $(ps -o etime= -p $(cat /run/nginx.pid 2>/dev/null || echo 1) 2>/dev/null | tr -d " ")"
+    echo "  free:       $(free -m | awk "/Mem:/{print \$7\" MB available\"}")"
+  '
+}
+
 cmd_files() {
   guard
   say "Creating $REMOTE_ROOT (owned by this project, nothing else lives there)"
@@ -115,11 +174,13 @@ cmd_nginx() {
 }
 
 case "${1:-default}" in
-  check)   cmd_check ;;
+  check)    cmd_check ;;
+  rehearse) cmd_rehearse ;;
+  health)   cmd_health ;;
   files)   cmd_check; cmd_files ;;
   nginx)   cmd_nginx ;;
   default) cmd_check; cmd_files
            say "Not touching nginx. Run 'scripts/deploy.sh nginx' to install the"
            echo "vhost and reload — that is the only step that affects the live server." ;;
-  *) echo "usage: $0 [check|files|nginx]" >&2; exit 2 ;;
+  *) echo "usage: $0 [check|rehearse|health|files|nginx]" >&2; exit 2 ;;
 esac

@@ -20,12 +20,31 @@
 # *.epstein-data.com and epstein-data.com, valid to 2041. No new certificate
 # and no certbot are required.
 
+# ── Plain HTTP, both names -> canonical HTTPS ────────────────────────────────
 server {
     listen 80;
-    server_name doczero.epstein-data.com;
-    return 301 https://$host$request_uri;
+    server_name doczero.epstein-data.com documentzero.epstein-data.com;
+    return 301 https://doczero.epstein-data.com$request_uri;
 }
 
+# ── documentzero.* is an alias, not a second site ────────────────────────────
+# One canonical hostname, so links, caches and the JSON API's absolute URLs all
+# agree. A second hostname serving identical content would split the cache and
+# give every record two addresses, which for a ledger whose whole point is
+# citable records is a defect rather than a convenience.
+server {
+    listen 443 ssl http2;
+    server_name documentzero.epstein-data.com;
+
+    ssl_certificate     /etc/ssl/cloudflare-origin.pem;
+    ssl_certificate_key /etc/ssl/cloudflare-origin-key.pem;
+    ssl_client_certificate /etc/ssl/cloudflare-authenticated-origin-pull.pem;
+    ssl_verify_client on;
+
+    return 301 https://doczero.epstein-data.com$request_uri;
+}
+
+# ── The site ─────────────────────────────────────────────────────────────────
 server {
     listen 443 ssl http2;
     server_name doczero.epstein-data.com;
