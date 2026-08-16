@@ -19,6 +19,21 @@ Three properties are enforced here rather than prompted:
   beat has a safe fallback: a one-line entry stating the bare fact, which needs
   no prose to support it.
 
+  A SENTENCE IS REFUSED BY AGREEMENT, NOT BY ONE VOTE. This was originally a
+  single-verifier veto, on the reasoning that refusing under uncertainty is the
+  safe direction. Measured on the first live run, that reasoning was wrong at
+  the article level: per-sentence false refusals COMPOUND. At a 3% false-refusal
+  rate across 29 sentences, only 41% of correct articles survive — and the
+  observed rate was worse. Two of the three refusals in that run were plainly
+  wrong, one of them contradicting its own stated reason.
+
+  A veto that silences most correct work does not make the system safe, it makes
+  it quiet, and a newsroom that publishes nothing has no accuracy to protect. So
+  a sentence is refused when a MAJORITY of verifiers refuse it. A genuinely
+  unsupported sentence is caught by both; a verifier having a bad moment is not
+  enough on its own. This also matches the claim cascade, which has required
+  consensus since v1.
+
   UNCERTAINTY IS REFUSAL. A verifier that errors, times out, or hedges counts
   as not-entailed. This matches the claim cascade, which defaults to refuted.
 
@@ -46,6 +61,10 @@ class Refused(RuntimeError):
 class Verdict:
     entailed: bool
     reason: str = ""
+    # True when the verifier never actually reached a judgement — it crashed,
+    # timed out, or returned nothing. This is NOT the same as deciding the
+    # sentence is unsupported, and majority voting must not treat it as a vote.
+    errored: bool = False
 
 
 @dataclass(frozen=True)
@@ -60,6 +79,10 @@ class Result:
     passed: bool
     refusals: list = field(default_factory=list)
     checked: int = 0
+    # Minority objections: a verifier refused but was outvoted. These do not
+    # block publication, and a rising count is the early warning that the
+    # verifiers and the writer are drifting apart.
+    dissents: list = field(default_factory=list)
 
     def require_pass(self) -> None:
         if self.passed:
@@ -75,7 +98,8 @@ def sentences(text: str) -> list[str]:
     return _split(text)
 
 
-def check(article, claims, verifiers, workers: int = 8) -> Result:
+def check(article, claims, verifiers, workers: int = 8,
+          refuse_threshold: int | None = None) -> Result:
     """Run every sentence past every verifier.
 
     `verifiers` are callables (sentence, cited_claims) -> Verdict.
@@ -85,6 +109,10 @@ def check(article, claims, verifiers, workers: int = 8) -> Result:
     single beat — unworkable for a newsroom of any size. The checks are
     independent by construction (each sees one sentence and its own claims and
     shares no state), so concurrency changes wall-clock and nothing else.
+
+    `refuse_threshold` is how many verifiers must refuse a sentence before it is
+    refused. Defaults to a majority, so one verifier having a bad moment cannot
+    kill an article on its own.
 
     Order is preserved in `refusals` regardless of completion order, so the same
     article always produces the same report.
@@ -107,8 +135,8 @@ def check(article, claims, verifiers, workers: int = 8) -> Result:
         try:
             return sentence, i, verifier(sentence, cited)
         except Exception as e:                              # noqa: BLE001
-            return sentence, i, Verdict(False,
-                                        f"verifier error: {type(e).__name__}: {e}")
+            return sentence, i, Verdict(
+                False, f"verifier error: {type(e).__name__}: {e}", errored=True)
 
     if workers > 1 and len(jobs) > 1:
         with ThreadPoolExecutor(max_workers=workers) as pool:
@@ -116,10 +144,39 @@ def check(article, claims, verifiers, workers: int = 8) -> Result:
     else:
         outcomes = [one(j) for j in jobs]
 
-    res = Result(passed=True)
-    res.checked = len(jobs) // max(len(verifiers), 1)
+    need = refuse_threshold or (len(verifiers) // 2 + 1)
+
+    # Group by sentence, preserving first-seen order so the report is stable.
+    order, votes = [], {}
     for sentence, i, verdict in outcomes:
-        if not verdict.entailed:
+        if sentence not in votes:
+            votes[sentence] = []
+            order.append(sentence)
+        votes[sentence].append((i, verdict))
+
+    res = Result(passed=True)
+    res.checked = len(order)
+    for sentence in order:
+        cast = [(i, v) for i, v in votes[sentence] if not v.errored]
+        errored = [(i, v) for i, v in votes[sentence] if v.errored]
+
+        # A verifier that errored did not check the sentence. If too few
+        # verifiers actually reached a judgement, the sentence is unverified,
+        # and unverified is refused — that is different from being outvoted.
+        if len(cast) < need:
             res.passed = False
-            res.refusals.append(Refusal(sentence, verdict.reason, i))
+            for i, v in (errored or cast):
+                res.refusals.append(Refusal(
+                    sentence, f"unverified ({len(cast)}/{need} verdicts): {v.reason}", i))
+            continue
+
+        against = [(i, v) for i, v in cast if not v.entailed]
+        if len(against) >= need:
+            res.passed = False
+            for i, v in against:
+                res.refusals.append(Refusal(sentence, v.reason, i))
+        elif against:
+            # A minority objection. Recorded so a pattern of near-misses is
+            # visible, but it does not refuse.
+            res.dissents.extend(Refusal(sentence, v.reason, i) for i, v in against)
     return res

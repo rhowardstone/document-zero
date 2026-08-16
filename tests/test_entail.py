@@ -45,33 +45,61 @@ def test_an_article_every_sentence_of_which_is_entailed_passes():
 
 
 def test_one_unentailed_sentence_refuses_the_whole_article():
-    """Refusing the article rather than editing the sentence is deliberate: an
-    article patched to survive a check is an article optimised against it."""
-    def first_fails(s, _c):
+    """One bad SENTENCE kills the whole piece. Editing that sentence and
+    re-checking would produce an article optimised against the check."""
+    def fails_one(s, _c):
         return Verdict(False, "unsupported") if "inevitable" in s else Verdict(True, "ok")
 
     r = check(article("The Fed held rates. A cut is now inevitable."),
-              CLAIMS, verifiers=[first_fails, yes])
+              CLAIMS, verifiers=[fails_one, fails_one])
     assert r.passed is False
     assert any("inevitable" in x.sentence for x in r.refusals)
 
 
-def test_either_verifier_can_refuse():
-    """Consensus is not required to refuse. One is enough, in either position."""
-    assert check(article("The Fed held rates."), CLAIMS,
-                 verifiers=[yes, no]).passed is False
-    assert check(article("The Fed held rates."), CLAIMS,
-                 verifiers=[no, yes]).passed is False
+def test_a_lone_objection_does_not_refuse():
+    """Per-sentence false refusals COMPOUND. At 3% across 29 sentences only 41%
+    of correct articles survive a single-verifier veto, and the measured rate
+    was worse. A veto that silences most correct work does not make the system
+    safe, it makes it quiet."""
+    r = check(article("The Fed held rates."), CLAIMS, verifiers=[yes, no])
+    assert r.passed is True
+    assert r.dissents, "the outvoted objection is still recorded"
 
 
-def test_a_verifier_that_errors_counts_as_refusal():
-    """Uncertainty resolves to not-entailed."""
+def test_agreement_refuses():
+    assert check(article("The Fed held rates."), CLAIMS,
+                 verifiers=[no, no]).passed is False
+
+
+def test_a_dissent_is_recorded_so_drift_is_visible():
+    r = check(article("The Fed held rates."), CLAIMS, verifiers=[no, yes])
+    assert r.passed is True and len(r.dissents) == 1
+    assert r.dissents[0].reason
+
+
+def test_a_verifier_that_errors_does_not_silently_become_a_pass():
+    """An error is not a vote. It means the sentence was never checked, and a
+    sentence that could not be checked is refused — which is different from
+    being outvoted."""
     def boom(_s, _c):
         raise RuntimeError("timeout")
 
     r = check(article("The Fed held rates."), CLAIMS, verifiers=[boom, yes])
     assert r.passed is False
-    assert "RuntimeError" in r.refusals[0].reason
+    assert "unverified" in r.refusals[0].reason
+
+
+def test_both_verifiers_erroring_refuses():
+    def boom(_s, _c):
+        raise RuntimeError("down")
+    assert check(article("The Fed held rates."), CLAIMS,
+                 verifiers=[boom, boom]).passed is False
+
+
+def test_a_single_verifier_setup_still_refuses_on_its_own_verdict():
+    """With one verifier the majority IS one, so it retains its veto."""
+    assert check(article("x happened."), CLAIMS, verifiers=[no]).passed is False
+    assert check(article("x happened."), CLAIMS, verifiers=[yes]).passed is True
 
 
 def test_verifiers_receive_only_the_sentence_and_the_cited_claims():

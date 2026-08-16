@@ -60,7 +60,27 @@ def build_command(prompt: str, *, allowed_tools=None, as_json: bool = False,
     return cmd
 
 
+# Credentials that make Claude Code authenticate as an API client and bill per
+# token instead of running on the operator's subscription. Claude Code states
+# plainly that ANTHROPIC_API_KEY "takes precedence over your claude.ai login",
+# so merely having one in the shell silently converts every agent call into a
+# metered one. This project deletes its paid client and then spawns agents; if
+# it does not also scrub the environment, it has changed nothing.
+BILLING_VARS = ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "ANTHROPIC_BASE_URL",
+                "ANTHROPIC_API_URL", "CLAUDE_API_KEY")
+
+
+def subscription_env(base=None) -> dict:
+    """A copy of the environment with every billing credential removed."""
+    import os
+    env = dict(base if base is not None else os.environ)
+    for var in BILLING_VARS:
+        env.pop(var, None)
+    return env
+
+
 def _subprocess_runner(cmd, **kw) -> Completed:
+    kw.setdefault("env", subscription_env())
     p = subprocess.run(cmd, capture_output=True, text=True, **kw)
     return Completed(p.returncode, p.stdout, p.stderr)
 

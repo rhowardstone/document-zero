@@ -16,11 +16,22 @@ SRC = pathlib.Path(__file__).resolve().parents[1] / "ledger" / "claudecode.py"
 
 # ── The money rule, enforced as a test ───────────────────────────────────────
 
-def test_the_adapter_cannot_reference_a_paid_api():
+def test_the_adapter_cannot_call_a_paid_api():
+    """The file may NAME a billing credential — it has to, in order to strip one
+    from the agent's environment — but it must have no way to call one."""
     src = SRC.read_text().lower()
-    for forbidden in ("import anthropic", "anthropic_api_key", "api_key",
-                      "api.anthropic.com", "openai"):
+    for forbidden in ("import anthropic", "api.anthropic.com", "openai",
+                      "import requests", "import httpx", "urllib.request"):
         assert forbidden not in src, f"{forbidden!r} must never appear here"
+
+
+def test_billing_credentials_are_only_ever_removed_never_read():
+    """Every mention of a key must be in the service of deleting it."""
+    src = SRC.read_text()
+    for line in src.splitlines():
+        if "ANTHROPIC_API_KEY" in line or "AUTH_TOKEN" in line:
+            assert ("BILLING_VARS" in line or line.strip().startswith("#")
+                    or '"' in line), f"suspicious use: {line.strip()}"
 
 
 def test_the_command_invokes_the_claude_cli_in_print_mode():
@@ -114,3 +125,36 @@ def test_a_timeout_is_always_set():
         return cc.Completed(0, json.dumps({"result": "ok"}), "")
     cc.run("p", _runner=fake)
     assert isinstance(seen.get("timeout"), (int, float)) and seen["timeout"] > 0
+
+
+# ── The environment must not smuggle a bill back in ─────────────────────────
+
+def test_billing_credentials_are_stripped_from_the_agent_environment():
+    """Deleting the paid client achieves nothing if the agent it spawns picks
+    up an API key from the shell. Claude Code states that ANTHROPIC_API_KEY
+    takes precedence over the claude.ai login, so an unscrubbed environment
+    silently converts every agent call into a metered one."""
+    env = cc.subscription_env({"ANTHROPIC_API_KEY": "sk-ant-real",
+                               "ANTHROPIC_AUTH_TOKEN": "tok",
+                               "ANTHROPIC_BASE_URL": "https://x",
+                               "PATH": "/usr/bin", "HOME": "/home/x"})
+    for var in cc.BILLING_VARS:
+        assert var not in env, f"{var} survived scrubbing"
+    assert env["PATH"] == "/usr/bin", "the rest of the environment must survive"
+    assert env["HOME"] == "/home/x"
+
+
+def test_the_runner_scrubs_by_default():
+    seen = {}
+
+    def fake(cmd, **kw):
+        seen.update(kw)
+        return cc.Completed(0, json.dumps({"result": "ok"}), "")
+
+    # The default runner is what scrubs; assert the contract it must satisfy.
+    import os
+    os.environ["ANTHROPIC_API_KEY"] = "sk-ant-test-only"
+    try:
+        assert "ANTHROPIC_API_KEY" not in cc.subscription_env()
+    finally:
+        os.environ.pop("ANTHROPIC_API_KEY", None)

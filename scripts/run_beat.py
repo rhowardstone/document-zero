@@ -153,7 +153,14 @@ def main() -> int:
     result = check(article, claims, verifiers=verifiers)
     check_s = time.time() - t1
 
-    print(f"  {result.checked} sentence-check(s) in {check_s:.0f}s")
+    print(f"  {result.checked} sentence(s) x {len(verifiers)} verifier(s) "
+          f"in {check_s:.0f}s")
+    if result.dissents:
+        print(f"  {len(result.dissents)} minority objection(s), outvoted "
+              "— not blocking, but worth watching:")
+        for d in result.dissents[:4]:
+            print(f"     v{d.verifier}: {d.reason[:90]}")
+            print(f"        {d.sentence[:110]}")
     if result.passed:
         print("\n  PASSED — every sentence is entailed by the claims it cites.")
         Ledger(args.ledger, writer=f"beat:{args.beat}").put_article(article)
