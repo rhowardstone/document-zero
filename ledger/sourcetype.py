@@ -71,6 +71,11 @@ _TABLE = ((TECHREPORT, "techreport"), (DOCUMENTATION, "documentation"),
           (NEWS, "news"), (BLOG, "blog"), (MISC, "misc"))
 
 # Aggregator source_name values that mask the real publisher.
+# Hosts that wrap someone else's journalism behind their own domain.
+AGGREGATOR_HOSTS = {"news.google.com", "google.com", "bing.com", "www.bing.com",
+                    "news.yahoo.com", "yahoo.com", "msn.com", "www.msn.com",
+                    "newsbreak.com", "news.google.co.uk", "flipboard.com"}
+
 AGGREGATOR_NAMES = {"bing news", "google news", "yahoo", "yahoo news", "news break",
                     "msn", "smartnews", "flipboard"}
 UGC_NAME = re.compile(r"^(r/|u/|@)", re.IGNORECASE)
@@ -92,6 +97,15 @@ def classify(url: str = "", source_name: str = "") -> str:
         return "misc"
 
     host = host_of(url)
+
+    # An aggregator wrapper is TRANSPORT, not provenance. Google News and Bing
+    # hand out links on their own domain while naming the real publisher
+    # separately; classifying by the wrapper caps every wire claim at the `misc`
+    # ceiling of 0.5 and reports a Courthouse News report as unclassifiable.
+    # When the caller knows the publisher, that is the source.
+    if host in AGGREGATOR_HOSTS and name:
+        host = host_of(name if "//" in name else f"https://{name}") or host
+
     if not host:
         return "misc"
     for patterns, label in _TABLE:

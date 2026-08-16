@@ -1,0 +1,14 @@
+{
+  "claim_text": "The USS Abraham Lincoln is being replaced after a nearly nine-month deployment.",
+  "quote": "which is being replaced after a nearly nine-month deployment",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Stated as fact by the outlet and consistent with other cluster reporting on the ship's return.",
+  "source_sha": "07fe66ea17f5a3513b9321e4f5c81003a021eb3cf3cdf194d1a219271844aa94",
+  "source_url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-12",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

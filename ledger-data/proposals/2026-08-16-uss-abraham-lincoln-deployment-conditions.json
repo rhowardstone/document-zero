@@ -2,16 +2,16 @@
   "name": "USS Abraham Lincoln deployment conditions",
   "slug": "uss-abraham-lincoln-deployment-conditions",
   "opened": true,
-  "reason": "6 events over 19 days (GDELT: 12 days of coverage over 19d)",
-  "events": 6,
+  "reason": "7 events over 19 days (GDELT: 12 days of coverage over 19d)",
+  "events": 7,
   "span_days": 19,
   "state_fields": [
     "Deployment length",
-    "Replacement status",
+    "Carrier status",
     "Congressional oversight",
-    "Administration response",
-    "Crew mental health/morale concerns",
-    "Status of the Iran War"
+    "White House position",
+    "CENTCOM response",
+    "US carrier presence in Asia"
   ],
   "dated_trigger": null,
   "publishers": [
@@ -37,6 +37,11 @@
       "publisher": "thehill.com"
     },
     {
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+      "title": "Moore says Trump’s response to reported USS Abraham Lincoln conditions ‘pisses me off’",
+      "publisher": "thehill.com"
+    },
+    {
       "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
       "title": "Democrats demand answers from Trump on USS Abraham Lincoln conditions",
       "publisher": "theguardian.com"
@@ -52,7 +57,7 @@
       "publisher": "npr.org"
     }
   ],
-  "claims_found": 8,
+  "claims_found": 18,
   "dropped": [],
   "no_state_reason": ""
 }

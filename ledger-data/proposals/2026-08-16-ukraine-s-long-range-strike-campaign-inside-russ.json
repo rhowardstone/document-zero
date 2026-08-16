@@ -2,34 +2,26 @@
   "name": "Ukraine's long-range strike campaign inside Russia",
   "slug": "ukraine-s-long-range-strike-campaign-inside-russ",
   "opened": false,
-  "reason": "3 day(s); needs 5 — a single day's flurry is an event, not a beat [history lookup failed: HTTPError: HTTP Error 429: Too Many Requests]",
-  "events": 9,
-  "span_days": 3,
+  "reason": "4 day(s); needs 5 — a single day's flurry is an event, not a beat (GDELT: 2 days of coverage over 4d)",
+  "events": 7,
+  "span_days": 4,
   "state_fields": [
-    "Death toll from latest barrage",
-    "Drones launched in latest attack",
+    "Deaths reported in Russia from 16 Aug strikes",
     "Wildberries logistics hubs out of operation",
-    "Western long-range systems in Ukrainian use",
-    "Timeline for Ukrainian domestic ballistic missiles",
-    "Target set"
+    "Foreign-made drones in deep strikes",
+    "Ukrainian domestic ballistic missile capability",
+    "Sevastopol bombing (13 Aug)"
   ],
   "dated_trigger": null,
   "publishers": [
-    "apnews.com",
-    "bbc.com",
     "cbsnews.com",
     "cnn.com",
     "dw.com",
-    "france24.com",
+    "independent.co.uk",
     "npr.org",
     "pbs.org"
   ],
   "articles": [
-    {
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ?oc=5",
-      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
-      "publisher": "apnews.com"
-    },
     {
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaWx5VUFJbnV2NUdqdkctVFdrSU5lWEdlalVLTDZGTXk2MnhmNlEtamdVM0x1R1dMRG9DRlpLYnZEeFFvc1VLV3FBdTJlc1ZzMHRLSFRXdjJZYldoM1Q5ai1DNU0yemdzVENSbnl1S0hnX05wVUlhb0F4WWFUUldHTUk3NThPcEFqd1BhVlNCbUtVbnc40gGUAUFVX3lxTFBYUTNuLW4yZVRybjJTYXhjTjQyQnROVkx0VE1BeXZOeW56TjdRVmI0dTltUUZza0ZtUjhBRzQxdk5udzdYeDBOOUkyN1RXN3pJVDhPc2xCcUZCVUZNaUV1ZGRxbmtXYWpzODY4RjlxUENHekxrQW5MZ0FEX3FNZlBNVmRzTlQ0ak5tenJuU18zZXllVjg?oc=5",
       "title": "Ukraine attacks Wildberries, Russia's biggest online market",
@@ -41,9 +33,9 @@
       "publisher": "pbs.org"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMURGdXE1bU1fVnQtdnZLa3FDOXRUVXBqMnEyaktVeFlOd2tHTnJHZ19FQzNuWmVyTU4xRHRDWFRMajNuT3RKZk5VWTI3aFFvOWRwYVMwbTc4Zw?oc=5",
-      "title": "UK-made drones strike targets inside Russia",
-      "publisher": "bbc.com"
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRmZZdTZyQU9NWW9qaE1YMTJFUmxzZkYzWDlFRl9qbjlsaDJyODMxMnRsaDFkRzl3S2JPcGtEcnlBXzFsVVR2SW40R0Z2amZNS2VPZHg1VFZyZ0FaV05Yd1JXYVVFVXVDYlBQc25KUXphQ2V4MkVmYS03S05GTWJoSFFvTXdUX2VNZzI4MF82eVh5eFp0cXpyZEhrUEdiem8?oc=5",
+      "title": "British drones used in Ukrainian attacks deep inside Russia for first time - report",
+      "publisher": "independent.co.uk"
     },
     {
       "url": "https://www.cbsnews.com/news/ukraine-moscow-russia-drone-attack-largest-wildberries/",
@@ -56,11 +48,6 @@
       "publisher": "npr.org"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRFR5TGdEVE9razA5V2NqTTZBMXBtQkxiRW1NUUpBaXphMlVXYkQyXzdqYnJ5TThCQkJoMWNzOFJmRHM0Sk13Z3d6c0hzWnJSTU96T204LWR4UUVwQ01fSHI1ejVDdXN1VzNxZ19zTGhCR1dERlV1bVNvRkRwaTl1LXljWkNiYWpBQkF5SkRCUTNwbU5WelVQTjRVcm5nOXQ1a28teU51cF95eUdOdFU2MWY4Zw?oc=5",
-      "title": "Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war",
-      "publisher": "france24.com"
-    },
-    {
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ0FKRmt5NXhNbEFMTUhwUHJ3dExWSlJzc3NYTjR0MXhBUzdDX3R6c25OLTl6dEpJUWg1LWpKQkNKOVc0SV9rNFJWeDZTdnhlRWVtdHQ0S2JPR01GQ0FaLVd1blcwMVdzMkQ5eHZZdlAzLUVmQVoyWVNyTlltcVlsUzloUmxveTZLc0N0T24yQnRJalV2ZHhvZGJ5alZCYWhrWnZkYw?oc=5",
       "title": "Ukraine could strike Russia with domestic ballistic missiles in 3 to 6 months, says Ukraine's former defense minister",
       "publisher": "cbsnews.com"
@@ -71,7 +58,7 @@
       "publisher": "cnn.com"
     }
   ],
-  "claims_found": 8,
+  "claims_found": 17,
   "dropped": [],
   "no_state_reason": ""
 }

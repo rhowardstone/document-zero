@@ -61,3 +61,29 @@ def test_adding_publishers_did_not_promote_ugc():
     for u in ("https://www.reddit.com/r/x/1", "https://x.com/a/1",
               "https://www.bing.com/news/1", "https://news.google.com/x"):
         assert classify(u) == "misc"
+
+
+# ── Aggregator wrappers hide the publisher ──────────────────────────────────
+
+def test_an_aggregator_wrapper_classifies_by_the_real_publisher():
+    """Google News hands out links on its own domain while naming the publisher
+    separately. Classifying by the wrapper capped every wire claim at the misc
+    ceiling of 0.5 and reported a Courthouse News report as unclassifiable."""
+    assert classify("https://news.google.com/rss/articles/CBMiabc",
+                    "courthousenews.com") == "news"
+    assert classify("https://www.bing.com/news/x", "apnews.com") == "news"
+
+
+def test_a_wrapper_with_no_known_publisher_is_still_misc():
+    """Without a publisher there is nothing to fall back to, and guessing would
+    manufacture confidence the source cannot carry."""
+    assert classify("https://news.google.com/rss/articles/CBMiabc", "") == "misc"
+
+
+def test_a_direct_url_is_unaffected():
+    assert classify("https://www.courthousenews.com/x", "courthousenews.com") == "news"
+
+
+def test_the_aggregator_itself_named_as_the_publisher_stays_misc():
+    """"Google News" as the publisher is the aggregator admitting it is one."""
+    assert classify("https://news.google.com/x", "google news") == "misc"

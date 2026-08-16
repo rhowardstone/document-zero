@@ -1,0 +1,14 @@
+{
+  "claim_text": "Sen. Ruben Gallego, Democrat of Arizona, called the carrier's months-long deployment a 'deep problem'.",
+  "quote": "Senator Ruben Gallego calls carrier’s months-long deployment a ‘deep problem’",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Named senator's on-record judgment, not an independently verified finding about the deployment.",
+  "source_sha": "8f6e32fae53aa050c2327288b14c0fd3743766ffaf224566411bfbefd051b919",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-09",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

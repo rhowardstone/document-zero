@@ -1,0 +1,14 @@
+{
+  "claim_text": "Families of USS Lincoln crew members say Trump should be 'ashamed' of conditions aboard the ship.",
+  "quote": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Assertion by identified-category sources with direct knowledge, not independently verified.",
+  "source_sha": "0b840a84911a611657c69d3ade48a7fd8bb6833592c76a69ad52bb36174a27c8",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-14",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

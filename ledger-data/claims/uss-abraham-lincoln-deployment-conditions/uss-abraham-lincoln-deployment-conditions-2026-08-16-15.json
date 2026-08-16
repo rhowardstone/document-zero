@@ -1,0 +1,14 @@
+{
+  "claim_text": "Families of US sailors have denounced Trump and Defense Secretary Hegseth for dismissing their experiences and calling them liars.",
+  "quote": "Families of US sailors denounce Trump and Hegseth for ‘dismissing their experiences and calling them liars’",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Reaches this record as an aggregated headline rather than the full report, so it sits below the news ceiling.",
+  "source_sha": "3bf840eb7f7ca47a4c448b8fb2c1f83baf7f82f724fa7201249743d1f9516f00",
+  "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+  "source_type": "misc",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-15",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

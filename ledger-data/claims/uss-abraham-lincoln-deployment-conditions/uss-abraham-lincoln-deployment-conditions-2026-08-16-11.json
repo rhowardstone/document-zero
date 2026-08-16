@@ -1,0 +1,14 @@
+{
+  "claim_text": "GOP Rep. Don Bacon of Nebraska said Congress should conduct oversight over conditions aboard the USS Abraham Lincoln.",
+  "quote": "GOP Rep. Don Bacon of Nebraska said Congress should conduct oversight following concerns about conditions aboard the USS Abraham Lincoln",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "On-record statement by a named member of Congress; news ceiling applies.",
+  "source_sha": "07fe66ea17f5a3513b9321e4f5c81003a021eb3cf3cdf194d1a219271844aa94",
+  "source_url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-11",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}
