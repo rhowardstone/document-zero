@@ -69,6 +69,15 @@ def open_beats(day: str) -> list[str]:
     return out
 
 
+def _first_field(led, beat: str) -> str:
+    """The field that moved, for a beat whose article could not be written."""
+    try:
+        fields = (led.get_state(beat) or {}).get("fields") or []
+        return str(fields[0].get("k", "")) if fields else ""
+    except Exception:                                          # noqa: BLE001
+        return ""
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--day", default=time.strftime("%Y-%m-%d"))
@@ -144,7 +153,11 @@ def main() -> int:
         "omissions": [], "holds": [],
         "counts": {"wire": len(wrote), "refused": 0, "holds": 0, "omissions": 0,
                    "capped_out": 0, "dropped": 0, "unpublishable": len(failed)},
-        "unpublishable": [{"beat": b, "name": b, "changed": "", "reason": why}
+        # The fact still stands even when the prose could not be supported, so
+        # the line carries what moved. The NAME is resolved by the renderer
+        # from the registry; a slug is not the name of a story.
+        "unpublishable": [{"beat": b, "name": b, "reason": why,
+                           "changed": _first_field(led, b)}
                           for b, why in failed],
         # Publication is decided in ledger/edition.py from what actually
         # passed the gate. It was hardcoded false here since the stub era.

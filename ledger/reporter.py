@@ -137,6 +137,12 @@ def length_note(err: str) -> str | None:
     return None
 
 
+def _now() -> str:
+    """UTC, to the second. The one timestamp this module is entitled to."""
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def parse(reply, beat: str, day: str, written_by: str, changed=(),
           published_at: str | None = None):
     """Validate a reporter's reply into an Article, or raise ArticleError."""
@@ -153,7 +159,12 @@ def parse(reply, beat: str, day: str, written_by: str, changed=(),
         "headline": reply.get("headline", ""),
         "standfirst": reply.get("standfirst", ""),
         "dateline": reply.get("dateline", ""),
-        "published_at": published_at or f"{day}T12:00:00Z",
+        # The moment the article was actually written. This used to be
+        # f"{day}T12:00:00Z" — a noon that no article was ever written at,
+        # displayed to readers as the publication time. The real value is
+        # known right here, so inventing a plausible one was the project's
+        # recurring failure in miniature: stating what we did not measure.
+        "published_at": published_at or _now(),
         "paragraphs": reply.get("paragraphs") or [],
         "changed": list(changed),
         "written_by": written_by,

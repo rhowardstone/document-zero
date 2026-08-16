@@ -179,3 +179,35 @@ def test_an_overlong_headline_earns_a_rewrite_instruction():
         note = length_note(e)
     assert note and "headline was too long" in note
     assert "Keep the article otherwise unchanged" in note
+
+
+# ── The publication time is a fact, not a placeholder ───────────────────────
+
+def test_the_publication_time_is_the_real_write_time():
+    """Every article on the live site carried `T12:00:00Z`, a noon that no
+    article was written at. The write time is KNOWN at the moment parse() runs,
+    so inventing a plausible-looking one is the recurring failure of this
+    project in miniature: stating something we did not measure."""
+    import re
+    from ledger.reporter import parse
+    a = parse({"headline": "Seven dead as the White River crests at Indianapolis",
+               "standfirst": "Federal aid was approved on Sunday.",
+               "dateline": "INDIANAPOLIS",
+               "paragraphs": [{"text": w, "claims": ["c1"]}
+                              for w in ["word " * 120] * 3]},
+              beat="b", day="2026-08-16", written_by="test")
+    assert a.published_at.endswith("Z")
+    assert not a.published_at.endswith("T12:00:00Z"), "still the fabricated noon"
+    assert re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$", a.published_at)
+
+
+def test_an_explicit_publication_time_is_respected():
+    from ledger.reporter import parse
+    a = parse({"headline": "Seven dead as the White River crests at Indianapolis",
+               "standfirst": "Federal aid was approved on Sunday.",
+               "dateline": "INDIANAPOLIS",
+               "paragraphs": [{"text": w, "claims": ["c1"]}
+                              for w in ["word " * 120] * 3]},
+              beat="b", day="2026-08-16", written_by="test",
+              published_at="2026-08-16T23:41:02Z")
+    assert a.published_at == "2026-08-16T23:41:02Z"

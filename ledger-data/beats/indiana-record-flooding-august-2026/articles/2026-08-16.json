@@ -1,0 +1,123 @@
+{
+ "beat": "indiana-record-flooding-august-2026",
+ "day": "2026-08-16",
+ "headline": "Indiana flood deaths reach seven as White River crests at Indianapolis",
+ "standfirst": "President Trump approved up to $5 million in federal emergency aid; nearly 130,000 utility customers remain without power.",
+ "dateline": "INDIANAPOLIS",
+ "published_at": "2026-08-16T23:29:34Z",
+ "paragraphs": [
+  {
+   "text": "Officials said days of storms and flooding across Indiana had left at least seven people dead as of Sunday, with floodwaters peaking in Indianapolis' White River and rains expected to ease in the state capital region and other parts of the state.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-00"
+   ]
+  },
+  {
+   "text": "Nearly 130,000 utility customers across Indiana remained without power by midday Sunday, down from a peak of around 300,000, according to the state homeland security spokesperson and the online utility tracker PowerOutage.us.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-07"
+   ]
+  },
+  {
+   "text": "Gov. Mike Braun said he spoke with President Trump, who on Saturday approved the governor's request for a presidential emergency declaration freeing up to $5 million in federal resources for response and recovery after days of record rainfall in Indiana.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-01"
+   ]
+  },
+  {
+   "text": "Some parts of Indiana received more than 11 inches of rainfall over three days beginning Aug. 11, causing record floods that also left several suburbs of Indianapolis underwater, NPR reported on Aug. 16. The White River crested at more than 24 feet in the Indiana communities of Anderson and Noblesville, surpassing records set in 1913, as heavy rains caused rivers statewide to reach record levels over the past week.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-16",
+    "indiana-record-flooding-august-2026-2026-08-17-08"
+   ]
+  },
+  {
+   "text": "The Indiana Department of Homeland Security listed storm-related deaths including a 4-year-old boy in Jennings County, a 58-year-old woman in Lake County, an 86-year-old woman in Porter County, a 32-year-old man in LaPorte County and a 31-year-old man in Henry County. By Sunday the department's count had risen to a 4-year-old boy, three men and three women dead since the storms began Aug. 11, spokesperson Liz Woods said, one man more than the toll given a day earlier.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-03",
+    "indiana-record-flooding-august-2026-2026-08-17-09"
+   ]
+  },
+  {
+   "text": "A 31-year-old cyclist was found dead early Sunday in a hole that opened up on a washed-out road in Henry County, east of Indianapolis. The county coroner said the man appears to have gone around a barricade and fallen into the collapsed road.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-10"
+   ]
+  },
+  {
+   "text": "The Indianapolis Department of Public Works reopened the city's floodgates on Sunday after the White River peaked early that morning, urging residents to be cautious as they returned to flood-damaged neighborhoods while emergency shelters remained open. The National Weather Service warned that while northern parts of Indiana dried out, a cluster of storms was expected to pass through the central and southern regions later Sunday, bringing potential heavy rain, flash flooding and damaging winds.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-11",
+    "indiana-record-flooding-august-2026-2026-08-17-12"
+   ]
+  },
+  {
+   "text": "Rita Reith, a spokesperson with the Indianapolis Fire Department, put the number of rescues at 95 people and 45 pets as of late Saturday afternoon, with dispatchers having received hundreds of calls for service throughout the day. More than a dozen Indiana counties had declared local disasters by Saturday, with much of the latest damage concentrated along river corridors running from Hamilton County into the northern Indianapolis suburbs.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-13",
+    "indiana-record-flooding-august-2026-2026-08-17-14"
+   ]
+  },
+  {
+   "text": "Indianapolis Mayor Joe Hogsett said the flooding was the worst the capital city has seen in more than 30 years, a characterization he repeated as first responders used boats to reach residents stranded in neighborhoods along the White River. Christine Altman, president of the Hamilton County board of commissioners, said at a Sunday briefing that the county just north of Indianapolis escaped without any loss of life, while officials assessed whether a significant bridge damaged in the flooding could be repaired or needed complete replacement. Jacob Spence, director of Marion County Emergency Management, called the flooding a once-in-a-lifetime type flood, telling The Associated Press that it was an unprecedented event in which the state was setting new records.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-05",
+    "indiana-record-flooding-august-2026-2026-08-17-04",
+    "indiana-record-flooding-august-2026-2026-08-17-15"
+   ]
+  },
+  {
+   "text": "The death toll was not reported uniformly. The Associated Press reported on Aug. 16 that at least six people had died from days of storms and record-setting flooding in Indiana, a toll lower than the seven reported the same day by CBS News and FOX Weather.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-17"
+   ]
+  },
+  {
+   "text": "The NFL's Indianapolis Colts and the NBA's Indiana Pacers each said Sunday that they are donating $125,000 to statewide flood relief, with the WNBA's Indiana Fever and the G League's Noblesville Boom also contributing. The money is going directly to the American Red Cross.",
+   "claims": [
+    "indiana-record-flooding-august-2026-2026-08-17-02"
+   ]
+  }
+ ],
+ "changed": [
+  {
+   "k": "Death toll",
+   "from": "",
+   "to": "at least 7",
+   "since": "2026-08-17"
+  },
+  {
+   "k": "White River at Indianapolis",
+   "from": "",
+   "to": "Crested early Sun, receding",
+   "since": "2026-08-17"
+  },
+  {
+   "k": "Customers without power",
+   "from": "",
+   "to": "~130,000, down from ~300,000 peak",
+   "since": "2026-08-17"
+  },
+  {
+   "k": "Federal aid",
+   "from": "",
+   "to": "Emergency declaration approved, up to $5m",
+   "since": "2026-08-17"
+  },
+  {
+   "k": "Emergency shelters",
+   "from": "",
+   "to": "Open",
+   "since": "2026-08-17"
+  },
+  {
+   "k": "Local disaster declarations",
+   "from": "",
+   "to": "More than a dozen counties",
+   "since": "2026-08-17"
+  }
+ ],
+ "written_by": "claude-code/reporter",
+ "verified_by": [],
+ "word_count": 654
+}

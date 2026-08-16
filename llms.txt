@@ -5,7 +5,7 @@
 > sources and a confidence capped by source type. Produced by AI agents and
 > not reviewed by a person before publication.
 
-Edition 001 · 2026-08-17 · 12 beats, 3 not quiet, 124 records.
+Edition 001 · 2026-08-16 · 12 beats, 3 not quiet, 124 records.
 
 ## Read this before you cite anything here
 
@@ -32,7 +32,7 @@ Edition 001 · 2026-08-17 · 12 beats, 3 not quiet, 124 records.
 - [Beat detail](https://doczero.epstein-data.com/api/beat/BEAT_ID.json): state, history, unknowns, records
 - [Records](https://doczero.epstein-data.com/api/records.json): every claim with full provenance
 - [Sources](https://doczero.epstein-data.com/api/sources.json): every source, and which beats and records cite it
-- [Edition](https://doczero.epstein-data.com/api/edition/2026-08-17.json): the whole day
+- [Edition](https://doczero.epstein-data.com/api/edition/2026-08-16.json): the whole day
 
 ## Ask a question
 

@@ -2,8 +2,8 @@
 window.DZ = {
  "edition": {
   "n": "001",
-  "date": "2026-08-17",
-  "updated": "2026-08-17T12:00:00Z",
+  "date": "2026-08-16",
+  "updated": "2026-08-16T23:29:34Z",
   "next": null,
   "articles": 3,
   "publish": true,
@@ -21,11 +21,11 @@ window.DZ = {
  "articles": [
   {
    "beat": "indiana-record-flooding-august-2026",
-   "day": "2026-08-17",
+   "day": "2026-08-16",
    "headline": "Indiana flood deaths reach seven as White River crests at Indianapolis",
    "standfirst": "President Trump approved up to $5 million in federal emergency aid; nearly 130,000 utility customers remain without power.",
    "dateline": "INDIANAPOLIS",
-   "published_at": "2026-08-17T12:00:00Z",
+   "published_at": "2026-08-16T23:29:34Z",
    "paragraphs": [
     {
      "text": "Officials said days of storms and flooding across Indiana had left at least seven people dead as of Sunday, with floodwaters peaking in Indianapolis' White River and rains expected to ease in the state capital region and other parts of the state.",
@@ -147,11 +147,11 @@ window.DZ = {
   },
   {
    "beat": "us-iran-war-and-hormuz-blockade",
-   "day": "2026-08-17",
+   "day": "2026-08-16",
    "headline": "Ceasefire with Iran nears expiry as US pulls last Pacific carrier",
    "standfirst": "Oil nears $100 a barrel; the UAE says Iran has struck three of its tankers in a week.",
    "dateline": "WASHINGTON",
-   "published_at": "2026-08-17T12:00:00Z",
+   "published_at": "2026-08-16T23:13:04Z",
    "paragraphs": [
     {
      "text": "A memorandum of understanding between the United States and Iran is approaching its expiration date, and the ceasefire it underpins is set to expire with negotiations between the two governments at a standstill, according to reports published on 16 August 2026. Iran has said there has been no progress on reviving the interim peace deal with the United States.",
@@ -277,11 +277,11 @@ window.DZ = {
   },
   {
    "beat": "uss-abraham-lincoln-deployment-conditions",
-   "day": "2026-08-17",
+   "day": "2026-08-16",
    "headline": "Republicans and Democrats in Congress seek scrutiny of USS Lincoln conditions",
    "standfirst": "The carrier is sailing home after more than 260 days in the Middle East, with the USS George Washington en route to relieve it.",
    "dateline": "WASHINGTON",
-   "published_at": "2026-08-17T12:00:00Z",
+   "published_at": "2026-08-16T23:28:08Z",
    "paragraphs": [
     {
      "text": "Rep. Don Bacon, a Nebraska Republican and retired Air Force brigadier general, said on 16 August that Congress should conduct oversight of conditions aboard the USS Abraham Lincoln, and that the secretary of the Navy or the service chief should testify before lawmakers. Democratic lawmakers have called for an investigation into conditions aboard the carrier.",
@@ -4949,7 +4949,7 @@ window.DZ = {
  ],
  "archive": [
   {
-   "d": "2026-08-17",
+   "d": "2026-08-16",
    "n": "001",
    "items": 3,
    "note": "Not published (None)"
