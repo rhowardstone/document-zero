@@ -1,0 +1,76 @@
+{
+  "name": "Indiana storms and record flooding",
+  "slug": "indiana-storms-and-record-flooding",
+  "opened": false,
+  "reason": "1 day(s); needs 5 — a single day's flurry is an event, not a beat [history lookup failed: HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 9,
+  "span_days": 1,
+  "state_fields": [
+    "Death toll",
+    "Power outages",
+    "River levels",
+    "Rainfall forecast",
+    "Rescue and evacuation activity"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "apnews.com",
+    "cbsnews.com",
+    "courthousenews.com",
+    "npr.org",
+    "nwitimes.com",
+    "nypost.com",
+    "pbs.org",
+    "theguardian.com"
+  ],
+  "articles": [
+    {
+      "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+      "title": "Indiana storms linked to 7 deaths as floods trigger rescues and evacuations",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+      "title": "Multiple people dead as flooding continues in Indiana",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+      "title": "At least six people dead from days of storms and record flooding in Indiana",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
+      "title": "At least 6 people have died from days of storms and record-setting flooding in Indiana",
+      "publisher": "apnews.com"
+    },
+    {
+      "url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+      "title": "At least 6 people have died from days of storms and record-setting flooding in Indiana",
+      "publisher": "courthousenews.com"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+      "title": "At least 7 people have died from days of heavy rain and record-setting flooding in Indiana",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+      "title": "Indiana football star who jumped into raging river ID'd as latest victim of deadly Midwest floods",
+      "publisher": "nypost.com"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+      "title": "Indiana authorities say at least 5 people have died as severe weather crosses the state",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbXFDVV9jSE5OYXhGUzhKVm5jcnFfTnZGQnhkdmJHMFl3WXMxd2RTczdITzRWNTNTY3RLalQ5Q0VzZGdQYm5yQU9LUy1GLUVWNXlEak90Q3NmYnJFMThrOE5sd2VIYkt3MGtFcUNPSUZFSmlvUkFEa2Z6Z3laa085TjdPNmt5cWxX?oc=5",
+      "title": "28-year-old father of 6 killed at Cleveland-Cliffs Northwest Indiana mill in Burns Harbor",
+      "publisher": "nwitimes.com"
+    }
+  ],
+  "claims_found": 8,
+  "dropped": [],
+  "no_state_reason": ""
+}

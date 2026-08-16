@@ -1,0 +1,14 @@
+{
+  "claim_text": "A CBS News poll finds that Americans think more young people in office would make politics better.",
+  "quote": "Americans think more young people in office would make politics better.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "A polling finding asserted by an identified pollster, but with no sample size, margin of error, or crosstabs available in the summary.",
+  "source_sha": "eedaa4866bc609c17e4a445bb375ad225378e69698948b5db7b8a298eac9e686",
+  "source_url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+  "source_type": "news",
+  "id": "democrats-2028-calendar-and-party-direction-2026-08-16-05",
+  "beat": "democrats-2028-calendar-and-party-direction",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

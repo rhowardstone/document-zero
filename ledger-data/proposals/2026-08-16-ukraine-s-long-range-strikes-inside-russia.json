@@ -1,0 +1,70 @@
+{
+  "name": "Ukraine's long-range strikes inside Russia",
+  "slug": "ukraine-s-long-range-strikes-inside-russia",
+  "opened": false,
+  "reason": "3 day(s); needs 5 — a single day's flurry is an event, not a beat [history lookup failed: HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 8,
+  "span_days": 3,
+  "state_fields": [
+    "Reported death toll from the Aug 16 drone attack",
+    "Wildberries logistics hubs out of operation",
+    "Ukrainian domestic ballistic missile capability",
+    "Foreign-supplied deep-strike drones in use",
+    "Target set of Ukrainian deep strikes"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "apnews.com",
+    "bbc.com",
+    "cbsnews.com",
+    "cnn.com",
+    "dw.com",
+    "npr.org",
+    "pbs.org"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSW9mTFNZNmhNT3Rucy1OdzIyUzZxYlZVMk1oY2liVkNobXMtYXJPTUI2MFZfYWt3QkJwTVhaNnlEbzY2M0I4NWZtVFRyLVpwX3JQdUZXOVlkZVZXNThuQmRXMjFsOFN2QWRnX3ZCNk1DRlUyQWZIdUNrM0IwWGFRdHhIWHQ?oc=5",
+      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+      "publisher": "apnews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaWx5VUFJbnV2NUdqdkctVFdrSU5lWEdlalVLTDZGTXk2MnhmNlEtamdVM0x1R1dMRG9DRlpLYnZEeFFvc1VLV3FBdTJlc1ZzMHRLSFRXdjJZYldoM1Q5ai1DNU0yemdzVENSbnl1S0hnX05wVUlhb0F4WWFUUldHTUk3NThPcEFqd1BhVlNCbUtVbnc40gGUAUFVX3lxTFBYUTNuLW4yZVRybjJTYXhjTjQyQnROVkx0VE1BeXZOeW56TjdRVmI0dTltUUZza0ZtUjhBRzQxdk5udzdYeDBOOUkyN1RXN3pJVDhPc2xCcUZCVUZNaUV1ZGRxbmtXYWpzODY4RjlxUENHekxrQW5MZ0FEX3FNZlBNVmRzTlQ0ak5tenJuU18zZXllVjg?oc=5",
+      "title": "Ukraine attacks Wildberries, Russia's biggest online market",
+      "publisher": "dw.com"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/ukraine-launches-one-of-its-largest-aerial-attacks-of-the-war-killing-at-least-6-people-in-russia",
+      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMURGdXE1bU1fVnQtdnZLa3FDOXRUVXBqMnEyaktVeFlOd2tHTnJHZ19FQzNuWmVyTU4xRHRDWFRMajNuT3RKZk5VWTI3aFFvOWRwYVMwbTc4Zw?oc=5",
+      "title": "UK-made drones strike targets inside Russia",
+      "publisher": "bbc.com"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/ukraine-moscow-russia-drone-attack-largest-wildberries/",
+      "title": "Ukraine launches one of the largest aerial attacks on Russia yet",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
+      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ0FKRmt5NXhNbEFMTUhwUHJ3dExWSlJzc3NYTjR0MXhBUzdDX3R6c25OLTl6dEpJUWg1LWpKQkNKOVc0SV9rNFJWeDZTdnhlRWVtdHQ0S2JPR01GQ0FaLVd1blcwMVdzMkQ5eHZZdlAzLUVmQVoyWVNyTlltcVlsUzloUmxveTZLc0N0T24yQnRJalV2ZHhvZGJ5alZCYWhrWnZkYw?oc=5",
+      "title": "Ukraine could strike Russia with domestic ballistic missiles in 3 to 6 months, says Ukraine's former defense minister",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT0FidlRLazhqRXZ2LWVobjZULVpUcDF1ZDdTeHJTRFRvbTFTRHdXX1JUMWktZXEyamdWMzdkeTZMU0w3ZHJrSmN2dkNPaENDQlNwTElaaUdRWUk2RzItN0NXZktTck9MTkRNTXdfVU11OS1UUFRCYmNIYjBTVS1RTHVQNEpEYUhFOXRHOHhLR2Z2OG96?oc=5",
+      "title": "Crimea bomb attack reportedly kills former Ukrainian submarine commander who defected to Russia",
+      "publisher": "cnn.com"
+    }
+  ],
+  "claims_found": 8,
+  "dropped": [],
+  "no_state_reason": ""
+}

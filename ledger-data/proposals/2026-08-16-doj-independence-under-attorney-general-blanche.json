@@ -1,0 +1,53 @@
+{
+  "name": "DOJ independence under Attorney General Blanche",
+  "slug": "doj-independence-under-attorney-general-blanche",
+  "opened": false,
+  "reason": "0 day(s); needs 5 — a single day's flurry is an event, not a beat [history lookup failed: HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 5,
+  "span_days": 0,
+  "state_fields": [
+    "Blanche's position on pledging DOJ independence",
+    "Whether Trump has asked DOJ to prosecute specific individuals",
+    "White House ballroom construction",
+    "Supreme Court action on the ballroom case",
+    "FBI role in the Arizona missing-person investigation"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "axios.com",
+    "nbcnews.com",
+    "theguardian.com",
+    "thehill.com",
+    "washingtonpost.com"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+      "title": "Trump says White House needs ‘military complex’ as courts block his ballroom",
+      "publisher": "washingtonpost.com"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+      "title": "Blanche refuses to pledge DOJ will always act independently of White House",
+      "publisher": "thehill.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+      "title": "Trump's views can factor into prosecutions, Attorney General Todd Blanche says",
+      "publisher": "axios.com"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+      "title": "Todd Blanche declines to pledge independence from White House",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+      "title": "Todd Blanche says FBI will continue providing assistance on Nancy Guthrie investigation but doesn’t have any updates",
+      "publisher": "nbcnews.com"
+    }
+  ],
+  "claims_found": 8,
+  "dropped": [],
+  "no_state_reason": ""
+}

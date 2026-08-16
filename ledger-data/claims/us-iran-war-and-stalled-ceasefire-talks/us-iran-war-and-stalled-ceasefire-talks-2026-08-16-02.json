@@ -1,0 +1,14 @@
+{
+  "claim_text": "The USS George Washington is leaving the Pacific and is expected to replace the USS Abraham Lincoln in the Middle East.",
+  "quote": "The USS George Washington is departing the Pacific and expected to replace the USS Abraham Lincoln in the Middle East amid growing concerns about mental health and supply issues aboard the long-deployed carrier.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Unattributed wire reporting on a fleet movement, corroborated across five outlets in this cluster, but the replacement is stated as 'expected' rather than executed.",
+  "source_sha": "b2c0e1697ee2b9ee501b7c6fc8b3e9f6159429044cbabf77bb59f2d60a147ce2",
+  "source_url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+  "source_type": "news",
+  "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-02",
+  "beat": "us-iran-war-and-stalled-ceasefire-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

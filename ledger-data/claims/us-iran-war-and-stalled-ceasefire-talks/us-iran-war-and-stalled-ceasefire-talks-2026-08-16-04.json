@@ -1,0 +1,14 @@
+{
+  "claim_text": "A third UAE tanker has been attacked within one week.",
+  "quote": "Iran attacks third UAE tanker within a week",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "The count and the attribution of responsibility appear in a headline as asserted fact, but the underlying source is the UAE's own account of the incidents; lowered below ceiling because responsibility is contested by framing elsewhere in the cluster.",
+  "source_sha": "6b41147646d534a7a7709fd0286b9348cc4aa9e2edb12d629d289921faf89c64",
+  "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-04",
+  "beat": "us-iran-war-and-stalled-ceasefire-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

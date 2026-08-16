@@ -1,0 +1,81 @@
+{
+  "name": "Trump's second term and the 2026 midterms",
+  "slug": "trump-s-second-term-and-the-2026-midterms",
+  "opened": false,
+  "reason": "2 day(s); needs 5 — a single day's flurry is an event, not a beat [history lookup failed: HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 10,
+  "span_days": 2,
+  "state_fields": [
+    "BBC Panorama defamation suit",
+    "Trump's legal team",
+    "Voter economic sentiment",
+    "Private-sector offensive cyber authority",
+    "Foreign investment in Venezuela",
+    "Health care and Medicaid cuts"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "alternet.org",
+    "apnews.com",
+    "npr.org",
+    "nypost.com",
+    "politico.com",
+    "theguardian.com",
+    "yahoo.com"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMkowMlRoeTF6RTU1MzYxdk91OTdFS1dwaDJZemJnTUpNLUpyYjdqRjh4ZC1meUJ6WERvMW5udk40Mzl1dGRlRmU1MWxtUzA4bTlYTDJTTGdYUmxhdEJrZkwzMldMWXBlVWVPNVVfblpYMVRkNFpUZ1I4XzNHUUh0MjBrb3l2cEp0QkJOeXNrTmcwZmU1eXhjdWx2V1VmZkdZVXN2c3JFSkM?oc=5",
+      "title": "Harvard professor slammed for using AI to write to write anti-Trump op-ed: ‘Worst slop I’ve seen’",
+      "publisher": "nypost.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+      "title": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+      "publisher": "apnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+      "title": "'What are we going to do?' The mom of a trans teen grapples with Trump's Medicaid move",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNck1xckt2RmxZLTMxZVJnRm5UQjcxSTVCWU0tT0JoeFp5emFZRjBTR0lUV2paT1BOdlhwWndjLUo1cFM1cUhQcEl6djZJTzE4SDB3SDlEY0czQzl4WUhZNXdXWkMtMUh1WkVncjIzTTFfcFRzcGd2SlZ0dWVHcWFBZ0lIb1o5Sk9RUk11R294MDREaDcxWXJF?oc=5",
+      "title": "Trump’s legal team shrinks",
+      "publisher": "politico.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM2SElfb082WlA5dVhQNVRxQ1c2cWZVM2F6QXg0czdkMmNJYmFYMTRXSTY5RE5NaUdkM0tCT2FVcUpGZElnbHJCTDhMazRTOEUySWlqQU5pOVlvaW1YcUxQV3MzT1U0QkEwQTl5U2hDOFJXTTVMMmVDV0M1M0NwMUpwbkFRUUhyOWJqdXV1ZEJ6R3dQVU41NW1XUmlBaml6VGRNcGhnaWVhdUV0LVpSME1SNk56SFVTMVJpOTk1X0VNdnVHYVE0LVM0aVlucndhREhwYy1IMDQ3X00?oc=5",
+      "title": "Trump’s midterm malaise: endless war and high prices could spell doom for Republicans in November",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ENW80TF9YV1RRWWp2R0wzWktvT2xRYmo3VHN2TnN3RGZRSGdnQ3o4OElFdE9TMlJLTklldURWemVmOW1vbHJObTJ5M1Jyd0p6cE1tX2tvYTUxUQ?oc=5",
+      "title": "NYT torches Trump for dismantling one of 'great achievements this century'",
+      "publisher": "alternet.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaVdiaXFjU0ItV3FnUVYyT1lnaWFmV2JGQUFDX3cyV1pmdlllTDJXeW1GRjhGUzlmVTRydW5qZm9RVmJIZTVEQTNPRXZRSTVEbldBWmxOZldBRGU3dDNtaGhrX2lEanQxdzNwY3o0bkxxc3hEX1pja0hUR3lCYWc4WENld2V5YkRvTnR3X0NqRldEakxBekljblIxYjE?oc=5",
+      "title": "Massive Trump merchandise store goes out of business - because nobody is buying anything",
+      "publisher": "yahoo.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+      "title": "Trump administration wants to allow companies to hack foreign cybercriminals",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+      "title": "Donald Trump doesn’t just love billionaires, he loves multimillionaires too",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump",
+      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "publisher": "theguardian.com"
+    }
+  ],
+  "claims_found": 8,
+  "dropped": [],
+  "no_state_reason": ""
+}

@@ -1,0 +1,78 @@
+{
+  "beat": "us-iran-war-and-stalled-ceasefire-talks",
+  "as_of": "2026-08-16",
+  "fields": [
+    {
+      "k": "US-Iran MoU / ceasefire status",
+      "v": "still in force, approaching expiration",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Negotiation status",
+      "v": "stalled; Iran reports no progress",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Strait of Hormuz status",
+      "v": "disrupted by tanker attacks; UAE urging reopening",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "UAE tankers attacked in past week",
+      "v": "three",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "US carrier presence in Asia/Pacific",
+      "v": "none once USS George Washington departs",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Carrier assigned to the Middle East",
+      "v": "USS Abraham Lincoln, to be replaced by USS George Washington",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "New US economic penalties on Iran",
+      "v": "being readied, not yet imposed",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "US visas revoked from foreign nationals",
+      "v": "hundreds of thousands",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Oil price direction",
+      "v": "rising after Hormuz tanker attack",
+      "since": "2026-08-16",
+      "claims": [
+        "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00"
+      ]
+    }
+  ]
+}

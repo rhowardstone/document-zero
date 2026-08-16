@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rep. Don Bacon said on 'Face the Nation with Margaret Brennan' that Trump was setting maybe false expectations in the initial parts of the campaign with Iran.",
+  "quote": "Republican Rep. Don Bacon of Nebraska, who is not running for reelection, told \"Face the Nation with Margaret Brennan\" that President Trump's comments about gas prices amid the Iran war are \"honest,\" and that the president was \"setting maybe false expectations in the previous months, during the initial parts of this campaign with Iran.\"",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "On-record broadcast interview with a named public official, quoted verbatim by the broadcaster; the documented fact is the making of the statement, not the truth of its characterisation.",
+  "source_sha": "ad303d66e5f712f3d88a34838c127d6c3ba067a1ab931bde5167ed51858b59ac",
+  "source_url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
+  "source_type": "news",
+  "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-06",
+  "beat": "us-iran-war-and-stalled-ceasefire-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

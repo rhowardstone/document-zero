@@ -1,0 +1,14 @@
+{
+  "claim_text": "NPR reports that a shortage of some munitions and problems with the USS Lincoln have put the Trump administration on the defensive.",
+  "quote": "A shortage of some munitions as well as the problems with the USS Lincoln have the Trump administration on the defensive.",
+  "tier": "credible_allegation",
+  "confidence": 0.45,
+  "confidence_justification": "Stated by an identified outlet in a discussion-segment blurb, with no documentation of the shortage or the ship's problems; peripheral to this cluster's main thread.",
+  "source_sha": "d507276e3f90c1fa5763cc2402c929402ac9552e162888ff76306a5cb81209ab",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+  "source_type": "news",
+  "id": "democrats-2028-calendar-and-party-direction-2026-08-16-07",
+  "beat": "democrats-2028-calendar-and-party-direction",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

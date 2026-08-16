@@ -1,0 +1,14 @@
+{
+  "claim_text": "CBS News commissioned polling examining whether Democrats are split on socialism; the summaries do not state the poll's answer.",
+  "quote": "to discuss whether Democrats are split on socialism",
+  "tier": "question",
+  "confidence": 0.55,
+  "confidence_justification": "The existence of the poll segment is clear from the summary, but the summary poses the split as an open question and reports no result.",
+  "source_sha": "ad315108768ecafd5b102b52b4efe6b71dda6115466e36fb0955b64e1b810358",
+  "source_url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+  "source_type": "news",
+  "id": "democrats-2028-calendar-and-party-direction-2026-08-16-04",
+  "beat": "democrats-2028-calendar-and-party-direction",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

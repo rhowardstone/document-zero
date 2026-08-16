@@ -1,0 +1,14 @@
+{
+  "claim_text": "Hundreds of thousands of foreign nationals have had their US visas revoked.",
+  "quote": "NPR's Rob Schmitz speaks with State Department spokesperson Tommy Pigott about the with Iran and the hundreds of thousands of foreign nationals who have had their U.S. visa revoked.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "The figure is stated by the broadcaster in program billing rather than cited to a State Department release; the order of magnitude is asserted without a document or numeric source, so held below the news ceiling.",
+  "source_sha": "5c8405a5416a21b29c4ab51f1ed36fb580ab75b3963b84ebf102e8356287cf72",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+  "source_type": "news",
+  "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-07",
+  "beat": "us-iran-war-and-stalled-ceasefire-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}
