@@ -82,30 +82,44 @@ server {
                image/svg+xml application/manifest+json;
     gzip_min_length 512;
 
+    # CAREFUL: nginx add_header does not merge. A location that declares ANY
+    # add_header discards every add_header inherited from the server block. So
+    # the locations below use `expires` only — which sets Cache-Control without
+    # touching add_header inheritance — and the one location that genuinely
+    # needs a header of its own repeats the security set in full.
+    #
+    # Written the obvious way, /api/, /fonts/ and /index.html would each have
+    # been served with no CSP and no HSTS.
+
     # The edition changes daily; never let an intermediary pin a stale one.
-    location = /index.html { expires -1; add_header Cache-Control "no-cache"; }
-    location = /data.js    { expires -1; add_header Cache-Control "no-cache"; }
+    location = /index.html { expires -1; }          # -> Cache-Control: no-cache
+    location = /data.js    { expires -1; }
     location = /llms.txt   { expires 5m; default_type text/plain; }
 
-    # The JSON API is regenerated with the edition. Short cache, revalidated.
+    # The JSON API is regenerated with the edition.
     location /api/ {
         default_type application/json;
-        expires 5m;
-        add_header Cache-Control "public, max-age=300, must-revalidate";
+        expires 5m;                                 # -> max-age=300
         try_files $uri =404;
     }
 
-    # The compiled ledger. One file, ~50KB today; served as a download.
+    # The compiled ledger. One file, ~50KB today, served as a download. This is
+    # the one location that needs its own header, so it restates the security
+    # headers rather than silently dropping them.
     location = /newsdesk.db {
         default_type application/vnd.sqlite3;
-        add_header Content-Disposition "attachment; filename=newsdesk.db";
         expires 5m;
+        add_header Content-Disposition        "attachment; filename=newsdesk.db"  always;
+        add_header X-Frame-Options            "SAMEORIGIN"                        always;
+        add_header X-Content-Type-Options     "nosniff"                           always;
+        add_header Referrer-Policy            "strict-origin-when-cross-origin"   always;
+        add_header Strict-Transport-Security  "max-age=63072000; includeSubDomains" always;
+        add_header Content-Security-Policy    "default-src 'none'"                  always;
     }
 
     # Content-hashed by name and never edited in place.
     location /fonts/ {
-        expires 1y;
-        add_header Cache-Control "public, immutable";
+        expires 1y;                                 # -> max-age=31536000
         try_files $uri =404;
     }
 
