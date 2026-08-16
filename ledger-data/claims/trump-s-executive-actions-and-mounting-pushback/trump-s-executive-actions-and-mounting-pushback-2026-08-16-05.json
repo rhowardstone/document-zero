@@ -1,0 +1,14 @@
+{
+  "claim_text": "Colombia's president has asked Trump to suspend tariffs to assist earthquake recovery.",
+  "quote": "Colombian president asks Trump to suspend tariffs to help earthquake recovery",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "A public request by a named head of state, reported directly by PBS; whether tariffs exist at the levels implied is not established here. At the news ceiling.",
+  "source_sha": "71e2975e8ea702fba807991d3be5598f4f88240c3de18cd2699cd6c9301f75f1",
+  "source_url": "https://www.pbs.org/newshour/world/colombian-president-asks-trump-to-suspend-tariffs-to-help-earthquake-recovery",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-05",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

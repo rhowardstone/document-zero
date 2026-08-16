@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump ordered changes to the recommended childhood vaccination schedule, with health secretary Robert F. Kennedy Jr. present.",
+  "quote": "When Trump recently ordered changes to the recommended childhood vaccination schedule, with Kennedy by his side, the president called for two shots of the co",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "An executive order is a document, but its text is not in evidence and the source summary is truncated mid-sentence; the content of the ordered change cannot be established from this quote.",
+  "source_sha": "cec5616b8aa8d06ab1c19c22308b081458413340727e4050f77736db770687f4",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-02",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

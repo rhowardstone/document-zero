@@ -1,0 +1,14 @@
+{
+  "claim_text": "A new poll finds most voters say they are worse off under Trump.",
+  "quote": "Most voters say they are worse off under Trump, new poll says",
+  "tier": "credible_allegation",
+  "confidence": 0.45,
+  "confidence_justification": "Reported poll finding with no pollster, sample, date, or margin of error given in the source text; the result cannot be checked against the instrument.",
+  "source_sha": "bc8fc5eeb5daa70d1d95cdc72b883ec760e01595e21427b99f7b015e51e93aed",
+  "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM2SElfb082WlA5dVhQNVRxQ1c2cWZVM2F6QXg0czdkMmNJYmFYMTRXSTY5RE5NaUdkM0tCT2FVcUpGZElnbHJCTDhMazRTOEUySWlqQU5pOVlvaW1YcUxQV3MzT1U0QkEwQTl5U2hDOFJXTTVMMmVDV0M1M0NwMUpwbkFRUUhyOWJqdXV1ZEJ6R3dQVU41NW1XUmlBaml6VGRNcGhnaWVhdUV0LVpSME1SNk56SFVTMVJpOTk1X0VNdnVHYVE0LVM0aVlucndhREhwYy1IMDQ3X00?oc=5",
+  "source_type": "misc",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-07",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

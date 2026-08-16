@@ -1,0 +1,97 @@
+{
+  "name": "Trump's executive actions and mounting pushback",
+  "slug": "trump-s-executive-actions-and-mounting-pushback",
+  "opened": true,
+  "reason": "13 events over 8 days (GDELT: 3 days of coverage over 8d)",
+  "events": 13,
+  "span_days": 8,
+  "state_fields": [
+    "White House ballroom construction",
+    "Childhood vaccine schedule",
+    "Trump poll standing",
+    "Private-sector offensive cyber authority",
+    "Colombia tariffs",
+    "BBC Panorama defamation suit"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "apnews.com",
+    "foxnews.com",
+    "npr.org",
+    "nypost.com",
+    "pbs.org",
+    "theguardian.com",
+    "thehill.com",
+    "washingtonpost.com"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+      "title": "Trump says White House needs ‘military complex’ as courts block his ballroom",
+      "publisher": "washingtonpost.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUt2eUJ1WmZsejNOdzF4RVdFbU1xOWdqb0lFd0oydDN4OXpiN185VmlkUEtpb3Vtd1lmWmxtWXhiZDYwYWZZSHB5cDVUQ1AzdVYzNDU3bDIzLVllSTJFOGNaZXVURi1rV2lWc29kRTNhbDlqM3B5NFpDRlB4VTNLTmFuOS1ZdFpTOEtZR0tBU3JqRVNRclR3OQ?oc=5",
+      "title": "Trump admin tried to make peace with IRGC directly before signing MOU",
+      "publisher": "foxnews.com"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/colombian-president-asks-trump-to-suspend-tariffs-to-help-earthquake-recovery",
+      "title": "Colombian president asks Trump to suspend tariffs to help earthquake recovery",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://thehill.com/policy/healthcare/6032232-cassidy-slams-trump-vaccine-order/",
+      "title": "Cassidy on Trump's vaccine order, 'crazy, stupid' claims: 'This is why the president's poll numbers are going down'",
+      "publisher": "thehill.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT0x4T3E0RlcwNmdxUzZoUnhYRTE2OFhQcUpxN1k0emZjSVR6d21LRkpwOEdGcmh1OWZKMFlfRzkySVV6LWFvRXNFYzUxMmN5aC12SHFwZ0JTZ1EwR1lORWpscDQ4aWVsUjkwdjVNRG5oeHZ5TTBlcmoyRkZ4XzNnVzFCVWdGVk3SAYwBQVVfeXFMTlgwNmt5azVHdWJOdnpwNGFiSzFmNDNXSHBwOWR2Z3YwSzI1X3o3NkdLZWxQQURGd2NIcnVaNGZrTFpjUzBlUUdQTGVMMXJGY0JhRFRrbml2dk1lU3pYcTBlZW1qOVdGeFFIU0JWYVc1dVYxeHhnMEswVTFDbnJlejZxNFdUdWt0Z3FJd0g?oc=5",
+      "title": "Cassidy on Trump’s vaccine order, ‘crazy, stupid’ claims: ‘This is why the president’s poll numbers are going down’",
+      "publisher": "thehill.com"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+      "title": "Republican senator denounces Trump’s ‘crazy, stupid’ claims about MMR vaccine safety",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMkowMlRoeTF6RTU1MzYxdk91OTdFS1dwaDJZemJnTUpNLUpyYjdqRjh4ZC1meUJ6WERvMW5udk40Mzl1dGRlRmU1MWxtUzA4bTlYTDJTTGdYUmxhdEJrZkwzMldMWXBlVWVPNVVfblpYMVRkNFpUZ1I4XzNHUUh0MjBrb3l2cEp0QkJOeXNrTmcwZmU1eXhjdWx2V1VmZkdZVXN2c3JFSkM?oc=5",
+      "title": "Harvard professor slammed for using AI to write to write anti-Trump op-ed: ‘Worst slop I’ve seen’",
+      "publisher": "nypost.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+      "title": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+      "publisher": "apnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+      "title": "'What are we going to do?' The mom of a trans teen grapples with Trump's Medicaid move",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM2SElfb082WlA5dVhQNVRxQ1c2cWZVM2F6QXg0czdkMmNJYmFYMTRXSTY5RE5NaUdkM0tCT2FVcUpGZElnbHJCTDhMazRTOEUySWlqQU5pOVlvaW1YcUxQV3MzT1U0QkEwQTl5U2hDOFJXTTVMMmVDV0M1M0NwMUpwbkFRUUhyOWJqdXV1ZEJ6R3dQVU41NW1XUmlBaml6VGRNcGhnaWVhdUV0LVpSME1SNk56SFVTMVJpOTk1X0VNdnVHYVE0LVM0aVlucndhREhwYy1IMDQ3X00?oc=5",
+      "title": "Trump’s midterm malaise: endless war and high prices could spell doom for Republicans in November",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+      "title": "Trump administration wants to allow companies to hack foreign cybercriminals",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+      "title": "Donald Trump doesn’t just love billionaires, he loves multimillionaires too",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/aug/14/bp-offshore-gasfield-venezuela-donald-trump",
+      "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "publisher": "theguardian.com"
+    }
+  ],
+  "claims_found": 8,
+  "dropped": [],
+  "no_state_reason": ""
+}
