@@ -170,3 +170,13 @@ def test_the_brief_says_a_state_value_is_a_cell_not_a_sentence():
     b = brief("Indonesia", ARTICLES, "2026-08-16")
     assert "as briefly as a cell in" in b
     assert "restatement of one of your claims" in b
+
+
+def test_the_brief_asks_for_informative_claims_not_fragments():
+    """Measured: wire claims averaging 15 words produced articles the
+    entailment gate refused, because the reporter had to invent connective
+    material to reach a publishable length. Court-document claims averaging 31
+    words did not. A claim is what a paragraph gets built on."""
+    b = brief("Indonesia", ARTICLES, "2026-08-16")
+    assert "COMPLETE, INFORMATIVE SENTENCE" in b
+    assert "gives them nothing to build with" in b
