@@ -98,6 +98,34 @@ def sentences(text: str) -> list[str]:
     return _split(text)
 
 
+def without(article, refusals, validate=None):
+    """A copy of the article with the refused sentences deleted.
+
+    This is NOT the same as letting the reporter rewrite them, which the design
+    forbids and still forbids: a rewritten sentence is optimised against the
+    check, and each attempt teaches the writer what the checker will accept.
+
+    Deletion cannot do that. It introduces no new text, so it cannot introduce
+    anything unsupported — every surviving sentence is one the verifiers already
+    passed, individually, on its own claims. The article gets shorter and says
+    less; it cannot come to say something new.
+
+    The schema still applies afterwards. An article that falls under the word
+    floor once its unsupported sentences are gone had less to say than it
+    appeared to, and degrades to a one-line entry like any other.
+    """
+    from .article import validate as _validate
+    bad = {r.sentence.strip() for r in refusals}
+    paras = []
+    for p in article.paragraphs:
+        kept = [s for s in sentences(p.get("text", "")) if s.strip() not in bad]
+        if kept:
+            paras.append({**p, "text": " ".join(kept)})
+    obj = article.as_dict()
+    obj["paragraphs"] = paras
+    return (validate or _validate)(obj)
+
+
 def check(article, claims, verifiers, workers: int = 8,
           refuse_threshold: int | None = None) -> Result:
     """Run every sentence past every verifier.

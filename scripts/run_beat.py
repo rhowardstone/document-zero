@@ -171,6 +171,28 @@ def main() -> int:
         print("\n  PASSED — every sentence is entailed by the claims it cites.")
         Ledger(args.ledger, writer=f"beat:{args.beat}").put_article(article)
         print(f"  stored at beats/{args.beat}/articles/{args.day}.json")
+    elif len({r.sentence for r in result.refusals}) <= 2:
+        # A small number of unsupported sentences may be DELETED. This is not
+        # the reporter rewriting them — that is forbidden and stays forbidden,
+        # because a rewrite is optimised against the check. Deletion adds no
+        # text, so the article can only come to say less, never something new,
+        # and every surviving sentence already passed on its own claims.
+        from ledger.article import ArticleError
+        from ledger.entail import without
+        n = len({r.sentence for r in result.refusals})
+        print(f"\n  {n} unentailed sentence(s) — deleting them and re-checking "
+              "the schema (no rewrite: deletion cannot add anything)")
+        try:
+            article = without(article, result.refusals)
+        except ArticleError as e:
+            print(f"  REFUSED after deletion: {e}")
+            print("\n  The beat degrades to a one-line entry stating the bare change.")
+            print(f"\nTOTAL     {time.time() - t0:.0f}s wall clock")
+            return 0
+        print(f"  PASSED after deletion — {article.word_count} words remain, "
+              "every one of them entailed.")
+        Ledger(args.ledger, writer=f"beat:{args.beat}").put_article(article)
+        print(f"  stored at beats/{args.beat}/articles/{args.day}.json")
     else:
         print(f"\n  REFUSED — {len(result.refusals)} unentailed sentence(s). "
               "The article does not publish.")

@@ -202,3 +202,56 @@ def test_the_checked_count_is_sentences_not_calls():
 def test_workers_of_one_still_works():
     a = article("One thing happened.")
     assert check(a, CLAIMS, verifiers=[yes], workers=1).passed is True
+
+
+# ── Deleting an unsupported sentence is not rewriting it ────────────────────
+
+# These need REAL sentences, because deletion works sentence by sentence. The
+# helper above pads with unpunctuated filler, which one refusal would swallow
+# whole — an artefact of the fixture rather than of the code.
+PAD = " ".join(f"Supported fact number {i} was reported by the department today."
+               for i in range(60))
+
+
+def padded(text, claims=("c1", "c2")):
+    return validate({
+        "beat": "fed", "day": "2026-08-16",
+        "headline": "Fed holds rates as September nears",
+        "standfirst": "Two governors dissent", "dateline": "WASHINGTON",
+        "published_at": "2026-08-16T14:02:00Z", "written_by": "t",
+        "paragraphs": [{"text": f"{text} {PAD}", "claims": list(claims)}]})
+
+def test_refused_sentences_can_be_deleted_and_the_rest_survives():
+    """Deletion introduces no new text, so it cannot introduce anything
+    unsupported. Every surviving sentence is one the verifiers already passed."""
+    from ledger.entail import without
+    a = padded("The Fed held rates. A cut is now inevitable.")
+    r = check(a, CLAIMS, verifiers=[
+        lambda s, c: Verdict("inevitable" not in s, "x"),
+        lambda s, c: Verdict("inevitable" not in s, "x")])
+    assert r.passed is False
+    trimmed = without(a, r.refusals)
+    assert "inevitable" not in " ".join(p["text"] for p in trimmed.paragraphs)
+    assert "The Fed held rates." in trimmed.paragraphs[0]["text"]
+
+
+def test_a_trimmed_article_still_faces_the_schema():
+    """An article that falls under the floor once its unsupported sentences are
+    gone had less to say than it appeared to."""
+    from ledger.article import ArticleError
+    from ledger.entail import without
+    a = article("Everything here is unsupported.", claims=("c1",))
+    r = check(a, CLAIMS, verifiers=[lambda s, c: Verdict(False, "no"),
+                                    lambda s, c: Verdict(False, "no")])
+    with pytest.raises(ArticleError):
+        without(a, r.refusals)
+
+
+def test_deletion_never_introduces_text():
+    from ledger.entail import without
+    a = padded("One thing happened. Two things happened. Three things happened.")
+    r = check(a, CLAIMS, verifiers=[lambda s, c: Verdict("Two" not in s, "x"),
+                                    lambda s, c: Verdict("Two" not in s, "x")])
+    before = set(sentences(a.paragraphs[0]["text"]))
+    after = set(sentences(without(a, r.refusals).paragraphs[0]["text"]))
+    assert after < before, "deletion may only remove"
