@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Associated Press reported at least 6 deaths from days of storms and record-setting flooding in Indiana.",
+  "quote": "At least 6 people have died from days of storms and record-setting flooding in Indiana",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "News report at the 0.6 ceiling; wire-service headline stating a toll, corroborated by other outlets in the cluster.",
+  "source_sha": "6f7a03378a612c92b123b85cd72ff6acd43f8327b357255fd8ec2790d74a4101",
+  "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
+  "source_type": "misc",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-00",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

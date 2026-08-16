@@ -1,0 +1,14 @@
+{
+  "claim_text": "Courthouse News reported the same breakdown of victims — a 4-year-old boy, two men and three women — since the storms began Aug. 11.",
+  "quote": "A 4-year-old boy, two men and three women were among those who had died since the storms began Aug. 11.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "News ceiling; independent outlet carrying the same official breakdown, though likely from the same wire copy rather than separate reporting.",
+  "source_sha": "7af7b67677e41fe48493edd2df75e29839bbde855944f7bb37f61bde106c18e4",
+  "source_url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-07",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "State Department spokesperson Tommy Pigott addressed the Iran war and the visa revocations in an on-record interview.",
+  "quote": "NPR's Rob Schmitz speaks with State Department spokesperson Tommy Pigott",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "The interview itself is the on-record proceeding, described directly by the outlet that conducted it.",
+  "source_sha": "5c8405a5416a21b29c4ab51f1ed36fb580ab75b3963b84ebf102e8356287cf72",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-16",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

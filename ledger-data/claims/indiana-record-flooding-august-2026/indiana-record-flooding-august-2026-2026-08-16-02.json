@@ -1,0 +1,14 @@
+{
+  "claim_text": "Nearly 130,000 utility customers statewide were still without power as of Sunday afternoon.",
+  "quote": "Nearly 130,000 utility customers statewide remained without power as of Sunday afternoon.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "News ceiling; specific figure with a stated as-of time, the kind of number outlets take directly from utility outage reporting.",
+  "source_sha": "9ef74991ac0783fce58fdde16b17c6cb6a18e1b6c0028d7161fa890246767e5f",
+  "source_url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-02",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

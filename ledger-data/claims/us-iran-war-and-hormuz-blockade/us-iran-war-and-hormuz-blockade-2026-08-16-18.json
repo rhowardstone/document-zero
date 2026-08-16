@@ -1,0 +1,14 @@
+{
+  "claim_text": "The UAE says Iran attacked an ADNOC vessel in the Strait of Hormuz and is urging the waterway's reopening.",
+  "quote": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Explicitly attributed by Reuters to the UAE government, an identified party with direct knowledge; at the news ceiling.",
+  "source_sha": "6b41147646d534a7a7709fd0286b9348cc4aa9e2edb12d629d289921faf89c64",
+  "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-18",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

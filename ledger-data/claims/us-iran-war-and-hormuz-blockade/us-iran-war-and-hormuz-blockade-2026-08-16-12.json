@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rep. Don Bacon said the president was setting possibly false expectations during the early part of the campaign against Iran.",
+  "quote": "setting maybe false expectations in the previous months, during the initial parts of this campaign with Iran.",
+  "tier": "credible_allegation",
+  "confidence": 0.6,
+  "confidence_justification": "Direct on-record quotation from a named public official on a broadcast interview; at the news ceiling.",
+  "source_sha": "ad303d66e5f712f3d88a34838c127d6c3ba067a1ab931bde5167ed51858b59ac",
+  "source_url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-12",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "There are growing concerns about mental health and supply issues aboard the long-deployed USS Abraham Lincoln.",
+  "quote": "amid growing concerns about mental health and supply issues aboard the long-deployed carrier",
+  "tier": "question",
+  "confidence": 0.45,
+  "confidence_justification": "The reporting raises the shipboard conditions without attributing them to a named source, inspection or document.",
+  "source_sha": "0fe260794829eb2a1a800ab7da67950aeaf00ad5c60bfc09e7517bc9fe64b7af",
+  "source_url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-06",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

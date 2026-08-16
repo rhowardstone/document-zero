@@ -1,0 +1,14 @@
+{
+  "claim_text": "The USS Abraham Lincoln is to be relieved, leaving the Pacific without a US carrier.",
+  "quote": "US to relieve USS Abraham Lincoln, leaving Pacific without carrier",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Describes an announced Navy deployment decision; reported by Semafor within an aggregated cluster, no primary Navy order quoted.",
+  "source_sha": "258d786acde31296e99d79ea74d9e246d90e9e637fe43fc10e2fc11e5ea863c0",
+  "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-04",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

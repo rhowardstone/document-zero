@@ -1,0 +1,14 @@
+{
+  "claim_text": "Hundreds of thousands of foreign nationals have had their US visas revoked.",
+  "quote": "the hundreds of thousands of foreign nationals who have had their U.S. visa revoked",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Stated as fact by NPR framing an interview with the State Department spokesperson; the underlying revocation figure is not sourced to a released document.",
+  "source_sha": "5c8405a5416a21b29c4ab51f1ed36fb580ab75b3963b84ebf102e8356287cf72",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-15",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

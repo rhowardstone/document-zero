@@ -1,0 +1,14 @@
+{
+  "claim_text": "Flood waters peaked in the White River at Indianapolis, and rains were expected to ease in the state capital region and other parts of Indiana on Sunday.",
+  "quote": "Days of storms and flooding in Indiana left at least six people dead as flood waters peaked in Indianapolis’s White River – and rains were expected to ease in the state capital region and other parts of the state on Sunday.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "News ceiling; the peak is a gauge observation but the easing is a forecast expectation reported without attribution.",
+  "source_sha": "4796c073fe578a9310eaf6e9ba253c4ff179de84c1d0b00bfbea4a057b7e8de8",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-06",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

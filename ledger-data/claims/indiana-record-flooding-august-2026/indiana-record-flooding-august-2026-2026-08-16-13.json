@@ -1,0 +1,14 @@
+{
+  "claim_text": "A body recovered in Delaware County was reported as the fourth death attributed to the week's severe weather, indicating deaths are being counted by county as well as statewide.",
+  "quote": "Teen's body found in Delaware County is 4th death due to week's severe weather",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "News ceiling 0.6; docked because the aggregated headline does not make clear whether '4th' counts statewide or within a narrower area, and it conflicts with the higher statewide tolls.",
+  "source_sha": "34227e1f7804fb88d6382e7f547b67770e33f6a7ca069aee6f428b1f681c3414",
+  "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+  "source_type": "misc",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-13",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

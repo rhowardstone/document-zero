@@ -1,0 +1,54 @@
+{
+  "beat": "indiana-record-flooding-august-2026",
+  "as_of": "2026-08-16",
+  "fields": [
+    {
+      "k": "Death toll",
+      "v": "6-7, varies by outlet",
+      "since": "2026-08-16",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Customers without power",
+      "v": "nearly 130,000",
+      "since": "2026-08-16",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Rainfall total",
+      "v": "more than 11 inches over three days",
+      "since": "2026-08-16",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Search and rescue",
+      "v": "ongoing; rescues and evacuations",
+      "since": "2026-08-16",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Forecast",
+      "v": "rains expected to ease Sunday",
+      "since": "2026-08-16",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "White River stage",
+      "v": "peaked at Indianapolis",
+      "since": "2026-08-16",
+      "claims": [
+        "indiana-record-flooding-august-2026-2026-08-16-00"
+      ]
+    }
+  ]
+}

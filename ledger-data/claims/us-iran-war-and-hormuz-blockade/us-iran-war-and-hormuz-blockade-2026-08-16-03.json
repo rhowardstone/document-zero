@@ -1,0 +1,14 @@
+{
+  "claim_text": "The US military is moving its last aircraft carrier out of the Pacific in order to prioritise operations concerning Iran.",
+  "quote": "US military moving last aircraft carrier out of the Pacific to prioritize operations in Iran",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "A fleet movement reported concurrently by five outlets including AP, LA Times and Semafor; still single-tier news sourcing, so at the ceiling minus a margin.",
+  "source_sha": "258d786acde31296e99d79ea74d9e246d90e9e637fe43fc10e2fc11e5ea863c0",
+  "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-03",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

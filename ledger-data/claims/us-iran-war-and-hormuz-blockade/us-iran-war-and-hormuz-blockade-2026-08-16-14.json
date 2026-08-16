@@ -1,0 +1,14 @@
+{
+  "claim_text": "Commentary in the cluster frames Iran's approach as an attempt to outlast Trump's presidency rather than defeat the US militarily.",
+  "quote": "Iran’s strategy to simply outlast Trump’s presidency",
+  "tier": "question",
+  "confidence": 0.4,
+  "confidence_justification": "Analysis piece inferring adversary strategy; no document or official statement establishes Iranian intent.",
+  "source_sha": "979b056578a2cfa5697ab19008cd14a3bbf2bd80527c74ee708534dbcc011f10",
+  "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-14",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

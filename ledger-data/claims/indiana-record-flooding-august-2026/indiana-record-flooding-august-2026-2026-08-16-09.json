@@ -1,0 +1,14 @@
+{
+  "claim_text": "PBS reported a toll of at least 7 dead from heavy rain and record-setting flooding in Indiana.",
+  "quote": "At least 7 people have died from days of heavy rain and record-setting flooding in Indiana",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "News ceiling; matches the CBS count of 7 but exceeds the 6 reported elsewhere on the same day, so the figure is unsettled across the cluster.",
+  "source_sha": "78e05d4048a7f160a81e54477015ff27efedb6b540f1ad294d3b9ebe45d966fe",
+  "source_url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-09",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

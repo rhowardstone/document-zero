@@ -1,0 +1,14 @@
+{
+  "claim_text": "CBS News linked the Indiana storms to 7 deaths, a higher count than several same-day reports.",
+  "quote": "Indiana storms linked to 7 deaths as floods trigger rescues and evacuations",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "News ceiling 0.6; docked slightly because the count conflicts with the 6 reported by AP, Guardian and Courthouse News the same day.",
+  "source_sha": "9ef74991ac0783fce58fdde16b17c6cb6a18e1b6c0028d7161fa890246767e5f",
+  "source_url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-01",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

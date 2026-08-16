@@ -1,0 +1,14 @@
+{
+  "claim_text": "Treasury Secretary Bessent said the United States will apply measures against Iran that have never been seen before.",
+  "quote": "Bessent says US to apply measures never seen on Iran",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "An on-record statement by a named public official, reported by Reuters and CNBC in the same cluster; at the news ceiling.",
+  "source_sha": "3b1770bf930587172ffb1333298708bb604dc1f7ba37c21e7b1e4331a822bd16",
+  "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+  "source_type": "misc",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-08",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rep. Don Bacon, a Republican of Nebraska, is not running for reelection.",
+  "quote": "Republican Rep. Don Bacon of Nebraska, who is not running for reelection",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "A matter of public record about a sitting member of Congress, stated flatly by CBS News; at the news ceiling.",
+  "source_sha": "ad303d66e5f712f3d88a34838c127d6c3ba067a1ab931bde5167ed51858b59ac",
+  "source_url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
+  "source_type": "news",
+  "id": "us-iran-war-and-hormuz-blockade-2026-08-16-11",
+  "beat": "us-iran-war-and-hormuz-blockade",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

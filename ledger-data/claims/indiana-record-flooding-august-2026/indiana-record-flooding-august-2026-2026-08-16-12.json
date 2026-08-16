@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Delaware County Sheriff reported that a missing teenager was found dead after disappearing in floodwaters.",
+  "quote": "Delaware Co. Sheriff: Missing teen found dead after disappearing in floodwaters",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "News ceiling; attributed to a named public office (the county sheriff) but carried as an aggregated headline rather than a full report.",
+  "source_sha": "34227e1f7804fb88d6382e7f547b67770e33f6a7ca069aee6f428b1f681c3414",
+  "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+  "source_type": "misc",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-12",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}
