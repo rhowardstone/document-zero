@@ -1,0 +1,14 @@
+{
+  "claim_text": "Netanyahu rejected the latest peace proposal in the week before 16 August 2026.",
+  "quote": "who rejected the latest peace proposal last week",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "At the news ceiling; CBS dates the rejection and the Guardian independently reports the same rejection.",
+  "source_sha": "f9338728d252e195ae60e265c23b3cab86552217ffba117c52c1888c42c8ae4e",
+  "source_url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-07",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

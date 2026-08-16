@@ -1,0 +1,60 @@
+{
+  "name": "Gaza ceasefire road map talks",
+  "slug": "gaza-ceasefire-road-map-talks",
+  "opened": true,
+  "reason": "5 events over 20 days (GDELT: 21 days of coverage over 20d)",
+  "events": 5,
+  "span_days": 20,
+  "state_fields": [
+    "Gaza ceasefire",
+    "Netanyahu position on 15-point road map",
+    "Kushner–Netanyahu meeting",
+    "Hamas disarmament",
+    "Israeli withdrawal",
+    "Israeli strikes in Gaza",
+    "Cairo mediator track"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "cbsnews.com",
+    "cnn.com",
+    "npr.org",
+    "pbs.org",
+    "theguardian.com"
+  ],
+  "articles": [
+    {
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+      "title": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+      "title": "Live updates: Jared Kushner meets with regional leaders as multiple conflicts roil the Middle East",
+      "publisher": "cnn.com"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+      "title": "Jared Kushner met with Hamas leaders in Egypt to discuss Gaza peace deal",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+      "title": "Kushner meets with Hamas on the Gaza road map ahead of talks with Netanyahu",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/kushner-has-rare-meeting-with-hamas-leader-on-gaza-road-map-a-meeting-with-netanyahu-is-next",
+      "title": "Kushner has rare meeting with Hamas' leader on Gaza road map. A meeting with Netanyahu is next",
+      "publisher": "pbs.org"
+    }
+  ],
+  "claims_found": 12,
+  "dropped": [
+    {
+      "claim": "Jared Kushner, US envoy and Trump's son-in-law, met Hamas's ",
+      "why": "quote does not appear in the cited article"
+    }
+  ],
+  "no_state_reason": ""
+}

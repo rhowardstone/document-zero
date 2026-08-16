@@ -1,0 +1,58 @@
+{
+  "name": "Korean Peninsula standoff over joint drills",
+  "slug": "korean-peninsula-standoff-over-joint-drills",
+  "opened": false,
+  "reason": "1 day(s); needs 5 — a single day's flurry is an event, not a beat [history lookup failed: HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 6,
+  "span_days": 1,
+  "state_fields": [
+    "Joint exercise status",
+    "Inter-Korean talks",
+    "MDL incidents",
+    "Armistice status"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "apnews.com",
+    "axios.com",
+    "france24.com",
+    "pbs.org",
+    "reuters.com",
+    "thehill.com"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3RPcGlIdXQ3RU5USnlMN0tyQUxyT2c4NW1zekhhV0xubm9tTmhHLWE0c2RxTFdNWXJueVF4TXA5ODJDNFRhQTdCQllnaU51cTlCc0pqaHZNbmxIbnhxR01MNVZEOWdtaU90cWZjUU9RYlBITDBhMWdiNllIcGFoMHJXQWdlN0lQdWZ5dVVNT00wR0px?oc=5",
+      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+      "publisher": "apnews.com"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
+      "title": "Trump directs Hegseth to reduce U.S. joint exercises in South Korea",
+      "publisher": "thehill.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kYTNEd3hCYkhEY3FQVENlVUpQMHl3aHlMekktVUgtaU1GMEdZM0FRRUM4QUN3VkpKQWpZOERSVEZCQllRcFpBakpJYzdDZ1hkcDVnYUNHNl9fV2ZCdUs2TC1OcmVqRmJsazJOdV82Y21NNGJiQnhLdWpGNWZCdw?oc=5",
+      "title": "Trump tells Hegseth to cut U.S.-South Korea drills",
+      "publisher": "axios.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
+      "title": "South Korea says it fired warning shots after North Korean soldiers crossed demarcation line",
+      "publisher": "reuters.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
+      "title": "South Korea president proposes talks with Pyongyang to formally end Korean War",
+      "publisher": "france24.com"
+    }
+  ],
+  "claims_found": 15,
+  "dropped": [],
+  "no_state_reason": ""
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Blanche DOJ independence and Trump ballroom litigation",
+  "slug": "blanche-doj-independence-and-trump-ballroom-liti",
+  "opened": true,
+  "reason": "5 events over 18 days (GDELT: 19 days of coverage over 18d)",
+  "events": 5,
+  "span_days": 18,
+  "state_fields": [
+    "Supreme Court ballroom application",
+    "Ballroom construction",
+    "Blanche independence pledge",
+    "FBI role in Guthrie investigation"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "axios.com",
+    "nbcnews.com",
+    "theguardian.com",
+    "thehill.com",
+    "washingtonpost.com"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+      "title": "Trump says White House needs ‘military complex’ as courts block his ballroom",
+      "publisher": "washingtonpost.com"
+    },
+    {
+      "url": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+      "title": "Blanche refuses to pledge DOJ will always act independently of White House",
+      "publisher": "thehill.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+      "title": "Trump's views can factor into prosecutions, Attorney General Todd Blanche says",
+      "publisher": "axios.com"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+      "title": "Todd Blanche declines to pledge independence from White House",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+      "title": "Todd Blanche says FBI will continue providing assistance on Nancy Guthrie investigation but doesn’t have any updates",
+      "publisher": "nbcnews.com"
+    }
+  ],
+  "claims_found": 12,
+  "dropped": [],
+  "no_state_reason": ""
+}

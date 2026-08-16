@@ -1,0 +1,14 @@
+{
+  "claim_text": "The stated subject of the Kushner–Hamas meeting in Egypt was a Gaza peace deal.",
+  "quote": "Jared Kushner met with Hamas leaders in Egypt to discuss Gaza peace deal",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Slightly below ceiling; the subject matter of a closed meeting is reported, not documented.",
+  "source_sha": "f9338728d252e195ae60e265c23b3cab86552217ffba117c52c1888c42c8ae4e",
+  "source_url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-06",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

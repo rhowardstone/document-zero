@@ -1,0 +1,14 @@
+{
+  "claim_text": "Blanche said the FBI will continue providing assistance on the Arizona investigation but that he has no updates.",
+  "quote": "Todd Blanche says FBI will continue providing assistance on Nancy Guthrie investigation but doesn’t have any updates",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Official's own account of federal involvement, reported by one outlet without corroborating documentation.",
+  "source_sha": "e6bb984d7ec0c17ab05365002337133c3f93633f4a747145eb40a208a5a72b40",
+  "source_url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-07",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

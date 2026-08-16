@@ -1,0 +1,14 @@
+{
+  "claim_text": "The purpose of the current talks is to salvage the stalled road map rather than negotiate a new one.",
+  "quote": "The talks aim to salvage the plan for Hamas to disarm and Israel to withdraw from the Palestinian territory shattered by war",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Below the ceiling: the stated aim of closed-door talks is characterised by the outlet, not evidenced by a released document.",
+  "source_sha": "5629cd3d8a68d418eab15a46227693cc505a3842458a7824d46a1a80dc27f6db",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-03",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Israel was carrying out strikes in Gaza while the Cairo mediation talks took place.",
+  "quote": "Trump's envoys meet with Egyptian, Qatari and Turkish mediators in Cairo as Israel strikes Gaza",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Below the ceiling: a headline fragment establishes concurrent strikes but gives no location, timing or casualty detail.",
+  "source_sha": "eaf7578e43b538a1d90bb3edae9894b05b2b79f59ef1b5391380336ae2e58da4",
+  "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+  "source_type": "misc",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-09",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

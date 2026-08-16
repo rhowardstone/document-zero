@@ -1,0 +1,62 @@
+{
+  "name": "California's 2026 ballot and bill fights",
+  "slug": "california-s-2026-ballot-and-bill-fights",
+  "opened": false,
+  "reason": "1 day(s); needs 5 — a single day's flurry is an event, not a beat",
+  "events": 6,
+  "span_days": 1,
+  "state_fields": [
+    "Billionaire tax measure",
+    "Voter ID measure",
+    "Diaper disclosure bill",
+    "Congressional map redraws"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "foxnews.com",
+    "latimes.com",
+    "pbs.org",
+    "staradvertiser.com",
+    "theguardian.com"
+  ],
+  "articles": [
+    {
+      "url": "https://www.pbs.org/newshour/politics/republicans-won-the-redistricting-competition-dont-tell-that-to-this-california-congressman",
+      "title": "Republicans won the redistricting competition. Don't tell that to this California congressman",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUi1OS3A0TGpLZlNwY3p2aGRfWnpBRmVvVUJpUklkZlQ5OG9leTFKVkNITHhjdGJUUk1IRkxWbmtfdEpWNmg3b3Brb1dPVmtCd2Q1YVZmM1ZYU3RmSEh3R0JBLUhOVGdlaTVWclF0YUkxcEx6emxUYmNOOTZoRmRhNF9CUUV6M2ktdjZiUnRfam45d1c40gGaAUFVX3lxTE5EU0c5YWxla2hBNHRLRWdIZ0tBUXZMa3JiQ3JRMmZERlBoYzB3MVlOWUZCWUtzYkUxODRUamJaakZhMnQxU3ltY0xmZDdUdW5XdmNjQ1AxbnFrRGR4RVp3RmNhTDJQbG5XOWZDdXBLcHFPV0xoMzhta1ktZWRURFhtbHYyNFdlRHZuMmI5ajZid0xLMld0UEd1SXc?oc=5",
+      "title": "The only map you need to see as California's billionaire tax fight heats up",
+      "publisher": "foxnews.com"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/california-jackie-the-bald-eagle-legacy",
+      "title": "‘Awed by nature’: fans mourn California’s beloved Jackie the bald eagle, whose legacy soars on",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/aug/16/california-law-chemicals-diapers",
+      "title": "California law would force companies to disclose toxic chemicals in disposable diapers",
+      "publisher": "theguardian.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOenFNbUhzOWRtN2RucnJjNGhQdE9OdDh4V25wdTI5ejN2TVUyWi1JN2p1SWxZRkdVdmJVTDVhS3FfQXhhcEZFb1dvUHEyUU1SZVZsOUc4clZEandfZGNNYW1aMzdxZHBzcno5TTdFS0NKNENSUDVLR2x2VDVhV2xBSzVR?oc=5",
+      "title": "Are mosquitoes, ticks and fleas turning California into a disease hotspot?",
+      "publisher": "latimes.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWXU4WGJxVVJEZVA0Z2E3Qm0zWDJOakxkN3IzdHdCMU9CWU45eDMtdlQtbUtwTm1mM3lGMmNzcVZ3YkVwOWktMm9pZzg2V3FoTlUxYlpYVUZEZlBhbEdsQ0kzcy1uQndsQ2pma1R5TGlURnFBR1NHclRpOGYwV3dISlI4eVd3N3A2R1REdWk2bnB2dmhKdVljSVc3aUZtRXRVM3hra05hUHlKQ0I0OGh4NlhMVEQwcW96YkFydDh4MWQ?oc=5",
+      "title": "COVID becoming a California summer staple as winter outbreaks fade - Honolulu Star-Advertiser",
+      "publisher": "staradvertiser.com"
+    }
+  ],
+  "claims_found": 15,
+  "dropped": [
+    {
+      "claim": "A fight over a proposed California billionaire tax is intens",
+      "why": "quote does not appear in the cited article"
+    }
+  ],
+  "no_state_reason": ""
+}

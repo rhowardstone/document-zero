@@ -1,0 +1,14 @@
+{
+  "claim_text": "Kushner met Hamas leadership on Sunday in what NPR describes as a new diplomatic effort.",
+  "quote": "held a rare meeting with Hamas leadership Sunday in Egypt, in a new diplomatic effort",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "At the news ceiling; independent confirmation by NPR of the meeting also reported by the Guardian, CBS, PBS and CNN.",
+  "source_sha": "522cd925d6d3fe7a690129832a7b4f2fc110178f2a18a6f564373e5c149a8ee2",
+  "source_url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-05",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

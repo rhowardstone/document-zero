@@ -1,0 +1,14 @@
+{
+  "claim_text": "Attorney General Todd Blanche said on Sunday that he would not pledge always to act independently of the White House.",
+  "quote": "“No, I’m not going to pledge that,” he said when asked about the topic by NBC’s Meet the Press host, Kristen Welker.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Direct quotation of an on-record broadcast interview, but reported second-hand by a news outlet, which caps confidence at 0.6.",
+  "source_sha": "6a71c670fc9e1356cc1a59b6cf65e8420d21e6b433f18716aab0cd41782b7110",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

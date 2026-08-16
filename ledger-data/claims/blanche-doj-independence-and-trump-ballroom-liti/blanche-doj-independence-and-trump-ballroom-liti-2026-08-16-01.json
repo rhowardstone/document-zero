@@ -1,0 +1,14 @@
+{
+  "claim_text": "Blanche said no attorney general should ever pledge independence from the White House.",
+  "quote": "US attorney general says no one in his role ‘should ever’ make this vow amid concern over Trump steering DoJ",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "An identified public official's stated position, characterized in a news headline rather than a full transcript.",
+  "source_sha": "6a71c670fc9e1356cc1a59b6cf65e8420d21e6b433f18716aab0cd41782b7110",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-01",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

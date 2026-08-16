@@ -22,7 +22,7 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
 from ledger import claudecode as cc          # noqa: E402
-from ledger import desk, emerge, history, scout, wire  # noqa: E402
+from ledger import continuity, desk, emerge, history, scout, wire  # noqa: E402
 from ledger.schema import SchemaError        # noqa: E402
 from ledger.sourcetype import classify       # noqa: E402
 from ledger.store import Ledger              # noqa: E402
@@ -104,13 +104,29 @@ def main() -> int:
     opened, rejected, taken = [], [], set()
     editor = Ledger(args.ledger, writer="scout")
 
+    # Signatures of every beat the ledger already holds. A story the desk names
+    # differently today is still the same beat, and without this it becomes a
+    # second one — six beats for three stories, compounding daily until nothing
+    # has any history and persistent state is dead.
+    existing_slugs = [d.name for d in (pathlib.Path(args.ledger) / "claims").iterdir()
+                      if d.is_dir()] if (pathlib.Path(args.ledger) / "claims").exists() else []
+    existing = continuity.signatures_for(led, existing_slugs)
+
     for (label, cluster, rows), out, err in results:
         if err:
             print(f"  {label[:34]:36s} FAILED  {err[:60]}")
             continue
 
         name = out["name"] or label
+
+        # Does this continue a beat we already have?
+        sig = continuity.signature(name, *[c["claim_text"] for c in out["claims"]])
+        cont_slug, cont_score = continuity.match(sig, existing)
+
         prop = scout.propose_from_cluster(cluster, name=name, taken=taken)
+        if cont_slug:
+            prop.slug = cont_slug
+            print(f"  {name[:32]:34s} CONTINUES {cont_slug[:34]} ({cont_score:.2f})")
         prop.state_fields = [f["k"] for f in out["state_fields"]]
 
         # How long has this actually been running? An RSS wire carries one to

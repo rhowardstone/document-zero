@@ -1,0 +1,38 @@
+{
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "as_of": "2026-08-16",
+  "fields": [
+    {
+      "k": "Supreme Court ballroom application",
+      "v": "Pending on emergency docket",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Ballroom construction",
+      "v": "Blocked by courts",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Blanche independence pledge",
+      "v": "Refused",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "FBI role in Guthrie investigation",
+      "v": "Assisting, not taking over",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    }
+  ]
+}

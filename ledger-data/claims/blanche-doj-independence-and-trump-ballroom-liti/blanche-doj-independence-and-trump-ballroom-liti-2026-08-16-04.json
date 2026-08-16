@@ -1,0 +1,14 @@
+{
+  "claim_text": "Blanche said Trump's views can be a factor in prosecution decisions.",
+  "quote": "Trump's views can factor into prosecutions, Attorney General Todd Blanche says",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Attributed characterization of an official's on-record remarks in a headline; wording is the outlet's, not a verbatim quote of Blanche.",
+  "source_sha": "c0033a1e8b41217bdab4b9006c3d2df002f6300c644a4e31f309aeef01beb56c",
+  "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+  "source_type": "misc",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-04",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Blanche's refusal to pledge independence was reported across Axios, The New York Times, CNN, The Hill and the Washington Post.",
+  "quote": "Blanche Refuses to Say He’ll Always Be Independent of Trump as Attorney General &nbsp;&nbsp; The New York Times Blanche declines to pledge independence from the White House &nbsp;&nbsp; CNN",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "The cluster listing itself is the evidence of multi-outlet coverage; no interpretation required.",
+  "source_sha": "c0033a1e8b41217bdab4b9006c3d2df002f6300c644a4e31f309aeef01beb56c",
+  "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+  "source_type": "misc",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-05",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

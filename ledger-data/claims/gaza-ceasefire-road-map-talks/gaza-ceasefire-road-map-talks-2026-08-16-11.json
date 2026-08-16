@@ -1,0 +1,14 @@
+{
+  "claim_text": "Netanyahu is under political pressure following his rejection of the road map.",
+  "quote": "who is under pressure after rejecting the new 15-point, US-backed road map",
+  "tier": "question",
+  "confidence": 0.4,
+  "confidence_justification": "The source and nature of the pressure are not identified in the reporting, so this is raised rather than established.",
+  "source_sha": "5629cd3d8a68d418eab15a46227693cc505a3842458a7824d46a1a80dc27f6db",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-11",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

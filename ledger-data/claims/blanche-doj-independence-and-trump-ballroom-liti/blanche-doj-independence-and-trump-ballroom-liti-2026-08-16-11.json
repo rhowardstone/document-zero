@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Supreme Court's emergency docket has become active again.",
+  "quote": "Supreme Court emergency docket roars back",
+  "tier": "question",
+  "confidence": 0.4,
+  "confidence_justification": "A headline characterization of docket activity, not a documented count of filings or orders.",
+  "source_sha": "2a7794e0a073aa175c76ecdee30de3d5265e6c57feb40c14e9ceb4efdbe1d0aa",
+  "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+  "source_type": "misc",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

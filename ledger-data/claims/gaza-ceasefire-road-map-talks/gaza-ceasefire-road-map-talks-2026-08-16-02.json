@@ -1,0 +1,14 @@
+{
+  "claim_text": "The road map provides for Hamas to disarm in Gaza and for Israel to withdraw from the territory.",
+  "quote": "The talks aim to salvage the new 15-point, U.S.-backed road map for Hamas to disarm in Gaza and Israel to withdraw from the Palestinian territory shattered by war.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "At the news ceiling; describes the contents of a specific numbered proposal, reported identically by PBS and the Guardian.",
+  "source_sha": "cd07ffff77729beaf0a400b5042765f05c362d79baf1084923d80b8310e958ce",
+  "source_url": "https://www.pbs.org/newshour/world/kushner-has-rare-meeting-with-hamas-leader-on-gaza-road-map-a-meeting-with-netanyahu-is-next",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-02",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

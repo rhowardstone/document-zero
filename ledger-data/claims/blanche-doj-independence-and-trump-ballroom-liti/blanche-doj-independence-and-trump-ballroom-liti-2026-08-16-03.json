@@ -1,0 +1,14 @@
+{
+  "claim_text": "Blanche drew a distinction between committing to investigate any case and committing to act independently of the White House.",
+  "quote": "“There's a big difference between saying we will always do our job and investigate any case and act independently of the White House. No,...",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Direct quotation from the interview, though the summary truncates the sentence mid-thought.",
+  "source_sha": "ed2e37d5d23c2c0f7777c3c7f4b5141274b0a4c3098d968435ad5a481caba083",
+  "source_url": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-03",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

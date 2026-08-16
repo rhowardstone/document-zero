@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Gaza ceasefire is stalled.",
+  "quote": "in a new diplomatic effort to make progress in the stalled Gaza ceasefire",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Just below the news ceiling; 'stalled' is the outlets' shared characterisation of the state of the process rather than a measured fact.",
+  "source_sha": "522cd925d6d3fe7a690129832a7b4f2fc110178f2a18a6f564373e5c149a8ee2",
+  "source_url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-04",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}
