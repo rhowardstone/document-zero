@@ -1,0 +1,1073 @@
+{
+ "beat": {
+  "id": "uss-abraham-lincoln-deployment-conditions",
+  "name": "USS Abraham Lincoln deployment conditions",
+  "dossiers": [],
+  "types": [],
+  "status": "moved",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-17",
+  "events": 38,
+  "summary": "38 claim(s) on record.",
+  "state": [
+   {
+    "k": "Days at sea",
+    "v": "240–260+, no port call in 200+",
+    "since": "2026-08-17",
+    "flag": null
+   },
+   {
+    "k": "Lincoln status",
+    "v": "Returning home",
+    "since": "2026-08-17",
+    "flag": null
+   },
+   {
+    "k": "Relief carrier",
+    "v": "USS George Washington, en route",
+    "since": "2026-08-17",
+    "flag": null
+   },
+   {
+    "k": "Congressional oversight",
+    "v": "Requested, no hearing scheduled",
+    "since": "2026-08-17",
+    "flag": null
+   },
+   {
+    "k": "Pentagon position",
+    "v": "Reports 'completely misrepresented'",
+    "since": "2026-08-17",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-17",
+    "c": "Beat opened. 7 events over 19 days (GDELT: 12 days of coverage over 19d).",
+    "s": "20 claim(s) from 4 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 6 events over 19 days (GDELT: 12 days of coverage over 19d).",
+    "s": "8 claim(s) from 4 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 7 events over 19 days (GDELT: 12 days of coverage over 19d).",
+    "s": "10 claim(s) from 4 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-00",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-01",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-02",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-03",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-04",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-05",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-06",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-07",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-08",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-09",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-10",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-11",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-12",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-13",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-14",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-15",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-16",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-16-17",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-00",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-01",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-02",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-03",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-04",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-05",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-06",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-07",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-08",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-09",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-10",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-11",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-12",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-13",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-14",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-15",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-16",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-17",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-18",
+   "uss-abraham-lincoln-deployment-conditions-2026-08-17-19"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": [
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "CENTCOM commander Adm. Brad Cooper publicly addressed concerns about the mental health of service members aboard the USS Abraham Lincoln, which is returning home after 265 days in the Iran War.",
+   "deck": "News report describing an on-record statement by a named commander, with a specific figure; at the 0.6 news ceiling.",
+   "quote": "U.S. Central Command (Centcom) commander Adm. Brad Cooper on Sunday addressed concerns over the mental health of service members aboard the USS Abraham Lincoln as it returns home after 265 days in the Iran War.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-01",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Cooper described his Saturday visit to the ship as \"awe-inspiring\" and said Americans would \"beam with pride.\"",
+   "deck": "Direct quotation from an official written statement, reported by a news outlet; ceiling 0.6.",
+   "quote": "Cooper called his visit to the ship on Saturday \"awe-inspiring\" in a statement, saying Americans would \"beam with pride\" over...",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Maryland Gov. Wes Moore said President Trump's response to reported conditions aboard the USS Abraham Lincoln angers him.",
+   "deck": "Verbatim on-record remarks by a sitting governor; the utterance itself is settled, the underlying conditions are not. News ceiling 0.6.",
+   "quote": "“I mean, not only are these conditions and the reports of the conditions heartbreaking. The response of the president of the United States pisses me off. And it should piss all of us off,”",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Sen. Ruben Gallego (D-Ariz.) called the carrier's months-long deployment a \"deep problem\" and blamed the prolonged deployment on the unresolved war he says Trump started in February.",
+   "deck": "A named senator's characterization and attribution of cause, not an established finding; slightly below the news ceiling because the causal claim is contested political assertion.",
+   "quote": "Senator Ruben Gallego calls carrier’s months-long deployment a ‘deep problem’ as wellbeing concerns mount",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Republican Rep. Don Bacon of Nebraska said Congress should conduct oversight of conditions aboard the USS Abraham Lincoln.",
+   "deck": "On-record statement by a named member of Congress, reported directly; ceiling 0.6.",
+   "quote": "GOP Rep. Don Bacon of Nebraska said Congress should conduct oversight following concerns about conditions aboard the USS Abraham Lincoln, which is being replaced after a nearly nine-month deployment.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "President Trump said the USS Abraham Lincoln deployment is \"not nearly long enough.\"",
+   "deck": "Direct quotation attributed to the president in a news report; ceiling 0.6.",
+   "quote": "President Trump said the USS Abraham Lincoln deployment is \"not nearly long enough.\"",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The USS Abraham Lincoln is being replaced after a nearly nine-month deployment.",
+   "deck": "Reported as background fact in a news summary with no cited primary source or official announcement; below the 0.6 ceiling.",
+   "quote": "which is being replaced after a nearly nine-month deployment",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The CENTCOM chief's visit to the USS Abraham Lincoln took place amid concerns about crew morale.",
+   "deck": "Headline-level assertion of an event plus its context; the visit is corroborated elsewhere but 'morale concerns' is the outlet's framing, so below ceiling.",
+   "quote": "CENTCOM chief visits USS Abraham Lincoln amid morale concerns",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-08",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The carrier's deployment has run nearly nine months and has fueled concern over crew morale, mental health and living conditions.",
+   "deck": "Duration is consistent with the 265-day figure reported elsewhere in the cluster; capped at the news ceiling.",
+   "quote": "the aircraft carrier’s nearly nine-month deployment continued fueling concern over crew morale, mental health and living conditions",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-09",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Sen. Ruben Gallego, Democrat of Arizona, called the carrier's months-long deployment a 'deep problem'.",
+   "deck": "Named senator's on-record judgment, not an independently verified finding about the deployment.",
+   "quote": "Senator Ruben Gallego calls carrier’s months-long deployment a ‘deep problem’",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Gallego attributed the carrier's prolonged deployment to an unresolved war he says Trump started in February.",
+   "deck": "Causal attribution asserted by an identified senator; the supporting sentence is truncated in the source summary.",
+   "quote": "and he blamed the carrier’s prolonged deployment on the unresolved war that Donald Trump started in Febru",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-11",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "GOP Rep. Don Bacon of Nebraska said Congress should conduct oversight over conditions aboard the USS Abraham Lincoln.",
+   "deck": "On-record statement by a named member of Congress; news ceiling applies.",
+   "quote": "GOP Rep. Don Bacon of Nebraska said Congress should conduct oversight following concerns about conditions aboard the USS Abraham Lincoln",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-13",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "President Trump said the USS Abraham Lincoln deployment is 'not nearly long enough.'",
+   "deck": "Direct quotation of a public statement by the president; news ceiling applies.",
+   "quote": "President Trump said the USS Abraham Lincoln deployment is \"not nearly long enough.\"",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-14",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Families of USS Lincoln crew members say Trump should be 'ashamed' of conditions aboard the ship.",
+   "deck": "Assertion by identified-category sources with direct knowledge, not independently verified.",
+   "quote": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-15",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Families of US sailors have denounced Trump and Defense Secretary Hegseth for dismissing their experiences and calling them liars.",
+   "deck": "Reaches this record as an aggregated headline rather than the full report, so it sits below the news ceiling.",
+   "quote": "Families of US sailors denounce Trump and Hegseth for ‘dismissing their experiences and calling them liars’",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-16",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The US has pulled its last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere.",
+   "deck": "Aggregated headline only; the underlying report is not in hand, so confidence sits below the news ceiling.",
+   "quote": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-17",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "A US commander called mental health a priority after visiting the USS Lincoln.",
+   "deck": "Aggregated headline; corroborated by the fuller Hill report but discounted for secondhand transmission.",
+   "quote": "U.S. commander calls mental health a priority after he visits USS Lincoln",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-00",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Adm. Brad Cooper, the head of U.S. Central Command, visited the USS Abraham Lincoln on Saturday 15 August 2026 and praised its crew, calling his time aboard \"awe-inspiring\" in a statement shared on social media.",
+   "deck": "News report describing a written statement Cooper issued publicly; at the 0.6 news ceiling.",
+   "quote": "Adm: Brad Cooper, the head of U.S. Central Command, praised the crew of the USS Abraham Lincoln after he visited the cruiser on Saturday.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-01",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The Lincoln carries about 5,000 service members, deployed to the Pacific in November 2025, arrived in the Middle East in January 2026, and has been supporting the U.S. war against Iran.",
+   "deck": "Straightforward reporting of deployment facts; the November 2025 Pacific departure is stated separately in the same article.",
+   "quote": "The Lincoln, which has about 5,000 service members, arrived in the Middle East in January and has been supporting the U.S. war against Iran.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-02",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The Lincoln has spent a record-setting uninterrupted period of more than 240 days at sea, against a normal U.S. military vessel deployment of about six months, CBS News reported on 16 August 2026.",
+   "deck": "Reported figure; the cluster carries competing day counts (240, 250, 260), so slightly below ceiling.",
+   "quote": "It has spent a record-setting uninterrupted time at sea of more than 240 days.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-03",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Cooper acknowledged the crew's mental health concerns but said the Lincoln has among the lowest numbers of mental-health-related cases of all 11 of the U.S. Navy's active aircraft carriers, adding \"This doesn't mean that all is perfect.\"",
+   "deck": "A comparative assertion by a commanding officer, reported but not independently verified against Navy medical data.",
+   "quote": "Cooper acknowledged the concerns in his statement, but said the Lincoln has among the lowest numbers of cases related to mental health of all the U.S. Navy's 11 active aircraft carriers.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-04",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The USS George Washington aircraft carrier is headed to the Middle East to relieve the USS Abraham Lincoln, CBS News reported on 16 August 2026.",
+   "deck": "Reported movement order attributed to a U.S. official elsewhere in the cluster; no public document cited.",
+   "quote": "The USS George Washington aircraft carrier is headed to the Middle East to relieve the Lincoln.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-05",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Asked by reporters on Friday 14 August 2026 whether the Lincoln's deployment had gone on too long, President Trump answered, \"No. Not nearly long enough.\"",
+   "deck": "Direct on-record quotation from a press availability, reported consistently by two outlets in the cluster.",
+   "quote": "Asked whether the deployment has gone on too long, Mr. Trump told reporters, \"No. Not nearly long enough.\"",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-06",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Centcom commander Adm. Brad Cooper addressed concerns about the mental health of service members aboard the USS Abraham Lincoln on Sunday 16 August 2026, as the carrier returns home after more than 260 days in the Middle East.",
+   "deck": "Wire summary; the 260-day figure differs from the 240- and 250-day counts elsewhere in the cluster.",
+   "quote": "U.S. Central Command (Centcom) commander Adm. Brad Cooper on Sunday addressed concerns about the mental health of service members aboard the USS Abraham Lincoln as the aircraft carrier returns home after being docked in the Middle East for more than 260 days.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-07",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Maryland Gov. Wes Moore, a Democrat and military veteran, said on Sunday 16 August 2026 that President Trump's reaction to reported conditions aboard the USS Abraham Lincoln angered him and should anger the public.",
+   "deck": "Direct quotation of a sitting governor's on-record televised remarks.",
+   "quote": "The response of the president of the United States pisses me off. And it should piss all of us off",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-08",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "The United States has pulled its last aircraft carrier out of Asia as President Trump focuses on Iran and the Western Hemisphere, according to an Associated Press report carried in a 16 August 2026 news roundup.",
+   "deck": "Headline only in an aggregator listing; no body text or sourcing available in this cluster.",
+   "quote": "US pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
+   "tier": "credible_allegation",
+   "confidence": 0.4,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.4, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "t": "news",
+     "c": "0.4"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-09",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Sen. Ruben Gallego, an Arizona Democrat and retired U.S. Marine, said on Sunday 16 August 2026 that he had spoken with the spouse of a Lincoln crew member three days earlier and blamed the prolonged deployment on the administration's failure to plan for the Iran war.",
+   "deck": "On-record assertion by an identified senator characterising administration planning; a political judgement, not an established fact.",
+   "quote": "The deep, deep, deep problem here is that this administration did not plan for this war, did not plan how to get out of this war, [and] did not really understand how this war was going to escalate.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-10",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "The USS Abraham Lincoln has been at sea for nearly nine months and has gone more than 200 days without a port call, prompting Democratic lawmakers to call for an investigation into conditions aboard the carrier.",
+   "deck": "Reported deployment metric consistent with the Blumenthal letter cited elsewhere in the cluster.",
+   "quote": "The navy aircraft carrier has been at sea for nearly nine months and has gone more than 200 days without a port call.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-11",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Defense Secretary Pete Hegseth has rejected reports of poor morale and conditions aboard the USS Abraham Lincoln as \"completely misrepresented,\" according to reporting published on 16 August 2026.",
+   "deck": "The denial is quoted, but the underlying factual dispute over conditions is unresolved in the reporting.",
+   "quote": "Hegseth has rejected those reports as “completely misrepresented”",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-12",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Navy Times and Stars and Stripes, two publications specialising in the U.S. military, have reported multiple attempts by sailors aboard the Lincoln to jump overboard during the carrier's ninth month at sea.",
+   "deck": "Second-hand attribution to other outlets' reporting; no primary documentation or Navy confirmation in this source.",
+   "quote": "have reported multiple attempts by sailors to jump overboard as poor conditions and mental stresses aboard the Lincoln reach a breaking point",
+   "tier": "credible_allegation",
+   "confidence": 0.45,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.45, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.45"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-13",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Retired Adm. Mike Mullen, a former chair of the joint chiefs of staff, said on 16 August 2026 that he spoke with Cooper on Saturday evening and was told poor conditions aboard the Lincoln had been addressed and crew morale improved once sailors learned they were going home.",
+   "deck": "Second-hand account of a private conversation, relayed on air by an identified retired officer.",
+   "quote": "Mullen said he spoke with Cooper on Saturday evening and was told that poor conditions aboard the Lincoln had been addressed.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-14",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Rep. Don Bacon, a Nebraska Republican and retired Air Force brigadier general, said on 16 August 2026 that Congress should conduct oversight of conditions aboard the USS Abraham Lincoln and that the secretary of the Navy or the service chief should testify before lawmakers.",
+   "deck": "Direct quotation of a sitting member of Congress on an on-record broadcast.",
+   "quote": "\"We should have oversight,\" Bacon said on \"Face the Nation with Margaret Brennan.\"",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-15",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Acting Secretary of the Navy Hung Cao said in a post on X on Friday 14 August 2026 that the Lincoln \"will return home soon as part of a planned rotation\" and that a \"small number of mental health cases were treated with no loss of life.\"",
+   "deck": "An official's public characterisation of case numbers, not corroborated by released medical records.",
+   "quote": "Acting Secretary of the Navy Hung Cao said in a post on X on Friday that the Lincoln \"will return home soon as part of a planned rotation.\"",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-16",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "documented",
+   "title": "Democratic Sen. Richard Blumenthal wrote to Defense Secretary Pete Hegseth on Thursday 13 August 2026 calling for the Navy to account for conditions aboard the carrier, which he said has been deployed more than 250 days and has not come ashore in over 200 days.",
+   "deck": "A dated letter from a named senator, quoted directly; the existence and content of the letter are documented.",
+   "quote": "In a letter to Defense Secretary Pete Hegseth on Thursday, Democratic Sen. Richard Blumenthal called for the Navy to account for conditions aboard the carrier, which he said \"has been deployed more than 250 days\"",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-17",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Bacon said that in 1996, when the United States was not at war, he served aboard an aircraft carrier enforcing the southern no-fly zone over Iraq and that a couple of crew members jumped overboard and died by suicide during that deployment.",
+   "deck": "A public official's recollection of a 30-year-old deployment; no records cited to corroborate it.",
+   "quote": "\"We had a couple members jump overboard and commit suicide while I was on that deployment,\" Bacon said.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-18",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Family members of USS Abraham Lincoln crew told NPR in a report published 15 August 2026 that President Trump should be \"ashamed\" of conditions aboard the ship and that his \"not nearly long enough\" comment was shameful.",
+   "deck": "Attributed to unnamed relatives in a headline and short summary; no full text available in this cluster.",
+   "quote": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
+   "tier": "credible_allegation",
+   "confidence": 0.45,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.45, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "t": "news",
+     "c": "0.45"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-19",
+   "kind": "wire",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "stamp": "open",
+   "title": "Cooper said in his statement that the Lincoln crew is \"a strong team of high-achieving Americans\" and that history will record the deployment as one of the most operationally intense and consequential of the modern era.",
+   "deck": "Quoted verbatim from Cooper's written statement, but the assessment itself is the commander's characterisation.",
+   "quote": "History will record this deployment as one of the most operationally intense and consequential of the modern era,",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
+}

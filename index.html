@@ -365,7 +365,7 @@ p.body:first-letter{}
      <a href="llms.txt">llms.txt</a></p>
 </div></footer>
 
-<script src="data.js"></script>
+<script src="data.js?v=05d3b9c8fe23"></script>
 <script>
 "use strict";
 const D = window.DZ || {beats:[],items:[],questions:[],triggers:[],contradictions:[],
@@ -424,7 +424,7 @@ const ROUTES = [
   {id:"stand",  path:"/standing", label:"Standing record",
    n:() => D.questions.length + D.triggers.length + D.contradictions.length},
   {id:"held",   path:"/held",     label:"Withheld",
-   n:() => HELD.length + OMISSIONS.length + REFUSED_N + UNPUB.length},
+   n:() => HELD.length + OMISSIONS.length + REFUSED_N},
   {id:"method", path:"/method",   label:"Method"},
   {id:"api",    path:"/api",      label:"Agent API"},
 ];

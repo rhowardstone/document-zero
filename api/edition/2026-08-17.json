@@ -1,5 +1,4 @@
-/* generated from the ledger — do not edit by hand */
-window.DZ = {
+{
  "edition": {
   "n": "001",
   "date": "2026-08-17",
@@ -4955,4 +4954,4 @@ window.DZ = {
    "note": "Not published (None)"
   }
  ]
-};
+}

@@ -9,6 +9,7 @@ topic list within a quarter.
 from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import date
+import json
 import re
 
 OPEN_MIN_EVENTS = 3
@@ -71,6 +72,51 @@ def load_beats(path) -> list[Beat]:
     return [Beat(id=r["id"], name=r["name"], keywords=list(r.get("keywords", [])),
                  dossiers=tuple(r.get("dossiers", ())), types=tuple(r.get("types", ())))
             for r in rows]
+
+
+def beats_from_ledger(root) -> list[Beat]:
+    """The registry IS the ledger. Beats that open by themselves are found here.
+
+    v1 read the beat list from config/beats.yaml, so a beat that emerged from
+    the news did not exist as far as the renderer was concerned. On 2026-08-17
+    three articles passed the entailment gate, were stored under
+    beats/<slug>/articles/, and the front page rendered EMPTY — every one of
+    the three slugs was absent from a file typed weeks earlier.
+
+    That is the same defect as the twenty-two beats that could never open or
+    close, in its last hiding place: coverage decided by a static file rather
+    than by what the newsroom actually did.
+
+    Nothing here can fail loudly enough to lose a story. A beat with articles on
+    disk is returned even if its name is unreadable, because dropping the story
+    to protect the label is the wrong trade in both directions.
+    """
+    from pathlib import Path
+    root = Path(root)
+    bdir = root / "beats"
+    if not bdir.is_dir():
+        return []
+
+    # Slugs are lossy: "us-iran-war-and-hormuz-blockade" is not what a reader
+    # should be shown. The scout named the story in prose when it proposed it.
+    names: dict[str, str] = {}
+    pdir = root / "proposals"
+    if pdir.is_dir():
+        for f in sorted(pdir.glob("*.json")):      # date-prefixed: newest wins
+            try:
+                rec = json.loads(f.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                continue   # unreadable metadata never costs us the story
+            if rec.get("slug") and rec.get("name"):
+                names[rec["slug"]] = rec["name"]
+
+    return [Beat(id=d.name, name=names.get(d.name, _readable(d.name)))
+            for d in sorted(bdir.iterdir()) if d.is_dir()]
+
+
+def _readable(slug: str) -> str:
+    """A last-resort display name. Never show a reader raw machine text."""
+    return slug.replace("-", " ").strip().capitalize() or slug
 
 
 def load_beat_meta(path) -> dict:

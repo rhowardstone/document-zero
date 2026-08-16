@@ -14,7 +14,9 @@ import re
 from pathlib import Path
 
 from . import paths as P
-from .beats import load_beats
+from .beats import beats_from_ledger, load_beats
+from .masthead import decide, masthead
+from .lead import order as lead_first
 
 STATUS_MOVED = "moved"
 STATUS_QUIET = "quiet"
@@ -64,7 +66,13 @@ def _read(p: Path):
 def build(ledger_root, beats_config: str, day: str) -> dict:
     """Project the ledger into the site's data object."""
     root = Path(ledger_root)
-    beats = load_beats(beats_config)
+    # Config beats are legacy: a hand-typed list that could never grow or
+    # shrink. The ledger is authoritative, and pass None for beats_config to
+    # use it alone — that is what production does. A config is still honoured
+    # so a beat can be seeded deliberately, but it can no longer HIDE one.
+    beats = list(load_beats(beats_config)) if beats_config else []
+    known = {b.id for b in beats}
+    beats += [b for b in beats_from_ledger(ledger_root) if b.id not in known]
     edition = _read(root / P.edition_path(day)) or {}
 
     # Which beats the edition touched, and how it placed them.
@@ -103,6 +111,13 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
             if art:
                 art = dict(art)
                 art["beat_name"] = b.name
+                # What the lead decision is made on. Counted here because this
+                # is where the beat's claims are already in hand, and recorded
+                # ON the article so the ordering is auditable from the page
+                # data rather than being an invisible property of the sort.
+                art["publishers"] = _distinct_publishers(
+                    [_source_of(c) for c in claims])
+                art["claims"] = len(claims)
                 articles.append(art)
         # Lane placement wins over emptiness. A beat whose agent failed has no
         # state, but it is NOT quiet — rendering it as quiet would make an
@@ -227,21 +242,38 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
         b["triggers"] = t_by_beat.get(b["id"], [])
 
     counts = edition.get("counts", {})
+    # Publication is decided from what actually passed the gate; see
+    # ledger/masthead.py. It used to be a literal false left over from the
+    # stub era, so a page with three verified articles told readers the
+    # editor had blocked publication.
+    _names = {b.id: b.name for b in beats}
+    _publish, _blocked = decide(articles,
+                                blocked=edition.get("publish_blocked_by"))
     return {
         # The publish state travels with the data so the page cannot imply it is
         # published when the editor blocked it.
-        "edition": {"n": "001", "date": day, "updated": "—", "next": "—",
-                    "publish": bool(edition.get("publish")),
-                    "blocked_by": edition.get("publish_blocked_by"),
+        # The masthead states only what the ledger supports; see
+        # ledger/edition.py. "—" used to be hardcoded here, which made a gap in
+        # our records indistinguishable from a value.
+        "edition": {"n": "001", "date": day,
+                    **masthead(articles, next_run=edition.get("next_run")),
+                    "publish": _publish, "blocked_by": _blocked,
                     "counts": counts},
         # Articles are what the page leads with. v1 led with a diff of state
         # fields, which is a database row rather than a story.
-        "articles": articles,
+        # Lead first. See ledger/lead.py — the slot is a judgement,
+        # and ordering by beat slug made it an accident.
+        "articles": lead_first(articles),
         # Beats that moved but whose article could not be published. They are
         # NOT refusals: the fact stands, only the prose failed. They render as
         # one-line entries, because a bare fact needs no prose to support it.
         "unpublishable": [
-            {"beat": u.get("beat"), "name": u.get("name") or u.get("beat"),
+            # The registry is authoritative for names. Editions used to carry a
+            # slug with its hyphens swapped for spaces, so the page showed
+            # readers "blanche doj independence and trump ballroom liti" — a
+            # truncated machine identifier presented as the name of a story.
+            {"beat": u.get("beat"),
+             "name": _names.get(u.get("beat")) or u.get("name") or u.get("beat"),
              "changed": u.get("changed", ""), "reason": u.get("reason", "")}
             for u in (edition.get("unpublishable") or [])],
         "dossiers": list(dossiers.values()),

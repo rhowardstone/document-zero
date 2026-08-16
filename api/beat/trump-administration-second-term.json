@@ -1,0 +1,100 @@
+{
+ "beat": {
+  "id": "trump-administration-second-term",
+  "name": "Trump administration second term",
+  "dossiers": [],
+  "types": [],
+  "status": "quiet",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-16",
+  "events": 20,
+  "summary": "20 claim(s) on record.",
+  "state": [
+   {
+    "k": "Colombian tariff suspension request",
+    "v": "Requested, unanswered",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "BBC subpoena bid for Trump family testimony",
+    "v": "Before a US court",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Trump's legal team",
+    "v": "Shrinking",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Indiana flood death toll",
+    "v": "6-7, varies by outlet",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Indiana federal emergency declaration",
+    "v": "Approved",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Private-sector hackback authority",
+    "v": "Memo signed",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Loran gasfield phase two",
+    "v": "Announced, not started",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Voter economic sentiment",
+    "v": "Majority say worse off",
+    "since": "2026-08-16",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 9 events over 20 days (GDELT: 21 days of coverage over 20d).",
+    "s": "20 claim(s) from 6 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "trump-administration-second-term-2026-08-16-00",
+   "trump-administration-second-term-2026-08-16-01",
+   "trump-administration-second-term-2026-08-16-02",
+   "trump-administration-second-term-2026-08-16-03",
+   "trump-administration-second-term-2026-08-16-04",
+   "trump-administration-second-term-2026-08-16-05",
+   "trump-administration-second-term-2026-08-16-06",
+   "trump-administration-second-term-2026-08-16-07",
+   "trump-administration-second-term-2026-08-16-08",
+   "trump-administration-second-term-2026-08-16-09",
+   "trump-administration-second-term-2026-08-16-10",
+   "trump-administration-second-term-2026-08-16-11",
+   "trump-administration-second-term-2026-08-16-12",
+   "trump-administration-second-term-2026-08-16-13",
+   "trump-administration-second-term-2026-08-16-14",
+   "trump-administration-second-term-2026-08-16-15",
+   "trump-administration-second-term-2026-08-16-16",
+   "trump-administration-second-term-2026-08-16-17",
+   "trump-administration-second-term-2026-08-16-18",
+   "trump-administration-second-term-2026-08-16-19"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

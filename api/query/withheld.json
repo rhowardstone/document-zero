@@ -5,12 +5,12 @@
  "count": 0,
  "results": [],
  "lane_counts": {
-  "wire": 1,
+  "wire": 3,
   "refused": 0,
   "holds": 0,
   "omissions": 0,
   "capped_out": 0,
   "dropped": 0,
-  "unpublishable": 1
+  "unpublishable": 9
  }
 }

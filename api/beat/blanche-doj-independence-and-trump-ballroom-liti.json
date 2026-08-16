@@ -1,0 +1,68 @@
+{
+ "beat": {
+  "id": "blanche-doj-independence-and-trump-ballroom-liti",
+  "name": "Blanche DOJ independence and Trump ballroom litigation",
+  "dossiers": [],
+  "types": [],
+  "status": "quiet",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-16",
+  "events": 12,
+  "summary": "12 claim(s) on record.",
+  "state": [
+   {
+    "k": "Supreme Court ballroom application",
+    "v": "Pending on emergency docket",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Ballroom construction",
+    "v": "Blocked by courts",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Blanche independence pledge",
+    "v": "Refused",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "FBI role in Guthrie investigation",
+    "v": "Assisting, not taking over",
+    "since": "2026-08-16",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 5 events over 18 days (GDELT: 19 days of coverage over 18d).",
+    "s": "12 claim(s) from 5 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-01",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-02",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-03",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-04",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-05",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-06",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-07",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-08",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

@@ -5,7 +5,7 @@
 > sources and a confidence capped by source type. Produced by AI agents and
 > not reviewed by a person before publication.
 
-Edition 001 · 2026-08-16 · 22 beats, 1 not quiet, 28 records.
+Edition 001 · 2026-08-17 · 12 beats, 3 not quiet, 124 records.
 
 ## Read this before you cite anything here
 
@@ -32,7 +32,7 @@ Edition 001 · 2026-08-16 · 22 beats, 1 not quiet, 28 records.
 - [Beat detail](https://doczero.epstein-data.com/api/beat/BEAT_ID.json): state, history, unknowns, records
 - [Records](https://doczero.epstein-data.com/api/records.json): every claim with full provenance
 - [Sources](https://doczero.epstein-data.com/api/sources.json): every source, and which beats and records cite it
-- [Edition](https://doczero.epstein-data.com/api/edition/2026-08-16.json): the whole day
+- [Edition](https://doczero.epstein-data.com/api/edition/2026-08-17.json): the whole day
 
 ## Ask a question
 
@@ -44,11 +44,11 @@ by; check the method before citing the number.
 - [What is unresolved, and which document would resolve it?](https://doczero.epstein-data.com/api/query/open-questions.json) — 4 result(s)
 - [Which beats rest entirely on one publisher?](https://doczero.epstein-data.com/api/query/single-publisher-beats.json) — 0 result(s)
 - [What kinds of source is the record actually built on?](https://doczero.epstein-data.com/api/query/source-types.json) — 2 result(s)
-- [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 23 result(s)
-- [Which published claims are stamped `open`?](https://doczero.epstein-data.com/api/query/tier-open.json) — 5 result(s)
-- [Every dated event on the record, chronologically.](https://doczero.epstein-data.com/api/query/timeline.json) — 15 result(s)
-- [Which published claims rest on a single REPORT that nothing else confirms?](https://doczero.epstein-data.com/api/query/uncorroborated.json) — 13 result(s)
-- [What does the record explicitly NOT establish?](https://doczero.epstein-data.com/api/query/unknowns.json) — 20 result(s)
+- [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 73 result(s)
+- [Which published claims are stamped `open`?](https://doczero.epstein-data.com/api/query/tier-open.json) — 51 result(s)
+- [Every dated event on the record, chronologically.](https://doczero.epstein-data.com/api/query/timeline.json) — 32 result(s)
+- [Which published claims rest on a single REPORT that nothing else confirms?](https://doczero.epstein-data.com/api/query/uncorroborated.json) — 124 result(s)
+- [What does the record explicitly NOT establish?](https://doczero.epstein-data.com/api/query/unknowns.json) — 0 result(s)
 - [What is due next, and what does non-response mean?](https://doczero.epstein-data.com/api/query/upcoming.json) — 3 result(s)
 - [What did not publish, and why?](https://doczero.epstein-data.com/api/query/withheld.json) — 0 result(s)
 
@@ -82,28 +82,18 @@ SELECT c.tier, c.confidence, s.source_type, s.source_name, c.claim_text
 
 ## Beats
 
-- [New Mexico v. the Justice Department](https://doczero.epstein-data.com/api/beat/nm-records.json): moved, 28 claim(s), last change 2026-08-14
-- [The regulatory agenda](https://doczero.epstein-data.com/api/beat/agenda.json): quiet, 0 claim(s), last change —
-- [DOJ compliance with the Transparency Act](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 2 claim(s), last change 2026-08-14
-- [Data centres & the grid](https://doczero.epstein-data.com/api/beat/datacentres.json): quiet, 0 claim(s), last change —
-- [Federal policing in the District](https://doczero.epstein-data.com/api/beat/dcpolice.json): quiet, 0 claim(s), last change —
-- [ICE detention conditions](https://doczero.epstein-data.com/api/beat/detention.json): quiet, 0 claim(s), last change —
-- [Banks, the Senate report, and Epstein's money](https://doczero.epstein-data.com/api/beat/epstein-banks.json): quiet, 0 claim(s), last change —
-- [The death and what it foreclosed](https://doczero.epstein-data.com/api/beat/epstein-death.json): quiet, 0 claim(s), last change —
-- [Institutions that hosted the abuse](https://doczero.epstein-data.com/api/beat/epstein-institutions.json): quiet, 0 claim(s), last change —
-- [The Epstein network and its enablers](https://doczero.epstein-data.com/api/beat/epstein-network.json): quiet, 0 claim(s), last change —
-- [Fed policy & the September decision](https://doczero.epstein-data.com/api/beat/fed.json): quiet, 0 claim(s), last change —
-- [Flock & plate-reader networks](https://doczero.epstein-data.com/api/beat/flock.json): quiet, 0 claim(s), last change —
-- [The Strait of Hormuz & the blockade](https://doczero.epstein-data.com/api/beat/hormuz.json): quiet, 0 claim(s), last change —
-- [Iran diplomacy & the ceasefire](https://doczero.epstein-data.com/api/beat/iran-diplo.json): quiet, 0 claim(s), last change —
-- [The Kennedy Center](https://doczero.epstein-data.com/api/beat/kennedy.json): quiet, 0 claim(s), last change —
-- [United States v. Mangione](https://doczero.epstein-data.com/api/beat/mangione.json): quiet, 0 claim(s), last change —
-- [Fuel & grocery prices](https://doczero.epstein-data.com/api/beat/prices.json): quiet, 0 claim(s), last change —
-- [Mid-decade redistricting](https://doczero.epstein-data.com/api/beat/redistricting.json): quiet, 0 claim(s), last change —
-- [State v. Robinson](https://doczero.epstein-data.com/api/beat/robinson.json): quiet, 0 claim(s), last change —
-- [The UK public inquiry](https://doczero.epstein-data.com/api/beat/uk-inquiry.json): quiet, 0 claim(s), last change —
-- [The childhood vaccine schedule](https://doczero.epstein-data.com/api/beat/vaccines.json): quiet, 0 claim(s), last change —
-- [The death of Nolan Wells](https://doczero.epstein-data.com/api/beat/wells.json): quiet, 0 claim(s), last change —
+- [Indiana record flooding and recovery](https://doczero.epstein-data.com/api/beat/indiana-record-flooding-august-2026.json): moved, 42 claim(s), last change 2026-08-17
+- [US–Iran war and Hormuz blockade](https://doczero.epstein-data.com/api/beat/us-iran-war-and-hormuz-blockade.json): moved, 45 claim(s), last change 2026-08-17
+- [USS Abraham Lincoln deployment conditions](https://doczero.epstein-data.com/api/beat/uss-abraham-lincoln-deployment-conditions.json): moved, 38 claim(s), last change 2026-08-17
+- [Blanche DOJ independence and Trump ballroom litigation](https://doczero.epstein-data.com/api/beat/blanche-doj-independence-and-trump-ballroom-liti.json): quiet, 12 claim(s), last change 2026-08-16
+- [Compliance](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 2 claim(s), last change 2026-08-14
+- [Democrats' 2028 primary calendar](https://doczero.epstein-data.com/api/beat/democrats-2028-primary-calendar.json): quiet, 16 claim(s), last change 2026-08-16
+- [Gaza ceasefire road map talks](https://doczero.epstein-data.com/api/beat/gaza-ceasefire-road-map-talks.json): quiet, 12 claim(s), last change 2026-08-16
+- [Korean Peninsula tensions and US-South Korea drills](https://doczero.epstein-data.com/api/beat/korean-peninsula-tensions-and-us-south-korea-dri.json): quiet, 8 claim(s), last change 2026-08-16
+- [Nm records](https://doczero.epstein-data.com/api/beat/nm-records.json): quiet, 28 claim(s), last change 2026-08-14
+- [Tropical Storm Lala in Hawaii](https://doczero.epstein-data.com/api/beat/tropical-storm-lala-in-hawaii.json): quiet, 8 claim(s), last change 2026-08-16
+- [Trump administration second term](https://doczero.epstein-data.com/api/beat/trump-administration-second-term.json): quiet, 20 claim(s), last change 2026-08-16
+- [Trump's executive actions and mounting pushback](https://doczero.epstein-data.com/api/beat/trump-s-executive-actions-and-mounting-pushback.json): quiet, 8 claim(s), last change 2026-08-16
 
 ## Provenance
 

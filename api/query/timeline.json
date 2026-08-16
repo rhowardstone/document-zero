@@ -2,112 +2,231 @@
  "query": "timeline",
  "question": "Every dated event on the record, chronologically.",
  "method": "every history row of every beat, sorted by date ascending. Sequence is the thing individual facts cannot show: a gap here, where other evidence says events occurred, is a finding rather than an absence.",
- "count": 15,
+ "count": 32,
  "results": [
   {
    "date": "2019-07-23",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Stand-down requested → state investigation paused on a federal promise.",
    "support": "Reported from records, Albuquerque Journal"
   },
   {
    "date": "2019-08-10",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Federal prosecution ended with the defendant's death. Stated rationale for the stand-down ceased to apply.",
    "support": "Contemporaneous reporting"
   },
   {
    "date": "2019-08-23",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Federal search of the property → declined for want of probable cause, 13 days after the defendant's death. Never conducted.",
    "support": "Complaint ¶30 n.6, citing EFTA00165502"
   },
   {
    "date": "2023-08-16",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Site ownership → San Rafael Ranch LLC at public auction; beneficial owner concealed.",
    "support": "Santa Fe New Mexican; The Real Deal"
   },
   {
    "date": "2026-02-17",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Beneficial owner revealed as the Huffines family after a street-name change and a tax contest.",
    "support": "The Real Deal"
   },
   {
    "date": "2026-02-19",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "State criminal probe → reopened following the January federal release.",
    "support": "Al Jazeera"
   },
   {
    "date": "2026-03-01",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Site searched by NMDOJ with State Police and K-9 units; excavation and altered substrate reported.",
    "support": "Newsweek; NMDOJ"
   },
   {
    "date": "2026-05-03",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Administrative exhaustion → formal Touhy request served, response sought by 11 May.",
    "support": "Exhibit 14"
   },
   {
    "date": "2026-06-01",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Truth commission → began, with subpoena power.",
    "support": "CNN"
   },
   {
    "date": "2026-07-14",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Stated grounds for refusal → overbreadth, Privacy Act, and the Epstein and Maxwell protective orders.",
    "support": "Complaint ¶¶74-76"
   },
   {
    "date": "2026-07-31",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Administrative exhaustion → Touhy request treated as denied.",
    "support": "Complaint ¶¶71-77"
   },
   {
    "date": "2026-08-05",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Federal suit → filed against DOJ and Blanche in D.D.C.",
    "support": "NBC News; PBS; Courthouse News"
   },
   {
    "date": "2026-08-05",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Federal suit → docketed 1:26-cv-02762-AHA before Judge Ali as APA review, not FOIA.",
    "support": "Docket, D.D.C."
   },
   {
    "date": "2026-08-14",
    "beat": "compliance",
-   "beat_name": "DOJ compliance with the Transparency Act",
+   "beat_name": "Compliance",
    "event": "Beat opened. A transparency statute is being cited as a reason to withhold.",
    "support": "2 claims from the New Mexico complaint"
   },
   {
    "date": "2026-08-14",
    "beat": "nm-records",
-   "beat_name": "New Mexico v. the Justice Department",
+   "beat_name": "Nm records",
    "event": "Beat re-established from the filed complaint and its exhibits, replacing news reporting as the source of record.",
    "support": "15 claims from 3 court documents"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+   "beat_name": "Blanche DOJ independence and Trump ballroom litigation",
+   "event": "Beat opened. 5 events over 18 days (GDELT: 19 days of coverage over 18d).",
+   "support": "12 claim(s) from 5 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "democrats-2028-primary-calendar",
+   "beat_name": "Democrats' 2028 primary calendar",
+   "event": "Beat opened. 7 events over 20 days (GDELT: 20 days of coverage over 20d).",
+   "support": "8 claim(s) from 4 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "democrats-2028-primary-calendar",
+   "beat_name": "Democrats' 2028 primary calendar",
+   "event": "Beat opened. 7 events over 20 days (GDELT: 21 days of coverage over 20d).",
+   "support": "8 claim(s) from 4 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "gaza-ceasefire-road-map-talks",
+   "beat_name": "Gaza ceasefire road map talks",
+   "event": "Beat opened. 5 events over 20 days (GDELT: 21 days of coverage over 20d).",
+   "support": "12 claim(s) from 5 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "indiana-record-flooding-august-2026",
+   "beat_name": "Indiana record flooding and recovery",
+   "event": "Beat opened. 9 events over 20 days (GDELT: 11 days of coverage over 20d).",
+   "support": "14 claim(s) from 8 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "indiana-record-flooding-august-2026",
+   "beat_name": "Indiana record flooding and recovery",
+   "event": "Beat opened. 10 events over 20 days (GDELT: 11 days of coverage over 20d).",
+   "support": "8 claim(s) from 7 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+   "beat_name": "Korean Peninsula tensions and US-South Korea drills",
+   "event": "Beat opened. 5 events over 20 days (GDELT: 19 days of coverage over 20d).",
+   "support": "8 claim(s) from 5 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "tropical-storm-lala-in-hawaii",
+   "beat_name": "Tropical Storm Lala in Hawaii",
+   "event": "Beat opened. 6 events over 5 days (GDELT: 6 days of coverage over 5d).",
+   "support": "8 claim(s) from 5 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "trump-administration-second-term",
+   "beat_name": "Trump administration second term",
+   "event": "Beat opened. 9 events over 20 days (GDELT: 21 days of coverage over 20d).",
+   "support": "20 claim(s) from 6 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "trump-s-executive-actions-and-mounting-pushback",
+   "beat_name": "Trump's executive actions and mounting pushback",
+   "event": "Beat opened. 13 events over 8 days (GDELT: 3 days of coverage over 8d).",
+   "support": "8 claim(s) from 8 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "us-iran-war-and-hormuz-blockade",
+   "beat_name": "US–Iran war and Hormuz blockade",
+   "event": "Beat opened. 9 events over 20 days (GDELT: 21 days of coverage over 20d).",
+   "support": "20 claim(s) from 9 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "us-iran-war-and-hormuz-blockade",
+   "beat_name": "US–Iran war and Hormuz blockade",
+   "event": "Beat opened. 11 events over 20 days (GDELT: 21 days of coverage over 20d).",
+   "support": "8 claim(s) from 11 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "uss-abraham-lincoln-deployment-conditions",
+   "beat_name": "USS Abraham Lincoln deployment conditions",
+   "event": "Beat opened. 6 events over 19 days (GDELT: 12 days of coverage over 19d).",
+   "support": "8 claim(s) from 4 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "uss-abraham-lincoln-deployment-conditions",
+   "beat_name": "USS Abraham Lincoln deployment conditions",
+   "event": "Beat opened. 7 events over 19 days (GDELT: 12 days of coverage over 19d).",
+   "support": "10 claim(s) from 4 newsroom(s)"
+  },
+  {
+   "date": "2026-08-17",
+   "beat": "indiana-record-flooding-august-2026",
+   "beat_name": "Indiana record flooding and recovery",
+   "event": "Beat opened. 10 events over 20 days (GDELT: 11 days of coverage over 20d).",
+   "support": "20 claim(s) from 8 newsroom(s)"
+  },
+  {
+   "date": "2026-08-17",
+   "beat": "us-iran-war-and-hormuz-blockade",
+   "beat_name": "US–Iran war and Hormuz blockade",
+   "event": "Beat opened. 10 events over 20 days (GDELT: 21 days of coverage over 20d).",
+   "support": "20 claim(s) from 9 newsroom(s)"
+  },
+  {
+   "date": "2026-08-17",
+   "beat": "uss-abraham-lincoln-deployment-conditions",
+   "beat_name": "USS Abraham Lincoln deployment conditions",
+   "event": "Beat opened. 7 events over 19 days (GDELT: 12 days of coverage over 19d).",
+   "support": "20 claim(s) from 4 newsroom(s)"
   }
  ]
 }

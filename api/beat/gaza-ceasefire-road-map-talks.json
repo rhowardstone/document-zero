@@ -1,0 +1,86 @@
+{
+ "beat": {
+  "id": "gaza-ceasefire-road-map-talks",
+  "name": "Gaza ceasefire road map talks",
+  "dossiers": [],
+  "types": [],
+  "status": "quiet",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-16",
+  "events": 12,
+  "summary": "12 claim(s) on record.",
+  "state": [
+   {
+    "k": "Gaza ceasefire",
+    "v": "Stalled",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Netanyahu position on 15-point road map",
+    "v": "Rejected, last week",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Kushner–Netanyahu meeting",
+    "v": "Set for Monday",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Hamas disarmament",
+    "v": "Not started",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Israeli withdrawal",
+    "v": "Not started",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Israeli strikes in Gaza",
+    "v": "Ongoing",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Cairo mediator track",
+    "v": "Egypt, Qatar, Turkey engaged",
+    "since": "2026-08-16",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 5 events over 20 days (GDELT: 21 days of coverage over 20d).",
+    "s": "12 claim(s) from 5 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "gaza-ceasefire-road-map-talks-2026-08-16-00",
+   "gaza-ceasefire-road-map-talks-2026-08-16-01",
+   "gaza-ceasefire-road-map-talks-2026-08-16-02",
+   "gaza-ceasefire-road-map-talks-2026-08-16-03",
+   "gaza-ceasefire-road-map-talks-2026-08-16-04",
+   "gaza-ceasefire-road-map-talks-2026-08-16-05",
+   "gaza-ceasefire-road-map-talks-2026-08-16-06",
+   "gaza-ceasefire-road-map-talks-2026-08-16-07",
+   "gaza-ceasefire-road-map-talks-2026-08-16-08",
+   "gaza-ceasefire-road-map-talks-2026-08-16-09",
+   "gaza-ceasefire-road-map-talks-2026-08-16-10",
+   "gaza-ceasefire-road-map-talks-2026-08-16-11"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

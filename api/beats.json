@@ -1,314 +1,113 @@
 {
- "count": 22,
+ "count": 12,
  "beats": [
   {
-   "id": "hormuz",
-   "name": "The Strait of Hormuz & the blockade",
+   "id": "blanche-doj-independence-and-trump-ballroom-liti",
+   "name": "Blanche DOJ independence and Trump ballroom litigation",
    "status": "quiet",
-   "dossiers": [
-    "iran",
-    "energy"
-   ],
-   "types": [
-    "conflict",
-    "market"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "iran-diplo",
-   "name": "Iran diplomacy & the ceasefire",
-   "status": "quiet",
-   "dossiers": [
-    "iran"
-   ],
-   "types": [
-    "conflict"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "fed",
-   "name": "Fed policy & the September decision",
-   "status": "quiet",
-   "dossiers": [
-    "econ"
-   ],
-   "types": [
-    "market"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "prices",
-   "name": "Fuel & grocery prices",
-   "status": "quiet",
-   "dossiers": [
-    "econ",
-    "iran"
-   ],
-   "types": [
-    "market"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "agenda",
-   "name": "The regulatory agenda",
-   "status": "quiet",
-   "dossiers": [
-    "power"
-   ],
-   "types": [
-    "reg"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "dossiers": [],
+   "types": [],
+   "events": 12,
+   "lastChange": "2026-08-16"
   },
   {
    "id": "compliance",
-   "name": "DOJ compliance with the Transparency Act",
+   "name": "Compliance",
    "status": "quiet",
-   "dossiers": [
-    "records",
-    "power"
-   ],
-   "types": [
-    "oversight",
-    "case"
-   ],
+   "dossiers": [],
+   "types": [],
    "events": 2,
    "lastChange": "2026-08-14"
   },
   {
-   "id": "kennedy",
-   "name": "The Kennedy Center",
+   "id": "democrats-2028-primary-calendar",
+   "name": "Democrats' 2028 primary calendar",
    "status": "quiet",
-   "dossiers": [
-    "power"
-   ],
-   "types": [
-    "inst",
-    "case"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "dossiers": [],
+   "types": [],
+   "events": 16,
+   "lastChange": "2026-08-16"
   },
   {
-   "id": "mangione",
-   "name": "United States v. Mangione",
+   "id": "gaza-ceasefire-road-map-talks",
+   "name": "Gaza ceasefire road map talks",
    "status": "quiet",
-   "dossiers": [
-    "violence",
-    "econ"
-   ],
-   "types": [
-    "case"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "dossiers": [],
+   "types": [],
+   "events": 12,
+   "lastChange": "2026-08-16"
   },
   {
-   "id": "robinson",
-   "name": "State v. Robinson",
-   "status": "quiet",
-   "dossiers": [
-    "violence"
-   ],
-   "types": [
-    "case"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "id": "indiana-record-flooding-august-2026",
+   "name": "Indiana record flooding and recovery",
+   "status": "moved",
+   "dossiers": [],
+   "types": [],
+   "events": 42,
+   "lastChange": "2026-08-17"
   },
   {
-   "id": "wells",
-   "name": "The death of Nolan Wells",
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri",
+   "name": "Korean Peninsula tensions and US-South Korea drills",
    "status": "quiet",
-   "dossiers": [
-    "account"
-   ],
-   "types": [
-    "death",
-    "oversight"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "flock",
-   "name": "Flock & plate-reader networks",
-   "status": "quiet",
-   "dossiers": [
-    "surv"
-   ],
-   "types": [
-    "tech"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "dcpolice",
-   "name": "Federal policing in the District",
-   "status": "quiet",
-   "dossiers": [
-    "account",
-    "immig"
-   ],
-   "types": [
-    "oversight"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "detention",
-   "name": "ICE detention conditions",
-   "status": "quiet",
-   "dossiers": [
-    "immig",
-    "account"
-   ],
-   "types": [
-    "oversight",
-    "death"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "vaccines",
-   "name": "The childhood vaccine schedule",
-   "status": "quiet",
-   "dossiers": [
-    "health",
-    "power"
-   ],
-   "types": [
-    "reg"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "redistricting",
-   "name": "Mid-decade redistricting",
-   "status": "quiet",
-   "dossiers": [
-    "elect"
-   ],
-   "types": [
-    "case"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "datacentres",
-   "name": "Data centres & the grid",
-   "status": "quiet",
-   "dossiers": [
-    "energy"
-   ],
-   "types": [
-    "tech"
-   ],
-   "events": 0,
-   "lastChange": "—"
-  },
-  {
-   "id": "epstein-network",
-   "name": "The Epstein network and its enablers",
-   "status": "quiet",
-   "dossiers": [
-    "records",
-    "account"
-   ],
-   "types": [
-    "oversight",
-    "case"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "dossiers": [],
+   "types": [],
+   "events": 8,
+   "lastChange": "2026-08-16"
   },
   {
    "id": "nm-records",
-   "name": "New Mexico v. the Justice Department",
-   "status": "moved",
-   "dossiers": [
-    "records",
-    "power"
-   ],
-   "types": [
-    "case",
-    "oversight"
-   ],
+   "name": "Nm records",
+   "status": "quiet",
+   "dossiers": [],
+   "types": [],
    "events": 28,
    "lastChange": "2026-08-14"
   },
   {
-   "id": "epstein-banks",
-   "name": "Banks, the Senate report, and Epstein's money",
+   "id": "tropical-storm-lala-in-hawaii",
+   "name": "Tropical Storm Lala in Hawaii",
    "status": "quiet",
-   "dossiers": [
-    "records",
-    "econ"
-   ],
-   "types": [
-    "oversight",
-    "market"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "dossiers": [],
+   "types": [],
+   "events": 8,
+   "lastChange": "2026-08-16"
   },
   {
-   "id": "uk-inquiry",
-   "name": "The UK public inquiry",
+   "id": "trump-administration-second-term",
+   "name": "Trump administration second term",
    "status": "quiet",
-   "dossiers": [
-    "records",
-    "elect"
-   ],
-   "types": [
-    "oversight",
-    "inst"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "dossiers": [],
+   "types": [],
+   "events": 20,
+   "lastChange": "2026-08-16"
   },
   {
-   "id": "epstein-institutions",
-   "name": "Institutions that hosted the abuse",
+   "id": "trump-s-executive-actions-and-mounting-pushback",
+   "name": "Trump's executive actions and mounting pushback",
    "status": "quiet",
-   "dossiers": [
-    "records",
-    "account"
-   ],
-   "types": [
-    "oversight",
-    "case"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "dossiers": [],
+   "types": [],
+   "events": 8,
+   "lastChange": "2026-08-16"
   },
   {
-   "id": "epstein-death",
-   "name": "The death and what it foreclosed",
-   "status": "quiet",
-   "dossiers": [
-    "records"
-   ],
-   "types": [
-    "death",
-    "oversight"
-   ],
-   "events": 0,
-   "lastChange": "—"
+   "id": "us-iran-war-and-hormuz-blockade",
+   "name": "US–Iran war and Hormuz blockade",
+   "status": "moved",
+   "dossiers": [],
+   "types": [],
+   "events": 45,
+   "lastChange": "2026-08-17"
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions",
+   "name": "USS Abraham Lincoln deployment conditions",
+   "status": "moved",
+   "dossiers": [],
+   "types": [],
+   "events": 38,
+   "lastChange": "2026-08-17"
   }
  ]
 }

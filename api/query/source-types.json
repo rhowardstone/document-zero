@@ -5,12 +5,12 @@
  "count": 2,
  "results": [
   {
-   "source_type": "documentation",
-   "sources": 15
+   "source_type": "news",
+   "sources": 94
   },
   {
-   "source_type": "news",
-   "sources": 13
+   "source_type": "misc",
+   "sources": 30
   }
  ]
 }

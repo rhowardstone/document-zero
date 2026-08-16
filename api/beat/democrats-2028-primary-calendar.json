@@ -1,0 +1,83 @@
+{
+ "beat": {
+  "id": "democrats-2028-primary-calendar",
+  "name": "Democrats' 2028 primary calendar",
+  "dossiers": [],
+  "types": [],
+  "status": "quiet",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-16",
+  "events": 16,
+  "summary": "16 claim(s) on record.",
+  "state": [
+   {
+    "k": "Leadoff state",
+    "v": "South Carolina, voting Jan. 22, 2028",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Second state",
+    "v": "Nevada, voting Feb. 1",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Iowa's position",
+    "v": "pushed from the traditional top spot",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Party split over socialism",
+    "v": "under debate; subject of a CBS News poll",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Congressional Democrats' response to Trump transparency push",
+    "v": "unresolved — still being weighed",
+    "since": "2026-08-16",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 7 events over 20 days (GDELT: 20 days of coverage over 20d).",
+    "s": "8 claim(s) from 4 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 7 events over 20 days (GDELT: 21 days of coverage over 20d).",
+    "s": "8 claim(s) from 4 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "democrats-2028-calendar-and-party-direction-2026-08-16-00",
+   "democrats-2028-calendar-and-party-direction-2026-08-16-01",
+   "democrats-2028-calendar-and-party-direction-2026-08-16-02",
+   "democrats-2028-calendar-and-party-direction-2026-08-16-03",
+   "democrats-2028-calendar-and-party-direction-2026-08-16-04",
+   "democrats-2028-calendar-and-party-direction-2026-08-16-05",
+   "democrats-2028-calendar-and-party-direction-2026-08-16-06",
+   "democrats-2028-calendar-and-party-direction-2026-08-16-07",
+   "democrats-2028-primary-calendar-2026-08-16-00",
+   "democrats-2028-primary-calendar-2026-08-16-01",
+   "democrats-2028-primary-calendar-2026-08-16-02",
+   "democrats-2028-primary-calendar-2026-08-16-03",
+   "democrats-2028-primary-calendar-2026-08-16-04",
+   "democrats-2028-primary-calendar-2026-08-16-05",
+   "democrats-2028-primary-calendar-2026-08-16-06",
+   "democrats-2028-primary-calendar-2026-08-16-07"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

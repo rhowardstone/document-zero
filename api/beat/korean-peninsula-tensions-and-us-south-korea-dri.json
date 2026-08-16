@@ -1,0 +1,64 @@
+{
+ "beat": {
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "name": "Korean Peninsula tensions and US-South Korea drills",
+  "dossiers": [],
+  "types": [],
+  "status": "quiet",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-16",
+  "events": 8,
+  "summary": "8 claim(s) on record.",
+  "state": [
+   {
+    "k": "Status of US-South Korea joint exercises",
+    "v": "Trump has ordered the Pentagon to scale them back; drills had been slated to begin this week",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Inter-Korean talks",
+    "v": "South Korean President Lee has proposed talks; Pyongyang reported to have snubbed the proposal",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Armistice / peace treaty status",
+    "v": "Still an armistice; Lee is urging it be replaced with peace",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Incidents at the Military Demarcation Line",
+    "v": "South Korea says it fired warning shots after North Korean soldiers briefly crossed",
+    "since": "2026-08-16",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 5 events over 20 days (GDELT: 19 days of coverage over 20d).",
+    "s": "8 claim(s) from 5 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-01",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-02",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-03",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-04",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-05",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-06",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

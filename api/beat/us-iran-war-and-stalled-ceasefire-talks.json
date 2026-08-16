@@ -1,0 +1,94 @@
+{
+ "beat": {
+  "id": "us-iran-war-and-stalled-ceasefire-talks",
+  "name": "US-Iran war and stalled ceasefire talks",
+  "dossiers": [],
+  "types": [],
+  "status": "quiet",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-16",
+  "events": 8,
+  "summary": "8 claim(s) on record.",
+  "state": [
+   {
+    "k": "US-Iran MoU / ceasefire status",
+    "v": "still in force, approaching expiration",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Negotiation status",
+    "v": "stalled; Iran reports no progress",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Strait of Hormuz status",
+    "v": "disrupted by tanker attacks; UAE urging reopening",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "UAE tankers attacked in past week",
+    "v": "three",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "US carrier presence in Asia/Pacific",
+    "v": "none once USS George Washington departs",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Carrier assigned to the Middle East",
+    "v": "USS Abraham Lincoln, to be replaced by USS George Washington",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "New US economic penalties on Iran",
+    "v": "being readied, not yet imposed",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "US visas revoked from foreign nationals",
+    "v": "hundreds of thousands",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Oil price direction",
+    "v": "rising after Hormuz tanker attack",
+    "since": "2026-08-16",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 11 events over 20 days (GDELT: 21 days of coverage over 20d).",
+    "s": "8 claim(s) from 11 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-00",
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-01",
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-02",
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-03",
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-04",
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-05",
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-06",
+   "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-07"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

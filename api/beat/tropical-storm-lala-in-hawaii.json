@@ -1,0 +1,82 @@
+{
+ "beat": {
+  "id": "tropical-storm-lala-in-hawaii",
+  "name": "Tropical Storm Lala in Hawaii",
+  "dossiers": [],
+  "types": [],
+  "status": "quiet",
+  "opened": "2026-08-16",
+  "lastChange": "2026-08-16",
+  "events": 8,
+  "summary": "8 claim(s) on record.",
+  "state": [
+   {
+    "k": "Storm classification",
+    "v": "tropical storm as of Sunday, downgraded from hurricane",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Search-and-rescue status",
+    "v": "operation underway in Ka‘ū District after homes swept off foundations",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Homes damaged",
+    "v": "at least 100",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Power outages",
+    "v": "thousands without power",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "School closures",
+    "v": "2 schools on Hawaii Island closed",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Areas under active impact",
+    "v": "Big Island, parts of Maui County and Oʻahu",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Casualties",
+    "v": "none reported in this cluster",
+    "since": "2026-08-16",
+    "flag": null
+   }
+  ],
+  "history": [
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 6 events over 5 days (GDELT: 6 days of coverage over 5d).",
+    "s": "8 claim(s) from 5 newsroom(s)"
+   }
+  ],
+  "changes": [],
+  "added": [],
+  "removed": [],
+  "unchanged": 0,
+  "unknown": [],
+  "items": [
+   "tropical-storm-lala-in-hawaii-2026-08-16-00",
+   "tropical-storm-lala-in-hawaii-2026-08-16-01",
+   "tropical-storm-lala-in-hawaii-2026-08-16-02",
+   "tropical-storm-lala-in-hawaii-2026-08-16-03",
+   "tropical-storm-lala-in-hawaii-2026-08-16-04",
+   "tropical-storm-lala-in-hawaii-2026-08-16-05",
+   "tropical-storm-lala-in-hawaii-2026-08-16-06",
+   "tropical-storm-lala-in-hawaii-2026-08-16-07"
+  ],
+  "questions": [],
+  "triggers": []
+ },
+ "records": []
+}

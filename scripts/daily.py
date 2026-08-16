@@ -146,10 +146,20 @@ def main() -> int:
                    "capped_out": 0, "dropped": 0, "unpublishable": len(failed)},
         "unpublishable": [{"beat": b, "name": b, "changed": "", "reason": why}
                           for b, why in failed],
-        "publish": False, "publish_blocked_by": "dry_run"})
+        # Publication is decided in ledger/edition.py from what actually
+        # passed the gate. It was hardcoded false here since the stub era.
+        "publish": None, "publish_blocked_by": None})
 
-    data = build(LEDGER, str(ROOT / "config/beats.yaml"), args.day)
+    data = build(LEDGER, None, args.day)   # the ledger is the registry
     write_data_js(data, ROOT / "data.js")
+    # Point index.html at a data URL unique to this edition. Cloudflare caches
+    # .js for four hours regardless of the origin's `expires -1`, which served
+    # readers a masthead from today over stories from yesterday.
+    from ledger.cachebust import stamp
+    idx = ROOT / "index.html"
+    idx.write_text(stamp(idx.read_text(encoding="utf-8"),
+                         (ROOT / "data.js").read_text(encoding="utf-8")),
+                   encoding="utf-8")
     publish(data, ROOT, base_url="https://doczero.epstein-data.com")
     compile_db(LEDGER, ROOT / "newsdesk.db")
     print(f"  {len(data['articles'])} article(s) on the front page")

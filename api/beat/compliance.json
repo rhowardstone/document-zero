@@ -1,15 +1,9 @@
 {
  "beat": {
   "id": "compliance",
-  "name": "DOJ compliance with the Transparency Act",
-  "dossiers": [
-   "records",
-   "power"
-  ],
-  "types": [
-   "oversight",
-   "case"
-  ],
+  "name": "Compliance",
+  "dossiers": [],
+  "types": [],
   "status": "quiet",
   "opened": "2026-08-14",
   "lastChange": "2026-08-14",

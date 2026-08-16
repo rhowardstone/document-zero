@@ -36,31 +36,31 @@
   {
    "query": "tier-documented",
    "question": "Which published claims are stamped `documented`?",
-   "count": 23,
+   "count": 73,
    "url": "https://doczero.epstein-data.com/api/query/tier-documented.json"
   },
   {
    "query": "tier-open",
    "question": "Which published claims are stamped `open`?",
-   "count": 5,
+   "count": 51,
    "url": "https://doczero.epstein-data.com/api/query/tier-open.json"
   },
   {
    "query": "timeline",
    "question": "Every dated event on the record, chronologically.",
-   "count": 15,
+   "count": 32,
    "url": "https://doczero.epstein-data.com/api/query/timeline.json"
   },
   {
    "query": "uncorroborated",
    "question": "Which published claims rest on a single REPORT that nothing else confirms?",
-   "count": 13,
+   "count": 124,
    "url": "https://doczero.epstein-data.com/api/query/uncorroborated.json"
   },
   {
    "query": "unknowns",
    "question": "What does the record explicitly NOT establish?",
-   "count": 20,
+   "count": 0,
    "url": "https://doczero.epstein-data.com/api/query/unknowns.json"
   },
   {
