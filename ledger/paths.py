@@ -12,6 +12,7 @@ SOURCES = "sources"
 CLAIMS = "claims"
 BEATS = "beats"
 EDITIONS = "editions"
+PROPOSALS = "proposals"
 SHARED = ("questions", "triggers", "contradictions", "editions", "_index")
 
 
@@ -48,6 +49,10 @@ def owned_prefixes(writer: str) -> tuple[str, ...]:
     what stops beat 'fed' from owning 'federal-policing'."""
     if writer == "ingest":
         return (f"{SOURCES}/",)
+    if writer == "scout":
+        # Proposals only — including the rejected ones. The scout may not open a
+        # beat by writing its state; it may only propose, and the editor decides.
+        return (f"{PROPOSALS}/",)
     if writer == "editor":
         return tuple(f"{s}/" for s in SHARED)
     if writer.startswith("beat:"):
