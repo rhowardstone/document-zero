@@ -60,6 +60,14 @@ jobs:
             *)                 echo "unsigned commit — human change, not checked"; exit 0 ;;
           esac
 
+          # Standards.md is the constitution: human-owned, no routine writes it.
+          # It must not sit in the writable scope of the routine that reads the
+          # untrusted wire, guarded only by attention on a boring daily PR.
+          if echo "$files" | grep -qE '^Standards\.md$'; then
+            echo "PARTITION VIOLATION: Standards.md is human-owned"
+            exit 1
+          fi
+
           bad=$(echo "$files" | grep -vE "$allow" || true)
           if [ -n "$bad" ]; then
             echo "PARTITION VIOLATION: this routine may only write $allow"

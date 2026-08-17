@@ -15,7 +15,7 @@ If nothing has moved anywhere, write no issue at all.
 ## Whether to write at all
 
 **1. Read `beats.yaml`** (the roster, including each beat's deadlines) and
-`Beats.md` (the rules), then find the most recent file in `Deltas/`. That file's date
+`Standards.md` (the rules), then find the most recent file in `Deltas/`. That file's date
 is your window's start; if `Deltas/` is empty, use the past seven days.
 
 **2. Work out which beats are due.** A beat is due if any field it tracks changed

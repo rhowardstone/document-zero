@@ -24,7 +24,8 @@ OK = {
         {"slug": "nm-records", "name": "New Mexico v. DOJ", "desk": "justice",
          "tier": "standing", "opened": "2026-08-14",
          "fields": ["Federal suit", "Records sought"],
-         "deadlines": [{"date": "2026-09-05", "what": "Response due"}]},
+         "deadlines": [{"date": "2026-09-05", "what": "Response due",
+                        "authority": "D.D.C. docket"}]},
         {"slug": "hormuz", "name": "Hormuz blockade", "desk": "foreign",
          "tier": "watch", "opened": "2026-08-16",
          "fields": ["Shipping", "Oil price"]},
@@ -131,3 +132,33 @@ def test_a_missing_beats_key_is_an_error():
 def test_malformed_yaml_raises_rather_than_returning_clean():
     with pytest.raises(LintError):
         lint("not a mapping")
+
+
+# ── Clock-derived fields ────────────────────────────────────────────────────
+
+def test_an_unmarked_ticking_field_is_rejected():
+    """"Days at sea" increments by definition, so the beat is due in every issue
+    forever — permanently inflating the delta's threshold and destroying the
+    adaptive cadence it exists for. The roster blessed this as a model field."""
+    b = bad(**{"0": {"fields": ["Federal suit", "Days at sea"]}})
+    assert any("clock-derived" in e for e in lint(b))
+
+
+def test_a_marked_clock_field_is_allowed_but_does_not_count():
+    """Keep it if a reader wants it. It just cannot be the thing that makes the
+    beat due, so it does not count toward the two-field minimum."""
+    b = bad(**{"0": {"fields": [{"name": "Days at sea", "clock": True},
+                                "Federal suit"]}})
+    assert any("non-clock" in e for e in lint(b))
+
+    ok = bad(**{"0": {"fields": [{"name": "Days at sea", "clock": True},
+                                 "Federal suit", "Records sought"]}})
+    assert lint(ok) == []
+
+
+def test_a_deadline_without_an_authority_is_rejected():
+    """"The deadline passed with nothing filed" is unverifiable unless somebody
+    knows which record to check. A search failing to find a filing is not
+    evidence that none exists."""
+    b = bad(**{"0": {"deadlines": [{"date": "2026-09-05", "what": "Response due"}]}})
+    assert any("authority" in e for e in lint(b))

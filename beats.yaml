@@ -1,8 +1,8 @@
 # The roster, as machine-readable state.
 #
-# Beats.md is the editorial guide: the rules, the sources, how to write. THIS
+# Standards.md is the editorial constitution: the rules, the sources, how to write. THIS
 # file is the state those rules operate on. They were one file, and that was a
-# blocker: Beats.md described beats in prose under "Standing beats" and never
+# blocker: the roster described beats in prose under "Standing beats" and never
 # named a desk, while desk.md said "your desk's beats are listed under your
 # name" and treated finding none as a normal outcome. Every desk would have
 # halted silently, every day, and because empty runs are silent nothing would
@@ -15,13 +15,57 @@
 
 desks: [justice, foreign, politics, disaster]
 
+# Per-desk feeds, so a researcher reads what is relevant to its beat instead of
+# wading through every feed in the building. Publisher-direct: an aggregator
+# wrapper hides the real publisher, which has misclassified a source three times.
+sources:
+  all:
+    - https://feeds.bbci.co.uk/news/world/rss.xml
+    - https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml
+    - https://www.independent.co.uk/news/world/rss
+    - https://www.latimes.com/world-nation/rss2.0.xml
+    - https://feeds.npr.org/1001/rss.xml
+    - https://www.pbs.org/newshour/feeds/rss/headlines
+  justice:
+    - https://www.courthousenews.com/feed/
+    - https://www.propublica.org/feeds/propublica/main
+    - https://rss.politico.com/politics-news.xml
+    # Discovery only. Open and cite the underlying publisher, never the wrapper.
+    - https://epstein-data.com/api/corpus/news?limit=200
+  foreign:
+    - https://www.aljazeera.com/xml/rss/all.xml
+    - https://feeds.npr.org/1004/rss.xml
+    - https://www.theguardian.com/us-news/rss
+  politics:
+    - https://rss.politico.com/whitehouse.xml
+    - https://thehill.com/news/feed/
+    - https://feeds.npr.org/1014/rss.xml
+    - https://feeds.npr.org/1017/rss.xml
+    - https://feeds.nbcnews.com/nbcnews/public/news
+    - https://www.cbsnews.com/latest/rss/main
+  disaster:
+    # Primary agency feeds beat any newspaper for beats whose fields are literally
+    # river stage, storm status and warnings in effect. The disaster desk had no
+    # sources at all, which is why its researchers were reading wire copy about
+    # water levels instead of the gauge.
+    - https://www.nhc.noaa.gov/index-at.xml            # National Hurricane Center
+    - https://www.nhc.noaa.gov/index-ep.xml            # NHC, eastern Pacific
+    - https://alerts.weather.gov/cap/us.php?x=0        # NWS active alerts
+    - https://waterservices.usgs.gov/nwis/iv/          # USGS river gauges (query per site)
+    - https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries
+
 # `tier`     standing = check every run. watch = may have gone quiet; cover it
 #            if it moved, and let the scout retire it when it stops.
 # `fields`   what the beat tracks. Must be about the WORLD, never about our
 #            records: "Death toll" is a field, "Most recent claim" is not.
 #            At least two, or the beat fails the beat test.
+# `clock`    a field that increments by definition — days elapsed, time until.
+#            NEVER counts as movement: a beat resting on one is due in every
+#            issue forever, which destroys the delta's adaptive cadence. Keep it
+#            if a reader wants it; never let the clock turning over be an event.
 # `deadlines` dated obligations. A date passing with nothing filed is news, and
-#            it fires a delta issue on its own.
+#            it fires a delta issue on its own. `authority` names where absence
+#            must be checked, which is what makes the claim verifiable at all.
 # `opened`   ISO date. Used to compute the thirty-day retirement clock.
 
 beats:
@@ -43,13 +87,20 @@ beats:
         why: >-
           Where the protective-order and Privacy Act grounds must be defended on
           the record. Non-response is itself recordable.
+        authority: D.D.C. docket, No. 1:26-cv-02762-AHA
       - date: 2026-09-15
         what: New Mexico truth commission subpoena returns
         why: Began 1 June 2026 with subpoena power over the Zorro Ranch period.
+        authority: New Mexico truth commission public filings
       - date: 2026-11-03
         what: Texas Comptroller election
         why: The property's owner is a candidate; the office oversees state finances.
+        authority: Texas Secretary of State election returns
 
+  # Split from blanche-doj-independence-and-trump-ballroom-liti, which yoked DOJ
+  # independence to White House ballroom construction. Shared entities beyond
+  # "the administration": none — precisely what scout.md says identifies nothing.
+  # Slug retained on the surviving half so its published history is not orphaned.
   - slug: blanche-doj-independence-and-trump-ballroom-liti
     name: DOJ independence under Attorney General Blanche
     desk: justice
@@ -60,8 +111,18 @@ beats:
       - Pledge of DOJ independence
       - $1.8bn anti-weaponization fund
       - Voter-roll litigation
-      - White House ballroom construction
-      - Supreme Court application on ballroom
+      - Political-case referrals
+
+  - slug: white-house-ballroom-litigation
+    name: White House ballroom construction litigation
+    desk: justice
+    tier: standing
+    opened: 2026-08-17
+    fields:
+      - Construction status
+      - District court posture
+      - Supreme Court application
+      - Named plaintiffs
 
   - slug: compliance
     name: DOJ compliance with the Transparency Act
@@ -92,8 +153,12 @@ beats:
     tier: standing
     opened: 2026-08-16
     fields:
-      - Days at sea
-      - Days since last port call
+      # Clock-derived: increments by definition, so it can never fail to change.
+      # Displayed to a reader, never counted as movement.
+      - name: Days at sea
+        clock: true
+      - name: Days since last port call
+        clock: true
       - Relief carrier
       - Carriers in Middle East
       - Carriers in Pacific
@@ -135,7 +200,7 @@ beats:
       - Republican disapproval
       - Generic midterm ballot
       - Third-term posture
-      - BBC Panorama suit
+      - Approval among independents
 
   - slug: democrats-2028-primary-calendar
     name: Democrats' 2028 calendar and party direction
@@ -146,24 +211,28 @@ beats:
       - 2028 leadoff primary state
       - Calendar approval status
       - Iowa's position
-      - Third Trump impeachment
-      - House oversight probes
+      - New Hampshire's position
 
-  - slug: trump-administration-second-term
-    name: Trump administration second term
-    desk: politics
+  # trump-administration-second-term was retired here: tariffs, subpoenas, legal
+  # staffing and hackback authority is a topic wearing a beat's clothes, and a
+  # story about any of them could file under three beats at once — pre-loading the
+  # duplicate-coverage finding the critic hunts. Its one component with coherent
+  # persistent state was the BBC subpoena fight, which is litigation:
+  - slug: bbc-panorama-subpoena-fight
+    name: BBC Panorama suit and the subpoena bid
+    desk: justice
     tier: standing
-    opened: 2026-08-14
+    opened: 2026-08-17
     fields:
-      - Colombian tariff suspension request
-      - BBC subpoena bid for Trump family testimony
-      - Trump's legal team
-      - Private-sector hackback authority
+      - Subpoenas sought
+      - US court posture
+      - Trump family testimony
+      - BBC position
 
   - slug: indiana-record-flooding-august-2026
     name: Indiana record flooding and recovery
     desk: disaster
-    tier: watch
+    tier: watch          # event-driven: closes after 10 quiet days, not 30
     opened: 2026-08-16
     fields:
       - Death toll
@@ -176,7 +245,7 @@ beats:
   - slug: tropical-storm-lala-in-hawaii
     name: Hurricane Lala's Hawaii aftermath
     desk: disaster
-    tier: watch
+    tier: watch          # event-driven: closes after 10 quiet days, not 30
     opened: 2026-08-16
     fields:
       - Storm status

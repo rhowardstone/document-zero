@@ -22,9 +22,16 @@ TIERS = ("standing", "watch")
 MIN_FIELDS = 2
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
-# Fields that describe our own bookkeeping rather than the world. A reader
-# learns nothing from them, and they can never fail to change, so a beat resting
-# on them looks alive forever.
+# Fields that increment by definition. A beat resting on one is due in every
+# issue forever, which permanently inflates the delta's "three beats are due"
+# threshold and destroys the adaptive cadence the delta exists for.
+CLOCK_DERIVED = re.compile(
+    r"(?i)^(days?|weeks?|months?|years?|hours?|time) (at|since|until|to|in|"
+    r"elapsed|remaining)\b|\b(days?|weeks?|months?) (elapsed|remaining|so far)\b"
+    r"|^time (to|until)\b")
+
+# Fields describing our own bookkeeping rather than the world. A reader learns
+# nothing from them, and they can never fail to change.
 SELF_REFERENTIAL = re.compile(
     r"(?i)\b(most recent|last updated|claims? on record|number of (sources?|"
     r"claims?|articles?)|record count|our records|latest claim|entries)\b")
@@ -83,13 +90,36 @@ def lint(doc) -> list:
         if tier not in TIERS:
             errs.append(f"{where}: tier {tier!r} is not one of {list(TIERS)}")
 
-        fields = [str(f) for f in (b.get("fields") or [])]
-        if len(fields) < MIN_FIELDS:
-            errs.append(f"{where}: {len(fields)} field(s); a beat needs at least "
-                        f"{MIN_FIELDS} that tomorrow's events could change")
-        for f in fields:
-            if SELF_REFERENTIAL.search(f):
-                errs.append(f"{where}: field {f!r} describes our own records, "
+        # A field is either a plain name, or a mapping carrying flags.
+        names, movable = [], 0
+        for f in (b.get("fields") or []):
+            if isinstance(f, dict):
+                nm = str(f.get("name") or "")
+                is_clock = bool(f.get("clock"))
+            else:
+                nm = str(f)
+                is_clock = bool(CLOCK_DERIVED.search(nm))
+                if is_clock:
+                    errs.append(
+                        f"{where}: field {nm!r} looks clock-derived but is not "
+                        "marked. Write it as {name: ..., clock: true} — an "
+                        "unmarked ticking field makes this beat due in every "
+                        "issue forever and destroys the delta's cadence")
+            if not nm:
+                errs.append(f"{where}: a field has no name")
+                continue
+            names.append(nm)
+            if not is_clock:
+                movable += 1
+
+        if movable < MIN_FIELDS:
+            errs.append(f"{where}: {movable} non-clock field(s); a beat needs at "
+                        f"least {MIN_FIELDS} that tomorrow's events could change "
+                        "AND that could fail to change. Clock fields increment by "
+                        "definition and never count")
+        for nm in names:
+            if SELF_REFERENTIAL.search(nm):
+                errs.append(f"{where}: field {nm!r} describes our own records, "
                             "not the world. It can never fail to change")
 
         opened = str(b.get("opened") or "")
@@ -106,6 +136,12 @@ def lint(doc) -> list:
                             "with no date can never lapse")
             if not str(d.get("what") or "").strip():
                 errs.append(f"{where}: deadline {j} has no description")
+            if not str(d.get("authority") or "").strip():
+                errs.append(f"{where}: deadline {j} has no `authority` — the "
+                            "record where absence must be checked. Without it, "
+                            "'the deadline passed with nothing filed' cannot be "
+                            "verified: a search failing to find a filing is not "
+                            "evidence that none exists")
 
     for d in desks:
         if d not in owned:

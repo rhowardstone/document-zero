@@ -23,7 +23,7 @@ cron entry  ─▶  desk instance  ─▶  researcher subagents (one per beat)
 
 | Routine | Cadence (ET) | Prompt | Writes |
 |---|---|---|---|
-| scout | daily 05:00 | `prompts/scout.md` | **PR only** — `Beats.md` |
+| scout | daily 05:00 | `prompts/scout.md` | **PR only** — `beats.yaml` |
 | justice desk | daily 06:00 | `prompts/desk.md` | `stories/justice/` |
 | foreign desk | daily 06:00 | `prompts/desk.md` | `stories/foreign/` |
 | politics desk | Mon, Thu 06:00 | `prompts/desk.md` | `stories/politics/` |
@@ -91,9 +91,9 @@ it does not own files an issue or opens a PR instead.
 
 | Routine | May write | May never write |
 |---|---|---|
-| scout | `Beats.md` (via PR) | anything on the site |
-| a desk | `stories/<desk>/` | another desk's stories, `Beats.md`, `editions/` |
-| editor | `editions/`, `index.html`, `data.js` | `stories/`, `Beats.md` |
+| scout | `beats.yaml`, `curation/` (via PR) | `Standards.md`, anything on the site |
+| a desk | `stories/<desk>/` | another desk's stories, `Standards.md`, `editions/` |
+| editor | `editions/`, `index.html`, `data.js` | `stories/`, `Standards.md` |
 | delta | `Deltas/`, `index.html` issue list | `stories/`, `editions/` |
 | critic | nothing | **everything** — it files issues |
 | courier | `Deltas/couriered.json` | the copy, everything else |
@@ -124,7 +124,14 @@ touched. If a routine misses its window the alarm fires from outside.
 
 ## The rules every routine inherits
 
-Read `Beats.md` first, every run. Two rules do the most work:
+Read `Standards.md` first, every run — it is the constitution, it is human-owned,
+and **no routine may write it.** Notably not the scout: the verification and
+privacy rules must not sit inside the writable scope of the routine whose job is
+reading the untrusted open wire, guarded only by attention on a boring daily PR.
+
+The two rules that do the most work are §2 (no process narration) and §3 (never
+render a failure to know as a fact). The routine prompts reference those sections
+rather than restating them, so the wording cannot drift.
 
 **No process narration.** The reader is not an engineer. Never publish what you
 could not reach or could not establish. The exception is the standing disclosure

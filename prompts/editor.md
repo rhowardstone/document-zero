@@ -17,7 +17,7 @@ and footer, never in the body of a story.
 
 ## Each run
 
-**1. Read `beats.yaml`** for the roster and desk assignments, and `Beats.md`
+**1. Read `beats.yaml`** for the roster and desk assignments, and `Standards.md`
 for the editorial rules.
 
 **2. Wait for the desks to finish.** Read `runs/<YYYY-MM-DD>/<desk>.json` for

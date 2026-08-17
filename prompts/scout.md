@@ -10,9 +10,9 @@ permanently empty, unable to discover a story or retire one.
 
 ## Each run
 
-**1. Read `beats.yaml` and `Beats.md`.** `beats.yaml` is the roster you propose to
+**1. Read `beats.yaml` and `Standards.md`.** `beats.yaml` is the roster you propose to
 change — machine state, linted in CI, one entry per beat naming its desk.
-`Beats.md` holds the beat test and the source list.
+`Standards.md` holds the beat test, the verification rules and the standards.
 
 **Check for an open PR from a previous run first.** If one exists and is
 unmerged, push your updates to that branch rather than opening a second. An
@@ -20,7 +20,7 @@ unmerged roster PR means you will re-read a roster that does not reflect reality
 tomorrow and propose nearly the same change again — three days of that is three
 reviews for one decision, which is the cost this prompt tells you to avoid.
 
-**2. Read the wire.** Every feed in `Beats.md`, plus
+**2. Read the wire.** Every feed in `beats.yaml` under `sources:`, plus
 `https://epstein-data.com/api/corpus/news?limit=200` for Epstein and transparency
 coverage — sort that client-side by `last_seen`, the default order is not
 chronological.
@@ -76,7 +76,7 @@ reconstruct a five-day history out of one morning's feeds every day, which the
 feeds cannot give you — a story that broke on Tuesday is not in Saturday's feed.
 Accumulate here and the test becomes measurable instead of reconstructive.
 
-**5. Apply the beat test.** From `Beats.md`, unchanged because it is correct:
+**5. Apply the beat test.** From `Standards.md` §10, unchanged because it is correct:
 
 - at least three events over at least five days, **or** one dated trigger, **and**
 - at least two fields tomorrow's events could plausibly change.

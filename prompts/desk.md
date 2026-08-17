@@ -23,9 +23,9 @@ operator reads. Never on the page.
 
 ## Each run
 
-**1. Read `beats.yaml` and `Beats.md`.** `beats.yaml` is the roster — machine
-state, one entry per beat, each naming the desk that owns it. `Beats.md` is the
-editorial guide: the beat test, the sources, the verification rules.
+**1. Read `beats.yaml` and `Standards.md`.** `beats.yaml` is the roster — machine
+state, one entry per beat, each naming the desk that owns it. `Standards.md` is the
+editorial constitution: the beat test, the sources, the verification rules.
 
 Your beats are the entries in `beats.yaml` whose `desk` equals your desk name.
 
@@ -60,7 +60,7 @@ previous value must be our own published record, because that is what the delta
 diffs against — not whatever number the newest article happens to mention.
 
 **3. Research each beat in parallel.** Spawn one research subagent per beat. Give
-each one: the beat's name and slug, the fields it tracks (from `Beats.md`), the
+each one: the beat's name and slug, the fields it tracks (from `beats.yaml`), the
 coverage window, the feed list, and instructions to deep-dive and report
 **structured findings, not prose**. You do the writing yourself once they all
 return — a subagent that writes its own section produces an issue with five
@@ -113,7 +113,7 @@ sources:
   - url: <url>
     publisher: <the real publisher, never an aggregator wrapper>
 changed:
-  - field: <field name from Beats.md>
+  - field: <field name from beats.yaml>
     was: <previous value, or omit if this is the first time>
     now: <current value>
     attested: <YYYY-MM-DD>
@@ -129,8 +129,7 @@ not a full sentence restating the lede.
     bad:  "The State of New Mexico has sued the Justice Department in federal
            court for unredacted Epstein records the department has withheld"
 
-**6. Write only what your sources carry.** The rules in `Beats.md` under
-"Verification" are binding. The two that catch the most errors:
+**6. Write only what your sources carry.** The rules in `Standards.md` §5 are binding. The two that catch the most errors:
 
 - **Never supply a link the sources don't make.** Joining two facts with "and
   its formal request" asserts one produced the other. If the sources don't say
@@ -223,5 +222,5 @@ commit message. Do not write a story that says the beat could not be researched,
 and do not write a thin story to fill the slot. Nothing published for that beat
 is the correct output; the reason lives in the commit message.
 
-If you cannot read `Beats.md`, stop and write nothing. Everything downstream
+If you cannot read `Standards.md`, stop and write nothing. Everything downstream
 depends on the roster being the roster.
