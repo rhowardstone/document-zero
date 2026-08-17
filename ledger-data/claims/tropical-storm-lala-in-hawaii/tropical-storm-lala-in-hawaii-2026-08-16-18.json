@@ -1,0 +1,14 @@
+{
+  "claim_text": "Alaska Airlines and Hawaiian Airlines cancelled 54 inter-island flights and 11 trans-Pacific flights on Saturday 15 August 2026 because of the storm, with five of the cancelled trans-Pacific flights to or from Kona.",
+  "quote": "Alaska Airlines and Hawaiian Airlines canceled 54 inter-island flights and 11 trans-Pacific flights Saturday because of the storm.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Carrier-level cancellation counts reported directly; the Kona detail appears in the following sentence of the same article.",
+  "source_sha": "2b9df40296af36c856f1cb913cc983a04a2a8b16edb79847319c14ae9415aa3e",
+  "source_url": "https://www.latimes.com/travel/story/2026-08-15/hurricane-lala-disrupts-los-angeles-flights-to-hawaii",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-18",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

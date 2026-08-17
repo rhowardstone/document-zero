@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rep. Sydney Kamlager-Dove of Los Angeles introduced articles of impeachment last week against White House budget director Russell Vought, arguing he broke the law when the administration canceled federal funding to Democratic states including California for political reasons.",
+  "quote": "Last week, Kamlager-Dove introduced articles of impeachment against Russell Vought, the White House budget director, arguing that he broke the law when the administration canceled federal funding to Democratic states including California for political reasons.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "A filed legislative action reported directly; the underlying allegation against Vought is the member's assertion.",
+  "source_sha": "1e2a29a4194ae38beb45c3a733358291123bb96480e7412e70835eb19d4926e9",
+  "source_url": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-14",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

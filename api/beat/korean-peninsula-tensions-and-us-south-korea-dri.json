@@ -1,36 +1,60 @@
 {
  "beat": {
   "id": "korean-peninsula-tensions-and-us-south-korea-dri",
-  "name": "Korean Peninsula tensions and US-South Korea drills",
+  "name": "US–South Korea joint drills dispute",
   "dossiers": [],
   "types": [],
-  "status": "quiet",
+  "status": "moved",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
-  "events": 8,
-  "summary": "8 claim(s) on record.",
+  "events": 20,
+  "summary": "20 claim(s) on record.",
   "state": [
    {
-    "k": "Status of US-South Korea joint exercises",
-    "v": "Trump has ordered the Pentagon to scale them back; drills had been slated to begin this week",
+    "k": "Ulchi Freedom Shield",
+    "v": "Due to begin Monday; ordered scaled back",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Inter-Korean talks",
-    "v": "South Korean President Lee has proposed talks; Pyongyang reported to have snubbed the proposal",
+    "k": "Seoul's stance on drills",
+    "v": "Proceeding as scheduled",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Armistice / peace treaty status",
-    "v": "Still an armistice; Lee is urging it be replaced with peace",
+    "k": "Pyongyang response to Trump order",
+    "v": "None yet",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Incidents at the Military Demarcation Line",
-    "v": "South Korea says it fired warning shots after North Korean soldiers briefly crossed",
+    "k": "North Korean missile testing",
+    "v": "Resumed; two tests this month",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Inter-Korean peace talks proposal",
+    "v": "Snubbed",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "US troops in South Korea",
+    "v": "About 28,500",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "US carrier presence in Asia",
+    "v": "None",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Demarcation line status",
+    "v": "Warning shots fired; troops retreated",
     "since": "2026-08-16",
     "flag": null
    }
@@ -40,6 +64,11 @@
     "d": "2026-08-16",
     "c": "Beat opened. 5 events over 20 days (GDELT: 19 days of coverage over 20d).",
     "s": "8 claim(s) from 5 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 8 events over 19 days (GDELT: 20 days of coverage over 19d).",
+    "s": "12 claim(s) from 8 newsroom(s)"
    }
   ],
   "changes": [],
@@ -55,10 +84,543 @@
    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-04",
    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-05",
    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-06",
-   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07"
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-08",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-09",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-10",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-11",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-12",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-13",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-14",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-15",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-16",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-17",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-18",
+   "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-19"
   ],
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "Trump has directed the Pentagon to reduce the scale of joint military exercises with South Korea.",
+   "deck": "News report at the source ceiling; the order is reported as an on-record action by a public official and corroborated by separate AP and BBC headlines in this cluster.",
+   "quote": "Trump orders Pentagon to scale back joint exercises with South Korea",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-01",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "Trump announced the decision in a social media post, saying the exercises slated to begin this week are costly.",
+   "deck": "News report at ceiling; the underlying artifact is a public post by a sitting official, quoted and characterized directly by the outlet.",
+   "quote": "Trump said in a social media post that the exercises slated to begin this week are costly",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "open",
+   "title": "Trump characterized the joint exercises as sending an inappropriate and hostile signal to North Korea.",
+   "deck": "This is an identified public official's own characterization, quoted verbatim by the outlet; the assertion is his, not an established fact.",
+   "quote": "send a signal that is totally inappropriate and hostile",
+   "tier": "credible_allegation",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "open",
+   "title": "Trump asserted that North Korea has behaved in an unthreatening and respectful manner during his time in the White House.",
+   "deck": "Verbatim quote from an identified official, but the underlying characterization of North Korean conduct is contested by other reporting in this same cluster (the MDL crossing).",
+   "quote": "has been unthreatening and respectful",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "open",
+   "title": "South Korea's military says it fired warning shots after North Korean soldiers crossed the Military Demarcation Line.",
+   "deck": "News report at ceiling; attributed explicitly to the South Korean side rather than independently verified, and echoed by Yonhap in the same aggregation.",
+   "quote": "South Korea says it fired warning shots after North Korean soldiers crossed demarcation line",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "open",
+   "title": "The crossing of the Military Demarcation Line by North Korean troops was brief, according to South Korean military accounts.",
+   "deck": "Below ceiling: the word 'briefly' appears only in an aggregated wire headline attributed to the South Korean military, with no duration given.",
+   "quote": "S. Korean military fires warning shots after N. Korean troops briefly cross MDL",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "South Korea's president has proposed talks with Pyongyang aimed at formally ending the Korean War and replacing the armistice.",
+   "deck": "News report at ceiling; a public proposal by a head of state carried consistently by France 24, BBC, Reuters and Bloomberg in the same aggregation.",
+   "quote": "South Korea's Lee urges talks with North Korea to replace armistice with peace",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "open",
+   "title": "Pyongyang rejected Seoul's peace proposal amid rising inter-Korean tensions ahead of the US-South Korea drills.",
+   "deck": "Well below ceiling: the rejection appears only as a single aggregated headline characterization, with no quoted North Korean statement or named official in the material available.",
+   "quote": "Pyongyang snubs Seouls peace proposal as inter-Korean tensions flare ahead of US-South Korea drills",
+   "tier": "credible_allegation",
+   "confidence": 0.4,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.4, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
+     "t": "misc",
+     "c": "0.4"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-08",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "Trump's announcement came a day after the United States pulled its last aircraft carrier in Asia, with the USS George Washington sent to replace the USS Abraham Lincoln in the Persian Gulf, NBC News reported on 16 August 2026.",
+   "deck": "Reported movement of named vessels without an attributed military source in the text.",
+   "quote": "It also comes a day after the U.S. pulled its last aircraft carrier in Asia, as the USS George Washington was sent to replace the USS Abraham Lincoln",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-09",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "North Korea on Friday 14 August 2026 threatened unspecified stern steps against the United States and South Korea, describing the drills as a rehearsal for an aggressive war that was triggering greater instability in the region.",
+   "deck": "AP reporting of an official North Korean statement, quoted verbatim in part.",
+   "quote": "North Korea on Friday threatened unspecified stern steps against the U.S. and South Korea, describing their military drills as a \"a rehearsal for an aggressive war\" that are triggering greater instability in the region.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "US and South Korean forces were expected to practise joint operations in complex scenarios during Ulchi Freedom Shield, including a live-fire exercise testing joint precision targeting and manoeuvre, a wet gap crossing, and distribution of prepositioned military equipment.",
+   "deck": "Exercise content attributed to the US military itself in AP's account.",
+   "quote": "including a live-fire exercise to test joint precision targeting and maneuver, a wet gap crossing, and distribution of prepositioned military equipment, according to the U.S. military.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-11",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "Earlier in August 2026 South Korea, the United States and Japan detected the launch of a short-range ballistic missile from North Korea, the North's first ballistic weapons testing activity since late June, which landed in waters off its east coast.",
+   "deck": "Detection reported by three allied governments and relayed by AP.",
+   "quote": "Earlier this month, South Korea, the U.S. and Japan detected the launch of a short-range ballistic missile from North Korea in what was the North's first ballistic weapons testing activity since late June.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-12",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "The joint exercises come days after South Korea, the United States and Japan detected the second North Korean missile test in days, part of ballistic missile testing this month that is banned by the United Nations.",
+   "deck": "BBC states the detection and the UN prohibition; the count of tests rests on the outlet's own tally.",
+   "quote": "The joint exercises come days after South Korea, the US and Japan detected the second North Korean missile test in days.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "bbc.co.uk",
+     "u": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-13",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "Trump has sought to curtail the exercises before, suspending them entirely in 2018 during denuclearisation negotiations with Kim Jong Un, and the drills were scaled back again in 2020 during the Covid-19 pandemic.",
+   "deck": "Documented historical record of prior exercise suspensions, reported without qualification.",
+   "quote": "He suspended the exercises entirely in 2018, during denuclearisation negotiations with Kim. The exercises were again scaled back in 2020 during the Covid-19 pandemic.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "bbc.co.uk",
+     "u": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-14",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "After his 2018 meeting with Kim Jong Un in Singapore, Trump told reporters the United States would be stopping the war games to save a tremendous amount of money, unless and until future negotiations were not going as they should.",
+   "deck": "Verbatim on-record remark to reporters, reproduced by CBS News.",
+   "quote": "We will be stopping the war games, which will save us a tremendous amount of money, unless and until we see the future negotiation is not going along like it should,",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-15",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "Trump's 16 August 2026 announcement came a day after he posted a photo of himself standing next to Kim Jong Un, writing that the two leaders get along great despite the unfriendly look in that particular picture.",
+   "deck": "A public social media post described directly by the outlet.",
+   "quote": "His announcement came a day after he posted a photo of himself standing next to North Korea's Kim, writing that the two leaders get along great",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-16",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "Trump met the North Korean leader three times during his first term to discuss the country's nuclear programme, most recently in 2019, and has expressed interest in continuing those discussions since returning to office.",
+   "deck": "Well-documented diplomatic record restated by CBS News.",
+   "quote": "Mr. Trump met with the reclusive North Korean leader three times during his first term to discuss the country's nuclear program",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-17",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "The Hill reported on 16 August 2026 that Trump said in a Truth Social post that he had told Defense Secretary Pete Hegseth to substantially reduce the joint military exercises with South Korea.",
+   "deck": "Summary-only item, but it quotes the operative phrase from the president's post directly.",
+   "quote": "President Trump said Sunday he told Defense Secretary Pete Hegseth to “substantially reduce” the joint military exercises with South Korea.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-18",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "South Korea's military said it fired warning shots after North Korean soldiers briefly crossed the military demarcation line, an incident that forced the North Korean soldiers to retreat, according to Reuters and Yonhap reporting dated 16 August 2026.",
+   "deck": "Headline-level aggregation attributing the account to South Korea's military; body text not available in the cluster.",
+   "quote": "S. Korean military fires warning shots after N. Korean troops briefly cross MDL",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-19",
+   "kind": "wire",
+   "beats": [
+    "korean-peninsula-tensions-and-us-south-korea-dri"
+   ],
+   "stamp": "documented",
+   "title": "South Korea's President Lee proposed talks with Pyongyang on formally ending the Korean War and replacing the 1953 armistice with peace, a proposal Pyongyang snubbed as inter-Korean tensions flared ahead of the US-South Korea drills.",
+   "deck": "Headline aggregation across France 24, Reuters and Bloomberg; no body text or named official statement available in the cluster.",
+   "quote": "Pyongyang snubs Seouls peace proposal as inter-Korean tensions flare ahead of US-South Korea drills",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

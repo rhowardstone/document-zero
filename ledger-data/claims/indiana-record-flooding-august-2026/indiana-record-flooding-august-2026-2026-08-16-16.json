@@ -1,0 +1,14 @@
+{
+  "claim_text": "More than a dozen Indiana counties had declared local disasters as of 15 August 2026, with much of the latest damage concentrated along river corridors running from Hamilton County into the northern Indianapolis suburbs.",
+  "quote": "More than a dozen counties have declared local disasters, with much of the latest damage concentrated along river corridors from Hamilton County heading into the northern Indianapolis suburbs.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Local disaster declarations are formal county actions; the count is reported without attribution to a single official, so it sits at the news ceiling.",
+  "source_sha": "f2ef33a053f4dc5f02f4829a4a34763dc4469b6a750e17e617349badfce795f5",
+  "source_url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-16",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

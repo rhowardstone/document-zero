@@ -1,20 +1,25 @@
 {
-  "name": "Blanche DOJ independence and Trump ballroom litigation",
+  "name": "DOJ independence under Attorney General Blanche",
   "slug": "blanche-doj-independence-and-trump-ballroom-liti",
   "opened": true,
-  "reason": "5 events over 18 days (GDELT: 19 days of coverage over 18d)",
-  "events": 5,
-  "span_days": 18,
+  "reason": "8 events over 19 days (GDELT: 20 days of coverage over 19d)",
+  "events": 8,
+  "span_days": 19,
   "state_fields": [
-    "Supreme Court ballroom application",
-    "Ballroom construction",
-    "Blanche independence pledge",
-    "FBI role in Guthrie investigation"
+    "Attorney general",
+    "Pledge of DOJ independence",
+    "$1.8bn anti-weaponization fund",
+    "Voter-roll litigation",
+    "White House ballroom construction",
+    "Supreme Court application on ballroom",
+    "Arizona abduction case lead"
   ],
   "dated_trigger": null,
   "publishers": [
-    "axios.com",
+    "independent.co.uk",
     "nbcnews.com",
+    "npr.org",
+    "politico.com",
     "theguardian.com",
     "thehill.com",
     "washingtonpost.com"
@@ -22,7 +27,7 @@
   "articles": [
     {
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
-      "title": "Trump says White House needs ‘military complex’ as courts block his ballroom",
+      "title": "Trump says White House needs ‘military complex’ as courts block his ballroom - The Washington Post",
       "publisher": "washingtonpost.com"
     },
     {
@@ -31,9 +36,14 @@
       "publisher": "thehill.com"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
-      "title": "Trump's views can factor into prosecutions, Attorney General Todd Blanche says",
-      "publisher": "axios.com"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+      "title": "Angry at the Supreme Court, liberals push a slew of plans for overhauling it - The Washington Post",
+      "publisher": "washingtonpost.com"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/blanche-trump-justice-department-independent-b3033865.html",
+      "title": "Todd Blanche assures Trump doesn’t want ‘yes men’ - but new AG refuse to pledge to act independently from White House",
+      "publisher": "independent.co.uk"
     },
     {
       "url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
@@ -44,9 +54,19 @@
       "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
       "title": "Todd Blanche says FBI will continue providing assistance on Nancy Guthrie investigation but doesn’t have any updates",
       "publisher": "nbcnews.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+      "title": "Week in Politics: USS Lincoln; latest primaries and Democrats; White House ballroom",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.politico.com/news/2026/08/10/white-house-max-miller-pressure-campaign-01031353",
+      "title": "White House officials tamped down efforts to oust Max Miller in final days",
+      "publisher": "politico.com"
     }
   ],
-  "claims_found": 12,
+  "claims_found": 20,
   "dropped": [],
   "no_state_reason": ""
 }

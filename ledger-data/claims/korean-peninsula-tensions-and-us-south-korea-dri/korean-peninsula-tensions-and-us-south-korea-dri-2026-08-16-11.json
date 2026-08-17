@@ -1,0 +1,14 @@
+{
+  "claim_text": "Earlier in August 2026 South Korea, the United States and Japan detected the launch of a short-range ballistic missile from North Korea, the North's first ballistic weapons testing activity since late June, which landed in waters off its east coast.",
+  "quote": "Earlier this month, South Korea, the U.S. and Japan detected the launch of a short-range ballistic missile from North Korea in what was the North's first ballistic weapons testing activity since late June.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Detection reported by three allied governments and relayed by AP.",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-11",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

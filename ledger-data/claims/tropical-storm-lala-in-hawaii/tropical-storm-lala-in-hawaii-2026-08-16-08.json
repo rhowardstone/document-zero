@@ -1,0 +1,14 @@
+{
+  "claim_text": "Hurricane Iniki, a Category 4 storm, was the last hurricane to hit Hawaii, making landfall on the southern coast of Kauai in 1992 and causing six deaths and $3bn in damage.",
+  "quote": "Iniki, a powerful category four storm, was the last hurricane to hit Hawaii back in 1992. It caused six deaths and $3bn in damage after making landfall on the southern coast of Kauai.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Historical record repeated across multiple reports in the cluster, including a direct quote from the governor elsewhere.",
+  "source_sha": "2a997206ce314340bd98d28c1482069826586314bff1a8df1e315cef3c582425",
+  "source_url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-08",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

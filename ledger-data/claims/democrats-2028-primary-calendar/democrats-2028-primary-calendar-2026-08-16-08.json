@@ -1,0 +1,14 @@
+{
+  "claim_text": "The same CBS News/YouGov poll found the Democratic Party is seen by most voters as weak and not effective, with over a third of Democrats describing their own party as weak, while most voters describe the Republican Party as extreme and also not effective.",
+  "quote": "Over a third of Democrats describe their own party as weak.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Direct poll finding stated in the published write-up.",
+  "source_sha": "eedaa4866bc609c17e4a445bb375ad225378e69698948b5db7b8a298eac9e686",
+  "source_url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-08",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

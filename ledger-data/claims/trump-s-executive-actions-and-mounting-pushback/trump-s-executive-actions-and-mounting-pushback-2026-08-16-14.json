@@ -1,0 +1,14 @@
+{
+  "claim_text": "NPR reported on 16 August 2026 that the Trump administration's continuing actions targeting transgender youth, including a change to Medicaid, are taking a personal toll on affected families, as described by a longtime Republican voter living in California.",
+  "quote": "the Trump administration's continuing actions to target transgender youth take a personal toll",
+  "tier": "credible_allegation",
+  "confidence": 0.45,
+  "confidence_justification": "Only a one-line summary is available; the Medicaid action is referenced in the headline but no policy document or specifics are quoted.",
+  "source_sha": "018a8d98cd2865f800aff9b39fc8981c1bf9fc31e3566b51b6e9a79a48344edb",
+  "source_url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-14",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

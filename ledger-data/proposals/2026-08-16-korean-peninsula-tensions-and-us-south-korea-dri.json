@@ -1,52 +1,74 @@
 {
-  "name": "Korean Peninsula tensions and US-South Korea drills",
+  "name": "US–South Korea joint drills dispute",
   "slug": "korean-peninsula-tensions-and-us-south-korea-dri",
   "opened": true,
-  "reason": "5 events over 20 days (GDELT: 19 days of coverage over 20d)",
-  "events": 5,
-  "span_days": 20,
+  "reason": "8 events over 19 days (GDELT: 20 days of coverage over 19d)",
+  "events": 8,
+  "span_days": 19,
   "state_fields": [
-    "Status of US-South Korea joint exercises",
-    "Inter-Korean talks",
-    "Armistice / peace treaty status",
-    "Incidents at the Military Demarcation Line"
+    "Ulchi Freedom Shield",
+    "Seoul's stance on drills",
+    "Pyongyang response to Trump order",
+    "North Korean missile testing",
+    "Inter-Korean peace talks proposal",
+    "US troops in South Korea",
+    "US carrier presence in Asia",
+    "Demarcation line status"
   ],
   "dated_trigger": null,
   "publishers": [
     "apnews.com",
-    "bbc.com",
+    "bbc.co.uk",
+    "cbsnews.com",
     "france24.com",
+    "nbcnews.com",
     "pbs.org",
-    "reuters.com"
+    "reuters.com",
+    "thehill.com"
   ],
   "articles": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump says US to scale back military drills with South Korea after it stayed out of Iran war",
+      "publisher": "bbc.co.uk"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+      "title": "Trump orders military to ‘substantially reduce’ joint exercises with South Korea",
+      "publisher": "nbcnews.com"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+      "title": "Trump orders Pentagon to \"substantially reduce\" military exercises with South Korea",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3RPcGlIdXQ3RU5USnlMN0tyQUxyT2c4NW1zekhhV0xubm9tTmhHLWE0c2RxTFdNWXJueVF4TXA5ODJDNFRhQTdCQllnaU51cTlCc0pqaHZNbmxIbnhxR01MNVZEOWdtaU90cWZjUU9RYlBITDBhMWdiNllIcGFoMHJXQWdlN0lQdWZ5dVVNT00wR0px?oc=5",
+      "title": "Trump orders Pentagon to scale back joint exercises with South Korea - AP News",
+      "publisher": "apnews.com"
+    },
     {
       "url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
       "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
       "publisher": "pbs.org"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3RPcGlIdXQ3RU5USnlMN0tyQUxyT2c4NW1zekhhV0xubm9tTmhHLWE0c2RxTFdNWXJueVF4TXA5ODJDNFRhQTdCQllnaU51cTlCc0pqaHZNbmxIbnhxR01MNVZEOWdtaU90cWZjUU9RYlBITDBhMWdiNllIcGFoMHJXQWdlN0lQdWZ5dVVNT00wR0px?oc=5",
-      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
-      "publisher": "apnews.com"
-    },
-    {
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mZjhLYWc5Uld6bFdvNHRRU3dsVTB6N3FBUVo0SFIwZ0xpTjlfQ0s0QmJhWEpsdUVsTXlrOWlZRnlXZzJqUVBOa3FjS1RZNGxJTjRXRUN2SWhLUQ?oc=5",
-      "title": "Trump says US scaling back joint military operations with South Korea",
-      "publisher": "bbc.com"
+      "url": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
+      "title": "Trump directs Hegseth to reduce U.S. joint exercises in South Korea",
+      "publisher": "thehill.com"
     },
     {
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
-      "title": "South Korea says it fired warning shots after North Korean soldiers crossed demarcation line",
+      "title": "South Korea says it fired warning shots after North Korean soldiers crossed demarcation line - Reuters",
       "publisher": "reuters.com"
     },
     {
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
-      "title": "South Korea president proposes talks with Pyongyang to formally end Korean War",
+      "title": "South Korea president proposes talks with Pyongyang to formally end Korean War - France 24",
       "publisher": "france24.com"
     }
   ],
-  "claims_found": 8,
+  "claims_found": 20,
   "dropped": [],
   "no_state_reason": ""
 }

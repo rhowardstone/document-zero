@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump drew criticism over the weekend of 15-16 August 2026 after sharing a black-and-white image of himself wearing a \"Trump 2028\" hat with the message \"We are going to win,\" despite the 22nd Amendment's limit on presidential terms.",
+  "quote": "an image of himself wearing a “Trump 2028” hat along with the troublesome message: “We are going to win.”",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "The post itself is the primary artefact and is described directly; the constitutional limit is a matter of public record.",
+  "source_sha": "4faf9160373340b9d71b4408e2d526f8112f390952d50b546f84299951ff5870",
+  "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-2028-third-term-truth-social-post-b3033863.html",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-08",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

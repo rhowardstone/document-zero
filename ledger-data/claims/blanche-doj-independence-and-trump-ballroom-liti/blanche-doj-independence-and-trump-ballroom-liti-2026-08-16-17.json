@@ -1,0 +1,14 @@
+{
+  "claim_text": "House Democratic leader Hakeem Jeffries has named restoring voting rights and reforming the Supreme Court as top priorities for Democrats, as liberals push a slate of proposals for overhauling the court, reported on 16 August 2026.",
+  "quote": "Hakeem Jeffries: Restoring voting rights, reforming Supreme Court top priorities for Democrats",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Aggregated headline text attributing a named position to an identified official, without body detail.",
+  "source_sha": "b0376847b731597a4109f804fe2276cd87a0f0c439a48be06bf74f0dc16b25de",
+  "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-17",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

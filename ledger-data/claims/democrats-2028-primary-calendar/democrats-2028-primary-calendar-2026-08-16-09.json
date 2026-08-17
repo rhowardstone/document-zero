@@ -1,0 +1,14 @@
+{
+  "claim_text": "About half of Democrats in the August 2026 CBS News/YouGov survey said their party is not progressive enough, a group that is more liberal, views socialism more positively, and is less likely to say the party agrees with their views a lot on economic issues.",
+  "quote": "To about half, it's not progressive enough.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Poll result reported verbatim; additional detail drawn from adjacent sentences in the same article.",
+  "source_sha": "eedaa4866bc609c17e4a445bb375ad225378e69698948b5db7b8a298eac9e686",
+  "source_url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-09",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

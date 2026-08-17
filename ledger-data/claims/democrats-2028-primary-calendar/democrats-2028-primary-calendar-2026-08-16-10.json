@@ -1,0 +1,14 @@
+{
+  "claim_text": "NPR's politics segment on Aug. 16, 2026 examined how Democrats are gearing up for the 2028 presidential primaries alongside the party's takeaways from the current batch of primary races.",
+  "quote": "We look at how the Democrats are gearing up for the 2028 presidential primaries, as well as their takeaways from the current batch of primary races.",
+  "tier": "question",
+  "confidence": 0.4,
+  "confidence_justification": "Only a programme summary is available; it establishes the subject discussed, not any finding.",
+  "source_sha": "7d8e348dfc26a3ee33fcc07b6ac81e1a822824884a08c366842fff938ff05a69",
+  "source_url": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-10",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

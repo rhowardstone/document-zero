@@ -1,0 +1,14 @@
+{
+  "claim_text": "Impeachment remains an option for House Democrats but they are reluctant to make it a centerpiece of their agenda, with Rep. Robert Garcia of Long Beach, the top Oversight Democrat, saying the priority is to stop the harm and investigate those helping the president, and Rep. Jamie Raskin saying Democrats will not play into the game.",
+  "quote": "For Democrats, impeachment remains an option, but they are reluctant to make it a centerpiece of their agenda this time around.",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "Reporter's synthesis of on-record statements by identified members; a posture that could change.",
+  "source_sha": "1e2a29a4194ae38beb45c3a733358291123bb96480e7412e70835eb19d4926e9",
+  "source_url": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-13",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

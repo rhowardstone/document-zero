@@ -1,0 +1,14 @@
+{
+  "claim_text": "More than 200,000 homes and businesses were without power by 10:30 a.m. local time on Sunday 16 August 2026 according to tracker poweroutage.us, including nearly two-thirds of all power customers on the Big Island.",
+  "quote": "More than 200,000 homes and businesses were without power by 10:30 a.m. local time, according to the utility tracker poweroutage.us. That included nearly two-thirds of the power customers on the Big Island.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Time-stamped figure from a named outage tracker, consistent with other reports in the cluster.",
+  "source_sha": "4b530ccfbb54462cc4a3c5ece3a9923f09d46ffefc0e86416acb3b7a59fca00f",
+  "source_url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-14",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

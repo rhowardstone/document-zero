@@ -1,0 +1,121 @@
+{
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "day": "2026-08-16",
+  "headline": "Trump orders Pentagon to scale back joint drills with South Korea",
+  "standfirst": "The order lands days before Ulchi Freedom Shield was due to begin, and after North Korea threatened stern steps over the exercises.",
+  "dateline": "WASHINGTON",
+  "published_at": "2026-08-17T00:15:15Z",
+  "paragraphs": [
+    {
+      "text": "President Donald Trump has directed the Pentagon to reduce the scale of joint military exercises with South Korea. Trump announced the decision in a social media post, saying the exercises slated to begin this week are costly. The Hill reported on 16 August 2026 that Trump said in a Truth Social post that he had told Defense Secretary Pete Hegseth to substantially reduce the drills.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-01",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-17"
+      ]
+    },
+    {
+      "text": "Trump characterized the joint exercises as sending an inappropriate and hostile signal to North Korea. He also asserted that North Korea has behaved in an unthreatening and respectful manner during his time in the White House.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-02",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-03"
+      ]
+    },
+    {
+      "text": "US and South Korean forces were expected to practise joint operations in complex scenarios during Ulchi Freedom Shield, including a live-fire exercise testing joint precision targeting and manoeuvre, a wet gap crossing, and distribution of prepositioned military equipment.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-10"
+      ]
+    },
+    {
+      "text": "North Korea on Friday 14 August 2026 threatened unspecified stern steps against the United States and South Korea. Pyongyang described the drills as a rehearsal for an aggressive war that was triggering greater instability in the region.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-09"
+      ]
+    },
+    {
+      "text": "Earlier in August 2026, South Korea, the United States and Japan detected the launch of a short-range ballistic missile from North Korea, which landed in waters off its east coast. It was the North's first ballistic weapons testing activity since late June. The joint exercises come days after the three countries detected the second North Korean missile test in days, part of ballistic missile testing this month that is banned by the United Nations.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-11",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-12"
+      ]
+    },
+    {
+      "text": "South Korea's military said it fired warning shots after North Korean soldiers briefly crossed the military demarcation line, an incident that forced the North Korean soldiers to retreat, according to Reuters and Yonhap reporting dated 16 August 2026.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-18",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-04",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-05"
+      ]
+    },
+    {
+      "text": "South Korea's President Lee proposed talks with Pyongyang on formally ending the Korean War and replacing the 1953 armistice with peace. Pyongyang snubbed the proposal as inter-Korean tensions flared ahead of the US-South Korea drills.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-19",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-06",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07"
+      ]
+    },
+    {
+      "text": "Trump's announcement came a day after the United States pulled its last aircraft carrier in Asia, with the USS George Washington sent to replace the USS Abraham Lincoln in the Persian Gulf, NBC News reported on 16 August 2026.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-08"
+      ]
+    },
+    {
+      "text": "Trump's 16 August 2026 announcement came a day after he posted a photo of himself standing next to Kim Jong Un, writing that the two leaders get along great despite the unfriendly look in that particular picture. Trump met the North Korean leader three times during his first term to discuss the country's nuclear programme, most recently in 2019, and has expressed interest in continuing those discussions since returning to office.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-15",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-16"
+      ]
+    },
+    {
+      "text": "Trump has sought to curtail the exercises before. He suspended them entirely in 2018 during denuclearisation negotiations with Kim Jong Un, and the drills were scaled back again in 2020 during the Covid-19 pandemic. After his 2018 meeting with Kim in Singapore, Trump told reporters the United States would be stopping the war games to save a tremendous amount of money, unless and until future negotiations were not going as they should.",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-13",
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-14"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "k": "Ulchi Freedom Shield",
+      "from": "",
+      "to": "Due to begin Monday; ordered scaled back",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Seoul's stance on drills",
+      "from": "",
+      "to": "Proceeding as scheduled",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Pyongyang response to Trump order",
+      "from": "",
+      "to": "None yet",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "North Korean missile testing",
+      "from": "",
+      "to": "Resumed; two tests this month",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Inter-Korean peace talks proposal",
+      "from": "",
+      "to": "Snubbed",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "US troops in South Korea",
+      "from": "",
+      "to": "About 28,500",
+      "since": "2026-08-16"
+    }
+  ],
+  "written_by": "claude-code/reporter",
+  "verified_by": [],
+  "word_count": 505
+}

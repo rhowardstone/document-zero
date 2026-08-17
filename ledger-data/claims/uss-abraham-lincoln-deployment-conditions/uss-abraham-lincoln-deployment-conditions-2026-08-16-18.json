@@ -1,0 +1,14 @@
+{
+  "claim_text": "The USS George Washington was near Malaysia on 13 August 2026 and, at its last recorded speed, would reach Duqm port in Oman, about 500 miles off the coast of Iran, around 22 August, according to tracking data compiled by BBC Verify.",
+  "quote": "Tracking data compiled by BBC Verify shows that at its last recorded speed, the vessel would reach Duqm port in Oman, about 500 miles off the coast of Iran, around 22 August.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Derived from vessel tracking data analyzed by the outlet's verification unit; at ceiling as the raw data is not published.",
+  "source_sha": "310b0eeed5f181d96c83e17aa939af599f6986af23d95e3a5ff4051eef555626",
+  "source_url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-18",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

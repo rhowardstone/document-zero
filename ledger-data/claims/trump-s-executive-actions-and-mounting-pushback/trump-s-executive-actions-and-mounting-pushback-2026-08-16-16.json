@@ -1,0 +1,14 @@
+{
+  "claim_text": "The 20% pass-through business income deduction, increased from 17% during the 2017 Tax Cut and Jobs Act negotiations and made permanent in last year's One Big Beautiful Bill Act, will cost the budget $820bn over a 10-year period, almost as much as was cut from Medicaid.",
+  "quote": "made permanent in the ”big beautiful bill” last year, will cost the budget $820bn over a 10-year period, almost as much as was cut from the Medicaid budget.",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Legislative facts are firm, but the 10-year cost is a projection presented in an opinion column without an inline source citation.",
+  "source_sha": "c621c0e5e88b4135d0ea66f85d719b59e35a9abb9fd001a5969377e424064737",
+  "source_url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-16",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

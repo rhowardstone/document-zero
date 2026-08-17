@@ -1,0 +1,14 @@
+{
+  "claim_text": "The joint exercises come days after South Korea, the United States and Japan detected the second North Korean missile test in days, part of ballistic missile testing this month that is banned by the United Nations.",
+  "quote": "The joint exercises come days after South Korea, the US and Japan detected the second North Korean missile test in days.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "BBC states the detection and the UN prohibition; the count of tests rests on the outlet's own tally.",
+  "source_sha": "5517ec00a7fb2fbc5639ecc1aba958ad0525eb284d07f7acc91f9df4fdb5f1d3",
+  "source_url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-12",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

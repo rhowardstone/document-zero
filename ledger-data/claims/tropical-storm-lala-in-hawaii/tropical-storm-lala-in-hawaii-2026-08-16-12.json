@@ -1,0 +1,14 @@
+{
+  "claim_text": "Hawaiian Electric warned customers on the evening of Saturday 15 August 2026 that hurricane-force winds and rain were hampering repair efforts, citing flooded roadways and downed trees blocking access.",
+  "quote": "Hawaiian Electric warned customers on Saturday evening that hurricane-force winds and rain hampered repair efforts, citing flooded roadways and downed trees.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Direct statement from the utility to its customers, reported as such.",
+  "source_sha": "fe86c18b8e41df4a76e731a2bd9ee461776f47013aec465926f62c4b9b97fdce",
+  "source_url": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-12",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

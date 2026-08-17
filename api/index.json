@@ -3,19 +3,19 @@
  "edition": {
   "n": "001",
   "date": "2026-08-16",
-  "updated": "2026-08-16T23:29:34Z",
+  "updated": "2026-08-17T00:15:15Z",
   "next": null,
-  "articles": 3,
+  "articles": 1,
   "publish": true,
   "blocked_by": null,
   "counts": {
-   "wire": 3,
+   "wire": 1,
    "refused": 0,
    "holds": 0,
    "omissions": 0,
    "capped_out": 0,
    "dropped": 0,
-   "unpublishable": 9
+   "unpublishable": 11
   }
  },
  "endpoints": {
@@ -30,8 +30,8 @@
  },
  "counts": {
   "beats": 12,
-  "records": 124,
-  "sources": 28,
+  "records": 20,
+  "sources": 7,
   "queries": 12
  }
 }

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump's 16 August 2026 announcement came a day after he posted a photo of himself standing next to Kim Jong Un, writing that the two leaders get along great despite the unfriendly look in that particular picture.",
+  "quote": "His announcement came a day after he posted a photo of himself standing next to North Korea's Kim, writing that the two leaders get along great",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "A public social media post described directly by the outlet.",
+  "source_sha": "80ebc55d5a29df346c105b00b80b5cd9c79bf62485d19a23bd8a746b06998ed6",
+  "source_url": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-15",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

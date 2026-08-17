@@ -1,0 +1,14 @@
+{
+  "claim_text": "Indiana authorities said on Saturday 15 August 2026 that at least five people had died as a result of the severe weather over the past week, a day before the state count rose to seven.",
+  "quote": "Indiana authorities said Saturday at least five people have died as a result of the severe weather over the past week.",
+  "tier": "credible_allegation",
+  "confidence": 0.6,
+  "confidence_justification": "State authorities' count on the record for 15 August; useful as the prior value of a toll that has since changed.",
+  "source_sha": "f2ef33a053f4dc5f02f4829a4a34763dc4469b6a750e17e617349badfce795f5",
+  "source_url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-14",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

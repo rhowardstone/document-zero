@@ -1,107 +1,97 @@
 {
- "day": "2026-08-16",
- "wire": [
-  {
-   "id": "indiana-record-flooding-august-2026",
-   "beat": "indiana-record-flooding-august-2026",
-   "material_changes": 0,
-   "claims": 0,
-   "rejected_claims": 0,
-   "changes": [],
-   "added": [],
-   "removed": [],
-   "unchanged": 0
+  "day": "2026-08-16",
+  "wire": [
+    {
+      "id": "korean-peninsula-tensions-and-us-south-korea-dri",
+      "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    }
+  ],
+  "omissions": [],
+  "holds": [],
+  "counts": {
+    "wire": 1,
+    "refused": 0,
+    "holds": 0,
+    "omissions": 0,
+    "capped_out": 0,
+    "dropped": 0,
+    "unpublishable": 11
   },
-  {
-   "id": "us-iran-war-and-hormuz-blockade",
-   "beat": "us-iran-war-and-hormuz-blockade",
-   "material_changes": 0,
-   "claims": 0,
-   "rejected_claims": 0,
-   "changes": [],
-   "added": [],
-   "removed": [],
-   "unchanged": 0
-  },
-  {
-   "id": "uss-abraham-lincoln-deployment-conditions",
-   "beat": "uss-abraham-lincoln-deployment-conditions",
-   "material_changes": 0,
-   "claims": 0,
-   "rejected_claims": 0,
-   "changes": [],
-   "added": [],
-   "removed": [],
-   "unchanged": 0
-  }
- ],
- "omissions": [],
- "holds": [],
- "counts": {
-  "wire": 3,
-  "refused": 0,
-  "holds": 0,
-  "omissions": 0,
-  "capped_out": 0,
-  "dropped": 0,
-  "unpublishable": 9
- },
- "unpublishable": [
-  {
-   "beat": "blanche-doj-independence-and-trump-ballroom-liti",
-   "name": "Blanche DOJ independence and Trump ballroom litigation",
-   "changed": "Supreme Court ballroom application",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "compliance",
-   "name": "Compliance",
-   "changed": "Statute",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "democrats-2028-primary-calendar",
-   "name": "Democrats' 2028 primary calendar",
-   "changed": "Leadoff state",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "gaza-ceasefire-road-map-talks",
-   "name": "Gaza ceasefire road map talks",
-   "changed": "Gaza ceasefire",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
-   "name": "Korean Peninsula tensions and US-South Korea drills",
-   "changed": "Status of US-South Korea joint exercises",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "nm-records",
-   "name": "Nm records",
-   "changed": "Federal suit",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "tropical-storm-lala-in-hawaii",
-   "name": "Tropical Storm Lala in Hawaii",
-   "changed": "Storm classification",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "trump-administration-second-term",
-   "name": "Trump administration second term",
-   "changed": "Colombian tariff suspension request",
-   "reason": "no article written this cycle"
-  },
-  {
-   "beat": "trump-s-executive-actions-and-mounting-pushback",
-   "name": "Trump's executive actions and mounting pushback",
-   "changed": "White House ballroom construction",
-   "reason": "no article written this cycle"
-  }
- ],
- "publish": null,
- "publish_blocked_by": null
+  "unpublishable": [
+    {
+      "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+      "name": "blanche-doj-independence-and-trump-ballroom-liti",
+      "reason": "refused by the gate",
+      "changed": "Attorney general"
+    },
+    {
+      "beat": "compliance",
+      "name": "compliance",
+      "reason": "reporter failed",
+      "changed": "Statute"
+    },
+    {
+      "beat": "democrats-2028-primary-calendar",
+      "name": "democrats-2028-primary-calendar",
+      "reason": "refused by the gate",
+      "changed": "2028 leadoff primary state"
+    },
+    {
+      "beat": "gaza-ceasefire-road-map-talks",
+      "name": "gaza-ceasefire-road-map-talks",
+      "reason": "reporter failed",
+      "changed": "Gaza ceasefire"
+    },
+    {
+      "beat": "indiana-record-flooding-august-2026",
+      "name": "indiana-record-flooding-august-2026",
+      "reason": "reporter failed",
+      "changed": "Death toll"
+    },
+    {
+      "beat": "nm-records",
+      "name": "nm-records",
+      "reason": "refused by the gate",
+      "changed": "Federal suit"
+    },
+    {
+      "beat": "tropical-storm-lala-in-hawaii",
+      "name": "tropical-storm-lala-in-hawaii",
+      "reason": "refused by the gate",
+      "changed": "Storm status"
+    },
+    {
+      "beat": "trump-administration-second-term",
+      "name": "trump-administration-second-term",
+      "reason": "reporter failed",
+      "changed": "Colombian tariff suspension request"
+    },
+    {
+      "beat": "trump-s-executive-actions-and-mounting-pushback",
+      "name": "trump-s-executive-actions-and-mounting-pushback",
+      "reason": "reporter failed",
+      "changed": "Trump job approval (FT/Focaldata)"
+    },
+    {
+      "beat": "us-iran-war-and-hormuz-blockade",
+      "name": "us-iran-war-and-hormuz-blockade",
+      "reason": "reporter failed",
+      "changed": "US–Iran MoU / ceasefire"
+    },
+    {
+      "beat": "uss-abraham-lincoln-deployment-conditions",
+      "name": "uss-abraham-lincoln-deployment-conditions",
+      "reason": "reporter failed",
+      "changed": "Days at sea"
+    }
+  ],
+  "publish": null,
+  "publish_blocked_by": null
 }

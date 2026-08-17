@@ -133,6 +133,15 @@ def assert_subscription(force: bool = False) -> dict:
 
 def _subprocess_runner(cmd, **kw) -> Completed:
     kw.setdefault("env", subscription_env())
+    # The agent gets NO stdin. The prompt is an argument, so nothing here has
+    # any reason to read a descriptor — and inheriting one is actively harmful:
+    # the CLI waits on stdin when it is attached ("no stdin data received in
+    # 3s"), and concurrent beat workers then contend for the same descriptor.
+    # A full daily run launched without a terminal lost 11 of 12 beats to this,
+    # each one reported as "reporter failed" — a pipeline failure wearing the
+    # costume of an editorial one, which is the worst kind this system can
+    # produce, because it looks like the gate doing its job.
+    kw.setdefault("stdin", subprocess.DEVNULL)
     p = subprocess.run(cmd, capture_output=True, text=True, **kw)
     return Completed(p.returncode, p.stdout, p.stderr)
 

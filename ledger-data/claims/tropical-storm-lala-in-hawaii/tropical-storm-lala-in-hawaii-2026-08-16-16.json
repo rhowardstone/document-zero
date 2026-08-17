@@ -1,0 +1,14 @@
+{
+  "claim_text": "The National Hurricane Center reported that Lala intensified from a tropical storm into a Category 1 hurricane early on Saturday 15 August 2026 as its maximum sustained winds increased to 75 mph.",
+  "quote": "Lala intensified from a tropical storm into a hurricane early Saturday as its maximum sustained winds increased to 75 mph (120 kph), the hurricane center reported, making it a Category 1 hurricane.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Classification and wind speed attributed to the National Hurricane Center.",
+  "source_sha": "2a7be28a8520cd451618e3088201151464ce14c22e61bfe0836f3477fc5b34b3",
+  "source_url": "https://www.independent.co.uk/news/world/americas/hurricane-lala-hawaii-big-island-b3033797.html",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-16",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -3,48 +3,80 @@
   "as_of": "2026-08-16",
   "fields": [
     {
-      "k": "White House ballroom construction",
-      "v": "blocked by courts; administration has asked the Supreme Court to let it continue",
+      "k": "Trump job approval (FT/Focaldata)",
+      "v": "55% disapprove",
       "since": "2026-08-16",
       "claims": [
         "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
       ]
     },
     {
-      "k": "Childhood vaccine schedule",
-      "v": "altered by executive order; Republican senators publicly objecting",
+      "k": "Republican disapproval",
+      "v": "1 in 5",
       "since": "2026-08-16",
       "claims": [
         "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
       ]
     },
     {
-      "k": "Trump poll standing",
-      "v": "declining; most voters say they are worse off",
+      "k": "Generic midterm ballot",
+      "v": "D 51 – R 45",
       "since": "2026-08-16",
       "claims": [
         "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
       ]
     },
     {
-      "k": "Private-sector offensive cyber authority",
-      "v": "memo signed authorizing companies to hack foreign cybercriminals",
+      "k": "Third-term posture",
+      "v": "Hedged: \"the law is very strong\"",
       "since": "2026-08-16",
       "claims": [
         "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
       ]
     },
     {
-      "k": "Colombia tariffs",
-      "v": "in force; suspension requested by Colombia's president after the 7.4 quake",
+      "k": "BBC Panorama suit",
+      "v": "Subpoenas sought via US court",
       "since": "2026-08-16",
       "claims": [
         "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
       ]
     },
     {
-      "k": "BBC Panorama defamation suit",
-      "v": "BBC seeking US court help to take testimony from Trump family members",
+      "k": "Colombia tariff-suspension request",
+      "v": "No US response",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "US aid pledged to Colombia",
+      "v": "$26.5m",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Colombia earthquake deaths",
+      "v": "At least 289",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "SNAP recipients lost nationally",
+      "v": "More than 5.3 million",
+      "since": "2026-08-16",
+      "claims": [
+        "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Private-sector hack-back authority",
+      "v": "Memo signed 15 Aug",
       "since": "2026-08-16",
       "claims": [
         "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"

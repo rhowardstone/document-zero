@@ -1,0 +1,14 @@
+{
+  "claim_text": "US and South Korean forces were expected to practise joint operations in complex scenarios during Ulchi Freedom Shield, including a live-fire exercise testing joint precision targeting and manoeuvre, a wet gap crossing, and distribution of prepositioned military equipment.",
+  "quote": "including a live-fire exercise to test joint precision targeting and maneuver, a wet gap crossing, and distribution of prepositioned military equipment, according to the U.S. military.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Exercise content attributed to the US military itself in AP's account.",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-10",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,48 +1,72 @@
 {
  "beat": {
   "id": "trump-s-executive-actions-and-mounting-pushback",
-  "name": "Trump's executive actions and mounting pushback",
+  "name": "Trump's second term before the 2026 midterms",
   "dossiers": [],
   "types": [],
   "status": "quiet",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
-  "events": 8,
-  "summary": "8 claim(s) on record.",
+  "events": 20,
+  "summary": "20 claim(s) on record.",
   "state": [
    {
-    "k": "White House ballroom construction",
-    "v": "blocked by courts; administration has asked the Supreme Court to let it continue",
+    "k": "Trump job approval (FT/Focaldata)",
+    "v": "55% disapprove",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Childhood vaccine schedule",
-    "v": "altered by executive order; Republican senators publicly objecting",
+    "k": "Republican disapproval",
+    "v": "1 in 5",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Trump poll standing",
-    "v": "declining; most voters say they are worse off",
+    "k": "Generic midterm ballot",
+    "v": "D 51 – R 45",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Private-sector offensive cyber authority",
-    "v": "memo signed authorizing companies to hack foreign cybercriminals",
+    "k": "Third-term posture",
+    "v": "Hedged: \"the law is very strong\"",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Colombia tariffs",
-    "v": "in force; suspension requested by Colombia's president after the 7.4 quake",
+    "k": "BBC Panorama suit",
+    "v": "Subpoenas sought via US court",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "BBC Panorama defamation suit",
-    "v": "BBC seeking US court help to take testimony from Trump family members",
+    "k": "Colombia tariff-suspension request",
+    "v": "No US response",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "US aid pledged to Colombia",
+    "v": "$26.5m",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Colombia earthquake deaths",
+    "v": "At least 289",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "SNAP recipients lost nationally",
+    "v": "More than 5.3 million",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Private-sector hack-back authority",
+    "v": "Memo signed 15 Aug",
     "since": "2026-08-16",
     "flag": null
    }
@@ -52,6 +76,11 @@
     "d": "2026-08-16",
     "c": "Beat opened. 13 events over 8 days (GDELT: 3 days of coverage over 8d).",
     "s": "8 claim(s) from 8 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 11 events over 5 days [HTTPError: HTTP Error 429: Too Many Requests].",
+    "s": "12 claim(s) from 6 newsroom(s)"
    }
   ],
   "changes": [],
@@ -67,7 +96,19 @@
    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-04",
    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-05",
    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-06",
-   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-07"
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-07",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-08",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-09",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-10",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-11",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-12",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-13",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-14",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-15",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-16",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-17",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-18",
+   "trump-s-executive-actions-and-mounting-pushback-2026-08-16-19"
   ],
   "questions": [],
   "triggers": []

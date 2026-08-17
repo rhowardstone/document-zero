@@ -1,0 +1,14 @@
+{
+  "claim_text": "A shortage of some munitions, together with problems aboard the USS Lincoln, has put the Trump administration on the defensive, according to an NPR week-in-politics segment broadcast on 15 August 2026.",
+  "quote": "A shortage of some munitions as well as the problems with the USS Lincoln have the Trump administration on the defensive.",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "A summary-level characterisation from a political discussion segment with no underlying documentation cited.",
+  "source_sha": "d507276e3f90c1fa5763cc2402c929402ac9552e162888ff76306a5cb81209ab",
+  "source_url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

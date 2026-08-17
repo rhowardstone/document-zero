@@ -1,0 +1,14 @@
+{
+  "claim_text": "Almost 130,000 utility customers had lost power in Hawaii, Al Jazeera reported on 16 August 2026 citing Reuters, as Lala weakened from a Category 1 hurricane to a tropical storm south of the islands.",
+  "quote": "Almost 130,000 utility customers lost power, Reuters reported.",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Second-hand wire figure that is substantially lower than counts reported the same day by other outlets, indicating differing snapshot times.",
+  "source_sha": "fe86c18b8e41df4a76e731a2bd9ee461776f47013aec465926f62c4b9b97fdce",
+  "source_url": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-11",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

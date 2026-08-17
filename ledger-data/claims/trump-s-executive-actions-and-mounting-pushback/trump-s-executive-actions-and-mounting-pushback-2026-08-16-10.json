@@ -1,0 +1,14 @@
+{
+  "claim_text": "The BBC has asked a United States court for assistance in obtaining testimony from members of Trump's family in the defamation suit brought over its Panorama programme, according to reports published on 16 August 2026.",
+  "quote": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Court filing reported concurrently by AP, Politico, Sky News and the BBC, but only headlines are available in this cluster, so no filing detail can be verified.",
+  "source_sha": "39f1b83c5f93a8b39a31088067a5ef98a62c832b360ae257401ec7355a571d48",
+  "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-10",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

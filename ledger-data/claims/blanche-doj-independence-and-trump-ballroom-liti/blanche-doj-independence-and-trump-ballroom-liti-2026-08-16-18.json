@@ -1,0 +1,14 @@
+{
+  "claim_text": "Democrats have vowed to rein in the Supreme Court's shadow docket if they retake Congress, one of several overhaul plans circulating among liberals angry at the court, according to reporting compiled on 16 August 2026.",
+  "quote": "Democrats vow to rein in Supreme Court’s ‘shadow’ docket if they retake Congress",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Headline-level sourcing; the vow is attributed collectively rather than to a named member on the record.",
+  "source_sha": "b0376847b731597a4109f804fe2276cd87a0f0c439a48be06bf74f0dc16b25de",
+  "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-18",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

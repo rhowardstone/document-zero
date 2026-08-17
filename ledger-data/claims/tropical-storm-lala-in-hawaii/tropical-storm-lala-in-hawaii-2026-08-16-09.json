@@ -1,0 +1,14 @@
+{
+  "claim_text": "NPR reported that Hurricane Lala weakened to a tropical storm on Sunday 16 August 2026 after skirting Hawaii without making landfall, but continued to hit the Big Island with hurricane-force gusts.",
+  "quote": "Hurricane Lala weakened to a tropical storm Sunday after skirting Hawaii without making landfall, but it wasn't done punishing the Big Island with hurricane-force gusts.",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Summary-only entry with no body text or named source in the record, though corroborated by other cluster reports.",
+  "source_sha": "85405f4656b0cbcaf84c17723a5cc6afc748f728fff0826b85edce1eb3ce2f18",
+  "source_url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-09",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

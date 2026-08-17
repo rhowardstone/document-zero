@@ -23,7 +23,7 @@ from ledger import claudecode as cc                     # noqa: E402
 from ledger import reporter                             # noqa: E402
 from ledger.article import ArticleError                 # noqa: E402
 from ledger.beats import load_beats                     # noqa: E402
-from ledger.entail import Verdict, check                # noqa: E402
+from ledger.entail import cleared, Verdict, check                # noqa: E402
 from ledger.store import Ledger                         # noqa: E402
 
 LEDGER = "/mnt/d/Newsdesk/ledger-data"
@@ -169,6 +169,9 @@ def main() -> int:
             print(f"        {d.sentence[:110]}")
     if result.passed:
         print("\n  PASSED — every sentence is entailed by the claims it cites.")
+        # Record WHO cleared it. The page tells readers two further models
+        # checked every sentence; the article must be able to show it.
+        article = cleared(article, [v.label for v in verifiers])
         Ledger(args.ledger, writer=f"beat:{args.beat}").put_article(article)
         print(f"  stored at beats/{args.beat}/articles/{args.day}.json")
     elif len({r.sentence for r in result.refusals}) <= 2:
@@ -191,6 +194,9 @@ def main() -> int:
             return 0
         print(f"  PASSED after deletion — {article.word_count} words remain, "
               "every one of them entailed.")
+        # Record WHO cleared it. The page tells readers two further models
+        # checked every sentence; the article must be able to show it.
+        article = cleared(article, [v.label for v in verifiers])
         Ledger(args.ledger, writer=f"beat:{args.beat}").put_article(article)
         print(f"  stored at beats/{args.beat}/articles/{args.day}.json")
     else:

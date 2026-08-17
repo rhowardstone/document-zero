@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump has sought to curtail the exercises before, suspending them entirely in 2018 during denuclearisation negotiations with Kim Jong Un, and the drills were scaled back again in 2020 during the Covid-19 pandemic.",
+  "quote": "He suspended the exercises entirely in 2018, during denuclearisation negotiations with Kim. The exercises were again scaled back in 2020 during the Covid-19 pandemic.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Documented historical record of prior exercise suspensions, reported without qualification.",
+  "source_sha": "5517ec00a7fb2fbc5639ecc1aba958ad0525eb284d07f7acc91f9df4fdb5f1d3",
+  "source_url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-13",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

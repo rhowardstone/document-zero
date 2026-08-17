@@ -255,3 +255,33 @@ def test_deletion_never_introduces_text():
     before = set(sentences(a.paragraphs[0]["text"]))
     after = set(sentences(without(a, r.refusals).paragraphs[0]["text"]))
     assert after < before, "deletion may only remove"
+
+
+# ── The record must name who checked it ─────────────────────────────────────
+
+def test_a_passing_article_records_the_verifiers_that_cleared_it():
+    """Every article on the live site carried `verified_by: []` while the page
+    told readers each sentence "was checked against those claims by two further
+    models". The check really had run — but the record could not show it, so
+    the strongest claim this system makes about itself was unauditable.
+
+    A reader who does not trust us should be able to see WHO cleared a sentence
+    without taking our word that anyone did.
+    """
+    from ledger.entail import cleared
+
+    art = article("The Federal Reserve held rates unchanged in August 2026.")
+    names = ["entail-1", "entail-2"]
+    res = check(art, CLAIMS, verifiers=[yes, yes])
+    assert res.passed
+    out = cleared(art, names)
+    assert out.verified_by == ("entail-1", "entail-2")
+    assert out.headline == art.headline and out.paragraphs == art.paragraphs
+
+
+def test_clearing_does_not_alter_a_single_word_of_the_article():
+    from ledger.entail import cleared
+    art = article("The Federal Reserve held rates unchanged in August 2026.")
+    out = cleared(art, ["entail-1"])
+    assert out.word_count == art.word_count
+    assert out.as_dict()["paragraphs"] == art.as_dict()["paragraphs"]

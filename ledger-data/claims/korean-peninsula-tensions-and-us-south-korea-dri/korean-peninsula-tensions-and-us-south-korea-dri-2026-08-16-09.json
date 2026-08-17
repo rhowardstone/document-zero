@@ -1,0 +1,14 @@
+{
+  "claim_text": "North Korea on Friday 14 August 2026 threatened unspecified stern steps against the United States and South Korea, describing the drills as a rehearsal for an aggressive war that was triggering greater instability in the region.",
+  "quote": "North Korea on Friday threatened unspecified stern steps against the U.S. and South Korea, describing their military drills as a \"a rehearsal for an aggressive war\" that are triggering greater instability in the region.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "AP reporting of an official North Korean statement, quoted verbatim in part.",
+  "source_sha": "1dbebdfbb919efc7fa96dc0cdb74703deaadcdc3a1cbe56d45e92e6c0294a1a4",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-09",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rita Reith, a spokesperson with the Indianapolis Fire Department, put the number of rescues at 95 people and 45 pets as of late afternoon on Saturday 15 August 2026, with dispatchers receiving hundreds of calls for service through the day.",
+  "quote": "Rita Reith, a spokesperson with the Indianapolis Fire Department, put the number of rescues at 95 people and 45 pets as of late afternoon.",
+  "tier": "credible_allegation",
+  "confidence": 0.6,
+  "confidence_justification": "Operational count given by a named fire department spokesperson; the call volume detail comes from the same article.",
+  "source_sha": "f2ef33a053f4dc5f02f4829a4a34763dc4469b6a750e17e617349badfce795f5",
+  "source_url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-15",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

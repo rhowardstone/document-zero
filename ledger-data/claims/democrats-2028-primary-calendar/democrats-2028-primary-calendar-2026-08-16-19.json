@@ -1,0 +1,14 @@
+{
+  "claim_text": "Smith, who accused Democratic Rep. Jasmine Crockett of Texas last September of using 'street verbiage' in her criticisms of President Trump, said last week that Trump-backed Florida gubernatorial candidate Byron Donalds might prompt him to switch his political affiliation from Democrat to Republican.",
+  "quote": "he also praised the president, and said last week that Trump-backed Florida gubernatorial candidate Byron Donalds might prompt him to change his political affiliation from Democrat to Republican.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Public statements by a public figure recounted in the report; the switch itself is described only as a possibility.",
+  "source_sha": "d04600f9bd207964daa7b62fac1894df4569d05798e0e809330fca63930c8f18",
+  "source_url": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-19",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

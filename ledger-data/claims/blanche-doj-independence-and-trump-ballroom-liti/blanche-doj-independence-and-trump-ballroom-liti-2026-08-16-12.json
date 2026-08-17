@@ -1,0 +1,14 @@
+{
+  "claim_text": "Blanche said on 16 August 2026 that federal investigators are supplying state and local law enforcement with manpower and forensic assistance in an Arizona disappearance case, but that taking the investigation over with sharp elbows would not necessarily be the right course.",
+  "quote": "We are working as hard as we can with the state and local law enforcement in every area, and that means not only providing assistance with manpower, but any sort of forensic assistance",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Verbatim statement from the attorney general in a broadcast interview.",
+  "source_sha": "e6bb984d7ec0c17ab05365002337133c3f93633f4a747145eb40a208a5a72b40",
+  "source_url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-12",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

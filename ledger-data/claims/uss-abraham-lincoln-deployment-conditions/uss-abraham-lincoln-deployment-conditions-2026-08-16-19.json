@@ -1,0 +1,14 @@
+{
+  "claim_text": "Once the USS George Washington arrives in the Middle East it will be the third U.S. aircraft carrier in the region alongside the USS George H.W. Bush, and no U.S. aircraft carrier will remain in the Pacific.",
+  "quote": "Once it arrives in the Middle East, it will be the third aircraft carrier in the area. The USS George HW Bush is also there. No US aircraft carrier will remain in the Pacific.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Force-posture statement corroborated by the AP headline in the same cluster; at the news ceiling.",
+  "source_sha": "310b0eeed5f181d96c83e17aa939af599f6986af23d95e3a5ff4051eef555626",
+  "source_url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+  "source_type": "news",
+  "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-19",
+  "beat": "uss-abraham-lincoln-deployment-conditions",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

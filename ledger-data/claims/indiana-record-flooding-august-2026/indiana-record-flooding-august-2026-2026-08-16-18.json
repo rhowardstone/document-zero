@@ -1,0 +1,14 @@
+{
+  "claim_text": "AP reported on 16 August 2026 that at least seven people had died from days of heavy rain and record-setting flooding in Indiana, a toll carried the same day by CBS News, NPR and Chicago-area broadcasters covering continuing power outages.",
+  "quote": "At least 7 people have died from days of heavy rain and record-setting flooding in Indiana - AP News",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Headline-level aggregation only; the toll is corroborated by full articles in this cluster but this item carries no body text of its own.",
+  "source_sha": "6f7a03378a612c92b123b85cd72ff6acd43f8327b357255fd8ec2790d74a4101",
+  "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
+  "source_type": "news",
+  "id": "indiana-record-flooding-august-2026-2026-08-16-18",
+  "beat": "indiana-record-flooding-august-2026",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

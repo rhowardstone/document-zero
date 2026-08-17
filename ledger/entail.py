@@ -126,6 +126,23 @@ def without(article, refusals, validate=None):
     return (validate or _validate)(obj)
 
 
+def cleared(article, verifier_names):
+    """The same article, with the verifiers that cleared it on the record.
+
+    Every article on the live site carried `verified_by: []` while the page
+    told readers each sentence "was checked against those claims by two further
+    models". The check had genuinely run — but the record could not show it, so
+    the strongest claim this system makes about itself was the one claim a
+    sceptical reader could not audit.
+
+    Nothing about the prose changes. This adds attribution, never content.
+    """
+    from .article import validate
+    d = article.as_dict()
+    d["verified_by"] = [str(n) for n in (verifier_names or ())]
+    return validate(d)
+
+
 def check(article, claims, verifiers, workers: int = 8,
           refuse_threshold: int | None = None) -> Result:
     """Run every sentence past every verifier.

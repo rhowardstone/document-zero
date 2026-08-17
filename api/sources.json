@@ -1,408 +1,94 @@
 {
- "count": 28,
+ "count": 7,
  "sources": [
   {
-   "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
-   "publisher": "theguardian.com",
-   "source_type": "news",
-   "records": [
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-03",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-08",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-09",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-10",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-09",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-10",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-11",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-12",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-13",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-19"
-   ],
-   "beats": [
-    "uss-abraham-lincoln-deployment-conditions"
-   ]
-  },
-  {
-   "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
-   "publisher": "cbsnews.com",
-   "source_type": "news",
-   "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-01",
-    "indiana-record-flooding-august-2026-2026-08-16-02",
-    "indiana-record-flooding-august-2026-2026-08-17-00",
-    "indiana-record-flooding-august-2026-2026-08-17-01",
-    "indiana-record-flooding-august-2026-2026-08-17-02",
-    "indiana-record-flooding-august-2026-2026-08-17-03",
-    "indiana-record-flooding-2026-08-16-00",
-    "indiana-record-flooding-2026-08-16-02"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
-   ]
-  },
-  {
-   "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
-   "publisher": "cbsnews.com",
-   "source_type": "news",
-   "records": [
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-04",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-06",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-11",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-05",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-14",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-15",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-16",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-17"
-   ],
-   "beats": [
-    "uss-abraham-lincoln-deployment-conditions"
-   ]
-  },
-  {
-   "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+   "url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
    "publisher": "pbs.org",
    "source_type": "news",
    "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-08",
-    "indiana-record-flooding-august-2026-2026-08-16-09",
-    "indiana-record-flooding-august-2026-2026-08-17-09",
-    "indiana-record-flooding-august-2026-2026-08-17-10",
-    "indiana-record-flooding-august-2026-2026-08-17-11",
-    "indiana-record-flooding-august-2026-2026-08-17-12",
-    "indiana-record-flooding-2026-08-16-01"
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-01",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-02",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-03",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-09",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-10",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-11"
    ],
    "beats": [
-    "indiana-record-flooding-august-2026"
+    "korean-peninsula-tensions-and-us-south-korea-dri"
    ]
   },
   {
-   "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
-   "publisher": "pbs.org",
-   "source_type": "news",
-   "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-10",
-    "indiana-record-flooding-august-2026-2026-08-16-11",
-    "indiana-record-flooding-august-2026-2026-08-17-13",
-    "indiana-record-flooding-august-2026-2026-08-17-14",
-    "indiana-record-flooding-august-2026-2026-08-17-15",
-    "indiana-record-flooding-2026-08-16-06",
-    "indiana-record-flooding-2026-08-16-07"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
    "publisher": "news.google.com",
    "source_type": "misc",
    "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-07",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-08",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-09",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-10",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-09",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-10",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-11"
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-04",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-05",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-18"
    ],
    "beats": [
-    "us-iran-war-and-hormuz-blockade"
+    "korean-peninsula-tensions-and-us-south-korea-dri"
    ]
   },
   {
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
    "publisher": "news.google.com",
    "source_type": "misc",
    "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-17",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-18",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-19",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-18",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-19",
-    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-03",
-    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-04"
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-06",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-19"
    ],
    "beats": [
-    "us-iran-war-and-hormuz-blockade"
+    "korean-peninsula-tensions-and-us-south-korea-dri"
    ]
   },
   {
-   "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+   "url": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
    "publisher": "cbsnews.com",
    "source_type": "news",
    "records": [
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-07",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-00",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-01",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-02",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-03",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-04"
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-14",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-15",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-16"
    ],
    "beats": [
-    "uss-abraham-lincoln-deployment-conditions"
+    "korean-peninsula-tensions-and-us-south-korea-dri"
    ]
   },
   {
-   "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
-   "publisher": "theguardian.com",
+   "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+   "publisher": "bbc.co.uk",
    "source_type": "news",
    "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-05",
-    "indiana-record-flooding-august-2026-2026-08-16-06",
-    "indiana-record-flooding-august-2026-2026-08-17-04",
-    "indiana-record-flooding-august-2026-2026-08-17-05",
-    "indiana-record-flooding-2026-08-16-04"
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-12",
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-13"
    ],
    "beats": [
-    "indiana-record-flooding-august-2026"
+    "korean-peninsula-tensions-and-us-south-korea-dri"
    ]
   },
   {
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "misc",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-00",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-01",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-02",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-00",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-01"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
-   "publisher": "courthousenews.com",
+   "url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+   "publisher": "nbcnews.com",
    "source_type": "news",
    "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-05",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-06",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-07",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-08",
-    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-02"
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-08"
    ],
    "beats": [
-    "us-iran-war-and-hormuz-blockade"
+    "korean-peninsula-tensions-and-us-south-korea-dri"
    ]
   },
   {
-   "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
-   "publisher": "npr.org",
-   "source_type": "news",
-   "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-03",
-    "indiana-record-flooding-august-2026-2026-08-16-04",
-    "indiana-record-flooding-august-2026-2026-08-17-16",
-    "indiana-record-flooding-2026-08-16-03"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
-   ]
-  },
-  {
-   "url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
-   "publisher": "courthousenews.com",
-   "source_type": "news",
-   "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-07",
-    "indiana-record-flooding-august-2026-2026-08-17-06",
-    "indiana-record-flooding-august-2026-2026-08-17-07",
-    "indiana-record-flooding-august-2026-2026-08-17-08"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
-   ]
-  },
-  {
-   "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
-   "publisher": "pbs.org",
-   "source_type": "news",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-06",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-03",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-04",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-05"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
-   "publisher": "npr.org",
-   "source_type": "news",
-   "records": [
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-05",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-13",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-14",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-18"
-   ],
-   "beats": [
-    "uss-abraham-lincoln-deployment-conditions"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "misc",
-   "records": [
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-15",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-16",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-17",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-08"
-   ],
-   "beats": [
-    "uss-abraham-lincoln-deployment-conditions"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "misc",
-   "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-12",
-    "indiana-record-flooding-august-2026-2026-08-16-13",
-    "indiana-record-flooding-august-2026-2026-08-17-19"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "misc",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-03",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-04",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-02"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
-   "publisher": "cbsnews.com",
-   "source_type": "news",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-11",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-12",
-    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-06"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "misc",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-13",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-14",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-16"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
-   "publisher": "npr.org",
-   "source_type": "news",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-16-15",
-    "us-iran-war-and-hormuz-blockade-2026-08-16-16",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-17"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "news",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-17-14",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-15",
-    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-05"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+   "url": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
    "publisher": "thehill.com",
    "source_type": "news",
    "records": [
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-00",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-01",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-06"
+    "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-17"
    ],
    "beats": [
-    "uss-abraham-lincoln-deployment-conditions"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "misc",
-   "records": [
-    "indiana-record-flooding-august-2026-2026-08-16-00",
-    "indiana-record-flooding-august-2026-2026-08-17-17"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "news",
-   "records": [
-    "us-iran-war-and-hormuz-blockade-2026-08-17-12",
-    "us-iran-war-and-hormuz-blockade-2026-08-17-13"
-   ],
-   "beats": [
-    "us-iran-war-and-hormuz-blockade"
-   ]
-  },
-  {
-   "url": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
-   "publisher": "thehill.com",
-   "source_type": "news",
-   "records": [
-    "uss-abraham-lincoln-deployment-conditions-2026-08-16-02",
-    "uss-abraham-lincoln-deployment-conditions-2026-08-17-07"
-   ],
-   "beats": [
-    "uss-abraham-lincoln-deployment-conditions"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96N2J2UmxQRXhGb1ZqaU5MY3J1LVpnY3VsNk1HdndVcjltWVJIUHhaTVVEb0U5Z1ltNkdxRDVIenQ3ekRQajFERnRyOUhRUTduZnE2WWFKcHJNU25NLWc1S0NhdFdCOFhkaENjOFFWU20wcFRpcTBR?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "news",
-   "records": [
-    "indiana-record-flooding-august-2026-2026-08-17-18"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
-   ]
-  },
-  {
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96dUtRbGx2T29SYXpFakJ4SmtxMzMwd0VXSjRralBXV1RmdnQwT0NoZHhUTU5tUVJYNUVjcnZXSjNGek1EMmJ1ZlBTUDJqeHhWVmlwWkxEN0trRW93ZUtWVjFwM2dYY0FadGRDbHVaTXU5SEZWWTc2bUxFcWh5dlE?oc=5",
-   "publisher": "news.google.com",
-   "source_type": "misc",
-   "records": [
-    "indiana-record-flooding-2026-08-16-05"
-   ],
-   "beats": [
-    "indiana-record-flooding-august-2026"
+    "korean-peninsula-tensions-and-us-south-korea-dri"
    ]
   }
  ]

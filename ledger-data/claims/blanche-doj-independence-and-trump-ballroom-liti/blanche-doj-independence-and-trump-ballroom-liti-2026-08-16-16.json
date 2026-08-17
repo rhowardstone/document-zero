@@ -1,0 +1,14 @@
+{
+  "claim_text": "New renderings of the White House East Wing published on 16 August 2026 reveal gold additions to the design, part of a project Trump has described as shifting from his dream of beauty and space to a military complex.",
+  "quote": "New White House East Wing renderings reveal gold additions",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Headline-level sourcing only; the renderings are not described in the available text.",
+  "source_sha": "2a7794e0a073aa175c76ecdee30de3d5265e6c57feb40c14e9ceb4efdbe1d0aa",
+  "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Gov. Josh Green said at least one person died in a car accident in the South Point area of the Big Island, while 19 roofs were lost and 190 flights were postponed as Hurricane Lala passed on 15 August 2026.",
+  "quote": "Gov. Josh Green said at least one person died in a car accident in the South Point area of the Big Island, while 19 roofs were lost and 190 flights were postponed.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "On-record statement by the state governor giving specific damage counts.",
+  "source_sha": "2a7be28a8520cd451618e3088201151464ce14c22e61bfe0836f3477fc5b34b3",
+  "source_url": "https://www.independent.co.uk/news/world/americas/hurricane-lala-hawaii-big-island-b3033797.html",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-17",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

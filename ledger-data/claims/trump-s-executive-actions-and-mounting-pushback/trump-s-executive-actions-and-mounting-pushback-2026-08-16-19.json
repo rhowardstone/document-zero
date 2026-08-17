@@ -1,0 +1,14 @@
+{
+  "claim_text": "In remarks to reporters reported by the BBC on 12 August 2026, Trump confirmed that he secretly swapped planes as he left the Nato summit in Turkey the previous month because of a possible threat.",
+  "quote": "The President confirmed that he secretly swapped planes as he left a Nato summit in Turkey last month due to a possible threat.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "On-record presidential confirmation on camera, though only the video summary text is available in this cluster.",
+  "source_sha": "2ee27fd3330da7e8fe85ab24d32b95b4dd43f950df545e3d7a437192242bab8d",
+  "source_url": "https://www.bbc.co.uk/news/videos/cp30p4ze3gxo?at_medium=RSS&at_campaign=rss",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-19",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

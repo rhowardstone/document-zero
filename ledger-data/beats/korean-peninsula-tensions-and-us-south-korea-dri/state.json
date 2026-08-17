@@ -3,32 +3,64 @@
   "as_of": "2026-08-16",
   "fields": [
     {
-      "k": "Status of US-South Korea joint exercises",
-      "v": "Trump has ordered the Pentagon to scale them back; drills had been slated to begin this week",
+      "k": "Ulchi Freedom Shield",
+      "v": "Due to begin Monday; ordered scaled back",
       "since": "2026-08-16",
       "claims": [
         "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"
       ]
     },
     {
-      "k": "Inter-Korean talks",
-      "v": "South Korean President Lee has proposed talks; Pyongyang reported to have snubbed the proposal",
+      "k": "Seoul's stance on drills",
+      "v": "Proceeding as scheduled",
       "since": "2026-08-16",
       "claims": [
         "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"
       ]
     },
     {
-      "k": "Armistice / peace treaty status",
-      "v": "Still an armistice; Lee is urging it be replaced with peace",
+      "k": "Pyongyang response to Trump order",
+      "v": "None yet",
       "since": "2026-08-16",
       "claims": [
         "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"
       ]
     },
     {
-      "k": "Incidents at the Military Demarcation Line",
-      "v": "South Korea says it fired warning shots after North Korean soldiers briefly crossed",
+      "k": "North Korean missile testing",
+      "v": "Resumed; two tests this month",
+      "since": "2026-08-16",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Inter-Korean peace talks proposal",
+      "v": "Snubbed",
+      "since": "2026-08-16",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "US troops in South Korea",
+      "v": "About 28,500",
+      "since": "2026-08-16",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "US carrier presence in Asia",
+      "v": "None",
+      "since": "2026-08-16",
+      "claims": [
+        "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Demarcation line status",
+      "v": "Warning shots fired; troops retreated",
       "since": "2026-08-16",
       "claims": [
         "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00"

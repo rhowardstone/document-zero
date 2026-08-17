@@ -1,0 +1,14 @@
+{
+  "claim_text": "The National Hurricane Center advisory of Sunday 16 August 2026 said little change in intensity was expected through Monday, and forecasters expected Lala could become a hurricane again on Tuesday or Wednesday well west of the Hawaiian island chain.",
+  "quote": "The advisory said little change in storm intensity is expected through Monday and forecasters expect Lala could become a hurricane again on Tuesday or Wednesday well west of the island chain.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Drawn from a published NHC advisory, though the content is itself a forecast rather than an observed condition.",
+  "source_sha": "4b530ccfbb54462cc4a3c5ece3a9923f09d46ffefc0e86416acb3b7a59fca00f",
+  "source_url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-15",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

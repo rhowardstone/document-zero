@@ -1,0 +1,14 @@
+{
+  "claim_text": "After his 2018 meeting with Kim Jong Un in Singapore, Trump told reporters the United States would be stopping the war games to save a tremendous amount of money, unless and until future negotiations were not going as they should.",
+  "quote": "We will be stopping the war games, which will save us a tremendous amount of money, unless and until we see the future negotiation is not going along like it should,",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Verbatim on-record remark to reporters, reproduced by CBS News.",
+  "source_sha": "80ebc55d5a29df346c105b00b80b5cd9c79bf62485d19a23bd8a746b06998ed6",
+  "source_url": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-14",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

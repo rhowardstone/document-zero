@@ -1,0 +1,14 @@
+{
+  "claim_text": "The FBI is offering a reward of up to $100,000 for information in the Arizona abduction case, which was opened in February 2026 and has since been led by state and local authorities with federal agents assisting in certain areas.",
+  "quote": "The FBI is offering up to a $100,000 reward for information in this case",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "A published reward figure and lead-agency arrangement reported directly, the second sourced to Wall Street Journal reporting cited in the piece.",
+  "source_sha": "e6bb984d7ec0c17ab05365002337133c3f93633f4a747145eb40a208a5a72b40",
+  "source_url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-13",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

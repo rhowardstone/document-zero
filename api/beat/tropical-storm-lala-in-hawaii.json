@@ -7,48 +7,48 @@
   "status": "quiet",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
-  "events": 8,
-  "summary": "8 claim(s) on record.",
+  "events": 20,
+  "summary": "20 claim(s) on record.",
   "state": [
    {
-    "k": "Storm classification",
-    "v": "tropical storm as of Sunday, downgraded from hurricane",
+    "k": "Storm status",
+    "v": "Tropical storm, 65 mph, moving west-northwest",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Search-and-rescue status",
-    "v": "operation underway in Ka‘ū District after homes swept off foundations",
+    "k": "Deaths",
+    "v": "One (vehicle crash); none confirmed storm-related",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Homes damaged",
-    "v": "at least 100",
+    "k": "Customers without power",
+    "v": "200,000–250,900",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Power outages",
-    "v": "thousands without power",
+    "k": "Search and rescue",
+    "v": "Ongoing at Naalehu and Waiohinu",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "School closures",
-    "v": "2 schools on Hawaii Island closed",
+    "k": "Warnings in effect",
+    "v": "All eight main islands",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Areas under active impact",
-    "v": "Big Island, parts of Maui County and Oʻahu",
+    "k": "Big Island airports",
+    "v": "Reopened after Saturday closure",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Casualties",
-    "v": "none reported in this cluster",
+    "k": "Forecast intensity",
+    "v": "Hurricane possible Tue–Wed, west of chain",
     "since": "2026-08-16",
     "flag": null
    }
@@ -58,6 +58,11 @@
     "d": "2026-08-16",
     "c": "Beat opened. 6 events over 5 days (GDELT: 6 days of coverage over 5d).",
     "s": "8 claim(s) from 5 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 9 events over 5 days (GDELT: 6 days of coverage over 5d).",
+    "s": "12 claim(s) from 9 newsroom(s)"
    }
   ],
   "changes": [],
@@ -73,7 +78,19 @@
    "tropical-storm-lala-in-hawaii-2026-08-16-04",
    "tropical-storm-lala-in-hawaii-2026-08-16-05",
    "tropical-storm-lala-in-hawaii-2026-08-16-06",
-   "tropical-storm-lala-in-hawaii-2026-08-16-07"
+   "tropical-storm-lala-in-hawaii-2026-08-16-07",
+   "tropical-storm-lala-in-hawaii-2026-08-16-08",
+   "tropical-storm-lala-in-hawaii-2026-08-16-09",
+   "tropical-storm-lala-in-hawaii-2026-08-16-10",
+   "tropical-storm-lala-in-hawaii-2026-08-16-11",
+   "tropical-storm-lala-in-hawaii-2026-08-16-12",
+   "tropical-storm-lala-in-hawaii-2026-08-16-13",
+   "tropical-storm-lala-in-hawaii-2026-08-16-14",
+   "tropical-storm-lala-in-hawaii-2026-08-16-15",
+   "tropical-storm-lala-in-hawaii-2026-08-16-16",
+   "tropical-storm-lala-in-hawaii-2026-08-16-17",
+   "tropical-storm-lala-in-hawaii-2026-08-16-18",
+   "tropical-storm-lala-in-hawaii-2026-08-16-19"
   ],
   "questions": [],
   "triggers": []

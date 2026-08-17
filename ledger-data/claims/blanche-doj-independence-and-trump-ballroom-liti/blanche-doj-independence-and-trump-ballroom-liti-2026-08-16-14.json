@@ -1,0 +1,14 @@
+{
+  "claim_text": "In February 2026, days after the disappearance, President Trump wrote on Truth Social that he was directing all federal law enforcement to be at the complete disposal of the family and of local law enforcement immediately.",
+  "quote": "I am directing ALL Federal Law Enforcement to be at the family’s, and Local Law Enforcement’s, complete disposal, IMMEDIATELY,",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Verbatim quotation of a dated public post by the president.",
+  "source_sha": "e6bb984d7ec0c17ab05365002337133c3f93633f4a747145eb40a208a5a72b40",
+  "source_url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+  "source_type": "news",
+  "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-14",
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

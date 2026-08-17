@@ -219,3 +219,36 @@ def test_an_unverifiable_auth_mode_refuses_to_run(monkeypatch):
     monkeypatch.setattr(cc.subprocess, "run", boom)
     with pytest.raises(cc.WouldBill, match="could not verify"):
         cc.assert_subscription(force=True)
+
+
+# ── stdin belongs to nobody ─────────────────────────────────────────────────
+
+def test_the_agent_never_inherits_stdin():
+    """A scheduled run has no terminal. The CLI waits on stdin when it is
+    inherited ("no stdin data received in 3s"), and with three beat workers
+    running concurrently they contend for the same descriptor. A full daily
+    run launched without a tty lost 11 of 12 beats this way, every one of them
+    reported as "reporter failed" — a pipeline failure wearing the costume of
+    an editorial one.
+
+    Nothing here should ever read from stdin: the prompt is an argument.
+    """
+    import subprocess
+    seen = {}
+
+    def fake_run(cmd, **kw):
+        seen.update(kw)
+        class P:
+            returncode, stdout, stderr = 0, '{"result":"ok"}', ""
+        return P()
+
+    real = subprocess.run
+    subprocess.run = fake_run
+    try:
+        from ledger import claudecode as cc
+        cc._subprocess_runner(["claude", "-p", "hello"])
+    finally:
+        subprocess.run = real
+
+    assert seen.get("stdin") is subprocess.DEVNULL, \
+        "the agent inherits stdin and will block or contend without a terminal"

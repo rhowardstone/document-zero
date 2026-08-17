@@ -3,23 +3,15 @@
   "as_of": "2026-08-16",
   "fields": [
     {
-      "k": "Supreme Court ballroom application",
-      "v": "Pending on emergency docket",
+      "k": "Attorney general",
+      "v": "Blanche, confirmed 50-49",
       "since": "2026-08-16",
       "claims": [
         "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
       ]
     },
     {
-      "k": "Ballroom construction",
-      "v": "Blocked by courts",
-      "since": "2026-08-16",
-      "claims": [
-        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
-      ]
-    },
-    {
-      "k": "Blanche independence pledge",
+      "k": "Pledge of DOJ independence",
       "v": "Refused",
       "since": "2026-08-16",
       "claims": [
@@ -27,8 +19,40 @@
       ]
     },
     {
-      "k": "FBI role in Guthrie investigation",
-      "v": "Assisting, not taking over",
+      "k": "$1.8bn anti-weaponization fund",
+      "v": "Declared dead",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Voter-roll litigation",
+      "v": "20+ straight defeats, continuing",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "White House ballroom construction",
+      "v": "Blocked by courts",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Supreme Court application on ballroom",
+      "v": "Filed, pending",
+      "since": "2026-08-16",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Arizona abduction case lead",
+      "v": "State and local, FBI assisting",
       "since": "2026-08-16",
       "claims": [
         "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00"

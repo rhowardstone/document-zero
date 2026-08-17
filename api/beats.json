@@ -3,11 +3,11 @@
  "beats": [
   {
    "id": "blanche-doj-independence-and-trump-ballroom-liti",
-   "name": "Blanche DOJ independence and Trump ballroom litigation",
+   "name": "DOJ independence under Attorney General Blanche",
    "status": "quiet",
    "dossiers": [],
    "types": [],
-   "events": 12,
+   "events": 20,
    "lastChange": "2026-08-16"
   },
   {
@@ -21,16 +21,16 @@
   },
   {
    "id": "democrats-2028-primary-calendar",
-   "name": "Democrats' 2028 primary calendar",
+   "name": "Democrats' 2028 calendar and party direction",
    "status": "quiet",
    "dossiers": [],
    "types": [],
-   "events": 16,
+   "events": 28,
    "lastChange": "2026-08-16"
   },
   {
    "id": "gaza-ceasefire-road-map-talks",
-   "name": "Gaza ceasefire road map talks",
+   "name": "Trump's Gaza road map impasse",
    "status": "quiet",
    "dossiers": [],
    "types": [],
@@ -40,19 +40,19 @@
   {
    "id": "indiana-record-flooding-august-2026",
    "name": "Indiana record flooding and recovery",
-   "status": "moved",
+   "status": "quiet",
    "dossiers": [],
    "types": [],
-   "events": 42,
+   "events": 48,
    "lastChange": "2026-08-17"
   },
   {
    "id": "korean-peninsula-tensions-and-us-south-korea-dri",
-   "name": "Korean Peninsula tensions and US-South Korea drills",
-   "status": "quiet",
+   "name": "US–South Korea joint drills dispute",
+   "status": "moved",
    "dossiers": [],
    "types": [],
-   "events": 8,
+   "events": 20,
    "lastChange": "2026-08-16"
   },
   {
@@ -70,7 +70,7 @@
    "status": "quiet",
    "dossiers": [],
    "types": [],
-   "events": 8,
+   "events": 20,
    "lastChange": "2026-08-16"
   },
   {
@@ -84,17 +84,17 @@
   },
   {
    "id": "trump-s-executive-actions-and-mounting-pushback",
-   "name": "Trump's executive actions and mounting pushback",
+   "name": "Trump's second term before the 2026 midterms",
    "status": "quiet",
    "dossiers": [],
    "types": [],
-   "events": 8,
+   "events": 20,
    "lastChange": "2026-08-16"
   },
   {
    "id": "us-iran-war-and-hormuz-blockade",
    "name": "US–Iran war and Hormuz blockade",
-   "status": "moved",
+   "status": "quiet",
    "dossiers": [],
    "types": [],
    "events": 45,
@@ -103,10 +103,10 @@
   {
    "id": "uss-abraham-lincoln-deployment-conditions",
    "name": "USS Abraham Lincoln deployment conditions",
-   "status": "moved",
+   "status": "quiet",
    "dossiers": [],
    "types": [],
-   "events": 38,
+   "events": 40,
    "lastChange": "2026-08-17"
   }
  ]

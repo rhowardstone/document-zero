@@ -1,0 +1,14 @@
+{
+  "claim_text": "The National Hurricane Center issued a rare hurricane warning for Hawaii's Big Island on Saturday 15 August 2026, where a landfall would have been the first in 155 years, with forecasters predicting up to 25 inches of rain at higher elevations.",
+  "quote": "The National Hurricane Center issued a rare hurricane warning for the island, where it would be the first to make landfall in 155 years.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Warning issuance is an official NHC action; the 25-inch rainfall forecast appears in the same article.",
+  "source_sha": "de057f1d2c91c4faeeb5e2b801179b83131d0941add8c279d66a8c83b90fc898",
+  "source_url": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-19",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,42 +1,60 @@
 {
  "beat": {
   "id": "democrats-2028-primary-calendar",
-  "name": "Democrats' 2028 primary calendar",
+  "name": "Democrats' 2028 calendar and party direction",
   "dossiers": [],
   "types": [],
   "status": "quiet",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
-  "events": 16,
-  "summary": "16 claim(s) on record.",
+  "events": 28,
+  "summary": "28 claim(s) on record.",
   "state": [
    {
-    "k": "Leadoff state",
-    "v": "South Carolina, voting Jan. 22, 2028",
+    "k": "2028 leadoff primary state",
+    "v": "South Carolina, Jan. 22, 2028",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Second state",
-    "v": "Nevada, voting Feb. 1",
+    "k": "Calendar approval status",
+    "v": "Endorsed by DNC, 15 Aug",
     "since": "2026-08-16",
     "flag": null
    },
    {
     "k": "Iowa's position",
-    "v": "pushed from the traditional top spot",
+    "v": "Dropped from first",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Party split over socialism",
-    "v": "under debate; subject of a CBS News poll",
+    "k": "Third Trump impeachment",
+    "v": "On table, not a priority",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Congressional Democrats' response to Trump transparency push",
-    "v": "unresolved — still being weighed",
+    "k": "House oversight probes",
+    "v": "Groundwork being laid",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Time to midterms",
+    "v": "Under three months",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Trump approval",
+    "v": "At new lows",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Democrats rating own party 'weak'",
+    "v": "Over a third",
     "since": "2026-08-16",
     "flag": null
    }
@@ -51,6 +69,11 @@
     "d": "2026-08-16",
     "c": "Beat opened. 7 events over 20 days (GDELT: 21 days of coverage over 20d).",
     "s": "8 claim(s) from 4 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 10 events over 19 days (GDELT: 20 days of coverage over 19d).",
+    "s": "12 claim(s) from 6 newsroom(s)"
    }
   ],
   "changes": [],
@@ -74,7 +97,19 @@
    "democrats-2028-primary-calendar-2026-08-16-04",
    "democrats-2028-primary-calendar-2026-08-16-05",
    "democrats-2028-primary-calendar-2026-08-16-06",
-   "democrats-2028-primary-calendar-2026-08-16-07"
+   "democrats-2028-primary-calendar-2026-08-16-07",
+   "democrats-2028-primary-calendar-2026-08-16-08",
+   "democrats-2028-primary-calendar-2026-08-16-09",
+   "democrats-2028-primary-calendar-2026-08-16-10",
+   "democrats-2028-primary-calendar-2026-08-16-11",
+   "democrats-2028-primary-calendar-2026-08-16-12",
+   "democrats-2028-primary-calendar-2026-08-16-13",
+   "democrats-2028-primary-calendar-2026-08-16-14",
+   "democrats-2028-primary-calendar-2026-08-16-15",
+   "democrats-2028-primary-calendar-2026-08-16-16",
+   "democrats-2028-primary-calendar-2026-08-16-17",
+   "democrats-2028-primary-calendar-2026-08-16-18",
+   "democrats-2028-primary-calendar-2026-08-16-19"
   ],
   "questions": [],
   "triggers": []

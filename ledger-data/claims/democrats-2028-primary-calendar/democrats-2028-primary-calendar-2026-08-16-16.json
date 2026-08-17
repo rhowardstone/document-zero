@@ -1,0 +1,14 @@
+{
+  "claim_text": "Rep. Jamie Raskin, the top Judiciary Democrat, said anyone involved in Paramount's attempt to purchase Warner Bros. Discovery should be prepared to answer under oath, as a Paramount lawyer said the company was happy to cooperate with Democrats vowing a crackdown on the merger.",
+  "quote": "Top Judiciary Democrat Jamie Raskin said anyone involved in Paramount’s attempt to purchase Warner Bros. Discovery",
+  "tier": "credible_allegation",
+  "confidence": 0.5,
+  "confidence_justification": "On-record statements by a named lawmaker and a company lawyer, summarised; no hearing has been convened.",
+  "source_sha": "cdc8338c24310389e0280aa87a4abebb3ac468895cef0306a2b8fca46fd7793d",
+  "source_url": "https://www.politico.com/live-updates/2026/08/11/congress/paramount-happy-to-cooperate-with-dems-01034696",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-16",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

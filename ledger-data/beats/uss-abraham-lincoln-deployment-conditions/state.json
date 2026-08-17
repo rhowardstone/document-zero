@@ -1,45 +1,69 @@
 {
   "beat": "uss-abraham-lincoln-deployment-conditions",
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-16",
   "fields": [
     {
       "k": "Days at sea",
-      "v": "240–260+, no port call in 200+",
-      "since": "2026-08-17",
+      "v": "more than 260",
+      "since": "2026-08-16",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
       ]
     },
     {
-      "k": "Lincoln status",
-      "v": "Returning home",
-      "since": "2026-08-17",
+      "k": "Days since last port call",
+      "v": "more than 200",
+      "since": "2026-08-16",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
       ]
     },
     {
       "k": "Relief carrier",
-      "v": "USS George Washington, en route",
-      "since": "2026-08-17",
+      "v": "USS George Washington, Duqm est. ~22 Aug",
+      "since": "2026-08-16",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
       ]
     },
     {
-      "k": "Congressional oversight",
-      "v": "Requested, no hearing scheduled",
-      "since": "2026-08-17",
+      "k": "Carriers in Middle East",
+      "v": "two, third en route",
+      "since": "2026-08-16",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Carriers in Pacific",
+      "v": "none",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Congressional action",
+      "v": "letters sent, inquiry demanded",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
       ]
     },
     {
       "k": "Pentagon position",
-      "v": "Reports 'completely misrepresented'",
-      "since": "2026-08-17",
+      "v": "reports \"completely misrepresented\"",
+      "since": "2026-08-16",
       "claims": [
-        "uss-abraham-lincoln-deployment-conditions-2026-08-17-00"
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "US military deaths in war",
+      "v": "17",
+      "since": "2026-08-16",
+      "claims": [
+        "uss-abraham-lincoln-deployment-conditions-2026-08-16-00"
       ]
     }
   ]

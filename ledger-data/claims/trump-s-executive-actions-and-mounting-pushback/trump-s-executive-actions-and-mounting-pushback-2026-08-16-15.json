@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump signed a memorandum authorizing U.S. private-sector companies to launch offensive cyberattacks against foreign cybercriminals, reported on 15 August 2026 by NPR, The Guardian, The Washington Post and The New York Times.",
+  "quote": "Trump signs memo authorizing private sector to launch cyberattacks",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Four independent major outlets report the signing, but only aggregated headlines are available here, so the memo's text and scope cannot be verified.",
+  "source_sha": "94e34d533b9612c77b78405965496e195ac83c93cad370674b527d61f4152968",
+  "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-15",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

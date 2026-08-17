@@ -1,23 +1,28 @@
 {
-  "name": "Gaza ceasefire road map talks",
+  "name": "Trump's Gaza road map impasse",
   "slug": "gaza-ceasefire-road-map-talks",
-  "opened": true,
-  "reason": "5 events over 20 days (GDELT: 21 days of coverage over 20d)",
-  "events": 5,
-  "span_days": 20,
+  "opened": false,
+  "reason": "span unknown: the history lookup failed and the wire alone sees 0 day(s). Deferred rather than rejected — this may open once the lookup succeeds.",
+  "events": 8,
+  "span_days": 0,
   "state_fields": [
-    "Gaza ceasefire",
-    "Netanyahu position on 15-point road map",
+    "Netanyahu on 15-point road map",
+    "Hamas on road map",
+    "14-day negotiation period",
+    "Israeli-held share of Gaza",
+    "Palestinian deaths since ceasefire",
+    "Technocratic committee deployment",
+    "International stabilization force",
     "Kushner–Netanyahu meeting",
-    "Hamas disarmament",
-    "Israeli withdrawal",
-    "Israeli strikes in Gaza",
-    "Cairo mediator track"
+    "Israeli election"
   ],
   "dated_trigger": null,
   "publishers": [
+    "aljazeera.com",
+    "axios.com",
+    "bbc.co.uk",
     "cbsnews.com",
-    "cnn.com",
+    "independent.co.uk",
     "npr.org",
     "pbs.org",
     "theguardian.com"
@@ -29,9 +34,9 @@
       "publisher": "theguardian.com"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
-      "title": "Live updates: Jared Kushner meets with regional leaders as multiple conflicts roil the Middle East",
-      "publisher": "cnn.com"
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jared-kushner-hamas-chief-gaza-ceasefire-b3033911.html",
+      "title": "Jared Kushner holds rare meeting with Hamas chief over stalled Gaza peace plan",
+      "publisher": "independent.co.uk"
     },
     {
       "url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
@@ -44,17 +49,27 @@
       "publisher": "npr.org"
     },
     {
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZUJUUXNZOERVdVVpWENGOE94TkdCQU1mdmItQmt5cFRZWEFCcklSYlhtSnE0bzU1NVVYNXV0QlZMTnRRNmhMM0JLa1RnZ3VHNzRIT0F3ckVhdUwyS0pCMU14aFRNVVdERVJCSDRMaXZtanozMWtuNEJnckdlVWprVmVR?oc=5",
+      "title": "Inside Kushner's Hamas meeting: What comes next in Gaza - axios.com",
+      "publisher": "axios.com"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+      "title": "Trump envoy Kushner meets Hamas leader to push Gaza peace plan",
+      "publisher": "bbc.co.uk"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+      "title": "Kushner meets Hamas leaders in Egypt to push Trump’s Gaza plan",
+      "publisher": "aljazeera.com"
+    },
+    {
       "url": "https://www.pbs.org/newshour/world/kushner-has-rare-meeting-with-hamas-leader-on-gaza-road-map-a-meeting-with-netanyahu-is-next",
       "title": "Kushner has rare meeting with Hamas' leader on Gaza road map. A meeting with Netanyahu is next",
       "publisher": "pbs.org"
     }
   ],
-  "claims_found": 12,
-  "dropped": [
-    {
-      "claim": "Jared Kushner, US envoy and Trump's son-in-law, met Hamas's ",
-      "why": "quote does not appear in the cited article"
-    }
-  ],
+  "claims_found": 20,
+  "dropped": [],
   "no_state_reason": ""
 }

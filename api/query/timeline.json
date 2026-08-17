@@ -2,7 +2,7 @@
  "query": "timeline",
  "question": "Every dated event on the record, chronologically.",
  "method": "every history row of every beat, sorted by date ascending. Sequence is the thing individual facts cannot show: a gap here, where other evidence says events occurred, is a finding rather than an absence.",
- "count": 32,
+ "count": 39,
  "results": [
   {
    "date": "2019-07-23",
@@ -112,28 +112,42 @@
   {
    "date": "2026-08-16",
    "beat": "blanche-doj-independence-and-trump-ballroom-liti",
-   "beat_name": "Blanche DOJ independence and Trump ballroom litigation",
+   "beat_name": "DOJ independence under Attorney General Blanche",
    "event": "Beat opened. 5 events over 18 days (GDELT: 19 days of coverage over 18d).",
    "support": "12 claim(s) from 5 newsroom(s)"
   },
   {
    "date": "2026-08-16",
+   "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+   "beat_name": "DOJ independence under Attorney General Blanche",
+   "event": "Beat opened. 8 events over 19 days (GDELT: 20 days of coverage over 19d).",
+   "support": "8 claim(s) from 7 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
    "beat": "democrats-2028-primary-calendar",
-   "beat_name": "Democrats' 2028 primary calendar",
+   "beat_name": "Democrats' 2028 calendar and party direction",
    "event": "Beat opened. 7 events over 20 days (GDELT: 20 days of coverage over 20d).",
    "support": "8 claim(s) from 4 newsroom(s)"
   },
   {
    "date": "2026-08-16",
    "beat": "democrats-2028-primary-calendar",
-   "beat_name": "Democrats' 2028 primary calendar",
+   "beat_name": "Democrats' 2028 calendar and party direction",
    "event": "Beat opened. 7 events over 20 days (GDELT: 21 days of coverage over 20d).",
    "support": "8 claim(s) from 4 newsroom(s)"
   },
   {
    "date": "2026-08-16",
+   "beat": "democrats-2028-primary-calendar",
+   "beat_name": "Democrats' 2028 calendar and party direction",
+   "event": "Beat opened. 10 events over 19 days (GDELT: 20 days of coverage over 19d).",
+   "support": "12 claim(s) from 6 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
    "beat": "gaza-ceasefire-road-map-talks",
-   "beat_name": "Gaza ceasefire road map talks",
+   "beat_name": "Trump's Gaza road map impasse",
    "event": "Beat opened. 5 events over 20 days (GDELT: 21 days of coverage over 20d).",
    "support": "12 claim(s) from 5 newsroom(s)"
   },
@@ -153,10 +167,24 @@
   },
   {
    "date": "2026-08-16",
+   "beat": "indiana-record-flooding-august-2026",
+   "beat_name": "Indiana record flooding and recovery",
+   "event": "Beat opened. 9 events over 20 days (GDELT: 11 days of coverage over 20d).",
+   "support": "6 claim(s) from 7 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
    "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
-   "beat_name": "Korean Peninsula tensions and US-South Korea drills",
+   "beat_name": "US–South Korea joint drills dispute",
    "event": "Beat opened. 5 events over 20 days (GDELT: 19 days of coverage over 20d).",
    "support": "8 claim(s) from 5 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+   "beat_name": "US–South Korea joint drills dispute",
+   "event": "Beat opened. 8 events over 19 days (GDELT: 20 days of coverage over 19d).",
+   "support": "12 claim(s) from 8 newsroom(s)"
   },
   {
    "date": "2026-08-16",
@@ -164,6 +192,13 @@
    "beat_name": "Tropical Storm Lala in Hawaii",
    "event": "Beat opened. 6 events over 5 days (GDELT: 6 days of coverage over 5d).",
    "support": "8 claim(s) from 5 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "tropical-storm-lala-in-hawaii",
+   "beat_name": "Tropical Storm Lala in Hawaii",
+   "event": "Beat opened. 9 events over 5 days (GDELT: 6 days of coverage over 5d).",
+   "support": "12 claim(s) from 9 newsroom(s)"
   },
   {
    "date": "2026-08-16",
@@ -175,9 +210,16 @@
   {
    "date": "2026-08-16",
    "beat": "trump-s-executive-actions-and-mounting-pushback",
-   "beat_name": "Trump's executive actions and mounting pushback",
+   "beat_name": "Trump's second term before the 2026 midterms",
    "event": "Beat opened. 13 events over 8 days (GDELT: 3 days of coverage over 8d).",
    "support": "8 claim(s) from 8 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "trump-s-executive-actions-and-mounting-pushback",
+   "beat_name": "Trump's second term before the 2026 midterms",
+   "event": "Beat opened. 11 events over 5 days [HTTPError: HTTP Error 429: Too Many Requests].",
+   "support": "12 claim(s) from 6 newsroom(s)"
   },
   {
    "date": "2026-08-16",
@@ -206,6 +248,13 @@
    "beat_name": "USS Abraham Lincoln deployment conditions",
    "event": "Beat opened. 7 events over 19 days (GDELT: 12 days of coverage over 19d).",
    "support": "10 claim(s) from 4 newsroom(s)"
+  },
+  {
+   "date": "2026-08-16",
+   "beat": "uss-abraham-lincoln-deployment-conditions",
+   "beat_name": "USS Abraham Lincoln deployment conditions",
+   "event": "Beat opened. 10 events over 19 days (GDELT: 12 days of coverage over 19d).",
+   "support": "2 claim(s) from 7 newsroom(s)"
   },
   {
    "date": "2026-08-17",

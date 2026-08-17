@@ -5,7 +5,7 @@
 > sources and a confidence capped by source type. Produced by AI agents and
 > not reviewed by a person before publication.
 
-Edition 001 · 2026-08-16 · 12 beats, 3 not quiet, 124 records.
+Edition 001 · 2026-08-16 · 12 beats, 1 not quiet, 20 records.
 
 ## Read this before you cite anything here
 
@@ -44,10 +44,10 @@ by; check the method before citing the number.
 - [What is unresolved, and which document would resolve it?](https://doczero.epstein-data.com/api/query/open-questions.json) — 4 result(s)
 - [Which beats rest entirely on one publisher?](https://doczero.epstein-data.com/api/query/single-publisher-beats.json) — 0 result(s)
 - [What kinds of source is the record actually built on?](https://doczero.epstein-data.com/api/query/source-types.json) — 2 result(s)
-- [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 73 result(s)
-- [Which published claims are stamped `open`?](https://doczero.epstein-data.com/api/query/tier-open.json) — 51 result(s)
-- [Every dated event on the record, chronologically.](https://doczero.epstein-data.com/api/query/timeline.json) — 32 result(s)
-- [Which published claims rest on a single REPORT that nothing else confirms?](https://doczero.epstein-data.com/api/query/uncorroborated.json) — 124 result(s)
+- [Which published claims are stamped `documented`?](https://doczero.epstein-data.com/api/query/tier-documented.json) — 15 result(s)
+- [Which published claims are stamped `open`?](https://doczero.epstein-data.com/api/query/tier-open.json) — 5 result(s)
+- [Every dated event on the record, chronologically.](https://doczero.epstein-data.com/api/query/timeline.json) — 39 result(s)
+- [Which published claims rest on a single REPORT that nothing else confirms?](https://doczero.epstein-data.com/api/query/uncorroborated.json) — 20 result(s)
 - [What does the record explicitly NOT establish?](https://doczero.epstein-data.com/api/query/unknowns.json) — 0 result(s)
 - [What is due next, and what does non-response mean?](https://doczero.epstein-data.com/api/query/upcoming.json) — 3 result(s)
 - [What did not publish, and why?](https://doczero.epstein-data.com/api/query/withheld.json) — 0 result(s)
@@ -82,18 +82,18 @@ SELECT c.tier, c.confidence, s.source_type, s.source_name, c.claim_text
 
 ## Beats
 
-- [Indiana record flooding and recovery](https://doczero.epstein-data.com/api/beat/indiana-record-flooding-august-2026.json): moved, 42 claim(s), last change 2026-08-17
-- [US–Iran war and Hormuz blockade](https://doczero.epstein-data.com/api/beat/us-iran-war-and-hormuz-blockade.json): moved, 45 claim(s), last change 2026-08-17
-- [USS Abraham Lincoln deployment conditions](https://doczero.epstein-data.com/api/beat/uss-abraham-lincoln-deployment-conditions.json): moved, 38 claim(s), last change 2026-08-17
-- [Blanche DOJ independence and Trump ballroom litigation](https://doczero.epstein-data.com/api/beat/blanche-doj-independence-and-trump-ballroom-liti.json): quiet, 12 claim(s), last change 2026-08-16
+- [US–South Korea joint drills dispute](https://doczero.epstein-data.com/api/beat/korean-peninsula-tensions-and-us-south-korea-dri.json): moved, 20 claim(s), last change 2026-08-16
+- [DOJ independence under Attorney General Blanche](https://doczero.epstein-data.com/api/beat/blanche-doj-independence-and-trump-ballroom-liti.json): quiet, 20 claim(s), last change 2026-08-16
 - [Compliance](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 2 claim(s), last change 2026-08-14
-- [Democrats' 2028 primary calendar](https://doczero.epstein-data.com/api/beat/democrats-2028-primary-calendar.json): quiet, 16 claim(s), last change 2026-08-16
-- [Gaza ceasefire road map talks](https://doczero.epstein-data.com/api/beat/gaza-ceasefire-road-map-talks.json): quiet, 12 claim(s), last change 2026-08-16
-- [Korean Peninsula tensions and US-South Korea drills](https://doczero.epstein-data.com/api/beat/korean-peninsula-tensions-and-us-south-korea-dri.json): quiet, 8 claim(s), last change 2026-08-16
+- [Democrats' 2028 calendar and party direction](https://doczero.epstein-data.com/api/beat/democrats-2028-primary-calendar.json): quiet, 28 claim(s), last change 2026-08-16
+- [Trump's Gaza road map impasse](https://doczero.epstein-data.com/api/beat/gaza-ceasefire-road-map-talks.json): quiet, 12 claim(s), last change 2026-08-16
+- [Indiana record flooding and recovery](https://doczero.epstein-data.com/api/beat/indiana-record-flooding-august-2026.json): quiet, 48 claim(s), last change 2026-08-17
 - [Nm records](https://doczero.epstein-data.com/api/beat/nm-records.json): quiet, 28 claim(s), last change 2026-08-14
-- [Tropical Storm Lala in Hawaii](https://doczero.epstein-data.com/api/beat/tropical-storm-lala-in-hawaii.json): quiet, 8 claim(s), last change 2026-08-16
+- [Tropical Storm Lala in Hawaii](https://doczero.epstein-data.com/api/beat/tropical-storm-lala-in-hawaii.json): quiet, 20 claim(s), last change 2026-08-16
 - [Trump administration second term](https://doczero.epstein-data.com/api/beat/trump-administration-second-term.json): quiet, 20 claim(s), last change 2026-08-16
-- [Trump's executive actions and mounting pushback](https://doczero.epstein-data.com/api/beat/trump-s-executive-actions-and-mounting-pushback.json): quiet, 8 claim(s), last change 2026-08-16
+- [Trump's second term before the 2026 midterms](https://doczero.epstein-data.com/api/beat/trump-s-executive-actions-and-mounting-pushback.json): quiet, 20 claim(s), last change 2026-08-16
+- [US–Iran war and Hormuz blockade](https://doczero.epstein-data.com/api/beat/us-iran-war-and-hormuz-blockade.json): quiet, 45 claim(s), last change 2026-08-17
+- [USS Abraham Lincoln deployment conditions](https://doczero.epstein-data.com/api/beat/uss-abraham-lincoln-deployment-conditions.json): quiet, 40 claim(s), last change 2026-08-17
 
 ## Provenance
 

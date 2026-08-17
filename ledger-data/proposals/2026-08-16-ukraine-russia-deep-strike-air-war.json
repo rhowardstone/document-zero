@@ -1,0 +1,87 @@
+{
+  "name": "Ukraine–Russia deep-strike air war",
+  "slug": "ukraine-russia-deep-strike-air-war",
+  "opened": false,
+  "reason": "span unknown: the history lookup failed and the wire alone sees 3 day(s). Deferred rather than rejected — this may open once the lookup succeeds. [HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 10,
+  "span_days": 3,
+  "state_fields": [
+    "Deaths in Russia, 16 Aug strikes",
+    "Deaths in Ukraine, 16 Aug strikes",
+    "Drones Russia says destroyed overnight",
+    "Wildberries logistics hubs out of action",
+    "Romanian shoot-downs of intruding drones",
+    "Ukrainian domestic ballistic missiles",
+    "US Patriot production licence",
+    "Russian-held Ukrainian territory",
+    "UK-made drones in deep strikes",
+    "Monthly civilian casualties (UN)"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "aljazeera.com",
+    "bbc.co.uk",
+    "bbc.com",
+    "cbsnews.com",
+    "cnn.com",
+    "dw.com",
+    "independent.co.uk",
+    "npr.org",
+    "pbs.org"
+  ],
+  "articles": [
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+      "title": "Russia says at least seven killed in largest Ukrainian attack of 2026",
+      "publisher": "bbc.co.uk"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaWx5VUFJbnV2NUdqdkctVFdrSU5lWEdlalVLTDZGTXk2MnhmNlEtamdVM0x1R1dMRG9DRlpLYnZEeFFvc1VLV3FBdTJlc1ZzMHRLSFRXdjJZYldoM1Q5ai1DNU0yemdzVENSbnl1S0hnX05wVUlhb0F4WWFUUldHTUk3NThPcEFqd1BhVlNCbUtVbnc40gGUAUFVX3lxTFBYUTNuLW4yZVRybjJTYXhjTjQyQnROVkx0VE1BeXZOeW56TjdRVmI0dTltUUZza0ZtUjhBRzQxdk5udzdYeDBOOUkyN1RXN3pJVDhPc2xCcUZCVUZNaUV1ZGRxbmtXYWpzODY4RjlxUENHekxrQW5MZ0FEX3FNZlBNVmRzTlQ0ak5tenJuU18zZXllVjg?oc=5",
+      "title": "Ukraine attacks Wildberries, Russia's biggest online market - DW.com",
+      "publisher": "dw.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-ukraine-largest-drone-attack-russia-ua?traffic_source=rss",
+      "title": "Largest Ukrainian drone attack on Russia, Moscow says 822 drones shot down",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/ukraine-launches-one-of-its-largest-aerial-attacks-of-the-war-killing-at-least-6-people-in-russia",
+      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-news-rocket-facility-hit-b3033769.html",
+      "title": "Ukraine-Russia war latest: Kyiv blows up biggest ‘Russian Amazon’ hub in massive drone attack",
+      "publisher": "independent.co.uk"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/europe/uk-drones-ukraine-russia-strikes-war-b3033803.html",
+      "title": "British drones used in Ukrainian attacks deep inside Russia for first time, says report",
+      "publisher": "independent.co.uk"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMURGdXE1bU1fVnQtdnZLa3FDOXRUVXBqMnEyaktVeFlOd2tHTnJHZ19FQzNuWmVyTU4xRHRDWFRMajNuT3RKZk5VWTI3aFFvOWRwYVMwbTc4Zw?oc=5",
+      "title": "UK-made drones strike targets inside Russia - BBC",
+      "publisher": "bbc.com"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
+      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ0FKRmt5NXhNbEFMTUhwUHJ3dExWSlJzc3NYTjR0MXhBUzdDX3R6c25OLTl6dEpJUWg1LWpKQkNKOVc0SV9rNFJWeDZTdnhlRWVtdHQ0S2JPR01GQ0FaLVd1blcwMVdzMkQ5eHZZdlAzLUVmQVoyWVNyTlltcVlsUzloUmxveTZLc0N0T24yQnRJalV2ZHhvZGJ5alZCYWhrWnZkYw?oc=5",
+      "title": "Ukraine could strike Russia with domestic ballistic missiles in 3 to 6 months, says Ukraine's former defense minister - cbsnews.com",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT0FidlRLazhqRXZ2LWVobjZULVpUcDF1ZDdTeHJTRFRvbTFTRHdXX1JUMWktZXEyamdWMzdkeTZMU0w3ZHJrSmN2dkNPaENDQlNwTElaaUdRWUk2RzItN0NXZktTck9MTkRNTXdfVU11OS1UUFRCYmNIYjBTVS1RTHVQNEpEYUhFOXRHOHhLR2Z2OG96?oc=5",
+      "title": "Crimea bomb attack reportedly kills former Ukrainian submarine commander who defected to Russia - CNN",
+      "publisher": "cnn.com"
+    }
+  ],
+  "claims_found": 20,
+  "dropped": [],
+  "no_state_reason": ""
+}

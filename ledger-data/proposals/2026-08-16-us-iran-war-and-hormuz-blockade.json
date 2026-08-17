@@ -2,41 +2,51 @@
   "name": "US–Iran war and Hormuz blockade",
   "slug": "us-iran-war-and-hormuz-blockade",
   "opened": true,
-  "reason": "9 events over 20 days (GDELT: 21 days of coverage over 20d)",
-  "events": 9,
+  "reason": "10 events over 20 days (GDELT: 21 days of coverage over 20d)",
+  "events": 10,
   "span_days": 20,
   "state_fields": [
-    "US-Iran MoU/ceasefire",
-    "Negotiations",
+    "Islamabad MoU",
+    "US–Iran talks",
     "Strait of Hormuz",
-    "UAE tankers attacked",
-    "US carrier in Pacific",
-    "Carrier in Middle East",
-    "US economic measures",
-    "Oil price",
-    "US visas revoked"
+    "Mideast carrier",
+    "Western Pacific carrier presence",
+    "US military deaths",
+    "National average gas price",
+    "Strategic Petroleum Reserve",
+    "Iranian pilots in Qatar",
+    "Oil price"
   ],
   "dated_trigger": null,
   "publishers": [
     "aljazeera.com",
-    "cbsnews.com",
+    "bbc.co.uk",
     "courthousenews.com",
-    "fortune.com",
-    "npr.org",
+    "independent.co.uk",
+    "latimes.com",
     "nypost.com",
     "pbs.org",
-    "salon.com",
-    "thehill.com"
+    "salon.com"
   ],
   "articles": [
     {
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-news-trump-qatar-pilot-detention-b3033790.html",
+      "title": "Iran-US war latest: Tehran’s army chief tells Trump ‘we’ll break your legs’ and places $30k bounty on US soldiers",
+      "publisher": "independent.co.uk"
+    },
+    {
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+      "title": "US-Iran MoU is set to expire: What to know - Al Jazeera",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/16/us-iran-mou-is-set-to-expire-what-to-know?traffic_source=rss",
       "title": "US-Iran MoU is set to expire: What to know",
       "publisher": "aljazeera.com"
     },
     {
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
-      "title": "US military moving last aircraft carrier out of the Pacific to prioritize operations in Iran",
+      "title": "US military moving last aircraft carrier out of the Pacific to prioritize operations in Iran - New York Post",
       "publisher": "nypost.com"
     },
     {
@@ -45,34 +55,29 @@
       "publisher": "courthousenews.com"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
-      "title": "Iran’s oil is trapped while rival exports are about to surge but Tehran could break the US chokehold",
-      "publisher": "fortune.com"
-    },
-    {
-      "url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
-      "title": "Rep. Don Bacon says Trump was \"setting maybe false expectations\" in initial days of Iran war",
-      "publisher": "cbsnews.com"
-    },
-    {
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
-      "title": "Iran’s strategy to simply outlast Trump’s presidency",
+      "title": "Iran’s strategy to simply outlast Trump’s presidency - Salon.com",
       "publisher": "salon.com"
     },
     {
-      "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
-      "title": "State Department spokesperson on Iran war and U.S. visa revocations",
-      "publisher": "npr.org"
+      "url": "https://www.latimes.com/politics/story/2026-08-16/trump-turns-to-containing-fallout-from-setbacks-in-iran",
+      "title": "Trump turns to containing the fallout from setbacks in Iran",
+      "publisher": "latimes.com"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
-      "title": "Iran attacks third UAE tanker within a week",
-      "publisher": "thehill.com"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVVVVzNhSkJDVV95TG9kRWtXYklzZVZlZGNvNWd6bXNkc0hNcE0wT3ctR1N0Z2pMTlgwMUFseE8telJqdXJ4ZU1ibGhlOHI5LW41ZldTUW1UeXB0MkV3YVR6SmJhcTY0NnFoeVRMRHVGNjUyN3RlOS11ZERpVTh6N1Vudmt6aEt0QmZWTDZ4Nzlzc2tGNUE4Z3pZVlVCNk5kd0hLbjhWWVg?oc=5",
+      "title": "Trump turns to containing the fallout from setbacks in Iran - Los Angeles Times",
+      "publisher": "latimes.com"
     },
     {
       "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
       "title": "U.S. pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
       "publisher": "pbs.org"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump's dramatic plane swap hints at personal stakes of Iran war",
+      "publisher": "bbc.co.uk"
     }
   ],
   "claims_found": 20,

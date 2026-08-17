@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Hill reported on 16 August 2026 that Trump said in a Truth Social post that he had told Defense Secretary Pete Hegseth to substantially reduce the joint military exercises with South Korea.",
+  "quote": "President Trump said Sunday he told Defense Secretary Pete Hegseth to “substantially reduce” the joint military exercises with South Korea.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Summary-only item, but it quotes the operative phrase from the president's post directly.",
+  "source_sha": "25ae70e300e1111502e8f2f2a580a2429b5d4607915d4ac79488cc767e68784c",
+  "source_url": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-17",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

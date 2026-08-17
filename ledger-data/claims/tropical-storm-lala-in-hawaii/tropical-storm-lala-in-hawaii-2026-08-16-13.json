@@ -1,0 +1,14 @@
+{
+  "claim_text": "The Honolulu Fire Department had launched dozens of weather-related responses by 2 a.m. local time on Sunday 16 August 2026, including 58 reports of downed trees, 39 blown roofs, 12 downed power lines, 12 arcing-wire situations and one swimmer rescue.",
+  "quote": "The Honolulu Fire Department had launched dozens of weather-related responses by 2 a.m. local time Sunday, including 58 reports of downed trees, 39 blown roofs, 12 downed power lines, 12 arcing-wire situations and one swimmer rescue, according to a statement from the city.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Itemised tally issued in a written statement from the city of Honolulu.",
+  "source_sha": "4b530ccfbb54462cc4a3c5ece3a9923f09d46ffefc0e86416acb3b7a59fca00f",
+  "source_url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+  "source_type": "news",
+  "id": "tropical-storm-lala-in-hawaii-2026-08-16-13",
+  "beat": "tropical-storm-lala-in-hawaii",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

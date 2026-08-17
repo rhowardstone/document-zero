@@ -1,0 +1,14 @@
+{
+  "claim_text": "A Politico item published Aug. 13, 2026 featured Sen. Adam Schiff addressing what it framed as Democrats' 'losing message,' along with Rep. Alexandria Ocasio-Cortez and AIPAC.",
+  "quote": "Adam Schiff on Democrats’ ‘losing message,’ AOC and AIPAC",
+  "tier": "question",
+  "confidence": 0.35,
+  "confidence_justification": "Headline only, no body text available; establishes the subject raised, not what Schiff said.",
+  "source_sha": "fd39d3701e1d5da5a31b67bf449d96d168144f91bfdf1683580bbc4a7d65d636",
+  "source_url": "https://www.politico.com/video/2026/08/12/adam-schiff-on-democrats-losing-message-aoc-and-aipac-2135214",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-15",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

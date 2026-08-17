@@ -1,36 +1,54 @@
 {
  "beat": {
   "id": "blanche-doj-independence-and-trump-ballroom-liti",
-  "name": "Blanche DOJ independence and Trump ballroom litigation",
+  "name": "DOJ independence under Attorney General Blanche",
   "dossiers": [],
   "types": [],
   "status": "quiet",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
-  "events": 12,
-  "summary": "12 claim(s) on record.",
+  "events": 20,
+  "summary": "20 claim(s) on record.",
   "state": [
    {
-    "k": "Supreme Court ballroom application",
-    "v": "Pending on emergency docket",
+    "k": "Attorney general",
+    "v": "Blanche, confirmed 50-49",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Ballroom construction",
-    "v": "Blocked by courts",
-    "since": "2026-08-16",
-    "flag": null
-   },
-   {
-    "k": "Blanche independence pledge",
+    "k": "Pledge of DOJ independence",
     "v": "Refused",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "FBI role in Guthrie investigation",
-    "v": "Assisting, not taking over",
+    "k": "$1.8bn anti-weaponization fund",
+    "v": "Declared dead",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Voter-roll litigation",
+    "v": "20+ straight defeats, continuing",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "White House ballroom construction",
+    "v": "Blocked by courts",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Supreme Court application on ballroom",
+    "v": "Filed, pending",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Arizona abduction case lead",
+    "v": "State and local, FBI assisting",
     "since": "2026-08-16",
     "flag": null
    }
@@ -40,6 +58,11 @@
     "d": "2026-08-16",
     "c": "Beat opened. 5 events over 18 days (GDELT: 19 days of coverage over 18d).",
     "s": "12 claim(s) from 5 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 8 events over 19 days (GDELT: 20 days of coverage over 19d).",
+    "s": "8 claim(s) from 7 newsroom(s)"
    }
   ],
   "changes": [],
@@ -59,7 +82,15 @@
    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-08",
    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
-   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11"
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-12",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-13",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-14",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-15",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-17",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-18",
+   "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19"
   ],
   "questions": [],
   "triggers": []

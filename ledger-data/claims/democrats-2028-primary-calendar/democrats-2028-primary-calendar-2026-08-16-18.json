@@ -1,0 +1,14 @@
+{
+  "claim_text": "The National Assn. of Black Journalists presented ESPN 'First Take' host Stephen A. Smith with its annual 'Thumbs Down' award at its convention on Saturday, citing a recurring public pattern of disparaging commentary directed at prominent Black women across politics, sports and media.",
+  "quote": "Stephen A. Smith received the equivalent of a failing grade Saturday from the National Assn. of Black Journalists, which blasted his consistent takedowns of Black female politicians.",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "An award announced at a public convention with the organisation's statement quoted in the report.",
+  "source_sha": "d04600f9bd207964daa7b62fac1894df4569d05798e0e809330fca63930c8f18",
+  "source_url": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-18",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump met the North Korean leader three times during his first term to discuss the country's nuclear programme, most recently in 2019, and has expressed interest in continuing those discussions since returning to office.",
+  "quote": "Mr. Trump met with the reclusive North Korean leader three times during his first term to discuss the country's nuclear program",
+  "tier": "documented_fact",
+  "confidence": 0.6,
+  "confidence_justification": "Well-documented diplomatic record restated by CBS News.",
+  "source_sha": "80ebc55d5a29df346c105b00b80b5cd9c79bf62485d19a23bd8a746b06998ed6",
+  "source_url": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-16",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

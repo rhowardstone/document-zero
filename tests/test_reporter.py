@@ -85,7 +85,14 @@ def reply(**kw):
 def test_a_good_reply_becomes_an_article():
     a = parse(json.dumps(reply()), beat="nm", day="2026-08-16", written_by="cc")
     assert a.headline.startswith("New Mexico sues")
-    assert a.dateline == "SANTA FE" and a.published_at.startswith("2026-08-16")
+    # published_at is a real UTC instant; `day` is the EDITORIAL day, which
+    # daily.py takes from local time. Near midnight they legitimately differ —
+    # a US paper must not flip its dateline at 8pm ET because UTC rolled over.
+    # This used to assert they matched, which only held while the timestamp was
+    # fabricated from `day`.
+    import re
+    assert a.dateline == "SANTA FE"
+    assert re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$", a.published_at)
 
 
 def test_a_reply_that_is_not_json_is_refused():

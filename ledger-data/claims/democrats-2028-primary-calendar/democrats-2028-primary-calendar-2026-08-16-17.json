@@ -1,0 +1,14 @@
+{
+  "claim_text": "House Democrats introduced legislation on Aug. 6, 2026 that would impose a levy on leading artificial intelligence companies and channel the proceeds into a new Work Protection Administration for workers displaced by AI.",
+  "quote": "The legislation would impose a levy on leading AI companies and channel the proceeds into a new Work Protection Administration for displaced workers.",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Bill contents summarised in the report; only a summary, not the bill text, is available here.",
+  "source_sha": "a88a0962e4e64a3ea7b38a9152d1e7ad7a5f67414b52a59637728e018e4a0c21",
+  "source_url": "https://www.politico.com/live-updates/2026/08/06/congress/house-democrats-pitch-ai-tax-to-fund-worker-protections-01027694",
+  "source_type": "news",
+  "id": "democrats-2028-primary-calendar-2026-08-16-17",
+  "beat": "democrats-2028-primary-calendar",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

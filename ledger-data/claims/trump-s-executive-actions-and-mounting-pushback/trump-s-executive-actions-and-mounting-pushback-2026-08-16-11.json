@@ -1,0 +1,14 @@
+{
+  "claim_text": "The BBC is seeking to subpoena Ivanka Trump, Donald Trump Jr. and Jared Kushner to testify about Trump's January 6 speech as part of the $10bn Panorama lawsuit, according to reports published on 16 August 2026.",
+  "quote": "BBC Wants Ivanka, Don Jr. And Jared Kushner To Testify About Trump’s Jan. 6 Speech",
+  "tier": "documented_fact",
+  "confidence": 0.5,
+  "confidence_justification": "Named individuals and the $10bn figure appear across the aggregated headlines, but no underlying filing text is available in this cluster.",
+  "source_sha": "39f1b83c5f93a8b39a31088067a5ef98a62c832b360ae257401ec7355a571d48",
+  "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+  "source_type": "news",
+  "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-11",
+  "beat": "trump-s-executive-actions-and-mounting-pushback",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

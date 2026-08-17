@@ -1,0 +1,14 @@
+{
+  "claim_text": "Trump's announcement came a day after the United States pulled its last aircraft carrier in Asia, with the USS George Washington sent to replace the USS Abraham Lincoln in the Persian Gulf, NBC News reported on 16 August 2026.",
+  "quote": "It also comes a day after the U.S. pulled its last aircraft carrier in Asia, as the USS George Washington was sent to replace the USS Abraham Lincoln",
+  "tier": "documented_fact",
+  "confidence": 0.55,
+  "confidence_justification": "Reported movement of named vessels without an attributed military source in the text.",
+  "source_sha": "50d5f672cd964280e7eb4e0356bf35faedf04fee2bc65715499a67ec1aec85d2",
+  "source_url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+  "source_type": "news",
+  "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-08",
+  "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

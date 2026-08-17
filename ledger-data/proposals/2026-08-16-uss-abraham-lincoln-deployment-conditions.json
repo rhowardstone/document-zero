@@ -2,20 +2,25 @@
   "name": "USS Abraham Lincoln deployment conditions",
   "slug": "uss-abraham-lincoln-deployment-conditions",
   "opened": true,
-  "reason": "7 events over 19 days (GDELT: 12 days of coverage over 19d)",
-  "events": 7,
+  "reason": "10 events over 19 days (GDELT: 12 days of coverage over 19d)",
+  "events": 10,
   "span_days": 19,
   "state_fields": [
-    "Deployment length",
-    "Carrier status",
-    "Congressional oversight",
-    "White House position",
-    "CENTCOM response",
-    "US carrier presence in Asia"
+    "Days at sea",
+    "Days since last port call",
+    "Relief carrier",
+    "Carriers in Middle East",
+    "Carriers in Pacific",
+    "Congressional action",
+    "Pentagon position",
+    "US military deaths in war"
   ],
   "dated_trigger": null,
   "publishers": [
+    "aljazeera.com",
+    "bbc.co.uk",
     "cbsnews.com",
+    "latimes.com",
     "npr.org",
     "theguardian.com",
     "thehill.com"
@@ -32,14 +37,24 @@
       "publisher": "thehill.com"
     },
     {
-      "url": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
-      "title": "Moore says Trump's response to reported USS Abraham Lincoln conditions 'pisses me off'",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONWcwLVRpOGozZy03czk4c0I1N2RSY1RmZWJXQmY0dzJUS3dzM1E3WHVTYkpHODN4TkdPOFowXzhQaDZrQ3FNLWMwZTJnLW9YZzh5VGJhNnlzU0FCZUVGUzZWdnlhdGxYNGJOOTNWRlczNGQzVmJvWVZoOHRfT004eGlMdnFJUdIBiwFBVV95cUxPRTVFNURYZFJKRWR0XzZOMnJmSThnLUJ1MzB2VVlHdURnWkY3MVJWbEljZm5Jd3hmX3pPMU45Q1JIemQ5enlRM1N0blNYcEpUTl9Fc3g4VzgzbS1nTnlUa0ZQak40VDk5MldkUGx1YUxaSk9qcW9CWXJVSzY5U1lrQjVtU3pTcGFoNU1R?oc=5",
+      "title": "Centcom commander addresses mental health concerns for troops on USS Abraham Lincoln - The Hill",
       "publisher": "thehill.com"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
-      "title": "Moore says Trump’s response to reported USS Abraham Lincoln conditions ‘pisses me off’",
+      "url": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
+      "title": "Moore: Trump's response to reported USS Abraham Lincoln conditions 'pisses me off'",
       "publisher": "thehill.com"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/ceqeeendz42o?at_medium=RSS&at_campaign=rss",
+      "title": "US commander says mental health a 'priority' on USS Lincoln",
+      "publisher": "bbc.co.uk"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/16/us-admiral-praises-uss-lincoln-crew-amid-reported-mental-health-concerns?traffic_source=rss",
+      "title": "US admiral praises USS Lincoln crew amid reported mental health concerns",
+      "publisher": "aljazeera.com"
     },
     {
       "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
@@ -47,17 +62,22 @@
       "publisher": "theguardian.com"
     },
     {
-      "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
-      "title": "Bacon says Congress \"should have oversight\" amid concerns about USS Lincoln",
-      "publisher": "cbsnews.com"
-    },
-    {
       "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
       "title": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
       "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.latimes.com/politics/story/2026-08-14/uss-abraham-lincoln-deployment-conditions-families-trump-hegseth",
+      "title": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' amid outcry from families",
+      "publisher": "latimes.com"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+      "title": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+      "publisher": "bbc.co.uk"
     }
   ],
-  "claims_found": 18,
+  "claims_found": 20,
   "dropped": [],
   "no_state_reason": ""
 }
