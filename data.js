@@ -150,7 +150,7 @@ window.DZ = {
    "written_by": "claude-code/reporter",
    "verified_by": [],
    "word_count": 764,
-   "beat_name": "Nm records",
+   "beat_name": "New Mexico v. the Justice Department",
    "publishers": 10,
    "claims": 28
   },
@@ -1286,7 +1286,7 @@ window.DZ = {
  "unpublishable": [
   {
    "beat": "compliance",
-   "name": "Compliance",
+   "name": "DOJ compliance with the Transparency Act",
    "changed": "Statute",
    "reason": "no article survived this cycle"
   },
@@ -1398,7 +1398,7 @@ window.DZ = {
   },
   {
    "id": "compliance",
-   "name": "Compliance",
+   "name": "DOJ compliance with the Transparency Act",
    "dossiers": [],
    "types": [],
    "status": "quiet",
@@ -1903,7 +1903,7 @@ window.DZ = {
   },
   {
    "id": "nm-records",
-   "name": "Nm records",
+   "name": "New Mexico v. the Justice Department",
    "dossiers": [],
    "types": [],
    "status": "moved",

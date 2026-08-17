@@ -87,12 +87,12 @@ SELECT c.tier, c.confidence, s.source_type, s.source_name, c.claim_text
 - [Trump Gaza road map talks](https://doczero.epstein-data.com/api/beat/gaza-ceasefire-road-map-talks.json): moved, 17 claim(s), last change 2026-08-16
 - [Indiana record flooding and recovery](https://doczero.epstein-data.com/api/beat/indiana-record-flooding-august-2026.json): moved, 48 claim(s), last change 2026-08-17
 - [US–South Korea joint drills dispute](https://doczero.epstein-data.com/api/beat/korean-peninsula-tensions-and-us-south-korea-dri.json): moved, 20 claim(s), last change 2026-08-16
-- [Nm records](https://doczero.epstein-data.com/api/beat/nm-records.json): moved, 28 claim(s), last change 2026-08-14
+- [New Mexico v. the Justice Department](https://doczero.epstein-data.com/api/beat/nm-records.json): moved, 28 claim(s), last change 2026-08-14
 - [Hurricane Lala's Hawaii aftermath](https://doczero.epstein-data.com/api/beat/tropical-storm-lala-in-hawaii.json): moved, 20 claim(s), last change 2026-08-16
 - [Trump's standing before the 2026 midterms](https://doczero.epstein-data.com/api/beat/trump-s-executive-actions-and-mounting-pushback.json): moved, 20 claim(s), last change 2026-08-16
 - [US–Iran war and Hormuz blockade](https://doczero.epstein-data.com/api/beat/us-iran-war-and-hormuz-blockade.json): moved, 45 claim(s), last change 2026-08-17
 - [USS Abraham Lincoln deployment conditions](https://doczero.epstein-data.com/api/beat/uss-abraham-lincoln-deployment-conditions.json): moved, 40 claim(s), last change 2026-08-17
-- [Compliance](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 2 claim(s), last change 2026-08-14
+- [DOJ compliance with the Transparency Act](https://doczero.epstein-data.com/api/beat/compliance.json): quiet, 2 claim(s), last change 2026-08-14
 - [Trump administration second term](https://doczero.epstein-data.com/api/beat/trump-administration-second-term.json): quiet, 20 claim(s), last change 2026-08-16
 
 ## Provenance

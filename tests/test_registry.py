@@ -85,3 +85,42 @@ def test_a_malformed_proposal_does_not_lose_the_beat(tmp_path):
 def test_registry_entries_are_beats(tmp_path):
     make(tmp_path, "real-story")
     assert isinstance(beats_from_ledger(tmp_path)[0], Beat)
+
+
+# ── Curated display names ───────────────────────────────────────────────────
+
+def test_a_curated_name_beats_the_slug_fallback(tmp_path):
+    """Dropping config/beats.yaml as the REGISTRY was right — it could hide a
+    beat that emerged from the news. But it also carried hand-written names,
+    and losing those put "Nm records" in the rail of a live newspaper where
+    "New Mexico v. the Justice Department" belongs.
+
+    A name is not a gate. This file can rename a beat and can do nothing else:
+    it cannot open one, cannot close one, and cannot hide one.
+    """
+    make(tmp_path, "nm-records")
+    (tmp_path / "beat_names.json").write_text(
+        json.dumps({"nm-records": "New Mexico v. the Justice Department"}))
+    assert beats_from_ledger(tmp_path)[0].name == "New Mexico v. the Justice Department"
+
+
+def test_the_scouts_own_name_wins_over_the_curated_one(tmp_path):
+    """If the newsroom named the story itself, that is the live name."""
+    make(tmp_path, "nm-records", proposal_name="New Mexico sues over records")
+    (tmp_path / "beat_names.json").write_text(json.dumps({"nm-records": "Stale name"}))
+    assert beats_from_ledger(tmp_path)[0].name == "New Mexico sues over records"
+
+
+def test_a_curated_name_cannot_conjure_a_beat(tmp_path):
+    """Naming a beat that does not exist must not create it. That is exactly
+    the failure the config registry caused, in reverse."""
+    make(tmp_path, "real-story")
+    (tmp_path / "beat_names.json").write_text(
+        json.dumps({"real-story": "Real", "ghost-beat": "Never existed"}))
+    assert [b.id for b in beats_from_ledger(tmp_path)] == ["real-story"]
+
+
+def test_a_broken_names_file_does_not_lose_the_beats(tmp_path):
+    make(tmp_path, "real-story")
+    (tmp_path / "beat_names.json").write_text("{not json")
+    assert [b.id for b in beats_from_ledger(tmp_path)] == ["real-story"]

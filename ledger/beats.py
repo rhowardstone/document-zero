@@ -110,7 +110,24 @@ def beats_from_ledger(root) -> list[Beat]:
             if rec.get("slug") and rec.get("name"):
                 names[rec["slug"]] = rec["name"]
 
-    return [Beat(id=d.name, name=names.get(d.name, _readable(d.name)))
+    # Hand-written names for beats the scout never proposed — the ones carried
+    # over from the config registry. Dropping that registry was right, since it
+    # could hide a beat that emerged from the news; but it also held curated
+    # names, and losing those put "Nm records" in the rail of a live newspaper.
+    #
+    # This file renames and does nothing else. It cannot open a beat, close
+    # one, or hide one, so it cannot reintroduce the defect it replaces.
+    curated: dict = {}
+    nf = root / "beat_names.json"
+    if nf.exists():
+        try:
+            curated = {str(k): str(v)
+                       for k, v in json.loads(nf.read_text("utf-8")).items()}
+        except (OSError, ValueError, AttributeError):
+            curated = {}
+
+    return [Beat(id=d.name,
+                 name=names.get(d.name) or curated.get(d.name) or _readable(d.name))
             for d in sorted(bdir.iterdir()) if d.is_dir()]
 
 
