@@ -88,6 +88,16 @@ def main() -> int:
                     help="beats written at once; each fans its own checks out 8x")
     args = ap.parse_args()
 
+    # A paper cannot be datelined tomorrow. UTC rolls over at 8pm Eastern, and
+    # a caller passing a UTC day once put an edition on the site whose masthead
+    # disagreed with every source in it.
+    from ledger.masthead import editorial_day
+    try:
+        args.day = editorial_day(args.day)
+    except ValueError as e:
+        print(f"refusing to build: {e}")
+        return 2
+
     print(f"DOCUMENT ZERO · {args.day}")
 
     if not args.dry:

@@ -63,3 +63,31 @@ def _stamp(article) -> str | None:
     if len(v) < 10 or v[4] != "-" or v[7] != "-":
         return None
     return v
+
+
+def editorial_day(day, today: str | None = None) -> str:
+    """Validate the day an edition is being built for.
+
+    The editorial day is LOCAL, deliberately. UTC rolls over at 8pm Eastern, so
+    a UTC day would datelined an evening edition tomorrow — and that reached the
+    live site: an edition built for 2026-08-17 while every source in it was
+    filed on the 16th. A masthead that disagrees with its own reporting is
+    wrong in the one field a reader checks first.
+
+    A past day is fine. Rebuilding an old edition is legitimate, and that day's
+    articles are already fixed. Only the future is refused, because there is no
+    reporting from it.
+    """
+    import re
+    import time
+
+    d = str(day or "")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d):
+        raise ValueError(f"editorial day {day!r} is not an ISO date (YYYY-MM-DD)")
+    now = today or time.strftime("%Y-%m-%d")     # local, not UTC
+    if d > now:
+        raise ValueError(
+            f"editorial day {d} is in the future (today is {now}). A paper "
+            "datelined tomorrow contradicts every source in it — check whether "
+            "the caller used UTC instead of local time.")
+    return d
