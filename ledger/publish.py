@@ -98,11 +98,21 @@ def publish(data: dict, out_root, base_url: str = "") -> list:
     written.append(_w(root, f"{API}/query/index.json",
                       query_index(queries, base_url.rstrip("/") + "/" if base_url else "")))
 
+    # The articles ARE the newspaper. This API was built when the system was a
+    # claim graph and described only claims, beats and sources; an agent
+    # reading it on a day with ten published articles would have concluded the
+    # newsroom published nothing. Paragraphs keep their claim ids, because the
+    # citation is what makes the prose checkable rather than merely readable.
+    written.append(_w(root, f"{API}/articles.json", {
+        "day": data["edition"]["date"],
+        "articles": list(data.get("articles") or []),
+    }))
     written.append(_w(root, f"{API}/edition/{data['edition']['date']}.json", data))
     written.append(_w(root, f"{API}/index.json", {
         "generated_from": "the ledger",
         "edition": data.get("edition"),
         "endpoints": {
+            "articles": f"{API}/articles.json",
             "beats": f"{API}/beats.json",
             "beat": f"{API}/beat/{{beat_id}}.json",
             "records": f"{API}/records.json",
@@ -112,7 +122,10 @@ def publish(data: dict, out_root, base_url: str = "") -> list:
             "queries": f"{API}/query/index.json",
             "query": f"{API}/query/{{name}}.json",
         },
-        "counts": {"beats": len(beats), "records": len(items), "sources": len(sources),
+        # A zero says "nothing survived today". An absent key would say
+        # "this API does not do articles", which was the old, false answer.
+        "counts": {"articles": len(data.get("articles") or []),
+                   "beats": len(beats), "records": len(items), "sources": len(sources),
                    "queries": len(queries)},
     }))
     written.append(_w(root, f"{API}/schema.json", SCHEMA))
@@ -185,6 +198,7 @@ def llms_txt(data: dict, base_url: str = "") -> str:
         "## Query surface",
         "",
         f"- [API index]({b}api/index.json): endpoints and counts",
+        f"- [Articles]({b}api/articles.json): the day's published stories, each paragraph with the claim ids it rests on and the verifiers that cleared it",
         f"- [Schema]({b}api/schema.json): field meanings and the ceiling table",
         f"- [Beats]({b}api/beats.json): every beat with status and last change",
         f"- [Beat detail]({b}api/beat/BEAT_ID.json): state, history, unknowns, records",

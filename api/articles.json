@@ -1,0 +1,1268 @@
+{
+ "day": "2026-08-16",
+ "articles": [
+  {
+   "beat": "nm-records",
+   "day": "2026-08-16",
+   "headline": "New Mexico sues Justice Department for unredacted Epstein Library records",
+   "standfirst": "The complaint names Acting Attorney General Todd Blanche and is pleaded under the Administrative Procedure Act, not FOIA.",
+   "dateline": "WASHINGTON",
+   "published_at": "2026-08-16T12:00:00Z",
+   "paragraphs": [
+    {
+     "text": "New Mexico has sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records. The case is docketed as No. 1:26-cv-02762-AHA and assigned to Judge Amir H. Ali. It is pleaded as review of agency action under the Administrative Procedure Act rather than as a FOIA case. The state seeks the redacted materials in the federal 'Epstein Library', compiled under Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (19 November 2025).",
+     "claims": [
+      "nm-records-2026-08-14-000",
+      "nm-records-2026-08-14-doc-docket",
+      "nm-records-2026-08-14-doc-efta-hook"
+     ]
+    },
+    {
+     "text": "New Mexico states it is investigating potential felony offences including homicide, kidnapping, criminal sexual penetration, criminal sexual contact and human trafficking, under named provisions of the New Mexico criminal code. It reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files. The filing states the released files contain more than 13,000 references to Zorro Ranch and more than 5,000 references to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+     "claims": [
+      "nm-records-2026-08-14-doc-offences",
+      "nm-records-2026-08-14-008",
+      "nm-records-2026-08-14-doc-scale"
+     ]
+    },
+    {
+     "text": "On 1 April 2026, an Associate Deputy Attorney General affirmed the department's commitment to assisting and requested that New Mexico submit a Touhy letter through standard channels. New Mexico's Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed.",
+     "claims": [
+      "nm-records-2026-08-14-doc-touhy-invited",
+      "nm-records-2026-08-14-doc-deadline"
+     ]
+    },
+    {
+     "text": "The federal district office's response, dated 30 June 2026 and delivered on 14 July, stated it had neither collected nor retained investigative materials. The thirty-one accompanying pages consisted largely of a public news article, a public press release by a former governor, correspondence New Mexico had itself sent, and a list of follow-up questions.",
+     "claims": [
+      "nm-records-2026-08-14-doc-nonproduction"
+     ]
+    },
+    {
+     "text": "Asked whether the federal government would join New Mexico in seeking a modification of the protective orders it cited as the obstacle, so that the orders would expressly permit disclosure for law-enforcement purposes, a Deputy United States Attorney responded that such cooperation was 'unlikely'. That official identified no path through which the two offices could work together.",
+     "claims": [
+      "nm-records-2026-08-14-doc-protective-order"
+     ]
+    },
+    {
+     "text": "The complaint alleges federal officials made public assurances of cooperation during the same period the requests went unanswered. It cites a First Assistant United States Attorney who said on 12 June 2026, 'I anticipate full cooperation', and a department spokesperson who said on 7 July 2026 that the department 'stands ready to provide necessary assistance'.",
+     "claims": [
+      "nm-records-2026-08-14-doc-public-vs-conduct"
+     ]
+    },
+    {
+     "text": "The complaint dates the federal stand-down request to a telephone call on 23 July 2019 and cites a federal record of that call in the publicly released Epstein Files. New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded. The stated federal rationale for the request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel. Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
+     "claims": [
+      "nm-records-2026-08-14-doc-standdown-call",
+      "nm-records-2026-08-14-001",
+      "nm-records-2026-08-14-003",
+      "nm-records-2026-08-14-004"
+     ]
+    },
+    {
+     "text": "New Mexico gave the federal government its entire investigative file — police reports, recorded witness interviews and materials on Epstein's use of state public lands — on 17 September 2019, after agreeing to stand down. Then-Attorney General Hector Balderas asked the federal government on 15 October 2019 to begin seizing Epstein's New Mexico land holdings for the benefit of survivors. New Mexico alleges the promised federal evidence was never provided.",
+     "claims": [
+      "nm-records-2026-08-14-doc-file-handover",
+      "nm-records-2026-08-14-doc-seizure-request",
+      "nm-records-2026-08-14-002"
+     ]
+    },
+    {
+     "text": "The complaint states that federal law enforcement never searched Zorro Ranch. It cites a federal email of 23 August 2019, thirteen days after Epstein's death, that acknowledged a victim who may have been raped at the New Mexico residence while asserting there was no probable cause to search it.",
+     "claims": [
+      "nm-records-2026-08-14-doc-no-pc"
+     ]
+    },
+    {
+     "text": "The state's own formal request dates its search of the property to 9 March 2026. Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline. State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
+     "claims": [
+      "nm-records-2026-08-14-doc-search-date",
+      "nm-records-2026-08-14-009",
+      "nm-records-2026-08-14-010"
+     ]
+    },
+    {
+     "text": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase. The LLC's ownership was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests. The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager. The owners intend to convert the property into a Christian retreat.",
+     "claims": [
+      "nm-records-2026-08-14-005",
+      "nm-records-2026-08-14-006",
+      "nm-records-2026-08-14-007",
+      "nm-records-2026-08-14-011"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Federal suit",
+     "from": "",
+     "to": "No. 1:26-cv-02762-AHA, D.D.C. (Ali, J.), APA review",
+     "since": "5 Aug"
+    },
+    {
+     "k": "State criminal probe",
+     "from": "",
+     "to": "Reopened 19 Feb 2026",
+     "since": "19 Feb"
+    },
+    {
+     "k": "Records sought",
+     "from": "",
+     "to": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)",
+     "since": "3 May"
+    },
+    {
+     "k": "2019 stand-down rationale",
+     "from": "",
+     "to": "Expired 10 Aug 2019 with the defendant",
+     "since": "10 Aug 2019"
+    },
+    {
+     "k": "Administrative exhaustion",
+     "from": "",
+     "to": "Touhy request 3 May 2026; treated as denied 31 Jul 2026",
+     "since": "31 Jul"
+    },
+    {
+     "k": "Stated grounds for refusal",
+     "from": "",
+     "to": "Overbreadth; Privacy Act; Epstein and Maxwell protective orders",
+     "since": "14 Jul"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [],
+   "word_count": 764,
+   "beat_name": "New Mexico v. the Justice Department",
+   "publishers": 10,
+   "claims": 28
+  },
+  {
+   "beat": "tropical-storm-lala-in-hawaii",
+   "day": "2026-08-16",
+   "headline": "Lala weakens to tropical storm after knocking out power across Hawaii",
+   "standfirst": "Gov. Josh Green says at least one person died in a car accident on the Big Island; forecasters expect the storm to regain hurricane strength west of the islands.",
+   "dateline": "HONOLULU",
+   "published_at": "2026-08-17T03:44:58Z",
+   "paragraphs": [
+    {
+     "text": "Lala weakened from a hurricane to a tropical storm on Sunday after passing Hawaii without making landfall, while still producing hurricane-force gusts on the Big Island. More than 200,000 homes and businesses were without power by 10:30 a.m. local time on Sunday, according to the tracker poweroutage.us, including nearly two-thirds of all power customers on the Big Island.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-00",
+      "tropical-storm-lala-in-hawaii-2026-08-16-09",
+      "tropical-storm-lala-in-hawaii-2026-08-16-14"
+     ]
+    },
+    {
+     "text": "Gov. Josh Green said at least one person died in a car accident in the South Point area of the Big Island as Hurricane Lala passed on Aug. 15. Green said 19 roofs were lost and 190 flights were postponed. He also said three hospitals had already switched to generator power as the storm's winds and rain knocked out electricity across the islands over the weekend of Aug. 15-16.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-17",
+      "tropical-storm-lala-in-hawaii-2026-08-16-10"
+     ]
+    },
+    {
+     "text": "The National Hurricane Center reported that Lala intensified from a tropical storm into a Category 1 hurricane early on Saturday as its maximum sustained winds increased to 75 mph. The center issued a rare hurricane warning for the Big Island that day, where a landfall would have been the first in 155 years. Forecasters predicted up to 25 inches of rain at higher elevations.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-16",
+      "tropical-storm-lala-in-hawaii-2026-08-16-19"
+     ]
+    },
+    {
+     "text": "PBS NewsHour reported that authorities launched a search-and-rescue mission after flash floods appeared to sweep several occupied homes off their foundations in coastal communities. A separate news report said a search and rescue operation was underway in the Kaʻū District after several homes were swept off their foundations.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-01",
+      "tropical-storm-lala-in-hawaii-2026-08-16-02"
+     ]
+    },
+    {
+     "text": "The Honolulu Fire Department had launched dozens of weather-related responses by 2 a.m. local time on Sunday. They included 58 reports of downed trees, 39 blown roofs, 12 downed power lines, 12 arcing-wire situations and one swimmer rescue.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-13"
+     ]
+    },
+    {
+     "text": "Al Jazeera, citing Reuters, reported on Sunday that almost 130,000 utility customers had lost power as Lala weakened from a Category 1 hurricane to a tropical storm south of the islands. Hawaiian Electric warned customers on the evening of Saturday that hurricane-force winds and rain were hampering repair efforts, citing flooded roadways and downed trees blocking access. News reports said thousands of customers were without power and at least 100 homes had been damaged in Hawaii after Lala.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-11",
+      "tropical-storm-lala-in-hawaii-2026-08-16-12",
+      "tropical-storm-lala-in-hawaii-2026-08-16-03"
+     ]
+    },
+    {
+     "text": "Alaska Airlines and Hawaiian Airlines cancelled 54 inter-island flights and 11 trans-Pacific flights on Saturday because of the storm, with five of the cancelled trans-Pacific flights to or from Kona. Two schools on Hawaii Island closed following storm damage from Lala.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-18",
+      "tropical-storm-lala-in-hawaii-2026-08-16-04"
+     ]
+    },
+    {
+     "text": "Lala continued producing heavy rain and gusty winds over parts of Maui County and Oʻahu on Sunday. The National Hurricane Center advisory of Sunday said little change in intensity was expected through Monday, and forecasters expected Lala could become a hurricane again on Tuesday or Wednesday well west of the Hawaiian island chain.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-05",
+      "tropical-storm-lala-in-hawaii-2026-08-16-15"
+     ]
+    },
+    {
+     "text": "Hurricane Iniki, a Category 4 storm, was the last hurricane to hit Hawaii. It made landfall on the southern coast of Kauai in 1992 and caused six deaths and $3 billion in damage.",
+     "claims": [
+      "tropical-storm-lala-in-hawaii-2026-08-16-08"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Storm status",
+     "from": "",
+     "to": "Tropical storm, 65 mph, moving west-northwest",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Deaths",
+     "from": "",
+     "to": "One (vehicle crash); none confirmed storm-related",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Customers without power",
+     "from": "",
+     "to": "200,000–250,900",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Search and rescue",
+     "from": "",
+     "to": "Ongoing at Naalehu and Waiohinu",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Warnings in effect",
+     "from": "",
+     "to": "All eight main islands",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Big Island airports",
+     "from": "",
+     "to": "Reopened after Saturday closure",
+     "since": "2026-08-16"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [
+    "entail-1",
+    "entail-2"
+   ],
+   "word_count": 482,
+   "beat_name": "Hurricane Lala's Hawaii aftermath",
+   "publishers": 9,
+   "claims": 20
+  },
+  {
+   "beat": "trump-s-executive-actions-and-mounting-pushback",
+   "day": "2026-08-16",
+   "headline": "BBC seeks to subpoena Trump family members in $10bn defamation suit",
+   "standfirst": "The broadcaster wants testimony from Ivanka Trump, Donald Trump Jr. and Jared Kushner about the president's January 6 speech.",
+   "dateline": "WASHINGTON",
+   "published_at": "2026-08-17T03:47:01Z",
+   "paragraphs": [
+    {
+     "text": "The BBC has asked a United States court for assistance in obtaining testimony from members of Donald Trump's family in the defamation suit brought over its Panorama programme, according to reports published on 16 August 2026. The broadcaster is seeking to subpoena Ivanka Trump, Donald Trump Jr. and Jared Kushner to testify about Trump's January 6 speech as part of the $10bn lawsuit, those reports said.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-10",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-11",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-06"
+     ]
+    },
+    {
+     "text": "Courts have blocked construction of Trump's White House ballroom. The administration has asked the Supreme Court to allow the construction to continue.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-01"
+     ]
+    },
+    {
+     "text": "Trump ordered changes to the recommended childhood vaccination schedule, with health secretary Robert F. Kennedy Jr. present. Sen. Bill Cassidy, Republican of Louisiana, said the executive order altering the schedule is based on \"crazy, stupid\" claims, and said it is why Trump's poll numbers are falling.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-02",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-03"
+     ]
+    },
+    {
+     "text": "According to a report published on 16 August 2026, a new poll finds most voters say they are worse off under Trump.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-07"
+     ]
+    },
+    {
+     "text": "More than 5.3 million individuals across the country have lost SNAP benefits since Trump enacted major overhauls to the programme in his 2025 tax and spending law, according to U.S. Department of Agriculture figures. Massachusetts' Department of Transitional Assistance reported that SNAP enrollment in the state dropped by nearly 182,000 individuals, including roughly 65,000 children. The same department reported that daily call volume has risen 9% year on year, with roughly 47% of callers unable to connect, up from 37%.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-12",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-13"
+     ]
+    },
+    {
+     "text": "The 20% pass-through business income deduction, increased from 17% during the 2017 Tax Cut and Jobs Act negotiations and made permanent in last year's One Big Beautiful Bill Act, will cost the budget $820bn over a 10-year period, almost as much as was cut from Medicaid. About 57% of the $1.3tn in pass-through income in 2022 went to 890,000 people in the richest 1% of the population, according to the Urban-Brookings Tax Policy Center. The deduction leaves top pass-through owners taxed at 29.6% against a 37% top marginal rate on wages.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-16",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-17"
+     ]
+    },
+    {
+     "text": "NPR reported on 16 August 2026 that the Trump administration's continuing actions targeting transgender youth, including a change to Medicaid, are taking a personal toll on affected families, as described by a longtime Republican voter living in California.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-14"
+     ]
+    },
+    {
+     "text": "Trump signed a memorandum authorizing U.S. private-sector companies to launch offensive cyberattacks against foreign cybercriminals. The memo was reported on 15 August 2026 by NPR, The Guardian, The Washington Post and The New York Times.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-04",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-15"
+     ]
+    },
+    {
+     "text": "Colombia's president has asked Trump to suspend tariffs to assist earthquake recovery.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-05"
+     ]
+    },
+    {
+     "text": "Trump drew criticism over the weekend of 15-16 August 2026 after sharing a black-and-white image of himself wearing a \"Trump 2028\" hat with the message \"We are going to win,\" despite the 22nd Amendment's limit on presidential terms. Asked at Joint Base Andrews on Tuesday, 11 August 2026, whether he was serious about seeking a third term, Trump said: \"And you know that the law is very strong on that. I'd love to run, but the law is very strong.\" He then ignored a reporter's attempt to press further.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-08",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-09"
+     ]
+    },
+    {
+     "text": "The BBC reported that on 8 July 2026 Trump boarded Air Force One in view of television cameras as he left the Nato summit in Turkey, but was spirited away via a catering truck to a C-32A that flew him to RAF Mildenhall, leaving unwitting decoys aboard the larger aircraft. In remarks to reporters reported by the BBC on 12 August 2026, Trump confirmed that he secretly swapped planes as he left the summit because of a possible threat.",
+     "claims": [
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-18",
+      "trump-s-executive-actions-and-mounting-pushback-2026-08-16-19"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Trump job approval (FT/Focaldata)",
+     "from": "",
+     "to": "55% disapprove",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Republican disapproval",
+     "from": "",
+     "to": "1 in 5",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Generic midterm ballot",
+     "from": "",
+     "to": "D 51 – R 45",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Third-term posture",
+     "from": "",
+     "to": "Hedged: \"the law is very strong\"",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "BBC Panorama suit",
+     "from": "",
+     "to": "Subpoenas sought via US court",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Colombia tariff-suspension request",
+     "from": "",
+     "to": "No US response",
+     "since": "2026-08-16"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [
+    "entail-1",
+    "entail-2"
+   ],
+   "word_count": 580,
+   "beat_name": "Trump's standing before the 2026 midterms",
+   "publishers": 7,
+   "claims": 20
+  },
+  {
+   "beat": "gaza-ceasefire-road-map-talks",
+   "day": "2026-08-16",
+   "headline": "Kushner meets Hamas leadership in Egypt over stalled Gaza road map",
+   "standfirst": "Netanyahu, who rejected the 15-point US-backed plan in the past week, is due to meet Kushner on Monday.",
+   "dateline": "CAIRO",
+   "published_at": "2026-08-17T03:42:30Z",
+   "paragraphs": [
+    {
+     "text": "Jared Kushner met Hamas leadership on Sunday, in what NPR describes as a new diplomatic effort. The stated subject of the meeting, held in Egypt, was a Gaza peace deal. Kushner is scheduled to meet Benjamin Netanyahu on Monday.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-05",
+      "gaza-ceasefire-road-map-talks-2026-08-16-06",
+      "gaza-ceasefire-road-map-talks-2026-08-16-00"
+     ]
+    },
+    {
+     "text": "Netanyahu rejected the 15-point, US-backed road map. He rejected the latest peace proposal in the week before 16 August 2026. The road map provides for Hamas to disarm in Gaza and for Israel to withdraw from the territory.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-01",
+      "gaza-ceasefire-road-map-talks-2026-08-16-07",
+      "gaza-ceasefire-road-map-talks-2026-08-16-02"
+     ]
+    },
+    {
+     "text": "The Gaza ceasefire is stalled. The Guardian reports that the purpose of the current talks is to salvage the stalled road map rather than to negotiate a new one.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-04",
+      "gaza-ceasefire-road-map-talks-2026-08-16-03"
+     ]
+    },
+    {
+     "text": "An official familiar with the matter said the meeting between Hamas and Kushner took place in the Egyptian town of Alamein. The same official said its objective was to translate the road map's obligations into concrete, verifiable steps, including the transfer of governing responsibilities to the National Committee for the Administration of Gaza.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-13"
+     ]
+    },
+    {
+     "text": "Hamas said it fully adhered to the first phase of the ceasefire agreement. It said Israel \"failed to implement this phase, escalating its military operations on the ground and deepening the humanitarian catastrophe, and has explicitly rejected the roadmap\". Israel's government has not been recorded here responding to that statement.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-12"
+     ]
+    },
+    {
+     "text": "US envoys met Egyptian, Qatari and Turkish mediators in Cairo. Israel was carrying out strikes in Gaza while the Cairo mediation talks took place.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-08",
+      "gaza-ceasefire-road-map-talks-2026-08-16-09"
+     ]
+    },
+    {
+     "text": "Al Jazeera reported that at least five Palestinians were injured on Sunday when an Israeli strike hit a tent encampment in Khan Younis. The broadcaster reported that a separate air strike hit an apartment in the Nuseirat refugee camp in central Gaza, wounding several people, according to medics.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-14"
+     ]
+    },
+    {
+     "text": "Gaza's health ministry says Israel has killed more than 1,200 Palestinians in Gaza and wounded more than 4,100 since agreeing to the ceasefire on 10 October 2025. The ministry's post-ceasefire toll is the figure now on the record for the period since that agreement.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-15"
+     ]
+    },
+    {
+     "text": "More than 73,000 people have been killed in Gaza since Israel launched its military campaign after the 7 October 2023 Hamas-led attack, according to the territory's health ministry. The ministry's figures are considered reliable by the UN. That attack killed about 1,200 people and took 251 hostage, according to the same accounting.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-16"
+     ]
+    },
+    {
+     "text": "The next step on the record is Monday's scheduled meeting between Kushner and Netanyahu.",
+     "claims": [
+      "gaza-ceasefire-road-map-talks-2026-08-16-00",
+      "gaza-ceasefire-road-map-talks-2026-08-16-01",
+      "gaza-ceasefire-road-map-talks-2026-08-16-03"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Netanyahu position on 15-point road map",
+     "from": "",
+     "to": "Rejected, as of last week",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Hamas position on road map",
+     "from": "",
+     "to": "Accepted; conditions on Israeli pullback",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "14-day negotiation period",
+     "from": "",
+     "to": "Not started",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Israeli territorial control in Gaza",
+     "from": "",
+     "to": "About 60%",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Palestinian technocratic committee",
+     "from": "",
+     "to": "Not yet in Gaza",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Post-ceasefire Palestinian death toll",
+     "from": "",
+     "to": "More than 1,200",
+     "since": "2026-08-16"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [
+    "entail-1",
+    "entail-2"
+   ],
+   "word_count": 391,
+   "beat_name": "Trump Gaza road map talks",
+   "publishers": 7,
+   "claims": 17
+  },
+  {
+   "beat": "indiana-record-flooding-august-2026",
+   "day": "2026-08-16",
+   "headline": "Indiana flood deaths reach seven as White River crests at Indianapolis",
+   "standfirst": "President Trump approved up to $5 million in federal emergency aid; nearly 130,000 utility customers remain without power.",
+   "dateline": "INDIANAPOLIS",
+   "published_at": "2026-08-16T23:29:34Z",
+   "paragraphs": [
+    {
+     "text": "Officials said days of storms and flooding across Indiana had left at least seven people dead as of Sunday, with floodwaters peaking in Indianapolis' White River and rains expected to ease in the state capital region and other parts of the state.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-00"
+     ]
+    },
+    {
+     "text": "Nearly 130,000 utility customers across Indiana remained without power by midday Sunday, down from a peak of around 300,000, according to the state homeland security spokesperson and the online utility tracker PowerOutage.us.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-07"
+     ]
+    },
+    {
+     "text": "Gov. Mike Braun said he spoke with President Trump, who on Saturday approved the governor's request for a presidential emergency declaration freeing up to $5 million in federal resources for response and recovery after days of record rainfall in Indiana.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-01"
+     ]
+    },
+    {
+     "text": "Some parts of Indiana received more than 11 inches of rainfall over three days beginning Aug. 11, causing record floods that also left several suburbs of Indianapolis underwater, NPR reported on Aug. 16. The White River crested at more than 24 feet in the Indiana communities of Anderson and Noblesville, surpassing records set in 1913, as heavy rains caused rivers statewide to reach record levels over the past week.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-16",
+      "indiana-record-flooding-august-2026-2026-08-17-08"
+     ]
+    },
+    {
+     "text": "The Indiana Department of Homeland Security listed storm-related deaths including a 4-year-old boy in Jennings County, a 58-year-old woman in Lake County, an 86-year-old woman in Porter County, a 32-year-old man in LaPorte County and a 31-year-old man in Henry County. By Sunday the department's count had risen to a 4-year-old boy, three men and three women dead since the storms began Aug. 11, spokesperson Liz Woods said, one man more than the toll given a day earlier.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-03",
+      "indiana-record-flooding-august-2026-2026-08-17-09"
+     ]
+    },
+    {
+     "text": "A 31-year-old cyclist was found dead early Sunday in a hole that opened up on a washed-out road in Henry County, east of Indianapolis. The county coroner said the man appears to have gone around a barricade and fallen into the collapsed road.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-10"
+     ]
+    },
+    {
+     "text": "The Indianapolis Department of Public Works reopened the city's floodgates on Sunday after the White River peaked early that morning, urging residents to be cautious as they returned to flood-damaged neighborhoods while emergency shelters remained open. The National Weather Service warned that while northern parts of Indiana dried out, a cluster of storms was expected to pass through the central and southern regions later Sunday, bringing potential heavy rain, flash flooding and damaging winds.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-11",
+      "indiana-record-flooding-august-2026-2026-08-17-12"
+     ]
+    },
+    {
+     "text": "Rita Reith, a spokesperson with the Indianapolis Fire Department, put the number of rescues at 95 people and 45 pets as of late Saturday afternoon, with dispatchers having received hundreds of calls for service throughout the day. More than a dozen Indiana counties had declared local disasters by Saturday, with much of the latest damage concentrated along river corridors running from Hamilton County into the northern Indianapolis suburbs.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-13",
+      "indiana-record-flooding-august-2026-2026-08-17-14"
+     ]
+    },
+    {
+     "text": "Indianapolis Mayor Joe Hogsett said the flooding was the worst the capital city has seen in more than 30 years, a characterization he repeated as first responders used boats to reach residents stranded in neighborhoods along the White River. Christine Altman, president of the Hamilton County board of commissioners, said at a Sunday briefing that the county just north of Indianapolis escaped without any loss of life, while officials assessed whether a significant bridge damaged in the flooding could be repaired or needed complete replacement. Jacob Spence, director of Marion County Emergency Management, called the flooding a once-in-a-lifetime type flood, telling The Associated Press that it was an unprecedented event in which the state was setting new records.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-05",
+      "indiana-record-flooding-august-2026-2026-08-17-04",
+      "indiana-record-flooding-august-2026-2026-08-17-15"
+     ]
+    },
+    {
+     "text": "The death toll was not reported uniformly. The Associated Press reported on Aug. 16 that at least six people had died from days of storms and record-setting flooding in Indiana, a toll lower than the seven reported the same day by CBS News and FOX Weather.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-17"
+     ]
+    },
+    {
+     "text": "The NFL's Indianapolis Colts and the NBA's Indiana Pacers each said Sunday that they are donating $125,000 to statewide flood relief, with the WNBA's Indiana Fever and the G League's Noblesville Boom also contributing. The money is going directly to the American Red Cross.",
+     "claims": [
+      "indiana-record-flooding-august-2026-2026-08-17-02"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Death toll",
+     "from": "",
+     "to": "at least 7",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "White River at Indianapolis",
+     "from": "",
+     "to": "Crested early Sun, receding",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Customers without power",
+     "from": "",
+     "to": "~130,000, down from ~300,000 peak",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Federal aid",
+     "from": "",
+     "to": "Emergency declaration approved, up to $5m",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Emergency shelters",
+     "from": "",
+     "to": "Open",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Local disaster declarations",
+     "from": "",
+     "to": "More than a dozen counties",
+     "since": "2026-08-17"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [],
+   "word_count": 654,
+   "beat_name": "Indiana record flooding and recovery",
+   "publishers": 6,
+   "claims": 48
+  },
+  {
+   "beat": "uss-abraham-lincoln-deployment-conditions",
+   "day": "2026-08-16",
+   "headline": "Republicans and Democrats in Congress seek scrutiny of USS Lincoln conditions",
+   "standfirst": "The carrier is sailing home after more than 260 days in the Middle East, with the USS George Washington en route to relieve it.",
+   "dateline": "WASHINGTON",
+   "published_at": "2026-08-16T23:28:08Z",
+   "paragraphs": [
+    {
+     "text": "Rep. Don Bacon, a Nebraska Republican and retired Air Force brigadier general, said on 16 August that Congress should conduct oversight of conditions aboard the USS Abraham Lincoln, and that the secretary of the Navy or the service chief should testify before lawmakers. Democratic lawmakers have called for an investigation into conditions aboard the carrier.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-14",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-10"
+     ]
+    },
+    {
+     "text": "The Lincoln is returning home after more than 260 days in the Middle East. The carrier holds about 5,000 service members. It deployed to the Pacific in November 2025, arrived in the Middle East in January 2026, and has been supporting the U.S. war against Iran.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-06",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-01"
+     ]
+    },
+    {
+     "text": "CBS News reported on 16 August that the Lincoln has spent a record-setting uninterrupted period of more than 240 days at sea, against a normal U.S. military vessel deployment of about six months. The carrier has been at sea for nearly nine months and has gone more than 200 days without a port call. CBS News reported the same day that the aircraft carrier USS George Washington is headed to the Middle East to relieve it.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-02",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-10",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-04"
+     ]
+    },
+    {
+     "text": "Adm. Brad Cooper, the head of U.S. Central Command, visited the Lincoln on Saturday 15 August and praised its crew, calling his time aboard \"awe-inspiring\" in a statement shared on social media. Cooper said in his statement that the crew is \"a strong team of high-achieving Americans\" and that history will record the deployment as one of the most operationally intense and consequential of the modern era. On Sunday 16 August, Cooper addressed concerns about the mental health of service members aboard the ship.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-00",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-19",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-06"
+     ]
+    },
+    {
+     "text": "Cooper acknowledged the crew's mental health concerns but said the Lincoln has among the lowest numbers of mental-health-related cases of all 11 of the U.S. Navy's active aircraft carriers, adding, \"This doesn't mean that all is perfect.\"",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-03"
+     ]
+    },
+    {
+     "text": "Asked by reporters on Friday 14 August whether the Lincoln's deployment had gone on too long, President Trump answered, \"No. Not nearly long enough.\" Acting Secretary of the Navy Hung Cao said in a post on X that same day that the Lincoln \"will return home soon as part of a planned rotation\" and that a \"small number of mental health cases were treated with no loss of life.\" The Guardian reported on 16 August that Defense Secretary Pete Hegseth has rejected reports of poor morale and conditions aboard the carrier as \"completely misrepresented.\"",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-05",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-15",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-11"
+     ]
+    },
+    {
+     "text": "The Guardian reported that Navy Times and Stars and Stripes, two publications specialising in the U.S. military, have reported multiple attempts by sailors aboard the Lincoln to jump overboard during the carrier's ninth month at sea. Bacon said that in 1996, when the United States was not at war, he served aboard an aircraft carrier enforcing the southern no-fly zone over Iraq, and that a couple of crew members jumped overboard and died by suicide during that deployment.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-12",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-17"
+     ]
+    },
+    {
+     "text": "Democratic Sen. Richard Blumenthal wrote to Hegseth on Thursday 13 August calling for the Navy to account for conditions aboard the carrier, which he said has been deployed more than 250 days and has not come ashore in over 200 days. Sen. Ruben Gallego, an Arizona Democrat and retired U.S. Marine, said on 16 August that he had spoken with the spouse of a Lincoln crew member three days earlier, and blamed the prolonged deployment on the administration's failure to plan for the Iran war.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-16",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-09"
+     ]
+    },
+    {
+     "text": "Maryland Gov. Wes Moore, a Democrat and military veteran, said on 16 August that Trump's reaction to reported conditions aboard the ship angered him and should anger the public. Family members of Lincoln crew told NPR, in a report published 15 August, that Trump should be \"ashamed\" of conditions aboard the ship and that his \"not nearly long enough\" comment was shameful.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-07",
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-18"
+     ]
+    },
+    {
+     "text": "Retired Adm. Mike Mullen, a former chair of the joint chiefs of staff, said on 16 August that he spoke with Cooper on Saturday evening and was told poor conditions aboard the Lincoln had been addressed, and that crew morale improved once sailors learned they were going home.",
+     "claims": [
+      "uss-abraham-lincoln-deployment-conditions-2026-08-17-13"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Days at sea",
+     "from": "",
+     "to": "240–260+, no port call in 200+",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Lincoln status",
+     "from": "",
+     "to": "Returning home",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Relief carrier",
+     "from": "",
+     "to": "USS George Washington, en route",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Congressional oversight",
+     "from": "",
+     "to": "Requested, no hearing scheduled",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Pentagon position",
+     "from": "",
+     "to": "Reports 'completely misrepresented'",
+     "since": "2026-08-17"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [],
+   "word_count": 665,
+   "beat_name": "USS Abraham Lincoln deployment conditions",
+   "publishers": 6,
+   "claims": 40
+  },
+  {
+   "beat": "democrats-2028-primary-calendar",
+   "day": "2026-08-16",
+   "headline": "Democrats put South Carolina first on 2028 primary calendar",
+   "standfirst": "Nevada follows on Feb. 1, and Iowa loses the opening slot it traditionally held.",
+   "dateline": "WASHINGTON",
+   "published_at": "2026-08-17T03:40:16Z",
+   "paragraphs": [
+    {
+     "text": "The Democrats' 2028 presidential primary calendar makes South Carolina the leadoff state. South Carolina votes on Jan. 22, 2028. Nevada votes second, on Feb. 1.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-00",
+      "democrats-2028-primary-calendar-2026-08-16-01",
+      "democrats-2028-calendar-and-party-direction-2026-08-16-00"
+     ]
+    },
+    {
+     "text": "The new lineup displaces Iowa from its traditional first position. Reporting on the calendar has characterised it as giving Black and Latino voters and union members an early say.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-02",
+      "democrats-2028-calendar-and-party-direction-2026-08-16-01",
+      "democrats-2028-calendar-and-party-direction-2026-08-16-02"
+     ]
+    },
+    {
+     "text": "CBS News conducted a poll examining whether Democrats are split over socialism. A CBS News/YouGov poll found that the Democratic Party is seen by most voters as weak and not effective, with more than a third of Democrats describing their own party as weak. Most voters describe the Republican Party as extreme and also not effective.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-04",
+      "democrats-2028-primary-calendar-2026-08-16-08"
+     ]
+    },
+    {
+     "text": "About half of Democrats in the August 2026 CBS News/YouGov survey said their party is not progressive enough. That group is more liberal, views socialism more positively, and is less likely to say the party agrees with their views a lot on economic issues.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-09"
+     ]
+    },
+    {
+     "text": "CBS News reports that the poll found Americans think more young people in office would make politics better. CBS News also reports that Democrats are debating the future of the party during this summer's primaries.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-05",
+      "democrats-2028-calendar-and-party-direction-2026-08-16-03",
+      "democrats-2028-calendar-and-party-direction-2026-08-16-05"
+     ]
+    },
+    {
+     "text": "House Democrats in key leadership posts told the Los Angeles Times that groundwork is already being laid for investigations into the president's reported $2.2 billion in gains last year, the business ventures of Jared Kushner and Eric and Don Jr. Trump, and the family's crypto projects, should the party retake Congress in November.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-12"
+     ]
+    },
+    {
+     "text": "The Los Angeles Times reported that impeachment remains an option for House Democrats but that they are reluctant to make it a centerpiece of their agenda. Rep. Robert Garcia of Long Beach, the top Oversight Democrat, said the priority is to stop the harm and to investigate those helping the president. Rep. Jamie Raskin said Democrats will not play into the game.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-13"
+     ]
+    },
+    {
+     "text": "Rep. Sydney Kamlager-Dove of Los Angeles introduced articles of impeachment last week against White House budget director Russell Vought. She argued that he broke the law when the administration canceled federal funding to Democratic states, including California, for political reasons.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-14"
+     ]
+    },
+    {
+     "text": "Raskin, the top Judiciary Democrat, said anyone involved in Paramount's attempt to purchase Warner Bros. Discovery should be prepared to answer under oath. A lawyer for Paramount said the company was happy to cooperate with Democrats vowing a crackdown on the merger.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-16"
+     ]
+    },
+    {
+     "text": "House Democrats introduced legislation on Aug. 6 that would impose a levy on leading artificial intelligence companies. The bill would channel the proceeds into a new Work Protection Administration for workers displaced by AI.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-17"
+     ]
+    },
+    {
+     "text": "NPR reported on Aug. 14 that President Trump is pushing the boundaries of executive power to limit transparency within the executive branch, and that congressional Democrats are grappling with how to respond. NPR has also reported that a shortage of some munitions and problems with the USS Lincoln have put the Trump administration on the defensive.",
+     "claims": [
+      "democrats-2028-primary-calendar-2026-08-16-11",
+      "democrats-2028-calendar-and-party-direction-2026-08-16-06",
+      "democrats-2028-calendar-and-party-direction-2026-08-16-07"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "2028 leadoff primary state",
+     "from": "",
+     "to": "South Carolina, Jan. 22, 2028",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Calendar approval status",
+     "from": "",
+     "to": "Endorsed by DNC, 15 Aug",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Iowa's position",
+     "from": "",
+     "to": "Dropped from first",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Third Trump impeachment",
+     "from": "",
+     "to": "On table, not a priority",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "House oversight probes",
+     "from": "",
+     "to": "Groundwork being laid",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Time to midterms",
+     "from": "",
+     "to": "Under three months",
+     "since": "2026-08-16"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [
+    "entail-1",
+    "entail-2"
+   ],
+   "word_count": 476,
+   "beat_name": "Democrats' 2028 calendar and party direction",
+   "publishers": 6,
+   "claims": 28
+  },
+  {
+   "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+   "day": "2026-08-16",
+   "headline": "Trump orders Pentagon to scale back joint drills with South Korea",
+   "standfirst": "The order lands days before Ulchi Freedom Shield was due to begin, and after North Korea threatened stern steps over the exercises.",
+   "dateline": "WASHINGTON",
+   "published_at": "2026-08-17T00:15:15Z",
+   "paragraphs": [
+    {
+     "text": "President Donald Trump has directed the Pentagon to reduce the scale of joint military exercises with South Korea. Trump announced the decision in a social media post, saying the exercises slated to begin this week are costly. The Hill reported on 16 August 2026 that Trump said in a Truth Social post that he had told Defense Secretary Pete Hegseth to substantially reduce the drills.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-01",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-17"
+     ]
+    },
+    {
+     "text": "Trump characterized the joint exercises as sending an inappropriate and hostile signal to North Korea. He also asserted that North Korea has behaved in an unthreatening and respectful manner during his time in the White House.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-02",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-03"
+     ]
+    },
+    {
+     "text": "US and South Korean forces were expected to practise joint operations in complex scenarios during Ulchi Freedom Shield, including a live-fire exercise testing joint precision targeting and manoeuvre, a wet gap crossing, and distribution of prepositioned military equipment.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-10"
+     ]
+    },
+    {
+     "text": "North Korea on Friday 14 August 2026 threatened unspecified stern steps against the United States and South Korea. Pyongyang described the drills as a rehearsal for an aggressive war that was triggering greater instability in the region.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-09"
+     ]
+    },
+    {
+     "text": "Earlier in August 2026, South Korea, the United States and Japan detected the launch of a short-range ballistic missile from North Korea, which landed in waters off its east coast. It was the North's first ballistic weapons testing activity since late June. The joint exercises come days after the three countries detected the second North Korean missile test in days, part of ballistic missile testing this month that is banned by the United Nations.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-11",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-12"
+     ]
+    },
+    {
+     "text": "South Korea's military said it fired warning shots after North Korean soldiers briefly crossed the military demarcation line, an incident that forced the North Korean soldiers to retreat, according to Reuters and Yonhap reporting dated 16 August 2026.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-18",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-04",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-05"
+     ]
+    },
+    {
+     "text": "South Korea's President Lee proposed talks with Pyongyang on formally ending the Korean War and replacing the 1953 armistice with peace. Pyongyang snubbed the proposal as inter-Korean tensions flared ahead of the US-South Korea drills.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-19",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-06",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-07"
+     ]
+    },
+    {
+     "text": "Trump's announcement came a day after the United States pulled its last aircraft carrier in Asia, with the USS George Washington sent to replace the USS Abraham Lincoln in the Persian Gulf, NBC News reported on 16 August 2026.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-08"
+     ]
+    },
+    {
+     "text": "Trump's 16 August 2026 announcement came a day after he posted a photo of himself standing next to Kim Jong Un, writing that the two leaders get along great despite the unfriendly look in that particular picture. Trump met the North Korean leader three times during his first term to discuss the country's nuclear programme, most recently in 2019, and has expressed interest in continuing those discussions since returning to office.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-15",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-16"
+     ]
+    },
+    {
+     "text": "Trump has sought to curtail the exercises before. He suspended them entirely in 2018 during denuclearisation negotiations with Kim Jong Un, and the drills were scaled back again in 2020 during the Covid-19 pandemic. After his 2018 meeting with Kim in Singapore, Trump told reporters the United States would be stopping the war games to save a tremendous amount of money, unless and until future negotiations were not going as they should.",
+     "claims": [
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-13",
+      "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-14"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Ulchi Freedom Shield",
+     "from": "",
+     "to": "Due to begin Monday; ordered scaled back",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Seoul's stance on drills",
+     "from": "",
+     "to": "Proceeding as scheduled",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Pyongyang response to Trump order",
+     "from": "",
+     "to": "None yet",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "North Korean missile testing",
+     "from": "",
+     "to": "Resumed; two tests this month",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Inter-Korean peace talks proposal",
+     "from": "",
+     "to": "Snubbed",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "US troops in South Korea",
+     "from": "",
+     "to": "About 28,500",
+     "since": "2026-08-16"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [],
+   "word_count": 505,
+   "beat_name": "US–South Korea joint drills dispute",
+   "publishers": 6,
+   "claims": 20
+  },
+  {
+   "beat": "us-iran-war-and-hormuz-blockade",
+   "day": "2026-08-16",
+   "headline": "Ceasefire with Iran nears expiry as US pulls last Pacific carrier",
+   "standfirst": "Oil nears $100 a barrel; the UAE says Iran has struck three of its tankers in a week.",
+   "dateline": "WASHINGTON",
+   "published_at": "2026-08-16T23:13:04Z",
+   "paragraphs": [
+    {
+     "text": "A memorandum of understanding between the United States and Iran is approaching its expiration date, and the ceasefire it underpins is set to expire with negotiations between the two governments at a standstill, according to reports published on 16 August 2026. Iran has said there has been no progress on reviving the interim peace deal with the United States.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-00",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-01"
+     ]
+    },
+    {
+     "text": "The US military is moving its last aircraft carrier out of the Pacific to prioritise operations against Iran. The move relieves the USS Abraham Lincoln and leaves the Pacific without a US carrier. The USS George Washington is departing the Pacific and is expected to replace the Lincoln in the Middle East amid growing concerns about mental health and supply issues aboard the long-deployed carrier, AP reported.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-02",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-03"
+     ]
+    },
+    {
+     "text": "The Lincoln has spent a record uninterrupted time at sea of more than 240 days after its original May return date was extended to support operations against Iran. Democratic lawmakers have been calling for investigations into conditions aboard the ship.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-04"
+     ]
+    },
+    {
+     "text": "Bryan Clark, a former Navy submariner and defense analyst at the Hudson Institute, said the Navy has 11 aircraft carriers and typically deploys two or three at a time, but could soon deploy four if the USS Theodore Roosevelt leaves San Diego for the Middle East.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-05"
+     ]
+    },
+    {
+     "text": "Admiral Frank Bradley, head of US Special Operations Command, was in Manila on Thursday telling his Filipino counterparts that US special operations forces are ready to step up joint exercises to strengthen the alliance. He is also expected to travel to Japan. China carried out military drills this month near the Scarborough Shoal in the South China Sea, conducted naval exercises this week with Indonesia, and last month sent a guided-missile destroyer to hold a live-fire exercise off Japan's southernmost island of Okinotori.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-06",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-07"
+     ]
+    },
+    {
+     "text": "Greg Poling, director of the Southeast Asia Program at the Center for Strategic and International Studies, said the United States is doing the exact opposite of its previously expressed goal of pulling out of the Middle East. He said Pacific allies are unsettled by the administration's unpredictability.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-08"
+     ]
+    },
+    {
+     "text": "Oil prices rose and were set for weekly gains after the United States threatened an indefinite blockade against Iran. Attacks in the Strait of Hormuz have pushed oil toward $100 a barrel despite a build in US crude inventories, with Middle East tensions keeping prices elevated in trading reported on 16 August 2026.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-09",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-12"
+     ]
+    },
+    {
+     "text": "US officials said Washington will use economic tactics on Iran 'that have never been seen'. The United States is readying further penalties against Iran as President Trump seeks more economic pressure on Tehran, while publicly downplaying the war's impact on the coming midterm elections. Trump told Axios that 'We are low-keying it' with Iran.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-10",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-14",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-15"
+     ]
+    },
+    {
+     "text": "The United Arab Emirates said Iran attacked an ADNOC vessel in the Strait of Hormuz, the third UAE tanker struck within a week, and urged the reopening of the waterway. The UAE characterised the strikes on tankers as 'unprovoked attacks' by Iran.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-18",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-19"
+     ]
+    },
+    {
+     "text": "Representative Don Bacon, a Republican of Nebraska who is not running for reelection, said the president was setting possibly false expectations during the early part of the campaign against Iran. Former House Speaker Newt Gingrich said Iran is betting it can outlast President Trump if Democrats take Congress.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-16-11",
+      "us-iran-war-and-hormuz-blockade-2026-08-16-12",
+      "us-iran-war-and-hormuz-blockade-2026-08-17-16"
+     ]
+    },
+    {
+     "text": "State Department spokesperson Tommy Pigott discussed the war with Iran and the hundreds of thousands of foreign nationals who have had their US visas revoked in an interview with NPR's Rob Schmitz broadcast on 15 August 2026.",
+     "claims": [
+      "us-iran-war-and-hormuz-blockade-2026-08-17-17",
+      "us-iran-war-and-hormuz-blockade-2026-08-16-15"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "US–Iran MoU / ceasefire",
+     "from": "",
+     "to": "Approaching expiry",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Talks",
+     "from": "",
+     "to": "Stalled, no progress",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Strait of Hormuz shipping",
+     "from": "",
+     "to": "Disrupted, under attack",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "UAE tankers struck in past week",
+     "from": "",
+     "to": "Three",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "Oil price",
+     "from": "",
+     "to": "Rising toward $100",
+     "since": "2026-08-17"
+    },
+    {
+     "k": "US carrier presence in western Pacific",
+     "from": "",
+     "to": "None",
+     "since": "2026-08-17"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [],
+   "word_count": 576,
+   "beat_name": "US–Iran war and Hormuz blockade",
+   "publishers": 5,
+   "claims": 45
+  },
+  {
+   "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+   "day": "2026-08-16",
+   "headline": "Blanche refuses to pledge Justice Department independence from the White House",
+   "standfirst": "The attorney general says no one in his job should make such a pledge; his remarks were carried by Axios, the New York Times, CNN, The Hill and the Washington Post.",
+   "dateline": "WASHINGTON",
+   "published_at": "2026-08-17T03:42:29Z",
+   "paragraphs": [
+    {
+     "text": "Attorney General Todd Blanche said on Sunday that he would not pledge always to act independently of the White House. He drew a distinction between committing to investigate any case and committing to act independently of the White House.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-03"
+     ]
+    },
+    {
+     "text": "According to the Guardian, Blanche said no attorney general should ever pledge independence from the White House. The Hill reported that Blanche said President Trump has not asked him to prosecute specific individuals and will not do so. Blanche said Trump's views can be a factor in prosecution decisions, according to a news report aggregated on Sunday.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-01",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-02",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-04"
+     ]
+    },
+    {
+     "text": "Blanche's refusal to pledge independence was reported across Axios, The New York Times, CNN, The Hill and the Washington Post.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-05"
+     ]
+    },
+    {
+     "text": "Blanche said on 16 August 2026 that federal investigators are supplying state and local law enforcement with manpower and forensic assistance in an Arizona disappearance case, but that taking the investigation over with sharp elbows would not necessarily be the right course. NBC News reported that Blanche said he does not believe it would be best for the FBI to take over the investigation into the disappearance. NBC News also reported that Blanche said the FBI will continue providing assistance on the Arizona investigation, but that he has no updates.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-12",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-06",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-07"
+     ]
+    },
+    {
+     "text": "The FBI is offering a reward of up to $100,000 for information in the Arizona abduction case. The case was opened in February 2026 and has since been led by state and local authorities, with federal agents assisting in certain areas. In February 2026, days after the disappearance, Trump wrote on Truth Social that he was directing all federal law enforcement to be at the complete disposal of the family and of local law enforcement immediately.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-13",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-14"
+     ]
+    },
+    {
+     "text": "Courts have blocked construction of the White House ballroom. The Trump administration has asked the Supreme Court to allow the ballroom construction to continue. Reporting published on 16 August 2026 said the administration has asked the Supreme Court to allow the project to proceed after courts blocked it, with Trump saying the White House needs a military complex.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-15"
+     ]
+    },
+    {
+     "text": "New renderings of the White House East Wing published on 16 August 2026 reveal gold additions to the design. The renderings are part of a project Trump has described as shifting from his dream of beauty and space to a military complex.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16"
+     ]
+    },
+    {
+     "text": "House Democratic leader Hakeem Jeffries has named restoring voting rights and reforming the Supreme Court as top priorities for Democrats, according to reporting on 16 August 2026, as liberals push a slate of proposals for overhauling the court. Democrats have vowed to rein in the Supreme Court's shadow docket if they retake Congress, one of several overhaul plans circulating among liberals angry at the court.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-17",
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-18"
+     ]
+    },
+    {
+     "text": "An NPR week-in-politics segment broadcast on 15 August 2026 said a shortage of some munitions, together with problems aboard the USS Lincoln, has put the Trump administration on the defensive.",
+     "claims": [
+      "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19"
+     ]
+    }
+   ],
+   "changed": [
+    {
+     "k": "Attorney general",
+     "from": "",
+     "to": "Blanche, confirmed 50-49",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Pledge of DOJ independence",
+     "from": "",
+     "to": "Refused",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "$1.8bn anti-weaponization fund",
+     "from": "",
+     "to": "Declared dead",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Voter-roll litigation",
+     "from": "",
+     "to": "20+ straight defeats, continuing",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "White House ballroom construction",
+     "from": "",
+     "to": "Blocked by courts",
+     "since": "2026-08-16"
+    },
+    {
+     "k": "Supreme Court application on ballroom",
+     "from": "",
+     "to": "Filed, pending",
+     "since": "2026-08-16"
+    }
+   ],
+   "written_by": "claude-code/reporter",
+   "verified_by": [
+    "entail-1",
+    "entail-2"
+   ],
+   "word_count": 477,
+   "beat_name": "DOJ independence under Attorney General Blanche",
+   "publishers": 5,
+   "claims": 20
+  }
+ ]
+}

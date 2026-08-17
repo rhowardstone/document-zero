@@ -19,6 +19,7 @@
   }
  },
  "endpoints": {
+  "articles": "api/articles.json",
   "beats": "api/beats.json",
   "beat": "api/beat/{beat_id}.json",
   "records": "api/records.json",
@@ -29,6 +30,7 @@
   "query": "api/query/{name}.json"
  },
  "counts": {
+  "articles": 10,
   "beats": 12,
   "records": 284,
   "sources": 95,
