@@ -1,0 +1,187 @@
+# The roster, as machine-readable state.
+#
+# Beats.md is the editorial guide: the rules, the sources, how to write. THIS
+# file is the state those rules operate on. They were one file, and that was a
+# blocker: Beats.md described beats in prose under "Standing beats" and never
+# named a desk, while desk.md said "your desk's beats are listed under your
+# name" and treated finding none as a normal outcome. Every desk would have
+# halted silently, every day, and because empty runs are silent nothing would
+# have alerted. The site would have gone stale under yesterday's honest date.
+#
+# Prose cannot be checked. This file is linted in CI by scripts/lint_beats.py,
+# and the lint failing blocks the merge.
+#
+# Only the scout may change this file, and only by pull request.
+
+desks: [justice, foreign, politics, disaster]
+
+# `tier`     standing = check every run. watch = may have gone quiet; cover it
+#            if it moved, and let the scout retire it when it stops.
+# `fields`   what the beat tracks. Must be about the WORLD, never about our
+#            records: "Death toll" is a field, "Most recent claim" is not.
+#            At least two, or the beat fails the beat test.
+# `deadlines` dated obligations. A date passing with nothing filed is news, and
+#            it fires a delta issue on its own.
+# `opened`   ISO date. Used to compute the thirty-day retirement clock.
+
+beats:
+  - slug: nm-records
+    name: New Mexico v. the Justice Department
+    desk: justice
+    tier: standing
+    opened: 2026-08-14
+    fields:
+      - Federal suit
+      - State criminal probe
+      - Records sought
+      - 2019 stand-down rationale
+      - Administrative exhaustion
+      - Stated grounds for refusal
+    deadlines:
+      - date: 2026-09-05
+        what: Government response due, New Mexico v. DOJ (1:26-cv-02762-AHA)
+        why: >-
+          Where the protective-order and Privacy Act grounds must be defended on
+          the record. Non-response is itself recordable.
+      - date: 2026-09-15
+        what: New Mexico truth commission subpoena returns
+        why: Began 1 June 2026 with subpoena power over the Zorro Ranch period.
+      - date: 2026-11-03
+        what: Texas Comptroller election
+        why: The property's owner is a candidate; the office oversees state finances.
+
+  - slug: blanche-doj-independence-and-trump-ballroom-liti
+    name: DOJ independence under Attorney General Blanche
+    desk: justice
+    tier: standing
+    opened: 2026-08-16
+    fields:
+      - Attorney general
+      - Pledge of DOJ independence
+      - $1.8bn anti-weaponization fund
+      - Voter-roll litigation
+      - White House ballroom construction
+      - Supreme Court application on ballroom
+
+  - slug: compliance
+    name: DOJ compliance with the Transparency Act
+    desk: justice
+    tier: standing
+    opened: 2026-08-14
+    fields:
+      - Statute
+      - Invoked as grounds to withhold
+      - Redaction compliance
+
+  - slug: us-iran-war-and-hormuz-blockade
+    name: US–Iran war and Hormuz blockade
+    desk: foreign
+    tier: standing
+    opened: 2026-08-16
+    fields:
+      - US–Iran MoU / ceasefire
+      - Talks
+      - Strait of Hormuz shipping
+      - UAE tankers struck in past week
+      - Oil price
+      - US carrier presence in western Pacific
+
+  - slug: uss-abraham-lincoln-deployment-conditions
+    name: USS Abraham Lincoln deployment conditions
+    desk: foreign
+    tier: standing
+    opened: 2026-08-16
+    fields:
+      - Days at sea
+      - Days since last port call
+      - Relief carrier
+      - Carriers in Middle East
+      - Carriers in Pacific
+      - Congressional action
+
+  - slug: gaza-ceasefire-road-map-talks
+    name: Trump Gaza road map talks
+    desk: foreign
+    tier: standing
+    opened: 2026-08-16
+    fields:
+      - Netanyahu position on 15-point road map
+      - Hamas position on road map
+      - 14-day negotiation period
+      - Israeli territorial control in Gaza
+      - Palestinian technocratic committee
+      - Post-ceasefire Palestinian death toll
+
+  - slug: korean-peninsula-tensions-and-us-south-korea-dri
+    name: US–South Korea joint drills dispute
+    desk: foreign
+    tier: standing
+    opened: 2026-08-16
+    fields:
+      - Ulchi Freedom Shield
+      - Seoul's stance on drills
+      - Pyongyang response to Trump order
+      - North Korean missile testing
+      - Inter-Korean peace talks proposal
+      - US troops in South Korea
+
+  - slug: trump-s-executive-actions-and-mounting-pushback
+    name: Trump's standing before the 2026 midterms
+    desk: politics
+    tier: standing
+    opened: 2026-08-16
+    fields:
+      - Trump job approval (FT/Focaldata)
+      - Republican disapproval
+      - Generic midterm ballot
+      - Third-term posture
+      - BBC Panorama suit
+
+  - slug: democrats-2028-primary-calendar
+    name: Democrats' 2028 calendar and party direction
+    desk: politics
+    tier: standing
+    opened: 2026-08-16
+    fields:
+      - 2028 leadoff primary state
+      - Calendar approval status
+      - Iowa's position
+      - Third Trump impeachment
+      - House oversight probes
+
+  - slug: trump-administration-second-term
+    name: Trump administration second term
+    desk: politics
+    tier: standing
+    opened: 2026-08-14
+    fields:
+      - Colombian tariff suspension request
+      - BBC subpoena bid for Trump family testimony
+      - Trump's legal team
+      - Private-sector hackback authority
+
+  - slug: indiana-record-flooding-august-2026
+    name: Indiana record flooding and recovery
+    desk: disaster
+    tier: watch
+    opened: 2026-08-16
+    fields:
+      - Death toll
+      - White River at Indianapolis
+      - Customers without power
+      - Federal aid
+      - Emergency shelters
+      - Local disaster declarations
+
+  - slug: tropical-storm-lala-in-hawaii
+    name: Hurricane Lala's Hawaii aftermath
+    desk: disaster
+    tier: watch
+    opened: 2026-08-16
+    fields:
+      - Storm status
+      - Deaths
+      - Customers without power
+      - Search and rescue
+      - Warnings in effect
+      - Big Island airports

@@ -27,7 +27,12 @@ succeeded, a secondary channel didn't.
 
 ## Each run
 
-**1. Find the issue to carry.** The most recent file in `Deltas/`. Read
+**0. You run after the critic, not merely after the delta.** If the critic has
+filed an unresolved issue against the Delta you are about to carry, stop and say
+so in the email instead of drafting. A page can be corrected; an inbox cannot.
+
+**1. Find the issue to carry.** The most recent file in `Deltas/`, by the date
+parsed from its filename. Read
 `Deltas/couriered.json` for what has already been drafted. If the newest issue is
 already there, stop — there is nothing to do and that is the normal case. Do not
 go looking for other work, and do not re-draft an issue that already has a draft.
@@ -61,17 +66,40 @@ email below, and change nothing. Do not fall back to email/password. Do not
 attempt to re-authenticate interactively. A silent failure here is correct — the
 issue is already published where it counts.
 
-**6. Record it.** Append to `Deltas/couriered.json`: the issue date, the draft
-URL, and today's date. Commit only that file.
+**6. Record it, with the two states separate.** Append to
+`Deltas/couriered.json`:
+
+```json
+{"issue": "<YYYY-MM-DD>", "draft_url": "...",
+ "draft_created": true, "notification_sent": false}
+```
+
+Creating the draft and committing this file are not atomic, and neither is
+sending the email. Two failures follow, and both need the separate flags:
+
+- Draft created, then a crash before the commit — the next run believes no draft
+  exists and creates a second. **So before creating anything, list the existing
+  Substack drafts and look for this issue's date in the title.** If it is there,
+  record it rather than drafting again.
+- Draft created and committed, then the email fails — with a single flag the next
+  run sees the issue as done, sends nothing, and you never learn the draft
+  exists. Set `notification_sent` only after the email actually sends, and treat
+  a record with `draft_created: true, notification_sent: false` as work still to
+  do.
+
+Commit only that file.
 
 ```
-Courier: draft for Delta <MM-DD-YYYY>
+Courier: draft for Delta <YYYY-MM-DD>
 
 draft: <url>
 links carried: <count>
 ```
 
-**7. Email `rhowardstone@gmail.com`**, subject:
+**7. Email `rhowardstone@gmail.com`** using the Gmail tool available in the
+session — no SMTP credentials, no third-party mailer. If no mail tool is
+available, leave `notification_sent: false`, put the draft URL in the finish
+heartbeat ping, and stop; do not improvise a delivery mechanism. Subject:
 
 ```
 DOCUMENT ZERO: DRAFT READY TO SEND — <Month D>

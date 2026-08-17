@@ -13,8 +13,8 @@ couldn't establish. None of the following may ever appear in a published story:
 quiet", "unverified this cycle", "the feed returned nothing", or anything else
 mentioning feeds, fetches, paywalls, timeouts, rate limits, models, verifiers,
 or refusals. If a beat had nothing to report, don't mention that beat at all —
-omit it silently. If a finding can't be confirmed, state it plainly or drop it
-entirely. Don't show your work and don't hedge in public. Immediately before
+omit it silently. If a finding can be confirmed, state it plainly, without hedging. If it cannot
+be confirmed, drop it entirely. Don't show your work and don't hedge in public. Immediately before
 your final commit, re-read every story you wrote hunting specifically for this
 pattern and cut anything that slipped through. Treat that pass as mandatory.
 
@@ -23,15 +23,41 @@ operator reads. Never on the page.
 
 ## Each run
 
-**1. Read `Beats.md`.** It holds the roster, the beat test, the source list, and
-the verification rules. Your desk's beats are listed there under your name. If
-your desk has no beats listed, stop — there is nothing to do and that is a
-normal outcome. Do not go looking for other work and do not adopt another desk's
-beats.
+**1. Read `beats.yaml` and `Beats.md`.** `beats.yaml` is the roster — machine
+state, one entry per beat, each naming the desk that owns it. `Beats.md` is the
+editorial guide: the beat test, the sources, the verification rules.
 
-**2. Determine the coverage window.** Look in `stories/<your-desk>/` for the most
-recent dated file and cover everything since. If the directory is empty, cover
-the past three days.
+Your beats are the entries in `beats.yaml` whose `desk` equals your desk name.
+
+**If your desk owns no beats, that is a FAILURE, not a quiet day.** Stop, write
+nothing, and report it loudly in your run summary as a roster error. Four desks
+once found no beats because the roster was prose and named no desks at all; every
+one of them reported a normal outcome, and because empty runs are silent the
+newsroom stopped for good without anything alerting. Never treat an empty
+assignment as normal. A desk that owns beats and finds none of them moved — that
+is a quiet day, and that is fine.
+
+**Record the roster revision.** `git rev-parse HEAD:beats.yaml` — put it in every
+story's front matter as `beats_revision`. The scout's PR may be merged while you
+are running; the editor and the critic must judge your stories against the roster
+you actually wrote them against, not whichever one is current when they run.
+
+**2. Determine the coverage window PER BEAT, not per desk.**
+
+For each of your beats, the window starts at the date of the most recent story
+for that beat, found across **every** desk directory — `stories/*/<beat-slug>/`,
+not just your own. If there is none, use the past three days.
+
+One window for the whole desk is wrong and loses reporting permanently. A desk
+that published something yesterday would give a one-day window to a beat whose
+last story was twelve days ago, and anything that moved on it in between falls
+into a hole nothing can see afterwards — the delta reads our stories, not the
+world. Searching every desk directory also survives the scout reassigning a beat
+between desks, which would otherwise reset that beat's history to zero.
+
+**Read that last story before researching.** It is where `was:` comes from. The
+previous value must be our own published record, because that is what the delta
+diffs against — not whatever number the newest article happens to mention.
 
 **3. Research each beat in parallel.** Spawn one research subagent per beat. Give
 each one: the beat's name and slug, the fields it tracks (from `Beats.md`), the
@@ -67,10 +93,13 @@ transcripts. Quotes run a sentence or two, maximum.
 **5. Write one story per beat that moved.** A beat whose fields did not change
 gets no story — that is not a failure, and it is not something to mention.
 
-Each story is `stories/<your-desk>/<beat-slug>/<MM-DD-YYYY>.md`, dated today in
-US Eastern with leading zeros. **Use Eastern, not UTC.** UTC rolls over at 8pm
-Eastern, and a story datelined tomorrow contradicts every source in it. This has
-reached the live site once already.
+Each story is `stories/<your-desk>/<beat-slug>/<YYYY-MM-DD>.md`, dated today in
+US Eastern. **Use Eastern, not UTC**, and **ISO order,
+YYYY-MM-DD**. UTC rolls over at 8pm Eastern and a story datelined tomorrow
+contradicts every source in it — that has reached the live site once already.
+MM-DD-YYYY does not sort chronologically: `01-05-2027` sorts before
+`12-30-2026`, so every "most recent file" lookup silently anchors to December for
+weeks. Sort by the date parsed from the filename, never by `ls` order.
 
 Front matter, then prose:
 
@@ -117,9 +146,29 @@ individual who has not sought public attention, including victims, witnesses and
 relatives, even where a source does.
 
 **7. Verify each story before committing it.** For every sentence that makes a
-factual claim, spawn two verifier subagents. Give each one **only the sentence
-and the source passages it rests on** — never your reasoning, never the rest of
-the story. Ask one question: does the evidence support this sentence as written?
+factual claim — **and explicitly also the headline, the standfirst, and every
+`was`/`now`/`attested` triple in the `changed:` block** — spawn two verifier
+subagents.
+
+Those three are not sentences and would otherwise slip the net on a technicality,
+and they are the most load-bearing claims you write: the headline is what most
+readers read, and the `changed:` block is what the delta and the front page are
+built from. A wrong `was:` value propagates into every future issue. Give each one **only the sentence and the
+source passages it rests on** — never your reasoning, never the rest of the
+story. Give them DIFFERENT jobs, because two instances asked the identical
+question are weaker evidence than they look:
+
+- **Verifier A:** does the supplied evidence support this sentence as written?
+- **Verifier B:** state the strongest reason this sentence overreaches its
+  evidence — a missing qualification, an attribution dropped, a date that does
+  not match, a stronger claim than the source makes. If there is genuinely no
+  such reason, say so.
+
+For load-bearing claims — the headline, the standfirst, anything in `changed:` —
+give verifier B **the source URL instead of your excerpt** and have it locate the
+support itself. You chose the passages, and motivated passage selection survives
+blinded review: an article can say "X happened" in paragraph 4 and "investigators
+later determined X had not happened" in paragraph 12.
 
 - If both say no, cut the sentence.
 - If they disagree, cut it. A sentence one careful reader can't support is not
@@ -131,10 +180,31 @@ the story. Ask one question: does the evidence support this sentence as written?
 - If cutting leaves the story under 300 words, drop the story. Below that there
   was no story, and a thin story is worse than none.
 
-**8. Commit and push.** One commit for the run, message in this shape:
+**8. Commit and push.** One atomic commit for the run, so a mid-run death never
+half-publishes a desk.
+
+Four desks push at once, and disjoint directories do NOT prevent a Git conflict —
+whoever pushes second is rejected non-fast-forward regardless of which files
+changed. So:
 
 ```
-<desk> desk, <MM-DD-YYYY>: <the most consequential development in one line>
+git fetch origin main
+git rebase origin/main          # mechanical: your paths are yours alone
+                                # if it is clean -> push
+                                # if push is rejected -> repeat, at most 3 times
+                                # if a conflict touches ANYTHING outside
+                                #   stories/<your-desk>/ -> abort the rebase,
+                                #   push nothing, report it in your summary
+```
+
+Never merge. Never force-push. Never resolve a conflict outside your own prefix —
+a desk editing another desk's story is the partition breaking, and the partition
+is the only reason concurrent desks are safe.
+
+Message in this shape:
+
+```
+<desk> desk, <YYYY-MM-DD>: <the most consequential development in one line>
 
 <beat-slug>: <what changed>
 <beat-slug>: <what changed>

@@ -1,0 +1,100 @@
+name: Guard
+
+# Turns the write-partition table from prose into a mechanism.
+#
+# Every "may never write" in prompts/README.md is enforced by nothing but the
+# prompt it appears in — and the prompt is exactly the layer a prompt-injection
+# attack operates on. A desk persuaded by a hostile article to rewrite the
+# homepage breaks no check, because the only check was an instruction it was
+# talked out of following.
+#
+# Commit messages already carry a routine signature. Parse it, and fail the push
+# if the diff leaves that routine's prefix.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  roster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install --quiet pyyaml
+      - name: Lint the roster
+        # A malformed roster is a newsroom-wide outage that announces itself as a
+        # quiet day: the desks find no beats, report a normal outcome, and
+        # because empty runs are silent nothing alerts.
+        run: python3 scripts/lint_beats.py beats.yaml
+
+  partitions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Each routine stayed inside its prefix
+        run: |
+          set -euo pipefail
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          head="${{ github.sha }}"
+          # First push to a branch has a null base; nothing to compare.
+          [ "$base" = "0000000000000000000000000000000000000000" ] && exit 0
+
+          msg=$(git log -1 --format=%s "$head")
+          files=$(git diff --name-only "$base" "$head")
+          echo "commit: $msg"
+          echo "$files" | sed 's/^/  /'
+
+          case "$msg" in
+            "justice desk,"*)  allow='^stories/justice/|^runs/' ;;
+            "foreign desk,"*)  allow='^stories/foreign/|^runs/' ;;
+            "politics desk,"*) allow='^stories/politics/|^runs/' ;;
+            "disaster desk,"*) allow='^stories/disaster/|^runs/' ;;
+            "Edition "*)       allow='^editions/' ;;
+            "Delta "*)         allow='^Deltas/' ;;
+            "Courier:"*)       allow='^Deltas/couriered\.json$' ;;
+            "beats.yaml,"*)    allow='^beats\.yaml$|^curation/' ;;
+            *)                 echo "unsigned commit — human change, not checked"; exit 0 ;;
+          esac
+
+          bad=$(echo "$files" | grep -vE "$allow" || true)
+          if [ -n "$bad" ]; then
+            echo "PARTITION VIOLATION: this routine may only write $allow"
+            echo "$bad" | sed 's/^/  /'
+            exit 1
+          fi
+          echo "partition respected"
+
+  no_markup_from_agents:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: No routine writes HTML or JavaScript
+        # The sharpest consequence of prompt injection here is not a false
+        # paragraph: it is a script tag in the homepage of a subdomain of a
+        # property serving ~15,000 people a day. Agents emit data; the Deploy
+        # action renders the page from a template.
+        run: |
+          set -euo pipefail
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          head="${{ github.sha }}"
+          [ "$base" = "0000000000000000000000000000000000000000" ] && exit 0
+
+          msg=$(git log -1 --format=%s "$head")
+          case "$msg" in
+            *" desk,"*|"Edition "*|"Delta "*|"Courier:"*|"beats.yaml,"*) ;;
+            *) echo "unsigned commit — human change, not checked"; exit 0 ;;
+          esac
+
+          bad=$(git diff --name-only "$base" "$head" \
+                | grep -iE '\.(html?|js|mjs|svg)$' || true)
+          if [ -n "$bad" ]; then
+            echo "A routine touched markup. Agents emit data, never HTML:"
+            echo "$bad" | sed 's/^/  /'
+            exit 1
+          fi
+          echo "no markup touched"
