@@ -1283,6 +1283,438 @@ window.DZ = {
    "claims": 20
   }
  ],
+ "digest": {
+  "day": "2026-08-17",
+  "entries": [
+   {
+    "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+    "name": "DOJ independence under Attorney General Blanche",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Attorney general",
+      "from": "",
+      "to": "Blanche, confirmed 50-49",
+      "new": true
+     },
+     {
+      "k": "Pledge of DOJ independence",
+      "from": "",
+      "to": "Refused",
+      "new": true
+     },
+     {
+      "k": "$1.8bn anti-weaponization fund",
+      "from": "",
+      "to": "Declared dead",
+      "new": true
+     },
+     {
+      "k": "Voter-roll litigation",
+      "from": "",
+      "to": "20+ straight defeats, continuing",
+      "new": true
+     },
+     {
+      "k": "White House ballroom construction",
+      "from": "",
+      "to": "Blocked by courts",
+      "new": true
+     },
+     {
+      "k": "Supreme Court application on ballroom",
+      "from": "",
+      "to": "Filed, pending",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "democrats-2028-primary-calendar",
+    "name": "Democrats' 2028 calendar and party direction",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "2028 leadoff primary state",
+      "from": "",
+      "to": "South Carolina, Jan. 22, 2028",
+      "new": true
+     },
+     {
+      "k": "Calendar approval status",
+      "from": "",
+      "to": "Endorsed by DNC, 15 Aug",
+      "new": true
+     },
+     {
+      "k": "Iowa's position",
+      "from": "",
+      "to": "Dropped from first",
+      "new": true
+     },
+     {
+      "k": "Third Trump impeachment",
+      "from": "",
+      "to": "On table, not a priority",
+      "new": true
+     },
+     {
+      "k": "House oversight probes",
+      "from": "",
+      "to": "Groundwork being laid",
+      "new": true
+     },
+     {
+      "k": "Time to midterms",
+      "from": "",
+      "to": "Under three months",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "gaza-ceasefire-road-map-talks",
+    "name": "Trump Gaza road map talks",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Netanyahu position on 15-point road map",
+      "from": "",
+      "to": "Rejected, as of last week",
+      "new": true
+     },
+     {
+      "k": "Hamas position on road map",
+      "from": "",
+      "to": "Accepted; conditions on Israeli pullback",
+      "new": true
+     },
+     {
+      "k": "14-day negotiation period",
+      "from": "",
+      "to": "Not started",
+      "new": true
+     },
+     {
+      "k": "Israeli territorial control in Gaza",
+      "from": "",
+      "to": "About 60%",
+      "new": true
+     },
+     {
+      "k": "Palestinian technocratic committee",
+      "from": "",
+      "to": "Not yet in Gaza",
+      "new": true
+     },
+     {
+      "k": "Post-ceasefire Palestinian death toll",
+      "from": "",
+      "to": "More than 1,200",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "indiana-record-flooding-august-2026",
+    "name": "Indiana record flooding and recovery",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Death toll",
+      "from": "",
+      "to": "at least 7",
+      "new": true
+     },
+     {
+      "k": "White River at Indianapolis",
+      "from": "",
+      "to": "Crested early Sun, receding",
+      "new": true
+     },
+     {
+      "k": "Customers without power",
+      "from": "",
+      "to": "~130,000, down from ~300,000 peak",
+      "new": true
+     },
+     {
+      "k": "Federal aid",
+      "from": "",
+      "to": "Emergency declaration approved, up to $5m",
+      "new": true
+     },
+     {
+      "k": "Emergency shelters",
+      "from": "",
+      "to": "Open",
+      "new": true
+     },
+     {
+      "k": "Local disaster declarations",
+      "from": "",
+      "to": "More than a dozen counties",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+    "name": "US–South Korea joint drills dispute",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Ulchi Freedom Shield",
+      "from": "",
+      "to": "Due to begin Monday; ordered scaled back",
+      "new": true
+     },
+     {
+      "k": "Seoul's stance on drills",
+      "from": "",
+      "to": "Proceeding as scheduled",
+      "new": true
+     },
+     {
+      "k": "Pyongyang response to Trump order",
+      "from": "",
+      "to": "None yet",
+      "new": true
+     },
+     {
+      "k": "North Korean missile testing",
+      "from": "",
+      "to": "Resumed; two tests this month",
+      "new": true
+     },
+     {
+      "k": "Inter-Korean peace talks proposal",
+      "from": "",
+      "to": "Snubbed",
+      "new": true
+     },
+     {
+      "k": "US troops in South Korea",
+      "from": "",
+      "to": "About 28,500",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "nm-records",
+    "name": "New Mexico v. the Justice Department",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Federal suit",
+      "from": "",
+      "to": "No. 1:26-cv-02762-AHA, D.D.C. (Ali, J.), APA review",
+      "new": true
+     },
+     {
+      "k": "State criminal probe",
+      "from": "",
+      "to": "Reopened 19 Feb 2026",
+      "new": true
+     },
+     {
+      "k": "Records sought",
+      "from": "",
+      "to": "Unredacted 'Epstein Library' records, EFTA §2(a)(1)-(9)",
+      "new": true
+     },
+     {
+      "k": "2019 stand-down rationale",
+      "from": "",
+      "to": "Expired 10 Aug 2019 with the defendant",
+      "new": true
+     },
+     {
+      "k": "Administrative exhaustion",
+      "from": "",
+      "to": "Touhy request 3 May 2026; treated as denied 31 Jul 2026",
+      "new": true
+     },
+     {
+      "k": "Stated grounds for refusal",
+      "from": "",
+      "to": "Overbreadth; Privacy Act; Epstein and Maxwell protective orders",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "tropical-storm-lala-in-hawaii",
+    "name": "Hurricane Lala's Hawaii aftermath",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Storm status",
+      "from": "",
+      "to": "Tropical storm, 65 mph, moving west-northwest",
+      "new": true
+     },
+     {
+      "k": "Deaths",
+      "from": "",
+      "to": "One (vehicle crash); none confirmed storm-related",
+      "new": true
+     },
+     {
+      "k": "Customers without power",
+      "from": "",
+      "to": "200,000–250,900",
+      "new": true
+     },
+     {
+      "k": "Search and rescue",
+      "from": "",
+      "to": "Ongoing at Naalehu and Waiohinu",
+      "new": true
+     },
+     {
+      "k": "Warnings in effect",
+      "from": "",
+      "to": "All eight main islands",
+      "new": true
+     },
+     {
+      "k": "Big Island airports",
+      "from": "",
+      "to": "Reopened after Saturday closure",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "trump-s-executive-actions-and-mounting-pushback",
+    "name": "Trump's standing before the 2026 midterms",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Trump job approval (FT/Focaldata)",
+      "from": "",
+      "to": "55% disapprove",
+      "new": true
+     },
+     {
+      "k": "Republican disapproval",
+      "from": "",
+      "to": "1 in 5",
+      "new": true
+     },
+     {
+      "k": "Generic midterm ballot",
+      "from": "",
+      "to": "D 51 – R 45",
+      "new": true
+     },
+     {
+      "k": "Third-term posture",
+      "from": "",
+      "to": "Hedged: \"the law is very strong\"",
+      "new": true
+     },
+     {
+      "k": "BBC Panorama suit",
+      "from": "",
+      "to": "Subpoenas sought via US court",
+      "new": true
+     },
+     {
+      "k": "Colombia tariff-suspension request",
+      "from": "",
+      "to": "No US response",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "us-iran-war-and-hormuz-blockade",
+    "name": "US–Iran war and Hormuz blockade",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "US–Iran MoU / ceasefire",
+      "from": "",
+      "to": "Approaching expiry",
+      "new": true
+     },
+     {
+      "k": "Talks",
+      "from": "",
+      "to": "Stalled, no progress",
+      "new": true
+     },
+     {
+      "k": "Strait of Hormuz shipping",
+      "from": "",
+      "to": "Disrupted, under attack",
+      "new": true
+     },
+     {
+      "k": "UAE tankers struck in past week",
+      "from": "",
+      "to": "Three",
+      "new": true
+     },
+     {
+      "k": "Oil price",
+      "from": "",
+      "to": "Rising toward $100",
+      "new": true
+     },
+     {
+      "k": "US carrier presence in western Pacific",
+      "from": "",
+      "to": "None",
+      "new": true
+     }
+    ]
+   },
+   {
+    "beat": "uss-abraham-lincoln-deployment-conditions",
+    "name": "USS Abraham Lincoln deployment conditions",
+    "changed_on": "2026-08-16",
+    "changes": [
+     {
+      "k": "Days at sea",
+      "from": "",
+      "to": "240–260+, no port call in 200+",
+      "new": true
+     },
+     {
+      "k": "Lincoln status",
+      "from": "",
+      "to": "Returning home",
+      "new": true
+     },
+     {
+      "k": "Relief carrier",
+      "from": "",
+      "to": "USS George Washington, en route",
+      "new": true
+     },
+     {
+      "k": "Congressional oversight",
+      "from": "",
+      "to": "Requested, no hearing scheduled",
+      "new": true
+     },
+     {
+      "k": "Pentagon position",
+      "from": "",
+      "to": "Reports 'completely misrepresented'",
+      "new": true
+     }
+    ]
+   }
+  ],
+  "quiet": 2,
+  "lapsed": [],
+  "empty": false
+ },
  "unpublishable": [
   {
    "beat": "compliance",

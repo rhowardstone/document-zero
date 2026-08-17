@@ -323,6 +323,24 @@ p.body:first-letter{}
   p.body{font-size:16px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* The delta */
+.dentry{margin:22px 0 0;padding-top:18px;border-top:1px solid var(--rule)}
+.dentry h3{font:600 15px/1.3 PublicSans,system-ui;margin:0 0 10px}
+.dentry h3 a{color:inherit;text-decoration:none}
+.dentry h3 a:hover{text-decoration:underline;text-underline-offset:3px}
+table.chg{width:100%;border-collapse:collapse}
+table.chg td{padding:5px 0;vertical-align:top;font-size:14px}
+table.chg td.k{width:38%;font-family:SpaceMono,ui-monospace,monospace;
+  font-size:12.5px;letter-spacing:.01em;color:var(--ink-2);padding-right:16px}
+table.chg td.v{font-variant-numeric:tabular-nums}
+.lapsed{margin:18px 0;padding:14px 16px;border-left:3px solid var(--warn,#a4441f);
+  background:var(--tint,rgba(164,68,31,.04))}
+.lapsed h3{font:600 13px/1.2 SpaceMono,ui-monospace,monospace;
+  text-transform:uppercase;letter-spacing:.08em;margin:0 0 10px}
+.quiet-n{margin-top:24px;padding-top:16px;border-top:1px solid var(--rule)}
+@media (max-width:640px){table.chg td.k{width:auto;display:block;padding-bottom:2px}
+  table.chg td.v{display:block;padding-top:0;padding-bottom:10px}}
 </style>
 
 <div id="disc">
@@ -365,7 +383,7 @@ p.body:first-letter{}
      <a href="llms.txt">llms.txt</a></p>
 </div></footer>
 
-<script src="data.js?v=1532544bbddd"></script>
+<script src="data.js?v=c80f920753f0"></script>
 <script>
 "use strict";
 const D = window.DZ || {beats:[],items:[],questions:[],triggers:[],contradictions:[],
@@ -389,6 +407,7 @@ const dot = ' <span class="dot">·</span> ';
    editor refused to publish still inflated the number next to "Records". The
    only defensible count is what this edition actually placed on the wire. */
 const ARTICLES  = D.articles || [];
+const DIGEST    = D.digest || null;
 const RECORDS   = D.items.filter(i => i.kind === "wire");
 const LANES     = (D.edition && D.edition.counts) || {};
 /* Refusals have no record on the page BY DESIGN — showing the content would
@@ -420,6 +439,8 @@ const CHANGED   = MOVED.filter(b => (b.changes||[]).length || (b.added||[]).leng
    to a contradiction in terms: an unaddressable record cannot be cited. */
 const ROUTES = [
   {id:"front",  path:"/",         label:"Front page", n:() => ARTICLES.length},
+  {id:"delta",  path:"/delta",     label:"The delta",
+   n:() => DIGEST ? (DIGEST.entries || []).length : 0},
   {id:"record", path:"/records",  label:"The record", n:() => RECORDS.length},
   {id:"stand",  path:"/standing", label:"Standing record",
    n:() => D.questions.length + D.triggers.length + D.contradictions.length},
@@ -447,6 +468,7 @@ function go() {
   const {seg, key} = route();
   const V = {
     "/":         viewFront,
+    "/delta":    viewDelta,
     "/changes":  viewLedger,
     "/article":  () => viewArticle(seg[1], seg[2]),
     "/records":  () => seg[1] ? viewRecord(seg[1]) : viewRecords(),
@@ -578,6 +600,51 @@ function changedTable(a) {
     <p class="repnote">This is the reporting behind the story: the fields this
       beat tracks and what moved. The article above is written from it.</p>
   </section>`;
+}
+
+
+/* ── The delta ───────────────────────────────────────────────────────────
+   What moved on each beat since it last appeared in an issue. The cadence is
+   adaptive and per-beat: a fast-moving story is in nearly every issue, a court
+   case awaiting a filing appears when the filing lands — or when the deadline
+   passes and it does not. Quiet beats are COUNTED, never listed: naming twelve
+   beats to say nothing happened is the padding this format cannot survive. */
+function viewDelta() {
+  if (!DIGEST) return `<article class="card">
+    <h1 class="page">The delta</h1>
+    <p class="body">No issue has been published yet. An issue goes out when
+    enough has moved across the beats, or when a dated obligation passes
+    without the expected filing. It deliberately does not go out on a
+    schedule.</p></article>`;
+
+  const ent = DIGEST.entries || [], lap = DIGEST.lapsed || [];
+  return `<article class="card">
+    <h1 class="page">The delta</h1>
+    <p class="deck">What changed on the record, by beat, since each last
+      appeared. <time datetime="${t(DIGEST.day)}">${H(DIGEST.day)}</time>.</p>
+    ${lap.length ? `<section class="lapsed"><h3>Obligations that passed</h3>
+      ${lap.map(l => `<p class="body"><b class="mono">${H(l.sort)}</b> —
+        ${H(l.t)}${l.beat ? ` <span class="dim">(${H(l.beat)})</span>` : ""}
+        </p>`).join("")}
+      <p class="dim">A dated obligation passing without the expected filing is
+        a finding. Nothing happening produces no headline anywhere.</p>
+      </section>` : ""}
+    ${ent.map(e => `<section class="dentry">
+      <h3>${DIGEST_LINK(e)}</h3>
+      <table class="chg"><tbody>${(e.changes || []).map(c => `<tr>
+        <td class="k">${H(c.k)}</td>
+        <td class="v">${c.new
+          ? `${H(c.to)} <span class="dim">(new)</span>`
+          : `<span class="dim">${H(c.from)}</span> &rarr; ${H(c.to)}`}</td>
+        </tr>`).join("")}</tbody></table>
+      </section>`).join("")}
+    ${DIGEST.quiet ? `<p class="dim quiet-n">${DIGEST.quiet} beat(s) quiet —
+      open and monitored, nothing changed.</p>` : ""}
+  </article>`;
+}
+
+function DIGEST_LINK(e) {
+  return `<a href="#/beat/${t(e.beat)}">${H(e.name)}</a>`;
 }
 
 function viewFront() {

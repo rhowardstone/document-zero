@@ -41,3 +41,24 @@ def test_assert_owns_raises_with_the_offending_path():
 
 def test_assert_owns_passes_for_legal_write_set():
     assert_owns("beat:hormuz", ["beats/hormuz/state.json", "claims/hormuz/a.json"])
+
+
+# ── The digest is the editor's ──────────────────────────────────────────────
+
+def test_the_editor_owns_the_digests():
+    """The delta digest is an editorial artifact: it decides what goes in an
+    issue and when one goes out. The partition rule blocked the first attempt
+    to write one, which is the rule working — an unowned prefix is a bug, not a
+    permission to be assumed."""
+    from ledger.paths import owns_path
+    assert owns_path("editor", "digests/2026-08-17.json")
+    assert owns_path("editor", "digests/last_seen.json")
+
+
+def test_a_beat_may_not_write_the_digest():
+    """A beat writing itself into the issue would be a beat deciding its own
+    prominence. The editor composes; beats supply."""
+    from ledger.paths import owns_path
+    assert not owns_path("beat:nm-records", "digests/2026-08-17.json")
+    assert not owns_path("scout", "digests/2026-08-17.json")
+    assert not owns_path("ingest", "digests/2026-08-17.json")

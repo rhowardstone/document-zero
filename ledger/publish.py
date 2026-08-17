@@ -103,6 +103,8 @@ def publish(data: dict, out_root, base_url: str = "") -> list:
     # reading it on a day with ten published articles would have concluded the
     # newsroom published nothing. Paragraphs keep their claim ids, because the
     # citation is what makes the prose checkable rather than merely readable.
+    if data.get("digest"):
+        written.append(_w(root, f"{API}/digest.json", data["digest"]))
     written.append(_w(root, f"{API}/articles.json", {
         "day": data["edition"]["date"],
         "articles": list(data.get("articles") or []),
@@ -113,6 +115,7 @@ def publish(data: dict, out_root, base_url: str = "") -> list:
         "edition": data.get("edition"),
         "endpoints": {
             "articles": f"{API}/articles.json",
+            "digest": f"{API}/digest.json",
             "beats": f"{API}/beats.json",
             "beat": f"{API}/beat/{{beat_id}}.json",
             "records": f"{API}/records.json",
@@ -198,6 +201,7 @@ def llms_txt(data: dict, base_url: str = "") -> str:
         "## Query surface",
         "",
         f"- [API index]({b}api/index.json): endpoints and counts",
+        f"- [Delta digest]({b}api/digest.json): what changed on each beat since it last appeared in an issue, on an adaptive per-beat cadence",
         f"- [Articles]({b}api/articles.json): the day's published stories, each paragraph with the claim ids it rests on and the verifiers that cleared it",
         f"- [Schema]({b}api/schema.json): field meanings and the ceiling table",
         f"- [Beats]({b}api/beats.json): every beat with status and last change",

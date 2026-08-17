@@ -20,6 +20,7 @@
  },
  "endpoints": {
   "articles": "api/articles.json",
+  "digest": "api/digest.json",
   "beats": "api/beats.json",
   "beat": "api/beat/{beat_id}.json",
   "records": "api/records.json",

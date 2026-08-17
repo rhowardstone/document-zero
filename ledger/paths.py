@@ -12,8 +12,13 @@ SOURCES = "sources"
 CLAIMS = "claims"
 BEATS = "beats"
 EDITIONS = "editions"
+DIGESTS = "digests"
 PROPOSALS = "proposals"
-SHARED = ("questions", "triggers", "contradictions", "editions", "_index")
+# The digest is an editorial artifact: it decides what enters an issue and
+# when one goes out. A beat writing itself in would be a beat deciding its
+# own prominence — the editor composes, beats supply.
+SHARED = ("questions", "triggers", "contradictions", "editions", "digests",
+          "_index")
 
 
 class PartitionError(Exception):

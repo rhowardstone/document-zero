@@ -247,6 +247,15 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
     # stub era, so a page with three verified articles told readers the
     # editor had blocked publication.
     _names = {b.id: b.name for b in beats}
+    # The most recent delta issue, if there is one. The digest fires on an
+    # adaptive per-beat cadence, so on most days this is an EARLIER issue than
+    # today's edition — that is the format working, not a staleness bug.
+    _digest = None
+    _ddir = root / "digests"
+    if _ddir.is_dir():
+        _issues = sorted(f for f in _ddir.glob("*.json") if f.stem != "last_seen")
+        if _issues:
+            _digest = _read(_issues[-1])
     _publish, _blocked = decide(articles,
                                 blocked=edition.get("publish_blocked_by"))
     return {
@@ -264,6 +273,7 @@ def build(ledger_root, beats_config: str, day: str) -> dict:
         # Lead first. See ledger/lead.py — the slot is a judgement,
         # and ordering by beat slug made it an accident.
         "articles": lead_first(articles),
+        "digest": _digest,
         # Beats that moved but whose article could not be published. They are
         # NOT refusals: the fact stands, only the prose failed. They render as
         # one-line entries, because a bare fact needs no prose to support it.

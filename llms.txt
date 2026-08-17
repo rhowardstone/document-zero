@@ -27,6 +27,7 @@ Edition 001 · 2026-08-16 · 12 beats, 10 not quiet, 284 records.
 ## Query surface
 
 - [API index](https://doczero.epstein-data.com/api/index.json): endpoints and counts
+- [Delta digest](https://doczero.epstein-data.com/api/digest.json): what changed on each beat since it last appeared in an issue, on an adaptive per-beat cadence
 - [Articles](https://doczero.epstein-data.com/api/articles.json): the day's published stories, each paragraph with the claim ids it rests on and the verifiers that cleared it
 - [Schema](https://doczero.epstein-data.com/api/schema.json): field meanings and the ceiling table
 - [Beats](https://doczero.epstein-data.com/api/beats.json): every beat with status and last change
