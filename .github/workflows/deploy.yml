@@ -1,0 +1,64 @@
+name: Deploy to doczero.epstein-data.com
+
+# Publishes to https://doczero.epstein-data.com/
+#
+# THE HOST IS SHARED. epstein-data.com serves roughly 15,000 people a day from
+# the same box. The deploy key must be restricted server-side (rrsync) to the
+# doczero site directory and nothing else — it must not be able to open a shell,
+# read anything else on that server, or touch another vhost.
+#
+# This replaces an rsync run from a laptop. A deploy that only works from one
+# machine is a deploy that stops working when that machine is off, and it puts a
+# key with server access on a development box.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-doczero
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure SSH
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "${{ secrets.DOCZERO_DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "${{ secrets.DOCZERO_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Upload the site
+        run: |
+          # Path is "/" because rrsync confines this key to the doczero dir.
+          # Only what the site is. The ledger, the prompts, the tests and the
+          # git history stay off the public server.
+          rsync -az --delete \
+            --include 'index.html' \
+            --include 'data.js' \
+            --include 'llms.txt' \
+            --include 'newsdesk.db' \
+            --include 'fonts/***' \
+            --include 'api/***' \
+            --exclude '*' \
+            ./ "${{ secrets.DOCZERO_USER }}@${{ secrets.DOCZERO_HOST }}:/"
+
+      - name: Verify live
+        run: |
+          sleep 5
+          code=$(curl -s -o /dev/null -w '%{http_code}' https://doczero.epstein-data.com/)
+          echo "doczero: $code"
+          [ "$code" = "200" ] || { echo "doczero not returning 200"; exit 1; }
+
+      - name: Verify the shared host is unharmed
+        # The whole point of the confined key. If this ever fails, the key is not
+        # as restricted as it is supposed to be.
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' https://epstein-data.com/)
+          echo "epstein-data.com: $code"
+          [ "$code" = "200" ] || { echo "SHARED HOST AFFECTED — investigate"; exit 1; }
