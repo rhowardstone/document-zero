@@ -1,0 +1,81 @@
+{
+  "name": "Ukraine's deep-strike campaign inside Russia",
+  "slug": "ukraine-s-deep-strike-campaign-inside-russia",
+  "opened": false,
+  "reason": "span unknown: the history lookup failed and the wire alone sees 1 day(s). Deferred rather than rejected — this may open once the lookup succeeds.",
+  "events": 8,
+  "span_days": 1,
+  "state_fields": [
+    "Deaths in Russia, 16 Aug drone attack",
+    "Deaths in Ukraine, 16 Aug strikes",
+    "Wildberries Podolsk depot",
+    "ArcelorMittal Kryvyi Rih operations",
+    "Drone shootdowns in Romanian airspace",
+    "Ukrainian domestic ballistic missile",
+    "US/Turkey arms transfer to Kyiv",
+    "Russian front-line claims"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "cbsnews.com",
+    "france24.com",
+    "independent.co.uk",
+    "npr.org",
+    "pbs.org",
+    "reuters.com"
+  ],
+  "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQelRzWHNFMVBHUDZPeGpleHRQa2d4cHBzT01CTlNJNE53YnZkSUNRZ3R2Q05mclVzeVkwcGFyazAzVmwwMk1ORnhCUE4zTTFmdGd5UWloaHU2eGl5eFVkZHZfR1dpcTR4ZmpJTE53R0llaHdtalJNcFlodGtLcjlJWDV5WHg5Njg5b25lZG05MlV1OTg0b0pqRkFKaW1xa2RLOXVieWgzTmZDbVcwclZZ?oc=5",
+      "title": "Ukraine-Russia war latest: Kyiv blows up biggest ‘Russian Amazon’ hub in massive drone attack - The Independent",
+      "publisher": "independent.co.uk"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/world/ukraine-launches-one-of-its-largest-aerial-attacks-of-the-war-killing-at-least-6-people-in-russia",
+      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+      "publisher": "pbs.org"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-news-rocket-facility-hit-b3033769.html",
+      "title": "Ukraine-Russia war latest: Kyiv blows up biggest ‘Russian Amazon’ hub in massive drone attack",
+      "publisher": "independent.co.uk"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/europe/odesa-grandmother-ukraine-stray-animals-b3028709.html",
+      "title": "‘They won’t survive without us’: The grandmothers of Odesa caring for Ukraine’s stray animals",
+      "publisher": "independent.co.uk"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
+      "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+      "publisher": "npr.org"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRFR5TGdEVE9razA5V2NqTTZBMXBtQkxiRW1NUUpBaXphMlVXYkQyXzdqYnJ5TThCQkJoMWNzOFJmRHM0Sk13Z3d6c0hzWnJSTU96T204LWR4UUVwQ01fSHI1ejVDdXN1VzNxZ19zTGhCR1dERlV1bVNvRkRwaTl1LXljWkNiYWpBQkF5SkRCUTNwbU5WelVQTjRVcm5nOXQ1a28teU51cF95eUdOdFU2MWY4Zw?oc=5",
+      "title": "Ukraine launches 600 drones at Russia, one of its largest aerial attacks of the war - France 24",
+      "publisher": "france24.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ0FKRmt5NXhNbEFMTUhwUHJ3dExWSlJzc3NYTjR0MXhBUzdDX3R6c25OLTl6dEpJUWg1LWpKQkNKOVc0SV9rNFJWeDZTdnhlRWVtdHQ0S2JPR01GQ0FaLVd1blcwMVdzMkQ5eHZZdlAzLUVmQVoyWVNyTlltcVlsUzloUmxveTZLc0N0T24yQnRJalV2ZHhvZGJ5alZCYWhrWnZkYw?oc=5",
+      "title": "Ukraine could strike Russia with domestic ballistic missiles in 3 to 6 months, says Ukraine's former defense minister - CBS News",
+      "publisher": "cbsnews.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDQ2bnhPSnIySk54TjdqYmlQeVd3eEkxSU00ckF6OHZjUkI1S3ZUQm9VRUFvakFsajBqcjFVWlE5cTZsNjFNdUozMGlxQ0tvWTQ2Unl2SjF4UlJpMVlHSFdxOV9xa3hXcWFqMFloSGNFNHVSTVM2UUItcDdhaUZ5dzRTa3Z0eEpPdV9PUVBhV3Z3WVhGZ1NQNjd5LVA5RWNOTjhXV3IxOGJEanUzM1BwcFNycFczNDdMWUEzYXhDQkk?oc=5",
+      "title": "Russia hits steel plant in new strikes on Ukraine, Kyiv attacks Moscow region - Reuters",
+      "publisher": "reuters.com"
+    }
+  ],
+  "claims_found": 18,
+  "dropped": [
+    {
+      "claim": "Russia's Defence Ministry said on Sunday 16 August 2026 that",
+      "why": "quote does not appear in the cited article"
+    },
+    {
+      "claim": "Japanese Prime Minister Sanae Takaichi described President V",
+      "why": "quote does not appear in the cited article"
+    }
+  ],
+  "no_state_reason": ""
+}

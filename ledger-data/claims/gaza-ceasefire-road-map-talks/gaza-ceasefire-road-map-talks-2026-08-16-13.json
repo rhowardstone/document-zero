@@ -1,0 +1,14 @@
+{
+  "claim_text": "An official familiar with the matter said the Hamas-Kushner meeting took place in the Egyptian town of Alamein with the objective of translating the road map's obligations into concrete, verifiable steps, including transferring governing responsibilities to the National Committee for the Administration of Gaza.",
+  "quote": "Another official familiar with the matter told Al Jazeera that Hamas and Kushner met in the town of Alamein “with the objective of translating the roadmap’s obligations into concrete, verifiable steps”.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Anonymous official described as neither a Board of Peace member nor a US official; single-outlet sourcing.",
+  "source_sha": "15af370147571ac7e09321599749eb2fdeb2ccba4c92652beed0e3dfb7514463",
+  "source_url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-13",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

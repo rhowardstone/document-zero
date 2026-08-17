@@ -12,7 +12,7 @@
   {
    "query": "cross-beat-sources",
    "question": "Which single sources inform more than one beat?",
-   "count": 0,
+   "count": 2,
    "url": "https://doczero.epstein-data.com/api/query/cross-beat-sources.json"
   },
   {
@@ -30,31 +30,31 @@
   {
    "query": "source-types",
    "question": "What kinds of source is the record actually built on?",
-   "count": 2,
+   "count": 3,
    "url": "https://doczero.epstein-data.com/api/query/source-types.json"
   },
   {
    "query": "tier-documented",
    "question": "Which published claims are stamped `documented`?",
-   "count": 15,
+   "count": 179,
    "url": "https://doczero.epstein-data.com/api/query/tier-documented.json"
   },
   {
    "query": "tier-open",
    "question": "Which published claims are stamped `open`?",
-   "count": 5,
+   "count": 105,
    "url": "https://doczero.epstein-data.com/api/query/tier-open.json"
   },
   {
    "query": "timeline",
    "question": "Every dated event on the record, chronologically.",
-   "count": 39,
+   "count": 40,
    "url": "https://doczero.epstein-data.com/api/query/timeline.json"
   },
   {
    "query": "uncorroborated",
    "question": "Which published claims rest on a single REPORT that nothing else confirms?",
-   "count": 20,
+   "count": 269,
    "url": "https://doczero.epstein-data.com/api/query/uncorroborated.json"
   },
   {

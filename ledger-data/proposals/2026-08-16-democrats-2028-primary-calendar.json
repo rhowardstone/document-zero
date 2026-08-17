@@ -6,14 +6,14 @@
   "events": 10,
   "span_days": 19,
   "state_fields": [
-    "2028 leadoff primary state",
-    "Calendar approval status",
-    "Iowa's position",
-    "Third Trump impeachment",
-    "House oversight probes",
-    "Time to midterms",
-    "Trump approval",
-    "Democrats rating own party 'weak'"
+    "Leadoff primary state",
+    "Iowa's calendar position",
+    "Early-state lineup",
+    "DNC chair",
+    "Impeachment posture",
+    "Cabinet-level impeachment articles",
+    "Voter rating of the party",
+    "Socialism vs. capitalism among Democrats"
   ],
   "dated_trigger": null,
   "publishers": [
@@ -26,19 +26,14 @@
   ],
   "articles": [
     {
-      "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
-      "title": "Stephen A. Smith gets an 'F' from Black journalists group. He is declaring war",
-      "publisher": "latimes.com"
+      "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+      "title": "CBS News poll on whether Democrats split over socialism",
+      "publisher": "cbsnews.com"
     },
     {
       "url": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
       "title": "Democrats’ 2028 presidential calendar gives Black and Latino voters and union members an early say",
       "publisher": "courthousenews.com"
-    },
-    {
-      "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
-      "title": "CBS News poll on whether Democrats split over socialism",
-      "publisher": "cbsnews.com"
     },
     {
       "url": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
@@ -54,6 +49,11 @@
       "url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
       "title": "Democrats grapple with Trump's push to limit transparency within the executive branch",
       "publisher": "npr.org"
+    },
+    {
+      "url": "https://www.politico.com/live-updates/2026/08/14/congress/wasserman-schultz-roils-democrats-again-01037680",
+      "title": "Capitol agenda: Wasserman Schultz roils Democrats, again",
+      "publisher": "politico.com"
     },
     {
       "url": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",

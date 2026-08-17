@@ -2,8 +2,107 @@
   "day": "2026-08-16",
   "wire": [
     {
+      "id": "blanche-doj-independence-and-trump-ballroom-liti",
+      "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "democrats-2028-primary-calendar",
+      "beat": "democrats-2028-primary-calendar",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "gaza-ceasefire-road-map-talks",
+      "beat": "gaza-ceasefire-road-map-talks",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "indiana-record-flooding-august-2026",
+      "beat": "indiana-record-flooding-august-2026",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
       "id": "korean-peninsula-tensions-and-us-south-korea-dri",
       "beat": "korean-peninsula-tensions-and-us-south-korea-dri",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "nm-records",
+      "beat": "nm-records",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "tropical-storm-lala-in-hawaii",
+      "beat": "tropical-storm-lala-in-hawaii",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "trump-s-executive-actions-and-mounting-pushback",
+      "beat": "trump-s-executive-actions-and-mounting-pushback",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "us-iran-war-and-hormuz-blockade",
+      "beat": "us-iran-war-and-hormuz-blockade",
+      "material_changes": 0,
+      "claims": 0,
+      "rejected_claims": 0,
+      "changes": [],
+      "added": [],
+      "removed": [],
+      "unchanged": 0
+    },
+    {
+      "id": "uss-abraham-lincoln-deployment-conditions",
+      "beat": "uss-abraham-lincoln-deployment-conditions",
       "material_changes": 0,
       "claims": 0,
       "rejected_claims": 0,
@@ -16,80 +115,26 @@
   "omissions": [],
   "holds": [],
   "counts": {
-    "wire": 1,
+    "wire": 10,
     "refused": 0,
     "holds": 0,
     "omissions": 0,
     "capped_out": 0,
     "dropped": 0,
-    "unpublishable": 11
+    "unpublishable": 2
   },
   "unpublishable": [
     {
-      "beat": "blanche-doj-independence-and-trump-ballroom-liti",
-      "name": "blanche-doj-independence-and-trump-ballroom-liti",
-      "reason": "refused by the gate",
-      "changed": "Attorney general"
-    },
-    {
       "beat": "compliance",
-      "name": "compliance",
-      "reason": "reporter failed",
-      "changed": "Statute"
-    },
-    {
-      "beat": "democrats-2028-primary-calendar",
-      "name": "democrats-2028-primary-calendar",
-      "reason": "refused by the gate",
-      "changed": "2028 leadoff primary state"
-    },
-    {
-      "beat": "gaza-ceasefire-road-map-talks",
-      "name": "gaza-ceasefire-road-map-talks",
-      "reason": "reporter failed",
-      "changed": "Gaza ceasefire"
-    },
-    {
-      "beat": "indiana-record-flooding-august-2026",
-      "name": "indiana-record-flooding-august-2026",
-      "reason": "reporter failed",
-      "changed": "Death toll"
-    },
-    {
-      "beat": "nm-records",
-      "name": "nm-records",
-      "reason": "refused by the gate",
-      "changed": "Federal suit"
-    },
-    {
-      "beat": "tropical-storm-lala-in-hawaii",
-      "name": "tropical-storm-lala-in-hawaii",
-      "reason": "refused by the gate",
-      "changed": "Storm status"
+      "name": "Compliance",
+      "changed": "Statute",
+      "reason": "no article survived this cycle"
     },
     {
       "beat": "trump-administration-second-term",
-      "name": "trump-administration-second-term",
-      "reason": "reporter failed",
-      "changed": "Colombian tariff suspension request"
-    },
-    {
-      "beat": "trump-s-executive-actions-and-mounting-pushback",
-      "name": "trump-s-executive-actions-and-mounting-pushback",
-      "reason": "reporter failed",
-      "changed": "Trump job approval (FT/Focaldata)"
-    },
-    {
-      "beat": "us-iran-war-and-hormuz-blockade",
-      "name": "us-iran-war-and-hormuz-blockade",
-      "reason": "reporter failed",
-      "changed": "US–Iran MoU / ceasefire"
-    },
-    {
-      "beat": "uss-abraham-lincoln-deployment-conditions",
-      "name": "uss-abraham-lincoln-deployment-conditions",
-      "reason": "reporter failed",
-      "changed": "Days at sea"
+      "name": "Trump administration second term",
+      "changed": "Colombian tariff suspension request",
+      "reason": "no article survived this cycle"
     }
   ],
   "publish": null,

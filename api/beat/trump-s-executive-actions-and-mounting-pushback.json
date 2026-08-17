@@ -1,10 +1,10 @@
 {
  "beat": {
   "id": "trump-s-executive-actions-and-mounting-pushback",
-  "name": "Trump's second term before the 2026 midterms",
+  "name": "Trump's standing before the 2026 midterms",
   "dossiers": [],
   "types": [],
-  "status": "quiet",
+  "status": "moved",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
   "events": 20,
@@ -113,5 +113,527 @@
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti",
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "The Trump administration has asked the Supreme Court to allow White House ballroom construction to continue.",
+   "deck": "A filing with a named court, reported by multiple outlets in the same cluster; news ceiling applies.",
+   "quote": "Trump Administration Asks Supreme Court to Greenlight White House Ballroom",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Courts have blocked construction of Trump's White House ballroom.",
+   "deck": "Court action is an on-record proceeding, but the only evidence here is a headline; no ruling text, court, or date is given. Below the 0.6 news ceiling.",
+   "quote": "Trump says White House needs ‘military complex’ as courts block his ballroom",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Trump ordered changes to the recommended childhood vaccination schedule, with health secretary Robert F. Kennedy Jr. present.",
+   "deck": "An executive order is a document, but its text is not in evidence and the source summary is truncated mid-sentence; the content of the ordered change cannot be established from this quote.",
+   "quote": "When Trump recently ordered changes to the recommended childhood vaccination schedule, with Kennedy by his side, the president called for two shots of the co",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "open",
+   "title": "Sen. Bill Cassidy (R-La.) said the executive order altering the childhood vaccine schedule is based on \"crazy, stupid\" claims and is why Trump's poll numbers are falling.",
+   "deck": "An identified sitting senator asserting a characterisation on the record in a broadcast interview; the utterance is well attested across four outlets in the cluster, but the assessment is his, not an established fact. At the news ceiling.",
+   "quote": "Sen. Bill Cassidy (R-La.) on Sunday said President Trump's executive order that seeks to alter the childhood vaccine schedule is based on \"crazy, stupid\" claims, and that they are \"why the president's poll numbers are going down.\"",
+   "tier": "credible_allegation",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/policy/healthcare/6032232-cassidy-slams-trump-vaccine-order/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Trump signed a memo authorizing private-sector companies to launch cyberattacks against foreign cybercriminals.",
+   "deck": "A signed presidential memo is a document, reported consistently by five outlets in the cluster; the memo's text and scope are not in evidence. At the news ceiling.",
+   "quote": "Trump signs memo authorizing private sector to launch cyberattacks",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Colombia's president has asked Trump to suspend tariffs to assist earthquake recovery.",
+   "deck": "A public request by a named head of state, reported directly by PBS; whether tariffs exist at the levels implied is not established here. At the news ceiling.",
+   "quote": "Colombian president asks Trump to suspend tariffs to help earthquake recovery",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/world/colombian-president-asks-trump-to-suspend-tariffs-to-help-earthquake-recovery",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "The BBC has asked a US court to help it obtain testimony from Trump family members in its defamation litigation over a Panorama broadcast.",
+   "deck": "A subpoena application is a court filing, reported by AP and four other outlets in the cluster; the filing itself is not in evidence. At the news ceiling.",
+   "quote": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "open",
+   "title": "A new poll finds most voters say they are worse off under Trump.",
+   "deck": "Reported poll finding with no pollster, sample, date, or margin of error given in the source text; the result cannot be checked against the instrument.",
+   "quote": "Most voters say they are worse off under Trump, new poll says",
+   "tier": "credible_allegation",
+   "confidence": 0.45,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.45, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM2SElfb082WlA5dVhQNVRxQ1c2cWZVM2F6QXg0czdkMmNJYmFYMTRXSTY5RE5NaUdkM0tCT2FVcUpGZElnbHJCTDhMazRTOEUySWlqQU5pOVlvaW1YcUxQV3MzT1U0QkEwQTl5U2hDOFJXTTVMMmVDV0M1M0NwMUpwbkFRUUhyOWJqdXV1ZEJ6R3dQVU41NW1XUmlBaml6VGRNcGhnaWVhdUV0LVpSME1SNk56SFVTMVJpOTk1X0VNdnVHYVE0LVM0aVlucndhREhwYy1IMDQ3X00?oc=5",
+     "t": "misc",
+     "c": "0.45"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-08",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Trump drew criticism over the weekend of 15-16 August 2026 after sharing a black-and-white image of himself wearing a \"Trump 2028\" hat with the message \"We are going to win,\" despite the 22nd Amendment's limit on presidential terms.",
+   "deck": "The post itself is the primary artefact and is described directly; the constitutional limit is a matter of public record.",
+   "quote": "an image of himself wearing a “Trump 2028” hat along with the troublesome message: “We are going to win.”",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "independent.co.uk",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/trump-2028-third-term-truth-social-post-b3033863.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-09",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Asked at Joint Base Andrews on Tuesday, 11 August 2026, whether he was serious about seeking a third term, Trump said: \"And you know that the law is very strong on that. I'd love to run, but the law is very strong,\" then ignored a reporter's attempt to press further.",
+   "deck": "Verbatim on-record remarks to reporters at a named location; news ceiling 0.6.",
+   "quote": "“Everybody asks me that question,” he said. “And you know that the law is very strong on that. I’d love to run, but the law is very strong.”",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "independent.co.uk",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/trump-2028-third-term-truth-social-post-b3033863.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "The BBC has asked a United States court for assistance in obtaining testimony from members of Trump's family in the defamation suit brought over its Panorama programme, according to reports published on 16 August 2026.",
+   "deck": "Court filing reported concurrently by AP, Politico, Sky News and the BBC, but only headlines are available in this cluster, so no filing detail can be verified.",
+   "quote": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-11",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "The BBC is seeking to subpoena Ivanka Trump, Donald Trump Jr. and Jared Kushner to testify about Trump's January 6 speech as part of the $10bn Panorama lawsuit, according to reports published on 16 August 2026.",
+   "deck": "Named individuals and the $10bn figure appear across the aggregated headlines, but no underlying filing text is available in this cluster.",
+   "quote": "BBC Wants Ivanka, Don Jr. And Jared Kushner To Testify About Trump’s Jan. 6 Speech",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-12",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "More than 5.3 million individuals across the country have lost SNAP benefits since Trump enacted major overhauls to the programme in his 2025 tax and spending law, according to U.S. Department of Agriculture figures.",
+   "deck": "Specific national figure attributed to a named federal agency's data.",
+   "quote": "More than 5.3 million individuals across the country have lost SNAP benefits since President Donald Trump enacted major overhauls to the program in his 2025 tax and spending law, according to U.S. Department of Agriculture figures.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "independent.co.uk",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/liz-wills-ogilvie-hunger-strike-trump-food-stamp-cuts-b3033845.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-13",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Massachusetts' Department of Transitional Assistance reported that SNAP enrollment in the state dropped by nearly 182,000 individuals, including roughly 65,000 children, and that daily call volume has risen 9% year on year with roughly 47% of callers unable to connect, up from 37%.",
+   "deck": "State agency figures cited directly; the call-volume statistics appear in the same article, also attributed to agency figures.",
+   "quote": "the Department of Transitional Assistance reported that SNAP enrollment dropped by nearly 182,000 individuals, including roughly 65,000 children",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "independent.co.uk",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/liz-wills-ogilvie-hunger-strike-trump-food-stamp-cuts-b3033845.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-14",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "open",
+   "title": "NPR reported on 16 August 2026 that the Trump administration's continuing actions targeting transgender youth, including a change to Medicaid, are taking a personal toll on affected families, as described by a longtime Republican voter living in California.",
+   "deck": "Only a one-line summary is available; the Medicaid action is referenced in the headline but no policy document or specifics are quoted.",
+   "quote": "the Trump administration's continuing actions to target transgender youth take a personal toll",
+   "tier": "credible_allegation",
+   "confidence": 0.45,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.45, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+     "t": "news",
+     "c": "0.45"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-15",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "Trump signed a memorandum authorizing U.S. private-sector companies to launch offensive cyberattacks against foreign cybercriminals, reported on 15 August 2026 by NPR, The Guardian, The Washington Post and The New York Times.",
+   "deck": "Four independent major outlets report the signing, but only aggregated headlines are available here, so the memo's text and scope cannot be verified.",
+   "quote": "Trump signs memo authorizing private sector to launch cyberattacks",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-16",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "The 20% pass-through business income deduction, increased from 17% during the 2017 Tax Cut and Jobs Act negotiations and made permanent in last year's One Big Beautiful Bill Act, will cost the budget $820bn over a 10-year period, almost as much as was cut from Medicaid.",
+   "deck": "Legislative facts are firm, but the 10-year cost is a projection presented in an opinion column without an inline source citation.",
+   "quote": "made permanent in the ”big beautiful bill” last year, will cost the budget $820bn over a 10-year period, almost as much as was cut from the Medicaid budget.",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-17",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "About 57% of the $1.3tn in pass-through income in 2022 went to 890,000 people in the richest 1% of the population, according to the Urban-Brookings Tax Policy Center, and the deduction leaves top pass-through owners taxed at 29.6% against a 37% top marginal rate on wages.",
+   "deck": "Figures attributed to a named research institution; the rate comparison appears in the same column and is a direct consequence of statutory rates.",
+   "quote": "About 57% of the $1.3tn in pass-through income in 2022 went to 890,000 people in the richest 1% of the population, according to the Urban-Brookings Tax Policy Center.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-18",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "open",
+   "title": "On 8 July 2026 Trump boarded Air Force One in view of television cameras as he left the Nato summit in Turkey, but was reportedly spirited away via a catering truck to a C-32A that flew him to RAF Mildenhall, leaving unwitting decoys aboard the larger aircraft.",
+   "deck": "The BBC itself hedges with \"reportedly\"; the Secret Service has not commented and the White House had neither confirmed nor denied at the time of publication.",
+   "quote": "the president had reportedly already been secretly spirited away via a catering truck to a C-32A, a military version of the Boeing 757, which flew the president to RAF Mildenhall in the UK.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "bbc.co.uk",
+     "u": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-19",
+   "kind": "wire",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "In remarks to reporters reported by the BBC on 12 August 2026, Trump confirmed that he secretly swapped planes as he left the Nato summit in Turkey the previous month because of a possible threat.",
+   "deck": "On-record presidential confirmation on camera, though only the video summary text is available in this cluster.",
+   "quote": "The President confirmed that he secretly swapped planes as he left a Nato summit in Turkey last month due to a possible threat.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "bbc.co.uk",
+     "u": "https://www.bbc.co.uk/news/videos/cp30p4ze3gxo?at_medium=RSS&at_campaign=rss",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

@@ -1,33 +1,41 @@
 {
-  "name": "Trump's Gaza road map impasse",
+  "name": "Trump Gaza road map talks",
   "slug": "gaza-ceasefire-road-map-talks",
-  "opened": false,
-  "reason": "span unknown: the history lookup failed and the wire alone sees 0 day(s). Deferred rather than rejected — this may open once the lookup succeeds.",
+  "opened": true,
+  "reason": "8 events over 20 days (GDELT: 21 days of coverage over 20d)",
   "events": 8,
-  "span_days": 0,
+  "span_days": 20,
   "state_fields": [
-    "Netanyahu on 15-point road map",
-    "Hamas on road map",
+    "Netanyahu position on 15-point road map",
+    "Hamas position on road map",
     "14-day negotiation period",
-    "Israeli-held share of Gaza",
-    "Palestinian deaths since ceasefire",
-    "Technocratic committee deployment",
-    "International stabilization force",
-    "Kushner–Netanyahu meeting",
+    "Israeli territorial control in Gaza",
+    "Palestinian technocratic committee",
+    "Post-ceasefire Palestinian death toll",
+    "Kushner-Netanyahu meeting",
+    "Israeli strikes in Gaza",
     "Israeli election"
   ],
   "dated_trigger": null,
   "publishers": [
     "aljazeera.com",
-    "axios.com",
     "bbc.co.uk",
-    "cbsnews.com",
     "independent.co.uk",
     "npr.org",
     "pbs.org",
     "theguardian.com"
   ],
   "articles": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNmpRRVBLRXhGNDJhZkRHSlhWbWcyemJTNXp4akxyVUpSV0xwTEx5UG9ZdUY3V3U5TkdHd3VuSXhHd0NZVzV2eVM3d3g0ajNZR0tyZzRoZ1cwVjlrTVFVZGNJM2JuWjdOYlBLbVBLWnQwV0dpRFZaT2VNVjFTR3NrTE96M3V4ZGlfbEJtcHZabjlpMHY0TnJFNGVn0gGfAUFVX3lxTE9Cek5VQUEwRmxxbGdtX1RLYlNiZUZqRFlqbkdSQ2RSelVoTi1kdDdwYXV5bl9tTEY5MWdnT2tLMXlHWXJXNTF0SFZRUnVUZEFVMm9wYVEwT3UteWUtdUp6SkVVa1hraXJpVXVmdXVDWlp5SXdrTXg2OTU3bnZ2emhxYUIzcHEwQmh3OWdybFZ5ZUhiNnVlVDY4bGxmV2VxQQ?oc=5",
+      "title": "Kushner meets Hamas leaders in Egypt to push Trump’s Gaza plan - aljazeera.com",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
+      "title": "Israel releases 35 Palestinian prisoners back into Gaza",
+      "publisher": "aljazeera.com"
+    },
     {
       "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
       "title": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza",
@@ -39,19 +47,9 @@
       "publisher": "independent.co.uk"
     },
     {
-      "url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
-      "title": "Jared Kushner met with Hamas leaders in Egypt to discuss Gaza peace deal",
-      "publisher": "cbsnews.com"
-    },
-    {
       "url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
       "title": "Kushner meets with Hamas on the Gaza road map ahead of talks with Netanyahu",
       "publisher": "npr.org"
-    },
-    {
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZUJUUXNZOERVdVVpWENGOE94TkdCQU1mdmItQmt5cFRZWEFCcklSYlhtSnE0bzU1NVVYNXV0QlZMTnRRNmhMM0JLa1RnZ3VHNzRIT0F3ckVhdUwyS0pCMU14aFRNVVdERVJCSDRMaXZtanozMWtuNEJnckdlVWprVmVR?oc=5",
-      "title": "Inside Kushner's Hamas meeting: What comes next in Gaza - axios.com",
-      "publisher": "axios.com"
     },
     {
       "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
@@ -69,7 +67,20 @@
       "publisher": "pbs.org"
     }
   ],
-  "claims_found": 20,
-  "dropped": [],
+  "claims_found": 17,
+  "dropped": [
+    {
+      "claim": "Israeli Prime Minister Benjamin Netanyahu rejected the Board",
+      "why": "quote does not appear in the cited article"
+    },
+    {
+      "claim": "The foreign ministers of eight nations — Egypt, the United A",
+      "why": "quote does not appear in the cited article"
+    },
+    {
+      "claim": "The impasse over disarmament has left other elements of the ",
+      "why": "quote does not appear in the cited article"
+    }
+  ],
   "no_state_reason": ""
 }

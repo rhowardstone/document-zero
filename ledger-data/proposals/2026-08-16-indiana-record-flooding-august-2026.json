@@ -1,18 +1,20 @@
 {
-  "name": "Indiana record flooding and storm deaths",
+  "name": "Indiana record flooding and recovery",
   "slug": "indiana-record-flooding-august-2026",
   "opened": true,
-  "reason": "9 events over 20 days (GDELT: 11 days of coverage over 20d)",
-  "events": 9,
+  "reason": "8 events over 20 days (GDELT: 11 days of coverage over 20d)",
+  "events": 8,
   "span_days": 20,
   "state_fields": [
     "Death toll",
-    "White River at Indianapolis",
     "Customers without power",
-    "Federal aid",
+    "White River at Indianapolis",
+    "Federal disaster assistance",
+    "Indianapolis floodgates",
     "Emergency shelters",
-    "Local disaster declarations",
-    "Forecast"
+    "Counties with local disaster declarations",
+    "NWS flood warnings, central Indiana",
+    "Pro-team relief donations to Red Cross"
   ],
   "dated_trigger": null,
   "publishers": [
@@ -64,11 +66,6 @@
       "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
       "title": "Indiana authorities say at least 5 people have died as severe weather crosses the state",
       "publisher": "pbs.org"
-    },
-    {
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96dUtRbGx2T29SYXpFakJ4SmtxMzMwd0VXSjRralBXV1RmdnQwT0NoZHhUTU5tUVJYNUVjcnZXSjNGek1EMmJ1ZlBTUDJqeHhWVmlwWkxEN0trRW93ZUtWVjFwM2dYY0FadGRDbHVaTXU5SEZWWTc2bUxFcWh5dlE?oc=5",
-      "title": "The Midwest braces for more heavy flooding, as Indiana seeks federal aid - NPR",
-      "publisher": "npr.org"
     }
   ],
   "claims_found": 20,

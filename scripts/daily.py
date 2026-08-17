@@ -110,6 +110,16 @@ def main() -> int:
 
     # ── articles ────────────────────────────────────────────────────────────
     beats = open_beats(args.day)
+    # A beat already on the record today is DONE. Articles are immutable, so
+    # rewriting one cannot be stored — the previous run paid for a reporter and
+    # two verifiers per beat and then reported the result as "reporter failed".
+    from ledger.published import already_published
+    done = [b for b in beats if already_published(LEDGER, b, args.day)]
+    beats = [b for b in beats if b not in set(done)]
+    if done:
+        print(f"\n  {len(done)} beat(s) already published today, not rewritten:")
+        for b in done:
+            print(f"    {b}")
     print(f"\n── ARTICLES: {len(beats)} beat(s) with enough to write about " + "─" * 8)
 
     # Beats are independent — different prefixes, no shared state — so they are
@@ -123,7 +133,7 @@ def main() -> int:
         return beat, rc, out
 
     from concurrent.futures import ThreadPoolExecutor
-    wrote, failed = [], []
+    wrote, failed = list(done), []
     with ThreadPoolExecutor(max_workers=args.beat_workers) as pool:
         for beat, rc, out in pool.map(write_one, beats):
             if rc == 0 and "PASSED" in out:

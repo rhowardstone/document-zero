@@ -1,29 +1,61 @@
 {
-  "name": "US–South Korea alliance and inter-Korean tensions",
+  "name": "Trump scaling back US–South Korea drills",
   "slug": "us-south-korea-alliance-and-inter-korean-tension",
-  "opened": true,
-  "reason": "5 events over 20 days (GDELT: 21 days of coverage over 20d)",
-  "events": 5,
-  "span_days": 20,
+  "opened": false,
+  "reason": "span unknown: the history lookup failed and the wire alone sees 2 day(s). Deferred rather than rejected — this may open once the lookup succeeds. [HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 9,
+  "span_days": 2,
   "state_fields": [
-    "Status of US–South Korea joint exercises",
-    "Inter-Korean peace talks proposal",
-    "Incidents at the military demarcation line",
-    "North Korean posture toward Seoul and Washington"
+    "Drill status",
+    "Ordered reduction",
+    "Seoul's response",
+    "Pyongyang's response",
+    "North Korean missile testing",
+    "Inter-Korean talks",
+    "US troops in South Korea"
   ],
   "dated_trigger": null,
   "publishers": [
+    "aljazeera.com",
     "apnews.com",
+    "bbc.co.uk",
+    "cbsnews.com",
     "france24.com",
+    "independent.co.uk",
+    "nbcnews.com",
     "pbs.org",
-    "reuters.com",
     "thehill.com"
   ],
   "articles": [
     {
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3RPcGlIdXQ3RU5USnlMN0tyQUxyT2c4NW1zekhhV0xubm9tTmhHLWE0c2RxTFdNWXJueVF4TXA5ODJDNFRhQTdCQllnaU51cTlCc0pqaHZNbmxIbnhxR01MNVZEOWdtaU90cWZjUU9RYlBITDBhMWdiNllIcGFoMHJXQWdlN0lQdWZ5dVVNT00wR0px?oc=5",
-      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-news-trump-qatar-pilot-detention-b3033790.html",
+      "title": "Iran-US war latest: Tehran’s army chief tells Trump ‘we’ll break your legs’ and places $30k bounty on US soldiers",
+      "publisher": "independent.co.uk"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump says US to scale back South Korea military drills after it stayed out of Iran war",
+      "publisher": "bbc.co.uk"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+      "title": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit - AP News",
       "publisher": "apnews.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/17/trump-says-us-to-substantially-reduce-military-drills-with-south-korea?traffic_source=rss",
+      "title": "Trump says US to ‘substantially reduce’ military drills with South Korea",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+      "title": "Trump orders military to ‘substantially reduce’ joint exercises with South Korea",
+      "publisher": "nbcnews.com"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/trump-scale-back-south-korea-military-exercises/",
+      "title": "Trump orders Pentagon to \"substantially reduce\" military exercises with South Korea",
+      "publisher": "cbsnews.com"
     },
     {
       "url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
@@ -32,21 +64,33 @@
     },
     {
       "url": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/",
-      "title": "Trump directs Hegseth to reduce U.S. joint exercises in South Korea",
+      "title": "Trump directs Hegseth to reduce US joint exercises in South Korea",
       "publisher": "thehill.com"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTRvOURLLUdqSXQzZDQwSXJCNVU3WHNVOXRGVnNtV2Rhc1A5NEhTQkVSN0tRWTlfOEFoODhhMnVQQ1lReWZQZ2VlQU1Vd3k0bmE3SGdiNDYzaWhWd0stbDVKalpRZl95cS1VSG1IZi1YMFVDcXhsOVh6ZnNSNElVQy1pM2w3WUJYSzFvcGZFT0ZTMHA3SS1VdS1fS2hwaVhpX0dJRFlRQlNTdEo4NER0RGdkRjE5cHhIMUtlWHphNEptQ3lJUVRENjB2aXN6Mk0?oc=5",
-      "title": "South Korea says it fired warning shots after North Korean soldiers crossed demarcation line",
-      "publisher": "reuters.com"
-    },
-    {
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOXNpcmRLYmNmRWdKMWk2V3BsY0YtVGhlc3VSN2l2Wm9FQjFHNFNLOFdCLXZObzhvWlBxeWFndncyMEVFVzVERm5EMlRmZ3dYSWVlaTFPV18xVURkLXZEUEc1cnNGcTJIcEh1REpZN1NIZllPMDBObFVmM2k1X1M0UV9xT2lVUTNjQS1mbUx4ZFB0T3BVWFQxa3BRZjREYzVsS2FtdmhBOVZ6akVLdFRybkpuLUVkTEU0ZHV1X0IzZ1g4R3NuWjVN?oc=5",
-      "title": "South Korea president proposes talks with Pyongyang to formally end Korean War",
+      "title": "South Korea president proposes talks with Pyongyang to formally end Korean War - France 24",
       "publisher": "france24.com"
     }
   ],
-  "claims_found": 8,
-  "dropped": [],
+  "claims_found": 16,
+  "dropped": [
+    {
+      "claim": "Trump said he recently asked the President of South Korea to",
+      "why": "quote does not appear in the cited article"
+    },
+    {
+      "claim": "It was not immediately clear what a scaled-down version of t",
+      "why": "quote does not appear in the cited article"
+    },
+    {
+      "claim": "A spokesperson for North Korea's Ministry of Foreign Affairs",
+      "why": "quote does not appear in the cited article"
+    },
+    {
+      "claim": "After his 2018 Singapore meeting with Kim Jong Un, Trump tol",
+      "why": "quote does not appear in the cited article"
+    }
+  ],
   "no_state_reason": ""
 }

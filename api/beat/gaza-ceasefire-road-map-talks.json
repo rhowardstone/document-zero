@@ -1,54 +1,66 @@
 {
  "beat": {
   "id": "gaza-ceasefire-road-map-talks",
-  "name": "Trump's Gaza road map impasse",
+  "name": "Trump Gaza road map talks",
   "dossiers": [],
   "types": [],
-  "status": "quiet",
+  "status": "moved",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
-  "events": 12,
-  "summary": "12 claim(s) on record.",
+  "events": 17,
+  "summary": "17 claim(s) on record.",
   "state": [
    {
-    "k": "Gaza ceasefire",
-    "v": "Stalled",
-    "since": "2026-08-16",
-    "flag": null
-   },
-   {
     "k": "Netanyahu position on 15-point road map",
-    "v": "Rejected, last week",
+    "v": "Rejected, as of last week",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Kushner–Netanyahu meeting",
-    "v": "Set for Monday",
+    "k": "Hamas position on road map",
+    "v": "Accepted; conditions on Israeli pullback",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Hamas disarmament",
+    "k": "14-day negotiation period",
     "v": "Not started",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Israeli withdrawal",
-    "v": "Not started",
+    "k": "Israeli territorial control in Gaza",
+    "v": "About 60%",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Palestinian technocratic committee",
+    "v": "Not yet in Gaza",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Post-ceasefire Palestinian death toll",
+    "v": "More than 1,200",
+    "since": "2026-08-16",
+    "flag": null
+   },
+   {
+    "k": "Kushner-Netanyahu meeting",
+    "v": "Scheduled Monday",
     "since": "2026-08-16",
     "flag": null
    },
    {
     "k": "Israeli strikes in Gaza",
-    "v": "Ongoing",
+    "v": "Resumed in past few days",
     "since": "2026-08-16",
     "flag": null
    },
    {
-    "k": "Cairo mediator track",
-    "v": "Egypt, Qatar, Turkey engaged",
+    "k": "Israeli election",
+    "v": "27 October",
     "since": "2026-08-16",
     "flag": null
    }
@@ -58,6 +70,11 @@
     "d": "2026-08-16",
     "c": "Beat opened. 5 events over 20 days (GDELT: 21 days of coverage over 20d).",
     "s": "12 claim(s) from 5 newsroom(s)"
+   },
+   {
+    "d": "2026-08-16",
+    "c": "Beat opened. 8 events over 20 days (GDELT: 21 days of coverage over 20d).",
+    "s": "5 claim(s) from 6 newsroom(s)"
    }
   ],
   "changes": [],
@@ -77,10 +94,458 @@
    "gaza-ceasefire-road-map-talks-2026-08-16-08",
    "gaza-ceasefire-road-map-talks-2026-08-16-09",
    "gaza-ceasefire-road-map-talks-2026-08-16-10",
-   "gaza-ceasefire-road-map-talks-2026-08-16-11"
+   "gaza-ceasefire-road-map-talks-2026-08-16-11",
+   "gaza-ceasefire-road-map-talks-2026-08-16-12",
+   "gaza-ceasefire-road-map-talks-2026-08-16-13",
+   "gaza-ceasefire-road-map-talks-2026-08-16-14",
+   "gaza-ceasefire-road-map-talks-2026-08-16-15",
+   "gaza-ceasefire-road-map-talks-2026-08-16-16"
   ],
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "Kushner is scheduled to meet Benjamin Netanyahu on Monday.",
+   "deck": "Below the news ceiling because the meeting is prospective; scheduling can change before Monday.",
+   "quote": "Kushner will meet on Monday with Benjamin Netanyahu, who is under pressure after rejecting the new 15-point, US-backed road map.",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-01",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "Netanyahu rejected the 15-point, US-backed road map.",
+   "deck": "At the news ceiling; an official act by a head of government, reported consistently by the Guardian and CBS.",
+   "quote": "who is under pressure after rejecting the new 15-point, US-backed road map",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "The road map provides for Hamas to disarm in Gaza and for Israel to withdraw from the territory.",
+   "deck": "At the news ceiling; describes the contents of a specific numbered proposal, reported identically by PBS and the Guardian.",
+   "quote": "The talks aim to salvage the new 15-point, U.S.-backed road map for Hamas to disarm in Gaza and Israel to withdraw from the Palestinian territory shattered by war.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/world/kushner-has-rare-meeting-with-hamas-leader-on-gaza-road-map-a-meeting-with-netanyahu-is-next",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "The purpose of the current talks is to salvage the stalled road map rather than negotiate a new one.",
+   "deck": "Below the ceiling: the stated aim of closed-door talks is characterised by the outlet, not evidenced by a released document.",
+   "quote": "The talks aim to salvage the plan for Hamas to disarm and Israel to withdraw from the Palestinian territory shattered by war",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "The Gaza ceasefire is stalled.",
+   "deck": "Just below the news ceiling; 'stalled' is the outlets' shared characterisation of the state of the process rather than a measured fact.",
+   "quote": "in a new diplomatic effort to make progress in the stalled Gaza ceasefire",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "Kushner met Hamas leadership on Sunday in what NPR describes as a new diplomatic effort.",
+   "deck": "At the news ceiling; independent confirmation by NPR of the meeting also reported by the Guardian, CBS, PBS and CNN.",
+   "quote": "held a rare meeting with Hamas leadership Sunday in Egypt, in a new diplomatic effort",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "The stated subject of the Kushner–Hamas meeting in Egypt was a Gaza peace deal.",
+   "deck": "Slightly below ceiling; the subject matter of a closed meeting is reported, not documented.",
+   "quote": "Jared Kushner met with Hamas leaders in Egypt to discuss Gaza peace deal",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "Netanyahu rejected the latest peace proposal in the week before 16 August 2026.",
+   "deck": "At the news ceiling; CBS dates the rejection and the Guardian independently reports the same rejection.",
+   "quote": "who rejected the latest peace proposal last week",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-08",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "US envoys met Egyptian, Qatari and Turkish mediators in Cairo.",
+   "deck": "Below the ceiling: the text is an aggregated CNBC headline inside a CNN live-updates roundup, with no accompanying detail in this cluster.",
+   "quote": "Trump's envoys meet with Egyptian, Qatari and Turkish mediators in Cairo as Israel strikes Gaza",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-09",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "documented",
+   "title": "Israel was carrying out strikes in Gaza while the Cairo mediation talks took place.",
+   "deck": "Below the ceiling: a headline fragment establishes concurrent strikes but gives no location, timing or casualty detail.",
+   "quote": "Trump's envoys meet with Egyptian, Qatari and Turkish mediators in Cairo as Israel strikes Gaza",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "Kushner is conducting the diplomacy against a backdrop of more than one active regional conflict.",
+   "deck": "Well below the ceiling; 'multiple conflicts' is unspecified in the cluster and the reporting does not identify which conflicts or their bearing on the talks.",
+   "quote": "Jared Kushner meets with regional leaders as multiple conflicts roil the Middle East",
+   "tier": "question",
+   "confidence": 0.35,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.35, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+     "t": "misc",
+     "c": "0.35"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-11",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "Netanyahu is under political pressure following his rejection of the road map.",
+   "deck": "The source and nature of the pressure are not identified in the reporting, so this is raised rather than established.",
+   "quote": "who is under pressure after rejecting the new 15-point, US-backed road map",
+   "tier": "question",
+   "confidence": 0.4,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.4, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "t": "news",
+     "c": "0.4"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-12",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "Hamas said it fully adhered to the first phase of the ceasefire agreement while Israel \"failed to implement this phase, escalating its military operations on the ground and deepening the humanitarian catastrophe, and has explicitly rejected the roadmap\".",
+   "deck": "A contested accusation by one belligerent about the other, quoted accurately but not independently verified.",
+   "quote": "Israel, however, “failed to implement this phase, escalating its military operations on the ground and deepening the humanitarian catastrophe, and has explicitly rejected the roadmap”, Hamas added.",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "aljazeera.com",
+     "u": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-13",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "An official familiar with the matter said the Hamas-Kushner meeting took place in the Egyptian town of Alamein with the objective of translating the road map's obligations into concrete, verifiable steps, including transferring governing responsibilities to the National Committee for the Administration of Gaza.",
+   "deck": "Anonymous official described as neither a Board of Peace member nor a US official; single-outlet sourcing.",
+   "quote": "Another official familiar with the matter told Al Jazeera that Hamas and Kushner met in the town of Alamein “with the objective of translating the roadmap’s obligations into concrete, verifiable steps”.",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "aljazeera.com",
+     "u": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-14",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "Al Jazeera reported that at least five Palestinians were injured on Sunday when an Israeli strike hit a tent encampment in Khan Younis, and that a separate air strike hit an apartment in the Nuseirat refugee camp in central Gaza, wounding several people, according to medics.",
+   "deck": "Casualty figures attributed to unnamed medics on the day of the strike; initial counts commonly revise.",
+   "quote": "At least five Palestinians were injured on Sunday after an Israeli strike hit a tent encampment in Khan Younis, medics said. A separate air strike hit an apartment in the Nuseirat refugee camp in central Gaza, wounding several people, medics said.",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "aljazeera.com",
+     "u": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-15",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "Israel has killed more than 1,200 Palestinians in Gaza and wounded more than 4,100 since agreeing to the ceasefire on 10 October 2025, according to Gaza's health ministry.",
+   "deck": "Figures attributed to a named institutional source; the Guardian reports them as the ministry's count rather than as independently verified.",
+   "quote": "Israel has killed more than 1,200 Palestinians in Gaza, and wounded more than 4,100 since agreeing to the ceasefire on 10 October 2025, according to Gaza’s health ministry.",
+   "tier": "credible_allegation",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-16",
+   "kind": "wire",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "stamp": "open",
+   "title": "More than 73,000 people have been killed in Gaza since Israel launched its military campaign after the 7 October 2023 Hamas-led attack that killed about 1,200 people and took 251 hostage, according to the territory's health ministry, whose figures the UN considers reliable.",
+   "deck": "Institutional count carried by the BBC with a UN reliability assessment noted, but still a ministry figure rather than an independent audit.",
+   "quote": "Israel responded to the attack by launching a military campaign in Gaza, during which more than 73,000 people have been killed, according to the territory's health ministry, whose figures are considered reliable by the UN.",
+   "tier": "credible_allegation",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "bbc.co.uk",
+     "u": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

@@ -1,6 +1,136 @@
 {
- "count": 7,
+ "count": 95,
  "sources": [
+  {
+   "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+   "publisher": "pbs.org",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-10",
+    "indiana-record-flooding-august-2026-2026-08-16-11",
+    "indiana-record-flooding-august-2026-2026-08-16-14",
+    "indiana-record-flooding-august-2026-2026-08-16-15",
+    "indiana-record-flooding-august-2026-2026-08-16-16",
+    "indiana-record-flooding-august-2026-2026-08-17-13",
+    "indiana-record-flooding-august-2026-2026-08-17-14",
+    "indiana-record-flooding-august-2026-2026-08-17-15",
+    "indiana-record-flooding-2026-08-16-06",
+    "indiana-record-flooding-2026-08-16-07"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+   "publisher": "theguardian.com",
+   "source_type": "news",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-03",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-08",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-09",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-10",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-09",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-10",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-11",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-12",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-13",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-19"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+   "publisher": "storage.courtlistener.com",
+   "source_type": "documentation",
+   "records": [
+    "nm-records-2026-08-14-doc-file-handover",
+    "nm-records-2026-08-14-doc-judicial-notice",
+    "nm-records-2026-08-14-doc-no-pc",
+    "nm-records-2026-08-14-doc-nonproduction",
+    "nm-records-2026-08-14-doc-protective-order",
+    "nm-records-2026-08-14-doc-public-vs-conduct",
+    "nm-records-2026-08-14-doc-scale",
+    "nm-records-2026-08-14-doc-seizure-request",
+    "nm-records-2026-08-14-doc-standdown-call"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-01",
+    "indiana-record-flooding-august-2026-2026-08-16-02",
+    "indiana-record-flooding-august-2026-2026-08-17-00",
+    "indiana-record-flooding-august-2026-2026-08-17-01",
+    "indiana-record-flooding-august-2026-2026-08-17-02",
+    "indiana-record-flooding-august-2026-2026-08-17-03",
+    "indiana-record-flooding-2026-08-16-00",
+    "indiana-record-flooding-2026-08-16-02"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-04",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-06",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-11",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-05",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-14",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-15",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-16",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-17"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-08",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-15",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
+   ],
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti",
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+   "publisher": "pbs.org",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-08",
+    "indiana-record-flooding-august-2026-2026-08-16-09",
+    "indiana-record-flooding-august-2026-2026-08-17-09",
+    "indiana-record-flooding-august-2026-2026-08-17-10",
+    "indiana-record-flooding-august-2026-2026-08-17-11",
+    "indiana-record-flooding-august-2026-2026-08-17-12",
+    "indiana-record-flooding-2026-08-16-01"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
   {
    "url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
    "publisher": "pbs.org",
@@ -16,6 +146,364 @@
    ],
    "beats": [
     "korean-peninsula-tensions-and-us-south-korea-dri"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-07",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-08",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-09",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-10",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-09",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-10",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-11"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-17",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-18",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-19",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-18",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-19",
+    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-03",
+    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-04"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-07",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-00",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-01",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-02",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-03",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-04"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+   "publisher": "nbcnews.com",
+   "source_type": "news",
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-06",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-07",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-12",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-13",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-14"
+   ],
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ]
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+   "publisher": "theguardian.com",
+   "source_type": "news",
+   "records": [
+    "gaza-ceasefire-road-map-talks-2026-08-16-00",
+    "gaza-ceasefire-road-map-talks-2026-08-16-01",
+    "gaza-ceasefire-road-map-talks-2026-08-16-03",
+    "gaza-ceasefire-road-map-talks-2026-08-16-11",
+    "gaza-ceasefire-road-map-talks-2026-08-16-15"
+   ],
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-03",
+    "indiana-record-flooding-august-2026-2026-08-16-04",
+    "indiana-record-flooding-august-2026-2026-08-16-17",
+    "indiana-record-flooding-august-2026-2026-08-17-16",
+    "indiana-record-flooding-2026-08-16-03"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+   "publisher": "theguardian.com",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-05",
+    "indiana-record-flooding-august-2026-2026-08-16-06",
+    "indiana-record-flooding-august-2026-2026-08-17-04",
+    "indiana-record-flooding-august-2026-2026-08-17-05",
+    "indiana-record-flooding-2026-08-16-04"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
+  {
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+   "publisher": "storage.courtlistener.com",
+   "source_type": "documentation",
+   "records": [
+    "nm-records-2026-08-14-doc-deadline",
+    "nm-records-2026-08-14-doc-efta-hook",
+    "nm-records-2026-08-14-doc-offences",
+    "nm-records-2026-08-14-doc-search-date",
+    "nm-records-2026-08-14-doc-touhy-invited"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-00",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-01",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-02",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-00",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-01"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+   "publisher": "courthousenews.com",
+   "source_type": "news",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-05",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-06",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-07",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-08",
+    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-02"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+   "publisher": "courthousenews.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-calendar-and-party-direction-2026-08-16-00",
+    "democrats-2028-calendar-and-party-direction-2026-08-16-02",
+    "democrats-2028-primary-calendar-2026-08-16-00",
+    "democrats-2028-primary-calendar-2026-08-16-03"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-calendar-and-party-direction-2026-08-16-03",
+    "democrats-2028-calendar-and-party-direction-2026-08-16-04",
+    "democrats-2028-primary-calendar-2026-08-16-04",
+    "democrats-2028-primary-calendar-2026-08-16-06"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-calendar-and-party-direction-2026-08-16-05",
+    "democrats-2028-primary-calendar-2026-08-16-05",
+    "democrats-2028-primary-calendar-2026-08-16-08",
+    "democrats-2028-primary-calendar-2026-08-16-09"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+   "publisher": "courthousenews.com",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-07",
+    "indiana-record-flooding-august-2026-2026-08-17-06",
+    "indiana-record-flooding-august-2026-2026-08-17-07",
+    "indiana-record-flooding-august-2026-2026-08-17-08"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
+  {
+   "url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+   "publisher": "pbs.org",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-01",
+    "tropical-storm-lala-in-hawaii-2026-08-16-13",
+    "tropical-storm-lala-in-hawaii-2026-08-16-14",
+    "tropical-storm-lala-in-hawaii-2026-08-16-15"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+   "publisher": "pbs.org",
+   "source_type": "news",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-06",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-03",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-04",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-05"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-05",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-13",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-14",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-18"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-15",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-16",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-17",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-08"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+   "publisher": "pbs.org",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-calendar-and-party-direction-2026-08-16-01",
+    "democrats-2028-primary-calendar-2026-08-16-01",
+    "democrats-2028-primary-calendar-2026-08-16-02"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-calendar-and-party-direction-2026-08-16-06",
+    "democrats-2028-primary-calendar-2026-08-16-07",
+    "democrats-2028-primary-calendar-2026-08-16-11"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+   "publisher": "latimes.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-primary-calendar-2026-08-16-12",
+    "democrats-2028-primary-calendar-2026-08-16-13",
+    "democrats-2028-primary-calendar-2026-08-16-14"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "gaza-ceasefire-road-map-talks-2026-08-16-08",
+    "gaza-ceasefire-road-map-talks-2026-08-16-09",
+    "gaza-ceasefire-road-map-talks-2026-08-16-10"
+   ],
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ]
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+   "publisher": "aljazeera.com",
+   "source_type": "news",
+   "records": [
+    "gaza-ceasefire-road-map-talks-2026-08-16-12",
+    "gaza-ceasefire-road-map-talks-2026-08-16-13",
+    "gaza-ceasefire-road-map-talks-2026-08-16-14"
+   ],
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-00",
+    "indiana-record-flooding-august-2026-2026-08-16-18",
+    "indiana-record-flooding-august-2026-2026-08-17-17"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-12",
+    "indiana-record-flooding-august-2026-2026-08-16-13",
+    "indiana-record-flooding-august-2026-2026-08-17-19"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
    ]
   },
   {
@@ -58,6 +546,232 @@
    ]
   },
   {
+   "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+   "publisher": "abqjournal.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-001",
+    "nm-records-2026-08-14-003",
+    "nm-records-2026-08-14-004"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+   "publisher": "aljazeera.com",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-10",
+    "tropical-storm-lala-in-hawaii-2026-08-16-11",
+    "tropical-storm-lala-in-hawaii-2026-08-16-12"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-06",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-10",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-11"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-03",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-04",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-02"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-11",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-12",
+    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-06"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-13",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-14",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-16"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-16-15",
+    "us-iran-war-and-hormuz-blockade-2026-08-16-16",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-17"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "news",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-17-14",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-15",
+    "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-05"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+   "publisher": "thehill.com",
+   "source_type": "news",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-00",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-01",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-06"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+   "publisher": "theguardian.com",
+   "source_type": "news",
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-01"
+   ],
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ]
+  },
+  {
+   "url": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+   "publisher": "thehill.com",
+   "source_type": "news",
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-02",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-03"
+   ],
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-04",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-05"
+   ],
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "news",
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-17",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-18"
+   ],
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19",
+    "democrats-2028-calendar-and-party-direction-2026-08-16-07"
+   ],
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti",
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
+   "publisher": "latimes.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-primary-calendar-2026-08-16-18",
+    "democrats-2028-primary-calendar-2026-08-16-19"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "gaza-ceasefire-road-map-talks-2026-08-16-04",
+    "gaza-ceasefire-road-map-talks-2026-08-16-05"
+   ],
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "gaza-ceasefire-road-map-talks-2026-08-16-06",
+    "gaza-ceasefire-road-map-talks-2026-08-16-07"
+   ],
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96dUtRbGx2T29SYXpFakJ4SmtxMzMwd0VXSjRralBXV1RmdnQwT0NoZHhUTU5tUVJYNUVjcnZXSjNGek1EMmJ1ZlBTUDJqeHhWVmlwWkxEN0trRW93ZUtWVjFwM2dYY0FadGRDbHVaTXU5SEZWWTc2bUxFcWh5dlE?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-16-19",
+    "indiana-record-flooding-2026-08-16-05"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ]
+  },
+  {
    "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
    "publisher": "bbc.co.uk",
    "source_type": "news",
@@ -67,6 +781,251 @@
    ],
    "beats": [
     "korean-peninsula-tensions-and-us-south-korea-dri"
+   ]
+  },
+  {
+   "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+   "publisher": "nbcnews.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-000",
+    "nm-records-2026-08-14-012"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+   "publisher": "therealdeal.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-006",
+    "nm-records-2026-08-14-007"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-00",
+    "tropical-storm-lala-in-hawaii-2026-08-16-09"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-02",
+    "tropical-storm-lala-in-hawaii-2026-08-16-04"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-03",
+    "tropical-storm-lala-in-hawaii-2026-08-16-05"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+   "publisher": "courthousenews.com",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-07",
+    "tropical-storm-lala-in-hawaii-2026-08-16-19"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://www.independent.co.uk/news/world/americas/hurricane-lala-hawaii-big-island-b3033797.html",
+   "publisher": "independent.co.uk",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-16",
+    "tropical-storm-lala-in-hawaii-2026-08-16-17"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-04",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-15"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-2028-third-term-truth-social-post-b3033863.html",
+   "publisher": "independent.co.uk",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-08",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-09"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.independent.co.uk/news/world/americas/us-politics/liz-wills-ogilvie-hunger-strike-trump-food-stamp-cuts-b3033845.html",
+   "publisher": "independent.co.uk",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-12",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-13"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+   "publisher": "theguardian.com",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-16",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-17"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "news",
+   "records": [
+    "us-iran-war-and-hormuz-blockade-2026-08-17-12",
+    "us-iran-war-and-hormuz-blockade-2026-08-17-13"
+   ],
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ]
+  },
+  {
+   "url": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
+   "publisher": "thehill.com",
+   "source_type": "news",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-02",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-17-07"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+   "publisher": "bbc.co.uk",
+   "source_type": "news",
+   "records": [
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-18",
+    "uss-abraham-lincoln-deployment-conditions-2026-08-16-19"
+   ],
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-primary-calendar-2026-08-16-10"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.politico.com/video/2026/08/12/adam-schiff-on-democrats-losing-message-aoc-and-aipac-2135214",
+   "publisher": "politico.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-primary-calendar-2026-08-16-15"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.politico.com/live-updates/2026/08/11/congress/paramount-happy-to-cooperate-with-dems-01034696",
+   "publisher": "politico.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-primary-calendar-2026-08-16-16"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.politico.com/live-updates/2026/08/06/congress/house-democrats-pitch-ai-tax-to-fund-worker-protections-01027694",
+   "publisher": "politico.com",
+   "source_type": "news",
+   "records": [
+    "democrats-2028-primary-calendar-2026-08-16-17"
+   ],
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ]
+  },
+  {
+   "url": "https://www.pbs.org/newshour/world/kushner-has-rare-meeting-with-hamas-leader-on-gaza-road-map-a-meeting-with-netanyahu-is-next",
+   "publisher": "pbs.org",
+   "source_type": "news",
+   "records": [
+    "gaza-ceasefire-road-map-talks-2026-08-16-02"
+   ],
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ]
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+   "publisher": "bbc.co.uk",
+   "source_type": "news",
+   "records": [
+    "gaza-ceasefire-road-map-talks-2026-08-16-16"
+   ],
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96N2J2UmxQRXhGb1ZqaU5MY3J1LVpnY3VsNk1HdndVcjltWVJIUHhaTVVEb0U5Z1ltNkdxRDVIenQ3ekRQajFERnRyOUhRUTduZnE2WWFKcHJNU25NLWc1S0NhdFdCOFhkaENjOFFWU20wcFRpcTBR?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "news",
+   "records": [
+    "indiana-record-flooding-august-2026-2026-08-17-18"
+   ],
+   "beats": [
+    "indiana-record-flooding-august-2026"
    ]
   },
   {
@@ -89,6 +1048,193 @@
    ],
    "beats": [
     "korean-peninsula-tensions-and-us-south-korea-dri"
+   ]
+  },
+  {
+   "url": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+   "publisher": "courthousenews.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-002"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
+   "publisher": "santafenewmexican.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-005"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
+   "publisher": "aljazeera.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-008"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+   "publisher": "newsweek.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-009"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
+   "publisher": "santafenewmexican.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-010"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
+   "publisher": "thehill.com",
+   "source_type": "news",
+   "records": [
+    "nm-records-2026-08-14-011"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.courtlistener.com/docket/73721948/state-of-new-mexico-v-us-department-of-justice/",
+   "publisher": "courtlistener.com",
+   "source_type": "documentation",
+   "records": [
+    "nm-records-2026-08-14-doc-docket"
+   ],
+   "beats": [
+    "nm-records"
+   ]
+  },
+  {
+   "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/",
+   "publisher": "cbsnews.com",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-06"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+   "publisher": "bbc.co.uk",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-08"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://www.latimes.com/travel/story/2026-08-15/hurricane-lala-disrupts-los-angeles-flights-to-hawaii",
+   "publisher": "latimes.com",
+   "source_type": "news",
+   "records": [
+    "tropical-storm-lala-in-hawaii-2026-08-16-18"
+   ],
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ]
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+   "publisher": "theguardian.com",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-02"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://thehill.com/policy/healthcare/6032232-cassidy-slams-trump-vaccine-order/",
+   "publisher": "thehill.com",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-03"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.pbs.org/newshour/world/colombian-president-asks-trump-to-suspend-tariffs-to-help-earthquake-recovery",
+   "publisher": "pbs.org",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-05"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM2SElfb082WlA5dVhQNVRxQ1c2cWZVM2F6QXg0czdkMmNJYmFYMTRXSTY5RE5NaUdkM0tCT2FVcUpGZElnbHJCTDhMazRTOEUySWlqQU5pOVlvaW1YcUxQV3MzT1U0QkEwQTl5U2hDOFJXTTVMMmVDV0M1M0NwMUpwbkFRUUhyOWJqdXV1ZEJ6R3dQVU41NW1XUmlBaml6VGRNcGhnaWVhdUV0LVpSME1SNk56SFVTMVJpOTk1X0VNdnVHYVE0LVM0aVlucndhREhwYy1IMDQ3X00?oc=5",
+   "publisher": "news.google.com",
+   "source_type": "misc",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-07"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+   "publisher": "npr.org",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-14"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
+   "publisher": "bbc.co.uk",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-18"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ]
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/videos/cp30p4ze3gxo?at_medium=RSS&at_campaign=rss",
+   "publisher": "bbc.co.uk",
+   "source_type": "news",
+   "records": [
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-19"
+   ],
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
    ]
   }
  ]

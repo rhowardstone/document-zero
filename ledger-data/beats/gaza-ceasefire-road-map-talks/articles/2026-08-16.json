@@ -1,0 +1,122 @@
+{
+  "beat": "gaza-ceasefire-road-map-talks",
+  "day": "2026-08-16",
+  "headline": "Kushner meets Hamas leadership in Egypt over stalled Gaza road map",
+  "standfirst": "Netanyahu, who rejected the 15-point US-backed plan in the past week, is due to meet Kushner on Monday.",
+  "dateline": "CAIRO",
+  "published_at": "2026-08-17T03:42:30Z",
+  "paragraphs": [
+    {
+      "text": "Jared Kushner met Hamas leadership on Sunday, in what NPR describes as a new diplomatic effort. The stated subject of the meeting, held in Egypt, was a Gaza peace deal. Kushner is scheduled to meet Benjamin Netanyahu on Monday.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-05",
+        "gaza-ceasefire-road-map-talks-2026-08-16-06",
+        "gaza-ceasefire-road-map-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "text": "Netanyahu rejected the 15-point, US-backed road map. He rejected the latest peace proposal in the week before 16 August 2026. The road map provides for Hamas to disarm in Gaza and for Israel to withdraw from the territory.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-01",
+        "gaza-ceasefire-road-map-talks-2026-08-16-07",
+        "gaza-ceasefire-road-map-talks-2026-08-16-02"
+      ]
+    },
+    {
+      "text": "The Gaza ceasefire is stalled. The Guardian reports that the purpose of the current talks is to salvage the stalled road map rather than to negotiate a new one.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-04",
+        "gaza-ceasefire-road-map-talks-2026-08-16-03"
+      ]
+    },
+    {
+      "text": "An official familiar with the matter said the meeting between Hamas and Kushner took place in the Egyptian town of Alamein. The same official said its objective was to translate the road map's obligations into concrete, verifiable steps, including the transfer of governing responsibilities to the National Committee for the Administration of Gaza.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-13"
+      ]
+    },
+    {
+      "text": "Hamas said it fully adhered to the first phase of the ceasefire agreement. It said Israel \"failed to implement this phase, escalating its military operations on the ground and deepening the humanitarian catastrophe, and has explicitly rejected the roadmap\". Israel's government has not been recorded here responding to that statement.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-12"
+      ]
+    },
+    {
+      "text": "US envoys met Egyptian, Qatari and Turkish mediators in Cairo. Israel was carrying out strikes in Gaza while the Cairo mediation talks took place.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-08",
+        "gaza-ceasefire-road-map-talks-2026-08-16-09"
+      ]
+    },
+    {
+      "text": "Al Jazeera reported that at least five Palestinians were injured on Sunday when an Israeli strike hit a tent encampment in Khan Younis. The broadcaster reported that a separate air strike hit an apartment in the Nuseirat refugee camp in central Gaza, wounding several people, according to medics.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-14"
+      ]
+    },
+    {
+      "text": "Gaza's health ministry says Israel has killed more than 1,200 Palestinians in Gaza and wounded more than 4,100 since agreeing to the ceasefire on 10 October 2025. The ministry's post-ceasefire toll is the figure now on the record for the period since that agreement.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-15"
+      ]
+    },
+    {
+      "text": "More than 73,000 people have been killed in Gaza since Israel launched its military campaign after the 7 October 2023 Hamas-led attack, according to the territory's health ministry. The ministry's figures are considered reliable by the UN. That attack killed about 1,200 people and took 251 hostage, according to the same accounting.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-16"
+      ]
+    },
+    {
+      "text": "The next step on the record is Monday's scheduled meeting between Kushner and Netanyahu.",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-00",
+        "gaza-ceasefire-road-map-talks-2026-08-16-01",
+        "gaza-ceasefire-road-map-talks-2026-08-16-03"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "k": "Netanyahu position on 15-point road map",
+      "from": "",
+      "to": "Rejected, as of last week",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Hamas position on road map",
+      "from": "",
+      "to": "Accepted; conditions on Israeli pullback",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "14-day negotiation period",
+      "from": "",
+      "to": "Not started",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Israeli territorial control in Gaza",
+      "from": "",
+      "to": "About 60%",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Palestinian technocratic committee",
+      "from": "",
+      "to": "Not yet in Gaza",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Post-ceasefire Palestinian death toll",
+      "from": "",
+      "to": "More than 1,200",
+      "since": "2026-08-16"
+    }
+  ],
+  "written_by": "claude-code/reporter",
+  "verified_by": [
+    "entail-1",
+    "entail-2"
+  ],
+  "word_count": 391
+}

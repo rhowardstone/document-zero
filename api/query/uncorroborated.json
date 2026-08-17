@@ -2,8 +2,1930 @@
  "query": "uncorroborated",
  "question": "Which published claims rest on a single REPORT that nothing else confirms?",
  "method": "records with kind=wire and corroboration == 1 whose sources are all reporting types (news, blog, misc). Corroboration counts distinct publisher hosts, not URLs. Claims resting on a single PRIMARY document are listed separately below and are not counted here: a court filing is not relaying someone else's claim, it is the record, so 'only one source' means something different about it.",
- "count": 20,
+ "count": 269,
  "results": [
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00",
+   "title": "Attorney General Todd Blanche said on Sunday that he would not pledge always to act independently of the White House.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-01",
+   "title": "Blanche said no attorney general should ever pledge independence from the White House.",
+   "stamp": "open",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-02",
+   "title": "Blanche said President Trump has not asked him to prosecute specific individuals and will not do so.",
+   "stamp": "open",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-03",
+   "title": "Blanche drew a distinction between committing to investigate any case and committing to act independently of the White House.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-04",
+   "title": "Blanche said Trump's views can be a factor in prosecution decisions.",
+   "stamp": "open",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-05",
+   "title": "Blanche's refusal to pledge independence was reported across Axios, The New York Times, CNN, The Hill and the Washington Post.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-06",
+   "title": "Blanche said he does not believe it would be best for the FBI to take over the investigation into a disappearance in Arizona.",
+   "stamp": "open",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-07",
+   "title": "Blanche said the FBI will continue providing assistance on the Arizona investigation but that he has no updates.",
+   "stamp": "open",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-08",
+   "title": "Trump said the White House needs a 'military complex'.",
+   "stamp": "open",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
+   "title": "Courts have blocked construction of the White House ballroom.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+   "title": "The Trump administration has asked the Supreme Court to allow White House ballroom construction to continue.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti",
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11",
+   "title": "The Supreme Court's emergency docket has become active again.",
+   "stamp": "open",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "source_type": "misc",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-12",
+   "title": "Blanche said on 16 August 2026 that federal investigators are supplying state and local law enforcement with manpower and forensic assistance in an Arizona disappearance case, but that taking the investigation over with sharp elbows would not necessarily be the right course.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-13",
+   "title": "The FBI is offering a reward of up to $100,000 for information in the Arizona abduction case, which was opened in February 2026 and has since been led by state and local authorities with federal agents assisting in certain areas.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-14",
+   "title": "In February 2026, days after the disappearance, President Trump wrote on Truth Social that he was directing all federal law enforcement to be at the complete disposal of the family and of local law enforcement immediately.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-15",
+   "title": "The Trump administration has asked the Supreme Court to allow the White House ballroom project to proceed after courts blocked it, with Trump saying the White House needs a military complex, according to reporting published on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16",
+   "title": "New renderings of the White House East Wing published on 16 August 2026 reveal gold additions to the design, part of a project Trump has described as shifting from his dream of beauty and space to a military complex.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-17",
+   "title": "House Democratic leader Hakeem Jeffries has named restoring voting rights and reforming the Supreme Court as top priorities for Democrats, as liberals push a slate of proposals for overhauling the court, reported on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-18",
+   "title": "Democrats have vowed to rein in the Supreme Court's shadow docket if they retake Congress, one of several overhaul plans circulating among liberals angry at the court, according to reporting compiled on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19",
+   "title": "A shortage of some munitions, together with problems aboard the USS Lincoln, has put the Trump administration on the defensive, according to an NPR week-in-politics segment broadcast on 15 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-00",
+   "title": "The Democrats' 2028 presidential primary lineup makes South Carolina the leadoff state, voting on Jan. 22, 2028, with Nevada following on Feb. 1.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-01",
+   "title": "The new primary lineup moves Iowa out of its traditional first position.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-02",
+   "title": "Reporting characterises the 2028 calendar as giving Black and Latino voters and union members an early say.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-03",
+   "title": "CBS News reports that Democrats are debating the future of the party during this summer's primaries.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-04",
+   "title": "CBS News commissioned polling examining whether Democrats are split on socialism; the summaries do not state the poll's answer.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-05",
+   "title": "A CBS News poll finds that Americans think more young people in office would make politics better.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-06",
+   "title": "NPR reports that President Trump is pushing the boundaries of executive power to limit transparency within the executive branch, and that congressional Democrats are weighing how to respond.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-07",
+   "title": "NPR reports that a shortage of some munitions and problems with the USS Lincoln have put the Trump administration on the defensive.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-00",
+   "title": "The Democrats' 2028 presidential primary calendar makes South Carolina the leadoff state, voting Jan. 22, 2028.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-01",
+   "title": "Nevada votes second on the Democrats' 2028 calendar, on Feb. 1.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-02",
+   "title": "The new calendar displaces Iowa from its traditional first position.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-03",
+   "title": "The calendar is described as giving Black and Latino voters and union members an early say.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-04",
+   "title": "CBS News conducted a poll examining whether Democrats are split over socialism.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-05",
+   "title": "The CBS News poll reports that Americans think more young people in office would make politics better.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-06",
+   "title": "Democrats are debating the future of the party during primaries this summer.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "source_type": "news",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-07",
+   "title": "Congressional Democrats are weighing how to respond to Trump's effort to limit transparency within the executive branch.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+     "source_type": "news",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-08",
+   "title": "The same CBS News/YouGov poll found the Democratic Party is seen by most voters as weak and not effective, with over a third of Democrats describing their own party as weak, while most voters describe the Republican Party as extreme and also not effective.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-09",
+   "title": "About half of Democrats in the August 2026 CBS News/YouGov survey said their party is not progressive enough, a group that is more liberal, views socialism more positively, and is less likely to say the party agrees with their views a lot on economic issues.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-10",
+   "title": "NPR's politics segment on Aug. 16, 2026 examined how Democrats are gearing up for the 2028 presidential primaries alongside the party's takeaways from the current batch of primary races.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
+     "source_type": "news",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-11",
+   "title": "NPR reported on Aug. 14, 2026 that President Trump is pushing the boundaries of executive power to limit transparency within the executive branch, and that congressional Democrats are grappling with how to respond.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-12",
+   "title": "House Democrats in key leadership posts told the Los Angeles Times that groundwork is already being laid for investigations into the president's reported $2.2 billion in gains last year, the business ventures of Jared Kushner and Eric and Don Jr. Trump, and the family's crypto projects, should the party retake Congress in November.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "latimes.com",
+     "url": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-13",
+   "title": "Impeachment remains an option for House Democrats but they are reluctant to make it a centerpiece of their agenda, with Rep. Robert Garcia of Long Beach, the top Oversight Democrat, saying the priority is to stop the harm and investigate those helping the president, and Rep. Jamie Raskin saying Democrats will not play into the game.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "latimes.com",
+     "url": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-14",
+   "title": "Rep. Sydney Kamlager-Dove of Los Angeles introduced articles of impeachment last week against White House budget director Russell Vought, arguing he broke the law when the administration canceled federal funding to Democratic states including California for political reasons.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "latimes.com",
+     "url": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-15",
+   "title": "A Politico item published Aug. 13, 2026 featured Sen. Adam Schiff addressing what it framed as Democrats' 'losing message,' along with Rep. Alexandria Ocasio-Cortez and AIPAC.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "politico.com",
+     "url": "https://www.politico.com/video/2026/08/12/adam-schiff-on-democrats-losing-message-aoc-and-aipac-2135214",
+     "source_type": "news",
+     "confidence": "0.35"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-16",
+   "title": "Rep. Jamie Raskin, the top Judiciary Democrat, said anyone involved in Paramount's attempt to purchase Warner Bros. Discovery should be prepared to answer under oath, as a Paramount lawyer said the company was happy to cooperate with Democrats vowing a crackdown on the merger.",
+   "stamp": "open",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "politico.com",
+     "url": "https://www.politico.com/live-updates/2026/08/11/congress/paramount-happy-to-cooperate-with-dems-01034696",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-17",
+   "title": "House Democrats introduced legislation on Aug. 6, 2026 that would impose a levy on leading artificial intelligence companies and channel the proceeds into a new Work Protection Administration for workers displaced by AI.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "politico.com",
+     "url": "https://www.politico.com/live-updates/2026/08/06/congress/house-democrats-pitch-ai-tax-to-fund-worker-protections-01027694",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-18",
+   "title": "The National Assn. of Black Journalists presented ESPN 'First Take' host Stephen A. Smith with its annual 'Thumbs Down' award at its convention on Saturday, citing a recurring public pattern of disparaging commentary directed at prominent Black women across politics, sports and media.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "latimes.com",
+     "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-19",
+   "title": "Smith, who accused Democratic Rep. Jasmine Crockett of Texas last September of using 'street verbiage' in her criticisms of President Trump, said last week that Trump-backed Florida gubernatorial candidate Byron Donalds might prompt him to switch his political affiliation from Democrat to Republican.",
+   "stamp": "documented",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "latimes.com",
+     "url": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-00",
+   "title": "Kushner is scheduled to meet Benjamin Netanyahu on Monday.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-01",
+   "title": "Netanyahu rejected the 15-point, US-backed road map.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-02",
+   "title": "The road map provides for Hamas to disarm in Gaza and for Israel to withdraw from the territory.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/world/kushner-has-rare-meeting-with-hamas-leader-on-gaza-road-map-a-meeting-with-netanyahu-is-next",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-03",
+   "title": "The purpose of the current talks is to salvage the stalled road map rather than negotiate a new one.",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-04",
+   "title": "The Gaza ceasefire is stalled.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-05",
+   "title": "Kushner met Hamas leadership on Sunday in what NPR describes as a new diplomatic effort.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-06",
+   "title": "The stated subject of the Kushner–Hamas meeting in Egypt was a Gaza peace deal.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-07",
+   "title": "Netanyahu rejected the latest peace proposal in the week before 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/jared-kushner-hamas-netanyahu-gaza-peace-deal-negotiations/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-08",
+   "title": "US envoys met Egyptian, Qatari and Turkish mediators in Cairo.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-09",
+   "title": "Israel was carrying out strikes in Gaza while the Cairo mediation talks took place.",
+   "stamp": "documented",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-10",
+   "title": "Kushner is conducting the diplomacy against a backdrop of more than one active regional conflict.",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
+     "source_type": "misc",
+     "confidence": "0.35"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-11",
+   "title": "Netanyahu is under political pressure following his rejection of the road map.",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "source_type": "news",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-12",
+   "title": "Hamas said it fully adhered to the first phase of the ceasefire agreement while Israel \"failed to implement this phase, escalating its military operations on the ground and deepening the humanitarian catastrophe, and has explicitly rejected the roadmap\".",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-13",
+   "title": "An official familiar with the matter said the Hamas-Kushner meeting took place in the Egyptian town of Alamein with the objective of translating the road map's obligations into concrete, verifiable steps, including transferring governing responsibilities to the National Committee for the Administration of Gaza.",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-14",
+   "title": "Al Jazeera reported that at least five Palestinians were injured on Sunday when an Israeli strike hit a tent encampment in Khan Younis, and that a separate air strike hit an apartment in the Nuseirat refugee camp in central Gaza, wounding several people, according to medics.",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-15",
+   "title": "Israel has killed more than 1,200 Palestinians in Gaza and wounded more than 4,100 since agreeing to the ceasefire on 10 October 2025, according to Gaza's health ministry.",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "gaza-ceasefire-road-map-talks-2026-08-16-16",
+   "title": "More than 73,000 people have been killed in Gaza since Israel launched its military campaign after the 7 October 2023 Hamas-led attack that killed about 1,200 people and took 251 hostage, according to the territory's health ministry, whose figures the UN considers reliable.",
+   "stamp": "open",
+   "beats": [
+    "gaza-ceasefire-road-map-talks"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-00",
+   "title": "The Associated Press reported at least 6 deaths from days of storms and record-setting flooding in Indiana.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-01",
+   "title": "CBS News linked the Indiana storms to 7 deaths, a higher count than several same-day reports.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-02",
+   "title": "Nearly 130,000 utility customers statewide were still without power as of Sunday afternoon.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-03",
+   "title": "Parts of Indiana received more than 11 inches of rainfall over three days beginning Aug. 11.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-04",
+   "title": "Several suburbs of Indianapolis were underwater.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-05",
+   "title": "Indiana state homeland security department spokesperson Liz Woods said a four-year-old boy, two men and three women were among those who died since the storms began on 11 August.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-06",
+   "title": "Flood waters peaked in the White River at Indianapolis, and rains were expected to ease in the state capital region and other parts of Indiana on Sunday.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-07",
+   "title": "Courthouse News reported the same breakdown of victims — a 4-year-old boy, two men and three women — since the storms began Aug. 11.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-08",
+   "title": "PBS attributed the victim breakdown to Liz Woods, a spokesperson for the state Department of Homeland Security, while reporting a toll of at least 7.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-09",
+   "title": "PBS reported a toll of at least 7 dead from heavy rain and record-setting flooding in Indiana.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-10",
+   "title": "On Aug. 15, Indiana authorities put the death toll at at least 5 as severe weather crossed the state.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-11",
+   "title": "Heavy rains over the past week pushed Indiana rivers to record levels and sent residents in search of higher ground.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-12",
+   "title": "The Delaware County Sheriff reported that a missing teenager was found dead after disappearing in floodwaters.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-13",
+   "title": "A body recovered in Delaware County was reported as the fourth death attributed to the week's severe weather, indicating deaths are being counted by county as well as statewide.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-14",
+   "title": "Indiana authorities said on Saturday 15 August 2026 that at least five people had died as a result of the severe weather over the past week, a day before the state count rose to seven.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-15",
+   "title": "Rita Reith, a spokesperson with the Indianapolis Fire Department, put the number of rescues at 95 people and 45 pets as of late afternoon on Saturday 15 August 2026, with dispatchers receiving hundreds of calls for service through the day.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-16",
+   "title": "More than a dozen Indiana counties had declared local disasters as of 15 August 2026, with much of the latest damage concentrated along river corridors running from Hamilton County into the northern Indianapolis suburbs.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-17",
+   "title": "Some parts of Indiana received more than 11 inches of rainfall over three days beginning 11 August 2026, causing record floods and putting several suburbs of Indianapolis underwater, NPR reported on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-18",
+   "title": "AP reported on 16 August 2026 that at least seven people had died from days of heavy rain and record-setting flooding in Indiana, a toll carried the same day by CBS News, NPR and Chicago-area broadcasters covering continuing power outages.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-16-19",
+   "title": "NPR reported on 15 August 2026 that the Midwest was bracing for more heavy flooding as Indiana sought federal aid, a day before President Trump approved the state's request for federal disaster assistance.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96dUtRbGx2T29SYXpFakJ4SmtxMzMwd0VXSjRralBXV1RmdnQwT0NoZHhUTU5tUVJYNUVjcnZXSjNGek1EMmJ1ZlBTUDJqeHhWVmlwWkxEN0trRW93ZUtWVjFwM2dYY0FadGRDbHVaTXU5SEZWWTc2bUxFcWh5dlE?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-00",
+   "title": "Officials said days of storms and flooding across Indiana had left at least seven people dead as of Sunday 16 August 2026, with floodwaters peaking in Indianapolis' White River and rains expected to ease in the state capital region and other parts of the state.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-01",
+   "title": "Gov. Mike Braun said he spoke with President Trump, who on Saturday 15 August 2026 approved the governor's request for a presidential emergency declaration freeing up to $5 million in federal resources for response and recovery after days of record rainfall in Indiana.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-02",
+   "title": "The NFL's Indianapolis Colts and the NBA's Indiana Pacers each said on Sunday 16 August 2026 that they are donating $125,000 to statewide flood relief, with the WNBA's Indiana Fever and the G League's Noblesville Boom also contributing, the money going directly to the American Red Cross.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-03",
+   "title": "The Indiana Department of Homeland Security listed storm-related deaths including a 4-year-old boy in Jennings County, a 58-year-old woman in Lake County, an 86-year-old woman in Porter County, a 32-year-old man in LaPorte County and a 31-year-old man in Henry County.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-04",
+   "title": "Christine Altman, president of the Hamilton County board of commissioners, said at a Sunday briefing that the county just north of Indianapolis escaped without any loss of life, while officials assessed whether a significant bridge damaged in the flooding could be repaired or needed complete replacement.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-05",
+   "title": "Indianapolis Mayor Joe Hogsett said the flooding was the worst the capital city has seen in more than 30 years, a characterisation he repeated as first responders used boats to reach residents stranded in neighbourhoods along the White River.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-06",
+   "title": "Liz Woods, a spokesperson for the Indiana Department of Homeland Security, said a 4-year-old boy, two men and three women were among those who had died since the storms began on 11 August 2026, a total of six at that point in the reporting.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-07",
+   "title": "Nearly 130,000 utility customers across Indiana remained without power by midday Sunday 16 August 2026, down from a peak of around 300,000, according to the state homeland security spokesperson and the online utility tracker PowerOutage.us.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-08",
+   "title": "The White River crested at more than 24 feet (7.32 meters) in the Indiana communities of Anderson and Noblesville, surpassing records set in 1913, as heavy rains caused rivers statewide to reach record levels over the past week.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-09",
+   "title": "By Sunday 16 August 2026 the Indiana Department of Homeland Security count had risen to a 4-year-old boy, three men and three women dead since the storms began on 11 August, spokesperson Liz Woods said, one man more than the toll given a day earlier.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-10",
+   "title": "A 31-year-old cyclist was found dead early Sunday 16 August 2026 in a hole that opened up on a washed-out road in Henry County, east of Indianapolis, and the county coroner said the man appears to have gone around a barricade and fallen into the collapsed road.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-11",
+   "title": "The Indianapolis Department of Public Works reopened the city's floodgates on Sunday 16 August 2026 after the White River peaked early that morning, urging residents to be cautious as they returned to flood-damaged neighbourhoods while emergency shelters remained open.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-12",
+   "title": "The National Weather Service warned that while northern parts of Indiana dried out, a cluster of storms was expected to pass through the central and southern regions later on Sunday 16 August 2026, bringing potential heavy rain, flash flooding and damaging winds.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-13",
+   "title": "Rita Reith, a spokesperson with the Indianapolis Fire Department, put the number of rescues at 95 people and 45 pets as of late afternoon on Saturday 15 August 2026, with dispatchers having received hundreds of calls for service throughout the day.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-14",
+   "title": "More than a dozen Indiana counties had declared local disasters by Saturday 15 August 2026, with much of the latest damage concentrated along river corridors running from Hamilton County into the northern Indianapolis suburbs.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-15",
+   "title": "Jacob Spence, director of Marion County Emergency Management, called the flooding a once-in-a-lifetime type flood, telling The Associated Press that it was an unprecedented event in which the state was setting new records.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-16",
+   "title": "Some parts of Indiana received more than 11 inches of rainfall over three days beginning 11 August 2026, causing record floods that also left several suburbs of Indianapolis underwater, NPR reported on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-17",
+   "title": "The Associated Press reported on 16 August 2026 that at least six people had died from days of storms and record-setting flooding in Indiana, a toll lower than the seven reported the same day by CBS News and FOX Weather.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2kwWjVwQkgtUEowdElQck1LekNsOEhfWXVJWUo1Szg3UFVudkV6U1RWYlRZM1lXdzloWFFBdmFpUkJ2RlQ5NnAwUmJZbkNkYTFJUEVjWWNIWmwxdDZaOVFKOWxTZ0dYLVJ6QXNmbUNOMzR2R0ltX1JSOHdhSFVmcFlGYncyWDhCeFJ0Rk96d1V3dktZTHc?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-18",
+   "title": "An NPR aggregation page published on 16 August 2026 collected same-day Indiana flooding coverage from outlets including FOX Weather, CBS News, ABC7 Chicago and WANE 15, whose headlines reported death tolls of both six and seven.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96N2J2UmxQRXhGb1ZqaU5MY3J1LVpnY3VsNk1HdndVcjltWVJIUHhaTVVEb0U5Z1ltNkdxRDVIenQ3ekRQajFERnRyOUhRUTduZnE2WWFKcHJNU25NLWc1S0NhdFdCOFhkaENjOFFWU20wcFRpcTBR?oc=5",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-august-2026-2026-08-17-19",
+   "title": "Aggregated coverage on 16 August 2026 reported that the body of a teenager missing in Delaware County floodwaters had been recovered, described in one outlet's headline as the fourth death attributed to the week's severe weather in Indiana.",
+   "stamp": "documented",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY21QR2tFMEpyOWJ6TWNyVWhyeHZzUndxX05hcE4zTDhWd3Y2ZXdZcHYtTE4yd1QxX28xMjhjSUdfa1MyR192S2t0VUl2YXFobVJSTVVsS1pYYmZXd0kweHZoUUV4RzZLVkhVNS13UEtvclpzSmVYNkVBeklFbTdoVUpTZFBCRi14eUItWGdCSnRDdHE2aENDeUNiNzhhMDNOWWlxMkUxWUhsc3BoMkFyZkp2OVpTY1VVRFYzaERhdjdwQ0k4WHlZYV9zMFdVcWxH?oc=5",
+     "source_type": "misc",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-00",
+   "title": "Indiana officials attribute at least seven deaths to the storms.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-01",
+   "title": "A spokesperson for the Indiana Department of Homeland Security described the composition of the dead.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/at-least-6-people-have-died-from-days-of-storms-and-record-setting-flooding-in-indiana",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-02",
+   "title": "Nearly 130,000 utility customers in Indiana were still without power on Sunday afternoon.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/indiana-floods-white-river-evacuations-rescues/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-03",
+   "title": "Parts of Indiana recorded over 11 inches of rain across three days starting Aug. 11, producing record floods.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-04",
+   "title": "Flood waters on the White River peaked in Indianapolis and rains were forecast to ease there on Sunday.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-05",
+   "title": "Indiana has requested federal aid in response to the flooding.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96dUtRbGx2T29SYXpFakJ4SmtxMzMwd0VXSjRralBXV1RmdnQwT0NoZHhUTU5tUVJYNUVjcnZXSjNGek1EMmJ1ZlBTUDJqeHhWVmlwWkxEN0trRW93ZUtWVjFwM2dYY0FadGRDbHVaTXU5SEZWWTc2bUxFcWh5dlE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-06",
+   "title": "Indiana authorities put the death toll at five on Aug. 15, a day before higher figures were reported.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "indiana-record-flooding-2026-08-16-07",
+   "title": "Rivers in Indiana reached record levels over the past week, prompting residents to seek higher ground.",
+   "stamp": "open",
+   "beats": [
+    "indiana-record-flooding-august-2026"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/indiana-authorities-say-at-least-5-people-have-died-in-flooding-across-the-state",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
   {
    "id": "korean-peninsula-tensions-and-us-south-korea-dri-2026-08-16-00",
    "title": "Trump has directed the Pentagon to reduce the scale of joint military exercises with South Korea.",
@@ -343,8 +2265,2576 @@
      "confidence": "0.5"
     }
    ]
+  },
+  {
+   "id": "nm-records-2026-08-14-000",
+   "title": "The State of New Mexico sued the Justice Department and Acting Attorney General Todd Blanche in the U.S. District Court for the District of Columbia over withheld Epstein records.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-001",
+   "title": "New Mexico alleges federal prosecutors asked the state to stand down from its Zorro Ranch sex-trafficking investigation in July 2019, promising to refer state crimes back and share information once the federal work concluded.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "abqjournal.com",
+     "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-002",
+   "title": "New Mexico alleges the promised federal evidence was never provided.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/new-mexico-rips-feds-for-stonewalling-probe-into-epstein-ranch/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-003",
+   "title": "The stated federal rationale for the 2019 stand-down request was avoiding the risk that parallel investigations would produce inconsistent statements exploitable by defence counsel.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "abqjournal.com",
+     "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-004",
+   "title": "Jeffrey Epstein died in federal custody on 10 August 2019, ending the federal prosecution.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "abqjournal.com",
+     "url": "https://www.abqjournal.com/news/feds-asked-new-mexico-to-halt-its-epstein-probe/2990694",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-005",
+   "title": "Zorro Ranch, roughly 8,000 acres in Santa Fe County, was sold at public auction in 2023 to San Rafael Ranch LLC, an entity registered with the New Mexico Secretary of State roughly one month before the purchase.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "santafenewmexican.com",
+     "url": "https://www.santafenewmexican.com/news/local_news/texas-businessman-running-for-office-owns-epsteins-zorro-ranch-in-santa-fe-county/article_14a05944-1e00-47c8-a4c3-071895abfb57.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-006",
+   "title": "The ownership of San Rafael Ranch LLC was not disclosed at purchase and became public only after a street-name change and a contested property-tax assessment prompted public-records requests.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "therealdeal.com",
+     "url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-007",
+   "title": "The owner is Don Huffines, a former Texas state senator now running for Texas Comptroller; his wife Mary Catherine is listed as a trustee and his son Colin as an LLC manager.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "therealdeal.com",
+     "url": "https://therealdeal.com/texas/2026/02/17/huffines-family-bought-epsteins-zorro-ranch-in-new-mexico/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-008",
+   "title": "New Mexico reopened its criminal investigation on 19 February 2026, after the Justice Department's January 2026 release of the Epstein files.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/2/20/new-mexico-reopens-criminal-probe-related-to-jeffrey-epsteins-zorro-ranch",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-009",
+   "title": "Investigators reported recovering evidence of prior excavation and altered substrate at the property inconsistent with the original construction timeline.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "newsweek.com",
+     "url": "https://www.newsweek.com/zorro-ranch-update-evidence-jeffrey-epstein-estate-11635399",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-010",
+   "title": "State and county officials ordered construction at the property paused, alleging the owners failed to obtain required permits.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "santafenewmexican.com",
+     "url": "https://www.santafenewmexican.com/news/local_news/owners-of-former-zorro-ranch-ordered-to-stop-construction-due-to-lack-of-permits/article_e4591527-1b5a-46e9-af05-beb2186d00c2.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-011",
+   "title": "The owners intend to convert the property into a Christian retreat.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/homenews/state-watch/5743734-huffines-christian-retreat-epstein-ranch/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-012",
+   "title": "New Mexico's filing characterises the Epstein files as containing more than 13,000 references to Zorro Ranch and more than 5,000 to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "nbcnews.com",
+     "url": "https://www.nbcnews.com/news/us-news/jeffrey-epstein-investigation-new-mexico-sues-doj-todd-blanche-blockin-rcna591015",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-00",
+   "title": "Lala weakened from a hurricane to a tropical storm on Sunday after passing Hawaii without making landfall, while still producing hurricane-force gusts on the Big Island.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-01",
+   "title": "Authorities launched a search-and-rescue mission after flash floods appeared to sweep several occupied homes off their foundations in coastal communities.",
+   "stamp": "open",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-02",
+   "title": "A search and rescue operation is underway in the Ka‘ū District after several homes were swept off their foundations.",
+   "stamp": "open",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-03",
+   "title": "Thousands of customers are without power and at least 100 homes have been damaged in Hawaii after Lala.",
+   "stamp": "open",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-04",
+   "title": "Two schools on Hawaii Island closed following storm damage from Lala.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-05",
+   "title": "Lala continued producing heavy rain and gusty winds over parts of Maui County and Oʻahu on Sunday.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-06",
+   "title": "While at hurricane strength, Lala passed near the Big Island and brought heavy rain, raising the prospect of life-threatening flooding and mudslides.",
+   "stamp": "open",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-07",
+   "title": "On August 15, forecasters warned that Lala, then a tropical storm hitting the Big Island with heavy rain and strong winds, could strengthen into a hurricane.",
+   "stamp": "open",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-08",
+   "title": "Hurricane Iniki, a Category 4 storm, was the last hurricane to hit Hawaii, making landfall on the southern coast of Kauai in 1992 and causing six deaths and $3bn in damage.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-09",
+   "title": "NPR reported that Hurricane Lala weakened to a tropical storm on Sunday 16 August 2026 after skirting Hawaii without making landfall, but continued to hit the Big Island with hurricane-force gusts.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-10",
+   "title": "Hawaii Governor Josh Green said three hospitals had already switched to generator power as Hurricane Lala's winds and rain knocked out electricity across the islands over the weekend of 15-16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-11",
+   "title": "Almost 130,000 utility customers had lost power in Hawaii, Al Jazeera reported on 16 August 2026 citing Reuters, as Lala weakened from a Category 1 hurricane to a tropical storm south of the islands.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-12",
+   "title": "Hawaiian Electric warned customers on the evening of Saturday 15 August 2026 that hurricane-force winds and rain were hampering repair efforts, citing flooded roadways and downed trees blocking access.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "aljazeera.com",
+     "url": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-13",
+   "title": "The Honolulu Fire Department had launched dozens of weather-related responses by 2 a.m. local time on Sunday 16 August 2026, including 58 reports of downed trees, 39 blown roofs, 12 downed power lines, 12 arcing-wire situations and one swimmer rescue.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-14",
+   "title": "More than 200,000 homes and businesses were without power by 10:30 a.m. local time on Sunday 16 August 2026 according to tracker poweroutage.us, including nearly two-thirds of all power customers on the Big Island.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-15",
+   "title": "The National Hurricane Center advisory of Sunday 16 August 2026 said little change in intensity was expected through Monday, and forecasters expected Lala could become a hurricane again on Tuesday or Wednesday well west of the Hawaiian island chain.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-16",
+   "title": "The National Hurricane Center reported that Lala intensified from a tropical storm into a Category 1 hurricane early on Saturday 15 August 2026 as its maximum sustained winds increased to 75 mph.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "independent.co.uk",
+     "url": "https://www.independent.co.uk/news/world/americas/hurricane-lala-hawaii-big-island-b3033797.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-17",
+   "title": "Gov. Josh Green said at least one person died in a car accident in the South Point area of the Big Island, while 19 roofs were lost and 190 flights were postponed as Hurricane Lala passed on 15 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "independent.co.uk",
+     "url": "https://www.independent.co.uk/news/world/americas/hurricane-lala-hawaii-big-island-b3033797.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-18",
+   "title": "Alaska Airlines and Hawaiian Airlines cancelled 54 inter-island flights and 11 trans-Pacific flights on Saturday 15 August 2026 because of the storm, with five of the cancelled trans-Pacific flights to or from Kona.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "latimes.com",
+     "url": "https://www.latimes.com/travel/story/2026-08-15/hurricane-lala-disrupts-los-angeles-flights-to-hawaii",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-19",
+   "title": "The National Hurricane Center issued a rare hurricane warning for Hawaii's Big Island on Saturday 15 August 2026, where a landfall would have been the first in 155 years, with forecasters predicting up to 25 inches of rain at higher elevations.",
+   "stamp": "documented",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00",
+   "title": "Courts have blocked construction of Trump's White House ballroom.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-02",
+   "title": "Trump ordered changes to the recommended childhood vaccination schedule, with health secretary Robert F. Kennedy Jr. present.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-03",
+   "title": "Sen. Bill Cassidy (R-La.) said the executive order altering the childhood vaccine schedule is based on \"crazy, stupid\" claims and is why Trump's poll numbers are falling.",
+   "stamp": "open",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/policy/healthcare/6032232-cassidy-slams-trump-vaccine-order/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-04",
+   "title": "Trump signed a memo authorizing private-sector companies to launch cyberattacks against foreign cybercriminals.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-05",
+   "title": "Colombia's president has asked Trump to suspend tariffs to assist earthquake recovery.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/world/colombian-president-asks-trump-to-suspend-tariffs-to-help-earthquake-recovery",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-06",
+   "title": "The BBC has asked a US court to help it obtain testimony from Trump family members in its defamation litigation over a Panorama broadcast.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-07",
+   "title": "A new poll finds most voters say they are worse off under Trump.",
+   "stamp": "open",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM2SElfb082WlA5dVhQNVRxQ1c2cWZVM2F6QXg0czdkMmNJYmFYMTRXSTY5RE5NaUdkM0tCT2FVcUpGZElnbHJCTDhMazRTOEUySWlqQU5pOVlvaW1YcUxQV3MzT1U0QkEwQTl5U2hDOFJXTTVMMmVDV0M1M0NwMUpwbkFRUUhyOWJqdXV1ZEJ6R3dQVU41NW1XUmlBaml6VGRNcGhnaWVhdUV0LVpSME1SNk56SFVTMVJpOTk1X0VNdnVHYVE0LVM0aVlucndhREhwYy1IMDQ3X00?oc=5",
+     "source_type": "misc",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-08",
+   "title": "Trump drew criticism over the weekend of 15-16 August 2026 after sharing a black-and-white image of himself wearing a \"Trump 2028\" hat with the message \"We are going to win,\" despite the 22nd Amendment's limit on presidential terms.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "independent.co.uk",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-2028-third-term-truth-social-post-b3033863.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-09",
+   "title": "Asked at Joint Base Andrews on Tuesday, 11 August 2026, whether he was serious about seeking a third term, Trump said: \"And you know that the law is very strong on that. I'd love to run, but the law is very strong,\" then ignored a reporter's attempt to press further.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "independent.co.uk",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-2028-third-term-truth-social-post-b3033863.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-10",
+   "title": "The BBC has asked a United States court for assistance in obtaining testimony from members of Trump's family in the defamation suit brought over its Panorama programme, according to reports published on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-11",
+   "title": "The BBC is seeking to subpoena Ivanka Trump, Donald Trump Jr. and Jared Kushner to testify about Trump's January 6 speech as part of the $10bn Panorama lawsuit, according to reports published on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOC1kd19wN1hwS2Z0YWlGNzZTMzVSNzZXNE1NZmtHM0RZNVRkVVYtQzJadEIwWmZFWVNkTHhqbDFvb2hTS3BaZTVEWU5UVi1aYlhYVlpnTXdMTmxuWDgyN0FmY08yVElKWmxQdml0NGJfUWwyNlJ1Y2x0QUJySk8ya09rYnlxdXBkYTIyaXJnUS1ldDJVUFNZUXpnU1E5TU0?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-12",
+   "title": "More than 5.3 million individuals across the country have lost SNAP benefits since Trump enacted major overhauls to the programme in his 2025 tax and spending law, according to U.S. Department of Agriculture figures.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "independent.co.uk",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/liz-wills-ogilvie-hunger-strike-trump-food-stamp-cuts-b3033845.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-13",
+   "title": "Massachusetts' Department of Transitional Assistance reported that SNAP enrollment in the state dropped by nearly 182,000 individuals, including roughly 65,000 children, and that daily call volume has risen 9% year on year with roughly 47% of callers unable to connect, up from 37%.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "independent.co.uk",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/liz-wills-ogilvie-hunger-strike-trump-food-stamp-cuts-b3033845.html",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-14",
+   "title": "NPR reported on 16 August 2026 that the Trump administration's continuing actions targeting transgender youth, including a change to Medicaid, are taking a personal toll on affected families, as described by a longtime Republican voter living in California.",
+   "stamp": "open",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-15",
+   "title": "Trump signed a memorandum authorizing U.S. private-sector companies to launch offensive cyberattacks against foreign cybercriminals, reported on 15 August 2026 by NPR, The Guardian, The Washington Post and The New York Times.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNek9jVS1yRTdhWTVtSWpvR01iR2ZoakN4amR2OGhrMnhMQ0pEczRGbmNJV2ZGckl5dUtPUTY1TjJHOWpjSVlGVkdySDZfSzdlUDk2d2lKRlRaX3lPUkZYNWVJUjFKNXROVXd5Vnc3eElFZFhrY2dRRjN3b3BxdGRESnBQcDVVY2hrYVlYWlhrcDlPQQ?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-16",
+   "title": "The 20% pass-through business income deduction, increased from 17% during the 2017 Tax Cut and Jobs Act negotiations and made permanent in last year's One Big Beautiful Bill Act, will cost the budget $820bn over a 10-year period, almost as much as was cut from Medicaid.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-17",
+   "title": "About 57% of the $1.3tn in pass-through income in 2022 went to 890,000 people in the richest 1% of the population, according to the Urban-Brookings Tax Policy Center, and the deduction leaves top pass-through owners taxed at 29.6% against a 37% top marginal rate on wages.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/business/2026/aug/15/trump-big-beautiful-bill-millionaires",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-18",
+   "title": "On 8 July 2026 Trump boarded Air Force One in view of television cameras as he left the Nato summit in Turkey, but was reportedly spirited away via a catering truck to a C-32A that flew him to RAF Mildenhall, leaving unwitting decoys aboard the larger aircraft.",
+   "stamp": "open",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "trump-s-executive-actions-and-mounting-pushback-2026-08-16-19",
+   "title": "In remarks to reporters reported by the BBC on 12 August 2026, Trump confirmed that he secretly swapped planes as he left the Nato summit in Turkey the previous month because of a possible threat.",
+   "stamp": "documented",
+   "beats": [
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/videos/cp30p4ze3gxo?at_medium=RSS&at_campaign=rss",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-00",
+   "title": "A memorandum of understanding between the United States and Iran is approaching its expiration date.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-01",
+   "title": "Iran states that there has been no progress on reviving the interim peace deal with the United States.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-02",
+   "title": "US-Iran talks are stalled, and diplomatic activity has extended to European states not previously involved.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-03",
+   "title": "The US military is moving its last aircraft carrier out of the Pacific in order to prioritise operations concerning Iran.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-04",
+   "title": "The USS Abraham Lincoln is to be relieved, leaving the Pacific without a US carrier.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-05",
+   "title": "The USS George Washington is departing the Pacific and is expected to replace the USS Abraham Lincoln in the Middle East.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-06",
+   "title": "There are growing concerns about mental health and supply issues aboard the long-deployed USS Abraham Lincoln.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-07",
+   "title": "The Navy is working to relieve the USS Abraham Lincoln, which reporting describes as troubled.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-08",
+   "title": "Treasury Secretary Bessent said the United States will apply measures against Iran that have never been seen before.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-09",
+   "title": "The United States has threatened an indefinite blockade against Iran.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-10",
+   "title": "Iranian oil exports are constrained while competing exporters' volumes are expected to increase.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-11",
+   "title": "Rep. Don Bacon, a Republican of Nebraska, is not running for reelection.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-12",
+   "title": "Rep. Don Bacon said the president was setting possibly false expectations during the early part of the campaign against Iran.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-13",
+   "title": "Newt Gingrich said Iran is betting it can outlast Trump if Democrats take Congress.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-14",
+   "title": "Commentary in the cluster frames Iran's approach as an attempt to outlast Trump's presidency rather than defeat the US militarily.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
+     "source_type": "misc",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-15",
+   "title": "Hundreds of thousands of foreign nationals have had their US visas revoked.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-16",
+   "title": "State Department spokesperson Tommy Pigott addressed the Iran war and the visa revocations in an on-record interview.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-17",
+   "title": "A third UAE tanker was attacked within a week.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-18",
+   "title": "The UAE says Iran attacked an ADNOC vessel in the Strait of Hormuz and is urging the waterway's reopening.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-16-19",
+   "title": "Oil prices rose following a tanker attack in the Strait of Hormuz.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-00",
+   "title": "A memorandum of understanding between the United States and Iran is approaching its expiration date, and the ceasefire it underpins is set to expire with negotiations between the two governments at a standstill, according to reports published on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-01",
+   "title": "Iran has said there has been no progress on reviving the interim peace deal with the United States, according to a Reuters report carried in the 16 August 2026 cluster on the expiring US-Iran memorandum of understanding.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjE3ZXJKVUt6Z3FISXlTWFpScEdLODVOSWItRmd6eTdOQW83YWlLWnFTaEMxOXYwOFJqQ0NGRkxLT0NfNGt6ZU5BZlh2OWhOdGxDd0VpaS1FYnF1TGEwN1VNSXdRcFM2QldYdTBQVzhJYmhIcFJISnZTaU55bGtOdkhvZnY4YmFCamfSAY8BQVVfeXFMT3B2TWFYeHVZZVVrOVFHeUxxQnZwLXlUVlR6ZGo1RXhhYmw0N0RIRzc3SjJJcG14OGU3clU1cXhBQjhSNktlQmEyOVVfQjlkNjNvR0RmLWxxUTIzTDBINUkwR3V4TDRmTXBKUHQxWnpuYlJpSFpHWHR4R2xqdUxJY0NoQWhNcHoxREJ6akltOE0?oc=5",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-02",
+   "title": "The US military is moving its last aircraft carrier out of the Pacific to prioritise operations against Iran, relieving the USS Abraham Lincoln and leaving the Pacific without a carrier, according to reports published on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORURHSVozdVNUZVgwN1NHSWVRY2YyQlM3UkNyeUgxLTVCck02QWMzb1FzTko1ZlZhUVBPY2I5Nk5jaFBKVVppby1Ic3RMdUVLc0ttQzdIXzFMbU5LbWFGRVpfUHNidzdJVWttNEQtaXdnSjl0dnZ6UENvazFFTGVVQTdtMkhQYW5peW80ZFMzSjBLOG1iRWlKRWs0a0pKZHNKU2x5T3RsSHNGS3lHOXBfMkNJck9OSkdLT0U4cTVpYk5feHVaTWt3MzF5LWZsZzcwcGxscTVxbFRJRmc?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-03",
+   "title": "The USS George Washington is departing the Pacific and is expected to replace the USS Abraham Lincoln in the Middle East amid growing concerns about mental health and supply issues aboard the long-deployed carrier, AP reported.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-04",
+   "title": "The USS Abraham Lincoln has spent a record uninterrupted time at sea of more than 240 days after its original May return date was extended to support operations against Iran, and Democratic lawmakers have been calling for investigations into conditions aboard the ship.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-05",
+   "title": "Bryan Clark, a former Navy submariner and defense analyst at the Hudson Institute, said the Navy has 11 aircraft carriers and typically deploys two or three at a time, but could soon deploy four if the USS Theodore Roosevelt leaves San Diego for the Middle East.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "pbs.org",
+     "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-06",
+   "title": "Admiral Frank Bradley, head of US Special Operations Command, was in Manila on Thursday telling his Filipino counterparts that US special operations forces are ready to step up joint exercises to strengthen the alliance, and he is also expected to travel to Japan.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-07",
+   "title": "China carried out military drills this month near the Scarborough Shoal in the South China Sea, conducted naval exercises this week with Indonesia, and last month sent a guided-missile destroyer to hold a live-fire exercise off Japan's southernmost island of Okinotori.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-08",
+   "title": "Greg Poling, director of the Southeast Asia Program at the Center for Strategic and International Studies, said the United States is doing the exact opposite of its previously expressed goal of pulling out of the Middle East, and that Pacific allies are unsettled by the administration's unpredictability.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-09",
+   "title": "Oil prices rose and were set for weekly gains after the United States threatened an indefinite blockade against Iran, with coverage on 16 August 2026 questioning how long such a blockade could be sustained.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-10",
+   "title": "US officials said Washington will use economic tactics on Iran 'that have never been seen', with reporting on what Bessent's economic isolation of Iran could look like published alongside news that the Navy is working to relieve the troubled carrier USS Abraham Lincoln.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-11",
+   "title": "Iran's oil exports are trapped by US pressure at a moment when rival producers' exports are about to surge, though Tehran could still find a way to break the American chokehold, according to a Fortune analysis published on 16 August 2026.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmlUR1kyNldBZnllb0dtR3pZR281aXQ2YnpmSm5nVTc0SDJjTFYwempadnQyRU1EQU5aZVdFREs1eUlMdk9NOEptd0lBWXgtTzU3WlhpRWtFYURGTG1HU1NHR0h2OUt5eW9KbkRkbWF2N0pTdk9RX2tmbWFMdkFidkNTclZaYVRORHRxcldBX09YWjhfV1d2U1RSWUNIRTFYMF9aQ08zVk5xaUE?oc=5",
+     "source_type": "misc",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-12",
+   "title": "Attacks in the Strait of Hormuz have pushed oil toward $100 a barrel despite a build in US crude inventories, with Middle East tensions keeping prices elevated in trading reported on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-13",
+   "title": "Iranian attacks are pushing shipping in the Strait of Hormuz toward a route controlled by Tehran, and reporting on 16 August 2026 examined what actual ship traffic shows about who controls the waterway.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-14",
+   "title": "The United States is readying further penalties against Iran as President Trump seeks more economic pressure on Tehran, while publicly downplaying the war's impact on the coming midterm elections, according to reports published on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-15",
+   "title": "President Trump told Axios that 'We are low-keying it' with Iran, in comments reported on 16 August 2026 as his administration weighed additional economic measures against Tehran.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-16",
+   "title": "Former House Speaker Newt Gingrich said Iran is betting it can outlast President Trump if Democrats take Congress, part of wider analysis published on 16 August 2026 arguing that Tehran's strategy is to outlast Trump's presidency.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRldEVkRWZGJvUTB5XzFEVEZfd1VfWlpuVnVLVXprRFFGa3F3T1RCSlpSQXhURG94VUg0TVNrVmxvZG1ITEQzRWMyMlM5YWtTX2stWWxEMlVrV3hSdGc4MkpaQ0tqelBfMVFpWHZxSS1LeHZBUnhLOWMzUXVyU1ZfSllwVnNRdWhsR01GXw?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-17",
+   "title": "State Department spokesperson Tommy Pigott discussed the war with Iran and the hundreds of thousands of foreign nationals who have had their US visas revoked in an interview with NPR's Rob Schmitz broadcast on 15 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-18",
+   "title": "The United Arab Emirates said Iran attacked an ADNOC vessel in the Strait of Hormuz, the third UAE tanker struck within a week, and urged the reopening of the waterway, according to reports published on 15 August 2026.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-hormuz-blockade-2026-08-17-19",
+   "title": "The UAE characterised the strikes on tankers in the Strait of Hormuz as 'unprovoked attacks' by Iran as the number of ship attacks in the waterway mounted and the United States vowed to cripple Iran's economy.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-02",
+   "title": "The USS George Washington is leaving the Pacific and is expected to replace the USS Abraham Lincoln in the Middle East.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courthousenews.com",
+     "url": "https://www.courthousenews.com/us-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-03",
+   "title": "The UAE says Iran attacked an ADNOC vessel in the Strait of Hormuz and is urging that the waterway be reopened.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-04",
+   "title": "A third UAE tanker has been attacked within one week.",
+   "stamp": "open",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-05",
+   "title": "President Trump told Axios that the administration is 'low-keying it' with Iran.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "us-iran-war-and-stalled-ceasefire-talks-2026-08-16-06",
+   "title": "Rep. Don Bacon said on 'Face the Nation with Margaret Brennan' that Trump was setting maybe false expectations in the initial parts of the campaign with Iran.",
+   "stamp": "documented",
+   "beats": [
+    "us-iran-war-and-hormuz-blockade"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/video/rep-don-bacon-says-trump-was-setting-maybe-false-expectations-in-initial-days-of-iran-war/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-00",
+   "title": "CENTCOM commander Adm. Brad Cooper publicly addressed concerns about the mental health of service members aboard the USS Abraham Lincoln, which is returning home after 265 days in the Iran War.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-01",
+   "title": "Cooper described his Saturday visit to the ship as \"awe-inspiring\" and said Americans would \"beam with pride.\"",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-02",
+   "title": "Maryland Gov. Wes Moore said President Trump's response to reported conditions aboard the USS Abraham Lincoln angers him.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-03",
+   "title": "Sen. Ruben Gallego (D-Ariz.) called the carrier's months-long deployment a \"deep problem\" and blamed the prolonged deployment on the unresolved war he says Trump started in February.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-04",
+   "title": "Republican Rep. Don Bacon of Nebraska said Congress should conduct oversight of conditions aboard the USS Abraham Lincoln.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-05",
+   "title": "President Trump said the USS Abraham Lincoln deployment is \"not nearly long enough.\"",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-06",
+   "title": "The USS Abraham Lincoln is being replaced after a nearly nine-month deployment.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-07",
+   "title": "The CENTCOM chief's visit to the USS Abraham Lincoln took place amid concerns about crew morale.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-08",
+   "title": "The carrier's deployment has run nearly nine months and has fueled concern over crew morale, mental health and living conditions.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-09",
+   "title": "Sen. Ruben Gallego, Democrat of Arizona, called the carrier's months-long deployment a 'deep problem'.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-10",
+   "title": "Gallego attributed the carrier's prolonged deployment to an unresolved war he says Trump started in February.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-11",
+   "title": "GOP Rep. Don Bacon of Nebraska said Congress should conduct oversight over conditions aboard the USS Abraham Lincoln.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-13",
+   "title": "President Trump said the USS Abraham Lincoln deployment is 'not nearly long enough.'",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-14",
+   "title": "Families of USS Lincoln crew members say Trump should be 'ashamed' of conditions aboard the ship.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-15",
+   "title": "Families of US sailors have denounced Trump and Defense Secretary Hegseth for dismissing their experiences and calling them liars.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-16",
+   "title": "The US has pulled its last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-17",
+   "title": "A US commander called mental health a priority after visiting the USS Lincoln.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "source_type": "misc",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-18",
+   "title": "The USS George Washington was near Malaysia on 13 August 2026 and, at its last recorded speed, would reach Duqm port in Oman, about 500 miles off the coast of Iran, around 22 August, according to tracking data compiled by BBC Verify.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-16-19",
+   "title": "Once the USS George Washington arrives in the Middle East it will be the third U.S. aircraft carrier in the region alongside the USS George H.W. Bush, and no U.S. aircraft carrier will remain in the Pacific.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "bbc.co.uk",
+     "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-00",
+   "title": "Adm. Brad Cooper, the head of U.S. Central Command, visited the USS Abraham Lincoln on Saturday 15 August 2026 and praised its crew, calling his time aboard \"awe-inspiring\" in a statement shared on social media.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-01",
+   "title": "The Lincoln carries about 5,000 service members, deployed to the Pacific in November 2025, arrived in the Middle East in January 2026, and has been supporting the U.S. war against Iran.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-02",
+   "title": "The Lincoln has spent a record-setting uninterrupted period of more than 240 days at sea, against a normal U.S. military vessel deployment of about six months, CBS News reported on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-03",
+   "title": "Cooper acknowledged the crew's mental health concerns but said the Lincoln has among the lowest numbers of mental-health-related cases of all 11 of the U.S. Navy's active aircraft carriers, adding \"This doesn't mean that all is perfect.\"",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-04",
+   "title": "The USS George Washington aircraft carrier is headed to the Middle East to relieve the USS Abraham Lincoln, CBS News reported on 16 August 2026.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-05",
+   "title": "Asked by reporters on Friday 14 August 2026 whether the Lincoln's deployment had gone on too long, President Trump answered, \"No. Not nearly long enough.\"",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-06",
+   "title": "Centcom commander Adm. Brad Cooper addressed concerns about the mental health of service members aboard the USS Abraham Lincoln on Sunday 16 August 2026, as the carrier returns home after more than 260 days in the Middle East.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/policy/defense/6032334-lincoln-crew-mental-health-concerns/",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-07",
+   "title": "Maryland Gov. Wes Moore, a Democrat and military veteran, said on Sunday 16 August 2026 that President Trump's reaction to reported conditions aboard the USS Abraham Lincoln angered him and should anger the public.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "thehill.com",
+     "url": "https://thehill.com/policy/defense/6032333-moore-criticizes-trump-uss-lincoln/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-08",
+   "title": "The United States has pulled its last aircraft carrier out of Asia as President Trump focuses on Iran and the Western Hemisphere, according to an Associated Press report carried in a 16 August 2026 news roundup.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "news.google.com",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkdVeURrWGhyWkhmYUFwRGt5RnlNUjg1TVlZczNFWTJaQ2hkalFacDFQMWxPdnRMdGJUZDl1dm8wQmtVR2VHT29iakNveTZ2NXQtZkZwcHpKS0ZPQlBWTVU3azE3VVRHbkR6ZGF1T1ZDUmhMNVFtOEprTFZVd2xfMkFqUm3SAYoBQVVfeXFMTzEwMjRwaHNBaEktUlpDcWxGNnM4TUxhanhMSUZuMkNFSGpEOXZJRnpfY3BjSFNyN3B3T0psczVDRGE4ZTdfcE0wUzN1RW9LT1M0ZnlfS3V4d01Za1ZIRExqSTkzWnFrcmo3TG9YX2xLSUJZNzRuT29CSTFyN0lCVUNySFdrQWlFTUR3?oc=5",
+     "source_type": "news",
+     "confidence": "0.4"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-09",
+   "title": "Sen. Ruben Gallego, an Arizona Democrat and retired U.S. Marine, said on Sunday 16 August 2026 that he had spoken with the spouse of a Lincoln crew member three days earlier and blamed the prolonged deployment on the administration's failure to plan for the Iran war.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-10",
+   "title": "The USS Abraham Lincoln has been at sea for nearly nine months and has gone more than 200 days without a port call, prompting Democratic lawmakers to call for an investigation into conditions aboard the carrier.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.55"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-11",
+   "title": "Defense Secretary Pete Hegseth has rejected reports of poor morale and conditions aboard the USS Abraham Lincoln as \"completely misrepresented,\" according to reporting published on 16 August 2026.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-12",
+   "title": "Navy Times and Stars and Stripes, two publications specialising in the U.S. military, have reported multiple attempts by sailors aboard the Lincoln to jump overboard during the carrier's ninth month at sea.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-13",
+   "title": "Retired Adm. Mike Mullen, a former chair of the joint chiefs of staff, said on 16 August 2026 that he spoke with Cooper on Saturday evening and was told poor conditions aboard the Lincoln had been addressed and crew morale improved once sailors learned they were going home.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-14",
+   "title": "Rep. Don Bacon, a Nebraska Republican and retired Air Force brigadier general, said on 16 August 2026 that Congress should conduct oversight of conditions aboard the USS Abraham Lincoln and that the secretary of the Navy or the service chief should testify before lawmakers.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-15",
+   "title": "Acting Secretary of the Navy Hung Cao said in a post on X on Friday 14 August 2026 that the Lincoln \"will return home soon as part of a planned rotation\" and that a \"small number of mental health cases were treated with no loss of life.\"",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-16",
+   "title": "Democratic Sen. Richard Blumenthal wrote to Defense Secretary Pete Hegseth on Thursday 13 August 2026 calling for the Navy to account for conditions aboard the carrier, which he said has been deployed more than 250 days and has not come ashore in over 200 days.",
+   "stamp": "documented",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.6"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-17",
+   "title": "Bacon said that in 1996, when the United States was not at war, he served aboard an aircraft carrier enforcing the southern no-fly zone over Iraq and that a couple of crew members jumped overboard and died by suicide during that deployment.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-conditions-don-bacon-face-the-nation-08-16-2026/",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-18",
+   "title": "Family members of USS Abraham Lincoln crew told NPR in a report published 15 August 2026 that President Trump should be \"ashamed\" of conditions aboard the ship and that his \"not nearly long enough\" comment was shameful.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "npr.org",
+     "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+     "source_type": "news",
+     "confidence": "0.45"
+    }
+   ]
+  },
+  {
+   "id": "uss-abraham-lincoln-deployment-conditions-2026-08-17-19",
+   "title": "Cooper said in his statement that the Lincoln crew is \"a strong team of high-achieving Americans\" and that history will record the deployment as one of the most operationally intense and consequential of the modern era.",
+   "stamp": "open",
+   "beats": [
+    "uss-abraham-lincoln-deployment-conditions"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "theguardian.com",
+     "url": "https://www.theguardian.com/us-news/2026/aug/16/democrats-trump-uss-abraham-lincoln",
+     "source_type": "news",
+     "confidence": "0.5"
+    }
+   ]
   }
  ],
- "single_primary_document": [],
- "single_primary_document_count": 0
+ "single_primary_document": [
+  {
+   "id": "nm-records-2026-08-14-doc-deadline",
+   "title": "New Mexico's Touhy letter of 3 May 2026 requested a response by 11 May 2026. The suit was filed on 5 August 2026, 86 days after that date passed.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-docket",
+   "title": "The suit is docketed as No. 1:26-cv-02762-AHA in the U.S. District Court for the District of Columbia, assigned to Judge Amir H. Ali, and is pleaded as review of agency action under the Administrative Procedure Act rather than as a FOIA case.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "courtlistener.com",
+     "url": "https://www.courtlistener.com/docket/73721948/state-of-new-mexico-v-us-department-of-justice/",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-efta-hook",
+   "title": "The records New Mexico seeks are the redacted materials in the federal 'Epstein Library', compiled under Section 2(a)(1)-(9) of the Epstein Files Transparency Act, Public Law 119-38 (19 November 2025).",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-file-handover",
+   "title": "New Mexico gave the federal government its entire investigative file — police reports, recorded witness interviews and materials on Epstein's use of state public lands — on 17 September 2019, after agreeing to stand down.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-judicial-notice",
+   "title": "New Mexico's filing notes that the Justice Department has argued in other 2026 litigation that courts may take judicial notice of an Acting Attorney General's recorded public statements as binding party admissions.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-no-pc",
+   "title": "The complaint states that federal law enforcement never searched Zorro Ranch, and cites a federal email of 23 August 2019 — thirteen days after Epstein's death — that acknowledged a victim who may have been raped at the New Mexico residence while asserting there was no probable cause to search it.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-nonproduction",
+   "title": "The federal district office's response, dated 30 June 2026 and delivered 14 July, stated it had neither collected nor retained investigative materials; the thirty-one accompanying pages consisted largely of a public news article, a public press release by a former governor, correspondence New Mexico had itself sent, and a list of follow-up questions.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-offences",
+   "title": "New Mexico states it is investigating potential felony offences including homicide, kidnapping, criminal sexual penetration, criminal sexual contact and human trafficking, under named provisions of the New Mexico criminal code.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-protective-order",
+   "title": "Asked whether the federal government would join New Mexico in seeking a modification of the protective orders it cited as the obstacle, so that the orders would expressly permit disclosure for law-enforcement purposes, a Deputy United States Attorney responded that such cooperation was 'unlikely' and identified no path through which the two offices could work together.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-public-vs-conduct",
+   "title": "Federal officials made public assurances of cooperation during the same period the requests went unanswered: a First Assistant United States Attorney said on 12 June 2026 'I anticipate full cooperation', and a department spokesperson said on 7 July 2026 that it 'stands ready to provide necessary assistance'.",
+   "stamp": "open",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.8"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-scale",
+   "title": "The federal filing states the released Epstein Files contain more than 13,000 references to Zorro Ranch and more than 5,000 references to New Mexico as locations where victims were trafficked, groomed and assaulted.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-search-date",
+   "title": "The state's own formal request dates its search of the property to 9 March 2026.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-seizure-request",
+   "title": "Then-Attorney General Hector Balderas asked the federal government on 15 October 2019 to begin seizing Epstein's New Mexico land holdings for the benefit of survivors.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-standdown-call",
+   "title": "The complaint dates the federal stand-down request to a telephone call on 23 July 2019 and cites a federal record of that call in the publicly released Epstein Files.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.0.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  },
+  {
+   "id": "nm-records-2026-08-14-doc-touhy-invited",
+   "title": "The federal government asked New Mexico to file the formal Touhy request it later declined: on 1 April 2026 an Associate Deputy Attorney General affirmed the Department's commitment to assisting and requested that New Mexico submit a Touhy letter through standard channels.",
+   "stamp": "documented",
+   "beats": [
+    "nm-records"
+   ],
+   "corroboration": 1,
+   "sources": [
+    {
+     "publisher": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295266/gov.uscourts.dcd.295266.1.18.pdf",
+     "source_type": "documentation",
+     "confidence": "0.85"
+    }
+   ]
+  }
+ ],
+ "single_primary_document_count": 15
 }

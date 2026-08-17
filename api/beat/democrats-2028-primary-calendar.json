@@ -4,7 +4,7 @@
   "name": "Democrats' 2028 calendar and party direction",
   "dossiers": [],
   "types": [],
-  "status": "quiet",
+  "status": "moved",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
   "events": 28,
@@ -114,5 +114,734 @@
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "The Democrats' 2028 presidential primary lineup makes South Carolina the leadoff state, voting on Jan. 22, 2028, with Nevada following on Feb. 1.",
+   "deck": "A set party calendar with specific dates, reported identically by two independent outlets; at the news ceiling of 0.6 because the underlying party document is not in hand.",
+   "quote": "makes South Carolina the leadoff state, voting on Jan. 22, 2028, followed by Nevada on Feb. 1.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "courthousenews.com",
+     "u": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-01",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "The new primary lineup moves Iowa out of its traditional first position.",
+   "deck": "Direct consequence of the same adopted calendar; corroborated across outlets, capped at the news ceiling.",
+   "quote": "The primary lineup pushes Iowa from the traditional top spot",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "Reporting characterises the 2028 calendar as giving Black and Latino voters and union members an early say.",
+   "deck": "This is the outlet's interpretation of the calendar's effect, not a quoted party document; below the news ceiling because it is characterisation rather than a dated fact.",
+   "quote": "Democrats’ 2028 presidential calendar gives Black and Latino voters and union members an early say",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "courthousenews.com",
+     "u": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "CBS News reports that Democrats are debating the future of the party during this summer's primaries.",
+   "deck": "Asserted by an identified news organisation as framing for its own polling; no underlying document or proceeding cited.",
+   "quote": "As Democrats debate the future of the party amid primaries this summer",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "CBS News commissioned polling examining whether Democrats are split on socialism; the summaries do not state the poll's answer.",
+   "deck": "The existence of the poll segment is clear from the summary, but the summary poses the split as an open question and reports no result.",
+   "quote": "to discuss whether Democrats are split on socialism",
+   "tier": "question",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "A CBS News poll finds that Americans think more young people in office would make politics better.",
+   "deck": "A polling finding asserted by an identified pollster, but with no sample size, margin of error, or crosstabs available in the summary.",
+   "quote": "Americans think more young people in office would make politics better.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "NPR reports that President Trump is pushing the boundaries of executive power to limit transparency within the executive branch, and that congressional Democrats are weighing how to respond.",
+   "deck": "An identified outlet's characterisation of a public official's conduct; no specific order, memo, or hearing is cited in the summary.",
+   "quote": "President Trump is pushing the boundaries of executive power to limit transparency within the executive branch. Congressional Democrats are grappling with how to respond.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-calendar-and-party-direction-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "NPR reports that a shortage of some munitions and problems with the USS Lincoln have put the Trump administration on the defensive.",
+   "deck": "Stated by an identified outlet in a discussion-segment blurb, with no documentation of the shortage or the ship's problems; peripheral to this cluster's main thread.",
+   "quote": "A shortage of some munitions as well as the problems with the USS Lincoln have the Trump administration on the defensive.",
+   "tier": "credible_allegation",
+   "confidence": 0.45,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.45, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+     "t": "news",
+     "c": "0.45"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "The Democrats' 2028 presidential primary calendar makes South Carolina the leadoff state, voting Jan. 22, 2028.",
+   "deck": "News report at the source-type ceiling; the calendar is a party-adopted schedule and the same text is reported independently by a second outlet (e0f3d191e5f1).",
+   "quote": "The primary lineup pushes Iowa from the traditional top spot and makes South Carolina the leadoff state, voting on Jan. 22, 2028, followed by Nevada on Feb. 1.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "courthousenews.com",
+     "u": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-01",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "Nevada votes second on the Democrats' 2028 calendar, on Feb. 1.",
+   "deck": "News report at the ceiling; a specific scheduled date attributed to an adopted calendar, corroborated across two publishers.",
+   "quote": "makes South Carolina the leadoff state, voting on Jan. 22, 2028, followed by Nevada on Feb. 1",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "The new calendar displaces Iowa from its traditional first position.",
+   "deck": "News report at the ceiling; a direct consequence of the published calendar rather than an interpretation.",
+   "quote": "The primary lineup pushes Iowa from the traditional top spot",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "The calendar is described as giving Black and Latino voters and union members an early say.",
+   "deck": "The wire headline asserts an effect of the calendar rather than reporting a settled document; framing, not a fact a document establishes.",
+   "quote": "Democrats’ 2028 presidential calendar gives Black and Latino voters and union members an early say",
+   "tier": "question",
+   "confidence": 0.45,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.45, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "courthousenews.com",
+     "u": "https://www.courthousenews.com/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say/",
+     "t": "news",
+     "c": "0.45"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "CBS News conducted a poll examining whether Democrats are split over socialism.",
+   "deck": "The outlet reports on its own poll's existence and subject; at the news ceiling.",
+   "quote": "CBS News poll looks at whether Democrats are split over socialism",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "The CBS News poll reports that Americans think more young people in office would make politics better.",
+   "deck": "A polling result asserted by the polling organization; no crosstabs, sample, or margin of error in the supplied text.",
+   "quote": "Americans think more young people in office would make politics better.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "Democrats are debating the future of the party during primaries this summer.",
+   "deck": "Scene-setting framing in a segment description; characterizes a debate without citing a specific proceeding or document.",
+   "quote": "As Democrats debate the future of the party amid primaries this summer",
+   "tier": "question",
+   "confidence": 0.4,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.4, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/video/cbs-news-poll-looks-at-whether-democrats-are-split-over-socialism/",
+     "t": "news",
+     "c": "0.4"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "Congressional Democrats are weighing how to respond to Trump's effort to limit transparency within the executive branch.",
+   "deck": "Summary characterizes an ongoing posture by public officials; the underlying actions are not documented in the supplied text.",
+   "quote": "President Trump is pushing the boundaries of executive power to limit transparency within the executive branch. Congressional Democrats are grappling with how to respond.",
+   "tier": "question",
+   "confidence": 0.4,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.4, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+     "t": "news",
+     "c": "0.4"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-08",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "The same CBS News/YouGov poll found the Democratic Party is seen by most voters as weak and not effective, with over a third of Democrats describing their own party as weak, while most voters describe the Republican Party as extreme and also not effective.",
+   "deck": "Direct poll finding stated in the published write-up.",
+   "quote": "Over a third of Democrats describe their own party as weak.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-09",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "About half of Democrats in the August 2026 CBS News/YouGov survey said their party is not progressive enough, a group that is more liberal, views socialism more positively, and is less likely to say the party agrees with their views a lot on economic issues.",
+   "deck": "Poll result reported verbatim; additional detail drawn from adjacent sentences in the same article.",
+   "quote": "To about half, it's not progressive enough.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/democrats-socialism-economy-political-parties-opinion-poll/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "NPR's politics segment on Aug. 16, 2026 examined how Democrats are gearing up for the 2028 presidential primaries alongside the party's takeaways from the current batch of primary races.",
+   "deck": "Only a programme summary is available; it establishes the subject discussed, not any finding.",
+   "quote": "We look at how the Democrats are gearing up for the 2028 presidential primaries, as well as their takeaways from the current batch of primary races.",
+   "tier": "question",
+   "confidence": 0.4,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.4, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
+     "t": "news",
+     "c": "0.4"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-11",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "NPR reported on Aug. 14, 2026 that President Trump is pushing the boundaries of executive power to limit transparency within the executive branch, and that congressional Democrats are grappling with how to respond.",
+   "deck": "Broadcaster's characterisation in a summary; no underlying documents cited in the material available.",
+   "quote": "President Trump is pushing the boundaries of executive power to limit transparency within the executive branch. Congressional Democrats are grappling with how to respond.",
+   "tier": "credible_allegation",
+   "confidence": 0.45,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.45, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
+     "t": "news",
+     "c": "0.45"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-12",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "House Democrats in key leadership posts told the Los Angeles Times that groundwork is already being laid for investigations into the president's reported $2.2 billion in gains last year, the business ventures of Jared Kushner and Eric and Don Jr. Trump, and the family's crypto projects, should the party retake Congress in November.",
+   "deck": "Sourced to named and unnamed House Democrats describing their own plans; plans, not completed actions.",
+   "quote": "House Democrats in key leadership posts told The Times the groundwork is already being laid out for probes into the president’s reported $2.2 billion in gains last year, the business ventures of his son-in-law Jared Kushner and his sons Eric and Don Jr., and the family’s crypto projects.",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "latimes.com",
+     "u": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-13",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "Impeachment remains an option for House Democrats but they are reluctant to make it a centerpiece of their agenda, with Rep. Robert Garcia of Long Beach, the top Oversight Democrat, saying the priority is to stop the harm and investigate those helping the president, and Rep. Jamie Raskin saying Democrats will not play into the game.",
+   "deck": "Reporter's synthesis of on-record statements by identified members; a posture that could change.",
+   "quote": "For Democrats, impeachment remains an option, but they are reluctant to make it a centerpiece of their agenda this time around.",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "latimes.com",
+     "u": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-14",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "Rep. Sydney Kamlager-Dove of Los Angeles introduced articles of impeachment last week against White House budget director Russell Vought, arguing he broke the law when the administration canceled federal funding to Democratic states including California for political reasons.",
+   "deck": "A filed legislative action reported directly; the underlying allegation against Vought is the member's assertion.",
+   "quote": "Last week, Kamlager-Dove introduced articles of impeachment against Russell Vought, the White House budget director, arguing that he broke the law when the administration canceled federal funding to Democratic states including California for political reasons.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "latimes.com",
+     "u": "https://www.latimes.com/politics/story/2026-08-13/how-democrats-plan-to-rein-in-trump-should-they-win-in-november",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-15",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "A Politico item published Aug. 13, 2026 featured Sen. Adam Schiff addressing what it framed as Democrats' 'losing message,' along with Rep. Alexandria Ocasio-Cortez and AIPAC.",
+   "deck": "Headline only, no body text available; establishes the subject raised, not what Schiff said.",
+   "quote": "Adam Schiff on Democrats’ ‘losing message,’ AOC and AIPAC",
+   "tier": "question",
+   "confidence": 0.35,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.35, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "politico.com",
+     "u": "https://www.politico.com/video/2026/08/12/adam-schiff-on-democrats-losing-message-aoc-and-aipac-2135214",
+     "t": "news",
+     "c": "0.35"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-16",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "open",
+   "title": "Rep. Jamie Raskin, the top Judiciary Democrat, said anyone involved in Paramount's attempt to purchase Warner Bros. Discovery should be prepared to answer under oath, as a Paramount lawyer said the company was happy to cooperate with Democrats vowing a crackdown on the merger.",
+   "deck": "On-record statements by a named lawmaker and a company lawyer, summarised; no hearing has been convened.",
+   "quote": "Top Judiciary Democrat Jamie Raskin said anyone involved in Paramount’s attempt to purchase Warner Bros. Discovery",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "politico.com",
+     "u": "https://www.politico.com/live-updates/2026/08/11/congress/paramount-happy-to-cooperate-with-dems-01034696",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-17",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "House Democrats introduced legislation on Aug. 6, 2026 that would impose a levy on leading artificial intelligence companies and channel the proceeds into a new Work Protection Administration for workers displaced by AI.",
+   "deck": "Bill contents summarised in the report; only a summary, not the bill text, is available here.",
+   "quote": "The legislation would impose a levy on leading AI companies and channel the proceeds into a new Work Protection Administration for displaced workers.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "politico.com",
+     "u": "https://www.politico.com/live-updates/2026/08/06/congress/house-democrats-pitch-ai-tax-to-fund-worker-protections-01027694",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-18",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "The National Assn. of Black Journalists presented ESPN 'First Take' host Stephen A. Smith with its annual 'Thumbs Down' award at its convention on Saturday, citing a recurring public pattern of disparaging commentary directed at prominent Black women across politics, sports and media.",
+   "deck": "An award announced at a public convention with the organisation's statement quoted in the report.",
+   "quote": "Stephen A. Smith received the equivalent of a failing grade Saturday from the National Assn. of Black Journalists, which blasted his consistent takedowns of Black female politicians.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "latimes.com",
+     "u": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "democrats-2028-primary-calendar-2026-08-16-19",
+   "kind": "wire",
+   "beats": [
+    "democrats-2028-primary-calendar"
+   ],
+   "stamp": "documented",
+   "title": "Smith, who accused Democratic Rep. Jasmine Crockett of Texas last September of using 'street verbiage' in her criticisms of President Trump, said last week that Trump-backed Florida gubernatorial candidate Byron Donalds might prompt him to switch his political affiliation from Democrat to Republican.",
+   "deck": "Public statements by a public figure recounted in the report; the switch itself is described only as a possibility.",
+   "quote": "he also praised the president, and said last week that Trump-backed Florida gubernatorial candidate Byron Donalds might prompt him to change his political affiliation from Democrat to Republican.",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "latimes.com",
+     "u": "https://www.latimes.com/entertainment-arts/tv/story/2026-08-16/stephen-a-smith-lashes-out-after-receiving-nabj-thumbs-down-award",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

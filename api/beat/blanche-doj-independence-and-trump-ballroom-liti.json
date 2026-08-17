@@ -4,7 +4,7 @@
   "name": "DOJ independence under Attorney General Blanche",
   "dossiers": [],
   "types": [],
-  "status": "quiet",
+  "status": "moved",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
   "events": 20,
@@ -95,5 +95,527 @@
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "Attorney General Todd Blanche said on Sunday that he would not pledge always to act independently of the White House.",
+   "deck": "Direct quotation of an on-record broadcast interview, but reported second-hand by a news outlet, which caps confidence at 0.6.",
+   "quote": "“No, I’m not going to pledge that,” he said when asked about the topic by NBC’s Meet the Press host, Kristen Welker.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-01",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "open",
+   "title": "Blanche said no attorney general should ever pledge independence from the White House.",
+   "deck": "An identified public official's stated position, characterized in a news headline rather than a full transcript.",
+   "quote": "US attorney general says no one in his role ‘should ever’ make this vow amid concern over Trump steering DoJ",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "theguardian.com",
+     "u": "https://www.theguardian.com/us-news/2026/aug/16/todd-blanche-doj-independence-trump-white-house",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "open",
+   "title": "Blanche said President Trump has not asked him to prosecute specific individuals and will not do so.",
+   "deck": "An assertion by an identified official about facts not independently verified; the outlet itself uses the hedging verb 'claimed'.",
+   "quote": "he claimed the president has not and will not ask him to prosecute specific individuals",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "Blanche drew a distinction between committing to investigate any case and committing to act independently of the White House.",
+   "deck": "Direct quotation from the interview, though the summary truncates the sentence mid-thought.",
+   "quote": "“There's a big difference between saying we will always do our job and investigate any case and act independently of the White House. No,...",
+   "tier": "documented_fact",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "thehill.com",
+     "u": "https://thehill.com/homenews/administration/6032206-blanche-rejects-independence-pledge/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "open",
+   "title": "Blanche said Trump's views can be a factor in prosecution decisions.",
+   "deck": "Attributed characterization of an official's on-record remarks in a headline; wording is the outlet's, not a verbatim quote of Blanche.",
+   "quote": "Trump's views can factor into prosecutions, Attorney General Todd Blanche says",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "Blanche's refusal to pledge independence was reported across Axios, The New York Times, CNN, The Hill and the Washington Post.",
+   "deck": "The cluster listing itself is the evidence of multi-outlet coverage; no interpretation required.",
+   "quote": "Blanche Refuses to Say He’ll Always Be Independent of Trump as Attorney General    The New York Times Blanche declines to pledge independence from the White House    CNN",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10SzdSZUZuNEVRWmtycDdjWFRsRUhoZ0dlXzdZa2Y4X0dCdWFNYUVacXVtWEJCeUNiQkJhdG4tdEROQldYSTdEQ0Y2OXRmTkZJdEcycGd6N2pld3RiS3ZZTW9lM1JrWEJfTWk4V0xHTklBNjJhcmlV?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "open",
+   "title": "Blanche said he does not believe it would be best for the FBI to take over the investigation into a disappearance in Arizona.",
+   "deck": "Reported statement of an identified official's stated judgment; not independently documented.",
+   "quote": "Attorney General Todd Blanche said he doesn’t believe it would be the best course of action for the FBI to take over the investigation",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "open",
+   "title": "Blanche said the FBI will continue providing assistance on the Arizona investigation but that he has no updates.",
+   "deck": "Official's own account of federal involvement, reported by one outlet without corroborating documentation.",
+   "quote": "Todd Blanche says FBI will continue providing assistance on Nancy Guthrie investigation but doesn’t have any updates",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-08",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "open",
+   "title": "Trump said the White House needs a 'military complex'.",
+   "deck": "Quoted phrase attributed to a public official in a headline; the surrounding assertion is the outlet's framing.",
+   "quote": "Trump says White House needs ‘military complex’ as courts block his ballroom",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "Courts have blocked construction of the White House ballroom.",
+   "deck": "Describes the outcome of court proceedings, reported consistently across the cluster; capped at the news ceiling.",
+   "quote": "as courts block his ballroom",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti",
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "stamp": "documented",
+   "title": "The Trump administration has asked the Supreme Court to allow White House ballroom construction to continue.",
+   "deck": "A filing with a named court, reported by multiple outlets in the same cluster; news ceiling applies.",
+   "quote": "Trump Administration Asks Supreme Court to Greenlight White House Ballroom",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "open",
+   "title": "The Supreme Court's emergency docket has become active again.",
+   "deck": "A headline characterization of docket activity, not a documented count of filings or orders.",
+   "quote": "Supreme Court emergency docket roars back",
+   "tier": "question",
+   "confidence": 0.4,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.4, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "misc",
+     "c": "0.4"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-12",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "Blanche said on 16 August 2026 that federal investigators are supplying state and local law enforcement with manpower and forensic assistance in an Arizona disappearance case, but that taking the investigation over with sharp elbows would not necessarily be the right course.",
+   "deck": "Verbatim statement from the attorney general in a broadcast interview.",
+   "quote": "We are working as hard as we can with the state and local law enforcement in every area, and that means not only providing assistance with manpower, but any sort of forensic assistance",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-13",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "The FBI is offering a reward of up to $100,000 for information in the Arizona abduction case, which was opened in February 2026 and has since been led by state and local authorities with federal agents assisting in certain areas.",
+   "deck": "A published reward figure and lead-agency arrangement reported directly, the second sourced to Wall Street Journal reporting cited in the piece.",
+   "quote": "The FBI is offering up to a $100,000 reward for information in this case",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-14",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "In February 2026, days after the disappearance, President Trump wrote on Truth Social that he was directing all federal law enforcement to be at the complete disposal of the family and of local law enforcement immediately.",
+   "deck": "Verbatim quotation of a dated public post by the president.",
+   "quote": "I am directing ALL Federal Law Enforcement to be at the family’s, and Local Law Enforcement’s, complete disposal, IMMEDIATELY,",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "nbcnews.com",
+     "u": "https://www.nbcnews.com/news/us-news/todd-blanche-best-course-fbi-takeover-nancy-guthrie-investigation-rcna592784",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-15",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "The Trump administration has asked the Supreme Court to allow the White House ballroom project to proceed after courts blocked it, with Trump saying the White House needs a military complex, according to reporting published on 16 August 2026.",
+   "deck": "Drawn from aggregated headlines rather than body text, so the filing itself is not described in the source.",
+   "quote": "Trump Administration Asks Supreme Court to Greenlight White House Ballroom",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "New renderings of the White House East Wing published on 16 August 2026 reveal gold additions to the design, part of a project Trump has described as shifting from his dream of beauty and space to a military complex.",
+   "deck": "Headline-level sourcing only; the renderings are not described in the available text.",
+   "quote": "New White House East Wing renderings reveal gold additions",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-17",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "House Democratic leader Hakeem Jeffries has named restoring voting rights and reforming the Supreme Court as top priorities for Democrats, as liberals push a slate of proposals for overhauling the court, reported on 16 August 2026.",
+   "deck": "Aggregated headline text attributing a named position to an identified official, without body detail.",
+   "quote": "Hakeem Jeffries: Restoring voting rights, reforming Supreme Court top priorities for Democrats",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-18",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "Democrats have vowed to rein in the Supreme Court's shadow docket if they retake Congress, one of several overhaul plans circulating among liberals angry at the court, according to reporting compiled on 16 August 2026.",
+   "deck": "Headline-level sourcing; the vow is attributed collectively rather than to a named member on the record.",
+   "quote": "Democrats vow to rein in Supreme Court’s ‘shadow’ docket if they retake Congress",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQVhWQUJkcFVLbU0tWnYyTWd2S0NDWDNlbnBTNGJmNDBZNzhiWUVieHVrR1VIdWlOYWVQNEZVVlFmbjY2UDZpUWYyeVNBRmZrZ01kSWlpYWYyUGp3MVdMYlgycmRuOFZhdWdkc0hVS2JDWFZsdEJ6RkF6dW9xTDFmd00xeGJYU1VWSFNVeC0wU1ZVT2Vmc3d6alhEQVZ4eWFvd3JPek9xYmlmNm9ycjUyaW1fRWlnYlZxRWxERTdERXVrVG1s?oc=5",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19",
+   "kind": "wire",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti"
+   ],
+   "stamp": "documented",
+   "title": "A shortage of some munitions, together with problems aboard the USS Lincoln, has put the Trump administration on the defensive, according to an NPR week-in-politics segment broadcast on 15 August 2026.",
+   "deck": "A summary-level characterisation from a political discussion segment with no underlying documentation cited.",
+   "quote": "A shortage of some munitions as well as the problems with the USS Lincoln have the Trump administration on the defensive.",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

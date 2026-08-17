@@ -1,56 +1,64 @@
 {
-  "name": "Tropical Storm Lala in Hawaii",
+  "name": "Hurricane Lala's Hawaii aftermath",
   "slug": "tropical-storm-lala-in-hawaii",
-  "opened": true,
-  "reason": "9 events over 5 days (GDELT: 6 days of coverage over 5d)",
-  "events": 9,
-  "span_days": 5,
+  "opened": false,
+  "reason": "span unknown: the history lookup failed and the wire alone sees 2 day(s). Deferred rather than rejected — this may open once the lookup succeeds. [HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 10,
+  "span_days": 2,
   "state_fields": [
     "Storm status",
-    "Deaths",
+    "Confirmed storm deaths",
     "Customers without power",
+    "Homes damaged or lost",
     "Search and rescue",
     "Warnings in effect",
     "Big Island airports",
-    "Forecast intensity"
+    "National Guard deployed",
+    "Forecast intensity",
+    "Hospitals on generator power"
   ],
   "dated_trigger": null,
   "publishers": [
-    "aljazeera.com",
     "bbc.co.uk",
     "cbsnews.com",
-    "cnn.com",
     "courthousenews.com",
     "independent.co.uk",
     "latimes.com",
+    "nbcnews.com",
     "npr.org",
-    "pbs.org"
+    "pbs.org",
+    "sfchronicle.com"
   ],
   "articles": [
     {
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc2toQ3FCZUlPcXc4NUlxMk9ZYnFGSVUxVmdRWUZBOWhIUUFXT19WeU9mN3FTX1RyLUdDTmdmVEtfZm5JQTB2MUIwRlUwX05uUlFndUpEU0VBZVlIbjFQaVl1WEprUURYdDlkNjZuZkQwV1lnd3dxc2k2SlA2NGJwRFc1Z3dtSDlhZVl6N1BCWGhkS0QtVDBUTQ?oc=5",
+      "title": "Hurricane Lala cuts power to thousands in Hawaii — rural outages could last months - San Francisco Chronicle",
+      "publisher": "sfchronicle.com"
+    },
+    {
       "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/",
-      "title": "Tropical Storm Lala brings drenching rain, wind across the Hawaiian Islands",
+      "title": "Tropical Storm Lala drenches Hawaii as flash floods sweep away Big Island homes",
       "publisher": "cbsnews.com"
     },
     {
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbmpEVXJEX2N4YlowWkpRRVRFX25rNUFKTDNoSTl0Rl9xNGV0R3dCcU5ReTgyZnI1ZFdNSmJmMzRvaXg2cnBqQ0Rob3l0RlJUTnhjQVIyV2xhR0tFSkJCa2tvdi1sdlVpdHI1TTBXeEtSUktPMVROWU5aOXFZTGFxa05CS3Q1YWc?oc=5",
-      "title": "Thousands without power and at least 100 homes damaged after Tropical Storm Lala starts to move away from Hawaii - CNN",
-      "publisher": "cnn.com"
+      "url": "https://www.cbsnews.com/video/hurricane-lala-hits-hawaii-weakens-tropical-storm/",
+      "title": "Hurricane Lala hits Hawaii, weakens to tropical storm",
+      "publisher": "cbsnews.com"
     },
     {
       "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
-      "title": "One dead, homes swept away after Hurricane Lala lashes Hawaii",
+      "title": "About 100 homes swept away after Hurricane Lala lashes Hawaii",
       "publisher": "bbc.co.uk"
+    },
+    {
+      "url": "https://www.nbcnews.com/nightly-news/video/hawaii-flooded-by-lala-with-thousands-without-power-268377669819",
+      "title": "Hawaii flooded by Lala with thousands without power",
+      "publisher": "nbcnews.com"
     },
     {
       "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
       "title": "Lala is again a tropical storm, sending drenching rain and winds across Hawaii",
       "publisher": "npr.org"
-    },
-    {
-      "url": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
-      "title": "Hurricane Lala weakens to a tropical storm, but flooding persists in Hawaii",
-      "publisher": "aljazeera.com"
     },
     {
       "url": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
@@ -73,7 +81,12 @@
       "publisher": "courthousenews.com"
     }
   ],
-  "claims_found": 20,
-  "dropped": [],
+  "claims_found": 19,
+  "dropped": [
+    {
+      "claim": "Hawaii County said on Sunday that Lala's eyewall passed with",
+      "why": "quote does not appear in the cited article"
+    }
+  ],
   "no_state_reason": ""
 }

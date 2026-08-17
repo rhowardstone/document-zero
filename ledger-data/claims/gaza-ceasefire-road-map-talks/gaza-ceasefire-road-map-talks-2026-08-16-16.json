@@ -1,0 +1,14 @@
+{
+  "claim_text": "More than 73,000 people have been killed in Gaza since Israel launched its military campaign after the 7 October 2023 Hamas-led attack that killed about 1,200 people and took 251 hostage, according to the territory's health ministry, whose figures the UN considers reliable.",
+  "quote": "Israel responded to the attack by launching a military campaign in Gaza, during which more than 73,000 people have been killed, according to the territory&#x27;s health ministry, whose figures are considered reliable by the UN.",
+  "tier": "credible_allegation",
+  "confidence": 0.6,
+  "confidence_justification": "Institutional count carried by the BBC with a UN reliability assessment noted, but still a ministry figure rather than an independent audit.",
+  "source_sha": "1d1670d87b52dcba153d970b740899ac0e801133d3b240999c644bc8aabc5287",
+  "source_url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-16",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

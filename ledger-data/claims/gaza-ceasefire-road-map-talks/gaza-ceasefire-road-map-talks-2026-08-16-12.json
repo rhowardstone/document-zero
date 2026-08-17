@@ -1,0 +1,14 @@
+{
+  "claim_text": "Hamas said it fully adhered to the first phase of the ceasefire agreement while Israel \"failed to implement this phase, escalating its military operations on the ground and deepening the humanitarian catastrophe, and has explicitly rejected the roadmap\".",
+  "quote": "Israel, however, “failed to implement this phase, escalating its military operations on the ground and deepening the humanitarian catastrophe, and has explicitly rejected the roadmap”, Hamas added.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "A contested accusation by one belligerent about the other, quoted accurately but not independently verified.",
+  "source_sha": "15af370147571ac7e09321599749eb2fdeb2ccba4c92652beed0e3dfb7514463",
+  "source_url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-12",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

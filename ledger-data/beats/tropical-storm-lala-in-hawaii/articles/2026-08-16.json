@@ -1,0 +1,117 @@
+{
+  "beat": "tropical-storm-lala-in-hawaii",
+  "day": "2026-08-16",
+  "headline": "Lala weakens to tropical storm after knocking out power across Hawaii",
+  "standfirst": "Gov. Josh Green says at least one person died in a car accident on the Big Island; forecasters expect the storm to regain hurricane strength west of the islands.",
+  "dateline": "HONOLULU",
+  "published_at": "2026-08-17T03:44:58Z",
+  "paragraphs": [
+    {
+      "text": "Lala weakened from a hurricane to a tropical storm on Sunday after passing Hawaii without making landfall, while still producing hurricane-force gusts on the Big Island. More than 200,000 homes and businesses were without power by 10:30 a.m. local time on Sunday, according to the tracker poweroutage.us, including nearly two-thirds of all power customers on the Big Island.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-00",
+        "tropical-storm-lala-in-hawaii-2026-08-16-09",
+        "tropical-storm-lala-in-hawaii-2026-08-16-14"
+      ]
+    },
+    {
+      "text": "Gov. Josh Green said at least one person died in a car accident in the South Point area of the Big Island as Hurricane Lala passed on Aug. 15. Green said 19 roofs were lost and 190 flights were postponed. He also said three hospitals had already switched to generator power as the storm's winds and rain knocked out electricity across the islands over the weekend of Aug. 15-16.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-17",
+        "tropical-storm-lala-in-hawaii-2026-08-16-10"
+      ]
+    },
+    {
+      "text": "The National Hurricane Center reported that Lala intensified from a tropical storm into a Category 1 hurricane early on Saturday as its maximum sustained winds increased to 75 mph. The center issued a rare hurricane warning for the Big Island that day, where a landfall would have been the first in 155 years. Forecasters predicted up to 25 inches of rain at higher elevations.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-16",
+        "tropical-storm-lala-in-hawaii-2026-08-16-19"
+      ]
+    },
+    {
+      "text": "PBS NewsHour reported that authorities launched a search-and-rescue mission after flash floods appeared to sweep several occupied homes off their foundations in coastal communities. A separate news report said a search and rescue operation was underway in the Kaʻū District after several homes were swept off their foundations.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-01",
+        "tropical-storm-lala-in-hawaii-2026-08-16-02"
+      ]
+    },
+    {
+      "text": "The Honolulu Fire Department had launched dozens of weather-related responses by 2 a.m. local time on Sunday. They included 58 reports of downed trees, 39 blown roofs, 12 downed power lines, 12 arcing-wire situations and one swimmer rescue.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-13"
+      ]
+    },
+    {
+      "text": "Al Jazeera, citing Reuters, reported on Sunday that almost 130,000 utility customers had lost power as Lala weakened from a Category 1 hurricane to a tropical storm south of the islands. Hawaiian Electric warned customers on the evening of Saturday that hurricane-force winds and rain were hampering repair efforts, citing flooded roadways and downed trees blocking access. News reports said thousands of customers were without power and at least 100 homes had been damaged in Hawaii after Lala.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-11",
+        "tropical-storm-lala-in-hawaii-2026-08-16-12",
+        "tropical-storm-lala-in-hawaii-2026-08-16-03"
+      ]
+    },
+    {
+      "text": "Alaska Airlines and Hawaiian Airlines cancelled 54 inter-island flights and 11 trans-Pacific flights on Saturday because of the storm, with five of the cancelled trans-Pacific flights to or from Kona. Two schools on Hawaii Island closed following storm damage from Lala.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-18",
+        "tropical-storm-lala-in-hawaii-2026-08-16-04"
+      ]
+    },
+    {
+      "text": "Lala continued producing heavy rain and gusty winds over parts of Maui County and Oʻahu on Sunday. The National Hurricane Center advisory of Sunday said little change in intensity was expected through Monday, and forecasters expected Lala could become a hurricane again on Tuesday or Wednesday well west of the Hawaiian island chain.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-05",
+        "tropical-storm-lala-in-hawaii-2026-08-16-15"
+      ]
+    },
+    {
+      "text": "Hurricane Iniki, a Category 4 storm, was the last hurricane to hit Hawaii. It made landfall on the southern coast of Kauai in 1992 and caused six deaths and $3 billion in damage.",
+      "claims": [
+        "tropical-storm-lala-in-hawaii-2026-08-16-08"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "k": "Storm status",
+      "from": "",
+      "to": "Tropical storm, 65 mph, moving west-northwest",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Deaths",
+      "from": "",
+      "to": "One (vehicle crash); none confirmed storm-related",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Customers without power",
+      "from": "",
+      "to": "200,000–250,900",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Search and rescue",
+      "from": "",
+      "to": "Ongoing at Naalehu and Waiohinu",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Warnings in effect",
+      "from": "",
+      "to": "All eight main islands",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Big Island airports",
+      "from": "",
+      "to": "Reopened after Saturday closure",
+      "since": "2026-08-16"
+    }
+  ],
+  "written_by": "claude-code/reporter",
+  "verified_by": [
+    "entail-1",
+    "entail-2"
+  ],
+  "word_count": 482
+}

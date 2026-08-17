@@ -1,0 +1,74 @@
+{
+  "name": "Israeli settler expansion in the occupied West Bank",
+  "slug": "israeli-settler-expansion-in-the-occupied-west-b",
+  "opened": false,
+  "reason": "span unknown: the history lookup failed and the wire alone sees 2 day(s). Deferred rather than rejected — this may open once the lookup succeeds. [HTTPError: HTTP Error 429: Too Many Requests]",
+  "events": 9,
+  "span_days": 2,
+  "state_fields": [
+    "Outposts around Umm Safa and Burqa",
+    "Qusra siege",
+    "Palestinians besieged at Qusra",
+    "Utilities to besieged Qusra homes",
+    "Outposts West Bank-wide",
+    "Recorded 'nationalistic crime' cases, H1 2026",
+    "Al-Tuba arson investigation",
+    "Israeli election"
+  ],
+  "dated_trigger": null,
+  "publishers": [
+    "aljazeera.com",
+    "bbc.co.uk",
+    "independent.co.uk"
+  ],
+  "articles": [
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
+      "title": "Israeli settlers pitch tents for new illegal outpost in occupied West Bank",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT2JXY1pleGxvZm56Wl90V1NRSHBMYTd1bTBUcW9kal9oenpDS1hsX1YyTDZoUlZPeHBZeFpkNDA1SDdPbThib2YxZ1l4TF9lZlM2bU1iRTE1YmZQOWl3QUFjVzNNQXctZExPMnJLdzdHWnBBVVZpWDBTUTAtMFg0LWhIRy1vUmE3bG1QS1RUc0FCUTg2aFBqeVFZYnp3cE4xT1pyZ0NhaGlmSVZ4NVZLMVJ1d9IBuAFBVV95cUxPX05wcWVYdHB1bU03NmU2TU9rM2Y5TXdYNHR0MlVCeF9PRUtkUHhUZGs3T29HQkdmUjFfUXJlOTU3aFlvZHU3Ry12YXd6RWRRTGF5bmlVYk5tUUhiNGdBTWdQN1RnZndUVGZ3N1BQbWFmeTBDRzNKUXMydnRuU3h1R0RPaW4xXzlibXI3cTVidF9BcWJEYVlvbkdEQkRhb2l5WHJMUXNLTldLZm9NLVJxTDVtQTV6VXQ4?oc=5",
+      "title": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly - aljazeera.com",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/uns-albanese-israel-outsourcing-coercion-to-settlers-in-west-bank?traffic_source=rss",
+      "title": "UN’s Albanese: Israel outsourcing coercion to settlers in West Bank",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
+      "title": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/inside-story/2026/8/16/what-could-stop-israeli-settler-attacks-on-palestinians?traffic_source=rss",
+      "title": "What could stop Israeli settler attacks on Palestinians?",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-clip-erdogan-gaza-tr?traffic_source=rss",
+      "title": "Erdogan says Hamas acted sincerely, criticises Israeli attacks",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/erdogan-says-israeli-attacks-on-lebanon-are-a-serious-concern-for-turkiye?traffic_source=rss",
+      "title": "Erdogan says Israeli attacks on Lebanon are a serious concern for Türkiye",
+      "publisher": "aljazeera.com"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/middle-east/israeli-settler-attack-west-bank-fire-homes-children-inside-b3032645.html",
+      "title": "‘Israeli settlers set fire to my West Bank family home with children inside’",
+      "publisher": "independent.co.uk"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+      "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "publisher": "bbc.co.uk"
+    }
+  ],
+  "claims_found": 20,
+  "dropped": [],
+  "no_state_reason": ""
+}

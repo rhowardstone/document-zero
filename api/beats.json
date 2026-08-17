@@ -4,7 +4,7 @@
   {
    "id": "blanche-doj-independence-and-trump-ballroom-liti",
    "name": "DOJ independence under Attorney General Blanche",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 20,
@@ -22,7 +22,7 @@
   {
    "id": "democrats-2028-primary-calendar",
    "name": "Democrats' 2028 calendar and party direction",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 28,
@@ -30,17 +30,17 @@
   },
   {
    "id": "gaza-ceasefire-road-map-talks",
-   "name": "Trump's Gaza road map impasse",
-   "status": "quiet",
+   "name": "Trump Gaza road map talks",
+   "status": "moved",
    "dossiers": [],
    "types": [],
-   "events": 12,
+   "events": 17,
    "lastChange": "2026-08-16"
   },
   {
    "id": "indiana-record-flooding-august-2026",
    "name": "Indiana record flooding and recovery",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 48,
@@ -58,7 +58,7 @@
   {
    "id": "nm-records",
    "name": "Nm records",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 28,
@@ -66,8 +66,8 @@
   },
   {
    "id": "tropical-storm-lala-in-hawaii",
-   "name": "Tropical Storm Lala in Hawaii",
-   "status": "quiet",
+   "name": "Hurricane Lala's Hawaii aftermath",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 20,
@@ -84,8 +84,8 @@
   },
   {
    "id": "trump-s-executive-actions-and-mounting-pushback",
-   "name": "Trump's second term before the 2026 midterms",
-   "status": "quiet",
+   "name": "Trump's standing before the 2026 midterms",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 20,
@@ -94,7 +94,7 @@
   {
    "id": "us-iran-war-and-hormuz-blockade",
    "name": "US–Iran war and Hormuz blockade",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 45,
@@ -103,7 +103,7 @@
   {
    "id": "uss-abraham-lincoln-deployment-conditions",
    "name": "USS Abraham Lincoln deployment conditions",
-   "status": "quiet",
+   "status": "moved",
    "dossiers": [],
    "types": [],
    "events": 40,

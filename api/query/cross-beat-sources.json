@@ -2,6 +2,36 @@
  "query": "cross-beat-sources",
  "question": "Which single sources inform more than one beat?",
  "method": "sources grouped by URL across published records; those whose beat set has more than one member. A source spanning beats is either a genuine connection or a routing error, and both are worth seeing.",
- "count": 0,
- "results": []
+ "count": 2,
+ "results": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVAyWkp4bHp3dG43b091aHRldFRfcUpIN2hma212NDRWWFp0Nk5IVXRoQ3ZTRnktdlRUUG5WNUE4RGd4X0NvVW5SeWllUkRFSHo2bmxRNUxUaGlyYjlyd0wwMGdwSWNTTVlmOHZ2SGRWODZVc2lKRzQtRDVvU2JIMm82TmROTUx5d2x0akl3WlM0LWNGVm92OG5vWWxrQVJ5aXBaWVRtTnBZajl0d0hIdUxla2NzM3QxNENIZy16aE8?oc=5",
+   "publisher": "news.google.com",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti",
+    "trump-s-executive-actions-and-mounting-pushback"
+   ],
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-08",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-11",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-15",
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16",
+    "trump-s-executive-actions-and-mounting-pushback-2026-08-16-00"
+   ]
+  },
+  {
+   "url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
+   "publisher": "npr.org",
+   "beats": [
+    "blanche-doj-independence-and-trump-ballroom-liti",
+    "democrats-2028-primary-calendar"
+   ],
+   "records": [
+    "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19",
+    "democrats-2028-calendar-and-party-direction-2026-08-16-07"
+   ]
+  }
+ ]
 }

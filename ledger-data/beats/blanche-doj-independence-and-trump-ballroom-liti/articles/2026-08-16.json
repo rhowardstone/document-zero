@@ -1,0 +1,117 @@
+{
+  "beat": "blanche-doj-independence-and-trump-ballroom-liti",
+  "day": "2026-08-16",
+  "headline": "Blanche refuses to pledge Justice Department independence from the White House",
+  "standfirst": "The attorney general says no one in his job should make such a pledge; his remarks were carried by Axios, the New York Times, CNN, The Hill and the Washington Post.",
+  "dateline": "WASHINGTON",
+  "published_at": "2026-08-17T03:42:29Z",
+  "paragraphs": [
+    {
+      "text": "Attorney General Todd Blanche said on Sunday that he would not pledge always to act independently of the White House. He drew a distinction between committing to investigate any case and committing to act independently of the White House.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-00",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-03"
+      ]
+    },
+    {
+      "text": "According to the Guardian, Blanche said no attorney general should ever pledge independence from the White House. The Hill reported that Blanche said President Trump has not asked him to prosecute specific individuals and will not do so. Blanche said Trump's views can be a factor in prosecution decisions, according to a news report aggregated on Sunday.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-01",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-02",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-04"
+      ]
+    },
+    {
+      "text": "Blanche's refusal to pledge independence was reported across Axios, The New York Times, CNN, The Hill and the Washington Post.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-05"
+      ]
+    },
+    {
+      "text": "Blanche said on 16 August 2026 that federal investigators are supplying state and local law enforcement with manpower and forensic assistance in an Arizona disappearance case, but that taking the investigation over with sharp elbows would not necessarily be the right course. NBC News reported that Blanche said he does not believe it would be best for the FBI to take over the investigation into the disappearance. NBC News also reported that Blanche said the FBI will continue providing assistance on the Arizona investigation, but that he has no updates.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-12",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-06",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-07"
+      ]
+    },
+    {
+      "text": "The FBI is offering a reward of up to $100,000 for information in the Arizona abduction case. The case was opened in February 2026 and has since been led by state and local authorities, with federal agents assisting in certain areas. In February 2026, days after the disappearance, Trump wrote on Truth Social that he was directing all federal law enforcement to be at the complete disposal of the family and of local law enforcement immediately.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-13",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-14"
+      ]
+    },
+    {
+      "text": "Courts have blocked construction of the White House ballroom. The Trump administration has asked the Supreme Court to allow the ballroom construction to continue. Reporting published on 16 August 2026 said the administration has asked the Supreme Court to allow the project to proceed after courts blocked it, with Trump saying the White House needs a military complex.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-09",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-10",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-15"
+      ]
+    },
+    {
+      "text": "New renderings of the White House East Wing published on 16 August 2026 reveal gold additions to the design. The renderings are part of a project Trump has described as shifting from his dream of beauty and space to a military complex.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-16"
+      ]
+    },
+    {
+      "text": "House Democratic leader Hakeem Jeffries has named restoring voting rights and reforming the Supreme Court as top priorities for Democrats, according to reporting on 16 August 2026, as liberals push a slate of proposals for overhauling the court. Democrats have vowed to rein in the Supreme Court's shadow docket if they retake Congress, one of several overhaul plans circulating among liberals angry at the court.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-17",
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-18"
+      ]
+    },
+    {
+      "text": "An NPR week-in-politics segment broadcast on 15 August 2026 said a shortage of some munitions, together with problems aboard the USS Lincoln, has put the Trump administration on the defensive.",
+      "claims": [
+        "blanche-doj-independence-and-trump-ballroom-liti-2026-08-16-19"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "k": "Attorney general",
+      "from": "",
+      "to": "Blanche, confirmed 50-49",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Pledge of DOJ independence",
+      "from": "",
+      "to": "Refused",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "$1.8bn anti-weaponization fund",
+      "from": "",
+      "to": "Declared dead",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Voter-roll litigation",
+      "from": "",
+      "to": "20+ straight defeats, continuing",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "White House ballroom construction",
+      "from": "",
+      "to": "Blocked by courts",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Supreme Court application on ballroom",
+      "from": "",
+      "to": "Filed, pending",
+      "since": "2026-08-16"
+    }
+  ],
+  "written_by": "claude-code/reporter",
+  "verified_by": [
+    "entail-1",
+    "entail-2"
+  ],
+  "word_count": 477
+}

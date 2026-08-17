@@ -3,31 +3,23 @@
   "as_of": "2026-08-16",
   "fields": [
     {
-      "k": "Gaza ceasefire",
-      "v": "Stalled",
-      "since": "2026-08-16",
-      "claims": [
-        "gaza-ceasefire-road-map-talks-2026-08-16-00"
-      ]
-    },
-    {
       "k": "Netanyahu position on 15-point road map",
-      "v": "Rejected, last week",
+      "v": "Rejected, as of last week",
       "since": "2026-08-16",
       "claims": [
         "gaza-ceasefire-road-map-talks-2026-08-16-00"
       ]
     },
     {
-      "k": "Kushner–Netanyahu meeting",
-      "v": "Set for Monday",
+      "k": "Hamas position on road map",
+      "v": "Accepted; conditions on Israeli pullback",
       "since": "2026-08-16",
       "claims": [
         "gaza-ceasefire-road-map-talks-2026-08-16-00"
       ]
     },
     {
-      "k": "Hamas disarmament",
+      "k": "14-day negotiation period",
       "v": "Not started",
       "since": "2026-08-16",
       "claims": [
@@ -35,8 +27,32 @@
       ]
     },
     {
-      "k": "Israeli withdrawal",
-      "v": "Not started",
+      "k": "Israeli territorial control in Gaza",
+      "v": "About 60%",
+      "since": "2026-08-16",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Palestinian technocratic committee",
+      "v": "Not yet in Gaza",
+      "since": "2026-08-16",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Post-ceasefire Palestinian death toll",
+      "v": "More than 1,200",
+      "since": "2026-08-16",
+      "claims": [
+        "gaza-ceasefire-road-map-talks-2026-08-16-00"
+      ]
+    },
+    {
+      "k": "Kushner-Netanyahu meeting",
+      "v": "Scheduled Monday",
       "since": "2026-08-16",
       "claims": [
         "gaza-ceasefire-road-map-talks-2026-08-16-00"
@@ -44,15 +60,15 @@
     },
     {
       "k": "Israeli strikes in Gaza",
-      "v": "Ongoing",
+      "v": "Resumed in past few days",
       "since": "2026-08-16",
       "claims": [
         "gaza-ceasefire-road-map-talks-2026-08-16-00"
       ]
     },
     {
-      "k": "Cairo mediator track",
-      "v": "Egypt, Qatar, Turkey engaged",
+      "k": "Israeli election",
+      "v": "27 October",
       "since": "2026-08-16",
       "claims": [
         "gaza-ceasefire-road-map-talks-2026-08-16-00"

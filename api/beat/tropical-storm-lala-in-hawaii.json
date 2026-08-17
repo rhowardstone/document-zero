@@ -1,10 +1,10 @@
 {
  "beat": {
   "id": "tropical-storm-lala-in-hawaii",
-  "name": "Tropical Storm Lala in Hawaii",
+  "name": "Hurricane Lala's Hawaii aftermath",
   "dossiers": [],
   "types": [],
-  "status": "quiet",
+  "status": "moved",
   "opened": "2026-08-16",
   "lastChange": "2026-08-16",
   "events": 20,
@@ -95,5 +95,526 @@
   "questions": [],
   "triggers": []
  },
- "records": []
+ "records": [
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-00",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Lala weakened from a hurricane to a tropical storm on Sunday after passing Hawaii without making landfall, while still producing hurricane-force gusts on the Big Island.",
+   "deck": "Storm classification is an official designation reported consistently by four separate wire outlets in this cluster; at the news ceiling of 0.6.",
+   "quote": "Hurricane Lala weakened to a tropical storm Sunday after skirting Hawaii without making landfall, but it wasn't done punishing the Big Island with hurricane-force gusts.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-01",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "open",
+   "title": "Authorities launched a search-and-rescue mission after flash floods appeared to sweep several occupied homes off their foundations in coastal communities.",
+   "deck": "Attributed to unnamed authorities and hedged with 'apparently' in the source itself; below the news ceiling because the report does not settle what happened to the homes.",
+   "quote": "A search-and-rescue mission was launched after flash floods apparently swept several occupied homes off their foundations in coastal communities, authorities said.",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-02",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "open",
+   "title": "A search and rescue operation is underway in the Ka‘ū District after several homes were swept off their foundations.",
+   "deck": "Reaches this cluster as an aggregated local-outlet headline (Big Island Now) inside an NPR roundup, with no attribution shown; corroborated in substance by the PBS report but not independently documented here.",
+   "quote": "UPDATE: Search and rescue operation underway after several homes swept off foundations in Ka‘ū District",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-03",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "open",
+   "title": "Thousands of customers are without power and at least 100 homes have been damaged in Hawaii after Lala.",
+   "deck": "Damage and outage counts appear only as an aggregated CNN headline within the AP roundup, with no underlying utility or county record cited; figures of this kind move during an active storm.",
+   "quote": "Thousands without power and at least 100 homes damaged after Tropical Storm Lala lashes Hawaii",
+   "tier": "credible_allegation",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-04",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Two schools on Hawaii Island closed following storm damage from Lala.",
+   "deck": "A school closure is an administrative action a district records, and the count is specific; slightly below ceiling because the cluster carries only an aggregated headline (Hawaii News Now) rather than the district notice itself.",
+   "quote": "School closures: 2 on Hawaii Island closed following Lala storm damage",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbG5Gem5FcEFWU0VtZHpMYTgyVEd5aVY0LUV4SGZNVEMxd3BXUlJsYnY5QXNhU0lfaVAxTy1yUlB6Rlh5aUVQeFIyX2xiU09kS0x0bTZlbklDTk1NLURZcWlldlRDeC1OVDZfTVVKc01CeFJZVnJkNUF1VzdjQmt2N3RxTjQ4UQ?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-05",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Lala continued producing heavy rain and gusty winds over parts of Maui County and Oʻahu on Sunday.",
+   "deck": "Observed weather conditions reported by a local outlet (Maui Now) and consistent with the CBS, NPR and PBS reports; below ceiling because it arrives as an aggregated headline.",
+   "quote": "Lala continues to bring heavy rain, gusty winds over parts of Maui County and Oʻahu",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "news.google.com",
+     "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHJWdmptUWhHamR5OFQ2ckI0Qlk5YjRIcnBNa1dCdzNBaktSdnNtdHhLNHFZNlE3VHZWa1JMWVpMTWN2dkhuemhVT1VRSGxLNXRYZ2M3aHB2cnpvZW5nS2FqMHBsTXpHVGNqYWl5SXRfblFETEFTT3ExeTVYNEtBNlhrYnkzSi1tU3FKcGRSRmh5OHZvUFJ2LU9wZTJyUQ?oc=5",
+     "t": "misc",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-06",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "open",
+   "title": "While at hurricane strength, Lala passed near the Big Island and brought heavy rain, raising the prospect of life-threatening flooding and mudslides.",
+   "deck": "The rainfall is reported as observed, but the flooding and mudslide element is framed by the source as a 'possibility' rather than an established outcome.",
+   "quote": "As a hurricane, Lala skirted past Hawaii's Big Island, where it brought heavy rain and the possibility of life-threatening flooding and mudslides.",
+   "tier": "question",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier question, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "cbsnews.com",
+     "u": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-07",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "open",
+   "title": "On August 15, forecasters warned that Lala, then a tropical storm hitting the Big Island with heavy rain and strong winds, could strengthen into a hurricane.",
+   "deck": "A forecast attributed to identified forecasters and a prediction rather than a settled fact; the August 16 reports confirm the storm did reach hurricane strength, but this claim records the August 15 warning only.",
+   "quote": "Tropical Storm Lala brought heavy rain and strong winds to Hawaii’s Big Island as forecasters warned it could become a hurricane.",
+   "tier": "credible_allegation",
+   "confidence": 0.55,
+   "rounds": null,
+   "families": [],
+   "derived": "tier credible_allegation, confidence 0.55, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "courthousenews.com",
+     "u": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+     "t": "news",
+     "c": "0.55"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-08",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Hurricane Iniki, a Category 4 storm, was the last hurricane to hit Hawaii, making landfall on the southern coast of Kauai in 1992 and causing six deaths and $3bn in damage.",
+   "deck": "Historical record repeated across multiple reports in the cluster, including a direct quote from the governor elsewhere.",
+   "quote": "Iniki, a powerful category four storm, was the last hurricane to hit Hawaii back in 1992. It caused six deaths and $3bn in damage after making landfall on the southern coast of Kauai.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "bbc.co.uk",
+     "u": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-09",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "NPR reported that Hurricane Lala weakened to a tropical storm on Sunday 16 August 2026 after skirting Hawaii without making landfall, but continued to hit the Big Island with hurricane-force gusts.",
+   "deck": "Summary-only entry with no body text or named source in the record, though corroborated by other cluster reports.",
+   "quote": "Hurricane Lala weakened to a tropical storm Sunday after skirting Hawaii without making landfall, but it wasn't done punishing the Big Island with hurricane-force gusts.",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "npr.org",
+     "u": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-10",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Hawaii Governor Josh Green said three hospitals had already switched to generator power as Hurricane Lala's winds and rain knocked out electricity across the islands over the weekend of 15-16 August 2026.",
+   "deck": "Attributed in the article to the state governor speaking on record.",
+   "quote": "Three hospitals had already switched to generator power",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "aljazeera.com",
+     "u": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-11",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Almost 130,000 utility customers had lost power in Hawaii, Al Jazeera reported on 16 August 2026 citing Reuters, as Lala weakened from a Category 1 hurricane to a tropical storm south of the islands.",
+   "deck": "Second-hand wire figure that is substantially lower than counts reported the same day by other outlets, indicating differing snapshot times.",
+   "quote": "Almost 130,000 utility customers lost power, Reuters reported.",
+   "tier": "documented_fact",
+   "confidence": 0.5,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.5, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "aljazeera.com",
+     "u": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+     "t": "news",
+     "c": "0.5"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-12",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Hawaiian Electric warned customers on the evening of Saturday 15 August 2026 that hurricane-force winds and rain were hampering repair efforts, citing flooded roadways and downed trees blocking access.",
+   "deck": "Direct statement from the utility to its customers, reported as such.",
+   "quote": "Hawaiian Electric warned customers on Saturday evening that hurricane-force winds and rain hampered repair efforts, citing flooded roadways and downed trees.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "aljazeera.com",
+     "u": "https://www.aljazeera.com/news/2026/8/16/hurricane-lala-weakens-to-a-tropical-storm-but-flooding-persists-in-hawaii?traffic_source=rss",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-13",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "The Honolulu Fire Department had launched dozens of weather-related responses by 2 a.m. local time on Sunday 16 August 2026, including 58 reports of downed trees, 39 blown roofs, 12 downed power lines, 12 arcing-wire situations and one swimmer rescue.",
+   "deck": "Itemised tally issued in a written statement from the city of Honolulu.",
+   "quote": "The Honolulu Fire Department had launched dozens of weather-related responses by 2 a.m. local time Sunday, including 58 reports of downed trees, 39 blown roofs, 12 downed power lines, 12 arcing-wire situations and one swimmer rescue, according to a statement from the city.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-14",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "More than 200,000 homes and businesses were without power by 10:30 a.m. local time on Sunday 16 August 2026 according to tracker poweroutage.us, including nearly two-thirds of all power customers on the Big Island.",
+   "deck": "Time-stamped figure from a named outage tracker, consistent with other reports in the cluster.",
+   "quote": "More than 200,000 homes and businesses were without power by 10:30 a.m. local time, according to the utility tracker poweroutage.us. That included nearly two-thirds of the power customers on the Big Island.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-15",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "The National Hurricane Center advisory of Sunday 16 August 2026 said little change in intensity was expected through Monday, and forecasters expected Lala could become a hurricane again on Tuesday or Wednesday well west of the Hawaiian island chain.",
+   "deck": "Drawn from a published NHC advisory, though the content is itself a forecast rather than an observed condition.",
+   "quote": "The advisory said little change in storm intensity is expected through Monday and forecasters expect Lala could become a hurricane again on Tuesday or Wednesday well west of the island chain.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "pbs.org",
+     "u": "https://www.pbs.org/newshour/nation/lala-is-again-a-tropical-storm-sending-drenching-rain-and-winds-across-the-hawaiian-islands",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-16",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "The National Hurricane Center reported that Lala intensified from a tropical storm into a Category 1 hurricane early on Saturday 15 August 2026 as its maximum sustained winds increased to 75 mph.",
+   "deck": "Classification and wind speed attributed to the National Hurricane Center.",
+   "quote": "Lala intensified from a tropical storm into a hurricane early Saturday as its maximum sustained winds increased to 75 mph (120 kph), the hurricane center reported, making it a Category 1 hurricane.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "independent.co.uk",
+     "u": "https://www.independent.co.uk/news/world/americas/hurricane-lala-hawaii-big-island-b3033797.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-17",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Gov. Josh Green said at least one person died in a car accident in the South Point area of the Big Island, while 19 roofs were lost and 190 flights were postponed as Hurricane Lala passed on 15 August 2026.",
+   "deck": "On-record statement by the state governor giving specific damage counts.",
+   "quote": "Gov. Josh Green said at least one person died in a car accident in the South Point area of the Big Island, while 19 roofs were lost and 190 flights were postponed.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "independent.co.uk",
+     "u": "https://www.independent.co.uk/news/world/americas/hurricane-lala-hawaii-big-island-b3033797.html",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-18",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "Alaska Airlines and Hawaiian Airlines cancelled 54 inter-island flights and 11 trans-Pacific flights on Saturday 15 August 2026 because of the storm, with five of the cancelled trans-Pacific flights to or from Kona.",
+   "deck": "Carrier-level cancellation counts reported directly; the Kona detail appears in the following sentence of the same article.",
+   "quote": "Alaska Airlines and Hawaiian Airlines canceled 54 inter-island flights and 11 trans-Pacific flights Saturday because of the storm.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "latimes.com",
+     "u": "https://www.latimes.com/travel/story/2026-08-15/hurricane-lala-disrupts-los-angeles-flights-to-hawaii",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  },
+  {
+   "id": "tropical-storm-lala-in-hawaii-2026-08-16-19",
+   "kind": "wire",
+   "beats": [
+    "tropical-storm-lala-in-hawaii"
+   ],
+   "stamp": "documented",
+   "title": "The National Hurricane Center issued a rare hurricane warning for Hawaii's Big Island on Saturday 15 August 2026, where a landfall would have been the first in 155 years, with forecasters predicting up to 25 inches of rain at higher elevations.",
+   "deck": "Warning issuance is an official NHC action; the 25-inch rainfall forecast appears in the same article.",
+   "quote": "The National Hurricane Center issued a rare hurricane warning for the island, where it would be the first to make landfall in 155 years.",
+   "tier": "documented_fact",
+   "confidence": 0.6,
+   "rounds": null,
+   "families": [],
+   "derived": "tier documented_fact, confidence 0.6, survived ? verification round(s) on n/a",
+   "sources": [
+    {
+     "n": "courthousenews.com",
+     "u": "https://www.courthousenews.com/hawaiis-big-island-lashed-by-rain-and-wind-as-tropical-storm-lala-closes-in/",
+     "t": "news",
+     "c": "0.6"
+    }
+   ],
+   "corroboration": 1,
+   "questions": []
+  }
+ ]
 }

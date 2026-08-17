@@ -1,0 +1,14 @@
+{
+  "claim_text": "Al Jazeera reported that at least five Palestinians were injured on Sunday when an Israeli strike hit a tent encampment in Khan Younis, and that a separate air strike hit an apartment in the Nuseirat refugee camp in central Gaza, wounding several people, according to medics.",
+  "quote": "At least five Palestinians were injured on Sunday after an Israeli strike hit a tent encampment in Khan Younis, medics said. A separate air strike hit an apartment in the Nuseirat refugee camp in central Gaza, wounding several people, medics said.",
+  "tier": "credible_allegation",
+  "confidence": 0.55,
+  "confidence_justification": "Casualty figures attributed to unnamed medics on the day of the strike; initial counts commonly revise.",
+  "source_sha": "15af370147571ac7e09321599749eb2fdeb2ccba4c92652beed0e3dfb7514463",
+  "source_url": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-14",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

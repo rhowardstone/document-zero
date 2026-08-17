@@ -2,30 +2,37 @@
   "name": "USS Abraham Lincoln deployment conditions",
   "slug": "uss-abraham-lincoln-deployment-conditions",
   "opened": true,
-  "reason": "10 events over 19 days (GDELT: 12 days of coverage over 19d)",
-  "events": 10,
+  "reason": "11 events over 19 days (GDELT: 12 days of coverage over 19d)",
+  "events": 11,
   "span_days": 19,
   "state_fields": [
-    "Days at sea",
-    "Days since last port call",
+    "Days deployed",
+    "Days without port call",
+    "Lincoln status",
     "Relief carrier",
     "Carriers in Middle East",
     "Carriers in Pacific",
-    "Congressional action",
+    "Congressional inquiry",
     "Pentagon position",
-    "US military deaths in war"
+    "Navy position on mental health"
   ],
   "dated_trigger": null,
   "publishers": [
     "aljazeera.com",
     "bbc.co.uk",
     "cbsnews.com",
+    "independent.co.uk",
     "latimes.com",
     "npr.org",
     "theguardian.com",
     "thehill.com"
   ],
   "articles": [
+    {
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/joey-jones-fox-uss-lincoln-conditions-b3033959.html",
+      "title": "Fury erupts at Fox host who blasted ‘weak’ sailors on USS Abraham Lincoln: ‘Put him on that ship’",
+      "publisher": "independent.co.uk"
+    },
     {
       "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
       "title": "CENTCOM chief visits USS Abraham Lincoln amid morale concerns",
@@ -38,7 +45,7 @@
     },
     {
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONWcwLVRpOGozZy03czk4c0I1N2RSY1RmZWJXQmY0dzJUS3dzM1E3WHVTYkpHODN4TkdPOFowXzhQaDZrQ3FNLWMwZTJnLW9YZzh5VGJhNnlzU0FCZUVGUzZWdnlhdGxYNGJOOTNWRlczNGQzVmJvWVZoOHRfT004eGlMdnFJUdIBiwFBVV95cUxPRTVFNURYZFJKRWR0XzZOMnJmSThnLUJ1MzB2VVlHdURnWkY3MVJWbEljZm5Jd3hmX3pPMU45Q1JIemQ5enlRM1N0blNYcEpUTl9Fc3g4VzgzbS1nTnlUa0ZQak40VDk5MldkUGx1YUxaSk9qcW9CWXJVSzY5U1lrQjVtU3pTcGFoNU1R?oc=5",
-      "title": "Centcom commander addresses mental health concerns for troops on USS Abraham Lincoln - The Hill",
+      "title": "Centcom commander addresses mental health concerns for troops on USS Abraham Lincoln - thehill.com",
       "publisher": "thehill.com"
     },
     {

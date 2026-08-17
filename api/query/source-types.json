@@ -2,15 +2,19 @@
  "query": "source-types",
  "question": "What kinds of source is the record actually built on?",
  "method": "source_type of every source on every published record. The confidence ceiling follows from this distribution: a corpus of `news` and `misc` cannot produce high-confidence claims however clearly written.",
- "count": 2,
+ "count": 3,
  "results": [
   {
    "source_type": "news",
-   "sources": 15
+   "sources": 217
   },
   {
    "source_type": "misc",
-   "sources": 5
+   "sources": 52
+  },
+  {
+   "source_type": "documentation",
+   "sources": 15
   }
  ]
 }

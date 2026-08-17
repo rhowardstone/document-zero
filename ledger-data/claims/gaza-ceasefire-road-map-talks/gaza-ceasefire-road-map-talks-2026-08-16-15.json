@@ -1,0 +1,14 @@
+{
+  "claim_text": "Israel has killed more than 1,200 Palestinians in Gaza and wounded more than 4,100 since agreeing to the ceasefire on 10 October 2025, according to Gaza's health ministry.",
+  "quote": "Israel has killed more than 1,200 Palestinians in Gaza, and wounded more than 4,100 since agreeing to the ceasefire on 10 October 2025, according to Gaza’s health ministry.",
+  "tier": "credible_allegation",
+  "confidence": 0.6,
+  "confidence_justification": "Figures attributed to a named institutional source; the Guardian reports them as the ministry's count rather than as independently verified.",
+  "source_sha": "5629cd3d8a68d418eab15a46227693cc505a3842458a7824d46a1a80dc27f6db",
+  "source_url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+  "source_type": "news",
+  "id": "gaza-ceasefire-road-map-talks-2026-08-16-15",
+  "beat": "gaza-ceasefire-road-map-talks",
+  "extracted_by": "claude-code/desk",
+  "extracted_at": "2026-08-16T00:00:00Z"
+}

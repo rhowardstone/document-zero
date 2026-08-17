@@ -1,0 +1,129 @@
+{
+  "beat": "democrats-2028-primary-calendar",
+  "day": "2026-08-16",
+  "headline": "Democrats put South Carolina first on 2028 primary calendar",
+  "standfirst": "Nevada follows on Feb. 1, and Iowa loses the opening slot it traditionally held.",
+  "dateline": "WASHINGTON",
+  "published_at": "2026-08-17T03:40:16Z",
+  "paragraphs": [
+    {
+      "text": "The Democrats' 2028 presidential primary calendar makes South Carolina the leadoff state. South Carolina votes on Jan. 22, 2028. Nevada votes second, on Feb. 1.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-00",
+        "democrats-2028-primary-calendar-2026-08-16-01",
+        "democrats-2028-calendar-and-party-direction-2026-08-16-00"
+      ]
+    },
+    {
+      "text": "The new lineup displaces Iowa from its traditional first position. Reporting on the calendar has characterised it as giving Black and Latino voters and union members an early say.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-02",
+        "democrats-2028-calendar-and-party-direction-2026-08-16-01",
+        "democrats-2028-calendar-and-party-direction-2026-08-16-02"
+      ]
+    },
+    {
+      "text": "CBS News conducted a poll examining whether Democrats are split over socialism. A CBS News/YouGov poll found that the Democratic Party is seen by most voters as weak and not effective, with more than a third of Democrats describing their own party as weak. Most voters describe the Republican Party as extreme and also not effective.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-04",
+        "democrats-2028-primary-calendar-2026-08-16-08"
+      ]
+    },
+    {
+      "text": "About half of Democrats in the August 2026 CBS News/YouGov survey said their party is not progressive enough. That group is more liberal, views socialism more positively, and is less likely to say the party agrees with their views a lot on economic issues.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-09"
+      ]
+    },
+    {
+      "text": "CBS News reports that the poll found Americans think more young people in office would make politics better. CBS News also reports that Democrats are debating the future of the party during this summer's primaries.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-05",
+        "democrats-2028-calendar-and-party-direction-2026-08-16-03",
+        "democrats-2028-calendar-and-party-direction-2026-08-16-05"
+      ]
+    },
+    {
+      "text": "House Democrats in key leadership posts told the Los Angeles Times that groundwork is already being laid for investigations into the president's reported $2.2 billion in gains last year, the business ventures of Jared Kushner and Eric and Don Jr. Trump, and the family's crypto projects, should the party retake Congress in November.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-12"
+      ]
+    },
+    {
+      "text": "The Los Angeles Times reported that impeachment remains an option for House Democrats but that they are reluctant to make it a centerpiece of their agenda. Rep. Robert Garcia of Long Beach, the top Oversight Democrat, said the priority is to stop the harm and to investigate those helping the president. Rep. Jamie Raskin said Democrats will not play into the game.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-13"
+      ]
+    },
+    {
+      "text": "Rep. Sydney Kamlager-Dove of Los Angeles introduced articles of impeachment last week against White House budget director Russell Vought. She argued that he broke the law when the administration canceled federal funding to Democratic states, including California, for political reasons.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-14"
+      ]
+    },
+    {
+      "text": "Raskin, the top Judiciary Democrat, said anyone involved in Paramount's attempt to purchase Warner Bros. Discovery should be prepared to answer under oath. A lawyer for Paramount said the company was happy to cooperate with Democrats vowing a crackdown on the merger.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-16"
+      ]
+    },
+    {
+      "text": "House Democrats introduced legislation on Aug. 6 that would impose a levy on leading artificial intelligence companies. The bill would channel the proceeds into a new Work Protection Administration for workers displaced by AI.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-17"
+      ]
+    },
+    {
+      "text": "NPR reported on Aug. 14 that President Trump is pushing the boundaries of executive power to limit transparency within the executive branch, and that congressional Democrats are grappling with how to respond. NPR has also reported that a shortage of some munitions and problems with the USS Lincoln have put the Trump administration on the defensive.",
+      "claims": [
+        "democrats-2028-primary-calendar-2026-08-16-11",
+        "democrats-2028-calendar-and-party-direction-2026-08-16-06",
+        "democrats-2028-calendar-and-party-direction-2026-08-16-07"
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "k": "2028 leadoff primary state",
+      "from": "",
+      "to": "South Carolina, Jan. 22, 2028",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Calendar approval status",
+      "from": "",
+      "to": "Endorsed by DNC, 15 Aug",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Iowa's position",
+      "from": "",
+      "to": "Dropped from first",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Third Trump impeachment",
+      "from": "",
+      "to": "On table, not a priority",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "House oversight probes",
+      "from": "",
+      "to": "Groundwork being laid",
+      "since": "2026-08-16"
+    },
+    {
+      "k": "Time to midterms",
+      "from": "",
+      "to": "Under three months",
+      "since": "2026-08-16"
+    }
+  ],
+  "written_by": "claude-code/reporter",
+  "verified_by": [
+    "entail-1",
+    "entail-2"
+  ],
+  "word_count": 476
+}
