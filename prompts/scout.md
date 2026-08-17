@@ -95,9 +95,17 @@ Do not record a failed lookup as "one day" and reject the beat on that basis.
 Deferred and rejected are different outcomes, and a beat deferred for an
 unmeasured span may well open next run.
 
-**6. Retire what has gone quiet.** A beat with no field change for thirty days
-and no pending dated trigger closes. A beat awaiting a filing deadline is not
-dead, it is waiting — do not close it.
+**6. Retire what has gone quiet, on the tier's own clock.** `Standards.md` §10:
+`standing` closes after 30 quiet days, `watch` after 10. Quiet means **time since
+the last field change**, not time since the beat opened — `opened` is not the
+retirement clock.
+
+A beat with a pending dated obligation is not quiet, it is waiting, and closes on
+neither clock.
+
+**Promote a `watch` beat to `standing`** only if it passes the full beat test
+afresh. Demote a `standing` beat to `watch` when it has become event-driven and is
+plainly heading for resolution.
 
 Assign each surviving beat to a desk: **justice** (courts, dockets, the
 transparency corpus), **foreign** (wars, alliances, deployments), **politics**

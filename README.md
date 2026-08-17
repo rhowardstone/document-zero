@@ -2,13 +2,22 @@
 
 An automated newsroom. It reads public news wires, works out which stories have
 enough substance to track, writes them up, and checks every sentence it wrote
-against the evidence it cited. Anything it cannot support, it refuses to
-publish — and says that it refused.
+against the evidence it cited. Anything it cannot support, it does not publish.
 
 Live at **[doczero.epstein-data.com](https://doczero.epstein-data.com)**.
 
 No human reads the copy before it goes out. That is stated at the top of every
 page, because a reader is entitled to know what they are reading.
+
+> **Canonical architecture: [`prompts/README.md`](prompts/README.md).** This file
+> documents the original Python pipeline (`scripts/daily.py`, the claim ledger),
+> which still runs and still holds the verification discipline, but the newsroom is
+> the nine scheduled routines. Where the two disagree, the prompts win.
+>
+> Editorial rules live in **[`Standards.md`](Standards.md)** and the roster in
+> **`beats.yaml`**. Neither this file nor any prompt restates a rule from
+> Standards; they reference it, because duplicated policy prose is how the
+> private-litigant rule ended up contradicting itself.
 
 ## What makes it different from a summariser
 
@@ -39,8 +48,8 @@ truncated headline — and never an over-strict check.
 
 A beat is a unit of *persistent state*, not a subject heading. It opens only if
 its story has at least three events over five days, or one dated trigger, **and**
-at least two fields whose values tomorrow's news could change. It closes after
-thirty quiet days.
+at least two fields whose values tomorrow's news could change. A `standing`
+beat closes after thirty quiet days, a `watch` beat after ten.
 
 Beats are proposed by a scout reading the wire and are opened by that test.
 Nothing is hardcoded — an earlier version had 22 beats typed into a config file,
@@ -61,7 +70,7 @@ say *"I could not measure this"* instead.
 
 ```bash
 python3 scripts/daily.py --day $(date -u +%F)     # the whole pipeline
-python3 -m pytest tests/ -q                        # 650 tests
+python3 -m pytest tests/ -q                        # 728 tests
 ```
 
 Costs nothing. Every model call goes through the Claude Code CLI on a

@@ -92,10 +92,9 @@ beats:
         what: New Mexico truth commission subpoena returns
         why: Began 1 June 2026 with subpoena power over the Zorro Ranch period.
         authority: New Mexico truth commission public filings
-      - date: 2026-11-03
-        what: Texas Comptroller election
-        why: The property's owner is a candidate; the office oversees state finances.
-        authority: Texas Secretary of State election returns
+      # The Texas Comptroller election was listed here and would have fired a
+      # New Mexico records Delta for a Texas election. If it is a beat, it is its
+      # own; it is not a deadline on this one.
 
   # Split from blanche-doj-independence-and-trump-ballroom-liti, which yoked DOJ
   # independence to White House ballroom construction. Shared entities beyond
@@ -122,7 +121,9 @@ beats:
       - Construction status
       - District court posture
       - Supreme Court application
-      - Named plaintiffs
+      # "Named plaintiffs" invited collecting identities that Standards.md §6 may
+      # forbid publishing. Party status alone does not make a person public.
+      - Injunction status
 
   - slug: compliance
     name: DOJ compliance with the Transparency Act
@@ -145,7 +146,9 @@ beats:
       - Strait of Hormuz shipping
       - UAE tankers struck in past week
       - Oil price
-      - US carrier presence in western Pacific
+      # Carrier presence lives on uss-abraham-lincoln-... — duplicated state
+      # across two beats produces two updates that can contradict each other.
+      - Sanctions and economic measures
 
   - slug: uss-abraham-lincoln-deployment-conditions
     name: USS Abraham Lincoln deployment conditions

@@ -27,9 +27,15 @@ succeeded, a secondary channel didn't.
 
 ## Each run
 
-**0. You run after the critic, not merely after the delta.** If the critic has
-filed an unresolved issue against the Delta you are about to carry, stop and say
-so in the email instead of drafting. A page can be corrected; an inbox cannot.
+**0. Require a GREEN CRITIC CHECK for the exact Delta you are carrying.** Not the
+absence of a complaint — a positive `critic/delta` Check passing against that
+Delta's blob SHA. A clean critic run files nothing, so silence is equally
+consistent with the critic never having run, and treating silence as clean is how
+an unaudited issue reaches inboxes.
+
+No green Check for that exact hash: stop, and say so in the email. An unresolved
+critic issue against it: stop, and say so. A page can be corrected; an inbox
+cannot.
 
 **1. Find the issue to carry.** The most recent file in `Deltas/`, by the date
 parsed from its filename. Read

@@ -37,8 +37,11 @@ newsroom stopped for good without anything alerting. Never treat an empty
 assignment as normal. A desk that owns beats and finds none of them moved — that
 is a quiet day, and that is fine.
 
-**Record the roster revision.** `git rev-parse HEAD:beats.yaml` — put it in every
-story's front matter as `beats_revision`. The scout's PR may be merged while you
+**Record both rulebook revisions.** `git rev-parse HEAD:beats.yaml` and
+`git rev-parse HEAD:Standards.md` — these are BLOB hashes, one per file, not
+commits. Put both in every story's front matter as `beats_revision` and
+`standards_revision`. (An earlier version stored one blob hash and told the critic
+to read *both files* "at that SHA", which is impossible: a blob is not a tree.) The scout's PR may be merged while you
 are running; the editor and the critic must judge your stories against the roster
 you actually wrote them against, not whichever one is current when they run.
 
@@ -55,9 +58,16 @@ into a hole nothing can see afterwards — the delta reads our stories, not the
 world. Searching every desk directory also survives the scout reassigning a beat
 between desks, which would otherwise reset that beat's history to zero.
 
-**Read that last story before researching.** It is where `was:` comes from. The
-previous value must be our own published record, because that is what the delta
-diffs against — not whatever number the newest article happens to mention.
+**`was:` comes from the last PUBLISHED story, not the last story on disk.** Find
+it through `editions/*.json`, which lists what the editor actually put on the
+page. A story can exist in `stories/` and have been left off as a duplicate or a
+defect, and unpublished copy must never become tomorrow's baseline.
+
+Then walk back through published stories until you find the most recent one that
+actually reports the field you are changing. The newest story is not enough: if
+the oil price moved three stories ago and the two since changed other fields, "read
+the last story" cannot recover the current value. `was:` must be the last value we
+published for THAT field, because that is what the delta diffs against.
 
 **3. Research each beat in parallel.** Spawn one research subagent per beat. Give
 each one: the beat's name and slug, the fields it tracks (from `beats.yaml`), the
@@ -82,6 +92,10 @@ Tell each researcher explicitly:
   a field was checked rather than skipped.
 - Never report a value you inferred. If a source doesn't state it, say the source
   doesn't state it.
+- Report `origin` and `source_type` for every source, not just the publisher.
+  Twelve papers running one AP story is ONE reporting origin, and the editor
+  cannot rank corroboration without knowing which it has. A signed order from the
+  court is `primary_document` and outranks all twelve.
 
 **4. Get transcripts before summarising video or audio.** Captions first:
 `yt-dlp --skip-download --write-auto-subs --sub-langs en <url>`. If there are
@@ -92,6 +106,18 @@ transcripts. Quotes run a sentence or two, maximum.
 
 **5. Write one story per beat that moved.** A beat whose fields did not change
 gets no story — that is not a failure, and it is not something to mention.
+
+**You may also write a standalone event story.** A consequential thing that
+happened once, with no persistent state to track, is a story but not a beat —
+`Standards.md` §10 says so, and until now nothing could publish it, so the paper
+structurally could not cover the biggest news of the day if it happened to be new.
+
+Write it to `stories/<your-desk>/_events/<YYYY-MM-DD>-<short-slug>.md` with
+`beat: null` and `event: <short-slug>` in the front matter. Same verification,
+same rules, usually a `brief`. Cap it at two per desk per day: this is a lane for
+what genuinely matters, not a place to put everything that did not fit a beat. If
+it turns out to persist, the scout opens a beat and this becomes its first
+entry.
 
 Each story is `stories/<your-desk>/<beat-slug>/<YYYY-MM-DD>.md`, dated today in
 US Eastern. **Use Eastern, not UTC**, and **ISO order,
@@ -105,13 +131,18 @@ Front matter, then prose:
 
 ```
 ---
-beat: <slug>
+beat: <slug>                     # or `null` with `event:` for a standalone event
+form: brief | update | explainer
 headline: <4-14 words, active, present tense, the single most consequential fact>
 standfirst: <one line adding what the headline left out>
 dateline: <THE PLACE THE NEWS HAPPENED, IN CAPITALS>
+beats_revision: <blob hash of beats.yaml>
+standards_revision: <blob hash of Standards.md>
 sources:
   - url: <url>
-    publisher: <the real publisher, never an aggregator wrapper>
+    publisher: <who published this page>
+    origin: <who did the reporting: the wire, the outlet, or the institution>
+    source_type: primary_document | original_reporting | wire_republication | analysis
 changed:
   - field: <field name from beats.yaml>
     was: <previous value, or omit if this is the first time>
@@ -119,8 +150,39 @@ changed:
     attested: <YYYY-MM-DD>
 ---
 
-<300-800 words of prose.>
+<prose — length set by the form, see below>
 ```
+
+**Pick the smallest form that fully carries the evidence.** One shape for every
+story is what makes an automated paper read automated, however good the sentences
+are.
+
+| form | words | when |
+|---|---|---|
+| `brief` | 120–300 | one sharp transition: an order signed, a toll revised, a deadline missed |
+| `update` | 250–600 | several fields moved on one beat |
+| `explainer` | 500–1100 | the beat is opening, or a structural change makes old context necessary |
+
+Put the form in the front matter as `form:`.
+
+**There is no floor below which a story is refused.** A verified 145-word item
+carrying a court order and its next deadline is worth more than 300 words of
+wallpaper, and a floor is a padding incentive — this project has already watched a
+writer pad to reach one and lose 22 of 29 sentences at the gate. What refuses a
+story is having no verified transition to report, not being short.
+
+**Every story answers four things, in this order:** what changed; what that
+changes in practice; where the situation stood before; and the next thing on the
+record. Nothing else is required of it.
+
+- **Open on the new fact.** Not on background. The beat page carries the
+  background, which is why you do not have to.
+- **One paragraph, one job.** Dates beat "recently". Numbers beat adjectives.
+- **Quote only where the exact language matters** — a judge's phrasing, a refusal.
+- **"What it changes in practice" means a supported consequence**, not an opinion
+  about significance. If no source states a consequence, leave it out.
+- **End on the next known trigger** where one exists — a deadline in the beat's
+  `deadlines`, a scheduled vote, a filing due. Never end by restating the lede.
 
 The headline is 4 to 14 words. It is not a summary of your first paragraph and
 not a full sentence restating the lede.
@@ -138,11 +200,11 @@ not a full sentence restating the lede.
 - **Attribute contested assertions.** "X alleged", "according to Y, who". A
   claim you can neither attribute nor document does not go in.
 
-Name only public figures in connection with wrongdoing — officials, executives
-acting in office, candidates, named parties to litigation. Do not name a private
-individual as a subject of alleged wrongdoing, and do not identify a private
-individual who has not sought public attention, including victims, witnesses and
-relatives, even where a source does.
+**Naming people: `Standards.md` §6 governs, and it is the only statement of the
+rule.** Read it there. In particular it does NOT make a party to litigation a
+public figure — being sued does not make a private person public — which an
+earlier version of this prompt got wrong by restating the rule in its own words.
+That is why policy prose lives in one file and is referenced, never copied.
 
 **7. Verify each story before committing it.** For every sentence that makes a
 factual claim — **and explicitly also the headline, the standfirst, and every
@@ -179,8 +241,25 @@ later determined X had not happened" in paragraph 12.
 - If cutting leaves the story under 300 words, drop the story. Below that there
   was no story, and a thin story is worse than none.
 
-**8. Commit and push.** One atomic commit for the run, so a mid-run death never
-half-publishes a desk.
+**8. Write your run receipt.** `runs/<YYYY-MM-DD>/<your-desk>.json`, in the same
+atomic commit as your stories:
+
+```json
+{"desk": "<name>", "status": "complete | degraded | failed",
+ "beats_revision": "...", "standards_revision": "...",
+ "beats_assigned": ["..."], "beats_checked": ["..."],
+ "beats_not_reached": [{"slug": "...", "why": "..."}],
+ "stories": ["<slug>/<YYYY-MM-DD>"], "finished_at": "<ISO, Eastern>"}
+```
+
+**The editor will not publish until every scheduled desk has a receipt, so a
+missing receipt stalls the paper.** `complete` means every assigned beat was
+checked. One assigned beat you could not reach is `degraded`, not complete —
+publishing an edition that silently omits a beat nobody examined is exactly the
+partial edition the editor refuses.
+
+**9. Commit and push.** One atomic commit for the run — stories and receipt
+together — so a mid-run death never half-publishes a desk.
 
 Four desks push at once, and disjoint directories do NOT prevent a Git conflict —
 whoever pushes second is rejected non-fast-forward regardless of which files

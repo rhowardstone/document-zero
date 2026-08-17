@@ -87,6 +87,11 @@ date that lines up.>
 
 <Only if a previously published fact turned out to be wrong. Say what was
 published, what is true, and how it was caught.>
+
+## Next on the record
+
+<Every dated obligation in `beats.yaml` falling in the next 30 days, soonest
+first: the date, what is expected, and which beat. Nothing else.>
 ```
 
 Rules for the writing:
@@ -102,6 +107,12 @@ pattern" is filler and reads as filler; if nothing genuinely connects, write no
 threads section. Use `https://doczero.epstein-data.com/llms.txt` and, for Epstein
 material, `https://epstein-data.com/llms.txt`, citing documents as
 `epstein-data.com/EFTA<id>`.
+
+**"Next on the record" is generated, not written.** Read the `deadlines` in
+`beats.yaml`, take everything inside 30 days, sort by date. It is entirely factual,
+it is the one thing a reader cannot get anywhere else, and it is the reason to come
+back. Do not editorialise it and do not pad it — if nothing is pending, omit the
+section.
 
 **Correct the record out loud.** If something published was wrong, say so in the
 issue, name what was wrong, and say what is true. A newsroom that corrects
